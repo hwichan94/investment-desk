@@ -13,8 +13,9 @@
       "tickers": [
         "AXON"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "2분기 주주서한/SEC 8-K 원문을 열람하지 않아 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "2차 요약: 2Q26 매출 $904M(+35%). AI Era 700% 성장은 미확인. 회사 원문 미열람.",
+      "evidence_url": "https://quartr.com/events/axon-enterprise-inc-axon-q2-2026_3sK5d2cb"
     },
     {
       "kind": "FACT",
@@ -22,8 +23,9 @@
       "tickers": [
         "AXON"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "회사 IR 원문 미열람"
+      "verification": "PARTIAL",
+      "evidence_note": "검색 결과 기준 2028년 매출 약 $6B, 조정 EBITDA 마진 28% 목표(2026-02 4Q25 주주서한 8-K). 원문 직접 열람은 못함.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011106/axon-20260224xex991.htm"
     },
     {
       "kind": "FACT",
@@ -31,7 +33,9 @@
       "tickers": [
         "AXON"
       ],
-      "verification": "UNVERIFIED"
+      "verification": "PARTIAL",
+      "evidence_url": "https://quartr.com/events/axon-enterprise-inc-axon-q2-2026_3sK5d2cb",
+      "evidence_note": "2차 요약: 순매출유지율 126% 일치. 고객 17,000곳·TAM 침투율은 미확인."
     },
     {
       "kind": "FACT",

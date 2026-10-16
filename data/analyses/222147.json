@@ -33,9 +33,9 @@
       "tickers": [
         "TSLA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "KBA 등 공식 통계 미확인",
+      "verification": "CONFIRMED",
+      "evidence_url": "https://eletric-vehicles.com/tesla/teslas-german-registrations-hit-highest-since-2022-passing-byd-for-year/",
+      "evidence_note": "KBA 9월 신규등록 테슬라 12,552대(+268.7%)를 복수 매체가 인용. KBA 원문 직접 열람은 못함. 2026-10-16 확인.",
       "due": null
     },
     {

@@ -12,7 +12,7 @@
       "text": "PPI가 예상 5.3%를 웃도는 6.3%로 2022년 3월 이후 최고, 최종수요 에너지 +10.8%",
       "tickers": [],
       "verification": "UNVERIFIED",
-      "evidence_note": "BLS 원문을 직접 확인하지 못함"
+      "evidence_note": "2026-10-16 재시도: BLS 8월 PPI 5.4%까지만 확인, 9월 6.3% 수치 찾지 못함. 미확인 유지."
     },
     {
       "kind": "FACT",
@@ -31,7 +31,7 @@
         "PLTR"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "회사 보도자료 미확인"
+      "evidence_note": "2026-10-16 재시도: 팔란티어 은행 계좌개설 AI 파트너십 보도자료 찾지 못함. 미확인 유지."
     },
     {
       "kind": "FACT",
@@ -40,8 +40,9 @@
         "AVGO",
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "TSMC IR 원문 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "TSMC 3Q26 6-K(SEC) 검색 결과로 매출 US$46.72B 확인(검색 요약 기준, 원문 직접 열람은 프록시로 불가). EPS $4.60·설비투자 문구는 미확인. 2026-10-16 확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
     },
     {
       "kind": "FACT",

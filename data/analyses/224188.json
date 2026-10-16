@@ -11,9 +11,9 @@
       "kind": "FACT",
       "text": "9월 CPI가 예상 3.6% 대비 실제 3.7%로 높았고 근원 항목도 올랐다.",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.morningstar.com/economy/september-cpi-report-shows-inflation-37-annual-rate",
+      "evidence_note": "Morningstar(2차)가 BLS 인용: 9월 CPI 3.7% YoY(예상 3.6%), 근원 2.6%(8월 2.4%). BLS 원문 미열람. 2026-10-16 확인."
     },
     {
       "kind": "FACT",
@@ -70,7 +70,7 @@
       "tickers": [],
       "verification": "UNVERIFIED",
       "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "evidence_note": "2026-10-16 재시도: Neutron 최근 공식 목표는 2026 4Q 이후이며 2027 확정 보도는 찾지 못함. 미확인 유지."
     },
     {
       "kind": "FACT",
@@ -78,7 +78,7 @@
       "tickers": [],
       "verification": "UNVERIFIED",
       "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "evidence_note": "2026-10-16 재시도: IonQ IR에서 2026년 $20억 조달 원문은 찾지 못함(2025-10 $20억 증자 보도와 혼동 가능, 2차 매체 1건만 2026 조건 기재). 미확인 유지."
     },
     {
       "kind": "OPINION",

@@ -1,27 +1,27 @@
-# 애널리스트 루틴 보고서 (2026-10-16 22:20 KST)
+# 애널리스트 루틴 보고서 (2026-10-16 22:45 KST)
 
-## 1. 분석한 글 (29개, 최초 분석)
-- 29개 글 전부 `data/analyses/`에 작성 (validate 통과). 투자 내용 없는 공지·라이브 안내 5건은 relevance NONE.
-- **공식 자료(IR·SEC) 원문 검증은 이번 실행에서 수행하지 못해 모든 FACT 주장은 UNVERIFIED**이며 CONFIRMED로 표시한 것은 없다.
-- 핵심 신호(모두 비공식·단발이라 약함):
-  - CRWV: CDS 982→1,117, 채권 수익률 약 15%, FCF 약화 언급 → WEAKEN(MEDIUM). target 0% 유지를 지지.
-  - TSLA: 대만 메가팩 수주(약 2.65억 달러), 9월 독일 등록 급증, 3분기 인도량 컨센서스 상회 → 약한 긍정. 에너지저장·EPS 추정은 하향.
-  - PLTR: 미 육군 NGC2 데이터 파트너, 은행 AI 계약 → 약한 긍정.
-  - 거시: CPI 3.7%(예상 3.6%), PPI 6.3%(예상 5.3%), FOMC 의사록에 연내 추가 인상 가능성 → 장기금리 부담.
-  - 오픈AI ARR 정정 보도로 반도체·네오클라우드 조정(ORCL 약한 부정).
-  - AXON: 품질·성장은 재확인되나 PER 약 172배, 필자도 미매수 → 신규 편입 근거 부족.
-  - 신규 후보 언급: IREN, NBIS, RKLB, IONQ, JOBY, HIMS, TEM 등 (universe 편입 근거 없음).
+**포트폴리오 점수 63.1 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 기록(score-history 2026-10-16 22:20) 63.1 / 83.8 대비 변화 없음. 가장 큰 감점 요인: 목표 정렬과 집중도(TSLA 33.3%·PLTR 36.1% 상한 초과), 현금 0.5%(최소 5% 미달).
+
+## 1. 이번 실행: 새 글 0개, 아이디어 수신함 비어 있음
+- 직전 보고서에서 전부 UNVERIFIED였던 HIGH/MEDIUM 분석의 FACT 주장을 WebSearch로 재검증했다. (WebFetch는 sec.gov·bls.gov가 프록시로 막혀 원문 직접 열람 불가. 검색 요약 기준이라 확인 강도가 낮음.)
+- 결과:
+  - TSMC 3Q26 매출 US$46.72B: PARTIAL (SEC 6-K 확인, EPS $4.60·설비투자 문구는 미확인) — 글 224472
+  - 테슬라 독일 9월 등록 12,552대(+268.7%): CONFIRMED (KBA 수치를 복수 매체가 인용) — 글 222147
+  - 9월 CPI 3.7%(예상 3.6%), 근원 2.6%: PARTIAL (Morningstar 2차 인용) — 글 224188
+  - Axon 2Q26 매출 +35%, 유지율 126%, 2028 목표 매출 약 $6B·EBITDA 마진 28%: PARTIAL (2차 요약) — 글 223348
+  - 미확인 유지: PPI 6.3%(8월 5.4%까지만 확인), 팔란티어 은행 AI 계약, IonQ 2026 $20억 조달(2025-10 증자와 혼동 가능), 로켓랩 Neutron 2027 연기(공식 목표는 2026 4Q 이후로만 확인)
+- 아직 UNVERIFIED인 나머지 FACT(주로 LOW/MEDIUM)는 다음 실행에서 이어서 시도한다.
 
 ## 2. 판단 변경
-- **변경 없음.** `decision_universe.json`, `official_research.json` 미수정. 근거가 전부 블로그·SNS 성격 단일 의견이고 공식 자료로 확인되지 않아 thesis inertia에 따라 점수·비중을 유지. decision-log 항목 없음.
-- 마지막 공식 근거 기준일은 2026-10-06. 그 이후 보유·후보 종목의 실적 발표 없음(TSLA 실적은 다음 주 예상, 확인 필요).
+- **변경 없음.** `decision_universe.json`·`official_research.json` 미수정, decision-log 항목 없음. 확인된 사실(TSMC 호조, 테슬라 독일 판매 급증)은 기존 방향과 같고, 공식 실적·가이던스 변경이 아니어서 thesis inertia에 따라 점수·비중을 유지한다.
 
-## 3. 현재 액션 상위 3개 (reports/decision-latest.md, 가격은 이전 값)
-1. TSLA 축소: 33.3% → 24%, 2회 분할(실적 전 절반). 재원 → NVDA·VRT 등. 참고 약 -6.4주
-2. NVDA 신규 편입 5% (2회 분할). 재원: FLNC·INTC·TSLA. 참고 약 +5.8주
-3. 현금 0.5% → 5% 복원, PLTR 36.1% → 33%(상한 35% 초과), FLNC 전량 정리(약 120주)
+## 3. 지금 실행할 액션 상위 3개 (reports/decision-latest.md)
+1. TSLA 축소: 33.3% → 24%, 2회 분할(실적 전 절반). 재원 → NVDA·VRT 등.
+2. NVDA 신규 편입 5% (2회 분할). 재원: FLNC·INTC·TSLA.
+3. 현금 0.5% → 5% 복원, PLTR 36.1% → 33%, FLNC 전량 정리.
+(참고 수량은 decision-latest.md 참조. 모두 제안이며 주문 아님.)
 
 ## 4. 경고
-- 이번 실행에서 Yahoo 가격 조회가 프록시 403으로 실패해 **보고서는 이전 가격 기준**이다 (quotes.json은 원복).
-- 공식 근거 10일 경과. 모든 이번 FACT 주장 UNVERIFIED. PLTR 상한 초과, 현금 최소치 미달.
-- Fanding 수집 상태 OK.
+- 공식 근거 기준일 2026-10-06(10일 경과). 이번 실행에서 TSMC 3Q 실적이 나왔으나 보유·후보 종목이 아니라 official_research는 갱신하지 않았다. TSLA 실적 발표 예정이라 발표 후 갱신 필요.
+- `data/market/new_filings.json` 없음(수집기 산출물). Fanding 수집 상태 OK.
+- sec.gov·bls.gov 직접 접속 불가(프록시)로 원문 대조는 못 했다.

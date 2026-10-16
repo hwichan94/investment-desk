@@ -90,3 +90,20 @@ def test_report_renders(root):
     assert "현재 → 목표" in text and "FLNC" in text and "실제 주문이 아닌" in text
     written = report.write(text, NOW)
     assert (paths.REPORTS / "decision-latest.md").exists() and len(written) == 2
+
+
+def test_portfolio_score_is_bounded_and_target_scores_higher(root):
+    pf, uni, c = portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints()
+    plan = portfolio.build_plan(pf, uni, c, _market({}))
+    for s in (plan.score, plan.target_score):
+        assert 0 <= s.total <= 100
+        assert set(s.components) == set(portfolio.SCORE_WEIGHTS)
+    assert plan.target_score.components["alignment"] == 100
+    assert plan.target_score.total > plan.score.total
+
+
+def test_score_penalizes_concentration(root):
+    uni, c = portfolio.load_universe(), portfolio.load_constraints()
+    calm = portfolio.portfolio_score({"AVGO": 0.25, "NVDA": 0.25, "AMZN": 0.25, "VRT": 0.20, "CASH": 0.05}, uni, c, set())
+    hot = portfolio.portfolio_score({"AVGO": 0.70, "NVDA": 0.25, "CASH": 0.05}, uni, c, set())
+    assert hot.components["concentration"] < calm.components["concentration"]

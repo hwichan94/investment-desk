@@ -4,7 +4,7 @@ from __future__ import annotations
 from datetime import datetime
 
 from desk import paths
-from desk.portfolio import Action, Plan, Portfolio, Universe
+from desk.portfolio import SCORE_LABELS, SCORE_WEIGHTS, Action, Plan, Portfolio, Universe
 from desk.store import PostStore, read_json
 
 
@@ -42,6 +42,29 @@ def health_lines(now: datetime) -> list[str]:
     return lines
 
 
+def score_lines(plan: Plan) -> list[str]:
+    cur, tgt = plan.score, plan.target_score
+    lines = [f"## 포트폴리오 점수: **{cur.total:.1f} / 100** (목표 실행 시 {tgt.total:.1f})", "",
+             "| 항목 | 비중 | 현재 | 목표 실행 시 |", "|---|---:|---:|---:|"]
+    for key, label in SCORE_LABELS.items():
+        lines.append(f"| {label} | {SCORE_WEIGHTS[key]:.0%} | {cur.components[key]:.1f} | "
+                     f"{tgt.components[key]:.1f} |")
+    if cur.notes:
+        lines += ["", f"- 감점 요인: {'; '.join(cur.notes)}"]
+    return lines
+
+
+def append_score_history(plan: Plan, now: datetime) -> None:
+    path = paths.REPORTS / "score-history.csv"
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("at,total,target_total," + ",".join(SCORE_WEIGHTS) + "\n", encoding="utf-8")
+    row = [now.strftime("%Y-%m-%d %H:%M"), f"{plan.score.total:.1f}", f"{plan.target_score.total:.1f}"]
+    row += [f"{plan.score.components[k]:.1f}" for k in SCORE_WEIGHTS]
+    with path.open("a", encoding="utf-8", newline="\n") as fh:
+        fh.write(",".join(row) + "\n")
+
+
 def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) -> str:
     out = [
         "# 12개월 포트폴리오 액션플랜",
@@ -53,6 +76,8 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
         f"- 가격 기준: {(plan.priced_at or '저장 평가액')[:16]} · 평가액 ${plan.total_value:,.2f}",
         "",
         "> 실제 주문이 아닌 제안입니다. 참고 수량은 가격에 따라 바뀝니다. 세금·거래비용 미반영.",
+        "",
+        *score_lines(plan),
         "",
         "## 시스템 상태",
         "",

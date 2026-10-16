@@ -55,6 +55,13 @@ python -m desk pending
 - 바꿨다면 `as_of`를 오늘로 하고 `docs/decision-log.md`에 항목을 추가한다:
   날짜, 무엇을(이전→이후), 왜(근거 링크·글 ID), 생각을 되돌릴 조건.
 
+## 3-1. 투자 아이디어 수신함 (`inbox/ideas.md`)
+
+'대기' 섹션에 항목이 있으면 각 항목을 `CLAUDE.md`의 "투자 아이디어 평가" 절차대로 평가하고
+`reports/ideas/YYYY-MM-DD-<ticker-or-theme>.md`를 작성한 뒤, 항목을 '처리 완료'로 옮기고
+결론 한 줄과 보고서 경로를 붙인다. 신규 편입 결론이어도 `decision_universe.json`에는 사용자가
+수락하기 전까지 target 0%와 `watch_reason`("사용자 수락 대기: 제안 목표 X%")으로만 추가한다.
+
 ## 4. 보고서와 커밋
 
 ```
@@ -66,7 +73,9 @@ python -m pytest -q
 
 `reports/analyst-latest.md`를 쓴다 (덮어쓰기, 같은 내용을 `reports/archive/analyst-YYYY-MM-DD.md`에도):
 
-1. 이번에 분석한 글과 핵심 신호 (없으면 "새 글 없음")
+0. 맨 위: **포트폴리오 점수 X / 100 (목표 실행 시 Y)** — `desk recommend` 출력값 그대로,
+   직전 analyst 보고서 대비 변화와 가장 큰 감점 요인
+1. 이번에 분석한 글과 핵심 신호 (없으면 "새 글 없음"), 처리한 투자 아이디어
 2. 판단 변경 여부와 이유 (없으면 왜 유지하는지)
 3. 지금 실행할 액션 상위 3개: 종목, 방향, 목표 비중, 재원, 참고 수량
 4. 수집·데이터 상태 경고 (로그인 만료, 오래된 공식 근거 등)

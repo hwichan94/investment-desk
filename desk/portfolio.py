@@ -152,6 +152,68 @@ class Plan(BaseModel):
     ranked: list[tuple[str, float]]
     alerts: list[str]
     target_errors: list[str]
+    score: "PortfolioScore"
+    target_score: "PortfolioScore"
+
+
+# --- 100-point portfolio score -------------------------------------------------------------
+# Fixed formula so the number is comparable run to run. Components (weight):
+#   보유 종목 질 (50): 현재 비중 가중 평균 종합점수
+#   thesis 건강도 (15): 비중 가중 thesis 상태 점수
+#   집중도 (15): 상한 초과 1%p당 -5, 상위 2종목 합 60% 초과 1%p당 -2
+#   현금 여력 (5): 최소 현금 이상이면 100, 미달이면 비례
+#   목표 정렬 (15): 목표까지 회전율 0% = 100, 30% 이상 = 0
+SCORE_WEIGHTS = {"quality": 0.50, "thesis": 0.15, "concentration": 0.15, "cash": 0.05,
+                 "alignment": 0.15}
+SCORE_LABELS = {"quality": "보유 종목 질", "thesis": "thesis 건강도", "concentration": "집중도",
+                "cash": "현금 여력", "alignment": "목표 정렬"}
+THESIS_POINTS = {ThesisStatus.STRENGTHENING: 100, ThesisStatus.STABLE: 75,
+                 ThesisStatus.EMERGING: 60, ThesisStatus.WEAKENING: 30, ThesisStatus.BROKEN: 0}
+
+
+class PortfolioScore(BaseModel):
+    total: float
+    components: dict[str, float]
+    notes: list[str]
+
+
+def portfolio_score(weights: dict[str, float], universe: Universe, c: Constraints,
+                    core: set[str]) -> PortfolioScore:
+    by = {s.ticker: s for s in universe.securities}
+    held = {t: w for t, w in weights.items() if t != "CASH" and w > 0}
+    invested = sum(held.values()) or 1.0
+    notes = []
+    unscored = [t for t in held if t not in by]
+    if unscored:
+        notes.append(f"판단 없는 보유 종목 {unscored}은 0점으로 계산")
+    quality = sum(w * (by[t].score(universe.score_weights) if t in by else 0)
+                  for t, w in held.items()) / invested
+    thesis = sum(w * (THESIS_POINTS[by[t].thesis_status] if t in by else 0)
+                 for t, w in held.items()) / invested
+    penalty = 0.0
+    for t, w in held.items():
+        limit = c.max_core_position_weight if t in core else c.max_single_position_weight
+        if w > limit:
+            penalty += (w - limit) * 100 * 5
+            notes.append(f"{t} 상한 초과 {(w - limit) * 100:.1f}%p")
+    top2 = sum(sorted(held.values(), reverse=True)[:2])
+    if top2 > 0.60:
+        penalty += (top2 - 0.60) * 100 * 2
+        notes.append(f"상위 2종목 합 {top2:.0%}")
+    concentration = max(0.0, 100 - penalty)
+    cash_w = weights.get("CASH", 0.0)
+    cash = 100.0 if cash_w >= c.min_cash_weight else 100 * cash_w / c.min_cash_weight
+    targets = {s.ticker: s.target_weight for s in universe.securities} | {"CASH": universe.cash_target}
+    turnover = sum(abs(weights.get(t, 0) - targets.get(t, 0)) for t in set(weights) | set(targets)) / 2
+    alignment = max(0.0, 100 * (1 - turnover / 0.30))
+    components = {"quality": quality, "thesis": thesis, "concentration": concentration,
+                  "cash": cash, "alignment": alignment}
+    total = sum(components[k] * SCORE_WEIGHTS[k] for k in components)
+    return PortfolioScore(total=round(total, 1),
+                          components={k: round(v, 1) for k, v in components.items()}, notes=notes)
+
+
+Plan.model_rebuild()
 
 
 def load_portfolio() -> Portfolio:
@@ -254,6 +316,10 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
     stale = [t for t, q in quotes.items() if q.get("stale")]
     ranked = sorted(((s.ticker, s.score(universe.score_weights)) for s in universe.securities),
                     key=lambda x: (-x[1], x[0]))
+    target_weights = {s.ticker: s.target_weight for s in universe.securities}
+    target_weights["CASH"] = universe.cash_target
     return Plan(total_value=total, priced_at=market.get("fetched_at"), missing_prices=missing,
                 stale_prices=stale, current=current, rows=rows, ranked=ranked, alerts=alerts,
-                target_errors=validate_targets(universe, portfolio, c))
+                target_errors=validate_targets(universe, portfolio, c),
+                score=portfolio_score(current, universe, c, core),
+                target_score=portfolio_score(target_weights, universe, c, core))

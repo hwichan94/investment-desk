@@ -67,6 +67,8 @@ def cmd_recommend(args: argparse.Namespace) -> int:
     plan = portfolio.build_plan(pf, universe, constraints,
                                 read_json(paths.MARKET / "quotes.json", {}) or {})
     written = report.write(report.render(plan, pf, universe, now), now)
+    report.append_score_history(plan, now)
+    print(f"포트폴리오 점수: {plan.score.total:.1f} / 100 (목표 실행 시 {plan.target_score.total:.1f})")
     print(f"보고서: {written[0]}")
     if plan.target_errors:
         print("목표 비중 검증 실패:", *plan.target_errors, sep="\n- ")

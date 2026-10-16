@@ -58,7 +58,8 @@ def append_score_history(plan: Plan, now: datetime) -> None:
     path = paths.REPORTS / "score-history.csv"
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text("at,total,target_total," + ",".join(SCORE_WEIGHTS) + "\n", encoding="utf-8")
+        path.write_text("at,total,target_total," + ",".join(SCORE_WEIGHTS) + "\n", encoding="utf-8",
+                        newline="\n")
     row = [now.strftime("%Y-%m-%d %H:%M"), f"{plan.score.total:.1f}", f"{plan.target_score.total:.1f}"]
     row += [f"{plan.score.components[k]:.1f}" for k in SCORE_WEIGHTS]
     with path.open("a", encoding="utf-8", newline="\n") as fh:

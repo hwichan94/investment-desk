@@ -36,6 +36,12 @@ python -m desk pending
 
 ## 2. 공식 근거 확인
 
+**검증을 건너뛰지 않는다.** 클라우드 샌드박스에서 `curl`/Python HTTP는 프록시로 막힐 수 있으므로
+공식 자료는 **WebSearch / WebFetch 도구**로 찾고 읽는다 (회사 IR 보도자료, sec.gov 원문).
+relevance HIGH/MEDIUM 글에서 보유·후보 종목에 관한 FACT 주장은 최소한 핵심 1~3개씩 확인을 시도하고
+결과(CONFIRMED/PARTIAL/CONFLICT)와 `evidence_url`을 해당 분석 JSON에 갱신한다. 끝내 확인하지 못한 것만
+UNVERIFIED로 남기고 보고서에 이유를 적는다.
+
 - `data/market/new_filings.json`의 최근 공시와 실적 발표 일정을 확인한다.
 - 보유·후보 종목에 새 분기 실적(10-Q/10-K/8-K 실적 보도자료)이 나왔으면 회사 IR·SEC 원문을 읽고
   `config/official_research.json`에 출처를 추가하고 `as_of`를 오늘로 바꾼다.
@@ -64,8 +70,10 @@ python -m desk pending
 
 ## 4. 보고서와 커밋
 
+가격·공시는 GitHub Actions가 3시간마다 `data/market/`에 갱신한다. 루틴에서 `desk market`을 실행하지
+않는다 (샌드박스에서 막히고, 수집기 소유 파일이다).
+
 ```
-python -m desk market --no-filings
 python -m desk recommend
 python -m desk validate
 python -m pytest -q

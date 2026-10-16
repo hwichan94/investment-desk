@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-17T01:41:54.678944+09:00",
+  "fetched_at": "2026-10-17T06:10:52.062532+09:00",
   "filings": {
     "AMZN": [
       {
@@ -736,6 +736,14 @@
     "ETN": [
       {
         "form": "8-K",
+        "filed": "2026-10-16",
+        "report_date": "2026-10-16",
+        "cik": "0001551182",
+        "accession": "0001551182-26-000034",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000034/etn-20261016.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-10-05",
         "report_date": "2026-09-30",
         "cik": "0001551182",
@@ -845,14 +853,6 @@
         "cik": "0001551182",
         "accession": "0001140361-26-002286",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126002286/ef20063889_8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-11-20",
-        "report_date": "2025-11-14",
-        "cik": "0001551182",
-        "accession": "0001140361-25-042797",
-        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036125042797/ef20059654_8k.htm"
       }
     ],
     "FLNC": [

@@ -74,7 +74,7 @@ def sec_headers() -> dict[str, str]:
     return {"User-Agent": agent, "Accept-Encoding": "gzip, deflate"}
 
 
-def fetch_filings(tickers: list[str], per_ticker: int = 6) -> tuple[dict[str, Any], dict[str, str]]:
+def fetch_filings(tickers: list[str], per_ticker: int = 15) -> tuple[dict[str, Any], dict[str, str]]:
     filings, errors = {}, {}
     try:
         table = get_json(SEC_TICKERS_URL, sec_headers())
@@ -97,6 +97,7 @@ def fetch_filings(tickers: list[str], per_ticker: int = 6) -> tuple[dict[str, An
                     continue
                 rows.append({
                     "form": form, "filed": filed, "report_date": report or None,
+                    "cik": cik, "accession": acc,
                     "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}",
                 })
                 if len(rows) >= per_ticker:
@@ -131,10 +132,13 @@ def update(now: datetime, with_filings: bool = True) -> dict[str, Any]:
     if with_filings:
         filings, filing_errors = fetch_filings(tickers)
         old = (read_json(paths.MARKET / "filings.json", {}) or {}).get("filings", {})
-        new_since_last = {
-            t: [f for f in rows if f["url"] not in {o["url"] for o in old.get(t, [])}]
-            for t, rows in filings.items()
-        } if old else {}
+        def is_new(ticker: str, filing: dict[str, Any]) -> bool:
+            seen = old.get(ticker, [])
+            latest = max((o["filed"] for o in seen), default="")
+            return filing["url"] not in {o["url"] for o in seen} and filing["filed"] >= latest
+
+        new_since_last = {t: [f for f in rows if is_new(t, f)]
+                          for t, rows in filings.items()} if old else {}
         new_since_last = {t: rows for t, rows in new_since_last.items() if rows}
         if filings:
             write_json(paths.MARKET / "filings.json",
@@ -145,4 +149,8 @@ def update(now: datetime, with_filings: bool = True) -> dict[str, Any]:
             write_json(paths.MARKET / "new_filings.json", log[-100:])
         summary.update({"filings": len(filings), "filing_errors": filing_errors,
                         "new_filings": new_since_last})
+        if filings:
+            from desk import sec_docs
+
+            summary["docs"] = sec_docs.sync(filings)
     return summary

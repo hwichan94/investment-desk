@@ -36,6 +36,11 @@ python -m desk pending
 
 ## 2. 공식 근거 확인
 
+**1순위 근거: `data/market/docs/`.** GitHub Actions가 추적 종목마다 최신 정기보고서(10-Q/10-K/20-F/40-F)
+2건과 실적 보도자료(8-K/6-K exhibit 99) 최대 4건의 SEC 원문을 텍스트로 받아 둔다. 목록과 경로는
+`data/market/docs/index.json`. 수치 확인은 이 파일들을 `grep`/Read로 먼저 하고, `evidence_url`에는
+index의 `sources` URL(원문 sec.gov 주소)을 적는다. 여기 없을 때만 웹 도구를 쓴다.
+
 **검증을 건너뛰지 않는다.** 클라우드 샌드박스에서 `curl`/Python HTTP는 프록시로 막힐 수 있으므로
 공식 자료는 **WebSearch / WebFetch 도구**로 찾고 읽는다 (회사 IR 보도자료, sec.gov 원문).
 relevance HIGH/MEDIUM 글에서 보유·후보 종목에 관한 FACT 주장은 최소한 핵심 1~3개씩 확인을 시도하고

@@ -39,7 +39,7 @@ config/
 data/posts/<id>.json      수집된 Fanding 글
 data/analyses/<id>.json   Claude 분석 결과 (content_hash로 재분석 필요 여부 판단)
 data/status/              수집 상태·이력·글별 실패
-data/market/              quotes.json, filings.json, new_filings.json
+data/market/              quotes.json, filings.json, new_filings.json, docs/ (SEC 원문 텍스트)
 reports/                  decision-latest.md, archive/
 docs/ROUTINE.md           클라우드 분석 루틴 작업 지침
 docs/decision-log.md      목표 비중·점수 변경 이력 (변경마다 한 항목)

@@ -117,6 +117,13 @@ class FandingBrowser:
                 if _is_timeout(exc):
                     raise PageTimeout(f"post did not render: {url}") from exc
                 raise
+            # Title/author can hydrate after the body; give them a moment before reading.
+            for key in ("post_title", "post_author"):
+                try:
+                    page.wait_for_selector(self.selectors[key], state="attached", timeout=10_000)
+                except Exception:
+                    pass
+            page.wait_for_timeout(1500)
             return page.content()
         finally:
             page.close()

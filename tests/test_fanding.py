@@ -67,6 +67,15 @@ def test_transient_timeout_is_retried(root):
     assert result["created"] == ["1"] and len(session.calls) == 3
 
 
+def test_half_rendered_post_is_reloaded_once(root):
+    session = _session(["1"])
+    good = session.posts["1"]
+    pages = iter(["<section class='main-section detail__section'></section>", good])
+    session.post_html = lambda url: next(pages)
+    result = collector.run_check(session, PostStore(), DEFAULT_SELECTORS, NOW, sleep=lambda s: None)
+    assert result["created"] == ["1"] and not result["failures"]
+
+
 def test_persistent_failure_is_partial_and_tracked(root):
     session = _session(["1", "2"], timeouts={"2": 99})
     result = collector.run_check(session, PostStore(), DEFAULT_SELECTORS, NOW, sleep=lambda s: None)
@@ -90,3 +99,10 @@ def test_pending_analysis_tracks_content_hash(root):
     from desk.store import write_json
     write_json(paths.ANALYSES / "1.json", {"content_hash": store.get("1").content_hash})
     assert store.pending_analysis() == []
+
+
+def test_locked_posts_are_listed_not_stored(root):
+    session = _session(["1", "2"])
+    session.posts["2"] = post_html(locked=True)
+    result = collector.run_check(session, PostStore(), DEFAULT_SELECTORS, NOW, sleep=lambda s: None)
+    assert result["locked_ids"] == ["2"] and PostStore().get("2") is None

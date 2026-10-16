@@ -45,7 +45,7 @@ def run_check(session: Session, store: PostStore, selectors: dict[str, str], now
               feed_url: str = paths.FEED_URL, sleep: Callable[[float], None] = time.sleep) -> dict[str, Any]:
     result: dict[str, Any] = {
         "status": "OK", "message": "", "discovered": 0, "created": [], "updated": [],
-        "unchanged": 0, "locked": 0, "failures": [],
+        "unchanged": 0, "locked": 0, "locked_ids": [], "failures": [],
     }
     feed = _retry(lambda: session.feed_html(feed_url), sleep=sleep)
     urls = parse_feed_urls(feed, selectors)
@@ -57,10 +57,15 @@ def run_check(session: Session, store: PostStore, selectors: dict[str, str], now
     for url in urls:
         post_id = post_id_from_url(url)
         try:
-            html = _retry(lambda url=url: session.post_html(url), sleep=sleep)
-            post = parse_post_html(html, url, now, selectors)
+            try:
+                html = _retry(lambda url=url: session.post_html(url), sleep=sleep)
+                post = parse_post_html(html, url, now, selectors)
+            except DomChanged:
+                sleep(5)  # usually a half-rendered page; one fresh load before giving up
+                post = parse_post_html(session.post_html(url), url, now, selectors)
         except LockedPost:
             result["locked"] += 1
+            result["locked_ids"].append(post_id)
             continue
         except (PageTimeout, DomChanged) as exc:
             result["failures"].append({"post_id": post_id, "error": type(exc).__name__,
@@ -116,7 +121,7 @@ def record_status(result: dict[str, Any], now: datetime) -> dict[str, Any]:
 
 def failure_result(status: str, message: str) -> dict[str, Any]:
     return {"status": status, "message": message, "discovered": 0, "created": [], "updated": [],
-            "unchanged": 0, "locked": 0, "failures": []}
+            "unchanged": 0, "locked": 0, "locked_ids": [], "failures": []}
 
 
 def check(now: datetime, headless: bool = True) -> int:

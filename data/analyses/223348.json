@@ -13,9 +13,9 @@
       "tickers": [
         "AXON"
       ],
-      "verification": "PARTIAL",
-      "evidence_note": "2차 요약: 2Q26 매출 $904M(+35%). AI Era 700% 성장은 미확인. 회사 원문 미열람.",
-      "evidence_url": "https://quartr.com/events/axon-enterprise-inc-axon-q2-2026_3sK5d2cb"
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-10-17 KST 확인: Axon 2Q26 8-K(2026-08-05) 매출 $904M(+35%), AI Era 매출 \"nearly 700%\" 성장.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm"
     },
     {
       "kind": "FACT",
@@ -34,8 +34,8 @@
         "AXON"
       ],
       "verification": "PARTIAL",
-      "evidence_url": "https://quartr.com/events/axon-enterprise-inc-axon-q2-2026_3sK5d2cb",
-      "evidence_note": "2차 요약: 순매출유지율 126% 일치. 고객 17,000곳·TAM 침투율은 미확인."
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm",
+      "evidence_note": "2026-10-17 KST 확인: NRR 126% 일치. 고객 17,000곳·TAM 침투율 15% 미만은 원문에서 못 찾음."
     },
     {
       "kind": "FACT",
@@ -43,8 +43,9 @@
       "tickers": [
         "AXON"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "Dedrone 데이터센터 매출은 별도 공개되지 않았다고 작성자도 인정"
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-17 KST 확인: Dedrone 매출 $100M 초과는 8-K 헤드라인과 일치. 월드컵·데이터센터 사례는 미확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053363/axon-20260805xex991.htm"
     },
     {
       "kind": "FACT",

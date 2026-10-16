@@ -36,8 +36,9 @@
       "tickers": [
         "TSLA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "테슬라 또는 상대사 공식 발표 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-17 KST 확인: Apollo Power 대만 거래소 공시(2026-10-08 계약)상 Tesla Megapack 2XL 260대 약 1GWh, 2027년 말까지 단계 납품 일치. 금액 $2.65억은 공시에 없고(비공개) 2차 보도 수치. 사전 확인은 2차 보도 경유.",
+      "evidence_url": "https://finance.technews.tw/2026/10/10/1gwh/"
     },
     {
       "kind": "FACT",

@@ -37,7 +37,8 @@
         "RKLB"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "회사 IR 원문 미확인"
+      "evidence_note": "2026-10-17 KST 재시도: Rocket Lab 공식 2027 발표 못 찾음. 최근 공식 목표는 2026 4Q 이후(2026-01 탱크 파열 후 NET 4Q26). 2차 보도만 2027 가능성 언급.",
+      "evidence_url": null
     },
     {
       "kind": "FACT",
@@ -45,8 +46,9 @@
       "tickers": [
         "STRC"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "SEC 8-K 원문 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-17 KST 확인: Strive 8-K(2026-10-14) 워런트 행사 총수익 $369.2M, BTC 2,822개 추가 매입, 총 35,595 BTC(The Block 인용)는 대체로 일치. 94.3% 수치는 원문에서 못 찾음.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001920406/000162828026065816/asst-20261014.htm"
     },
     {
       "kind": "OPINION",

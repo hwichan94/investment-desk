@@ -4,9 +4,10 @@
   "discovered": 20,
   "created": [],
   "updated": [],
-  "unchanged": 15,
-  "locked": 5,
+  "unchanged": 14,
+  "locked": 6,
   "locked_ids": [
+    "224700",
     "224502",
     "224366",
     "224152",
@@ -14,7 +15,7 @@
     "223862"
   ],
   "failures": [],
-  "last_run_at": "2026-10-16T21:08:16.173550+09:00",
-  "last_success_at": "2026-10-16T21:08:16.173550+09:00",
+  "last_run_at": "2026-10-17T01:40:24.857082+09:00",
+  "last_success_at": "2026-10-17T01:40:24.857082+09:00",
   "consecutive_failures": 0
 }

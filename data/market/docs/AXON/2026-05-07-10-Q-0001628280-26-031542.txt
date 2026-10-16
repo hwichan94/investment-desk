@@ -1,0 +1,3392 @@
+AXON 10-Q filed 2026-05-07 (period 2026-03-31)
+[source] https://www.sec.gov/Archives/edgar/data/1069183/000162828026031542/axon-20260331.htm
+axon-20260331
+Table of Conten
+ts
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+Form
+10-Q
+(Mark One)
+x
+QUARTERLY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the quarterly period ended
+March 31, 2026
+or
+o
+TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+For the transition period from __________to __________
+Commission File Number:
+001-16391
+Axon Enterprise, Inc.
+(Exact name of registrant as specified in its charter)
+Delaware
+86-0741227
+(State or other jurisdiction of
+incorporation or organization)
+(I.R.S. Employer
+Identification No.)
+17800 North 85th Street
+Scottsdale
+,
+Arizona
+85255
+(Address of principal executive offices)
+(Zip Code)
+(
+480
+)
+991-0797
+(Registrant’s telephone number, including area code)
+Not Applicable
+(Former name, former address and former fiscal year, if changed since last report)
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+Trading Symbol(s)
+Name of each exchange on which registered
+Common Stock, $0.00001 Par Value
+AXON
+The NASDAQ Stock Market LLC
+______________________________________________________
+Indicate by check mark whether the registrant: (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days.
+Yes
+x
+No
+o
+Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files).
+Yes
+x
+No
+o
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer
+x
+Accelerated filer
+o
+Non-accelerated Filer
+o
+Smaller reporting company
+o
+Emerging growth company
+o
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+o
+Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange
+Act). Yes
+o
+No
+x
+The number of shares of the registrant’s common stock outstanding as of April 30, 2026 was
+80,602,077
+.
+Table of Conten
+ts
+AXON ENTERPRISE, INC.
+INDEX TO QUARTERLY REPORT ON FORM 10-Q
+FOR THE QUARTERLY PERIOD ENDED MARCH 31, 2026
+Page
+Special Note Regarding Forward-Looking Statements
+ii
+PART I - FINANCIAL INFORMATION
+1
+Item 1. Financial Statements
+(unaudited)
+1
+Consolidated Balance Sheets
+2
+Consolidated Statements of Operations and Comprehensive Income
+3
+Consolidated Statements of Stockholders’ Equity
+4
+Consolidated Statements of Cash Flows
+5
+Condensed Notes to Consolidated Financial Statements
+6
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+21
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+31
+Item 4. Controls and Procedures
+31
+PART II - OTHER INFORMATION
+32
+Item 1. Legal Proceedings
+32
+Item 1A. Risk Factors
+32
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+32
+Item 3. Defaults Upon Senior Securities
+32
+Item 4. Mine Safety Disclosures
+33
+Item 5. Other Information
+33
+Item 6. Exhibits
+33
+SIGNATURES
+34
+Table of Conten
+ts
+Special Note Regarding Forward-Looking Statements
+Statements contained in this Quarterly Report on Form 10-Q that are not historical are “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended (the “Securities Act”), and Section 21E of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), including statements regarding our expectations, beliefs, intentions and strategies regarding the future. We intend that such forward-looking statements be subject to the safe-harbor provided by the Private Securities Litigation Reform Act of 1995. Such statements give our current expectations or forecasts of future events; they do not relate strictly to historical or current facts. Words such as “may,” “will,” “should,” “could,” “would,” “predict,” “potential,” “continue,” “expect,” “anticipate,” “future,” “intend,” “plan,” “believe,” “estimate,” and similar expressions, as well as statements in future tense, identify forward-looking statements. However, not all forward-looking statements contain these identifying words.
+We cannot guarantee that any forward-looking statement will be realized, although we believe we have been prudent in our plans and assumptions. Achievement of future results is subject to risks, uncertainties and potentially inaccurate assumptions. Many events beyond our control may determine whether results we anticipate will be achieved. Should known or unknown risks or uncertainties materialize, or should underlying assumptions prove inaccurate, actual results could differ materially from past results and those anticipated, estimated or projected. The material factors, which could cause our actual results to differ from our forward-looking statements, are set forth in our description of risk factors included in Part I, Item 1A, “Risk Factors” in our 2025 Annual Report on Form 10-K for the year ended December 31, 2025, which should be read in conjunction with the forward-looking statements in this Quarterly Report on Form 10-Q. These factors are intended as cautionary statements for investors within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act. You should understand that it is not possible to predict or identify all such factors. Consequently, you should not consider any such list to be a complete set of all potential risks or uncertainties.
+Except as required by law, we undertake no obligation to publicly update forward-looking statements, whether as a result of new information, future events or otherwise. You are advised, however, to consult any further disclosures we make on related subjects in our Form 8-K, 10-Q and 10-K reports to the Securities and Exchange Commission (“SEC”). Our filings with the SEC may be accessed at the SEC’s web site at www.sec.gov.
+ii
+Table of Conten
+ts
+PART I - FINANCIAL INFORMATION
+Item 1.
+Financial Statements
+1
+Table of Conten
+ts
+AXON ENTERPRISE, INC.
+CONSOLIDATED BALANCE SHEETS
+(in thousands, except share data)
+March 31,
+2026
+December 31,
+2025
+(Unaudited)
+ASSETS
+Current assets:
+Cash and cash equivalents
+$
+458,921
+$
+1,201,147
+Short-term investments
+260,000
+505,417
+Marketable securities
+18,052
+27,213
+Accounts and notes receivable, net of allowance of $
+3,771
+and $
+4,198
+as of March 31, 2026 and December 31, 2025, respectively
+674,598
+777,486
+Contract assets, net
+641,597
+582,630
+Inventory
+408,010
+341,811
+Prepaid expenses
+178,632
+149,800
+Other current assets
+104,320
+127,548
+Total current assets
+2,744,130
+3,713,052
+Property and equipment, net
+336,443
+330,979
+Deferred tax assets, net
+339,546
+359,803
+Intangible assets, net
+295,069
+196,972
+Goodwill
+1,894,376
+1,370,189
+Long-term notes receivable, net
+1,933
+6,066
+Long-term contract assets, net
+195,737
+178,249
+Strategic investments
+838,243
+416,833
+Other long-term assets
+421,372
+428,170
+Total assets
+$
+7,066,849
+$
+7,000,313
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+Current liabilities:
+Accounts payable
+$
+175,135
+$
+139,086
+Accrued liabilities
+312,428
+510,538
+Current portion of deferred revenue
+690,419
+714,708
+Current portion of notes payable, net
+—
+80,552
+Customer deposits
+18,125
+16,156
+Other current liabilities
+12,190
+9,107
+Total current liabilities
+1,208,297
+1,470,147
+Deferred revenue, net of current portion
+362,242
+359,902
+Liability for unrecognized tax benefits
+27,238
+24,376
+Long-term deferred compensation
+29,313
+23,675
+Long-term lease liabilities
+97,182
+98,942
+Long-term notes payable, net
+1,730,987
+1,730,170
+Other long-term liabilities
+77,477
+50,443
+Total liabilities
+3,532,736
+3,757,655
+Commitments and contingencies (Note 11)
+Stockholders’ equity:
+Preferred stock, $
+0.00001
+par value;
+25,000,000
+shares authorized;
+no
+shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively
+—
+—
+Common stock, $
+0.00001
+par value;
+200,000,000
+shares authorized,
+100,846,774
+shares issued and
+80,572,201
+shares outstanding as of March 31, 2026, and
+200,000,000
+shares authorized,
+100,444,971
+shares issued and
+80,211,537
+shares outstanding as of December 31, 2025
+1
+1
+Additional paid-in capital
+2,619,564
+2,475,035
+Treasury stock at cost,
+20,274,573
+shares and
+20,233,434
+shares as of March 31, 2026 and December 31, 2025, respectively
+(
+180,164
+)
+(
+157,242
+)
+Retained earnings
+1,105,982
+936,670
+Accumulated other comprehensive loss
+(
+11,270
+)
+(
+11,806
+)
+Total stockholders’ equity
+3,534,113
+3,242,658
+Total liabilities and stockholders’ equity
+$
+7,066,849
+$
+7,000,313
+The accompanying notes are an integral part of these consolidated financial statements.
+2
+Table of Conten
+ts
+AXON ENTERPRISE, INC.
+CONSOLIDATED STATEMENTS OF OPERATIONS
+AND COMPREHENSIVE INCOME
+(in thousands, except per share data)
+(unaudited)
+Three Months Ended March 31,
+2026
+2025
+Net sales from products
+$
+452,821
+$
+340,896
+Net sales from services
+354,524
+262,737
+Net sales
+807,345
+603,633
+Cost of product sales
+232,156
+170,181
+Cost of service sales
+97,903
+67,713
+Cost of sales
+330,059
+237,894
+Gross margin
+477,286
+365,739
+Operating expenses:
+Selling, general and administrative
+259,093
+223,509
+Research and development
+188,950
+151,023
+Total operating expenses
+448,043
+374,532
+Income (loss) from operations
+29,243
+(
+8,793
+)
+Interest income
+10,611
+10,604
+Interest expense
+(
+28,643
+)
+(
+7,821
+)
+Other income, net
+189,010
+114,401
+Income before provision for income taxes
+200,221
+108,391
+Provision for income taxes
+30,909
+20,411
+Net income
+$
+169,312
+$
+87,980
+Net income per common and common equivalent shares:
+Basic
+$
+2.11
+$
+1.14
+Diluted
+$
+2.05
+$
+1.08
+Weighted average number of common and common equivalent shares outstanding:
+Basic
+80,150
+76,890
+Diluted
+82,478
+81,484
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+Net income
+$
+169,312
+$
+87,980
+Foreign currency translation adjustments
+647
+358
+Unrealized loss on available-for-sale investments
+(
+111
+)
+(
+124
+)
+Comprehensive income
+$
+169,848
+$
+88,214
+The accompanying notes are an integral part of these consolidated financial statements.
+3
+Table of Conten
+ts
+AXON ENTERPRISE, INC.
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(in thousands, except share data)
+(unaudited)
+Common Stock
+Additional
+Paid-in
+Capital
+Treasury Stock
+Retained
+Earnings
+Accumulated
+Other
+Comprehensive
+Loss
+Total
+Stockholders’
+Equity
+Shares
+Amount
+Shares
+Amount
+Balance, December 31, 2025
+80,211,537
+$
+1
+$
+2,475,035
+20,233,434
+$
+(
+157,242
+)
+$
+936,670
+$
+(
+11,806
+)
+$
+3,242,658
+Issuance of common stock under employee plans, net
+189,933
+—
+(
+12,169
+)
+—
+—
+—
+—
+(
+12,169
+)
+Stock-based compensation
+—
+—
+134,701
+—
+—
+—
+—
+134,701
+Issuance of replacement awards in connection with acquisitions
+—
+—
+1,345
+—
+—
+—
+—
+1,345
+Conversion of convertible debt and shares received from convertible note hedge, net
+170,731
+—
+22,979
+41,139
+(
+22,922
+)
+—
+—
+57
+Tax effect of redemption and voluntary conversions of convertible debt
+—
+—
+(
+2,327
+)
+—
+—
+—
+—
+(
+2,327
+)
+Net income
+—
+—
+—
+—
+—
+169,312
+—
+169,312
+Other comprehensive income, net
+—
+—
+—
+—
+—
+—
+536
+536
+Balance, March 31, 2026
+80,572,201
+$
+1
+$
+2,619,564
+20,274,573
+$
+(
+180,164
+)
+$
+1,105,982
+$
+(
+11,270
+)
+$
+3,534,113
+Common Stock
+Additional
+Paid-in
+Capital
+Treasury Stock
+Retained
+Earnings
+Accumulated
+Other
+Comprehensive
+Loss
+Total
+Stockholders’
+Equity
+Shares
+Amount
+Shares
+Amount
+Balance, December 31, 2024
+76,619,331
+$
+1
+$
+1,689,781
+20,220,227
+$
+(
+155,947
+)
+$
+812,014
+$
+(
+18,184
+)
+$
+2,327,665
+Issuance of common stock under employee plans, net
+190,558
+—
+(
+5,035
+)
+—
+—
+—
+—
+(
+5,035
+)
+Stock-based compensation
+—
+—
+140,239
+—
+—
+—
+—
+140,239
+Induced conversion of convertible debt
+1,038,259
+—
+20,819
+—
+—
+—
+—
+20,819
+Tax effect of partial repurchase of convertible debt
+—
+—
+(
+16,049
+)
+—
+—
+—
+—
+(
+16,049
+)
+Net income
+—
+—
+—
+—
+—
+87,980
+—
+87,980
+Other comprehensive income, net
+—
+—
+—
+—
+—
+—
+234
+234
+Balance, March 31, 2025
+77,848,148
+$
+1
+$
+1,829,755
+20,220,227
+$
+(
+155,947
+)
+$
+899,994
+$
+(
+17,950
+)
+$
+2,555,853
+The accompanying notes are an integral part of these consolidated financial statements.
+4
+Table of Conten
+ts
+AXON ENTERPRISE, INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited)
+Three Months Ended March 31,
+2026
+2025
+Cash flows from operating activities:
+Net income
+$
+169,312
+$
+87,980
+Adjustments to reconcile net income to net cash (used in) provided by operating activities:
+Stock-based compensation
+134,701
+140,239
+Gain on strategic investments and marketable securities, net
+(
+191,090
+)
+(
+143,921
+)
+Debt inducement expense
+—
+28,666
+Depreciation and amortization
+30,361
+19,453
+Provision for bad debts and inventory
+1,968
+3,800
+Deferred income taxes
+18,020
+(
+48,768
+)
+Other noncash items
+11,695
+9,515
+Change in assets and liabilities:
+Receivables and contract assets
+48,915
+(
+73,565
+)
+Inventory
+(
+64,713
+)
+(
+16,986
+)
+Deferred revenue
+(
+40,295
+)
+33,505
+Accounts payable, accrued and other liabilities
+(
+151,047
+)
+8,611
+Prepaid expenses and other assets
+656
+(
+22,735
+)
+Net cash (used in) provided by operating activities
+(
+31,517
+)
+25,794
+Cash flows from investing activities:
+Purchases of investments
+(
+291,952
+)
+(
+1,079,169
+)
+Business combinations, net of cash acquired
+(
+549,681
+)
+—
+Proceeds from call, maturity, and sale of investments
+249,345
+401,811
+Purchases of property and equipment
+(
+23,125
+)
+(
+24,862
+)
+Other, net
+(
+1,524
+)
+3
+Net cash used in investing activities
+(
+616,937
+)
+(
+702,217
+)
+Cash flows from financing activities:
+Proceeds from issuance of notes
+—
+1,750,000
+Principal payments for conversion and redemption of convertible debt
+(
+81,110
+)
+(
+407,453
+)
+Payments to third parties for debt issuance, amendment, conversion and redemption activity
+(
+964
+)
+(
+24,210
+)
+Income and payroll tax payments for net-settled stock awards
+(
+10,210
+)
+(
+5,035
+)
+Other, net
+(
+4
+)
+(
+76
+)
+Net cash (used in) provided by financing activities
+(
+92,288
+)
+1,313,226
+Effect of exchange rate changes on cash and cash equivalents
+(
+1,495
+)
+1,192
+Net change in cash and cash equivalents
+(
+742,237
+)
+637,995
+Cash and cash equivalents and restricted cash, beginning of period
+1,213,393
+466,763
+Cash and cash equivalents and restricted cash, end of period
+$
+471,156
+$
+1,104,758
+Supplemental disclosures:
+Cash and cash equivalents
+$
+458,921
+$
+1,092,938
+Restricted cash (Note 1)
+12,235
+11,820
+Total cash, cash equivalents and restricted cash shown in the statements of cash flows
+$
+471,156
+$
+1,104,758
+Cash paid for interest
+$
+54,124
+$
+498
+Non-cash transactions:
+Property and equipment purchases in accounts payable and accrued liabilities
+$
+5,973
+$
+151
+Expense for induced conversion of convertible debt, debt offering and revolver modification
+$
+—
+$
+34,248
+The accompanying notes are an integral part of these consolidated financial statements.
+5
+Table of Conten
+ts
+Note 1 –
+Organization and Summary of Significant Accounting Policies
+Axon Enterprise, Inc. (“Axon”, the “Company”, “we”, or “us”) is a provider of public safety technology solutions. Our mission is to protect life in service of promoting peace, justice and strong institutions.
+The accompanying unaudited consolidated financial statements include the accounts of Axon Enterprise, Inc. and our subsidiaries. All intercompany accounts, transactions and profits have been eliminated.
+Basis of Presentation and Use of Estimates
+These unaudited consolidated financial statements have been prepared pursuant to the rules and regulations of the SEC. Certain information related to our organization, significant accounting policies and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States (“GAAP”) has been condensed or omitted. The accounting policies followed in the preparation of these unaudited consolidated financial statements are consistent with those followed in our consolidated financial statements for the year ended December 31, 2025, as filed on our 2025 Annual Report on Form 10-K. In the opinion of management, these unaudited consolidated financial statements contain all material adjustments, consisting only of normal recurring adjustments, necessary to fairly state our financial position, results of operations and cash flows for the periods presented and the presentations and disclosures herein are adequate when read in conjunction with the financial statements included in our 2025 Annual Report on Form 10-K for the year ended December 31, 2025.
+Our results of operations for the three months ended March 31, 2026 are not necessarily indicative of the results to be expected for the full year (or any other period). The preparation of the financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenues, expenses, and the related disclosures at the date of the financial statements and during the reporting period. We believe the estimates used in the preparation of these unaudited consolidated financial statements are reasonable; however, actual results could differ materially from those estimates.
+Concentration of Credit Risk
+Financial instruments that potentially subject us to concentrations of credit risk consist of accounts and notes receivable, contract assets and cash. Historically, we have experienced an immaterial level of write-offs related to uncollectible accounts. We hold the majority of our cash and cash equivalents accounts at
+three
+depository institutions. As of March 31, 2026, the aggregate balances in such accounts were $
+0.4
+billion. Our balances with these and other institutions regularly exceed Federal Deposit Insurance Corporation insured limits for domestic deposits and various deposit insurance programs in Australia, Canada, Germany, and the United Kingdom, among others. To manage the related credit exposure, management continually monitors the creditworthiness of the financial institutions where we have deposits.
+Segment Information
+As described further within our 2025 Annual Report on Form 10-K, we have
+two
+reportable segments: Connected Devices and Software and Services. Our chief operating decision maker (“CODM”) is our Chief Executive Officer. The
+segment measure of profit and loss is adjusted gross margin, as t
+he CODM allocates resources and assesses performance based on review of adjusted gross margin by segment. Assets and other expense items, such as research and development and selling, general, and administrative expenses, are not provided to the CODM by segment, as our CODM does not evaluate our operating segments using this discrete information.
+For additional details, refer to
+Note 13
+.
+Restricted Cash
+Restricted cash balances were $
+12.2
+million as of both March 31, 2026 and December 31, 2025. The restricted cash balance at March 31, 2026 includes a $
+9.7
+million payment held in escrow related to the planned construction of our headquarters building in Arizona. Restricted cash also includes funds held in international bank accounts for various operating and financing activities.
+6
+Table of Conten
+ts
+Warranty Reserves
+We warranty our conducted energy devices (“CEDs”), Axon cameras and other hardware on a limited basis for a period of primarily
+one year
+after purchase.
+Changes in our estimated product warranty liabilities were as follows (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Balance, beginning of period
+$
+10,858
+$
+8,284
+Utilization of reserve
+(
+4,446
+)
+(
+1,701
+)
+Warranty expense
+3,089
+3,779
+Balance, end of period
+$
+9,501
+$
+10,362
+Income per Common Share
+Basic income per common share is computed by dividing net income by the weighted average number of common shares outstanding during the periods presented. Diluted income per share reflects the potential dilution from outstanding stock-based awards, our 2027 Notes, and warrants to acquire shares of our common stock (the “Warrants” or “2027 Warrants”). These items are excluded from the computation of diluted net income per share in periods in which the effect would be antidilutive.
+For additional information regarding our 2027 Notes and 2027 Warrants, refer to
+Note 8
+.
+The calculation of the weighted average number of shares outstanding and earnings per share is as follows (in thousands except per share data):
+Three Months Ended March 31,
+2026
+2025
+Numerator for basic and diluted earnings per share:
+Net income
+$
+169,312
+$
+87,980
+Denominator:
+Weighted average shares outstanding
+80,150
+76,890
+Dilutive effect of stock-based awards
+1,253
+1,714
+Dilutive effect of 2027 Notes
+(1)
+95
+1,610
+Dilutive effect of 2027 Warrants
+980
+1,270
+Diluted weighted average shares outstanding
+82,478
+81,484
+Net income per common share:
+Basic
+$
+2.11
+$
+1.14
+Diluted
+$
+2.05
+$
+1.08
+7
+Table of Conten
+ts
+(1)
+We redeemed all of our remaining outstanding 2027 Notes during the three months ended March 31, 2026, and we repurchased a portion of the 2027 Notes during the three months ended March 31, 2025. Accordingly, the dilutive impact of the 2027 Notes is weighted for (a) the number of days between the beginning of the period and the respective closing dates of each transaction, which includes the total amount of shares issuable upon a conversion of all of the 2027 Notes outstanding as of the beginning of the respective quarters, and (b) subsequent to the respective closing dates, which includes the amount of shares issuable upon a conversion of the 2027 Notes that remain after each respective transaction. No 2027 Notes remained outstanding following settlement of the aforementioned redemption. Refer to
+Note 8
+for additional details.
+Potentially dilutive securi
+ties that are not included in the calculation of diluted net income per share because doing so would be antidilutive are as follows (i
+n thousands):
+Three Months Ended March 31,
+2026
+2025
+Stock-based awards
+3,942
+3,913
+2027 Notes
+—
+511
+2027 Warrants
+1,682
+1,746
+Total potentially dilutive securities
+5,624
+6,170
+Accounting Guidance and Disclosure Rules - Recently Adopted
+In September 2025, the Financial Accounting Standards Board (“FASB”) issued ASU 2025‑06, Intangibles - Goodwill and Other - Internal‑Use Software (Sub-topic 350-40): Targeted Improvements to the Accounting for Internal‑Use Software. ASU 2025‑06 is intended to modernize the internal‑use
+software model primarily by removing software development stages and introducing a “probable-to-complete recognition threshold.” The provisions of ASU 2025-06 are effective for our Annual Report on Form 10-K for the year ending December 31, 2026. We elected to early adopt this ASU in the first quarter of 2026 on a fully prospective basis. The adoption of this standard did not result in any material impacts to our consolidated financial statements as of and for the three months ended March 31, 2026.
+In July 2025, the FASB issued ASU 2025‑05, Financial Instruments - Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets. ASU 2025‑05 is intended to provide a practical expedient for estimating expected credit losses on current trade receivables and current contract assets. The provisions of ASU 2025‑05 are effective for annual periods beginning after December 15, 2025. We adopted this standard in the first quarter of 2026.
+The adoption of this standard did not result in any material impacts to our consolidated financial statements as of and for the three months ended March 31, 2026.
+Accounting Guidance and Disclosure Rules - Not Yet Adopted
+Refer to Note 1 to the consolidated financial statements in our 2025 Annual Report on Form 10-K for a discussion of applicable standards issued and not yet adopted.
+Note 2 –
+Revenues
+Nature of Products and Services
+The following table presents our revenues by primary product and service offering and reportable segment (in thousands):
+Three Months Ended March 31, 2026
+Three Months Ended March 31, 2025
+Connected Devices
+Software and Services
+Total
+Connected Devices
+Software and Services
+Total
+TASER
+(1)
+$
+232,853
+$
+—
+$
+232,853
+$
+195,495
+$
+—
+$
+195,495
+Personal Sensors
+(2)
+108,751
+—
+108,751
+88,405
+—
+88,405
+Platform Solutions
+(3)
+111,217
+—
+111,217
+56,996
+—
+56,996
+Software and Services
+—
+354,524
+354,524
+—
+262,737
+262,737
+Total
+$
+452,821
+$
+354,524
+$
+807,345
+$
+340,896
+$
+262,737
+$
+603,633
+8
+Table of Conten
+ts
+(1)
+'TASER' includes TASER handles, cartridges and related extended warranties.
+(2)
+'Personal Sensors' primarily includes body cameras and accessories, signal sidearm, and related extended warranties.
+(3)
+'Platform Solutions' primarily includes fleet in-car video, interview room, fixed cameras, drones and counter-drone equipment, virtual reality training hardware, and related extended warranties.
+The following table presents our revenues disaggregated by geography (dollars in thousands):
+Three Months Ended March 31,
+2026
+2025
+United States
+$
+646,527
+80
+%
+$
+529,383
+88
+%
+Other countries
+160,818
+20
+74,250
+12
+Total
+$
+807,345
+100
+%
+$
+603,633
+100
+%
+Revenue Recognized from Contract Liabilities
+During the three months ended March 31, 2026 and 2025, we recognized revenue of $
+311.7
+million and $
+272.2
+million, respectively, from our beginning contract liabilities balance as of December 31, 2025 and 2024, respectively. Refer to our consolidated balance sheets for additional details regarding our receivables, contract assets and contract liabilities from contracts with customers.
+Remaining Performance Obligations
+As of March 31, 2026, we had approximately $
+9.7
+billion of remaining performance obligations, which included both recognized contract liabilities as well as amounts that will be invoiced and recognized in future periods. The remaining performance obligations are limited only to arrangements that meet the definition of a contract under ASC 606 as of March 31, 2026. We currently expect to recognize approximately
+20
+% -
+25
+% of this balance over the next
+12
+months, and expect the remainder to be substantially recognized over the following
+ten years
+, subject to risks related to delayed deployments, budget appropriation or other contract cancellation clauses.
+Note 3 –
+Cash, Cash Equivalents and Investments
+The following tables summarize our cash, cash equivalents, marketable securities and available-for-sale debt investments at March 31, 2026 and December 31, 2025 (in thousands):
+As of March 31, 2026
+Amortized
+Cost
+Gross
+Unrealized
+Gains
+Gross
+Unrealized
+Losses
+Fair Value
+Cash and
+Cash
+Equivalents
+Marketable
+Securities
+Short-Term
+Investments
+Cash
+$
+182,231
+$
+—
+$
+—
+$
+182,231
+$
+182,231
+$
+—
+$
+—
+Level 1:
+Money market funds
+269,513
+—
+—
+269,513
+269,513
+—
+—
+Marketable securities
+13,100
+4,952
+—
+18,052
+—
+18,052
+—
+Subtotal
+282,613
+4,952
+—
+287,565
+269,513
+18,052
+—
+Level 2:
+Term deposits
+267,177
+—
+—
+267,177
+7,177
+—
+260,000
+Subtotal
+267,177
+—
+—
+267,177
+7,177
+—
+260,000
+Total
+$
+732,021
+$
+4,952
+$
+—
+$
+736,973
+$
+458,921
+$
+18,052
+$
+260,000
+During the
+three months
+ended
+March 31, 2026
+, proceeds from the sale of available-for-sale securities were
+$
+70.5
+million. As of March 31, 2026, we held
+no
+available-for-sale debt investments with unrealized losses.
+9
+Table of Conten
+ts
+During the
+three months
+ended
+March 31, 2026
+, net proceeds from the sales of marketable securities were
+$
+3.7
+million, representing a $
+1.7
+million net realized gain
+from the time of purchase. D
+uring the
+three
+months ended
+March 31, 2026
+, we recorded an unrealized loss of
+$
+5.6
+million
+on marketable securities still held as of the reporting date. We recorded an unrealized loss on marketable securities of $
+23.4
+million for the same period in the prior year.
+As of December 31, 2025
+Amortized
+Cost
+Gross
+Unrealized
+Gains
+Gross
+Unrealized
+Losses
+Fair Value
+Cash and
+Cash
+Equivalents
+Marketable
+Securities
+Short-Term
+Investments
+Cash
+$
+168,294
+$
+—
+$
+—
+$
+168,294
+$
+168,294
+$
+—
+$
+—
+Level 1:
+Money market funds
+821,711
+—
+—
+821,711
+821,711
+—
+—
+Marketable securities
+15,093
+12,120
+—
+27,213
+—
+27,213
+—
+U.S. Treasury bills
+231,766
+69
+—
+231,835
+200,200
+—
+31,635
+Agency bonds
+6,456
+3
+—
+6,459
+—
+—
+6,459
+Subtotal
+1,075,026
+12,192
+—
+1,087,218
+1,021,911
+27,213
+38,094
+Level 2:
+Term deposits
+385,942
+—
+—
+385,942
+10,942
+—
+375,000
+Corporate bonds
+72,322
+42
+(
+3
+)
+72,361
+—
+—
+72,361
+Commercial paper
+18,462
+—
+—
+18,462
+—
+—
+18,462
+Certificates of deposit
+1,500
+—
+—
+1,500
+—
+—
+1,500
+Subtotal
+478,226
+42
+(
+3
+)
+478,265
+10,942
+—
+467,323
+Total
+$
+1,721,546
+$
+12,234
+$
+(
+3
+)
+$
+1,733,777
+$
+1,201,147
+$
+27,213
+$
+505,417
+As of December 31, 2025, we ha
+d $
+9.7
+million
+of available-for-sale investments with unrealized losses, of which none have been in a continuous unrealized loss position for 12 months or longer. We do not intend to sell the investments and it is not more likely than not that we will be required to sell the investments before recovery of their amortized cost bases.
+Note 4 –
+Inventory
+Inventory consisted of the following at March 31, 2026 and
+December 31, 2025
+(in thousands):
+March 31, 2026
+December 31, 2025
+Raw materials
+$
+171,312
+$
+152,680
+Work-in-process
+11,352
+8,866
+Finished goods
+225,346
+180,265
+Total inventory
+$
+408,010
+$
+341,811
+Note 5 –
+Goodwill and Intangible Assets
+The changes in the carrying amount of goodwill for the
+three
+months ended
+March 31, 2026
+were as follows (in thousands):
+Connected Devices
+Software and
+Services
+Total
+Balance, beginning of period
+$
+51,249
+$
+1,318,940
+$
+1,370,189
+Goodwill acquired
+—
+524,733
+524,733
+Purchase accounting adjustments
+—
+(
+82
+)
+(
+82
+)
+Foreign currency translation adjustments
+(
+21
+)
+(
+443
+)
+(
+464
+)
+Balance, end of period
+$
+51,228
+$
+1,843,148
+$
+1,894,376
+10
+Table of Conten
+ts
+Intangible assets (other than goodwill) consisted of the following at
+March 31, 2026
+and December 31, 2025 (in thousands):
+March 31, 2026
+December 31, 2025
+Useful
+Life
+Gross
+Carrying
+Amount
+Accumulated
+Amortization
+Net
+Carrying
+Amount
+Gross
+Carrying
+Amount
+Accumulated
+Amortization
+Net
+Carrying
+Amount
+Amortizable (definite-lived) intangible assets:
+Developed technology
+3
+‑
+8
+years
+$
+262,122
+$
+(
+53,364
+)
+$
+208,758
+$
+183,122
+$
+(
+44,399
+)
+$
+138,723
+Customer relationships
+5
+‑
+10
+years
+68,289
+(
+10,622
+)
+57,667
+41,329
+(
+8,960
+)
+32,369
+Issued trademarks
+3
+‑
+23
+years
+11,986
+(
+4,566
+)
+7,420
+9,900
+(
+3,856
+)
+6,044
+Issued patents
+8
+‑
+26
+years
+3,009
+(
+1,611
+)
+1,398
+3,017
+(
+1,602
+)
+1,415
+Domain names
+5
+‑
+10
+years
+4,568
+(
+2,815
+)
+1,753
+3,043
+(
+2,738
+)
+305
+Total amortizable
+349,974
+(
+72,978
+)
+276,996
+240,411
+(
+61,555
+)
+178,856
+Non-amortizable (indefinite-lived) intangible assets:
+In-process research and development
+(1)
+16,600
+—
+16,600
+16,600
+—
+16,600
+Trademarks
+1,068
+—
+1,068
+1,068
+—
+1,068
+Patents and trademarks pending
+405
+—
+405
+448
+—
+448
+Total non-amortizable
+18,073
+—
+18,073
+18,116
+—
+18,116
+Total intangible assets
+$
+368,047
+$
+(
+72,978
+)
+$
+295,069
+$
+258,527
+$
+(
+61,555
+)
+$
+196,972
+(1)
+During the three months ended March 31, 2026,
+no
+in-process research and development costs were placed into service.
+Amortization expense of intangible assets for the three months ended March 31, 2026 and 2025 was $
+11.5
+million and $
+6.6
+million, respectively.
+Estimated amortization for intangible assets with definite lives for the remaining nine months of
+2026
+, the next five years ended December 31, and thereafter, is as follows (in thousands):
+2026 remaining
+$
+40,339
+2027
+52,528
+2028
+50,296
+2029
+47,342
+2030
+35,733
+2031
+18,326
+Thereafter
+32,432
+Total
+$
+276,996
+Note 6 –
+Strategic Investments
+During the three
+months ended
+March 31, 2026, we closed a series of transactions to acquire additional equity interests in an existing strategic investee for an aggregate amount of $
+189.8
+million. We also recognized a gain of $
+158.8
+million related to an observable price change for existing investments in the same strategic investee. During the three
+months ended
+March 31, 2026, we also acquired equity interests in a separate strategic investee for an aggregate amount of $
+49.9
+million.
+During the three
+months ended
+March 31, 2025, we closed a series of transactions to acquire additional equity interests in an existing strategic investee for an aggregate amount of $
+203.4
+million. We also recognized a gain of $
+167.4
+million related to an observable price change of a separate existing strategic investee. Furthermore, we entered into a series of transactions to sell certain interests for cash consideration of $
+340.7
+million in the same strategic investee. A majority of the sales closed during the quarter ended March 31, 2025, resulting in the Company receiving $
+290.9
+million in cash consideration and realizing previously unrealized gains of $
+273.5
+million, net of $
+1.3
+million of transaction costs. The remaining sale closed in April 2025 for cash consideration of $
+49.8
+million.
+11
+Table of Conten
+ts
+The following table presents the carrying value of our strategic investments at March 31, 2026 and
+December 31, 2025 (in thousands)
+:
+March 31, 2026
+December 31, 2025
+Equity securities:
+Non-marketable equity securities
+$
+837,597
+$
+416,236
+Debt securities:
+Non-marketable debt securities
+646
+597
+Total strategic investments
+$
+838,243
+$
+416,833
+The life to date cumulative upward and downward adjustments to the carrying value of our strategic equity investments accounted for under the ASC 321 measurement alternative and still held as of March 31, 2026 were $
+174.4
+million and $
+15.4
+million, respectively.
+As of March 31, 2026
+and
+December 31, 2025
+,
+the carrying value of our variable interest assets in unconsolidated non-public variable interest entities was $
+101.7
+million
+and
+$
+9.4
+million, respectively. These balances reflect the maximum exposure to loss, which is limited to the carrying value of the interest.
+The following table summarizes the gains and
+losses
+associated with our strategic investments during the
+three
+months ended
+March 31, 2026 and 2025
+(in thousands):
+Three Months Ended March 31,
+2026
+2025
+Realized gains recognized on strategic investments during the period, net
+$
+37,731
+$
+273,478
+Reversal of prior period cumulative unrealized (gains) losses, net, for securities sold during the period
+—
+(
+136,982
+)
+Unrealized gains on strategic investments still held at the reporting date
+158,869
+30,825
+Unrealized losses, including impairments, on strategic investments still held at the reporting date
+—
+—
+Income from strategic investments, net
+$
+196,600
+$
+167,321
+Note 7 –
+Accrued Liabilities
+Accrued liabilities consisted of the following at March 31, 2026 and
+December 31, 2025
+(in thousands):
+March 31, 2026
+December 31, 2025
+Accrued third-party product costs
+$
+68,830
+$
+73,497
+Accrued commissions
+39,185
+150,811
+Accrued salaries and benefits
+31,345
+35,251
+Accrued cloud hosting fees
+27,420
+14,049
+Accrued professional and IT fees
+26,666
+24,359
+Accrued income and other taxes
+19,428
+27,339
+Accrued bonus
+17,573
+78,403
+Accrued inventory in transit
+15,279
+15,728
+Accrued warranty expense
+9,501
+10,858
+Accrued interest
+4,806
+31,855
+Other accrued expenses
+52,395
+48,388
+Total accrued liabilities
+$
+312,428
+$
+510,538
+12
+Table of Conten
+ts
+Note 8 –
+Debt
+Notes payable, net, consisted of the following at
+March 31, 2026 and
+December 31, 2025
+(in thousands):
+March 31, 2026
+December 31, 2025
+2030 Notes
+$
+1,000,000
+$
+1,000,000
+2033 Notes
+750,000
+750,000
+2027 Notes
+—
+81,110
+Total principal
+1,750,000
+1,831,110
+Unamortized debt issuance costs
+(
+19,013
+)
+(
+20,388
+)
+Total carrying amount of notes payable, net
+1,730,987
+1,810,722
+Less: current portion
+(1)
+—
+(
+80,552
+)
+Long-term notes payable, net
+$
+1,730,987
+$
+1,730,170
+(1)
+During the three months ended March 31, 2026, we redeemed and settled conversions in respect of all of our remaining outstanding 2027 Notes.
+2030 and 2033 Notes
+In March 2025, we issued
+$
+1.0
+billion
+aggregate principal amount of
+6.125
+%
+Senior Notes due 2030 (the “2030 Notes”) and
+$
+750.0
+million aggregate principal amount of
+6.250
+%
+Senior Notes due 2033 (the “2033 Notes” and, together with the 2030 Notes, the “Senior Notes”) in a private offering.
+Interest expense related to the Senior Notes was as follows (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Contractual interest expense
+$
+27,031
+$
+6,007
+Amortization of debt issuance costs
+817
+171
+Total interest expense
+$
+27,848
+$
+6,178
+The estimated fair value of our outstanding Senior Notes at March 31, 2026 and December 31, 2025 is as follows (in thousands):
+March 31, 2026
+December 31, 2025
+2030 Notes
+$
+1,018,600
+$
+1,036,830
+2033 Notes
+765,908
+779,768
+2027 Notes
+In December 2022, we issued $
+690.0
+million aggregate principal amount of our
+0.50
+% Convertible Senior Notes due 2027 (the “2027 Notes”) in a private offering. During the year ended December 31, 2025, we entered into and closed separate, privately negotiated exchange agreements with certain holders of the 2027 Notes to exchange $
+604.3
+million aggregate principal amount of the 2027 Notes for consideration consisting of cash and shares of our common stock. We had $
+81.1
+million aggregate principal amount of 2027 Notes outstanding as of December 31, 2025. As of December 31, 2025, the total estimated fair value of the 2027 Notes was $
+204.0
+million.
+13
+Table of Conten
+ts
+In December 2025, we delivered a notice of redemption to redeem all of our outstanding 2027 Notes in February 2026 at a redemption price equal to
+100
+% of the principal amount of the notes to be redeemed, together with accrued and unpaid interest. Holders of the 2027 Notes were able to convert their notes prior to the redemption date for cash up to the principal amount of any notes being converted and shares of our common stock for any conversion obligation in excess of the principal amount. We redeemed $
+0.8
+million aggregate principal amount of the 2027 Notes on February 10, 2026, and we settled conversions in respect of $
+80.3
+million aggregate principal amount of the 2027 Notes on February 11, 2026, with $
+80.3
+million in cash and
+211,870
+shares of our common stock. We also received
+41,139
+shares from option counterparties in connection with partial termination of the Note Hedge and Warrants in February 2026, as discussed further below. As a result, we have
+no
+2027 Notes outstanding following settlement of the aforementioned redemption as of March 31, 2026.
+Interest expense related to the 2027 Notes was as follows (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Contractual interest expense
+$
+44
+$
+780
+Amortization of debt issuance costs
+558
+747
+Total interest expense
+$
+602
+$
+1,527
+Convertible Note Hedge
+To reduce the impact of potential economic dilution upon conversion of the 2027 Notes, in December 2022, we entered into a convertible note hedge transaction (the “Note Hedge” or “2027 Note Hedge”) with certain investment banks, with respect to our common stock, concurrently with the issuance of the 2027 Notes.
+Purchase Price
+(in thousands)
+Shares Purchased
+2027 Note Hedge
+$
+194,994
+3,016,680
+The Note Hedge covers shares of our common stock at a strike price per share that corresponds to the initial conversion price of the respective 2027 Notes, subject to adjustment. As of
+March 31, 2026,
+2,642,030
+sh
+ares remain covered by the Note Hedge, which is subject to automatic exercise at expiration on December 15, 2027, unless earlier terminated.
+Convertible Note Warrants
+Proceeds
+(in thousands)
+Initial Shares
+Strike Price
+First Expiration
+2027 Warrants
+$
+124,269
+3,016,680
+$
+338.86
+March 15, 2028
+In December 2022, we entered into warrant transactions with certain investment banks, whereby we sold Warrants to acquire, subject to adjustment, the number of shares of our common stock shown in the table above. If the average market value per share of our common stock exceeds the strike price of the Warrants, such Warrants can have a dilutive effect on our earnings per share to the extent we report net income. According to the terms of the Warrants, the Warrants will be automatically exercised over a
+60
+-trading day period beginning on the first expiration date
+as set forth above, unless earlier terminated. As of
+March 31, 2026,
+2,662,063
+sh
+ares remain subject to the Warrants.
+Line of Credit
+Our credit agreement provides for a senior unsecured multi-currency revolving credit facility (the “Credit Agreement”) which includes total aggregate principal amount of $
+300.0
+million (with an accordion feature which allows for an increase in the total line of credit up to $
+400.0
+million), as well as availability for the issuance of letters of credit of $
+50.0
+million.
+As of March 31, 2026
+,
+no
+amounts were drawn under the Credit Agreement. Under the terms of the line of credit, available borrowings are reduced by outstanding letters of credit. As of March 31, 2026, we had letters of credit outstanding of approximately $
+8.9
+million under the facility and available borrowing of $
+291.1
+million, excluding amounts available under the accordion feature. As of March 31, 2026, we are in compliance with the associated covenants under the Credit Agreement.
+14
+Table of Conten
+ts
+Note 9 –
+Income Taxes
+Effective Tax Rate
+The overall effective tax rate for the three months ended March 31, 2026 was
+15.4
+%. This rate differs from the federal statutory rate due to the favorable impact of R&D tax credits, a gain on a related investment transaction not recognized for tax and windfall benefit on stock-based compensation, partially offset by executive compensation limitation under Internal Revenue Code (“IRC”) Section 162(m) on projected pre-tax income for the year, increases in uncertain tax positions and state taxes net of federal benefit. The effective tax rate was favorably impacted by a $
+8.8
+million net tax benefit related to stock-based compensation for stock awards that vested during the three months ended March 31, 2026.
+By comparison, our overall effective tax rate for the three months ended March 31, 2025 was
+18.8
+%. This rate differed from the federal statutory rate due to the favorable impact of R&D tax credits and windfall benefit on stock-based compensation partially offset by executive compensation limitation under IRC Section 162(m), increases in uncertain tax positions and state taxes net of federal benefit. The effective tax rate was favorably impacted by a net $
+12.1
+million discrete tax benefit associated with net windfall related to stock-based compensation for stock awards that vested during the three months ended March 31, 2025.
+Note 10 –
+Stockholders’ Equity
+Our stock-based compensation program includes grants of service-based restricted stock units (“RSUs”), performance-based restricted stock units (“PSUs”), and performance-based stock options (“stock options”) under the Axon Enterprise, Inc. Amended and Restated 2022 Stock Incentive Plan (the “Amended 2022 Plan”) and grants of eXponential stock units (“XSUs”) under the Axon Enterprise, Inc. Employee eXponential Stock Plan (the “Employee XSP”) and the CEO Performance Award. With the exception of the Employee XSP as discussed further below, t
+here were no significant changes to our RSUs, PSUs and stock options during the three months ended March 31, 2026.
+Employee XSP and CEO Performance Award
+The Employee XSP includes an approved pool of approximately
+4.5
+million shares of common stock reserved for grants of XSUs to employees. Approximately
+0.7
+million XSUs remain available to grant to employees under this program as of March 31, 2026. A total of approximately
+0.5
+million XSUs were granted during the three months ended March 31, 2026. Shareholders previously approved a grant of
+679,102
+XSUs for the CEO Performance Award on May 10, 2024.
+On January 23, 2026, the Compensation Committee of the Board of Directors approved the addition of
+two
+incremental tranches to the Employee XSP. Consistent with prior tranches, Tranches 8 and 9 are performance-based and contingent upon achievement of stock price goals, operational goals, and minimum service requirements.
+These
+three
+independent vesting conditions are described in the following table:
+Operational Goals
+(1)
+(in millions)
+Stock Price
+Goal
+Minimum Service Requirement
+Tranche
+(2)
+Revenue
+Adj. EBITDA
+Employee XSP
+CEO Performance Award
+Goal Expiration
+1
+$
+1,834
+or
+$
+382
+and
+$
+247.40
+and
+June 2025
+December 2028
+December 31, 2026
+2
+2,293
+or
+497
+and
+309.25
+and
+December 2025
+December 2028
+December 31, 2027
+3
+2,866
+or
+611
+and
+386.56
+and
+June 2026
+December 2029
+December 31, 2028
+4
+3,583
+or
+801
+and
+483.20
+and
+December 2026
+December 2029
+December 31, 2029
+5
+4,479
+or
+1,044
+and
+604.00
+and
+June 2027
+December 2030
+December 31, 2030
+6
+5,599
+or
+1,356
+and
+755.00
+and
+December 2027
+December 2030
+December 31, 2031
+7
+6,999
+or
+1,706
+and
+943.75
+and
+June 2028
+December 2030
+December 31, 2032
+8
+8,749
+or
+2,144
+and
+1,179.69
+and
+December 2029
+—
+December 31, 2033
+9
+10,936
+or
+2,690
+and
+1,474.61
+and
+June 2031
+—
+December 31, 2034
+(1)
+Operational goals are measured, as of any date, for the previous four consecutive fiscal quarters, beginning with the Company's first full fiscal quarter ending after the fiscal quarter in which the grant date occurred.
+15
+Table of Conten
+ts
+(2)
+Tranches 1 and 2 vested in June 2025 and December 2025 respectively. As of March 31, 2026, for certain grantees, the shares acquired upon vesting of Tranche 2 remain subject to a holding period requirement under the plan, which will expire on the earlier of (i) December 31, 2030 and (ii) the date on which the subsequent tranche vests.
+Stock-based Compensation Expense
+The following table summarizes the composition of stock-based compensation expense for the three months ended March 31, 2026 and 2025 (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Cost of product and service sales
+$
+10,709
+$
+12,887
+Selling, general and administrative expenses
+66,519
+71,347
+Research and development expenses
+57,473
+56,005
+Total stock-based compensation expense
+(1)
+$
+134,701
+$
+140,239
+(1)
+For the three months ended March 31, 2026, stock-based compensation expense included $
+1.0
+million in non-recurring severance costs. Total non-recurring severance costs for the three months ended March 31, 2026 of $
+2.0
+million also include $
+1.0
+million of severance payments and employee benefits. The majority of these costs were recorded in selling, general and administrative expense
+s.
+Stock Incentive Plan
+In May 2024, our shareholders approved the Amended 2022 Plan authorizing an additional
+2.2
+million shares, plus remaining available shares under prior plans, for issuance under the Amended 2022 Plan. Combined with the shares of our common stock available under our legacy stock incentive plans, there are
+2.6
+million shares of our common stock available for grant under the Amended 2022 Plan as of March 31, 2026.
+Note 11 –
+Commitments and Contingencies
+Product Litigation
+As a manufacturer of weapons and other law enforcement tools used in high-risk field environments, we are often the subject of product liability litigation concerning the use of our products. We are currently named as a defendant in
+two
+such lawsuits in which the plaintiffs allege either wrongful death or personal injury in situations in which a TASER CED was used by law enforcement officers in connection with arrests or training. While the facts vary from case to case, these product liability claims typically allege defective product design, manufacturing, and/or failure to warn. They seek compensatory and sometimes punitive damages, often in unspecified amounts.
+We continue to aggressively defend all product litigation. As a general rule, it is our policy not to settle suspect injury or death cases. Exceptions are sometimes made where the settlement is strategically beneficial to us. Due to the confidential nature of our litigation strategy and the confidentiality agreements that are executed in the event of a settlement, we do not identify or comment on specific settlements by case or amount. Based on current information, we do not believe that the outcome of any such legal proceeding will have a material effect on our financial position, results of operations or cash flows. We are self-insured for the first $
+5.0
+million of any product claim made after 2014. No judgment or settlement has ever exceeded this amount in any products liability case. We continue to maintain product liability insurance coverage, including an insurance policy fronting arrangement, above our self-insured retention with various limits depending on the policy period.
+Other Matters
+Despite the Federal Trade Commission’s (“FTC”) dismissal of its administrative enforcement complaint against us without consent decree or other condition in October 2023, other parties continue to allege that our May 2018 acquisition of an insolvent body camera competitor, Vievu LLC, was anticompetitive. Pending in the District of New Jersey (Case No. 3:23-cv-7182) is a purported antitrust class action brought by
+three
+municipalities based largely on the FTC’s unproven allegations. We deny all allegations of anticompetitive or other misconduct and are vigorously defending the case.
+16
+Table of Conten
+ts
+Pending in the Eastern District of Virginia (Case No. 1:24-CV-01625) is a patent infringement suit filed by Airspace Systems, Inc. (“Airspace”) against Dedrone and us involving certain drone technology. Airspace seeks injunctive relief and treble damages in an unspecified amount. Infringement is denied and the litigation is stayed pending our validity challenges to all
+three
+asserted patents in the United States Patent and Trademark Office, which instituted review last fall. A decision is expected in October 2026. Separately, pending in the Western District of Texas (Case No. 1:24-cv-1497) is a patent infringement suit filed by CentralSquare Technologies LLC (“CST”) against Carbyne, Inc. and Carbyne, LTD (jointly “Carbyne”) relating to 911 technology. CST seeks injunctive relief and damages in an unspecified amount. Carbyne, which we acquired on February 18, 2026, denies infringement and has countersued CST for infringement of its own patent. Trial is set for May 2027.
+General
+From time to time, we are notified that we may be a party to a lawsuit or that a claim is being made against us. After carefully assessing the claim, and assuming we determine that we are not at fault or we disagree with the damages or relief demanded, we vigorously defend any lawsuit filed against us. We record a liability when losses are deemed probable and reasonably estimable. When losses are deemed reasonably possible but not probable, we determine whether it is possible to provide an estimate of the
+amount of the loss or range of possible losses for the claim, if material for disclosure. In evaluating matters for accrual and disclosure purposes, we take into consideration factors such as our historical experience with matters of a similar nature, the specific facts and circumstances asserted, the likelihood of our prevailing, the availability of insurance, and the severity of any potential loss. We reevaluate and update accruals as matters progress over time.
+Based on our assessment of outstanding litigation and claims as of March 31, 2026, we have determined that it is not reasonably possible that these losses, if any, from lawsuits will individually, or in the aggregate, materially affect our results of operations, financial condition or cash flows. H
+owever, the outcome of any litigation is inherently uncertain and there can be no assurance that any expense, liability or damages that may ultimately result from the resolution of these matters will be covered by our insurance or will not be in excess of amounts recognized or provided by insurance coverage and will not have a material adverse effect on our operating results, financial condition or cash flows.
+Off-Balance Sheet Arrangements
+Under certain circumstances, we use letters of credit and surety bonds to guarantee our performance under various contracts, principally in connection with the installation and integration of Axon cameras and related technologies. Certain of our letters of credit and surety bonds have stated expiration dates with others being released as the contractual performance terms are completed. At March 31, 2026, we had outstanding letters of credit issued under our credit facility of $
+8.9
+million that are expected to expire through 2027. We also had outstanding letters of credit of $
+0.6
+million that do not draw against our credit facility. Additionally, we had $
+8.1
+million of outstanding surety bonds as of March 31, 2026, with expiration dates ranging through 2029.
+17
+Table of Conten
+ts
+Note 12 –
+Accumulated Other Comprehensive Income (Loss)
+The following tables reflect the changes in accumulated other comprehensive income (loss), net of tax (in thousands):
+Unrealized (Losses) Gains
+on Available-for-Sale
+Investments
+(1)
+Foreign Currency
+Translation
+Total
+Balance, December 31, 2025
+$
+83
+$
+(
+11,889
+)
+$
+(
+11,806
+)
+Other comprehensive income (loss)
+(
+111
+)
+647
+536
+Balance, March 31, 2026
+$
+(
+28
+)
+$
+(
+11,242
+)
+$
+(
+11,270
+)
+(1)
+Amounts are net of immaterial tax impacts.
+Unrealized (Losses)
+on Available-for-Sale
+Investments
+(1)
+Foreign Currency
+Translation
+Total
+Balance, December 31, 2024
+$
+(
+30
+)
+$
+(
+18,154
+)
+$
+(
+18,184
+)
+Other comprehensive income (loss)
+(
+124
+)
+358
+234
+Balance, March 31, 2025
+$
+(
+154
+)
+$
+(
+17,796
+)
+$
+(
+17,950
+)
+(1)
+Amounts are net of immaterial tax impacts.
+Note 13 –
+Segment Data
+Information relative to our reportable segments was as follows (in
+thousands
+):
+Three Months Ended March 31,
+2026
+2025
+Connected Devices
+Software and Services
+Total
+Connected Devices
+Software and Services
+Total
+Net sales
+$
+452,821
+$
+354,524
+$
+807,345
+$
+340,896
+$
+262,737
+$
+603,633
+Cost of sales
+(
+232,156
+)
+(
+97,903
+)
+(
+330,059
+)
+(
+170,181
+)
+(
+67,713
+)
+(
+237,894
+)
+Other segment items
+(1)
+7,651
+11,984
+19,635
+9,420
+9,037
+18,457
+Adjusted gross margin
+$
+228,316
+$
+268,605
+$
+496,921
+$
+180,135
+$
+204,061
+$
+384,196
+Other segment items
+(1)
+(
+19,635
+)
+(
+18,457
+)
+Selling, general and administrative
+(
+259,093
+)
+(
+223,509
+)
+Research and development
+(
+188,950
+)
+(
+151,023
+)
+Interest income
+10,611
+10,604
+Interest expense
+(
+28,643
+)
+(
+7,821
+)
+Other income, net
+189,010
+114,401
+Income before provision for income taxes
+$
+200,221
+$
+108,391
+(1)
+Other segment items includes the adjustment for noncash stock-based compensation expense, amortization of acquired intangible assets, inventory step-up amortization related to acquisitions, and non-recurring severance costs to arrive at the profit measure used by the CODM.
+18
+Table of Conten
+ts
+The following table presents supplemental information included within the measure of profit or loss, adjusted gross margin, reviewed by our CODM (in thousands). There are no other material items presented to our CODM by segment or included within adjusted gross margin for supplemental disclosure.
+Three Months Ended March 31,
+2026
+2025
+Connected Devices
+Software and Services
+Total
+Connected Devices
+Software and Services
+Total
+Depreciation and amortization
+$
+11,766
+$
+8,015
+$
+19,781
+$
+9,285
+$
+3,959
+$
+13,244
+Significant noncash items:
+Stock-based compensation expense
+5,775
+4,728
+10,503
+7,476
+5,411
+12,887
+Provisions for inventory
+937
+—
+937
+846
+—
+846
+Warranty reserve expense
+3,089
+—
+3,089
+3,779
+—
+3,779
+Note 14 –
+Business Combinations
+The consolidated financial statements include the operating results from each acquisition from the date of acquisition noted below. Supplemental pro forma information has not been presented as the effects of the business combinations during the three months ended March 31, 2026 were not material to our consolidated financial statements.
+2026 Business Combinations
+Carbyne
+On February 18, 2026, we acquired the remaining
+89.3
+% interest in Carbyne Ltd. (“Carbyne”), a leading cloud-native emergency communications and response platform. Net of cash acquired and equity consideration attributable to pre-combination service, total cash paid in the business combination was approximately $
+549.7
+million. Incremental consideration transferred was approximately $
+561.2
+million, subject to customary purchase price adjustments. The acquisition aligns with our mission and positions us to accelerate next-generation public safety communications and emergency response solutions. We recorded acquisition-related transaction and integration costs of $
+6.0
+million during the three months ended March 31, 2026. Our existing interest of approximately
+10.7
+% had a fair value at the acquisition date of $
+67.2
+million, which resulted in a non-taxable gain of $
+37.7
+million.
+The purchase price allocation, which may be subject to revision during the measurement period for purchase accounting adjustments to balances such as intangible assets, pre-acquisition legal contingencies, working capital, and income tax assets and liabilities, is expected to be completed by the first quarter of 2027. Based on the initial purchase price allocation, we recorded $
+524.7
+million of goodwill, $
+108.2
+million of identifiable intangible assets, $
+10.1
+million of acquired cash, and assumed $
+12.4
+million of other net liabilities, excluding deferred taxes. We also recorded net deferred tax liabilities of $
+2.2
+million.
+The identifiable intangible assets included $
+79.0
+million of developed technology, $
+27.1
+million of customer relationships, and $
+2.1
+million of trademarks. The fair values of the intangible assets were calculated using the multi-period excess earnings method for the developed technology, the distributor method for customer relationships, and the relief-from-royalty method for the trademarks. The significant assumptions used to estimate the fair value of the developed technology included projected revenues, estimated economic life of
+8
+years, and an appropriate discount rate. The significant assumptions used to estimate the fair value of the customer relationships included projected revenues, customer attrition rates, distributor margins, and appropriate discount rates. The weighted average amortization period of the acquired intangible assets as of the acquisition date was
+7.9
+years.
+The goodwill associated with this business combination is primarily attributable to synergies that are expected to be achieved from the integration of the business and is not deductible for tax purposes. Consistent with the assignment of goodwill, the consolidated results of Carbyne are included in our Software and Services reportable segment following the business combination.
+19
+Table of Conten
+ts
+2025 Business Combinations
+Prepared
+On October 1, 2025, we acquired the remaining
+99.2
+% interest in Invictus Apps, Inc. (“Prepared”), a leading provider of AI-powered emergency communications software. Net of cash acquired and equity consideration attributable to pre-combination service, total cash paid in the business combination was approximately $
+624.1
+million. Incremental consideration transferred was approximately $
+728.2
+million, subject to customary purchase price adjustments. The acquisition aligns with our mission and positions us to accelerate next-generation public safety communications and emergency response solutions. Acquisition-related transaction and integration costs were immaterial for the three months ended March 31, 2026. Our existing interest of approximately
+0.8
+% had a fair value at the acquisition date of $
+6.2
+million, which resulted in a non-taxable gain of $
+2.2
+million.
+The purchase price allocation is subject to revision during the measurement period for normal closing activities, such as income tax filings and settlement of escrow balances, which is expected to be completed by the third quarter of 2026. During the first quarter of 2026, we recorded immaterial measurement period adjustments. Based on the current purchase price allocation, including measurement period adjustments, we have recorded $
+596.7
+million of goodwill, $
+98.9
+million of acquired cash, $
+47.5
+million of identifiable intangible assets, and assumed $
+1.1
+million of other net liabilities, excluding deferred taxes. We also recorded net deferred tax liabilities of $
+7.6
+million.
+As of the acquisition date, the identifiable intangible assets included $
+37.0
+million of developed technology, $
+7.3
+million of customer relationships, and $
+3.2
+million of trademarks. The fair values of the intangible assets were calculated using the relief-from-royalty method for the developed technology, the multi-period excess earnings method for customer relationships, and the relief-from-royalty method for the trademarks. The significant assumptions used to estimate the fair value of the developed technology included projected revenues, the selected royalty rate, estimated economic life of
+5
+years, and an appropriate discount rate. The weighted average amortization period of the acquired intangible assets as of the acquisition date was
+5
+years.
+The goodwill associated with this business combination is primarily attributable to synergies that are expected to be achieved from the integration of the business and is not deductible for tax purposes. Consistent with the assignment of goodwill, the consolidated results of Prepared are included in our Software and Services reportable segment following the business combination.
+20
+Table of Conten
+ts
+Item 2.
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+The following discussion and analysis of our financial condition as of March 31, 2026, and results of operations for the three months ended March 31, 2026 and 2025, should be read in conjunction with the unaudited consolidated financial statements and related notes included in this Quarterly Report on Form 10-Q and the audited consolidated financial statements and related notes in our 2025 Annual Report on Form 10-K for the year ended December 31, 2025. The discussion includes references to non-GAAP financial measures, such as adjusted gross margin, which supplement our GAAP results by providing additional insight into our financial and operational performance. For definitions and reconciliations of these non-GAAP measures to the most directly comparable GAAP measures, refer to “Non-GAAP Measures” within this Quarterly Report on Form 10-Q. This discussion also contains forward-looking statements that involve risks and uncertainties. Our actual results may differ materially from those anticipated in such forward-looking statements.
+Overview
+Axon is a technology company that provides integrated hardware and software solutions. Our products and services allow customers across the public and private sector to capture and use critical data to support fully-connected operational workflows. Our trusted network seamlessly integrates software and hardware with a range of connected devices, including TASER energy devices, cameras and sensors, drones and robotics, cloud-based evidence management, records management, real-time operations software, critical incident and emergency response systems, immersive training, and productivity tools – all enhanced by artificial intelligence.
+Our revenues for the three months ended March 31, 2026 were $807.3 million, an increase of $203.7 million, or 33.7%, from the three months ended March 31, 2025. We had income from operations of $29.2 million, compared to loss from operations of $8.8 million for the same period in the prior year. Gross margin dollars increased $111.5 million and decreased as a percentage of revenue to 59.1% from 60.6% compared to the three months ended March 31, 2025. Adjusted gross margin decreased to 61.6% for the three months ended March 31, 2026 compared to 63.6% for the same period in the prior year. The decrease in gross margin and adjusted gross margin was primarily driven by global tariffs, a higher mix of Platform Solutions revenue, and higher professional services costs. Operating expenses increased by $73.5 million, reflecting increased headcount and commissions to support business growth and consulting expenses. Net income of $169.3 million included a $30.9 million tax provision, income from strategic investments, net, of $196.6 million, and a net realized and unrealized loss of $5.5 million related to our marketable securities. Net income of $88.0 million for the three months ended March 31, 2025 included net realized and unrealized gains from strategic investments of $167.3 million, offset by a noncash unrealized loss of $23.4 million related to our investment in marketable securities and inducement expense of $28.7 million associated with the early repurchase of a portion of our 2027 Notes.
+On February 20, 2026, the Supreme Court determined that tariffs imposed under the International Emergency Economic Powers Act (“IEEPA”) were unauthorized. The ruling did not provide guidance regarding the recovery of amounts previously remitted. As of March 31, 2026, we have not recorded a benefit for any potential refunds of IEEPA tariffs previously paid, as recovery is not considered probable. We continue to monitor trade policy developments and will reassess the accounting treatment as additional information becomes available.
+21
+Table of Conten
+ts
+Results of Operations
+Three Months Ended March 31, 2026 Compared to the Three Months Ended March 31, 2025
+The following table presents data from our
+consolidated statements of operations
+as well
+as the percentage relationship to total net sales (dollars in thousands):
+Three Months Ended March 31,
+2026
+2025
+Net sales from products
+$
+452,821
+56.1
+%
+$
+340,896
+56.5
+%
+Net sales from services
+354,524
+43.9
+262,737
+43.5
+Net sales
+807,345
+100.0
+603,633
+100.0
+Cost of product sales
+232,156
+28.8
+170,181
+28.2
+Cost of service sales
+97,903
+12.1
+67,713
+11.2
+Cost of sales
+330,059
+40.9
+237,894
+39.4
+Gross margin
+477,286
+59.1
+365,739
+60.6
+Operating expenses:
+Selling, general and administrative
+259,093
+32.1
+223,509
+37.0
+Research and development
+188,950
+23.4
+151,023
+25.0
+Total operating expenses
+448,043
+55.5
+374,532
+62.0
+Income (loss) from operations
+29,243
+3.6
+(8,793)
+(1.4)
+Interest income
+10,611
+1.3
+10,604
+1.8
+Interest expense
+(28,643)
+(3.5)
+(7,821)
+(1.3)
+Other income, net
+189,010
+23.4
+114,401
+19.0
+Income before provision for income taxes
+200,221
+24.8
+108,391
+18.1
+Provision for income taxes
+30,909
+3.8
+20,411
+3.4
+Net income
+$
+169,312
+21.0
+%
+$
+87,980
+14.7
+%
+The following table presents our revenues disaggregated by geography (dollars in thousands):
+Three Months Ended March 31,
+2026
+2025
+United States
+$
+646,527
+80
+%
+$
+529,383
+88
+%
+Other countries
+160,818
+20
+74,250
+12
+Total
+$
+807,345
+100
+%
+$
+603,633
+100
+%
+International revenue increased compared to the prior year March 31, 2025 comparative period, primarily driven by increased sales in our EMEA region.
+22
+Table of Conten
+ts
+Net Sales
+Net sales by product line were as follows (dollars in thousands):
+Three Months Ended March 31,
+Dollar
+Change
+Percent
+Change
+2026
+2025
+Connected Devices segment:
+TASER
+(1)
+$
+232,853
+28.8
+%
+$
+195,495
+32.4
+%
+$
+37,358
+19.1
+%
+Personal Sensors
+(2)
+108,751
+13.5
+88,405
+14.7
+20,346
+23.0
+Platform Solutions
+(3)
+111,217
+13.8
+56,996
+9.4
+54,221
+95.1
+Total Connected Devices segment
+452,821
+56.1
+340,896
+56.5
+111,925
+32.8
+Total Software and Services segment
+354,524
+43.9
+262,737
+43.5
+91,787
+34.9
+Total net sales
+$
+807,345
+100.0
+%
+$
+603,633
+100.0
+%
+$
+203,712
+33.7
+%
+(1)
+'TASER' includes TASER handles, cartridges and related extended warranties.
+(2)
+'Personal Sensors' primarily includes body cameras and accessories, signal sidearm, and related extended warranties.
+(3)
+'Platform Solutions' primarily includes fleet in-car video, interview room, fixed cameras, drones and counter-drone equipment, virtual reality training hardware, and related extended warranties.
+Net sales for the Connected Devices segment increased 32.8% for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. The increase of $37.4 million in TASER is primarily driven by higher TASER 10 handle and cartridge volume. Personal Sensors increased $20.3 million on continued adoption of our newest body camera, AB4, and higher warranty revenue from more devices in the field. The $54.2 million increase in Platform Solutions is primarily driven by higher volume for counter-drone equipment and fleet systems.
+Net sales for the Software and Services segment increased 34.9% for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. The increase in the aggregate number of users and growing adoption of our premium add-on features by existing customers drove the majority of the increase of $91.8 million.
+Gross Margin
+As a percentage of net sales, gross margin for the Connected Devices segment decreased to 48.7% from 50.1% for the three months ended March 31, 2026 and 2025, respectively. Adjusted gross margin for the Connected Devices segment was 50.4% for the three months ended March 31, 2026, compared to 52.8% for the three months ended March 31, 2025. The decrease in gross margin and adjusted gross margin was primarily driven by global tariffs and a higher mix of Platform Solutions revenue.
+As a percentage of net sales, gross margin for the Software and Services segment decreased to 72.4% from 74.2% for the three months ended March 31, 2026 and 2025, respectively. Adjusted gross margin for the Software and Services segment decreased to 75.8% for the three months ended March 31, 2026, compared to 77.7% for the three months ended March 31, 2025. The decrease in gross margin and adjusted gross margin was primarily driven by higher professional services costs.
+Selling, General and Administrative Expenses
+SG&A expenses were as follows (dollars in thousands):
+Three Months Ended March 31,
+Dollar
+Change
+Percent
+Change
+2026
+2025
+Total selling, general and administrative expenses
+$
+259,093
+$
+223,509
+$
+35,584
+15.9
+%
+As a percentage of net sales
+32.1%
+37.0%
+Salaries, benefits and bonus expense increased $10.8 million in comparison to the prior year March 31, 2025 comparable period, primarily attributable to an increase in headcount and higher wages.
+23
+Table of Conten
+ts
+Sales and marketing expense increased $10.2 million in comparison to the prior year March 31, 2025 comparable period, primarily attributable to increased commissions.
+Other SG&A expenses increased $14.6 million in comparison to the prior year March 31, 2025 comparable period, primarily driven by an increase in professional and consulting expenses of $9.1 million.
+Research and Development Expenses
+R&D expenses were as follows (dollars in thousands):
+Three Months Ended March 31,
+Dollar
+Change
+Percent
+Change
+2026
+2025
+Total research and development expenses
+$
+188,950
+$
+151,023
+$
+37,927
+25.1
+%
+As a percentage of net sales
+23.4
+%
+25.0
+%
+Salaries, benefits and bonus expense increased $21.3 million in comparison to the prior year March 31, 2025 comparable period, which was primarily attributable to an increase in headcount and higher wages.
+Other R&D expenses increased $16.6 million in comparison to the prior year March 31, 2025 comparable period, partially driven by an increase in professional and consulting expenses of $6.8 million.
+Interest Income (Expense), Net
+Interest income (expense), net, was as follows (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Interest income
+$
+10,611
+$
+10,604
+Interest expense
+(1)
+(28,643)
+(7,821)
+Total interest income (expense), net
+$
+(18,032)
+$
+2,783
+(1)
+Interest expense increased in comparison to the prior year March 31, 2025 comparable period primarily as a result of the issuance of the Senior Notes in March 2025, as discussed further within
+Note 8
+.
+Other Income, Net
+Other income, net
+, was as follows (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Income from strategic investments, net
+(1)
+$
+196,600
+$
+167,321
+Realized and unrealized loss on marketable securities, net
+(2)
+(5,511)
+(23,400)
+Loss on foreign currency transactions, net
+(2,166)
+(803)
+Induced conversion of convertible debt
+—
+(28,666)
+Other, net
+87
+(51)
+Other income, net
+$
+189,010
+$
+114,401
+(1)
+Reflects the net realized and unrealized income associated with our strategic investments, during the three months ended March 31, 2026 and 2025, as discussed within
+Note 6
+.
+(2)
+Reflects the net realized and unrealized loss on marketable securities, during the three months ended March 31, 2026 and 2025, as discussed within
+Note 3
+.
+24
+Table of Conten
+ts
+Provision for Income Taxes
+The effective tax rate was 15.4%, for the three months ended March 31, 2026, compared to 18.8% for the three months ended March 31, 2025. The decrease in effective tax rate for the quarter was primarily driven by a nontaxable gain on an investment transaction and an increase in pre-tax book income, which reduced the relative impact of other permanent and discrete items.
+Provision for income taxes and effective tax rates were as follows (dollars in thousands):
+Three Months Ended March 31,
+2026
+2025
+Change
+Income before provision for income taxes
+$
+200,221
+$
+108,391
+$
+91,830
+Provision for income taxes
+$
+30,909
+$
+20,411
+$
+10,498
+Effective tax rate
+15.4
+%
+18.8
+%
+Net Income
+We recorded net income of $169.3 million for the three months ended March 31, 2026 compared to net income of $88.0 million for the three months ended March 31, 2025. Net income per basic share was $2.11 for the three months ended March 31, 2026 compared to $1.14 for the three months ended March 31, 2025. Net income per diluted share was $2.05 for the three months ended March 31, 2026 compared to $1.08 for the three months ended March 31, 2025.
+Non-GAAP Measures
+We utilize certain non-GAAP financial measures such as EBITDA, adjusted EBITDA, and adjusted gross margin as defined below to enhance understanding of our financial results and related measures. We have adjusted for expenses that we believe are not indicative of our core operating results. Our management uses these non-GAAP financial measures in evaluating our operating performance. We believe that both management and investors benefit from referring to these non-GAAP financial measures in assessing our performance, and when planning and forecasting our future periods. A reconciliation of GAAP to the non-GAAP financial measures is presented below.
+Beginning in the quarterly period ended March 31, 2026, we updated the calculation of Adjusted EBITDA to exclude all components of other income (loss), net – primarily resulting in incremental adjustments for foreign currency exchange gains and losses, net and fees incurred related to our Credit Agreement, as we do not consider these adjustments to be representative of our core operating results. For all comparable prior periods presented, our adjustment for other income (loss), net does not include the above incremental items, as the impact of this change on historical periods was determined to be de minimis. Accordingly, other income (loss), net for all comparable prior periods has not been recast and solely reflects adjustment for the impacts of net realized and unrealized gains on strategic investments and marketable securities, net realized gains on previously held minority interests acquired in business combinations and debt inducement expense.
+•
+EBITDA (most comparable GAAP measure: Net income) – Earnings before interest expense, investment interest income, income taxes, depreciation and amortization.
+•
+Adjusted EBITDA (most comparable GAAP measure: Net income) – Earnings before interest expense; investment interest income; income taxes; depreciation; amortization; all components of other income (loss), net, which is primarily comprised of fair value adjustments and income or losses related to strategic investments and marketable securities, debt inducement expense associated with the early repurchase of a portion of our 2027 Notes, foreign currency exchange gains and losses, net, and fees incurred related to our Credit Agreement; noncash stock-based compensation expense; transaction and integration costs related to strategic investments and acquisitions, including the change in fair value of contingent consideration arrangements; non-recurring severance costs, including employee cash payments, equity, and related benefits; costs (or subsequent recoveries of prior costs) related to certain legal or regulatory matters we consider outside of our core operating activities; mark-to-market adjustments on our non-qualified deferred compensation liabilities; payroll taxes related to Employee XSP vesting; losses incurred as a result of the disposal, abandonment, and impairment of property, equipment and intangible assets, net; and inventory step-up amortization related to acquisitions.
+•
+Adjusted gross margin (most comparable GAAP measure: Gross margin) – Gross margin before noncash stock-based compensation expense; amortization of acquired intangible assets; non-recurring severance costs, including employee cash payments, equity, and related benefits; and inventory step-up amortization related to acquisitions.
+25
+Table of Conten
+ts
+Although these non-GAAP financial measures are not consistent with GAAP, management believes investors will benefit by referring to these non-GAAP financial measures when assessing our operating results, as well as when forecasting and analyzing future periods. However, management recognizes that:
+•
+these non-GAAP financial measures are limited in their usefulness and should be considered only as a supplement to our GAAP financial measures;
+•
+these non-GAAP financial measures should not be considered in isolation from, or as a substitute for, our GAAP financial measures;
+•
+these non-GAAP financial measures should not be considered to be superior to our GAAP financial measures; and
+•
+these non-GAAP financial measures were not prepared in accordance with GAAP and investors should not assume that the non-GAAP financial measures presented in this Quarterly Report on Form 10-Q were prepared under a comprehensive set of rules or principles.
+26
+Table of Conten
+ts
+EBITDA and adjusted EBITDA reconcile to net income as follows (in thousands):
+Three Months Ended
+March 31, 2026
+December 31, 2025
+March 31, 2025
+Net income
+$
+169,312
+$
+2,745
+$
+87,980
+Depreciation and amortization
+29,346
+26,960
+19,195
+Interest expense
+28,643
+28,819
+7,821
+Investment interest income
+(10,611)
+(17,633)
+(10,604)
+Provision for (benefit from) income taxes
+30,909
+(68,982)
+20,411
+EBITDA
+$
+247,599
+$
+(28,091)
+$
+124,803
+Non-GAAP adjustments:
+Other (income) loss, net
+(189,010)
+4,880
+(115,255)
+Stock-based compensation expense
+133,685
+184,516
+140,239
+Transaction costs related to strategic investments and acquisitions
+6,488
+5,857
+2,727
+Severance costs
+(1)
+2,049
+31,816
+—
+Litigation and regulatory costs
+1,334
+1,266
+2,049
+Non-qualified deferred compensation liability adjustments
+(630)
+484
+—
+Payroll taxes related to Employee XSP vesting
+115
+4,986
+—
+Loss on disposal, abandonment, and impairment of property, equipment and intangible assets, net
+—
+629
+—
+Inventory step-up amortization
+—
+—
+607
+Adjusted EBITDA
+$
+201,630
+$
+206,343
+$
+155,170
+(1)
+For the three months ended March 31, 2026, non-recurring severance costs of $2.0 million consisted of
+stock-based compensation, cash payments and employee benefits.
+Adjusted gross margin reconciles to gross margin as follows (in thousands):
+Three Months Ended March 31,
+2026
+2025
+Connected Devices
+Software and
+Services
+Total
+Connected Devices
+Software and
+Services
+Total
+Gross margin
+$
+220,665
+$
+256,621
+$
+477,286
+$
+170,715
+$
+195,024
+$
+365,739
+Stock-based compensation expense
+5,775
+4,728
+10,503
+7,476
+5,411
+12,887
+Amortization of acquired intangible assets
+1,730
+7,236
+8,966
+1,337
+3,626
+4,963
+Severance costs
+(1)
+146
+20
+166
+—
+—
+—
+Inventory step-up amortization
+—
+—
+—
+607
+—
+607
+Adjusted gross margin
+$
+228,316
+$
+268,605
+$
+496,921
+$
+180,135
+$
+204,061
+$
+384,196
+Gross margin %
+48.7
+%
+72.4
+%
+59.1
+%
+50.1
+%
+74.2
+%
+60.6
+%
+Adjusted gross margin %
+50.4
+%
+75.8
+%
+61.6
+%
+52.8
+%
+77.7
+%
+63.6
+%
+(1)
+For the three months ended March 31, 2026, non-recurring severance costs recorded to cost of service and product sales of $0.2 million consisted of
+stock-based compensation, cash payments and employee benefits.
+27
+Table of Conten
+ts
+Liquidity and Capital Resources
+Summary
+March 31, 2026
+December 31, 2025
+Dollar Change
+Cash and cash equivalents
+$
+458,921
+$
+1,201,147
+$
+(742,226)
+Available-for-sale investments
+260,000
+505,417
+(245,417)
+Total
+$
+718,921
+$
+1,706,564
+$
+(987,643)
+Our most significant source of liquidity typically includes funds generated by operating activities and available cash and cash equivalents and short-term investments. As of March 31, 2026, we had $0.5 billion of cash and cash equivalents, a decrease of $742.2 million from December 31, 2025. As of March 31, 2026, we had $260.0 million of available-for-sale investments, a decrease of $245.4 million from December 31, 2025, primarily due to sales and maturities of available-for-sale securities during the period. Refer to
+Note 3
+in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional details.
+In addition, our Credit Agreement is available for additional working capital needs or investment opportunities. As of March 31, 2026, we had letters of credit outstanding of approximately $8.9 million under the facility and available borrowing of $291.1 million. Refer to
+Note 8
+in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional details.
+As of March 31, 2026, we have an aggregate of $1.75 billion of Senior Notes outstanding. As of March 31, 2026, none of our subsidiaries guarantee the Senior Notes. Our non-guarantor subsidiaries accounted for approximately 20% of our total revenue for the three months ended March 31, 2026, and approximately 20% and 7% of our total consolidated assets and liabilities (excluding the effect of intercompany transactions), respectively, as of March 31, 2026. Refer to
+Note 8
+in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional details.
+We believe we have access to additional financing. However, there is no assurance that such funding will be available on terms acceptable to us, or at all. We believe that our sources of funding will be sufficient to satisfy our currently anticipated cash requirements, including capital expenditures, working capital requirements, potential acquisitions or investments, income and payroll tax payments for net-settled stock awards, and other liquidity requirements through at least the next 12 months.
+Going forward, we expect to continue to be an opportunistic issuer of debt securities and may issue new debt securities from time to time to fund our growth or refinance future debt maturities, among other things. In addition, from time to time, we may acquire our debt securities through open market purchases, redemptions, privately negotiated transactions, tender offers, exchange offers or otherwise, upon such terms and at such prices as we may from time to time determine, for cash or other consideration.
+Cash Flows
+The following table summarizes our cash flows from operating, investing and financing activities (in thousands):
+Three Months Ended March 31,
+Dollar Change
+2026
+2025
+Operating activities
+$
+(31,517)
+$
+25,794
+$
+(57,311)
+Investing activities
+(616,937)
+(702,217)
+85,280
+Financing activities
+(92,288)
+1,313,226
+(1,405,514)
+Effect of exchange rate changes on cash and cash equivalents
+(1,495)
+1,192
+(2,687)
+Net increase (decrease) in cash and cash equivalents and restricted cash
+$
+(742,237)
+$
+637,995
+$
+(1,380,232)
+28
+Table of Conten
+ts
+Operating activities
+Net cash used in operating activities was $31.5 million for the three months ended March 31, 2026 compared to net cash provided by operating activities of $25.8 million for the three months ended March 31, 2025. The net operating cash outflow for the three months ended March 31, 2026 includes net income of $169.3 million, a net add-back of non-cash income statement items of $5.7 million and a $206.5 million net change in operating assets and liabilities.
+Primary drivers of the non-cash items include $134.7 million of stock-based compensation expense for employee equity programs and $30.4 million of depreciation and amortization, partially offset by $191.1 million in fair value adjustments for net realized and unrealized gains and losses on our strategic investments and marketable securities and $18.0 million for deferred income taxes. The realized and unrealized gains on our strategic investments were primarily related to an observable price change for one of our investees. The change in deferred income taxes was primarily driven by investment-related gains and a decrease in R&D capitalization, partially offset by unused R&D credit carryfowards and unvested stock-based compensation.
+The change in operating assets and liabilities includes $48.9 million of receivables and contract assets primarily driven by invoice cash collection and increased sales, $215.8 million of inventory and accounts payable primarily driven by commission and bonus payments and advanced raw material purchases for TASER 10 CEDs, counter-drone equipment, and AB4 to support future sales and $40.3 million of deferred revenue.
+Investing activities
+Net cash used in investing activities was $616.9 million for the three months ended March 31, 2026 compared to $702.2 million for the three months ended March 31, 2025. The net investing cash outflow is primarily driven by our acquisition of Carbyne for $549.7 million, $292.0 million for strategic investments purchases, and $23.1 million for purchases of property and equipment. The cash outflow was partially offset by $249.3 million of proceeds from calls, maturities and sales of available-for-sale and marketable securities investments. The decrease in net cash outflow compared to the prior period is primarily driven by reduced investments in available-for-sale securities, partially offset by the cash paid in the current year for the acquisition of Carbyne.
+Financing activities
+Net cash used in financing activities was $92.3 million for the three months ended March 31, 2026 compared to net cash provided by financing activities of $1.3 billion for the three months ended March 31, 2025. The financing cash outflow in the current period was primarily driven by $81.1 million of principal payments related to the redemption of our 2027 Notes. Furthermore, we had $10.2 million of income and payroll tax payments made on behalf of employees who net-settled stock awards during the period, as well as $2.0 million which remains unpaid as of three months ended March 31, 2026. The change in financing cash flow compared to the prior period primarily reflects gross proceeds of $1.8 billion from the Senior Note issuance, partially offset by principal payments of $407.5 million related to the induced conversion of our 2027 Notes during the three months ended March 31, 2025.
+29
+Table of Conten
+ts
+Critical Accounting Estimates
+Our management’s discussion and analysis of our financial condition and results of operation is based on our consolidated financial statements, which have been prepared in accordance with GAAP. The preparation of these consolidated financial statements requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue and expenses, and related disclosures. Our estimates are based on historical experience and various other assumptions that we believe to be reasonable under the circumstances, and we evaluate our estimates and assumptions on an ongoing basis.
+While we do not believe that a change in these estimates is reasonably likely, there can be no assurance th
+at our actual results will not differ from these estimates.
+Our critical accounting estimates are discussed in our 2025 Annual Report on Form 10-K for the fiscal year ended December 31, 2025. There have been no significant changes to these critical accounting estimates for the three months ended March 31, 2026.
+30
+Table of Conten
+ts
+Item 3.
+Quantitative and Qualitative Disclosures About Market Risk
+Interest Rate Risk
+We historically
+invested in various financial instruments which have consisted principally of money marke
+t accounts, certificates of deposit, and corporate and municipal bonds with a typical long-term debt rating of “A” or better by any nationally recognized statistical rating organization, denominated in U.S. dollars. All of our cash equivalents and investments are treated as “available-for-sale”.
+Based on investment positions as of March 31, 2026, no investments are subject to interest rate risk.
+Additionally, we have access to a $300.0 million line of credit borrowing facility which bears interest at SOFR plus 1.25 to 1.75% per year determined in accordance with a pricing grid based on our net leverage ratio and consolidated interest coverage ratio. Under the terms of the line of credit, available borrowings are reduced by outstanding letters of credit, which totaled
+$8.9 million at March 31, 2026. At March 31, 2026, there was no amount outstanding under the line of credit, and the available borrowing under the line of credit was $291.1 million. We have not bor
+rowed any funds under the line of credit since its inception; however, should we need to do so in the future, such borrowings could be subject to adverse or favorable changes in the underlying interest rate.
+Exchange Rate Risk
+Our results of operations and cash flows are subject to fluctuations due to changes in foreign currency exchange rates, in each case compared to the U.S. dollar, related to transactions by our foreign subsidiaries. The majority of our sales to international customers are transacted in foreign currencies and therefore are subject to exchange rate fluctuations on these transactions. The cost of our products to our customers increases when the U.S. dollar strengthens against their local currency, and we may have more sales and expenses denominated in foreign currencies in future years which could increase our foreign exchange rate risk. Additionally, intercompany sales to our non-U.S. dollar functional currency international subsidiaries are transacted in U.S. dollars which could increase our foreign exchange rate risk caused by foreign currency transaction gains and losses.
+T
+o date, we have not engaged in any currency hedging activities. However, we may enter into foreign currency forward and option contracts with financial institutions to protect against foreign exchange risks associated with certain existing assets and liabilities, certain firmly committed transactions, forecasted future cash flows and net investments in foreign subsidiaries. However, we may choose not to hedge certain foreign exchange exposures for a variety of reasons, including, but not limited to, the prohibitive economic cost of hedging particular exposures. As such, fluctuations in currency exchange rates could harm our business in the future.
+Item 4.
+Controls and Procedures
+Evaluation of Disclosure Controls and Procedures
+Our Chief Executive Officer and Chief Financial Officer are responsible for the evaluation of the effectiveness of our disclosure controls and procedures (as defined in Rules 13a-15(e) and 15d-15(e) under the Exchange Act) as of the end of the period covered by this Quarterly Report on Form 10-Q. Our disclosure controls and procedures are designed to ensure that information we are required to disclose in reports that we file or submit under the Exchange Act is (i) recorded, processed, summarized and reported within the time periods specified in the SEC’s rules and forms and (ii) accumulated and communicated to our management, including our Chief Executive Officer and Chief Financial Officer, as appropriate to allow timely decisions regarding required disclosure. Based on that evaluation, our Chief Executive Officer and Chief Financial Officer have concluded that our disclosure controls and procedures were not effective as o
+f March 31, 2026 du
+e to a material weakness in our internal control over financial reporting related to revenue recognition as disclosed in Part II, Item 9A of our 2025 Annual Report on Form 10-K for the fiscal year ended
+December 31, 2025
+.
+31
+Table of Conten
+ts
+Remediation Efforts to Address the Material Weakness Related to Revenue Recognition
+With respect to this material weakness, management, under the oversight of the Audit Committee, continues to execute the remediation plan as disclosed in Part II, Item 9A of our 2025 Annual Report on Form 10-K. We have completed the design and implementation of control activities to i) periodically assess our revenue accounting policies, ii) make updates to the policies to reflect changes in product offerings or terms and conditions of the arrangements with customers, and iii) monitor and appropriately account for our existing and new revenue streams.
+We expect to conclude that the material weakness is remediated once we determine that the applicable controls have operated effectively for a sufficient period of time.
+Changes in Internal Control Over Financial Reporting
+There have been no changes in our internal control over financial reporting (as defined in Rules 13a-15(f) and 15d-15(f) under the Exchange Act) during the quarter ended March 31, 2026 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting.
+PART II - OTHER INFORMATION
+Item 1.
+Legal Proceedings
+The discussion in
+Note 11
+to our consolidated financial statements included in Part I, Item 1 of this Quarterly Report on Form 10-Q is incorporated by reference herein.
+Item 1A.
+Risk Factors
+As of the three months ended March 31, 2026, there have been no significant changes to the risk factors outlined in our Annual Report on Form 10-K for the year ended December 31, 2025.
+Item 2.
+Unregistered Sales of Equity Securities and Use of Proceeds
+During the three months ended March 31, 2026, we redeemed $0.8 million aggregate principal amount of the 2027 Notes, and we settled conversions in respect of $80.3 million aggregate principal amount with $80.3 million in cash and issued 211,870 shares of our common stock. We relied on the exemption provided by Section 3(a)(9) of the Securities Act in connection with the issuance of 211,870 shares. In connection with these conversions, we received 41,139 shares from option counterparties in connection with partial termination of the Note Hedge and Warrants.
+Period
+Total number of shares purchased
+Average price paid per share
+Total number of shares purchased as part of publicly announced plans or programs
+Maximum number (or approximate dollar value) of shares that may yet be purchased under the plans or programs
+January 1, 2026 - January 31, 2026
+—
+—
+—
+—
+February 1, 2026 - February 28, 2026
+41,139
+(1)
+—
+—
+—
+March 1, 2026 - March 31, 2026
+—
+—
+—
+—
+(1)
+Represents shares of common stock received from option counterparties in connection with the partial termination of the Note Hedge and Warrants in February 2026, which is separate from the stock repurchase plan discussed in our 2025 Annual Report on Form 10-K
+Item 3.
+Defaults Upon Senior Securities
+None.
+32
+Table of Conten
+ts
+Item 4.
+Mine Safety Disclosures
+None.
+Item 5.
+Other Information
+The table below describes the contracts, instructions or written plans for the purchase or sale of securities adopted or terminated by our directors or officers (as defined in Rule 16a-1(f) under the Exchange Act) during the three months ended March 31, 2026, that are intended to satisfy the affirmative defense conditions of Rule 10b5-1(c).
+Name and Title
+Action
+Date of Termination or Adoption
+Expiration Date
+Aggregate Number of Securities to be Sold
+Joshua Isner
+,
+President
+Termination
+(1)
+March 3, 2026
+December 31, 2026
+52,480
+(3)
+Isaiah Fields
+,
+Chief Legal Officer
+Termination
+(2)
+March 9, 2026
+December 31, 2026
+7,125
+(3)
+Joshua Isner
+,
+President
+Adoption
+March 4, 2026
+December 31, 2026
+135,466
+(3)
+(1)
+Trading arrangement was originally adopted on December 17, 2025.
+(2)
+Mr. Fields was appointed as an officer, as defined in Rule 16a-1(f) under the Exchange Act, effective January 1, 2026. On March 9, 2026, he terminated this trading arrangement originally adopted on August 19, 2025. As Mr. Fields was not an officer subject to the disclosure requirements of Item 408(a) of Regulation S-K at the time of the adoption of this trading arrangement, no prior disclosure of this trading arrangement was made.
+No transactions were effected under the plan prior to its termination.
+(3)
+Reflects the maximum number of shares to be sold, excluding the effect of shares withheld for taxes.
+No other Rule 10b5-1 trading arrangements or “non-Rule 10b5-1 trading arrangements” (as defined by Item 408(c) of Regulation S-K) were
+entered into
+, modified, or
+terminated
+by our directors or officers during such period.
+Item 6.
+Exhibits
+3.1
+Amended and Restated Certificate of Incorporation (incorporated by reference to Exhibit 3.1 to the
+Quarterly Report on Form 10-Q, filed August 9, 2022)
+3.2
+Bylaws, as amended and restated (incorporated by reference to Exhibit 3.2 to the Current Report on Form 8-K, filed December 21, 2023)
+31.1*
+Principal Executive Officer Certification pursuant to Rule 13a-14(a) or Rule 15d-14(a)
+31.2*
+Principal Financial Officer Certification pursuant to Rule 13a-14(a) or Rule 15d-14(a)
+32**
+Principal Executive Officer and Principal Financial Officer Certification pursuant to 18 U.S.C. Section 1350 as adopted pursuant to Section 906 of the Sarbanes-Oxley Act of 2002
+101.INS*
+Inline XBRL Instance Document - the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document.
+101.SCH*
+Inline XBRL Taxonomy Extension Schema Document
+101.CAL*
+Inline XBRL Taxonomy Extension Calculation Linkbase Document
+101.DEF*
+Inline XBRL Taxonomy Extension Definition Linkbase Document
+101.LAB*
+Inline XBRL Taxonomy Extension Label Linkbase Document
+101.PRE*
+Inline XBRL Taxonomy Extension Presentation Linkbase Document
+104*
+The cover page from the Company’s Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, formatted in Inline XBRL
+_______________________________________
++
+Management contract or compensatory plan or arrangement
+*
+Filed herewith
+**
+Furnished herewith
+33
+Table of Conten
+ts
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned thereunto duly authorized.
+AXON ENTERPRISE, INC.
+Date:
+May 6, 2026
+By:
+/s/ PATRICK SMITH
+Chief Executive Officer
+(Principal Executive Officer)
+Date:
+May 6, 2026
+By:
+/s/ BRITTANY BAGLEY
+Chief Operating Officer and Chief Financial Officer
+(Principal Financial Officer)
+34

@@ -1,0 +1,130 @@
+{
+  "post_id": "222906",
+  "content_hash": "6e25aac0a2f5873c841d0e86231ce56704f328f1432628fa15fc1380079a9dc7",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "\"데이터센터가 건설이 너무 느리다\" | 10-09 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "한글날 연휴 직전 시황 정리로, 유가 104달러 재돌파와 국채금리 5.35% 급등에 OpenAI 연환산 매출이 기대보다 약 200억 달러 적다는 FT 보도가 겹쳐 나스닥이 조정받았다. 블룸버그는 반도체 생산은 빠르게 늘지만 데이터센터 건설이 전력 병목으로 느리다고 지적했고, 작가는 BE 같은 온사이트 전력주를 주목한다. 엔비디아의 미국 과학 분야 5년 10억 달러 약정, 테슬라 옵티머스 센서 특허, 힘스 펩타이드 규제 루머 등을 다뤘다. 다음 변수는 3분기 실적 시즌이며 작가는 코닝과 Allegro 추가 매수 기회를 노린다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "FT 보도에 따르면 OpenAI 연환산 매출이 기존 알려진 수치보다 약 200억 달러 적다.",
+      "tickers": [
+        "NVDA",
+        "ORCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "블룸버그 인텔리전스 설문에서 응답자의 66.7%가 전력 생산·전력망 확보를 가장 큰 문제로 꼽았고 반도체 공급 부족은 9.1%였다.",
+      "tickers": [
+        "VRT",
+        "ETN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "데이터센터 병목이 전력이므로 BE 같은 빠른 온사이트 에너지가 주목받을 수 있다.",
+      "tickers": [
+        "VRT",
+        "ETN"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 미국 Genesis Mission 2단계 참여로 5년간 10억 달러를 지원·투자한다고 발표했다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "3분기 실적에서 도이치뱅크는 기업 전체 약 34%, 대형 빅테크 약 54% 성장을 예상한다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)",
+      "due": "2026-11-15"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 옵티머스 손끝 촉각 센서 관련 특허가 확인됐다는 소개다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "시장은 12월 금리 인상 확률을 69%로 보고 있다고 서술한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "시장 급락 시 코닝과 Allegro MicroSystems를 추가 매수할 기회로 본다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "OpenAI 매출 하회 우려(부정)와 정부 과학 프로젝트 플랫폼 확대(긍정)가 상쇄되며 모두 2차 보도 기반이다."
+    },
+    {
+      "ticker": "ORCL",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "OpenAI 매출이 기대에 못 미치면 대규모 계약 의존도가 큰 오라클에 간접 부담이나 FT 보도 단독이라 근거가 약하다."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "전력·전력망이 데이터센터 최대 병목이라는 설문은 인프라 장비 수요 지속에 우호적이나 단일 설문이다."
+    },
+    {
+      "ticker": "ETN",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "전력 병목 부각은 전력 인프라 수요 thesis와 부합하지만 신규 공식 근거는 없다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "옵티머스 센서 특허는 장기 옵션 가치 정도의 정보다."
+    }
+  ],
+  "new_candidates": [
+    "BE",
+    "GLW",
+    "ALGM",
+    "HIMS"
+  ],
+  "portfolio_implication": "변경 없음. 전력 병목과 OpenAI 매출 우려는 방향성 정보이나 모두 2차 보도 기반이므로 공식 자료 확인 전에는 점수·비중 변경 사유가 못 된다."
+}

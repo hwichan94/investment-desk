@@ -1,0 +1,68 @@
+{
+  "post_id": "222163",
+  "content_hash": "4412b7d603cdd03c13829e40aa727216a36e3a1162c5bde957c983ad70e5cc32",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "조비가 겪고 있는 문제",
+  "author": "T3chfeed_테크피드",
+  "summary": "조비가 Aerosonic과의 영업비밀 소송에서 배심원단에게 전면 패소해 약 $116.9M 배상 평결을 받았고, 작성자는 이를 분석한다. 핵심 쟁점은 배상액보다 에어데이터 프로브 사용 금지명령이 FAA 인증을 지연시킬지 여부다. 작성자는 영구 금지명령 가능성을 5% 미만, 로열티·합의 형태 해결을 약 90%로 보며 회사 존립을 흔들 규모는 아니라고 평가한다. 다만 펀더멘탈 불확실성이 커졌다고 인정하면서 소량 추가 매수한다고 밝혔다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "플로리다 연방 배심원단이 조비의 영업비밀 침해를 인정하고 Aerosonic에 총 $116.9M 배상을 평결함",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함; 법원 문서 직접 확인 안 됨"
+    },
+    {
+      "kind": "FACT",
+      "text": "조비는 평결에 반대하며 재판 후 구제와 항소를 추진하겠다고 밝힘",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함"
+    },
+    {
+      "kind": "FACT",
+      "text": "2분기 기준 조비 현금성 자산 $2.26B, 분기 현금 소진 $220M, 매출 $38.6M",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "SEC 10-Q 원문을 직접 열어 확인하지 못함"
+    },
+    {
+      "kind": "OPINION",
+      "text": "영구 금지명령은 5% 미만, 로열티·합의가 약 90%, 항소 승소 5% 미만으로 본다",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "배상액은 감당 가능하나 로열티로 가면 수익성이 훼손되고 증자 가능성이 커진다",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "사후 신청 판단과 항소까지 최종 확정은 약 1년 소요",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2027-10-16"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "JOBY"
+  ],
+  "portfolio_implication": "변경 없음. JOBY는 universe에 없고 대안 우위 근거(공식 자료)도 없음. 소송 결과와 FAA 일정만 관찰 대상으로 유지."
+}

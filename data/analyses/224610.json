@@ -1,0 +1,120 @@
+{
+  "post_id": "224610",
+  "content_hash": "3d2332b1d2a9e6c4073e62460650387644994383c29cc1409caea90efc5baad8",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "AI 효과의 시차를 얘기한 케빈 워시, 시차를 버틸 수 있는 회사를 찾자",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "PPI 이후 변동성 속에서 케빈 워시 연준 의장이 AI의 공급 확대 효과를 언급해 10월 금리 인상 확률이 31%에서 14.9%로 떨어졌다고 전한다. 필자는 코어위브·네비우스·아이렌 같은 네오클라우드를 추가 매수했으며, 젠슨 황의 발언을 근거로 자금 조달 우려가 정점일 가능성을 본다. 반면 엔스케일·퍼머스는 지연과 높은 밸류로 상장이 어렵다고 평가한다. 구글의 매직 상태 기술 진전과 테슬라 로드스터 공개도 짧게 다룬다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "10월 금리 인상 확률이 대담 전 31%에서 14.9%로 하락",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "CME 등 공식 자료 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "젠슨 황이 엔비디아가 코어위브를 보증할 필요가 없고 자본비용이 줄고 있다고 말했다",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "블룸버그 인터뷰 원문 미확인",
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "네오클라우드의 자금 조달 우려는 지금이 정점이며 시차만 버티면 수익성이 부각된다",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "엔스케일 노르웨이 사이트가 6개월 지연되어 6.5MW 정도만 가동 중이고 계약 85%를 MS·Anthropic에 의존",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "출처 불명, 확인 안 함",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "구글 퀀텀AI가 Science에 매직 상태 배양 기술을 발표했고 오류를 약 40배 줄였다",
+      "tickers": [
+        "GOOGL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "논문·구글 공식 자료 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "뉴욕시가 NYU 양자 연구소에 3,000만 달러를 투자하고 수익의 15%를 받는 협약",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "시 정부 공식 자료 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라가 신형 로드스터를 공개했고 스페이스X 기술의 추진 기능을 시연",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "회사 공식 발표 미확인",
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "합병 명분이 쌓인다는 해석으로 테슬라·스페이스X 연결을 긍정 평가",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "필자는 낙관하지만 근거는 경영진 발언과 의견이다. CRWV의 부채·희석 리스크는 해소되지 않았고 universe 점수 변경 근거로 약하다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드 수요가 NVDA 점유율 유지에 필수라는 해석이지만 새 공식 데이터가 없다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "로드스터 시연은 상용화·마진과 무관한 이벤트다."
+    }
+  ],
+  "new_candidates": [
+    "NBIS",
+    "IREN",
+    "GOOGL"
+  ],
+  "portfolio_implication": "변경 없음. CRWV는 현재 target 0 관찰 종목이며 공식 실적·재무 근거가 없어 판단을 바꾸지 않는다. NBIS·IREN은 CRWV 대비 우위를 따로 검증해야 한다."
+}

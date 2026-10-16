@@ -1,0 +1,118 @@
+{
+  "post_id": "223860",
+  "content_hash": "ed708b84eae3b157ba88e832fd1dc01be35e658a7cac8acfa4b9eca999ef9bca",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "AI나 양자컴이 비트코인 알고리즘을 깨는 위험은 얼마나 될까? (ft. 브로드컴 억까)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "브로드컴 CEO가 AI 붐의 최대 제약이 자본이라고 말한 발언이 와전되며 매도세가 커졌고, 코스피는 두 달 만에 매도 사이드카가 발동했다. 작가는 AI 기업 실적은 호황 초입이나 고금리·유가 때문에 주가와 펀더멘털이 괴리된다고 진단한다. 메타 뮤즈 원더 출시, OpenAI·앤스로픽의 모델 경쟁이 에이전트용 CPU·메모리·데이터센터 수요를 늘릴 것으로 본다. 후반부는 AI·양자컴퓨터가 비트코인 타원곡선 암호를 깰 위험을 분석하며, 당장은 테일 리스크로 보고 비트코인 보유를 유지한다고 결론낸다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "브로드컴 CEO가 AI 연산 인프라 수요가 공급을 앞서며 불균형이 2029~2030년까지 갈 수 있고 가장 큰 제약은 자본이라고 말했다는 보도다.",
+      "tickers": [
+        "AVGO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "카지노 비유 기사는 OpenAI 단기 ARR만 보고 파는 사람들을 가리킨 말이 와전된 것일 가능성이 크다.",
+      "tickers": [
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "FACT",
+      "text": "삼성전자와 SK하이닉스는 2030년까지 생산 캐파 대부분이 계약돼 있는데 2028년 매출 기준 선행 PBR이 1 수준이라고 서술한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "10년물 금리가 5.22%에서 5.19%, 30년물이 5.60%에서 5.55%로 소폭 내렸다고 서술한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "메타가 뮤즈 원더를 출시하며 프론티어 수준 도달을 선언했으나 사용자 평가는 상위 모델에 약간 못 미친다는 전언이다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "에이전트 사용 증가가 CPU·메모리·데이터센터 수요를 키울 것이다.",
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI가 순수 알고리즘으로 비트코인 타원곡선을 깰 확률은 0에 가까우며 위험은 양자컴퓨터 가속 쪽이 더 크다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "양자컴퓨터가 2028~2029년 완성되면 공개키 노출 지갑 등 비트코인 공급의 최소 5%가 시장에 나올 수 있다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)",
+      "due": "2029-12-31"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤스로픽 계약 소식으로 아이렌 주가가 장중 +8%에서 마감 -2%로 돌아섰다고 서술한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CEO 발언의 해석이 엇갈리며 수요 강세 메시지가 원문이라면 thesis에는 우호적이나 2차 보도다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "자본 병목 우려와 에이전트 수요 확대가 상충하며 새로운 공식 근거는 없다."
+    },
+    {
+      "ticker": "INTC",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "에이전트용 CPU 수요 증가 서술은 우호적이나 일반론이다."
+    }
+  ],
+  "new_candidates": [
+    "IREN",
+    "NBIS",
+    "META"
+  ],
+  "portfolio_implication": "변경 없음. 자본 병목은 AI 인프라 밸류에이션의 거시 리스크이나 수요 thesis를 깨는 공식 근거는 없다. 브로드컴 발언 원문은 IR/보도 확인 후 반영한다."
+}

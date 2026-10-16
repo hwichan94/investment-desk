@@ -1,0 +1,131 @@
+{
+  "post_id": "223084",
+  "content_hash": "817e85295d256a3fd7c3df50b6c6e78cc0fe4a6fef4562965f35bbf422415a71",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "인사이더 테크리포트 2.0 Ep. 43 | 10월 2주차",
+  "author": "T3chfeed_테크피드",
+  "summary": "10월 2주차 인사이더 테크리포트로, 유가 100달러 이상과 국채금리 5.26%, 추가 인상 가능성에도 나스닥과 S&P가 신고가를 낸 상황을 '딥 바이어' 효과로 해석한다. 테슬라 3분기 인도량 상회와 사이버캡 등록 증가, 엔비디아 최선호주 유지, 팔란티어의 미 육군 NGC2 참여 등 애널리스트 리포트를 요약했다. 아이온큐·조비·힘스·템퍼스·코인베이스·휴머노이드·코닝에 대한 의견도 담았으며 작가는 조비를 소량 추가 매수했다고 밝힌다. 다음 주 은행 실적이 신고가를 뒷받침하는지 확인하겠다고 한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라 3분기 인도량이 컨센서스를 약 5.3% 상회했다는 도이치뱅크 분석이 인용됐다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "텍사스 등록 사이버캡이 169대에서 319대로 늘었다고 서술한다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "도이치뱅크는 에너지 저장 설치 전망 하향과 연간 EPS 추정 하향 조정을 지적했다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "모건스탠리가 엔비디아를 반도체 최선호주로 유지하고 2027년 매출총이익률 72~73% 방어를 전망한다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "팔란티어가 미 육군 18억 달러 규모 NGC2 계약에서 안듀릴의 클라우드 데이터 파트너로 참여한다는 William Blair 설명이다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "William Blair는 팔란티어 2026년 매출 약 81.6억 달러, 2027년 약 120.5억 달러를 전망한다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)",
+      "due": "2027-12-31"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "모건스탠리는 휴머노이드 누적 도입이 2040년 약 1.385억 대, 2050년 연 시장 7.5조 달러에 달할 수 있다고 추정한다.",
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)",
+      "due": "2040-12-31"
+    },
+    {
+      "kind": "FACT",
+      "text": "SEC가 기관 대상 가상자산 수탁 규정 개편안을 발표했다는 Compass Point 설명이다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "조비는 펀더멘털 악재가 생겼으나 소량씩 평단을 낮추며 추가 매수 중이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "인도량 상회와 로보택시 지표 개선(긍정) 대비 에너지 저장 전망 하향과 EPS 추정 하향(부정)이 공존한다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "최선호주 유지와 고객 다변화 논리는 기존 thesis와 일치하지만 증권사 의견 중심이다."
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "NGC2 참여와 정부 부문 성장 전망은 긍정적이나 계약 규모·귀속은 증권사 추정이다."
+    }
+  ],
+  "new_candidates": [
+    "IONQ",
+    "JOBY",
+    "HIMS",
+    "TEM",
+    "COIN",
+    "GLW",
+    "ALGM"
+  ],
+  "portfolio_implication": "변경 없음. 증권사 요약 위주이며 보유 종목에 대해 공식 자료로 확인된 새 사실이 없다. 테슬라 EPS 하향과 팔란티어 NGC2는 다음 공식 실적에서 확인한다."
+}

@@ -1,0 +1,132 @@
+{
+  "post_id": "224619",
+  "content_hash": "a75ee2c2939f90d9bce1919c957e1665ef780ce92bf968e29188633fa29c8939",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "🐹 AI 정리본: AI 버블? 비트코인은?",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "10월 15일 투자학개론 라이브의 AI 정리본으로 CPI 충격과 코어위브 CDS 1,117 신고점, 앤트로픽 3분기 매출 성장 둔화로 AI 섹터가 흔들린 상황을 다룬다. 작성자는 매출 둔화를 점유율 이동과 불법 증류 차단 영향으로 보고 AI 수요 둔화가 아니라고 해석한다. 오픈모델 확산은 네오클라우드의 GPU 수요에 유리하며 자금조달 우려는 4분기에 정점일 것으로 전망한다. 코어위브는 2027년 만기만 넘기면 상환 가능하고 엔비디아가 파산을 용인하지 않을 것으로 본다. 비트코인과 네오클라우드를 두 축으로 유지하며 로켓랩 뉴트론 2027년 연기를 부정적으로 평가한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "코어위브 5년 CDS가 982에 이어 1,117로 다시 신고점",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "시장 데이터 출처 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 분기 매출이 115억 달러에서 168억 달러로 약 46% 성장, 영업이익률 11%로 분기 흑자",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "비상장 회사 자료로 공식 공시 확인 불가"
+    },
+    {
+      "kind": "FACT",
+      "text": "10년물이 CPI 이후 5.31%까지 올랐다가 5.08%로 하락, 30년물 5.42% 부근",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "미 재무부 데이터 직접 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "로켓랩 뉴트론 첫 발사가 2027년으로 연기 발표",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "회사 IR 원문 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "스트라이브 워런트 94.3% 행사로 약 $7억 조달, 비트코인 보유 약 3.55만 개",
+      "tickers": [
+        "STRC"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "SEC 8-K 원문 미확인"
+    },
+    {
+      "kind": "OPINION",
+      "text": "앤트로픽 매출 둔화는 오픈AI로의 점유율 이동과 불법 증류 차단 때문이며 AI 총수요 둔화가 아니다",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "오픈모델 확산과 토큰 가격 하락은 제본스 역설로 GPU 연산 수요를 늘려 네오클라우드에 유리",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "코어위브는 2027년 만기를 넘기면 상환 가능하며 엔비디아가 파산을 용인하지 않을 가능성이 높다",
+      "tickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "AI 자금조달 우려는 2026년 4분기 정점이고 2027년부터 완화, 금리 인상도 한두 차례 후 멈춘다",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2027-03-31"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "하락장이 말기에 가까워졌으며 늦어도 중간선거 이후 시장이 회복된다",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "CDS 1,117 신고점은 부채 위험 지표 악화. 작성자의 방어 논리는 의견이라 목표 0% 유지."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "오픈모델 확산이 연산 수요에 우호적이라는 해석과 코어위브 지원 가능성 언급. 의견 위주."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "빅테크 채권 발행이 국채 수요를 줄여 장기금리를 올렸다는 분석은 CAPEX 자금조달 부담을 재확인."
+    },
+    {
+      "ticker": "ORCL",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드로 언급되며 CDS 250bp 기록 사례로만 인용. 새 정보 없음."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드 자금조달 악화는 고객 위험이라는 기존 main_risk와 일치."
+    }
+  ],
+  "new_candidates": [
+    "IREN",
+    "NBIS",
+    "RKLB",
+    "STRC",
+    "IONQ"
+  ],
+  "portfolio_implication": "변경 없음. 시장 의견과 라이브 Q&A 정리본으로 공식 근거가 없음. CRWV는 부채 위험 심화로 목표 0% 유지, 네오클라우드 고객 자금조달 위험은 VRT·NVDA·AVGO main_risk 모니터링 항목으로 유지."
+}

@@ -1,0 +1,96 @@
+{
+  "post_id": "223701",
+  "content_hash": "987f3f58f7367701b86659303d6a9bbf5908fcfbea31aa51581c312e3f0cb6a6",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "유가가 다시 전고점을 향해가는 지금 | 10-13 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "유가가 $106을 돌파해 인플레이션·금리 인상·성장주 부담 사이클이 재개됐고 소형주가 크게 하락한 날의 시황이다. S&P500은 신고가 근처지만 구성종목 40% 이상이 연초 대비 하락해 소수 AI 종목이 지수를 끌고 있다. 브로드컴 혹 탄이 AI 인프라의 다음 병목은 반도체가 아니라 자본이라고 말해 데이터 인프라·광통신주가 조정받았다. 테슬라 로보택시 운영시간 확대와 사이버캡 319대 한계, NHTSA 조사, 아이온큐 Elisity 인수 희석을 다루고 작성자는 플래닛랩스와 코닝을 소량 추가 매수했다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "사우디 공항 공격으로 유가가 $106을 넘어 4월 이후 최고",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함"
+    },
+    {
+      "kind": "FACT",
+      "text": "브로드컴 CEO가 DBS 컨퍼런스에서 웨이퍼·메모리 부족은 해소 중이며 가장 큰 제약은 AI 인프라 확장 자본이 될 수 있다고 발언",
+      "tickers": [
+        "AVGO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "2차 전언이며 컨퍼런스 원문 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 로보택시 운영시간이 17시간으로 확대되고 배차 개선, 사이버캡 319대, 2,500대 한도, NHTSA 인증 조사 진행",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함"
+    },
+    {
+      "kind": "FACT",
+      "text": "아이온큐가 Elisity 인수를 추진하며 약 3천만 주 추가 발행, 약 8% 희석 예상",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "SEC 공시 원문 미확인"
+    },
+    {
+      "kind": "OPINION",
+      "text": "미국 증시 강세 뉴스는 AI 관련 주식에만 해당하며 소수 승자가 지수를 끌어올린다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "코닝은 CPO 도입과 메타·엔비디아·아마존 계약으로 향후 3~5년 구조적 수혜이므로 하락 시 매수한다",
+      "tickers": [
+        "GLW"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "3분기 실적에서 빅테크 고객의 재정 상태와 힘스 호주 가이던스를 확인해야 함",
+      "tickers": [
+        "AVGO",
+        "HIMS"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-15"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CEO가 병목을 자본으로 언급한 것은 수요 둔화가 아니라 고객 자금조달 위험 신호. 이미 main_risk에 포함된 내용이라 방향 변화는 없음."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "운영시간 확대는 긍정이나 사이버캡 대수 한계와 NHTSA 조사가 상쇄."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "데이터 인프라주 조정이 있었으나 개별 악재는 없음. 고객 자금조달 위험을 계속 추적."
+    }
+  ],
+  "new_candidates": [
+    "GLW",
+    "IONQ",
+    "HIMS",
+    "PL"
+  ],
+  "portfolio_implication": "변경 없음. 단기 조정과 CEO 발언만으로 AVGO 점수를 바꿀 근거는 부족. 3분기 실적에서 빅테크 CAPEX·자금조달 확인 후 재검토."
+}

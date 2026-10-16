@@ -1,0 +1,137 @@
+{
+  "post_id": "222010",
+  "content_hash": "713bf1164c20a28648e6dd2692f2b00d19d78490a47c67110b52896caab6a13c",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "🎓10월 1주차 유튜브 라이브(10.04)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "일요일 유튜브 라이브 Q&A 정리본이다. 이란 전쟁 장기화와 장기채 금리 급등이 시장을 누르고 있으나 기업 실적은 계속 성장해 밸류에이션이 싸지고 있으며, 중간선거 전후가 전환점일 수 있다고 본다. 금리 인상기에도 성장률이 가장 높은 AI(프론티어 랩·클라우드·반도체)가 상대적으로 안전하다고 주장한다. CPU·메모리 부족이 2027~2030년까지 이어질 것으로 보고, 인텔 테라팹에 TSMC가 참여해도 부정적이지 않다고 답한다. 작가 본인 포지션(아이렌, 비트코인 트레저리, 하이퍼리퀴드 등)과 비중 조절 방식도 언급한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "OPINION",
+      "text": "이란 전쟁과 장기채 금리 상승이 시장을 눌러 왔고, 중간선거 전후로 전쟁이 끝나며 반등 계기가 될 수 있다고 본다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "OPINION",
+      "text": "금리 인상 국면에서도 성장률이 높은 AI 섹터가 가장 안전하며, 저성장·레버리지 업종이 더 큰 타격을 받는다.",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "에이전트 확산으로 CPU와 메모리 공급 부족이 2027~2030년까지 이어진다.",
+      "tickers": [
+        "INTC",
+        "AVGO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)",
+      "due": "2027-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "인텔 테라팹에 TSMC가 함께 참여하더라도 프로젝트 성공에 도움이 되므로 인텔에 부정적이지 않다.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "FACT",
+      "text": "마이크론 EPS가 전년 대비 큰 폭으로 증가하는데도 주가는 오르지 못해 밸류에이션이 낮아지고 있다고 서술한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 아이렌 주식 3천만 주를 주당 70달러에 취득할 권리를 가진다고 언급한다(악재로 보지 않음).",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "코어위브는 내년 용량을 미리 계약해 단가 상승 수혜를 덜 받고 부채 부담이 크며, 아이렌은 미계약 용량이 많아 수혜가 크다고 비교한다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "OPINION",
+      "text": "테슬라는 스페이스X의 존재와 전기차 추세 때문에 지금은 매력이 애매해 추가 매수를 하지 않고 있다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "OPINION",
+      "text": "향후 3년 비트코인 트레저리 회사(스트라이브 등)에서 큰 상승을 기대하며 비트코인 중심 포트폴리오를 유지한다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "INTC",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "테라팹에 TSMC 참여 가능성은 작가 의견일 뿐이며 인텔 thesis를 바꿀 공식 근거는 없다."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "고금리 속 부채 부담과 내년 용량 선계약으로 인한 단가 상승 미수혜 지적은 작가 의견이며 공식 자료로 확인하지 못했다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "작가가 테슬라 비중을 늘리지 않는다는 개인 포지션 언급으로 근거가 약하다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AI 인프라 수요 지속 서술은 기존 thesis와 일치하나 새 증거는 없다."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CPU·메모리 병목 서술은 일반론이며 브로드컴 직접 근거는 없다."
+    }
+  ],
+  "new_candidates": [
+    "IREN",
+    "MU",
+    "RKLB",
+    "IONQ"
+  ],
+  "portfolio_implication": "변경 없음. 거시 전망과 작가 개인 포지션 설명이 중심이며 보유 종목의 공식 지표 변화는 없다. IREN·MU 등은 가격·공식 자료 검토 전까지 관찰만 한다."
+}

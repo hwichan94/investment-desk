@@ -1,0 +1,118 @@
+{
+  "post_id": "224188",
+  "content_hash": "a6d6095927196f3885c1f0b6965afebe151aae02ffb8f0481fe27ee600636ef9",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "CPI가 뜨겁게 나왔습니다. | 10-15 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "10월 15일 시황 정리로 9월 CPI가 예상 3.6%보다 높은 3.7%로 나왔고 근원 물가까지 올라 추가 금리 인상 우려가 커졌다. 부채로 AI 인프라를 확장하는 기업이 크게 밀렸으며 코어위브 회사채 수익률이 15%까지 올라 수주잔고는 늘지만 잉여현금흐름이 악화되는 점을 지적한다. 은행·금융 실적과 AI 도입에 따른 생산성 개선 사례, 엔비디아 AI-defined fab 발표가 소개됐다. 로켓랩 뉴트론 발사 연기와 아이온큐 20억 달러 추가 증자 같은 개별 악재도 다뤘다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "9월 CPI가 예상 3.6% 대비 실제 3.7%로 높았고 근원 항목도 올랐다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "코어위브 회사채 수익률이 15%까지 올랐다고 서술한다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "코어위브는 수주잔고는 건강하나 잉여현금흐름이 악화되고 금리 상승 시 타격이 커질 수 있다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "OPINION",
+      "text": "부채로 인프라를 짓는 AI 기업 전반이 금리 상승에 취약하다.",
+      "tickers": [
+        "CRWV",
+        "ORCL"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 AI-defined fab 생태계를 발표했고 Lam 식각 시뮬레이션 최대 30배, Applied 챔버 시뮬레이션 최대 35배 등 가속 수치를 제시했다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "뱅크오브아메리카·모건스탠리·패스널이 실적 발표에서 AI 도입에 따른 효율 개선을 언급했다고 정리한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "로켓랩 뉴트론 발사가 2027년으로 연기됐고 1단 구조물 시험은 2027년 1분기 완료 예정이라고 한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "FACT",
+      "text": "아이온큐가 10월 14일 20억 달러 규모 추가 자금 조달을 발표했고 이번 주 총 33억 달러 규모 희석 이슈가 겹쳤다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "현재는 AI 투자 사이클 3년차이며 빅테크 대기 자금이 3~5조 달러라는 외부 발언을 소개한다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "MEDIUM",
+      "rationale": "회사채 수익률 15%와 FCF 악화 지적은 자금조달 비용과 현금흐름 리스크를 키운다. 회사채 수치는 공식 자료 확인 전이다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "AI-defined fab 생태계는 GPU 활용 확장 신호이나 정량 수치는 파트너 주장이다."
+    },
+    {
+      "ticker": "ORCL",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "부채 기반 AI 인프라 확장의 금리 민감도는 오라클에도 해당하나 직접 언급은 없다."
+    }
+  ],
+  "new_candidates": [
+    "RKLB",
+    "IONQ",
+    "HIMS"
+  ],
+  "portfolio_implication": "변경 없음. 금리 상승으로 CRWV 부채 리스크를 재점검할 필요는 있으나 회사채 수익률과 FCF는 공식 자료(10-Q/채권 공시)로 확인되지 않아 현재 점수·비중은 바꾸지 않는다."
+}

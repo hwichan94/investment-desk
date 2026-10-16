@@ -1,0 +1,70 @@
+{
+  "post_id": "221984",
+  "content_hash": "e10916f49302aeda3f1ea2ef0fc8bb3a4c045e40441fe99366b173b71b7cbef0",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "금리 인상 걱정이 줄어든 이번 주 | 10-05 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "고용지표 둔화로 추가 금리 인상 부담이 줄었지만 10년물 5.3%, 이란·OPEC 등 에너지 변수가 남아 있다는 주간 시황 글이다. 나스닥은 연초 대비 22% 오르며 신고가를 유지하고, 시장은 AI 성장 기대와 3분기 기술주 EPS 급증 전망에 기대고 있다. 테슬라 로보택시 앱이 유럽·호주 앱스토어에 등록돼 병목이 기술보다 규제라는 해석을 제시한다. 조비의 자율 화물 비행 성과와 엔비디아 투자 Reflection의 오픈모델 준비도 짧게 다룬다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "나스닥이 연초 대비 약 22% 상승하며 신고가, S&P500은 고점 대비 1% 미만 하락 상태",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함"
+    },
+    {
+      "kind": "FACT",
+      "text": "블룸버그 인용: 3분기 기술 섹터 EPS가 전년 대비 65% 이상 증가 전망, S&P500 EPS는 24% 이상 증가",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함 (2차 인용)"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 로보택시 앱이 독일·이탈리아·호주 앱스토어와 구글 플레이에 등록됨",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함"
+    },
+    {
+      "kind": "OPINION",
+      "text": "테슬라 로보택시의 병목은 기술이 아니라 각국 무인운전 규제 승인이다",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "FACT",
+      "text": "조비 J208이 미국 횡단 자율비행을 완료했고 누적 400회 이상 비행을 기록했다고 회사가 밝힘",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료(IR·SEC·정부 통계)로 직접 확인하지 못함"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "고용 둔화 신호가 이어지면 금리 인상 부담이 완화되고 4분기 실적 랠리가 시장을 지지할 것",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-30"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "해외 앱 등록은 상용화 의지 신호지만 운행 개시나 규제 승인은 아니라 thesis를 바꾸지 못함."
+    }
+  ],
+  "new_candidates": [
+    "JOBY"
+  ],
+  "portfolio_implication": "변경 없음. 거시 시황 요약이며 보유 종목 목표 비중을 바꿀 새로운 공식 근거가 없음. TSLA 로보택시 해외 규제 승인 여부만 추적."
+}

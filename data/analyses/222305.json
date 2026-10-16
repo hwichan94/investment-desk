@@ -1,0 +1,72 @@
+{
+  "post_id": "222305",
+  "content_hash": "e36aef86fd49e5519d183906f07c661148051d4589ab2750a33a3cc4b2620160",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "폐렴형 흑사병이 새로운 코로나가 되진 않을까? (ft. CFTC 규제 발표)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "폐렴형 흑사병 의심 사례(러시아 이르쿠츠크 연구소 직원 사망 후 격리)를 모니터링 이슈로 공유하고, 확산 가능성은 낮지만 주시가 필요하다고 본다. CFTC가 암호자산 거래·시장 규정에 대한 사전 규칙제정을 예고하고 60일 의견 수렴을 시작했으며, 클래리티 법안 부결에도 규제 당국 차원의 규제망이 진척되는 점을 호재로 본다. 작가는 이번 주 국채 입찰 결과가 시장 공포를 가를 것으로 보고, 최근 강했던 엔비디아·스페이스X를 줄여 고금리에 눌린 종목을 보충했으며 현금과 비트코인 관련 비중은 유지했다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "러시아 이르쿠츠크 항페스트 연구소 직원이 사망한 뒤 주변인 200명과 병원 5곳이 격리됐다는 보도가 있다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "폐렴형 흑사병은 전파가 코로나만큼 쉽지 않을 수 있으나 변이 가능성 때문에 추적이 필요하다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "FACT",
+      "text": "CFTC가 암호자산 거래 규정과 시장 규정에 대한 사전 규칙제정을 발표하고 60일 의견 수렴에 들어갔다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    },
+    {
+      "kind": "OPINION",
+      "text": "클래리티 법안 부결에도 SEC·CFTC 규제망이 형성되는 것이 코인 시장에는 오히려 호재다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": "의견"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "실적 시즌이 오면 채권시장 공포가 줄어들 것이다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)",
+      "due": "2026-11-30"
+    },
+    {
+      "kind": "FACT",
+      "text": "작가는 최근 강했던 엔비디아를 줄여 고금리 우려로 부진한 종목을 보충했다고 밝힌다(개인 포지션).",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "작가의 차익 실현 언급일 뿐 thesis 변화 근거가 아니다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 감염병은 근거가 약한 모니터링 이슈이고 암호자산 규제는 현재 보유·후보 종목과 직접 관련이 없다."
+}

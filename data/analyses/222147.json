@@ -1,0 +1,108 @@
+{
+  "post_id": "222147",
+  "content_hash": "64f4ba1569c8118e82aca4191b23d43edd7c589822a05f944d5da29f7e14bf43",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "나스닥, 엔비디아 신고가 경신 | 10-06 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "10월 6일 미국 시황 정리다. 유가 하락과 G7 비축유 방출에도 10년물 금리가 5.3%를 넘었지만 엔비디아 신고가가 나스닥 최고 종가를 이끌었다고 본다. 팔란티어는 미 육군 TACTMIS 탄약관리 시스템 첫 버전이 Vantage 플랫폼과 연결된다는 점, 테슬라는 독일 9월 등록 급증과 Giga Berlin 증산 계획을 긍정 신호로 짚는다. 조비 에비에이션은 소송 배상 평결에도 소량 분할 추가매수 의사를 밝혔다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "10년물 국채금리가 5.3%를 넘어 2002년 이후 최고 수준이라는 주장",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "미 육군이 TACTMIS 첫 버전을 배포했고 팔란티어 기반 Vantage와 연결된다",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "육군·회사 공식 자료 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 독일 9월 신규 등록 12,552대, 전년 대비 +268%",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "KBA 등 공식 통계 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "Giga Berlin이 주당 생산을 약 20% 늘려 7,500대 수준으로 확대할 계획",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "회사 공식 발표 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "마이크로소프트·메타가 내부 Claude 사용을 줄이는 반면 고객의 Anthropic 지출은 증가세라는 주장",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "언론 인용 추정, 공식 확인 없음",
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "엔비디아 랠리가 앞으로도 계속된다",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "조비 에비에이션이 $116.9M 배상 평결을 받았고 이는 현금의 약 5%",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "법원·SEC 공시 미확인",
+      "due": null
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "육군 데이터 인프라 확장 사례로 정부 부문 논리에 부합하나 단일 시스템이고 매출 규모 정보가 없다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "유럽 수요 회복 신호지만 한 달 등록 수치이고 전년 기저가 낮았을 수 있으며 본업 마진 정보는 없다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "신고가와 낙관은 가격 모멘텀 서술일 뿐 펀더멘탈 새 근거가 없다."
+    }
+  ],
+  "new_candidates": [
+    "JOBY"
+  ],
+  "portfolio_implication": "변경 없음. 시황 정리이며 공식 근거 없는 단기 신호라 목표 비중을 바꿀 사유가 아니다. JOBY는 고위험 소형 후보로 관찰만 한다."
+}

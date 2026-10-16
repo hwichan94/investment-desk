@@ -1,0 +1,57 @@
+{
+  "post_id": "222118",
+  "content_hash": "11ebebf46fe818afe2f128e2cf6a565945a5d19441e621e35dfd85708dacb2e3",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "붕괴냐 폭등이냐, 양극단으로 나뉘는 10월 전망...투자 전략은?",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "10월 시장은 장기금리(10년물 5.2~5.3%대)가 유일한 압박 요인이며, 경제지표와 실적은 양호하다는 시황 글이다. S&P 500은 고점 부근이지만 엔비디아 등 상위 10개 기업 편중에 따른 착시이고 다수 종목은 52주 신저가라고 진단한다. 작성자는 늦어도 실적 시즌에는 금리와 무관하게 상승할 것으로 보고 AI 인프라와 비트코인 섹터에 가장 큰 비중을 두며, 붕괴 가능성은 현금으로 대응한다고 밝힌다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "10년물 금리가 5.175%까지 하락했다가 5.28%로 되돌렸고 10월 금리 인상 확률은 17% 수준이라고 전함",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "금리·확률 수치는 글 인용, 공식 자료(Treasury/CME) 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 S&P 500 비중 8% 이상, 상위 10개 기업이 지수의 40% 이상이며 구성종목 약 370개가 52주 신저가라고 주장",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED"
+    },
+    {
+      "kind": "OPINION",
+      "text": "고금리 환경에서 가장 안전한 것은 AI 섹터와 현금흐름 좋은 빅테크, 가장 위험한 것은 저성장 섹터라는 견해",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "늦어도 3분기 실적 시즌을 지나면서 금리와 무관하게 시장이 상승세를 보일 것이라는 전망",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-30"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 인프라는 자금조달 우려가 완화되면 가장 큰 수혜를 보며, 상승을 놓치는 리스크가 더 크다는 판단",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "시장 편중의 중심이라는 점은 확인되나 개별 thesis를 바꾸는 새 정보는 없음"
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 거시 시황 의견이며 종목별 근거가 없고, 작성자의 상승 전망은 단일 의견이라 목표 비중에 반영하지 않음."
+}

@@ -1,0 +1,63 @@
+{
+  "post_id": "224542",
+  "content_hash": "b2255230d4f55c8ab89d482cd53393c18d01cdba0807fc3a5d92da6cbc54758f",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "테슬라 로드스터 공개, 정말로 날았습니다.",
+  "author": "T3chfeed_테크피드",
+  "summary": "테슬라 라이브 행사에서 로드스터가 공개되어 실제로 비행했다는 짧은 영상 글이다. 작성자는 스페이스X 기술이 테슬라에 그대로 적용된 점에서 합병 메시지로도 읽힌다고 말한다. 바클레이스가 연말 합병설을 제시했으나 민감 기술과 국제 승인 때문에 올해 안 실현은 의문이라고 본다. 옵티머스 공개가 더 충격적일 것이며 로드스터 광고 효과가 실제 판매로 이어질지 지켜보겠다고 한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라가 로드스터를 공개했고 라이브에서 비행 시연이 이루어졌다고 전함",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "테슬라 공식 자료 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "바클레이스가 연말 스페이스X-테슬라 합병설을 제시했다고 언급",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "리포트 원문 미확인"
+    },
+    {
+      "kind": "OPINION",
+      "text": "합병이 올해 안에 통과되기는 어렵다는 판단(민감 기술, 국제 승인)",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "옵티머스 공개가 로드스터보다 더 충격적일 것이라는 기대",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED"
+    },
+    {
+      "kind": "OPINION",
+      "text": "로드스터가 큰 광고 효과를 주겠으나 실제 판매 연결은 지켜볼 문제",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "브랜드·기술 신호이나 제품 수익성, 로보택시, 옵티머스 일정에 대한 구체 증거는 없음"
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 제품 이벤트와 합병 추측 수준이며 공식 근거와 수치가 없음."
+}

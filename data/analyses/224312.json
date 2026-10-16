@@ -1,0 +1,71 @@
+{
+  "post_id": "224312",
+  "content_hash": "097c733eda6201909f57d3bd6c51eff3be49504e002c434ef13797685fb46780",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "간만에 신경안정제가 필요한 공포의 시장...!",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "CPI가 예상보다 높게 나와 시장이 급락한 날, 작성자가 하락장은 기회를 평가하는 시기라며 장기 투자 원칙을 정리한 글이다. 앤스로픽의 3분기 매출이 2분기 115억 달러에서 168억 달러로 46% 늘고 조정 영업이익률이 11% 이상이라는 점을 들어 AI 연산 인프라와 네오클라우드의 필요성을 강조한다. 엔비디아가 금융사들과 대규모 AI 인프라 자금 조달망을 구축하는 것도 네오클라우드 자본 병목 해소 목적으로 해석한다. 라이브에서 AI, 비트코인, 우주, 양자 투자 가설을 점검한다고 예고한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "앤스로픽 3분기 매출이 168억 달러로 2분기 115억 달러 대비 46% 증가, 조정 총이익률 85%, 조정 영업이익률 11% 이상",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "비상장사 수치로 공식 공시 확인 불가, 보도 의존"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 블랙록·블랙스톤·골드만삭스 등과 수천억 달러 규모 AI 인프라 자금 조달 플랫폼 구축",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "언론 보도 인용, 엔비디아 공식 자료 미확인"
+    },
+    {
+      "kind": "OPINION",
+      "text": "연산 인프라가 AI 성장의 병목이며 프론티어 랩과 엔비디아가 존속하는 한 네오클라우드 수요는 커진다는 견해",
+      "tickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "네오클라우드는 엔비디아가 빅테크 자체 칩 의존을 벗어나는 데 필수적이라는 판단",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "하락장에서 투자 가설이 유지된다면 가격이 낮을수록 손익비가 좋아지므로 현금을 활용해 기회를 잡아야 한다는 원칙",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "프론티어 랩 매출 고성장은 연산 수요 방향에 우호적이나 비공식 수치이며 CRWV 자체 지표(수주잔고, 자금조달 비용)와는 별개"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "금융 파트너십을 통한 고객 자금 조달 확대가 수요를 지지한다는 해석이나 확인 전"
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 작성자 개인의 투자 철학과 비공식 매출 수치이며, CRWV·NVDA 판단은 공식 실적과 자금조달 조건으로 확인해야 함."
+}

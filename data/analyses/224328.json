@@ -1,0 +1,58 @@
+{
+  "post_id": "224328",
+  "content_hash": "9807d5bc79f7288fa130489535bdaef59c00f0f009a390a733c57f32d505091f",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "아이온큐는 대체 무엇을 하려는 것일까",
+  "author": "T3chfeed_테크피드",
+  "summary": "아이온큐의 주식 희석 소식을 주당 매출·주당 매출총이익 관점에서 점검한 글이다. 지금까지는 주당 지표가 우상향이라 문제 신호가 없지만 3분기 실적에서 계속 확인해야 한다고 한다. 희석 자체보다 한 주가 만드는 가치가 커지는지가 핵심이며, 선물 하락과 이란 전쟁 불확실성으로 적자 소형주가 타격받는 시점의 희석은 아쉽다고 평가한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "아이온큐의 주당 매출과 주당 매출총이익이 현재까지 우상향",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "재무제표 계산 안 함",
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "희석이 주당 가치를 키우면 정당화되고, 그렇지 않으면 위험하다",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "3분기 실적에서 주당 매출·총이익이 유지되는지 확인해야 한다",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": "2026-11-30"
+    },
+    {
+      "kind": "OPINION",
+      "text": "이란 전쟁이 진정돼야 물가와 금리 기대가 개선되어 주식 시장이 턴어라운드한다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "IONQ"
+  ],
+  "portfolio_implication": "변경 없음. 아이온큐는 보유·후보 밖의 고위험 소형주이며 희석 점검 프레임 외에 새 사실이 없다."
+}

@@ -1,0 +1,61 @@
+{
+  "post_id": "224055",
+  "content_hash": "13f8cea994a687d0f92a6c3b90af429c9bfd26972c11b7e0df1d7ea844c104ae",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "\"버블이다\" vs \"아니다\"",
+  "author": "T3chfeed_테크피드",
+  "summary": "AI 버블 논쟁에서 시스코와 엔비디아를 비교한 글이다. 시스코는 신생 기업이 주 고객이었고 PER 약 100배에서 정점을 찍은 반면 엔비디아는 성숙한 빅테크가 고객이며 PER 약 29배라는 점이 다르다고 본다. 다만 빅테크 38.7% 집중도 때문에 2027년 변동성을 경계해 신규 매수를 비중 5% 미만 트레이딩 종목으로 제한하고 현금을 확보 중이다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "엔비디아 현재 PER 약 29배, 시스코는 2000년 정점에서 약 100배",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "출처·계산 기준 불명, 공식 확인 안 함",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "빅테크가 시장에서 차지하는 집중도가 38.7%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "산출 기준 불명",
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "엔비디아의 고객이 성숙한 플랫폼 기업이라 시스코식 붕괴와 본질이 다르다",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "2027년 변동성이 커질 수 있고 중간에 큰 조정이 올 수 있다",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": "2027-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "버블 여부 논쟁이며 구체 펀더멘탈 근거가 없다. 집중도 리스크는 현금 비중 정책의 참고만 된다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 의견성 글이며 현금 5% 하한 정책과 방향이 같을 뿐 새 근거는 없다."
+}

@@ -1,0 +1,78 @@
+{
+  "post_id": "222689",
+  "content_hash": "7ae383d2440675eff445390fcbc6af531027cf9395cd502b9a4fa52bd6a353cf",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "바이오에 무슨 일이 벌어지고 있나",
+  "author": "T3chfeed_테크피드",
+  "summary": "앱셀레라 ABCL635 2상 성공 이후 달아오른 바이오 섹터를 AI 데이터 관점에서 정리한 글이다. 깅코 바이오웍스는 자동화 실험실(RAC)과 노보 노디스크, 미 에너지부 EMSL 연결로 한 달간 약 65% 올랐지만 재무·유상증자 압박이 있다고 본다. 템퍼스 AI는 실세계 임상 데이터 인프라로 평가하며 10/08 종가 기준 P/S를 깅코 6.6, 템퍼스 8.9, 앱셀레라 52.5로 제시한다. 매수·매도 의견이 아닌 밸류에이션 의견이라고 선을 긋는다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "노보 노디스크가 9월 15일 깅코 RAC 도입, 9월 16일 Anthropic과 협력 발표",
+      "tickers": [
+        "DNA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "회사 공식 발표 미확인",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "10/08 종가 기준 P/S는 깅코 6.6, 템퍼스 8.9, 앱셀레라 52.5",
+      "tickers": [
+        "DNA",
+        "TEM",
+        "ABCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "재무제표 기반 재계산 안 함",
+      "due": null
+    },
+    {
+      "kind": "FACT",
+      "text": "모더나·머크 V940 3상 성공, 앱셀레라 ABCL635 2상 성공",
+      "tickers": [
+        "MRNA",
+        "ABCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 보도자료 미확인",
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "데이터가 생성되는 길목(자율실험실, 임상 데이터)이 AI 바이오의 핵심 경쟁력이다",
+      "tickers": [
+        "DNA",
+        "TEM"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    },
+    {
+      "kind": "OPINION",
+      "text": "템퍼스는 깅코보다 약간 높은 P/S가 저평가이거나 깅코가 과도하게 눌린 상태일 수 있다",
+      "tickers": [
+        "TEM",
+        "DNA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null,
+      "due": null
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "TEM",
+    "DNA",
+    "ABCL"
+  ],
+  "portfolio_implication": "변경 없음. 바이오 AI는 현 보유·후보와 무관하고 고위험 소형주다. 편입하려면 보유 종목 대비 우위, KPI, 재원 검토가 필요해 지금은 관찰만 한다."
+}

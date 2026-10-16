@@ -1,0 +1,74 @@
+{
+  "post_id": "222934",
+  "content_hash": "3e8031c3e5e3fea02f4a993fe2c5fbe9c710e8340d6a6bb34375adbd69adba5f",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "막상 해보니 수요는 견조했던 미국채 입찰, 약세장 끝물일까?",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "30년물 국채 입찰 호조로 장기금리 급등세가 안정화됐으나 오픈AI ARR이 500억 달러로 보도되며 700억 달러 기대에 못 미쳐 AI·반도체주가 급락했다는 글이다. 작성자는 기존 400억 달러가 총액 기준이었고 순매출 기준으로는 300억에서 500억 달러로 정정된 것이라고 해석하며, AI 인프라 투자 근거는 훼손되지 않았다고 본다. 약세장 종료와 중간선거까지 지속 확률을 반반으로 보고, 스트라이브 일부를 덜어 AI 인프라를 보충하는 리밸런싱을 계획한다. 러시아 폐렴형 페스트 후속 소식도 덧붙였다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "10년물 금리가 5.36%에서 5.21%로, 30년물이 5.73%에서 5.61%로 입찰 이후 하락",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Treasury 공식 데이터 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "오픈AI ARR이 순매출 기준 500억 달러로 보도되어 기존 700억 달러 기대에 못 미침",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "비상장사이며 공식 공시 없음, 언론 보도 의존"
+    },
+    {
+      "kind": "FACT",
+      "text": "오픈AI 이슈로 엔비디아 -3%, 반도체 -5%, 네오클라우드 -7% 하락",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "가격 데이터 미확인"
+    },
+    {
+      "kind": "OPINION",
+      "text": "ARR 기준 정정은 1회성 조정이며 AI 인프라 투자 근거는 훼손되지 않았다는 판단",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "net 기준 700억 달러 ARR을 연말에 달성할 전망(블룸버그 보도 인용)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-12-31"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "입찰 이후 금리 급등이 완화될 확률과 중간선거까지 상승이 이어질 확률을 각각 약 50%로 제시",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-03"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드 -7% 급락은 오픈AI 수요 기대 조정이 원인이나 수요 추세 자체의 훼손 증거는 없음"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "수요 기대치 조정에 따른 단기 변동일 뿐 thesis 변화 근거 없음"
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 기대치 조정에 따른 단기 주가 반응이며 공식 실적·가이던스 변화가 아님. 오픈AI ARR은 비공식 보도라 점수에 반영하지 않음."
+}

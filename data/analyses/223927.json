@@ -1,0 +1,106 @@
+{
+  "post_id": "223927",
+  "content_hash": "9859216abc781f9836ab09f7a95f69cdf3f0147367c7dc2139ced95833655db7",
+  "analyzed_at": "2026-10-16T22:00:00+09:00",
+  "title": "실적은 매우 좋았지만 하락한 시장 | 10-14 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "10월 14일 시황으로 대형주 실적은 대체로 컨센서스를 상회했으나 기대가 높았고 추가 금리 인상 언급, 중국 CXMT 경쟁 우려로 시장과 반도체가 하락했다는 글이다. JP모건이 2027년 말까지 추가 3회 인상 경로를 전망에 반영했다고 전한다. 테슬라는 대만 아폴로 파워와 약 1GWh, 2억 6,500만 달러 메가팩 계약을 맺었고, 작성자는 플래닛랩스 분할매수와 조비 추가 매수를 했다고 밝힌다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "골드만삭스 EPS 17.01달러(예상 12.86달러) 등 다수 기업이 예상치 상회, JP모건은 매출·EPS 모두 하회",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "각 사 실적 보도자료 미열람"
+    },
+    {
+      "kind": "FACT",
+      "text": "JP모건이 2027년 말까지 추가 3회 금리 인상 경로를 전망에 반영",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "CXMT 기술 진전 보도로 마이크론 -3.62%, 어플라이드 머티리얼즈 -6.69% 하락",
+      "tickers": [
+        "MU",
+        "AMAT"
+      ],
+      "verification": "UNVERIFIED"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라가 대만 아폴로 파워와 약 1GWh, 2억 6,500만 달러 메가팩 계약, 2027년 말까지 납품",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "테슬라 또는 상대사 공식 발표 미확인"
+    },
+    {
+      "kind": "FACT",
+      "text": "플래닛랩스 자회사가 ESA 슬로베니아 산불 감시 12개월 파일럿 사업자로 선정(금액 미공개)",
+      "tickers": [
+        "PL"
+      ],
+      "verification": "UNVERIFIED"
+    },
+    {
+      "kind": "FACT",
+      "text": "FDA가 AI 의료기기에 대한 역량 기반 평가 방식을 검토 중",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "UNVERIFIED"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 생산성 효과는 확인되며 AI 수요 자체는 사라지지 않았다는 판단",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "소형·적자 성장주가 과매도 구간이라 조비를 추가 매수하고 플래닛랩스는 분할매수 접근",
+      "tickers": [
+        "JOBY",
+        "PL"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "에너지 저장 대형 수주와 AI 데이터센터 전력 수요 연결 가능성, 단 공식 확인 전이며 자동차·로보택시 thesis와 별개"
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "중국 메모리 경쟁 우려는 메모리 업종 중심이며 AVGO 직접 영향은 불분명"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CXMT 관련 반도체 약세 일반론 외 개별 근거 없음"
+    }
+  ],
+  "new_candidates": [
+    "MU",
+    "AMAT",
+    "PL",
+    "JOBY",
+    "TEM",
+    "HIMS"
+  ],
+  "portfolio_implication": "변경 없음. 시황과 단발 수주 뉴스이며 TSLA 수주는 공식 확인 전이고 금액이 크지 않아 목표 비중 변경 사유가 못 됨."
+}

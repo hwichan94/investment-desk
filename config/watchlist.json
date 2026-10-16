@@ -1,0 +1,4 @@
+{
+  "tickers": ["NVDA", "AMZN", "ORCL", "ETN", "ANET", "GOOG", "AXON", "CRWV"],
+  "notes": "12개월 실적 가시성, 현재 보유 종목 대비 기대수익과 포트폴리오 적합도를 비교하는 활성 후보군입니다."
+}

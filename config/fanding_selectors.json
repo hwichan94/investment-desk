@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-06",
+  "framework": "Nuxt",
+  "authenticated_signal": "a[href='/messages/']",
+  "feed_container": "section.feed-post-list",
+  "feed_card": ".post-feed-card.post",
+  "post_link": "a[href*='/post/']",
+  "post_root": "section.main-section.detail__section",
+  "post_title": ".main-section__title",
+  "post_author": ".desc__author .desc__text",
+  "post_metadata": ".main-section__desc .desc__text",
+  "post_body": ".main-section__main-text .tiptap",
+  "locked_marker": "잠긴 콘텐츠 열어보기",
+  "note": "Observed from a normal authenticated browser session. No private API or authentication bypass is used."
+}
+

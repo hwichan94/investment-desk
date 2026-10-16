@@ -1,0 +1,13 @@
+{
+  "min_cash_weight": 0.05,
+  "max_cash_weight": 0.20,
+  "max_single_position_weight": 0.30,
+  "max_core_position_weight": 0.35,
+  "no_action_below": 0.01,
+  "watch_below": 0.03,
+  "consider_below": 0.05,
+  "target_weight_tolerance": 0.0001,
+  "transaction_cost_bps": 0,
+  "tax_rate": 0
+}
+

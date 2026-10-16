@@ -1,0 +1,96 @@
+{
+  "fetched_at": "2026-10-16T20:39:15.453621+09:00",
+  "quotes": {
+    "AMZN": {
+      "price": 254.76,
+      "currency": "USD",
+      "previous_close": 254.06,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "ANET": {
+      "price": 185.58,
+      "currency": "USD",
+      "previous_close": 210.97,
+      "market_time": "2026-10-15T20:00:03+00:00"
+    },
+    "AVGO": {
+      "price": 344.33,
+      "currency": "USD",
+      "previous_close": 360.14,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "AXON": {
+      "price": 417.19,
+      "currency": "USD",
+      "previous_close": 417.31,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "CCJ": {
+      "price": 83.23,
+      "currency": "USD",
+      "previous_close": 87.12,
+      "market_time": "2026-10-15T20:00:02+00:00"
+    },
+    "CRWV": {
+      "price": 69.69,
+      "currency": "USD",
+      "previous_close": 81.58,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "ETN": {
+      "price": 402.48,
+      "currency": "USD",
+      "previous_close": 424.51,
+      "market_time": "2026-10-15T20:00:03+00:00"
+    },
+    "FLNC": {
+      "price": 6.43,
+      "currency": "USD",
+      "previous_close": 7.45,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "GOOG": {
+      "price": 344.91,
+      "currency": "USD",
+      "previous_close": 344.86,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "INTC": {
+      "price": 95.37,
+      "currency": "USD",
+      "previous_close": 107.08,
+      "market_time": "2026-10-15T20:00:01+00:00"
+    },
+    "NVDA": {
+      "price": 217.23,
+      "currency": "USD",
+      "previous_close": 230.48,
+      "market_time": "2026-10-15T20:00:00+00:00"
+    },
+    "ORCL": {
+      "price": 134.47,
+      "currency": "USD",
+      "previous_close": 135.69,
+      "market_time": "2026-10-15T20:03:47+00:00"
+    },
+    "PLTR": {
+      "price": 200.5,
+      "currency": "USD",
+      "previous_close": 198.78,
+      "market_time": "2026-10-15T20:00:00+00:00"
+    },
+    "TSLA": {
+      "price": 362.44,
+      "currency": "USD",
+      "previous_close": 375.0,
+      "market_time": "2026-10-15T20:00:00+00:00"
+    },
+    "VRT": {
+      "price": 214.75,
+      "currency": "USD",
+      "previous_close": 243.73,
+      "market_time": "2026-10-15T20:00:03+00:00"
+    }
+  },
+  "errors": {}
+}

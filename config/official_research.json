@@ -1,0 +1,362 @@
+{
+  "as_of": "2026-10-06",
+  "sources": [
+    {
+      "source_id": "tsla-q2-update",
+      "ticker": "TSLA",
+      "title": "Tesla Q2 2026 Update",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026049213/tsla-20260722-gen.pdf",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-07-22",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "tsla-q2-deliveries",
+      "ticker": "TSLA",
+      "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+      "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-07-02",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "tsla-q2-10q",
+      "ticker": "TSLA",
+      "title": "Tesla Form 10-Q for the quarter ended June 30, 2026",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026049270/tsla-20260630-gen.pdf",
+      "source_type": "SEC filing",
+      "reliability": 1.0,
+      "published_at": "2026-07-22",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "pltr-q2-update",
+      "ticker": "PLTR",
+      "title": "Palantir Q2 2026 Business Update",
+      "url": "https://investors.palantir.com/files/Palantir%20-%20Q2%202026%20Business%20Update.pdf",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-08-03",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "pltr-q2-10q",
+      "ticker": "PLTR",
+      "title": "Palantir Form 10-Q for the quarter ended June 30, 2026",
+      "url": "https://investors.palantir.com/files/2026%20Q2%20PLTR%2010-Q.pdf",
+      "source_type": "SEC filing",
+      "reliability": 1.0,
+      "published_at": "2026-08-03",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "avgo-q3-results",
+      "ticker": "AVGO",
+      "title": "Broadcom Third Quarter Fiscal Year 2026 Financial Results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-09-02",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "ccj-q2-results",
+      "ticker": "CCJ",
+      "title": "Cameco Reports 2026 Second Quarter Results",
+      "url": "https://www.cameco.com/media/news/cameco-reports-2026-second-quarter-results",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-07-31",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "intc-q2-results",
+      "ticker": "INTC",
+      "title": "Intel Reports Second-Quarter 2026 Financial Results",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1776/intel-reports-second-quarter-2026-financial-results",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-07-23",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "vrt-q2-results",
+      "ticker": "VRT",
+      "title": "Vertiv Reports Strong Second Quarter 2026",
+      "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Second-Quarter-2026-with-Diluted-EPS-Growth-of-53-Adjusted-Diluted-EPS-Growth-of-60-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-07-29",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "flnc-q3-results",
+      "ticker": "FLNC",
+      "title": "Fluence Energy Third Fiscal Quarter 2026 Results",
+      "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-energy-inc-reports-third-fiscal-quarter-2026-results",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-08-05",
+      "accessed_at": "2026-10-06"
+    },
+    {
+      "source_id": "flnc-sep-guidance",
+      "ticker": "FLNC",
+      "title": "Fluence Energy Revised Fiscal Year 2026 Guidance",
+      "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-energy-announces-revised-guidance-fiscal-year-2026",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-09-16",
+      "accessed_at": "2026-10-06"
+    }
+  ],
+  "companies": [
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla",
+      "aliases": ["TSLA", "Tesla", "테슬라"],
+      "thesis": "차량·에너지 저장의 현금창출 기반이 자율주행과 로보택시 투자로 이어지는지가 핵심이다.",
+      "trend": "STABLE",
+      "time_horizon": "3-5년",
+      "key_dependencies": ["차량 마진 방어", "로보택시 상용화와 규제 통과", "AI·생산설비 투자 대비 현금흐름 회수"],
+      "invalidation_signals": ["반복되는 대규모 잉여현금흐름 적자", "차량 수요와 마진의 동반 악화", "자율주행 상용화 일정의 구조적 지연"],
+      "evidence": [
+        {
+          "evidence_id": "tsla-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 2분기 차량 480,126대를 인도했고 에너지 저장장치 13.5GWh를 배치했다.",
+          "source_ids": ["tsla-q2-deliveries"],
+          "keywords": ["인도", "delivery", "에너지", "storage", "배치"]
+        },
+        {
+          "evidence_id": "tsla-e2",
+          "stance": "SUPPORTING",
+          "statement": "2026년 2분기 영업현금흐름은 47억달러였고 Cybercab 생산을 시작했다.",
+          "source_ids": ["tsla-q2-update"],
+          "keywords": ["현금흐름", "Cybercab", "사이버캡", "로보택시"]
+        },
+        {
+          "evidence_id": "tsla-e3",
+          "stance": "CONTRADICTING",
+          "statement": "같은 분기 잉여현금흐름은 -11억달러였고 GAAP 영업이익은 4억달러에 그쳤다.",
+          "source_ids": ["tsla-q2-update"],
+          "keywords": ["잉여현금흐름", "영업이익", "마진", "현금"]
+        },
+        {
+          "evidence_id": "tsla-e4",
+          "stance": "CONTRADICTING",
+          "statement": "에너지 부문 총마진은 전년 동기 30.3%에서 20.4%로 낮아졌고 판관비는 45% 증가했다.",
+          "source_ids": ["tsla-q2-10q"],
+          "keywords": ["총마진", "마진", "판관비", "비용"]
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "company_name": "Palantir",
+      "aliases": ["PLTR", "Palantir", "팔란티어"],
+      "thesis": "AIP 수요가 미국 상업·정부 매출의 고성장과 높은 현금창출로 연결되는 동안 계약가치의 실제 매출 전환을 확인한다.",
+      "trend": "STRENGTHENING",
+      "time_horizon": "3-5년",
+      "key_dependencies": ["미국 상업 매출 고성장 지속", "대형 계약의 실제 매출 전환", "높은 GAAP 수익성 유지"],
+      "invalidation_signals": ["잔여계약가치 증가율 급락", "정부·상업 성장의 동시 둔화", "주식보상 포함 GAAP 마진의 지속 악화"],
+      "evidence": [
+        {
+          "evidence_id": "pltr-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 2분기 매출은 19.4억달러로 전년 대비 93% 성장했고 미국 상업 매출은 149% 성장했다.",
+          "source_ids": ["pltr-q2-update"],
+          "keywords": ["매출", "성장", "상업", "AIP"]
+        },
+        {
+          "evidence_id": "pltr-e2",
+          "stance": "SUPPORTING",
+          "statement": "조정 잉여현금흐름은 12.2억달러, 마진은 63%였고 GAAP EPS는 0.41달러였다.",
+          "source_ids": ["pltr-q2-update", "pltr-q2-10q"],
+          "keywords": ["현금흐름", "마진", "EPS", "이익"]
+        },
+        {
+          "evidence_id": "pltr-e3",
+          "stance": "CONTEXT",
+          "statement": "회사가 제시하는 계약가치에는 미행사 옵션이 포함될 수 있어 전액이 매출로 확정된 것은 아니다.",
+          "source_ids": ["pltr-q2-update", "pltr-q2-10q"],
+          "keywords": ["계약", "TCV", "RDV", "옵션", "매출 전환"]
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom",
+      "aliases": ["AVGO", "Broadcom", "브로드컴"],
+      "thesis": "AI 가속기와 네트워킹 수요가 반도체·소프트웨어의 높은 현금창출로 이어지지만 고객·공급망 집중을 감시한다.",
+      "trend": "STRENGTHENING",
+      "time_horizon": "3-5년",
+      "key_dependencies": ["AI 반도체 수요 지속", "주요 고객 설계 수주 유지", "VMware 통합과 부채 관리"],
+      "invalidation_signals": ["AI 매출 성장 급락", "주요 고객 이탈", "마진과 현금흐름의 동반 하락"],
+      "evidence": [
+        {
+          "evidence_id": "avgo-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026 회계연도 3분기 매출은 295.91억달러로 86% 증가했고 반도체 매출은 127% 증가했다.",
+          "source_ids": ["avgo-q3-results"],
+          "keywords": ["AI", "반도체", "네트워킹", "매출", "성장"]
+        },
+        {
+          "evidence_id": "avgo-e2",
+          "stance": "SUPPORTING",
+          "statement": "3분기 잉여현금흐름은 136.65억달러로 매출의 약 46%였다.",
+          "source_ids": ["avgo-q3-results"],
+          "keywords": ["현금흐름", "마진", "현금"]
+        },
+        {
+          "evidence_id": "avgo-e3",
+          "stance": "CONTRADICTING",
+          "statement": "회사는 주요 고객 집중, 외주 생산·소수 공급업체 의존, VMware 관련 부채를 중요 위험으로 공시했다.",
+          "source_ids": ["avgo-q3-results"],
+          "keywords": ["고객", "공급망", "외주", "부채", "VMware"]
+        }
+      ]
+    },
+    {
+      "ticker": "CCJ",
+      "company_name": "Cameco",
+      "aliases": ["CCJ", "Cameco", "카메코"],
+      "thesis": "장기 우라늄 계약과 Westinghouse 노출이 원전 확대의 수혜로 이어지는지, 분기 판매 변동과 운영 차질을 함께 본다.",
+      "trend": "STABLE",
+      "time_horizon": "5년 이상",
+      "key_dependencies": ["장기 우라늄 가격 강세", "생산 가이던스 달성", "Westinghouse 실적 정상화"],
+      "invalidation_signals": ["생산 가이던스의 반복 하향", "장기 계약 가격 악화", "Westinghouse 손실의 구조적 지속"],
+      "evidence": [
+        {
+          "evidence_id": "ccj-e1",
+          "stance": "SUPPORTING",
+          "statement": "향후 5년 우라늄 계약 물량은 연평균 2,800만파운드 이상이며 2026년 생산 가이던스를 유지했다.",
+          "source_ids": ["ccj-q2-results"],
+          "keywords": ["우라늄", "계약", "생산", "가이던스", "원전"]
+        },
+        {
+          "evidence_id": "ccj-e2",
+          "stance": "SUPPORTING",
+          "statement": "2026년 6월 말 현금 11억 캐나다달러, 총부채 10억 캐나다달러, 미사용 신용한도 10억 캐나다달러였다.",
+          "source_ids": ["ccj-q2-results"],
+          "keywords": ["현금", "부채", "재무", "유동성"]
+        },
+        {
+          "evidence_id": "ccj-e3",
+          "stance": "CONTRADICTING",
+          "statement": "2분기 순이익은 2,500만 캐나다달러였고 Westinghouse 지분이익 감소와 계획된 우라늄 판매량 감소로 전년보다 실적이 낮았다.",
+          "source_ids": ["ccj-q2-results"],
+          "keywords": ["Westinghouse", "웨스팅하우스", "순이익", "판매량", "감소"]
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "company_name": "Intel",
+      "aliases": ["INTC", "Intel", "인텔"],
+      "thesis": "제품 매출과 공장 수율 회복이 파운드리 투자 부담을 넘어 지속적인 현금창출로 전환되는지가 핵심이다.",
+      "trend": "EMERGING",
+      "time_horizon": "3-5년",
+      "key_dependencies": ["공장 수율·사이클타임 개선", "파운드리 외부 고객 확보", "투자 이후 잉여현금흐름 회복"],
+      "invalidation_signals": ["매출 성장 재둔화", "파운드리 손실 확대", "조정 잉여현금흐름 적자 장기화"],
+      "evidence": [
+        {
+          "evidence_id": "intc-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 2분기 매출은 161억달러로 25% 증가했고 GAAP 총마진은 40.4%로 12.9%p 개선됐다.",
+          "source_ids": ["intc-q2-results"],
+          "keywords": ["매출", "총마진", "마진", "수율", "파운드리"]
+        },
+        {
+          "evidence_id": "intc-e2",
+          "stance": "SUPPORTING",
+          "statement": "2분기 영업현금흐름은 70억달러였고 3분기 매출 가이던스는 158억~168억달러다.",
+          "source_ids": ["intc-q2-results"],
+          "keywords": ["현금흐름", "가이던스", "매출"]
+        },
+        {
+          "evidence_id": "intc-e3",
+          "stance": "CONTRADICTING",
+          "statement": "2분기 GAAP 순손실은 110억달러였고 조정 잉여현금흐름은 -84.19억달러였다. 순손실에는 에스크로 주식 평가손실이 크게 반영됐다.",
+          "source_ids": ["intc-q2-results"],
+          "keywords": ["순손실", "잉여현금흐름", "투자", "평가손실"]
+        }
+      ]
+    },
+    {
+      "ticker": "VRT",
+      "company_name": "Vertiv",
+      "aliases": ["VRT", "Vertiv", "버티브"],
+      "thesis": "AI 데이터센터의 전력·냉각 병목이 매출 성장과 마진 확대로 연결되는 동안 공급망·프로젝트 실행력을 확인한다.",
+      "trend": "STRENGTHENING",
+      "time_horizon": "3-5년",
+      "key_dependencies": ["AI 데이터센터 CAPEX 지속", "전력·냉각 수요의 수주 전환", "증설 과정의 납기 준수"],
+      "invalidation_signals": ["유기적 성장률 급락", "수주와 매출의 괴리 확대", "공급 차질로 인한 마진 훼손"],
+      "evidence": [
+        {
+          "evidence_id": "vrt-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 2분기 매출은 32.74억달러로 24% 증가했고 조정 영업마진은 22.6%로 4.1%p 개선됐다.",
+          "source_ids": ["vrt-q2-results"],
+          "keywords": ["데이터센터", "전력", "냉각", "매출", "마진"]
+        },
+        {
+          "evidence_id": "vrt-e2",
+          "stance": "SUPPORTING",
+          "statement": "회사는 2026년 매출 중간값 140억달러와 유기적 성장률 31%로 가이던스를 높였다.",
+          "source_ids": ["vrt-q2-results"],
+          "keywords": ["가이던스", "성장", "매출", "AI"]
+        },
+        {
+          "evidence_id": "vrt-e3",
+          "stance": "CONTRADICTING",
+          "statement": "공급망 혼잡과 대형 다단계 프로젝트로 일부 매출 인식 시점이 밀렸고 증설 투자가 진행 중이다.",
+          "source_ids": ["vrt-q2-results"],
+          "keywords": ["공급망", "지연", "프로젝트", "증설"]
+        }
+      ]
+    },
+    {
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy",
+      "aliases": ["FLNC", "Fluence", "플루언스", "플루언스 에너지"],
+      "thesis": "에너지 저장 수요와 기록적 수주잔고가 실제 매출·현금으로 전환되는지가 전부이며 현재는 실행 위험이 우세하다.",
+      "trend": "WEAKENING",
+      "time_horizon": "3-5년",
+      "key_dependencies": ["미국 위탁생산 정상화", "수주잔고의 매출·현금 전환", "추가 외부자금 없이 운영현금흐름 개선"],
+      "invalidation_signals": ["생산 차질 지속과 추가 가이던스 하향", "수주잔고 취소·연기 확대", "유동성 악화 또는 희석성 자금조달"],
+      "evidence": [
+        {
+          "evidence_id": "flnc-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026 회계연도 3분기 수주액은 14.4억달러 이상, 수주잔고는 사상 최대 64억달러였다.",
+          "source_ids": ["flnc-q3-results"],
+          "keywords": ["수주", "수주잔고", "에너지저장", "데이터센터", "backlog"]
+        },
+        {
+          "evidence_id": "flnc-e2",
+          "stance": "SUPPORTING",
+          "statement": "6월 말 총유동성은 약 8.63억달러였고 7월까지 데이터센터 사업 약 8.5억달러를 확보했다.",
+          "source_ids": ["flnc-q3-results"],
+          "keywords": ["유동성", "데이터센터", "수주", "현금"]
+        },
+        {
+          "evidence_id": "flnc-e3",
+          "stance": "CONTRADICTING",
+          "statement": "9월 회사는 미국 생산 차질로 2026년 매출 전망을 약 24억달러, 조정 EBITDA 손실 전망을 약 2억달러로 다시 낮췄다.",
+          "source_ids": ["flnc-sep-guidance"],
+          "keywords": ["가이던스", "하향", "생산", "차질", "EBITDA", "손실"]
+        },
+        {
+          "evidence_id": "flnc-e4",
+          "stance": "CONTRADICTING",
+          "statement": "3분기 GAAP 총마진은 5.1%로 전년 동기 14.8%에서 하락했고 순손실은 4,430만달러였다.",
+          "source_ids": ["flnc-q3-results"],
+          "keywords": ["총마진", "순손실", "마진", "손실"]
+        }
+      ]
+    }
+  ]
+}

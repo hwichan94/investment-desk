@@ -1,0 +1,73 @@
+name: collect
+
+# Every 3 hours: Fanding check -> market data -> action-plan report -> commit.
+# A failed Fanding check (login expired, DOM changed) fails the run so GitHub emails the owner.
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TZ: Asia/Seoul
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          pip install -e .
+          python -m playwright install --with-deps chromium
+
+      - name: Fanding check
+        id: fanding
+        continue-on-error: true
+        env:
+          FANDING_STATE_KEY: ${{ secrets.FANDING_STATE_KEY }}
+        run: python -m desk check
+
+      - name: Market data
+        continue-on-error: true
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python -m desk market
+
+      - name: Action plan
+        continue-on-error: true
+        run: python -m desk recommend
+
+      - name: Commit results
+        run: |
+          git config user.name "desk-bot"
+          git config user.email "desk-bot@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "collect: $(date '+%Y-%m-%d %H:%M KST')"
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              sleep 5
+            done
+          fi
+
+      - name: Fail when Fanding needs attention
+        if: steps.fanding.outcome == 'failure'
+        run: |
+          cat data/status/collector.json
+          exit 1

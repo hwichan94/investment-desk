@@ -1,0 +1,13 @@
+{
+  "SEC filing": 1.0,
+  "Company IR": 0.95,
+  "Government data": 0.95,
+  "Earnings call": 0.9,
+  "Reuters": 0.85,
+  "Bloomberg": 0.85,
+  "Major media": 0.75,
+  "Analyst report": 0.7,
+  "Blog": 0.4,
+  "Social media": 0.25
+}
+

@@ -1,0 +1,324 @@
+{
+  "as_of": "2026-10-15",
+  "horizon_months": 12,
+  "cash_target": 0.05,
+  "score_weights": {
+    "fundamental_quality": 0.20,
+    "fundamental_momentum": 0.20,
+    "catalyst_visibility": 0.15,
+    "valuation": 0.20,
+    "risk_control": 0.15,
+    "portfolio_fit": 0.10
+  },
+  "securities": [
+    {
+      "ticker": "PLTR",
+      "company_name": "Palantir Technologies",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 95,
+      "fundamental_momentum": 98,
+      "catalyst_visibility": 90,
+      "valuation": 25,
+      "risk_control": 55,
+      "portfolio_fit": 85,
+      "evidence_confidence": 0.85,
+      "target_weight": 0.33,
+      "why_now": "미국 상업·정부 매출, 계약가치와 현금창출이 동시에 가속하고 있어 핵심 보유 논리는 강화됐지만 현재 가격에는 높은 성장 기대가 반영돼 있습니다.",
+      "main_risk": "높은 밸류에이션에서 성장률이나 계약의 실제 매출 전환이 둔화되면 멀티플 압축이 큽니다.",
+      "invalidation_signals": [
+        "미국 상업과 정부 성장률의 동시 급락",
+        "잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리",
+        "GAAP 마진과 현금흐름의 동반 악화"
+      ],
+      "funding_from": [],
+      "execution_plan": "30~35% 핵심 보유 밴드를 유지합니다. 신고가만으로 매도하거나 추가매수하지 말고 다음 실적에서 성장·마진을 재확인합니다."
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla",
+      "thesis_status": "STABLE",
+      "fundamental_quality": 65,
+      "fundamental_momentum": 50,
+      "catalyst_visibility": 75,
+      "valuation": 20,
+      "risk_control": 35,
+      "portfolio_fit": 75,
+      "evidence_confidence": 0.72,
+      "target_weight": 0.24,
+      "why_now": "자율주행·로보택시의 상방은 크지만 향후 12개월의 본업 마진과 잉여현금흐름이 현재 비중을 정당화하기에는 아직 약합니다.",
+      "main_risk": "상용화 일정 지연, 자동차 수요와 마진 악화, 높은 기대가 동시에 작용할 수 있습니다.",
+      "invalidation_signals": [
+        "반복되는 대규모 잉여현금흐름 적자",
+        "차량 수요와 자동차 마진의 동반 악화",
+        "자율주행 상용화의 구조적 지연"
+      ],
+      "funding_from": [],
+      "execution_plan": "한 번에 전량 조정하지 말고 2회로 나눠 24%까지 축소합니다. 실적 전에는 절반만 실행하고, 현금흐름 개선이 확인되면 두 번째 축소는 취소할 수 있습니다."
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 92,
+      "fundamental_momentum": 95,
+      "catalyst_visibility": 90,
+      "valuation": 65,
+      "risk_control": 70,
+      "portfolio_fit": 90,
+      "evidence_confidence": 0.85,
+      "target_weight": 0.14,
+      "why_now": "AI 가속기·네트워킹 성장과 높은 현금창출이 함께 확인돼 기존 보유 종목 중 위험 대비 기대수익이 상위권입니다.",
+      "main_risk": "대형 고객 집중, 외주 생산과 공급망 의존, 고객의 자본조달 여건 악화와 AI 투자 사이클 둔화입니다.",
+      "invalidation_signals": [
+        "AI 매출 성장의 급격한 둔화",
+        "주요 고객 이탈 또는 자체칩 전환 가속",
+        "마진과 현금흐름의 동반 하락"
+      ],
+      "funding_from": ["TSLA", "FLNC"],
+      "execution_plan": "목표와의 차이가 작으므로 급하게 추격하지 말고 조정 또는 다음 실적 확인 때 1~2%p를 보충합니다."
+    },
+    {
+      "ticker": "CCJ",
+      "company_name": "Cameco",
+      "thesis_status": "STABLE",
+      "fundamental_quality": 78,
+      "fundamental_momentum": 70,
+      "catalyst_visibility": 75,
+      "valuation": 60,
+      "risk_control": 65,
+      "portfolio_fit": 70,
+      "evidence_confidence": 0.78,
+      "target_weight": 0.06,
+      "why_now": "장기 우라늄 계약과 원전 확대의 구조적 논리는 유지되지만 12개월 성과는 판매 시점과 Westinghouse 실적 변동에 좌우됩니다.",
+      "main_risk": "생산 차질, 계약가격 악화와 Westinghouse 손익 변동입니다.",
+      "invalidation_signals": [
+        "생산 가이던스의 반복 하향",
+        "장기 계약 가격의 구조적 악화",
+        "Westinghouse 손실의 지속"
+      ],
+      "funding_from": [],
+      "execution_plan": "6~7%를 유지하고 생산·계약 지표가 개선되기 전에는 추가매수하지 않습니다."
+    },
+    {
+      "ticker": "INTC",
+      "company_name": "Intel",
+      "thesis_status": "EMERGING",
+      "fundamental_quality": 58,
+      "fundamental_momentum": 65,
+      "catalyst_visibility": 70,
+      "valuation": 55,
+      "risk_control": 35,
+      "portfolio_fit": 60,
+      "evidence_confidence": 0.72,
+      "target_weight": 0.02,
+      "why_now": "매출과 총마진 회복 조짐은 있지만 파운드리 손실과 잉여현금흐름 부담 때문에 아직 핵심 포지션으로 승격할 근거가 부족합니다.",
+      "main_risk": "파운드리 손실 확대, CAPEX 부담과 회복 일정 지연입니다.",
+      "invalidation_signals": [
+        "매출 성장 재둔화",
+        "파운드리 손실 확대",
+        "잉여현금흐름 적자 장기화"
+      ],
+      "funding_from": [],
+      "execution_plan": "2%의 관찰 포지션만 남기고 다음 두 분기 안에 현금흐름과 파운드리 개선이 없으면 전량 정리합니다."
+    },
+    {
+      "ticker": "VRT",
+      "company_name": "Vertiv",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 90,
+      "fundamental_momentum": 92,
+      "catalyst_visibility": 88,
+      "valuation": 55,
+      "risk_control": 65,
+      "portfolio_fit": 85,
+      "evidence_confidence": 0.82,
+      "target_weight": 0.07,
+      "why_now": "AI 데이터센터 전력·냉각 병목이 매출 성장, 마진 확대와 가이던스 상향으로 실제 숫자에 반영되고 있습니다.",
+      "main_risk": "대형 프로젝트 지연, 공급망 병목, 네오클라우드 고객의 자금조달 악화와 AI 데이터센터 투자 둔화입니다.",
+      "invalidation_signals": [
+        "유기적 성장률 급락",
+        "수주와 매출 전환의 괴리 확대",
+        "공급 차질로 인한 마진 훼손"
+      ],
+      "funding_from": ["TSLA", "FLNC"],
+      "execution_plan": "현재 비중에서 7%까지 2회 분할매수하되 급등일 추격은 피하고 다음 실적 전후 변동성을 이용합니다."
+    },
+    {
+      "ticker": "FLNC",
+      "company_name": "Fluence Energy",
+      "thesis_status": "WEAKENING",
+      "fundamental_quality": 45,
+      "fundamental_momentum": 25,
+      "catalyst_visibility": 45,
+      "valuation": 50,
+      "risk_control": 15,
+      "portfolio_fit": 55,
+      "evidence_confidence": 0.80,
+      "target_weight": 0.0,
+      "why_now": "기록적인 수주잔고에도 생산 차질, 가이던스 재하향과 낮은 총마진이 겹쳐 12개월 투자 논리가 훼손됐습니다.",
+      "main_risk": "수주가 이익과 현금으로 전환되지 않고 추가 가이던스 하향이나 희석성 자금조달이 발생할 수 있습니다.",
+      "invalidation_signals": [
+        "생산 차질과 추가 가이던스 하향",
+        "수주잔고 취소·연기 확대",
+        "유동성 악화 또는 희석성 자금조달"
+      ],
+      "funding_from": [],
+      "execution_plan": "손실률이 아니라 투자 논리 훼손을 기준으로 정리합니다. 신규 후보 편입 재원으로 전량 매도를 제안합니다."
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 96,
+      "fundamental_momentum": 98,
+      "catalyst_visibility": 95,
+      "valuation": 70,
+      "risk_control": 70,
+      "portfolio_fit": 80,
+      "evidence_confidence": 0.88,
+      "target_weight": 0.05,
+      "why_now": "데이터센터 매출의 고성장과 높은 총마진이 확인되고, 현재 위험 대비 성장 가시성은 INTC·FLNC보다 명확합니다.",
+      "main_risk": "AI CAPEX 둔화, 레버리지가 높은 클라우드 고객의 신용위험, 고객 자체칩, 경쟁·수출규제와 기존 포트폴리오의 AI 투자 집중도 상승입니다.",
+      "invalidation_signals": [
+        "데이터센터 매출의 연속적인 가이던스 하회",
+        "총마진의 구조적 하락",
+        "주요 고객 CAPEX와 주문의 동반 둔화"
+      ],
+      "funding_from": ["FLNC", "INTC", "TSLA"],
+      "execution_plan": "5% 신규 포지션을 2회로 나눕니다. 절반은 현재, 절반은 다음 실적 또는 8~10% 조정 시 편입합니다.",
+      "source_urls": [
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 90,
+      "fundamental_momentum": 93,
+      "catalyst_visibility": 90,
+      "valuation": 65,
+      "risk_control": 70,
+      "portfolio_fit": 80,
+      "evidence_confidence": 0.85,
+      "target_weight": 0.04,
+      "why_now": "AWS 성장과 영업이익 가속이 12개월 안에 확인 가능한 반면 광고·커머스가 사업 위험을 일부 분산합니다.",
+      "main_risk": "AI 데이터센터 CAPEX 급증으로 잉여현금흐름이 약하고 투자수익 회수가 늦어질 수 있습니다.",
+      "invalidation_signals": [
+        "AWS 성장과 영업이익률의 동반 둔화",
+        "CAPEX 증가에도 클라우드 매출 전환 부진",
+        "연속적인 잉여현금흐름 악화"
+      ],
+      "funding_from": ["TSLA", "FLNC"],
+      "execution_plan": "4% 신규 포지션을 2회 분할합니다. AWS 성장률과 CAPEX 회수 속도를 다음 실적에서 재평가합니다.",
+      "source_urls": [
+        "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ORCL",
+      "company_name": "Oracle",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 88,
+      "fundamental_momentum": 95,
+      "catalyst_visibility": 92,
+      "valuation": 55,
+      "risk_control": 45,
+      "portfolio_fit": 72,
+      "evidence_confidence": 0.84,
+      "target_weight": 0.0,
+      "why_now": "OCI와 RPO 성장은 매우 강하지만 대규모 데이터센터 투자와 자금조달 부담까지 함께 평가해야 합니다.",
+      "main_risk": "대규모 CAPEX, 음의 잉여현금흐름, 주식 발행과 계약 집중 위험입니다.",
+      "invalidation_signals": [
+        "RPO의 매출 전환 지연",
+        "자금조달 비용과 희석 확대",
+        "OCI 성장 둔화"
+      ],
+      "funding_from": [],
+      "execution_plan": "지금은 편입하지 않고 다음 분기 현금흐름과 RPO 전환을 확인합니다.",
+      "watch_reason": "성장 점수는 높지만 이미 AI CAPEX 노출이 큰 포트폴리오에 자금조달 위험까지 추가하므로 NVDA·AMZN보다 후순위입니다.",
+      "source_urls": [
+        "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx"
+      ]
+    },
+    {
+      "ticker": "ETN",
+      "company_name": "Eaton",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 88,
+      "fundamental_momentum": 85,
+      "catalyst_visibility": 85,
+      "valuation": 50,
+      "risk_control": 75,
+      "portfolio_fit": 70,
+      "evidence_confidence": 0.82,
+      "target_weight": 0.0,
+      "why_now": "전기 부문 주문과 수주잔고가 강하고 데이터센터 전력 수요의 수혜가 가시적입니다.",
+      "main_risk": "현재 가격 부담과 VRT를 포함한 전력 인프라 노출 중복입니다.",
+      "invalidation_signals": [
+        "Electrical Americas 주문 성장 급락",
+        "백로그와 마진의 동반 악화",
+        "데이터센터 투자 둔화"
+      ],
+      "funding_from": [],
+      "execution_plan": "현재는 관찰하고 밸류에이션 조정 또는 VRT보다 명확한 실적 우위가 나타날 때 교체 후보로 검토합니다.",
+      "watch_reason": "좋은 기업이지만 현재 포트폴리오에서는 VRT와 역할이 겹치며 신규 편입의 기회비용이 높습니다.",
+      "source_urls": [
+        "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-second-quarter-2026-results.html"
+      ]
+    },
+    {
+      "ticker": "AXON",
+      "company_name": "Axon Enterprise",
+      "thesis_status": "STRENGTHENING",
+      "fundamental_quality": 88,
+      "fundamental_momentum": 91,
+      "catalyst_visibility": 87,
+      "valuation": 25,
+      "risk_control": 60,
+      "portfolio_fit": 80,
+      "evidence_confidence": 0.84,
+      "target_weight": 0.0,
+      "why_now": "공공안전 장비의 설치 기반 위에 증거관리 소프트웨어와 AI 기능을 추가해 반복매출과 고객당 매출을 확대하고 있습니다.",
+      "main_risk": "높은 밸류에이션, 정부 예산과 계약 주기, 신제품 투자에 따른 마진 변동입니다.",
+      "invalidation_signals": [
+        "ARR과 순매출유지율의 동반 둔화",
+        "미래 계약액의 매출 전환 지연",
+        "AI 제품 성장에도 영업이익률이 구조적으로 악화"
+      ],
+      "funding_from": [],
+      "execution_plan": "사업의 질은 편입 후보 수준이지만 현재 밸류에이션에서는 신규 매수하지 않습니다. 실적 성장 유지와 가격 조정을 함께 기다립니다.",
+      "watch_reason": "ARR 39% 성장과 126% 순매출유지율은 매력적이지만 현재 가격의 이익배수는 PLTR 수준으로 높아 NVDA·AMZN보다 신규 자본의 기대수익이 낮습니다.",
+      "source_urls": [
+        "https://investor.axon.com/2026-08-05-Axon-reports-Q2-2026-revenue-of-904-million%2C-up-35-year-over-year"
+      ]
+    },
+    {
+      "ticker": "CRWV",
+      "company_name": "CoreWeave",
+      "thesis_status": "WEAKENING",
+      "fundamental_quality": 52,
+      "fundamental_momentum": 85,
+      "catalyst_visibility": 80,
+      "valuation": 40,
+      "risk_control": 10,
+      "portfolio_fit": 30,
+      "evidence_confidence": 0.86,
+      "target_weight": 0.0,
+      "why_now": "AI 클라우드 수요와 매출 성장은 강하지만 현재 판단의 핵심은 성장률이 아니라 부채와 자금조달 구조입니다.",
+      "main_risk": "대규모 부채, 높은 이자·원금 상환 부담, 고객 집중과 담보부 금융구조가 하락장에서 함께 악화될 수 있습니다.",
+      "invalidation_signals": [
+        "신규 부채 조달 비용의 추가 상승",
+        "가동률이나 대형 고객 계약의 악화",
+        "영업현금흐름보다 빠른 CAPEX와 부채 증가"
+      ],
+      "funding_from": [],
+      "execution_plan": "신규 매수 대상에서 제외합니다. 부채 대비 현금창출과 자금조달 비용이 명확하게 개선되기 전까지 관찰만 합니다.",
+      "watch_reason": "성장성보다 생존과 희석 위험이 우선이며 현재 포트폴리오의 AI CAPEX 노출을 더 높일 이유가 없습니다.",
+      "source_urls": [
+        "https://investors.coreweave.com/financials/quarterly-results/",
+        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
+      ]
+    }
+  ]
+}

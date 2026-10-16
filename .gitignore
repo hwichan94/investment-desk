@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets: plaintext Fanding session and the encryption key never leave this PC.
+.secrets/
+.env
+
+# Local-only logs
+logs/

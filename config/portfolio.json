@@ -1,0 +1,78 @@
+{
+  "as_of": "2026-10-06",
+  "confirmed_at": "2026-10-16",
+  "currency": "USD",
+  "cash": 119.756243,
+  "positions": [
+    {
+      "ticker": "TSLA",
+      "shares": 23,
+      "average_cost": 419.799565,
+      "market_value": 8757.13,
+      "thesis": "",
+      "category": "AI / Robotics",
+      "themes": ["Autonomy", "Robotics"],
+      "core_position": true
+    },
+    {
+      "ticker": "PLTR",
+      "shares": 45,
+      "average_cost": 160.890222,
+      "market_value": 8638.65,
+      "thesis": "",
+      "category": "AI Software",
+      "themes": ["AI Applications", "Defense AI"],
+      "core_position": true
+    },
+    {
+      "ticker": "AVGO",
+      "shares": 9,
+      "average_cost": 391.185556,
+      "market_value": 3368.11,
+      "thesis": "",
+      "category": "Semiconductors / Networking",
+      "themes": ["AI CAPEX", "AI Networking Bottleneck"],
+      "core_position": false
+    },
+    {
+      "ticker": "CCJ",
+      "shares": 21,
+      "average_cost": 96.7914,
+      "market_value": 1916.09,
+      "thesis": "",
+      "category": "Nuclear Energy",
+      "themes": ["Nuclear Renaissance", "Data Center Power"],
+      "core_position": false
+    },
+    {
+      "ticker": "INTC",
+      "shares": 11,
+      "average_cost": 137.33,
+      "market_value": 1275.78,
+      "thesis": "",
+      "category": "Semiconductors",
+      "themes": ["AI Compute", "Foundry"],
+      "core_position": false
+    },
+    {
+      "ticker": "VRT",
+      "shares": 4,
+      "average_cost": 290.98,
+      "market_value": 1019.70,
+      "thesis": "",
+      "category": "Data Center Infrastructure",
+      "themes": ["AI CAPEX", "Data Center Power", "Cooling"],
+      "core_position": false
+    },
+    {
+      "ticker": "FLNC",
+      "shares": 120,
+      "average_cost": 15.30,
+      "market_value": 976.80,
+      "thesis": "",
+      "category": "Energy Storage",
+      "themes": ["Energy Storage", "Grid Modernization"],
+      "core_position": false
+    }
+  ]
+}

@@ -46,9 +46,9 @@
       "tickers": [
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "verification": "PARTIAL",
+      "evidence_url": "https://thenextweb.com/news/nvidia-1-billion-us-science-genesis-mission-quantum",
+      "evidence_note": "엔비디아가 2026-10-08 5년 $10억 과학·양자 투자 발표(Genesis Mission Phase 2 협력). 보도 재인용 다수 일치, 엔비디아 공식 보도자료 원문 미열람이라 PARTIAL (2026-10-18 KST 검증)"
     },
     {
       "kind": "PREDICTION",

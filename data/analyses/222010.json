@@ -62,9 +62,9 @@
       "tickers": [
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.theblock.co/post/400498/iren-stock-surges-as-nvidia-backs-ai-expansion-with-warrants-tied-to-30-million-shares",
+      "evidence_note": "2026-05 발표: IREN이 엔비디아에 5년 워런트(3천만 주, 행사가 $70) 부여 — 2차 보도 다수 일치, 공시 원문은 미열람이라 PARTIAL (2026-10-18 KST 검증)"
     },
     {
       "kind": "OPINION",

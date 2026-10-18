@@ -54,9 +54,9 @@
       "tickers": [
         "GOOGL"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "논문·구글 공식 자료 미확인",
+      "verification": "PARTIAL",
+      "evidence_url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "evidence_note": "2026-10-18 검색: Science 논문(10-15)에서 Willow로 magic state cultivation 시연, 오류 약 40배 감소 보도. 구글 블로그 검색 결과로 확인, 논문 원문은 미열람. 시연은 소규모이며 저장 테스트 오류가 시뮬레이션의 약 7배.",
       "due": null
     },
     {

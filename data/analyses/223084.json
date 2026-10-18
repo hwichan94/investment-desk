@@ -13,9 +13,9 @@
       "tickers": [
         "TSLA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "verification": "PARTIAL",
+      "evidence_url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/",
+      "evidence_note": "2026-10-18 검색: 인도 486,532대 vs 회사 취합 컨센서스 461,974대(+5.3%)로 수치는 일치. ir.tesla.com 원문은 직접 확인 못 했고 도이치뱅크 인용 자체는 미확인(2차 보도)."
     },
     {
       "kind": "FACT",

@@ -11,8 +11,9 @@
       "kind": "FACT",
       "text": "10년물 금리가 5.36%에서 5.21%로, 30년물이 5.73%에서 5.61%로 입찰 이후 하락",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "Treasury 공식 데이터 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-18 검색: 30년물 입찰 낙찰금리 5.618%(10-08), 이후 5.60%대로 하락 보도. 30년물 5.61% 방향은 부합하나 Treasury 공식 페이지·10년물 5.21%는 미확인(2차 보도).",
+      "evidence_url": "https://investinglive.com/news/us-treasury-sells-22-billion-of-30-year-bonds-at-a-high-yield-of-5-618/"
     },
     {
       "kind": "FACT",

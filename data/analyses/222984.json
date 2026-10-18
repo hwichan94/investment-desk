@@ -34,8 +34,9 @@
       "tickers": [
         "IREN"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "회사 IR 원문 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "FY26 Q4(6월 분기) AI 클라우드 $70.5M vs 채굴 $66.7M, AI 비중 약 51% (Forklog·Decrypt 보도 일치). 회사 IR 원문 미열람.",
+      "evidence_url": "https://decrypt.co/376816/bitcoin-miner-iren-shares-drop-ai-costs"
     },
     {
       "kind": "OPINION",

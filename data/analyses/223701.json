@@ -20,8 +20,9 @@
       "tickers": [
         "AVGO"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "2차 전언이며 컨퍼런스 원문 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-12 DBS 컨퍼런스 발언을 다수 2차 매체가 일치 보도: 가장 큰 제약은 자본, 메모리 부족은 1년 내 완화 가능, 웨이퍼는 2028~29년 완화. '해소 중'은 다소 강한 표현. 원문 미확인.",
+      "evidence_url": "https://www.webull.com/news/15734867303736320"
     },
     {
       "kind": "FACT",
@@ -38,8 +39,9 @@
       "tickers": [
         "IONQ"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "SEC 공시 원문 미확인"
+      "verification": "PARTIAL",
+      "evidence_note": "8-K(2026-10-09): 인수대가 $1.15B 상당 주식, 주가 밴드 $33.07~49.61 → 약 23~35M주(주식 수는 종가 시점 확정). 약 3천만 주는 범위 내, 8% 희석은 미검산.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526419609/ionq-20261009.htm"
     },
     {
       "kind": "OPINION",

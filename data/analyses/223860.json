@@ -13,9 +13,9 @@
       "tickers": [
         "AVGO"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "공식 자료 미확인(작가 서술 또는 2차 보도 기반)"
+      "verification": "PARTIAL",
+      "evidence_url": "https://cryptobriefing.com/broadcom-intel-ceos-capital-ai-bottleneck/",
+      "evidence_note": "DBS 컨퍼런스 발언(수요 > 공급, 2029~2030 지속 가능, 최대 제약은 자본) 다수 2차 매체 일치. 원문 트랜스크립트 미확인."
     },
     {
       "kind": "OPINION",

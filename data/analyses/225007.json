@@ -22,8 +22,9 @@
       "tickers": [
         "CRWV"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "SEC 원문 대조 시도 전. 이전 분석(222934, 224312)의 CRWV 조달비용 상승 신호와 방향은 일치하나 수치 미확인."
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-19 SEC 8-K 원문 대조: 기존 무담보 senior notes 쿠폰은 8.500~9.750%, 신규 2033 전환사채는 1.75%대 전환사채 계열. 고금리 방향은 맞으나 15%는 공시 쿠폰으로 확인되지 않음(작가의 별도 시장금리/수수료 포함 여부 미상).",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/ex9911.htm"
     },
     {
       "kind": "FACT",

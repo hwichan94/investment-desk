@@ -1,20 +1,20 @@
-# 애널리스트 루틴 보고서 (2026-10-19 KST 16:30)
+# 애널리스트 루틴 보고서 (2026-10-19 KST 19:30)
 
 **포트폴리오 점수 63.8 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값 그대로. 직전 보고서(63.8 / 83.8)와 변화 없음. 가장 큰 감점 요인: 목표 정렬, 집중도(TSLA·PLTR 과대), 현금 0.5%(최소 5% 미달).
 
 ## 1. 이번 실행
-- 새 글 2개 분석 (둘 다 relevance MEDIUM), 아이디어 수신함 비어 있음, 새 공시 없음.
-- 224873 (T3chfeed, 10-19 시황): 이번 주 이벤트 캘린더 글.
-  - 테슬라 3Q 실적: 10/21 미국 장마감 후(한국시간 10/22 오전) — CONFIRMED (2차 보도가 회사 공지 인용).
-  - 팔란티어 Maven의 NATO Avenger Triad 26(10/15 종료) 활용 — CONFIRMED (Stars and Stripes). NATO 도입 시점 PARTIAL.
-  - 아이온큐 Superion 256 2027년 인도 — CONFIRMED (ionq.com). 유가 109달러, 2027 빅테크 CapEx 1.2조 달러, 모델 Y L 지연은 UNVERIFIED(공식 출처 없음).
-- 225007 (세상학개론, 10/18 라이브): 네오클라우드 낙관론. 아이렌 MS 일정 지연은 작가도 인정한 비공식 소문, 코어위브 금리 15%, 앤스로픽 흑자 전환 등은 비상장·공시 부재로 UNVERIFIED.
+- 새 글 0개, 아이디어 수신함 비어 있음, 마지막 보고서 이후 새 공시 없음(ETN 8-K는 10-17 감지분).
+- 기존 분석 보강: 224312(MEDIUM)은 FACT 2개가 모두 UNVERIFIED였음.
+  - 엔비디아의 Apollo·BlackRock·Blackstone·Brookfield·Goldman Sachs·KKR AI 인프라 금융 플랫폼(5,000억 달러 이상 동원 목표): **CONFIRMED** — [엔비디아 IR 보도자료 2026-08-10](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx). MOU·목표치이며 확정 약정이 아님.
+  - 앤스로픽 3Q 매출 168억 달러: 비상장사라 공시 없음. FT 등 보도(투자자 비공개 설명 인용)만 있고 증가율은 약 45%로 글의 46%와 근소 차이. 공식 확인 불가 → UNVERIFIED 유지.
+- 225007의 FACT는 직전 실행에서 검증을 시도했고 비상장·비공식 소문이라 UNVERIFIED 유지.
 
 ## 2. 판단 변경
-- 변경 없음. 두 글 모두 새 공식 근거가 없고 체크포인트·단일 의견 중심이다. `decision_universe.json`, `official_research.json` 미수정(공식 근거 기준일 2026-10-06 유지).
+- 변경 없음. 새 공식 실적·가이던스가 없고 NVDA 금융 플랫폼은 8월 발표라 이미 반영된 정보. `decision_universe.json`, `official_research.json` 미수정(공식 근거 기준일 2026-10-06, 13일 경과).
 
 ## 3. 지금 실행할 액션 상위 3개
-`reports/decision-latest.md` 참조 (이번 실행에서 변경 없음). 단, **테슬라 실적(10/22 KST 오전) 발표 후 FCF·마진·가이던스를 공식 자료로 확인하고 TSLA 점수를 재검토**한다.
+`reports/decision-latest.md`의 액션플랜을 따른다(현금 5% 확보, TSLA·PLTR 비중 축소 방향). 단일 의견에 따른 급격한 변경은 하지 않으며 실행 전 TSLA 3Q 실적(10/21 장마감 후, KST 10/22 오전)을 확인한다.
 
 ## 4. 데이터 상태
-- Fanding 수집 OK. 공식 근거 기준일이 13일 전(2026-10-06) — 이번 주 테슬라·메타 등 실적 후 갱신 필요.
+- Fanding 수집 OK(마지막 성공 2026-10-19 13:41). 분석 대기 0개.
+- 공식 근거 기준일 13일 경과 — TSLA 실적 이후 갱신 필요.

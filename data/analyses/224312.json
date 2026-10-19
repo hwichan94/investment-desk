@@ -15,7 +15,7 @@
         "CRWV"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "비상장사 수치로 공식 공시 확인 불가, 보도 의존"
+      "evidence_note": "비상장사 수치로 공시 없음. 2026-10-19 재시도: FT 등 보도가 투자자 대상 비공개 설명 인용(Q3 168억 달러, 증가율 약 45%, Q2 115~116억 달러; 글의 46%와 근소 차이). 회사 공식 발표 아님 → UNVERIFIED 유지"
     },
     {
       "kind": "FACT",
@@ -24,8 +24,9 @@
         "NVDA",
         "CRWV"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "언론 보도 인용, 엔비디아 공식 자료 미확인"
+      "verification": "CONFIRMED",
+      "evidence_note": "엔비디아 IR 보도자료(2026-08-10): Apollo·BlackRock·Blackstone·Brookfield·Goldman Sachs·KKR와 MOU, 제3자 자본 5,000억 달러 이상 동원 목표. 확정 약정이 아닌 MOU·목표치. (2026-10-19 검증)",
+      "evidence_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Partners-With-Apollo-BlackRock-Blackstone-Brookfield-Goldman-Sachs-and-KKR-to-Establish-AI-Compute-Infrastructure-Financing-Platforms-to-Mobilize-Over-500-Billion-of-Third-Party-Capital/default.aspx"
     },
     {
       "kind": "OPINION",

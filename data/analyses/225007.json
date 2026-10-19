@@ -1,0 +1,81 @@
+{
+  "post_id": "225007",
+  "content_hash": "c316ffe73da0c86132dcb3f88e2ba237b546099ae4af0a71e08e0469b09c452e",
+  "analyzed_at": "2026-10-19T16:30:00+09:00",
+  "title": "🎓10월 3주차 유튜브 라이브(10.18)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "10/18 유튜브 라이브 Q&A 정리. 작가는 공포지수 18% 수준에서 AI 비중을 추가매수로 복원 중이며, 네오클라우드(아이렌·코어위브·네비우스)가 자본조달 부담에도 매출 램프업이 가장 빠르다고 본다. 아이렌의 마이크로소프트 계약 지연 소문은 공식 발표 전 찌라시라고 인정한다. 오픈소스 AI 성장은 네오클라우드에 긍정적이고 증류 차단으로 중국 모델 추격이 둔화됐다고 주장한다. 앤스로픽 3분기 흑자 전환 등 비공개 회사 수치도 언급한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "아이렌의 마이크로소프트 관련 일정 지연 소문이 있으나 공식 발표는 없다.",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "작가도 찌라시로 언급. 2026-10-19 기준 공식 공시 확인 못함(검증 시도: 공시 목록에 해당 건 없음)."
+    },
+    {
+      "kind": "FACT",
+      "text": "코어위브는 무담보 부채 금리가 15%까지 올라간다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "SEC 원문 대조 시도 전. 이전 분석(222934, 224312)의 CRWV 조달비용 상승 신호와 방향은 일치하나 수치 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤스로픽이 3분기에 흑자 전환했고 중국발 매출 5~7%가 증류 차단으로 빠졌다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "비상장사로 공식 공시 없음, 보도·작가 서술 의존."
+    },
+    {
+      "kind": "FACT",
+      "text": "오픈라우터 사용량에서 프론티어 대 오픈소스 비중이 20:70대에서 50:50으로 바뀌었다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "openrouter 통계 직접 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "선급금이 GPU 비용의 30~40%를 커버해 증자·전환사채 필요가 줄었다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "회사별 공시 대조 필요. 일반화된 작가 추정."
+    },
+    {
+      "kind": "OPINION",
+      "text": "네오클라우드는 하이리스크·하이리턴이며 오픈소스 확대가 단가에 유리하다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "작가는 코어위브·네비우스를 각 약 1억 원어치 추가 매수하고 AI 비중을 복원 중이다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "작가의 매수는 의견이며 조달비용 부담 자체를 부인하지 않음. 공식 근거 없어 WEAKENING 판단은 유지."
+    }
+  ],
+  "new_candidates": [
+    "IREN",
+    "NBIS"
+  ],
+  "portfolio_implication": "변경 없음. 단일 의견·비공식 소문 중심이며 핵심 수치 미검증. CRWV는 target 0% 유지, 작가의 저가매수 의견을 따라 비중을 늘리지 않는다."
+}

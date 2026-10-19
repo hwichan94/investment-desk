@@ -1,0 +1,114 @@
+{
+  "post_id": "224873",
+  "content_hash": "6e265a91e673cdb9696eeb5d61068425e27cd04dc9cdc1ba979aa46f71c523f0",
+  "analyzed_at": "2026-10-19T16:30:00+09:00",
+  "title": "금요일의 AI 매도, 이번 주 실적이 답한다.| 10-19 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "10-19 시황과 이번 주 이벤트 캘린더 글. 핵심 질문은 'AI 인프라 투자를 위한 자금조달 여력'이며 유가(약 109달러)와 자금조달 비용이 연결돼 있다고 본다. 메타(10/22 KST)·테슬라(10/22 KST) 실적에서 CapEx 대비 잉여현금흐름을 확인하겠다고 한다. 팔란티어 Maven의 NATO 활용 확대, 아이온큐 Superion 256 페이지 공개, 앱셀레라 ABCL635 데이터(10/22~23), 블룸에너지 실적(10/23)을 짚는다. 매수/매도 권고보다는 체크포인트 나열형이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라 3분기 실적 발표가 이번 주(한국시간 10/22 오전)이다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.teslaoracle.com/?p=66789",
+      "evidence_note": "2026-10-19 검색: 회사 발표 기준 10/21(수) 미국 장마감 후, 한국시간 10/22 오전. 2차 보도가 회사 공지를 인용(ir.tesla.com 원문은 직접 열람 못함)."
+    },
+    {
+      "kind": "FACT",
+      "text": "팔란티어 Maven Smart System이 NATO 연합훈련 Avenger Triad 26(10/15 종료)에서 공통 작전상황 구성에 활용됐다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.stripes.com/branches/army/2026-10-15/avenger-triad-usareuraf-nato-exercise-23161452.html",
+      "evidence_note": "2026-10-19 검색: 훈련 종료일 10/15와 Maven 활용 보도 일치. 'NATO 동부전선 확대'라는 표현과 연 $1B 매출 추정은 작가 해석/미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "NATO가 Maven을 도입했고 2026년 6월 전체 기술적 운용능력을 확보했다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.jwc.nato.int/article/jwc-integrate-maven/",
+      "evidence_note": "NATO 합동전투센터가 Maven 통합 훈련을 게시, 단일 조달 합의는 확인. 'FTOC 2026-06' 시점은 직접 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "아이온큐가 Superion 256을 판매 개시했고 데이터센터 첫 인도는 2027년이다.",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://ionq.com/quantum-systems/superion-256",
+      "evidence_note": "2026-10-19 검색: 2027년 인도 문구 확인. 전체 시스템 충실도·전력 성능은 미공개."
+    },
+    {
+      "kind": "FACT",
+      "text": "국제유가가 배럴당 약 109달러에 근접해 있다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 가격 출처(EIA 등) 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "2027년 빅테크 CapEx 합산이 1조 2,000억 달러 규모다.",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "출처 불명(시장 추정). 공식 가이던스 아님."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 모델 Y L 신규 주문 인도 예정이 2027년 1~2월에서 2~4월로 늦춰졌다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "테슬라 주문 페이지 기반으로 보이며 직접 확인 못함."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "메타·테슬라 실적에서 CapEx 대비 잉여현금흐름이 AI 자금조달 우려의 답을 준다(테슬라 FCF 마이너스 가능성).",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "10/22 KST 실적 발표 후 채점.",
+      "due": "2026-10-23"
+    },
+    {
+      "kind": "OPINION",
+      "text": "실적 후 블룸에너지가 크게 빠지면 추가 매집을 고려한다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "NATO 훈련 활용은 확인되나 기존 정부 부문 thesis의 연장선이며 매출 기여는 작가 추정."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "실적일 확정 외 새 공식 정보 없음. 모델 Y L 인도 지연은 수요/생산 해석이 갈림."
+    }
+  ],
+  "new_candidates": [
+    "IONQ",
+    "ABCL",
+    "BE",
+    "META"
+  ],
+  "portfolio_implication": "변경 없음. 이벤트 캘린더 글이며 신규 공식 근거 없음. 10/22 KST 테슬라 실적(TSLA 보유 비중 큼)이 다음 판단 시점이므로 발표 후 FCF·마진·가이던스를 공식 자료로 확인해 TSLA 점수를 재검토한다."
+}

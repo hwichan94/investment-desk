@@ -1,0 +1,90 @@
+{
+  "post_id": "225142",
+  "content_hash": "343ae0df04f61dc23a23f68763f45d8b8772e5c2b1ecc6ce5dd317ef9b56574f",
+  "analyzed_at": "2026-10-20T01:10:00+09:00",
+  "title": "휴…해치웠나? 라고할 뻔 (ft. 중간선거)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "중간선거(민주당 하원 우세 전망)가 관세·재정지출·장기금리를 완화해 AI 인프라 섹터에 우호적이라는 매크로 해석 글. 코어위브 파산 공포는 과장이며 장기투자자는 버티면 된다고 주장하고, 데이터센터 모라토리엄 우려도 실제 지연 용량(2.3GW)이 작다고 본다. 아이렌의 마이크로소프트 Horizon 지연 소문에 대해 회사 측이 계약상 45일 내 수정, Horizon 2~4는 4분기 인도라고 설명했다고 전한다(주주 설명회 전언). 앤스로픽이 NIST 곡선 시드 기원을 밝혔다는 사례를 들며 상장 시 진입 의사를 밝힌다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "골드만삭스가 코어위브 목표가를 $106에서 $139로 올리고 중립에서 매수로 상향했다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "2026-10-20 웹 검색(2차 집계 출처): 골드만은 2026-08-20 목표가 $121→$139 상향, 투자의견은 중립 유지로 보도됨. 목표가 $139는 일치하나 '매수 상향'과 '$106 이전 목표가'는 확인되지 않음. 원 리포트 미확인.",
+      "evidence_url": "https://www.benzinga.com/quote/CRWV/price-targets"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤스로픽이 NIST 타원곡선 시드의 25년 된 기원 미스터리를 풀었고 숨겨진 백도어는 없었다.",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "앤스로픽 연구 글(2026-10-16)이 존재하며 시드가 1990년대 난수 생성기(drand48, 유닉스 타임스탬프)에서 나왔다고 보도됨. 일부 곡선(B-163 등)은 미해결이라 '전부 해결'은 과장. 본문 전체는 확인 못 하고 요약·2차 보도 기준.",
+      "evidence_url": "https://anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "kind": "FACT",
+      "text": "아이렌이 Horizon 지연 소문에 대해 계약상 45일 범위 내 수정, Horizon 2~4는 4분기 내 인도라고 답했다.",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "대형 주주 설명회 전언으로 공식 공시·IR 자료 없음. 회사 공식 확인 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "10년물 금리가 5.356% 고점에서 5.07~5.12%로 내려왔다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이번 실행에서 재무부 자료로 대조하지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "모라토리엄 적용 주·지방 지역의 데이터센터 용량 21.2GW 중 지연 가능성은 2.3GW(이코노미스트).",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이코노미스트 기사 원문 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "이란이 중간선거 전 빠르면 이번 주, 늦으면 다음 주 합의에 이른다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-11-03"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "민주당이 하원(90%)을 탈환하고 상원도 63% 우세여서 관세·재정지출에 제동이 걸리고 장기금리가 내려온다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-11-04"
+    },
+    {
+      "kind": "OPINION",
+      "text": "현재 AI 과매도는 버블 붕괴 초입이 아니라 기회이며, 코어위브 단기 파산은 사실상 불가능하다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "자본조달 우려 완화 주장이나 새 공식 근거 없음. 골드만 상향 주장은 일부만 확인."
+    },
+    {
+      "ticker": "IREN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "지연 소문 해명은 공식 확인 불가한 전언."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 매크로 전망과 비공식 해명 위주이고 공식 실적·가이던스 변화가 없어 단일 의견으로 비중을 바꾸지 않는다."
+}

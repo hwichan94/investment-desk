@@ -1,6 +1,6 @@
 {
   "post_id": "225142",
-  "content_hash": "343ae0df04f61dc23a23f68763f45d8b8772e5c2b1ecc6ce5dd317ef9b56574f",
+  "content_hash": "4bc70b3fd9f78cbf7a4af18e2ecb8ef27aae1ab091ce4a95852abe0f95c94a11",
   "analyzed_at": "2026-10-20T01:10:00+09:00",
   "title": "휴…해치웠나? 라고할 뻔 (ft. 중간선거)",
   "author": "세상학개론 - 한정수 작가",
@@ -9,13 +9,13 @@
   "claims": [
     {
       "kind": "FACT",
-      "text": "골드만삭스가 코어위브 목표가를 $106에서 $139로 올리고 중립에서 매수로 상향했다.",
+      "text": "골드만삭스가 코어위브를 중립에서 매수로 상향했다(수정본: 목표가 수치 삭제).",
       "tickers": [
         "CRWV"
       ],
-      "verification": "PARTIAL",
-      "evidence_note": "2026-10-20 웹 검색(2차 집계 출처): 골드만은 2026-08-20 목표가 $121→$139 상향, 투자의견은 중립 유지로 보도됨. 목표가 $139는 일치하나 '매수 상향'과 '$106 이전 목표가'는 확인되지 않음. 원 리포트 미확인.",
-      "evidence_url": "https://www.benzinga.com/quote/CRWV/price-targets"
+      "verification": "UNVERIFIED",
+      "evidence_note": "2026-10-20 재검색: 10월 골드만 CRWV 매수 상향 보도 없음. 최근 확인된 골드만 의견은 중립(2026-01 재개시, 목표가 $86), 8~9월 목표가 $139 상향 보도(2차 출처, 의견 불명). 원 리포트 미확인이므로 '매수 상향'은 미확인. 글 수정(rev 2)으로 이전 목표가 $106 언급은 삭제됨.",
+      "evidence_url": "https://www.itiger.com/news/1152366659"
     },
     {
       "kind": "FACT",

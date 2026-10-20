@@ -1,0 +1,120 @@
+{
+  "post_id": "225324",
+  "content_hash": "dc9bfb3d56db8b3d5fd3d9503886774da697d6ad4b92f93e18265c6799457019",
+  "analyzed_at": "2026-10-21T01:20:00+09:00",
+  "title": "하루 오르고 하루 떨어지는 온탕 냉탕 하락장에서 살아남기",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "AI 주식이 금리·중간선거·이란 협상 불확실성 속에서 반등과 하락을 반복하며, 중간선거 전까지 이런 장이 이어질 것으로 본다. 필자는 현금으로 조금 물리더라도 매력적인 가격에 분할 진입하는 쪽이며 IREN을 5,000주 추가매수했고 25달러대 이하에서 이번 주 최대 10,000주를 더 살 계획이다. 핵심 논지는 네오클라우드 자금조달 구조 비교로, IREN·Nebius는 자가소유 데이터센터와 전환사채/ATM으로 금리 상승에 강하고 CoreWeave는 임차 구조와 9%대 무담보 회사채·대출 확대로 가장 취약하다는 것이다. 빅테크 2026 CAPEX(아마존 2,200억 달러 등)는 AI 인프라 수요 근거로 제시한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "CoreWeave는 약 100억 달러를 9%대 금리 무담보 회사채로 조달했다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "CRWV 10-Q(2026-06-30): 2031 9.00% 노트, 2026-04 9.750% 노트 $2.8B, 2026-06 9.625% 노트 $1.3B와 8.500% 유로 노트 €2.0B 발행 확인. 방향(8.5~9.75% 고금리 무담보)은 맞으나 합계는 약 $8B대로 '100억 달러'보다 작아 수치는 과장 가능성(전체 합산 미검증).",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "CoreWeave는 전환사채·ATM뿐 아니라 담보대출과 무담보대출을 적극 늘린 풀레버리지 전략이다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "10-Q에 1.75% 전환사채(2031·2032), 9%대 선순위 노트, 유로 노트가 확인되고 기존 universe 판단(대규모 부채·담보부 금융)과도 일치.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "아마존 2026 CAPEX 전망치는 약 2,200억 달러로 빅테크 중 최대다.",
+      "tickers": [
+        "AMZN"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "10-Q 원문에서 2026 Q2 현금 CAPEX $53.1B(상반기 $96.3B) 확인. 연간 $220B 가이던스 상향(2월 ~$200B→)은 2차 보도로만 확인, 회사 원문 직접 확인 못함. 구글·MS·메타 수치는 미검증.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "골드만삭스가 코어위브를 매수로 올리고 다음 날 HSBC가 매도 리포트를 냈다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색에서 2026-10 시점 애널리스트 액션을 찾지 못함(2025년 HSBC reduce 개시만 확인). 증권사 리포트는 공식 자료가 없다."
+    },
+    {
+      "kind": "FACT",
+      "text": "아이렌은 모든 사이트를, 네비우스는 대부분 사이트를 부지부터 데이터센터까지 직접 소유하고 전환사채 약 55%/ATM 45% 등으로 조달한다.",
+      "tickers": [
+        "IREN",
+        "NBIS"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "IREN·NBIS는 추적 종목이 아니라 data/market/docs에 원문이 없고 검색으로 자금조달 비율을 확인하지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "데이터센터 CAPEX의 70%가 GPU, 이 중 절반은 고객 선급금, 절반은 6~9% GPU 담보대출로 충당된다.",
+      "tickers": [
+        "CRWV",
+        "IREN",
+        "NBIS"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "일반화된 구조 설명이며 업계 평균을 보여주는 공식 자료는 찾지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "오픈AI가 다음 달 중순 앤스로픽 상장 전에 약 1.4조 달러 가치로 추가 투자를 유치 중이다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 없음, 보도 미확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "중간선거 전까지 금리·이란 협상 뉴스로 횡보·저점 테스트가 반복되고 선거 이후 금리와 시장이 안정된다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "IREN·Nebius는 금리 상승에 강하고 CoreWeave는 자금조달에 가장 취약하다.",
+      "tickers": [
+        "IREN",
+        "NBIS",
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "중간선거 이후 관세·정부지출에 제동이 걸려 장기금리가 내려오고 시장이 안정된다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "자금조달 취약성 주장은 10-Q의 9%대 고금리 무담보 노트로 방향이 확인되며 기존 WEAKENING 판단과 일치하나, 새 정보가 아니라 점수 변경 사유는 아니다."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CAPEX 상향은 이미 알려진 정보이며 수요 근거이지만 자금 부담도 함께 커진다."
+    }
+  ],
+  "new_candidates": [
+    "IREN",
+    "NBIS"
+  ],
+  "portfolio_implication": "변경 없음. 필자 개인 매매(IREN 추가매수)와 네오클라우드 간 상대 비교 의견이며, 공식 근거는 CRWV 자금조달 구조에 한정된다. IREN·NBIS는 공식 근거 없이 후보 편입하지 않고, 편입 검토 시 10-Q/20-F 원문 확인과 5가지 질문 평가가 선행되어야 한다. 보유 AI CAPEX 노출(PLTR 외 TSLA 등)을 늘릴 이유 없음."
+}

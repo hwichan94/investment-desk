@@ -1,0 +1,103 @@
+{
+  "post_id": "225233",
+  "content_hash": "ffc155d18a824f4b87bf69c875980b233b2319c5395e930789955a63a94e4b9f",
+  "analyzed_at": "2026-10-20T19:15:00+09:00",
+  "title": "어제 나온 테슬라 공시, 스페이스X 합병 힌트?",
+  "author": "T3chfeed_테크피드",
+  "summary": "테슬라 2026 Proxy에서 합병 직접 언급은 없지만, 소액주주 자동투표(이사회 권고 추종) 프로그램이 처음 도입된 점을 스페이스X 합병 사전 준비 신호로 해석한 글. 합병 시기는 2027년 후반~2028년 초로 보며 규제승인·머스크 이해상충·주주 설득이 허들이라 한다. 한국 투자자는 주식교환 시 양도세 22% 과세 가능성이 있어 배우자 증여 등을 검토하라는 세무 성격의 내용이 큰 비중이다. 투자 판단에는 합병 호재 관점(장기 긍정)이나 타임라인은 추측이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라가 2026 Proxy를 공시했고 정기주총은 한국시간 12월 4일이다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "DEF 14A: 주총 2026-12-03 15:00 CT(=KST 12/4), 일론 머스크·덴홀름·스트라우벨 재선임 등 안건 구성 확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001318605/000110465926116700/tm267596-1_def14a.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "Proxy에 합병과 직접 관련된 안건은 없다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "검색으로 확인한 안건에는 합병 없음. 전체 안건 전수 대조는 하지 못함.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001318605/000110465926116700/tm267596-1_def14a.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라가 소액주주 자동투표 프로그램(이사회 권고 추종)을 새로 도입했다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "SEC 승인(9/29)된 Issuer Voluntary Retail Voting Program. 단 10/19 공시상 등록은 2026 주총이 아닌 향후 주총에 적용되며, 선택지에는 합병 등을 제외하는 옵션이 포함됨.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001318605/000110465926116716/tm267596d6_defa14a.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "로빈후드는 옵션 1(합병 포함 전부 자동찬성)이 기본값이다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "로빈후드 기본값을 보여주는 공식 자료는 찾지 못함(2차 보도 화면만)."
+    },
+    {
+      "kind": "FACT",
+      "text": "2019년 이후 테슬라 Proxy에 이런 제도는 없었다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "과거 Proxy 전수 대조 안 함. SEC 승인 신규 프로그램이라는 점은 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "바클레이스는 합병을 연말로 전망한다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "바클레이스 노트 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "테슬라-스페이스X 합병 발표는 2027년 후반~2028년 초일 것이다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2028-03-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "자동투표 도입은 합병 사전 준비 신호다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "한국 거주자는 합병 시 양도세 22% 과세 가능, 배우자 증여 검토 가능(세무사 상담 필요).",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병은 추측이고 Proxy에 합병 안건이 없다. 자동투표는 향후 주총에 적용되며 해석은 필자 의견. 세금 이슈는 종목 thesis가 아닌 개인 세무 사안."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 공식 실적·가이던스 변화 없이 합병 타임라인 추측이며 단일 의견이다. 이번 주 스페이스X·테슬라 실적(합병 언급 여부)을 확인한다."
+}

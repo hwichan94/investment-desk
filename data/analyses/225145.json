@@ -1,0 +1,108 @@
+{
+  "post_id": "225145",
+  "content_hash": "cc5065cc04361fe1852d5ed3290b8021edd66642a375dc81ad42482699090a28",
+  "analyzed_at": "2026-10-20T09:40:00+09:00",
+  "title": "반도체 반등, 아직 시장 전체가 돌아선 것은 아닙니다. | 10-20 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "지난주 급락한 AI 인프라주가 반등했지만 상승 종목 수는 하락 종목보다 적어 시장 전체 회복이 아닌 기술적 반등이라는 시황 글. 아마존 +4.98%(모건스탠리 Top Pick), 엔비디아 양자 시뮬레이션, 팔란티어-Knox 파트너십, 템퍼스 AI 폐암 연구, 퀀티뉴엄 오류정정 기록을 다룬다. 브렌트유 $109와 고금리가 성장주 부담이며 실적이 방향을 가를 것이라 본다. 내일 스페이스X 실적과 테슬라 합병 가능성은 아직 이르다는 의견.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "모건스탠리가 아마존을 Top Pick으로 선정, 지난 금요일 대비 40% 상승여력 제시.",
+      "tickers": [
+        "AMZN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "2026-10 시점 모건스탠리 노트는 검색에서 확인 안 됨. 2026-02/07 노트(Overweight, 목표가 $300, Top Pick 취지)만 확인되어 방향은 유사하나 10월 40% 수치는 미확인.",
+      "evidence_url": "https://finance.yahoo.com/news/amazon-stock-jumps-morgan-stanley-175704611.html"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 JUPITER(8,192 GPU)로 104큐비트 오류내성 양자컴퓨터 시뮬레이션을 수행했다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "JUPITER 8,192 GPU는 46큐비트 벤치마크, 50큐비트 시뮬레이션만 확인. 104큐비트·오류내성은 검색 근거 없음.",
+      "evidence_url": "https://arxiv.org/pdf/2604.26423"
+    },
+    {
+      "kind": "FACT",
+      "text": "팔란티어와 Knox Systems가 파트너십을 발표, FedRAMP 인증 경로를 90일 이내로 단축.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "파트너십 보도 없음. Knox는 9월 IL5 환경을 발표했고 오히려 팔란티어 대안으로 포지셔닝한 자료만 확인됨.",
+      "evidence_url": "https://knoxsystems.com/blog/il5-announcement"
+    },
+    {
+      "kind": "FACT",
+      "text": "퀀티뉴엄이 논리 충실도 99.9995%, 오류율 10배 감소를 달성했다.",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "Helios에서 약 99.999%(five-nines) 논리 충실도 보도 확인. 99.9995% 수치는 미확인(2차 출처).",
+      "evidence_url": "https://futurumgroup.com/insights/quantum-in-context-quantinuum-and-the-quest-for-more-9s"
+    },
+    {
+      "kind": "FACT",
+      "text": "브렌트유가 $109로 마감했다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이번 실행에서 공식 시세로 대조하지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "스페이스X 실적이 내일 발표되며 테슬라 합병 질문이 예정되어 있다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "스페이스X 10/21 실적일 미확인. 합병은 7월 테슬라 콜에서 머스크가 확인·부인 거부(공식 발표 없음).",
+      "evidence_url": "https://electrek.co/2026/07/22/elon-musk-hints-tesla-spacex-merger-earnings-call/"
+    },
+    {
+      "kind": "OPINION",
+      "text": "이번 반등은 AI 인프라 과매도에 따른 기술적 반등이며 시장 전체 회복은 아니다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "테슬라-스페이스X 합병은 준비 중이나 아직 이르다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "Knox 파트너십은 공식 확인 안 됨. 정부 채널 확대 서사 약한 강화이나 미검증."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병은 추측 단계이며 공식 발표 없음."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "양자 시뮬레이션은 매출 규모 미공개이며 수치도 미확인."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "단일 증권사 의견 + 하루 반등, 10월 노트 미확인."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 시황 요약으로 공식 실적·가이던스 변화가 없고 핵심 FACT는 미검증이다. 반등은 기술적이라는 글 자체의 결론도 비중 확대 근거가 아니다."
+}

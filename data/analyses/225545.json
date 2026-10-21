@@ -1,0 +1,98 @@
+{
+  "post_id": "225545",
+  "content_hash": "0d862efe8973a9e40820021901e05fb24b72acd8b3ff7480caeb524f989cee32",
+  "analyzed_at": "2026-10-21T22:20:00+09:00",
+  "title": "일론 머스크: AI 돈 되는데요? (ft. 스페이스X 실적발표)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "스페이스X 3분기 실적(매출 $14.6B, AI 부문 $7.56B·흑자 $0.43B)과 컨퍼런스콜을 근거로 'AI 클라우드는 돈이 된다'는 주장을 펴는 글이다. 병목은 GPU가 아니라 전력·냉각·메모리·건설이며, 구형 칩(H100)도 임대가가 오른다는 점을 근거로 컴퓨트 수요의 지속성을 강조한다. 스페이스X 4분기 CapEx가 $35~40B로 두 배가 된다는 점과 앤스로픽 투자제안서의 매출 대비 컴퓨트 비용 하락을 AI 수익성 증거로 든다. 2027년 스페이스X 10~20GW 확장이 엔비디아 매출에 미칠 영향을 언급하며 NVDA 우호적 결론을 내린다. 매크로(이란 전쟁 종결, 금리 하락)는 필자의 전망이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "스페이스X 3분기 매출 $14.575B(전년비 +161%), 영업이익 $2.79B, AI 부문 매출 $7.56B 및 영업흑자 $0.43B.",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "직전 분석(225470)에서 CNBC 등 복수 보도로 매출 $14.6B·+161%는 일치 확인. 이번 검색에서는 Q3 보도가 색인되지 않아 부문별 수치(AI $7.56B, Starlink $5.25B)와 영업이익은 확인하지 못함. 8-K 원문 직접 열람 불가. 스페이스X는 추적 종목이 아님.",
+      "evidence_url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+    },
+    {
+      "kind": "FACT",
+      "text": "스페이스X 3분기 CapEx $19.6B(AI 인프라 $16.4B), 4분기 $35~40B 계획.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색으로 Q3 CapEx를 확인하지 못함(2분기 CapEx $18.37B, AI 인프라 $15.83B는 S&P Global·Eastern Progress 보도로 확인되어 규모는 방향상 일치). 4분기 두 배 계획은 미확인.",
+      "evidence_url": "https://www.easternprogress.com/is-spcx-worth-buying-as-starlink-growth-battles-heavy-ai-spending/article_74214e02-ba15-510e-b1c3-982f6229687f.html"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤스로픽 매출 2025H1 $1.1B→2026H1 $16.3B, 컴퓨트 비용 $2.3B→$9.0B (WSJ 보도 인용).",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "Reuters 인용 보도: 2026 Q1 $4.7B + Q2 $11.6B ≈ $16.3B로 매출은 일치. 컴퓨트 비용 $9.0B·2025H1 수치는 확인 못함(WSJ 기사 원문 미확인). 투자자용 비공개 자료 기반 보도로 공식 공시 아님.",
+      "evidence_url": "https://letsdatascience.com/blog/anthropic-ipo-prospectus-nearly-a-third-is-risk-factors"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아 2027(회계연도) 매출 가이던스가 $670~700B.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFLICT",
+      "evidence_note": "검색에서 해당 가이던스를 찾지 못함. 엔비디아가 공식 언급한 것은 Blackwell+Rubin 2027년까지 $1T 이상 가시성(경영진 전망, 공식 가이던스 아님)이며 FY27 애널리스트 추정(~$340~360B 데이터센터)과도 격차가 큼. 2분기 FY27 가이던스는 $91B±2%. 해당 수치는 사용 금지.",
+      "evidence_url": "https://pepperstone.com/en-au/insights/market-analysis/equities/nvidia-earnings-preview-q2-fy27"
+    },
+    {
+      "kind": "FACT",
+      "text": "베라루빈은 GW당 약 $400억 어치가 들어간다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 근거를 찾지 못함. 머스크/업계 발언 기반으로 보이며 엔비디아 공시 수치 아님."
+    },
+    {
+      "kind": "OPINION",
+      "text": "병목은 GPU가 아니라 전력·냉각·인프라이며, 구형 칩도 임대가가 오르는 등 컴퓨트의 경제적 가치가 상승 중이다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "스페이스X는 내년 10GW(가능하면 20GW)로 용량을 확장한다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_note": "머스크 콜 발언 인용이며 실행 여부는 2027년 CapEx·가동 용량 공시로 채점.",
+      "due": "2027-09-30"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "이란 전쟁이 곧 종료되고 유가·금리가 내려 소형주가 재평가될 것이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_note": "필자의 매크로 전망. 시점 불명.",
+      "due": "2027-03-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "AI 인프라 수요·CapEx 지속 시사는 방향상 우호적이나, 핵심 수치(NVDA 매출 가이던스 $670~700B)가 공식 자료와 충돌해 근거가 약하고 스페이스X 수치도 2차 보도 수준이다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "스페이스X 실적은 합병 가능성 맥락 외에 TSLA 개별 thesis와 직접 관련이 없다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 글의 NVDA 우호 결론은 공식 확인되지 않은 수치(가이던스 $670~700B)에 의존하고, 이미 NVDA 신규 편입(5%)이 제안에 반영돼 있다. 스페이스X는 universe 밖이며 단일 의견·2차 보도라 점수·목표 비중을 바꾸지 않는다."
+}

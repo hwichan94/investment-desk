@@ -2,21 +2,19 @@
   "status": "OK",
   "message": "",
   "discovered": 20,
-  "created": [
-    "225545"
-  ],
+  "created": [],
   "updated": [],
-  "unchanged": 14,
+  "unchanged": 15,
   "locked": 5,
   "locked_ids": [
+    "225632",
     "225436",
     "225104",
     "224846",
-    "224700",
-    "224502"
+    "224700"
   ],
   "failures": [],
-  "last_run_at": "2026-10-21T20:49:40.170290+09:00",
-  "last_success_at": "2026-10-21T20:49:40.170290+09:00",
+  "last_run_at": "2026-10-22T02:13:15.498957+09:00",
+  "last_success_at": "2026-10-22T02:13:15.498957+09:00",
   "consecutive_failures": 0
 }

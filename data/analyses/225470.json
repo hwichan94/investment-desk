@@ -1,0 +1,79 @@
+{
+  "post_id": "225470",
+  "content_hash": "bcc36f7e471e42f1ad733a7ea99905075b3d745f5b1c3773016a57b74033a16f",
+  "analyzed_at": "2026-10-21T16:20:00+09:00",
+  "title": "스페이스X 3분기 실적",
+  "author": "T3chfeed_테크피드",
+  "summary": "스페이스X 3분기 실적 콜에서 테슬라와의 합병 논의가 공식 언급됐다. 필자는 자신이 제기한 3가지 쟁점 중 주주 찬성(전체 주식 50%)과 머스크 이해상충(특별위원회) 2가지가 직접 다뤄졌다고 본다. 신규 컴퓨트 투자 회수 기간이 1년 미만이라는 CFO 발언을 근거로 성장·재투자 속도를 높게 평가하고, 2027E 매출 $117.48B·EPS $2.13 기준 Forward P/S ~17배·P/E ~69배면 $150 부근 밸류에이션이 '꽤 합리적'이라고 본다. 다만 합병 비율 불확실성 때문에 필자도 투자하지 않고 있다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "스페이스X와 테슬라가 각각 특별위원회를 꾸렸고 머스크는 이해상충 당사자로 논의에서 빠진다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "CNBC·Benzinga·CNN 등 복수 보도에서 콜 발언으로 확인(양사 특별위원회, 머스크 비참여). 회사 8-K/콜 원문은 WebFetch 차단으로 직접 열람 못함. CFO는 합병이 확실하다는 인식은 과장이라고 선을 그음.",
+      "evidence_url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 쪽 합병 승인에는 투표자가 아닌 전체 주식의 50% 찬성이 필요하다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "머스크가 콜에서 '전체 주주 기준 50%, 높은 허들'이라고 말한 것으로 보도됨. 원문 미확인이며 법적 요건은 합병 구조 확정 후 proxy/S-4로 확인해야 함.",
+      "evidence_url": "https://www.benzinga.com/markets/tech/26/10/62484678/elon-musk-confirms-spacex-tesla-merger-committees-calls-deal-a-good-idea"
+    },
+    {
+      "kind": "FACT",
+      "text": "CFO가 신규 컴퓨트 시설의 투자 회수 기간이 1년 미만이라고 했다.",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "CFO Johnsen의 '현재 가격 기준 1년 미만' 발언은 보도로 확인. 머스크의 '6개월 회수'는 검색에서 확인되지 않았고 '6개월'은 컴퓨트 계약 가시성 기간 언급과 혼동됐을 가능성.",
+      "evidence_url": "https://www.benzinga.com/news/26/10/62484605/spacex-q3-2026-earnings-call-transcript"
+    },
+    {
+      "kind": "FACT",
+      "text": "스페이스X 3분기 매출은 약 $14.6B(전년비 +161%)로 시장 추정을 상회했다.",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "복수 보도 $14.58B vs 컨센서스 약 $12.7B. 8-K EX-99.1 주소는 검색으로 확인했으나 직접 열람 못함. EPS는 매체별 $0.35/$0.37/$0.45로 불일치. 스페이스X는 추적 종목이 아님.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "애널리스트 2027E 매출 $117.48B, EPS $2.13, 종가 $147.79 기준 Forward P/S ~17배, P/E ~69배.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "컨센서스 수치는 공식 자료가 아니며 검색에서 확인하지 못함. 산술상 $147.79/$2.13≈69배는 일치하나 P/S는 주식수 미확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "$150대 스페이스X 밸류에이션은 성장 대비 꽤 합리적이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "스페이스X 성장이 가팔라질수록 합병은 빠를수록 좋고 적정 프리미엄이 제시되면 진행될 수 있다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_note": "합병 조건·시기는 공개되지 않음. 테슬라 3분기 실적(2026-10-21 장 마감 후) 콜에서 추가 언급 가능."
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병은 특별위원회 단계로 조건·비율·시기 미정이며 CFO도 확실하지 않다고 함. 비율 희석 가능성과 SpaceX 성장 공유 가능성이 상쇄돼 방향성 근거로 부족. 필자도 미투자."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 스페이스X는 universe 밖이고 합병 조건이 없어 TSLA 점수·목표 비중(24%) 근거로 쓸 수 없다. 단일 의견·보도 기반이라 비중 변경 금지. 테슬라 3분기 실적(10/21 장 후)과 이후 합병 공시를 확인한 뒤 재검토."
+}

@@ -1,0 +1,68 @@
+{
+  "post_id": "225773",
+  "content_hash": "dcda10f4b3a900338fd97decc82a250f2389737805b43b3647b80054dcf28140",
+  "analyzed_at": "2026-10-22T16:30:00+09:00",
+  "title": "테슬라 3분기 실적",
+  "author": "T3chfeed_테크피드",
+  "new_candidates": [],
+  "summary": "테슬라 3분기 실적 영상 소개 글. 필자는 FSD 채택률 75%와 연 반복매출 $1B 돌파를 의미 있는 신호로 보되, 투자 지속으로 EPS가 부진했다고 해석한다. 블룸버그 독점 보도를 인용해 2027년 상반기 테슬라+스페이스X 합병 발표 움직임(규모 $3.7T, 트럼프 임기 내 완료 목표)이 있다고 전하고, 주식 교환 시 양도세 문제를 준비해야 한다고 주장한다. 확정된 것은 없다고 스스로 단서를 단다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라 이번 분기 FSD 채택률 75%, 연 반복매출 $1B 돌파.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": "https://www.notateslaapp.com/news/4042/tesla-hits-546-million-in-annual-recurring-revenue-from-fsd-subscriptions",
+      "evidence_note": "검색으로 확인 시도: 2Q 기준 FSD 활성 구독 1.48M(2차 보도), ARR은 비공식 추정 약 $0.8B~1.76B로 편차가 크고 Tesla는 공시에서 FSD 매출을 분리하지 않음. 3Q 수치와 '채택률 75%' 정의는 확인하지 못함. 8-K/주주서한 원문 미열람."
+    },
+    {
+      "kind": "FACT",
+      "text": "블룸버그가 내부자 취재로 2027년 상반기까지 테슬라+스페이스X 합병 발표를 추진 중이라고 독점 보도(규모 $3.7T).",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://investinglive.com/stocks/barclays-sees-possible-tesla-spacex-merger-announcement-before-december/",
+      "evidence_note": "2026-01 블룸버그의 합병 검토 보도와 Barclays의 연내 발표 가능성 노트는 확인. 그러나 '2027 상반기·$3.7T·트럼프 임기 내 완료' 기사 자체는 검색에서 찾지 못함. 양사 공식 확인 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "3분기 영업이익 대비 투자 확대로 EPS가 부진했다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": null,
+      "evidence_note": "직전 analyst 보고서의 2차 보도(GAAP 순이익 -43%, 영업이익 -56%)와 방향 일치. SEC 8-K 원문은 data/market/docs에 없어 1차 확인 불가."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "합병이 2027년 상반기 발표되면 늦어도 27년 말~28년 초 주식 교환이 완료되고 양도세 이슈가 생긴다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2028-03-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "로보택시 분기점이 27년 2분기라면 주가 상승 시 스페이스X가 부담할 프리미엄이 커진다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병 보도는 미확정이고 원 기사 미확인. 실적 측면은 이미 반영된 2차 정보와 같다. 합병 시 희석·양도세·지배구조 불확실성은 모니터링 항목이나 비중 판단 근거로는 약함."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 합병은 소문 수준이고 출처 미확인이라 TSLA 축소 제안(24%)을 바꿀 근거가 되지 않는다. 8-K 원문 확인 시 재검토."
+}

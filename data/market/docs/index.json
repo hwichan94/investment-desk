@@ -747,6 +747,17 @@
   "TSLA": [
     {
       "form": "10-Q",
+      "filed": "2026-10-22",
+      "report_date": "2026-09-30",
+      "accession": "0001628280-26-066775",
+      "path": "data/market/docs/TSLA/2026-10-22-10-Q-0001628280-26-066775.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+      ],
+      "chars": 135888
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-07-23",
       "report_date": "2026-06-30",
       "accession": "0001628280-26-049270",
@@ -755,17 +766,6 @@
         "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm"
       ],
       "chars": 124591
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-04-23",
-      "report_date": "2026-03-31",
-      "accession": "0001628280-26-026673",
-      "path": "data/market/docs/TSLA/2026-04-23-10-Q-0001628280-26-026673.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm"
-      ],
-      "chars": 122756
     },
     {
       "form": "8-K",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T13:47:34.418405+09:00",
+  "fetched_at": "2026-10-22T20:54:34.494566+09:00",
   "filings": {
     "AMZN": [
       {
@@ -1589,6 +1589,14 @@
     ],
     "TSLA": [
       {
+        "form": "10-Q",
+        "filed": "2026-10-22",
+        "report_date": "2026-09-30",
+        "cik": "0001318605",
+        "accession": "0001628280-26-066775",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-10-21",
         "report_date": "2026-10-21",
@@ -1699,14 +1707,6 @@
         "cik": "0001318605",
         "accession": "0001628280-25-045968",
         "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-10-22",
-        "report_date": "2025-10-22",
-        "cik": "0001318605",
-        "accession": "0001628280-25-045861",
-        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/tsla-20251022.htm"
       }
     ],
     "VRT": [

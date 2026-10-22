@@ -1,7 +1,7 @@
 {
   "post_id": "225773",
   "content_hash": "dcda10f4b3a900338fd97decc82a250f2389737805b43b3647b80054dcf28140",
-  "analyzed_at": "2026-10-22T16:30:00+09:00",
+  "analyzed_at": "2026-10-22T22:30:00+09:00",
   "title": "테슬라 3분기 실적",
   "author": "T3chfeed_테크피드",
   "new_candidates": [],
@@ -16,7 +16,7 @@
       ],
       "verification": "UNVERIFIED",
       "evidence_url": "https://www.notateslaapp.com/news/4042/tesla-hits-546-million-in-annual-recurring-revenue-from-fsd-subscriptions",
-      "evidence_note": "검색으로 확인 시도: 2Q 기준 FSD 활성 구독 1.48M(2차 보도), ARR은 비공식 추정 약 $0.8B~1.76B로 편차가 크고 Tesla는 공시에서 FSD 매출을 분리하지 않음. 3Q 수치와 '채택률 75%' 정의는 확인하지 못함. 8-K/주주서한 원문 미열람."
+      "evidence_note": "검색으로 확인 시도: 2Q 기준 FSD 활성 구독 1.48M(2차 보도), ARR은 비공식 추정 약 $0.8B~1.76B로 편차가 크고 Tesla는 공시에서 FSD 매출을 분리하지 않음. 3Q 수치와 '채택률 75%' 정의는 확인하지 못함. 8-K/주주서한 원문 미열람. [2026-10-22 추가] 3Q 10-Q 원문: FSD(Supervised) 구독 매출 증가는 확인되나 채택률 75%·ARR $1B 수치는 공시에 없음(회사는 분리 공시 안 함) → UNVERIFIED 유지."
     },
     {
       "kind": "FACT",
@@ -26,7 +26,7 @@
       ],
       "verification": "PARTIAL",
       "evidence_url": "https://investinglive.com/stocks/barclays-sees-possible-tesla-spacex-merger-announcement-before-december/",
-      "evidence_note": "2026-01 블룸버그의 합병 검토 보도와 Barclays의 연내 발표 가능성 노트는 확인. 그러나 '2027 상반기·$3.7T·트럼프 임기 내 완료' 기사 자체는 검색에서 찾지 못함. 양사 공식 확인 없음."
+      "evidence_note": "2026-01 블룸버그의 합병 검토 보도와 Barclays의 연내 발표 가능성 노트는 확인. 그러나 '2027 상반기·$3.7T·트럼프 임기 내 완료' 기사 자체는 검색에서 찾지 못함. 양사 공식 확인 없음. [2026-10-22] 3Q 10-Q 원문에는 합병 언급이 없고 SpaceX는 지분(equity method, 2026-03 $2.0B 투자)·Megapack 거래 상대로만 기재됨."
     },
     {
       "kind": "FACT",
@@ -34,9 +34,9 @@
       "tickers": [
         "TSLA"
       ],
-      "verification": "PARTIAL",
-      "evidence_url": null,
-      "evidence_note": "직전 analyst 보고서의 2차 보도(GAAP 순이익 -43%, 영업이익 -56%)와 방향 일치. SEC 8-K 원문은 data/market/docs에 없어 1차 확인 불가."
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+      "evidence_note": "3Q 10-Q 원문: 매출 $28.05B(-$49M YoY), 지배주주 순이익 $787M(-$586M, 약 -43%), R&D 비중 6%→10%. 투자 확대로 이익 부진이라는 서술과 일치. 설비투자 9개월 $13.01B, 연간 $20B 초과 예상."
     },
     {
       "kind": "PREDICTION",

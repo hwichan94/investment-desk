@@ -1,0 +1,96 @@
+{
+  "post_id": "225977",
+  "content_hash": "b8a030fb2d0269403134d6bc2e0c466edf948a7daf611eb552928d4889fd504a",
+  "analyzed_at": "2026-10-23T16:30:00+09:00",
+  "title": "국채 금리가 내렸지만 같이 하락하는 시장. | 10-23 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "10/22 미국 시황 정리. 반도체지수 -6.7%, 메타는 실적 비트에도 AI CapEx로 잉여현금흐름이 마이너스로 돌아서 -7%. 금리 하락은 AI에서 국채로의 자금 이동으로 해석하고, 유가 $110 돌파를 언급한다. 엔비디아 Minerva, 팔란티어 유럽 매출, 힘스 FTC 대응, 조비 시험비행을 소개하고, 비AI 기업 실적도 88%가 EPS 상회라 펀더멘탈은 건강하다고 본다. 필자는 코닝 추가매수, 블룸에너지를 에너지 탑픽으로 언급한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "메타 3Q 매출 $64.60B, 조정 EPS 비트이나 GAAP EPS는 소송비용으로 쇼크.",
+      "tickers": [
+        "META"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066773/meta-20260930.htm",
+      "evidence_note": "10-Q: 매출 $64.60B(+26% YoY), 영업이익 $12.99B(-37%). 컨센서스·조정 EPS·소송비용 세부는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "메타가 AI 붐 이후 처음 잉여현금흐름 마이너스로 전환, CapEx 계속 증가.",
+      "tickers": [
+        "META"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066773/meta-20260930.htm",
+      "evidence_note": "검색 결과(2차 보도, 10-Q 인용): 영업현금흐름 $32.79B, CapEx $34.91B → FCF 약 -$2.1B. 10-Q 원문 현금흐름표는 직접 열람하지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "블룸에너지 3Q 매출 $1.24B, EPS 서프라이즈.",
+      "tickers": [
+        "BE"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001664703/000162828026066890/ex991_q326financialresults.htm",
+      "evidence_note": "8-K 보도자료 검색 결과: 매출 $1,235.8M(+138% YoY), 연간 가이던스 $4.4~4.6B 상향. EPS 컨센서스 대비는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "반도체지수 -6.7%, 유가 $110 돌파, 국채 5% 아래.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 없는 시장 데이터. 가격은 GitHub Actions 수집 데이터 기준으로 별도 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아 Minerva 공개, IREN 도입.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검증 시도하지 않음(소프트웨어 발표, 비중 판단 영향 낮음)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "비AI 기업 실적도 양호하므로 AI 인프라 투자는 장기적으로 좋다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "팔란티어 다음 점프는 해외 매출 성장에 달렸다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "해외 매출이 핵심이라는 필자 의견뿐, 새 공식 근거 없음."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "AI CapEx의 현금흐름 부담 부각은 AI 인프라 전반 센티먼트 위험. 메타 CapEx 자체는 증가세라 수요 논리는 유지."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "Minerva는 제품 발표 수준."
+    }
+  ],
+  "new_candidates": [
+    "BE",
+    "GLW"
+  ],
+  "portfolio_implication": "변경 없음. 단일 시황 글이고 AI CapEx 대비 현금흐름 우려는 AI 보유 종목(AVGO·VRT 등)의 모니터링 항목. BE는 3Q 매출 급증·가이던스 상향이 확인됐으나 아이디어 수신함 요청이 없고 가치평가 미수행이라 신규 편입 판단은 보류."
+}

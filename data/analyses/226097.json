@@ -1,0 +1,58 @@
+{
+  "post_id": "226097",
+  "content_hash": "e9dcd9dbfd7d54e8cb04b09809eca9a9672e7b599f2d9f506790e1f3cec080e1",
+  "analyzed_at": "2026-10-24T00:00:00+09:00",
+  "title": "악재 없이도 떨어지는 요즘, 분위기 반전의 계기는 뭐가 될까?",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "악재 없이도 하락하는 시장 심리를 진단한다. 네비우스가 시티 $3.5B를 조달했음에도 -7% 하락했다는 점을 심리 장세의 증거로 들고, ORTEX 기준 네오클라우드 숏이 10월에만 $60억 수익이라 한다. 10년물이 5% 아래로 내려왔다고 하며, 반전 계기를 이란 종전 > 중간선거 > 실적 시즌 > FOMC 순으로 꼽는다. 일정은 10/27 이스라엘 총선, 10/29 FOMC, 10/28~30 빅테크 실적, 11/3 중간선거, 11월 중순 엔비디아 실적이다. 결론은 장기투자로 버티라는 것이다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "네비우스가 시티뱅크로부터 준수한 금리로 $3.5B 규모 채권을 조달했고 주가는 -7%.",
+      "tickers": [
+        "NBIS"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926117978/tm2628078d1_ex99-1.htm",
+      "evidence_note": "웹 검색 결과 기준 2026-10-22 Nebius가 Citi 제공 $3.5B 선순위 담보 대출(senior secured facility)을 발표. 금액·Citi는 일치하나 '채권'이 아니라 대출 한도. SEC 원문은 샌드박스 네트워크 제한으로 직접 열람 못 함. 주가 -7%는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "ORTEX: 네오클라우드 숏 투자자가 10월 한 달 $60억 수익.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "유료 데이터 2차 인용, 공식 자료 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "10년물 국채금리가 5% 아래로 하락.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "웹 검색으로 확인 못 함(10/22 기준 시황 글에서도 동일 언급). 국채 수치는 별도 시장 데이터 필요."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "이란 종전·중간선거 민주당 승리 등이 반등 계기가 되고 숏 스퀴즈로 이어진다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-11-30"
+    },
+    {
+      "kind": "OPINION",
+      "text": "지금 시장은 펀더멘털이 아닌 심리가 지배하며 장기투자는 시점에 무관.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "11월 중순 실적이 촉매라는 일정 언급뿐."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 심리 장세 진단이며 보유·후보 종목의 공식 근거 변화 없음. 10/28~30 빅테크 CapEx 실적이 AI 인프라 보유 종목(AVGO·VRT 등)의 확인 지점."
+}

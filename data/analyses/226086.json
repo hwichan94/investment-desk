@@ -1,0 +1,56 @@
+{
+  "post_id": "226086",
+  "content_hash": "b67a13a8a75b7ff7b47229074ff76ab7bb7a577855c34808955ba024fe69bae0",
+  "analyzed_at": "2026-10-24T00:00:00+09:00",
+  "title": "🐹AI 정리본 : 종말적 낙관론자의 투자법",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "10/22 독서학개론 AI 정리본(거래의 기술). 이란 전쟁 이후 완화에서 긴축 국면으로 바뀌었고 장기금리 상승이 시장 스스로 긴축 효과를 낸다고 본다. 자금 조달 비용이 낮은 빅테크로 유동성이 쏠리고 코어위브·네비우스 같은 소형 네오클라우드는 같은 AI 내러티브라도 낮게 평가받는다. 골드만삭스 보고서를 인용해 M7 롱/중소형주 숏 헤지가 과밀해 숏 스퀴즈 위험이 있다고 한다. 10/27 이스라엘 총선과 중간선거가 이란 전쟁 향방의 변수이며, 장기투자와 리스크 관리를 강조한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "골드만삭스 보고서: 숏/롱 비율 5:1 초과, 대차 가능 잔량 역대 최저, 숏 스퀴즈 리스크 경고.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "웹 검색에서 2026-03 Bloomberg의 골드만 트레이딩 데스크 '숏 업사이드 리스크' 경고만 확인(방향 유사). 이번 수치(5:1, 99.9%)는 공식·1차 자료 못 찾음."
+    },
+    {
+      "kind": "FACT",
+      "text": "2월 28일 미국·이스라엘의 이란 폭격, 호르무즈 봉쇄로 인플레이션 우려와 금리 인하 중단.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "정치·거시 서술이며 보유 종목 공식 자료로 확인 대상 아님."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "중간선거(11/3) 이후 이란 협상 구도 변화·총선 후 전쟁 수요 감소.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-11-30"
+    },
+    {
+      "kind": "OPINION",
+      "text": "빅테크가 가장 안전한 자산으로 인식되어 자금이 집중, 소형 네오클라우드는 할인 평가.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "장기투자로 변동성을 무시하는 것이 개인투자자의 방법.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "빅테크 선호 흐름은 대형 AI 보유에 우호적이나 의견·시장 서술뿐 새 공식 근거 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 거시·심리 해설이며 공식 근거 변화가 없다. 이스라엘 총선(10/27)·FOMC(10/29)·빅테크 CapEx 실적(10/28~30)·중간선거(11/3)는 이벤트 모니터링 항목."
+}

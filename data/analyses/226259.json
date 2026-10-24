@@ -1,0 +1,124 @@
+{
+  "post_id": "226259",
+  "content_hash": "8ace22bd4639582c1210ce305996a16f1b96728ffd013a773cca44674e08b986",
+  "analyzed_at": "2026-10-24T00:00:00+09:00",
+  "title": "인사이더 테크리포트 2.0 Ep. 45 | 10월 4주차",
+  "author": "T3chfeed_테크피드",
+  "summary": "주간 시황과 증권사 리포트 모음. 지수 하락 속 미 국채가 방어 수단 역할을 다시 하고(10년물 5% 아래), 채권 ETF에 580억 달러가 유입됐다고 한다. AI 버블 논쟁은 갈리나 B200 렌탈 단가 $7.99/시간 등 수요는 견조하다는 입장. TSLA(JPM 목표 $430, Hold, 규제 크레딧 제외 총마진 18.1%, FSD 유료 170만), NVDA, PLTR, IONQ, JOBY, SpaceX 등 개별 리포트를 전달한다. 다음 주 FOMC와 MSFT·AMZN·GOOGL 실적의 CapEx·현금흐름이 핵심 확인점이라고 본다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라 3분기 규제 크레딧 제외 자동차 총마진이 16.3%→18.1%로 상승.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+      "evidence_note": "10-Q 원문은 크레딧 포함 자동차 총마진 17.0%→18.5%(전년 대비)와 크레딧 매출 급감($417M→$113M, 2차 보도)만 제시. 18.1%(크레딧 제외)는 2차 보도(Electrek 등)로만 확인, 방향은 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 FSD 유료 고객 170만명 돌파.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "2차 보도 기준 활성 FSD 1.74M(+67%)이며 선구매 포함 정의. 10-Q 원문에서는 해당 수치 직접 확인 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 2026년 설비투자는 2027~2028년까지 확대되어 단기 현금흐름에 부담.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+      "evidence_note": "10-Q: 2026 CAPEX 전망 $20B 초과(SI 이니셔티브 중심), 9개월 CAPEX $13.01B, 영업현금흐름 $14.90B(9M) → 9개월 단순 차감 FCF 약 +$1.9B, 현금·단기투자 $45.45B. 2027~28 전망은 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "로보택시가 2027년 하반기부터 본격적으로 실적에 기여.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-12-31"
+    },
+    {
+      "kind": "FACT",
+      "text": "이번 달 채권 ETF 유입 약 580억 달러(블룸버그 인텔리전스), 2025년 초 이후 최대.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "유료 데이터 2차 인용, 공식 자료 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "미 10년물 국채금리가 가까스로 5% 아래.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Treasury 공식 일별 금리 미조회. 직전 글(226097)과 같은 주장."
+    },
+    {
+      "kind": "FACT",
+      "text": "12월 FOMC 인상 확률 68%, 동결 26%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "CME FedWatch 수치 2차 인용, 직접 확인 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA: 대만 공급망 3분기 실적이 분기 초 예상 대비 약 12% 상회(Wedbush).",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "증권사 리포트 2차 전달, 공식 자료 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "PLTR: 미군 Maven Smart System 사용자 10만명 돌파(William Blair).",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "증권사 조사 2차 전달, 공식 자료 미확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "B200 렌탈 단가가 견조해 아직 AI 버블 근거는 없다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 하락은 금리 민감도 때문이며 이번 빅테크 CapEx·수요가 분기점이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "10-Q상 마진 개선·9M FCF 플러스는 긍정이나 CAPEX $20B+ 확대와 JPM Hold(밸류에이션 위험)가 상쇄. 목표 24% 축소 근거(밸류에이션 20점)를 바꿀 정도의 공식 변화는 아님."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "Buy 리포트와 공급망 간접지표는 방향 일치하나 모두 2차 전달."
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "증권사 Buy 리포트 모음. 3분기 실적 전 공식 근거 변화 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 증권사 의견 전달이 대부분이며 단일 글로 점수·비중을 바꾸지 않음(thesis inertia). TSLA는 10-Q 기준 9M FCF가 플러스지만 CAPEX 확대로 24% 목표 유지. 10/28~30 MSFT·AMZN·GOOGL CapEx와 10/29 FOMC가 다음 확인점."
+}

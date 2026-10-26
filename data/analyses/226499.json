@@ -1,0 +1,77 @@
+{
+  "post_id": "226499",
+  "content_hash": "0712e64d3b0dfd0a5f0071065715924af4a0500b69880cb431697439f29e34f6",
+  "analyzed_at": "2026-10-26T16:20:00+09:00",
+  "title": "스페이스X 400억 달러 장전 완료 | 10-26 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "주간 일정 프리뷰. 머스크가 스페이스X의 GPU 차입 400억 달러 조달 완료를 공유했고, AI 외 매출이 없는 신진 네오클라우드는 자금 조달이 막힐 수 있다는 해석. 테슬라 사이버캡 로보택시 대수 463대로 증가, 합병 관련 세무 대비(배우자 증여, 1년 조건)는 인터뷰 예정. 코닝(10/27), FOMC(10/29), 구글·MS(10/29), 아마존(10/30) 실적이 핵심 이벤트라는 정리. 템퍼스 ESMO 언급 40건, 헤어스 앱 순위 상승도 언급.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "스페이스X가 GPU 차입용 400억 달러 조달을 마쳤다(머스크 발언).",
+      "tickers": [
+        "TSLA",
+        "CRWV"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
+      "evidence_note": "WebSearch: FT 보도는 아폴로 주도 약 400억 달러(은행대출 100억+투자등급 채권 300억) 조달을 '추진 중', 클로징 2027 예상이라 함. 규모 방향은 맞으나 '완료'는 공식 확인 못 함. 언론 보도 기반."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 사이버캡 로보택시 대수가 463대로 증가.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 아닌 커뮤니티 추적치로 추정. 10-Q(data/market/docs)에서 대수 공시 확인 안 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "영국 구글 플레이 Hers 앱 순위 500위권→350위권 상승, 템퍼스 ESMO 초록 40건 언급(경쟁사 Guardant 25, Natera 20).",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Sensor Tower·학회 초록 집계, 공식 IR 아님. 둘 다 universe 밖 종목."
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 외 매출 없는 네오클라우드는 자금 조달이 막히고 스페이스X가 유리해진다. 코어위브·네비우스는 수주잔고로 높은 금리에 조달 가능.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "FOMC 10/29 금리 동결(시장 확률 90%), 포워드 가이던스는 데이터 의존적일 것.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-10-29"
+    },
+    {
+      "kind": "OPINION",
+      "text": "테슬라-스페이스X 합병 시 세금 대비로 배우자 증여가 현실적(합병일 1년 전 증여 필요).",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "수주잔고 있는 곳은 조달 가능하다는 언급이나 새 공식 사실 없음. 스페이스X 유리 조달은 경쟁 심화 요인."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "로보택시 대수·합병 세무는 비공식 데이터·추측. 합병은 공식 발표 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 일정 프리뷰이며 새 공식 근거가 없다. 10/27 코닝, 10/29 FOMC·구글·MS, 10/30 아마존 실적 확인 전에는 분할 유지."
+}

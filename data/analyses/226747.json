@@ -1,0 +1,20 @@
+{
+  "post_id": "226747",
+  "content_hash": "397521cbedcfd9eae54d56a8c42a77fa383eee89aa9d600254cc5f1b115782b1",
+  "analyzed_at": "2026-10-26T22:30:00+09:00",
+  "title": "테슬라 합병 이야기와 트레이딩에 대한 이야기",
+  "author": "T3chfeed_테크피드",
+  "summary": "트레이딩 규칙 소개 영상 후속 글. 규칙 1~6(분할 진입, 저점은 잡는 것이 아니라 잡아가는 것, 차트 뒤 산업, 100만원도 돈, 최악 상정, 10%)과 4번째 규칙 '작은 익절도 손절보다 낫다'를 설명. 심리 통제가 핵심이라는 일반론으로 특정 종목 언급 없음.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "OPINION",
+      "text": "소액이라도 익절이 손절보다 낫고 꾸준한 수익을 추구한다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 종목 정보 없는 트레이딩 심리 글이며, 12개월 thesis 기반 정책(단순 변동은 매도 사유 아님)과 상충하는 단기 익절 원칙은 적용하지 않는다."
+}

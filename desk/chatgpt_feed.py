@@ -58,7 +58,8 @@ def _analysis_payload(analysis: PostAnalysis) -> dict[str, Any]:
 
 
 def _key_technical_signals(plan: Plan) -> list[str]:
-    rows = [row for row in plan.rows if row.ticker != "CASH" and row.technical_signal]
+    rows = [row for row in plan.rows
+            if row.ticker not in {"CASH", "RESERVED_CASH"} and row.technical_signal]
     rows.sort(key=lambda row: (not row.winner_protection_active,
                                row.relative_momentum.value not in ("STRONG", "WEAK"), row.ticker))
     return [row.technical_signal for row in rows[:3]]
@@ -140,9 +141,13 @@ def build_feed(plan: Plan, portfolio: Portfolio, universe: Universe, now: dateti
             "as_of": portfolio.as_of.isoformat(),
             "confirmed_at": portfolio.confirmed_at.isoformat() if portfolio.confirmed_at else None,
             "currency": portfolio.currency,
-            "investable_total": round(plan.total_value, 6),
+            "total_portfolio_value": round(plan.total_value, 6),
+            "equity_value": round(plan.equity_value, 6),
+            "investable_total": round(plan.deployable_value, 6),
             "cash_available_for_investing": portfolio.cash_available_for_investing,
             "cash_reserved_for_debt": portfolio.cash_reserved_for_debt,
+            "reserved_cash_included_in_total": True,
+            "reserved_cash_available_for_buys": False,
             "holdings": holdings,
         },
         "decision_context": {
@@ -154,6 +159,20 @@ def build_feed(plan: Plan, portfolio: Portfolio, universe: Universe, now: dateti
             "target_portfolio_score": plan.target_score.model_dump(mode="json"),
             "alerts": plan.alerts,
             "target_errors": plan.target_errors,
+            "funding": {
+                "cash_target_amount": round(plan.cash_target_amount, 2),
+                "cash_available_for_buys_after_target": round(plan.cash_available_for_buys, 2),
+                "desired_buy_amount": round(plan.desired_buy_amount, 2),
+                "recommended_buy_amount": round(plan.recommended_buy_amount, 2),
+                "planned_sell_proceeds": round(plan.planned_sell_proceeds, 2),
+                "cash_first_allocations": {
+                    ticker: round(amount, 2)
+                    for ticker, amount in plan.cash_first_allocations.items()
+                },
+                "sales_funded_buy_amount": round(plan.sales_funded_buy_amount, 2),
+                "funding_shortfall": round(plan.funding_shortfall, 2),
+                "cash_is_not_an_automatic_buy_signal": True,
+            },
             "actions": actions,
         },
         "technical_context": {

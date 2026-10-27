@@ -59,7 +59,10 @@ def test_rsi_overbought_alone_never_makes_momentum_weak():
 
 
 def _market():
-    return {"fetched_at": NOW.isoformat(), "quotes": {}}
+    prices = {"TSLA": 100.0, "PLTR": 300.0, "AVGO": 100.0, "CCJ": 100.0,
+              "INTC": 100.0, "VRT": 100.0, "NVDA": 100.0}
+    return {"fetched_at": NOW.isoformat(),
+            "quotes": {ticker: {"price": price} for ticker, price in prices.items()}}
 
 
 def _technical_snapshot(momentum="STRONG"):
@@ -109,6 +112,23 @@ def test_strong_observed_momentum_activates_pltr_winner_protection(root):
     assert "RSI 과열만으로 축소 금지" in row.technical_signal
 
 
+def test_winner_protection_does_not_block_a_small_add(root):
+    prices = {"TSLA": 391.62, "PLTR": 198.84, "AVGO": 329.17, "CCJ": 79.07,
+              "INTC": 90.47, "VRT": 199.78, "NVDA": 216.0}
+    market = {"fetched_at": NOW.isoformat(),
+              "quotes": {ticker: {"price": price} for ticker, price in prices.items()}}
+    plan = portfolio.build_plan(
+        portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints(),
+        market, _technical_snapshot(), {"regime": "RISK_ON", "reasons": []},
+    )
+    row = next(item for item in plan.rows if item.ticker == "PLTR")
+
+    assert row.target > row.current
+    assert row.winner_protection_active is True
+    assert row.winner_protection_blocked is False
+    assert row.amount > 0
+
+
 def test_risk_off_does_not_auto_sell_core_positions(root):
     pf, universe, constraints = (portfolio.load_portfolio(), portfolio.load_universe(),
                                  portfolio.load_constraints())
@@ -123,6 +143,9 @@ def test_risk_off_does_not_auto_sell_core_positions(root):
 
     assert all(risk_rows[ticker].action == neutral_rows[ticker].action for ticker in core)
     assert all(risk_rows[ticker].action != portfolio.Action.EXIT for ticker in core)
+    assert risk_rows["AMZN"].action == portfolio.Action.INITIATE
+    assert risk_rows["AMZN"].amount == pytest.approx(neutral_rows["AMZN"].amount * 0.5)
+    assert "RISK_OFF" in risk_rows["AMZN"].timing_note
 
 
 def test_technical_and_regime_snapshots_are_written(root):

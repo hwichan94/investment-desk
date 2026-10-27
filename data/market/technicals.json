@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T21:52:12.442876+09:00",
+  "generated_at": "2026-10-27T22:22:07.639662+09:00",
   "benchmark": "QQQ",
   "securities": {
     "AMZN": {
@@ -69,7 +69,7 @@
       "rsi_14": 39.651807,
       "sma_20": 347.690002,
       "sma_50": 355.164865,
-      "sma_200": 366.732022,
+      "sma_200": 366.732021,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
@@ -189,7 +189,7 @@
       "rsi_14": 34.204887,
       "sma_20": 411.578499,
       "sma_50": 414.8506,
-      "sma_200": 394.490844,
+      "sma_200": 394.490846,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
@@ -210,36 +210,6 @@
         "mixed price trend",
         "QQQ relative strength falling",
         "relative volume 0.84x"
-      ],
-      "heavy_volume_decline": false
-    },
-    "FLNC": {
-      "as_of": "2026-10-26",
-      "price": 5.5,
-      "rsi_14": 25.2419,
-      "sma_20": 6.789,
-      "sma_50": 8.6272,
-      "sma_200": 15.82665,
-      "above_sma_20": false,
-      "above_sma_50": false,
-      "above_sma_200": false,
-      "relative_volume_20": 1.010829,
-      "atr_14": 0.478575,
-      "distance_from_52w_high": -0.83587,
-      "return_20d": -0.266667,
-      "return_60d": -0.605169,
-      "return_120d": -0.566588,
-      "latest_day_return": -0.0161,
-      "relative_strength_qqq": -0.618987,
-      "relative_strength_qqq_trend": "FALLING",
-      "sector_etf": "ICLN",
-      "relative_strength_sector": -0.554387,
-      "relative_strength_sector_trend": "FALLING",
-      "relative_momentum": "WEAK",
-      "relative_momentum_reasons": [
-        "price below SMA50/SMA200",
-        "QQQ relative strength falling",
-        "relative volume 1.01x"
       ],
       "heavy_volume_decline": false
     },
@@ -429,7 +399,7 @@
       "rsi_14": 32.198645,
       "sma_20": 227.991998,
       "sma_50": 245.794326,
-      "sma_200": 269.169431,
+      "sma_200": 269.169433,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,

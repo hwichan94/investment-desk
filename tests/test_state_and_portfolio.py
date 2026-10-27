@@ -8,6 +8,16 @@ from desk.errors import SessionUnavailable
 from desk.fanding import state
 
 NOW = datetime(2026, 10, 16, 21, 0, tzinfo=paths.KST)
+PRICES = {
+    "TSLA": 400.0,
+    "PLTR": 200.0,
+    "AVGO": 330.0,
+    "CCJ": 80.0,
+    "INTC": 90.0,
+    "VRT": 200.0,
+    "NVDA": 200.0,
+    "AMZN": 250.0,
+}
 STATE = {
     "cookies": [{"name": "sid", "value": "abc", "domain": ".fanding.kr"},
                 {"name": "x", "value": "y", "domain": ".google.com"}],
@@ -51,25 +61,48 @@ def test_real_config_is_valid():
     assert portfolio.validate_targets(uni, pf, c) == []
 
 
+def test_confirmed_portfolio_snapshot_is_synced():
+    pf, uni = portfolio.load_portfolio(), portfolio.load_universe()
+    expected = {"TSLA": 23, "PLTR": 45, "AVGO": 9, "CCJ": 21,
+                "INTC": 11, "VRT": 4, "NVDA": 3}
+
+    assert {position.ticker: position.shares for position in pf.positions} == expected
+    assert all(position.market_value is None for position in pf.positions)
+    assert next(position for position in pf.positions if position.ticker == "NVDA").average_cost is None
+    assert pf.cash_available_for_investing == pytest.approx(3816.44)
+    assert pf.cash_reserved_for_debt == 0
+    assert pf.as_of.isoformat() == "2026-10-27"
+    assert pf.confirmed_at.isoformat() == "2026-10-27"
+    assert "FLNC" not in {security.ticker for security in uni.securities}
+    assert "NVDA" in {security.ticker for security in uni.securities}
+    watchlist = json.loads((paths.CONFIG / "watchlist.json").read_text(encoding="utf-8"))
+    assert "NVDA" not in watchlist["tickers"]
+
+
 def test_plan_classifies_actions(root):
     pf, uni, c = portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints()
-    prices = {p.ticker: p.market_value / p.shares for p in pf.positions}
-    prices |= {"NVDA": 200.0, "AMZN": 250.0}
-    plan = portfolio.build_plan(pf, uni, c, _market(prices))
+    plan = portfolio.build_plan(pf, uni, c, _market(PRICES))
     rows = {r.ticker: r for r in plan.rows}
-    assert rows["FLNC"].action == portfolio.Action.EXIT
-    assert rows["NVDA"].action == portfolio.Action.INITIATE
+    assert "FLNC" not in rows
+    assert rows["NVDA"].current > 0
+    assert rows["NVDA"].action != portfolio.Action.INITIATE
     assert rows["NVDA"].shares == pytest.approx(rows["NVDA"].amount / 200.0)
+    assert rows["CCJ"].action == portfolio.Action.HOLD
+    assert rows["CCJ"].amount == 0
     assert abs(sum(r.target for r in plan.rows) - 1) < 1e-6
     assert abs(sum(plan.current.values()) - 1) < 1e-6
-    assert any("현금" in a for a in plan.alerts)
+    assert plan.recommended_buy_amount <= (
+        plan.cash_available_for_buys + plan.planned_sell_proceeds + 1e-9
+    )
 
 
-def test_missing_price_falls_back_to_stored_value(root):
+def test_missing_price_does_not_use_removed_historical_market_values(root):
     pf, uni, c = portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints()
     plan = portfolio.build_plan(pf, uni, c, _market({}))
     assert set(plan.missing_prices) == {p.ticker for p in pf.positions}
-    assert plan.total_value == pytest.approx(pf.cash + sum(p.market_value for p in pf.positions))
+    assert plan.total_value == pytest.approx(
+        pf.cash_available_for_investing + pf.cash_reserved_for_debt
+    )
 
 
 def test_target_over_limit_is_reported(root):
@@ -86,8 +119,10 @@ def test_target_over_limit_is_reported(root):
 
 def test_report_renders(root):
     pf, uni, c = portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints()
-    text = report.render(portfolio.build_plan(pf, uni, c, _market({})), pf, uni, NOW)
-    assert "현재 → 목표" in text and "FLNC" in text and "실제 주문이 아닌" in text
+    text = report.render(portfolio.build_plan(pf, uni, c, _market(PRICES)), pf, uni, NOW)
+    assert "현재 → 목표" in text and "NVDA" in text and "실제 주문이 아닌" in text
+    assert "FLNC" not in text
+    assert "매수재원 검증" in text and "$3,816.44" in text
     written = report.write(text, NOW)
     assert (paths.REPORTS / "decision-latest.md").exists() and len(written) == 2
 

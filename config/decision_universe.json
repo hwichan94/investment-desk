@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-27",
   "horizon_months": 12,
   "cash_target": 0.05,
   "score_weights": {
@@ -76,7 +76,7 @@
         "주요 고객 이탈 또는 자체칩 전환 가속",
         "마진과 현금흐름의 동반 하락"
       ],
-      "funding_from": ["TSLA", "FLNC"],
+      "funding_from": ["CASH", "TSLA"],
       "execution_plan": "목표와의 차이가 작으므로 급하게 추격하지 말고 조정 또는 다음 실적 확인 때 1~2%p를 보충합니다."
     },
     {
@@ -142,30 +142,8 @@
         "수주와 매출 전환의 괴리 확대",
         "공급 차질로 인한 마진 훼손"
       ],
-      "funding_from": ["TSLA", "FLNC"],
+      "funding_from": ["CASH", "TSLA"],
       "execution_plan": "현재 비중에서 7%까지 2회 분할매수하되 급등일 추격은 피하고 다음 실적 전후 변동성을 이용합니다."
-    },
-    {
-      "ticker": "FLNC",
-      "company_name": "Fluence Energy",
-      "thesis_status": "WEAKENING",
-      "fundamental_quality": 45,
-      "fundamental_momentum": 25,
-      "catalyst_visibility": 45,
-      "valuation": 50,
-      "risk_control": 15,
-      "portfolio_fit": 55,
-      "evidence_confidence": 0.80,
-      "target_weight": 0.0,
-      "why_now": "기록적인 수주잔고에도 생산 차질, 가이던스 재하향과 낮은 총마진이 겹쳐 12개월 투자 논리가 훼손됐습니다.",
-      "main_risk": "수주가 이익과 현금으로 전환되지 않고 추가 가이던스 하향이나 희석성 자금조달이 발생할 수 있습니다.",
-      "invalidation_signals": [
-        "생산 차질과 추가 가이던스 하향",
-        "수주잔고 취소·연기 확대",
-        "유동성 악화 또는 희석성 자금조달"
-      ],
-      "funding_from": [],
-      "execution_plan": "손실률이 아니라 투자 논리 훼손을 기준으로 정리합니다. 신규 후보 편입 재원으로 전량 매도를 제안합니다."
     },
     {
       "ticker": "NVDA",
@@ -179,15 +157,15 @@
       "portfolio_fit": 80,
       "evidence_confidence": 0.88,
       "target_weight": 0.05,
-      "why_now": "데이터센터 매출의 고성장과 높은 총마진이 확인되고, 현재 위험 대비 성장 가시성은 INTC·FLNC보다 명확합니다.",
+      "why_now": "데이터센터 매출의 고성장과 높은 총마진이 확인되고, 현재 위험 대비 성장 가시성은 INTC보다 명확합니다.",
       "main_risk": "AI CAPEX 둔화, 레버리지가 높은 클라우드 고객의 신용위험, 고객 자체칩, 경쟁·수출규제와 기존 포트폴리오의 AI 투자 집중도 상승입니다.",
       "invalidation_signals": [
         "데이터센터 매출의 연속적인 가이던스 하회",
         "총마진의 구조적 하락",
         "주요 고객 CAPEX와 주문의 동반 둔화"
       ],
-      "funding_from": ["FLNC", "INTC", "TSLA"],
-      "execution_plan": "5% 신규 포지션을 2회로 나눕니다. 절반은 현재, 절반은 다음 실적 또는 8~10% 조정 시 편입합니다.",
+      "funding_from": ["CASH", "INTC", "TSLA"],
+      "execution_plan": "현재 보유분을 유지하고 5% 목표까지 추가매수를 2회로 나눕니다. 절반은 현재, 절반은 다음 실적 또는 8~10% 조정 시 집행합니다.",
       "source_urls": [
         "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
       ]
@@ -211,7 +189,7 @@
         "CAPEX 증가에도 클라우드 매출 전환 부진",
         "연속적인 잉여현금흐름 악화"
       ],
-      "funding_from": ["TSLA", "FLNC"],
+      "funding_from": ["CASH", "TSLA"],
       "execution_plan": "4% 신규 포지션을 2회 분할합니다. AWS 성장률과 CAPEX 회수 속도를 다음 실적에서 재평가합니다.",
       "source_urls": [
         "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"

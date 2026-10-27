@@ -294,8 +294,18 @@ class Row(BaseModel):
 
 class Plan(BaseModel):
     total_value: float
+    equity_value: float
+    deployable_value: float
     cash_available_for_investing: float
     cash_reserved_for_debt: float
+    cash_target_amount: float
+    cash_available_for_buys: float
+    desired_buy_amount: float
+    recommended_buy_amount: float
+    planned_sell_proceeds: float
+    cash_first_allocations: dict[str, float] = Field(default_factory=dict)
+    sales_funded_buy_amount: float = 0
+    funding_shortfall: float = 0
     priced_at: str | None
     missing_prices: list[str]
     stale_prices: list[str]
@@ -336,7 +346,8 @@ class PortfolioScore(BaseModel):
 def portfolio_score(weights: dict[str, float], universe: Universe, c: Constraints,
                     core: set[str]) -> PortfolioScore:
     by = {s.ticker: s for s in universe.securities}
-    held = {t: w for t, w in weights.items() if t != "CASH" and w > 0}
+    held = {t: w for t, w in weights.items()
+            if t not in {"CASH", "RESERVED_CASH"} and w > 0}
     invested = sum(held.values()) or 1.0
     notes = []
     unscored = [t for t in held if t not in by]
@@ -357,9 +368,12 @@ def portfolio_score(weights: dict[str, float], universe: Universe, c: Constraint
         penalty += (top2 - 0.60) * 100 * 2
         notes.append(f"상위 2종목 합 {top2:.0%}")
     concentration = max(0.0, 100 - penalty)
-    cash_w = weights.get("CASH", 0.0)
+    reserved_w = weights.get("RESERVED_CASH", 0.0)
+    deployable_w = max(1.0 - reserved_w, 1e-12)
+    cash_w = weights.get("CASH", 0.0) / deployable_w
     cash = 100.0 if cash_w >= c.min_cash_weight else 100 * cash_w / c.min_cash_weight
-    targets = {s.ticker: s.target_weight for s in universe.securities} | {"CASH": universe.cash_target}
+    targets = {s.ticker: s.target_weight * deployable_w for s in universe.securities}
+    targets |= {"CASH": universe.cash_target * deployable_w, "RESERVED_CASH": reserved_w}
     turnover = sum(abs(weights.get(t, 0) - targets.get(t, 0)) for t in set(weights) | set(targets)) / 2
     alignment = max(0.0, 100 * (1 - turnover / 0.30))
     components = {"quality": quality, "thesis": thesis, "concentration": concentration,
@@ -412,12 +426,14 @@ def current_weights(portfolio: Portfolio, quotes: dict[str, Any]) -> tuple[float
             missing.append(p.ticker)
         else:
             missing.append(p.ticker)
-    # Debt-reserved cash is intentionally absent from total, weights and funding capacity.
-    total = portfolio.cash_available_for_investing + sum(values.values())
+    # Reserved cash remains part of the user's total asset snapshot, but is never buying power.
+    total = (portfolio.cash_available_for_investing + portfolio.cash_reserved_for_debt
+             + sum(values.values()))
     if total <= 0:
         raise ValueError("investable portfolio total must be positive")
     weights = {t: v / total for t, v in values.items()}
     weights["CASH"] = portfolio.cash_available_for_investing / total
+    weights["RESERVED_CASH"] = portfolio.cash_reserved_for_debt / total
     return total, weights, missing, values
 
 
@@ -492,21 +508,30 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
     technical_by_ticker = technicals.get("securities", {})
     regime_data = regime_data or {}
     regime_state = regime_data.get("regime", "UNKNOWN")
-    total, current, missing, _ = current_weights(portfolio, quotes)
+    total, current, missing, values = current_weights(portfolio, quotes)
+    equity_value = sum(values.values())
+    deployable_value = total - portfolio.cash_reserved_for_debt
+    reserved_weight = current["RESERVED_CASH"]
+    deployable_weight = max(1.0 - reserved_weight, 0.0)
     rows: list[Row] = []
     winner_alerts: list[str] = []
     by_ticker = {s.ticker: s for s in universe.securities}
-    for ticker in sorted(set(by_ticker) | set(current) - {"CASH"}):
+    for ticker in sorted(set(by_ticker) | set(current) - {"CASH", "RESERVED_CASH"}):
         s = by_ticker.get(ticker)
-        cur, tgt = current.get(ticker, 0.0), (s.target_weight if s else 0.0)
+        cur = current.get(ticker, 0.0)
+        tgt = (s.target_weight * deployable_weight if s else 0.0)
         action, urgency = classify(cur, tgt, c, bool(s and s.watch_reason))
         price = (quotes.get(ticker) or {}).get("price")
         amount = (tgt - cur) * total
+        if action in (Action.HOLD, Action.WATCH):
+            amount = 0.0
         technical = technical_by_ticker.get(ticker, {})
         momentum = effective_relative_momentum(s, technical)
         alignment = effective_regime_alignment(s, regime_state, momentum)
         protected, protection_source = s.winner_protection_for(momentum, technical) if s else (False, None)
-        reducing = action in (Action.TRIM_WATCH, Action.REDUCE, Action.EXIT)
+        # TRIM_WATCH is a neutral "small adjustment" label and may also represent a
+        # small add. Winner Protection must only intercept an actual negative change.
+        reducing = amount < 0
         blocked = bool(protected and reducing and not s.winner_protection_override_reason)
         if blocked:
             winner_alerts.append(
@@ -518,12 +543,17 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
                 and momentum == RelativeMomentum.WEAK and technical.get("heavy_volume_decline")):
             action, urgency, amount = Action.HOLD, "낮음", 0.0
             timing_note = "Relative Momentum WEAK + 대량 거래 하락: Tactical/신규 매수 보류"
-        elif regime_state == "RISK_OFF" and action == Action.INITIATE and s and s.asymmetric_starter:
-            amount *= 0.5
-            timing_note = "RISK_OFF: Asymmetric Starter 1차 크기를 목표의 절반으로 축소"
-        elif regime_state == "RISK_OFF" and action == Action.ADD and s and s.tactical_weight:
-            amount *= 0.5
-            timing_note = "RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소"
+        elif not blocked:
+            notes = []
+            if action in (Action.ADD, Action.INITIATE) and momentum == RelativeMomentum.WEAK:
+                notes.append("Relative Momentum WEAK: 추격매수 금지, 분할·반전 확인")
+            if regime_state == "RISK_OFF" and action == Action.INITIATE:
+                amount *= 0.5
+                notes.append("RISK_OFF: 신규 Starter 1차 크기를 목표의 절반으로 축소")
+            elif regime_state == "RISK_OFF" and action == Action.ADD and s and s.tactical_weight:
+                amount *= 0.5
+                notes.append("RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소")
+            timing_note = "; ".join(notes) or None
         trim_source = None
         if s and tgt < cur:
             trim_source = "TACTICAL" if s.core_floor_weight is not None or s.tactical_weight is not None else "UNSPECIFIED"
@@ -540,31 +570,86 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
                         technical_signal=technical_signal(ticker, momentum, technical, protected),
                         timing_note=timing_note, technical=technical))
     cash_cur = current["CASH"]
-    rows.append(Row(ticker="CASH", current=cash_cur, target=universe.cash_target,
-                    change=universe.cash_target - cash_cur, action=Action.CASH,
-                    urgency="중간" if abs(universe.cash_target - cash_cur) >= c.watch_below else "낮음",
-                    amount=(universe.cash_target - cash_cur) * total, price=None, shares=None))
+    cash_target = universe.cash_target * deployable_weight
+    rows.append(Row(ticker="CASH", current=cash_cur, target=cash_target,
+                    change=cash_target - cash_cur, action=Action.CASH,
+                    urgency="중간" if abs(cash_target - cash_cur) >= c.watch_below else "낮음",
+                    amount=(cash_target - cash_cur) * total, price=None, shares=None))
+    rows.append(Row(ticker="RESERVED_CASH", current=reserved_weight, target=reserved_weight,
+                    change=0, action=Action.HOLD, urgency="없음", amount=0,
+                    price=None, shares=None))
     order = {"높음": 0, "중간": 1, "낮음": 2, "없음": 3}
     rows.sort(key=lambda r: (order[r.urgency], -abs(r.change)))
+
+    # Allocate buying power to the highest-scoring positive actions first. The strategic
+    # cash target is kept intact, and debt-reserved cash is never considered funding.
+    cash_target_amount = cash_target * total
+    cash_available_for_buys = max(portfolio.cash_available_for_investing - cash_target_amount, 0.0)
+    sell_rows = [row for row in rows
+                 if row.ticker not in {"CASH", "RESERVED_CASH"} and row.amount < 0]
+    planned_sell_proceeds = sum(-row.amount for row in sell_rows)
+    buy_rows = [row for row in rows
+                if row.ticker not in {"CASH", "RESERVED_CASH"} and row.amount > 0]
+    desired_buy_amount = sum(row.amount for row in buy_rows)
+    funding_capacity = cash_available_for_buys + planned_sell_proceeds
+    remaining_capacity = funding_capacity
+    rank_order = {ticker: index for index, (ticker, _) in enumerate(
+        sorted(((row.ticker, row.score or 0.0) for row in buy_rows), key=lambda item: -item[1])
+    )}
+    for row in sorted(buy_rows, key=lambda item: rank_order[item.ticker]):
+        approved = min(row.amount, max(remaining_capacity, 0.0))
+        if approved + 0.01 < row.amount:
+            row.timing_note = ((row.timing_note + "; ") if row.timing_note else "") + \
+                "확정 매수재원 한도 내로 제안 금액 축소"
+        row.amount = approved
+        row.shares = (approved / row.price) if row.price else None
+        remaining_capacity = max(remaining_capacity - approved, 0.0)
+        if approved <= 0.01:
+            row.action, row.urgency = Action.HOLD, "없음"
+    recommended_buy_amount = sum(row.amount for row in buy_rows)
+    funding_shortfall = max(desired_buy_amount - funding_capacity, 0.0)
+    cash_left = cash_available_for_buys
+    cash_first_allocations: dict[str, float] = {}
+    for row in sorted(buy_rows, key=lambda item: rank_order[item.ticker]):
+        allocated = min(row.amount, max(cash_left, 0.0))
+        if allocated > 0.01:
+            cash_first_allocations[row.ticker] = allocated
+        cash_left = max(cash_left - allocated, 0.0)
+    sales_funded_buy_amount = max(recommended_buy_amount - sum(cash_first_allocations.values()), 0.0)
 
     alerts = list(winner_alerts)
     core = {p.ticker for p in portfolio.positions if p.core_position}
     for t, w in current.items():
-        if t == "CASH":
+        if t in {"CASH", "RESERVED_CASH"}:
             continue
         limit = c.max_core_position_weight if t in core else c.max_single_position_weight
         if w > limit:
             alerts.append(f"{t} 현재 비중 {w:.1%}가 상한 {limit:.0%}를 넘습니다.")
-    if cash_cur < c.min_cash_weight:
-        alerts.append(f"현금 {cash_cur:.1%}가 최소 {c.min_cash_weight:.0%}보다 낮습니다.")
+    cash_ratio_of_deployable = (portfolio.cash_available_for_investing / deployable_value
+                                if deployable_value > 0 else 0.0)
+    if cash_ratio_of_deployable < c.min_cash_weight:
+        alerts.append(f"투자 가능 현금 {cash_ratio_of_deployable:.1%}가 최소 "
+                      f"{c.min_cash_weight:.0%}보다 낮습니다.")
+    if funding_shortfall > 0.01:
+        alerts.append(f"목표 매수액 중 ${funding_shortfall:,.2f}는 확정 재원이 없어 제안에서 제외했습니다.")
     stale = [t for t, q in quotes.items() if q.get("stale")]
     ranked = sorted(((s.ticker, s.score(universe.score_weights)) for s in universe.securities),
                     key=lambda x: (-x[1], x[0]))
-    target_weights = {s.ticker: s.target_weight for s in universe.securities}
-    target_weights["CASH"] = universe.cash_target
+    target_weights = {s.ticker: s.target_weight * deployable_weight for s in universe.securities}
+    target_weights["CASH"] = cash_target
+    target_weights["RESERVED_CASH"] = reserved_weight
     return Plan(total_value=total,
+                equity_value=equity_value, deployable_value=deployable_value,
                 cash_available_for_investing=portfolio.cash_available_for_investing,
                 cash_reserved_for_debt=portfolio.cash_reserved_for_debt,
+                cash_target_amount=cash_target_amount,
+                cash_available_for_buys=cash_available_for_buys,
+                desired_buy_amount=desired_buy_amount,
+                recommended_buy_amount=recommended_buy_amount,
+                planned_sell_proceeds=planned_sell_proceeds,
+                cash_first_allocations=cash_first_allocations,
+                sales_funded_buy_amount=sales_funded_buy_amount,
+                funding_shortfall=funding_shortfall,
                 priced_at=market.get("fetched_at"), missing_prices=missing,
                 stale_prices=stale, current=current, rows=rows, ranked=ranked, alerts=alerts,
                 target_errors=validate_targets(universe, portfolio, c),

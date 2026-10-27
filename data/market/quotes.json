@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T21:52:12.442876+09:00",
+  "fetched_at": "2026-10-27T22:22:07.639662+09:00",
   "quotes": {
     "AMZN": {
       "price": 249.09,
@@ -42,12 +42,6 @@
       "currency": "USD",
       "previous_close": 391.5,
       "market_time": "2026-10-26T20:00:02+00:00"
-    },
-    "FLNC": {
-      "price": 5.5,
-      "currency": "USD",
-      "previous_close": 5.86,
-      "market_time": "2026-10-26T20:00:01+00:00"
     },
     "GOOG": {
       "price": 314.19,

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T21:52:12.442876+09:00",
+  "generated_at": "2026-10-27T22:22:07.639662+09:00",
   "as_of": "2026-10-27",
   "regime": "RISK_OFF",
   "score": -3,
@@ -14,26 +14,26 @@
   "components": {
     "vix": {
       "as_of": "2026-10-27",
-      "price": 17.780001,
-      "sma_20": 16.739,
-      "sma_50": 16.038,
-      "return_20d": 0.108479,
+      "price": 17.870001,
+      "sma_20": 16.7435,
+      "sma_50": 16.0398,
+      "return_20d": 0.11409,
       "reason": "VIX rising above SMA20"
     },
     "us_10y": {
       "as_of": "2026-10-27",
-      "price": 4.993,
-      "sma_20": 5.1646,
-      "sma_50": 4.99472,
-      "return_20d": -0.049857,
-      "reason": "US 10Y yield falling over 20 sessions (-5.0%)"
+      "price": 4.995,
+      "sma_20": 5.1647,
+      "sma_50": 4.99476,
+      "return_20d": -0.049477,
+      "reason": "US 10Y yield falling over 20 sessions (-4.9%)"
     },
     "dollar": {
       "as_of": "2026-10-27",
-      "price": 102.158997,
-      "sma_20": 102.01245,
-      "sma_50": 100.63678,
-      "return_20d": 0.007783,
+      "price": 102.184998,
+      "sma_20": 102.01375,
+      "sma_50": 100.6373,
+      "return_20d": 0.00804,
       "reason": "Dollar index rising over 20 sessions (+0.8%)"
     },
     "qqq": {

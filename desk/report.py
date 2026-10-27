@@ -55,6 +55,45 @@ def score_lines(plan: Plan) -> list[str]:
     return lines
 
 
+def price_freshness_lines(plan: Plan, portfolio: Portfolio, now: datetime) -> list[str]:
+    if not plan.priced_at:
+        freshness = "시장가격 수집 시각 없음"
+    else:
+        try:
+            fetched_at = datetime.fromisoformat(plan.priced_at)
+            if fetched_at.tzinfo is None:
+                fetched_at = fetched_at.replace(tzinfo=now.tzinfo)
+            age_hours = max((now - fetched_at).total_seconds() / 3600, 0)
+            state = "최신" if age_hours <= 24 else "오래됨"
+            freshness = f"{state} · 수집 후 {age_hours:.1f}시간"
+        except ValueError:
+            freshness = "수집 시각 형식 확인 필요"
+    fx = ("환율 적용 없음(USD 기준)" if portfolio.currency == "USD"
+          else f"{portfolio.currency} 환율 데이터 별도 확인 필요")
+    return [f"- 시장가격 최신성: {freshness}", f"- 통화/환율: {fx}"]
+
+
+def funding_lines(plan: Plan) -> list[str]:
+    cash_first = ", ".join(
+        f"{ticker} ${amount:,.2f}" for ticker, amount in plan.cash_first_allocations.items()
+    ) or "해당 없음"
+    return [
+        f"- 총자산: **${plan.total_value:,.2f}** "
+        f"(주식 ${plan.equity_value:,.2f} + 투자 가능 현금 "
+        f"${plan.cash_available_for_investing:,.2f} + 부채상환 예약 현금 "
+        f"${plan.cash_reserved_for_debt:,.2f})",
+        f"- 신규 투자 가능 현금: **${plan.cash_available_for_investing:,.2f}** · "
+        f"현금 목표 ${plan.cash_target_amount:,.2f} 유지 시 즉시 배분 가능 "
+        f"${plan.cash_available_for_buys:,.2f}",
+        f"- 기존 종목 매도 없이 우선 집행 검토: {cash_first}",
+        f"- 추천 매수 합계 ${plan.recommended_buy_amount:,.2f} · "
+        f"계획 매도 재원 ${plan.planned_sell_proceeds:,.2f} · "
+        f"매도 재원 필요분 ${plan.sales_funded_buy_amount:,.2f}",
+        "- 현금 보유 자체는 매수 신호가 아닙니다. 종합점수·펀더멘털·시장행동을 통과한 "
+        "ADD/INITIATE만 위 재원 안에서 배분합니다.",
+    ]
+
+
 def append_score_history(plan: Plan, now: datetime) -> None:
     path = paths.REPORTS / "score-history.csv"
     if not path.exists():
@@ -75,6 +114,13 @@ def _one_line_conclusion(plan: Plan) -> str:
                   and row.urgency != "없음"]
     if not actionable:
         return "새로 실행할 비중 변경 없이 기존 목표와 thesis를 유지하는 것이 Base Case입니다."
+    if plan.cash_first_allocations:
+        cash_first = ", ".join(
+            f"{ticker} ${amount:,.0f}" for ticker, amount in plan.cash_first_allocations.items()
+        )
+        return (f"기존 종목 매도 전 현금으로 {cash_first}를 우선 검토하고, "
+                "나머지 목표 조정은 시장·실적 신호를 확인해 단계적으로 실행하는 것이 "
+                "Base Case입니다.")
     summary = ", ".join(f"{row.ticker} {row.action.value}({_pct(row.target)})"
                         for row in actionable[:3])
     return f"Base Case는 {summary}이며, 각 무효화 신호가 나오면 즉시 재평가합니다."
@@ -121,7 +167,7 @@ def technical_context_lines(plan: Plan) -> list[str]:
         if row.winner_protection_active:
             implication = implication or "RSI 과열만으로 축소 금지"
         elif row.relative_momentum.value == "WEAK" and row.security and row.security.fundamentals_improving:
-            implication = implication or "Tactical 추가매수 보류"
+            implication = implication or "추격매수 금지, 분할·반전 확인"
         line = row.technical_signal
         if implication and implication not in line:
             line += f" → {implication}"
@@ -140,10 +186,10 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
         f"- 판단 입력 기준일(decision_universe): {universe.as_of}",
         f"- 보유 수량 기준일: {portfolio.as_of}"
         + (f" (사용자 확인 {portfolio.confirmed_at})" if portfolio.confirmed_at else ""),
-        f"- 가격 기준: {(plan.priced_at or '저장 평가액')[:16]} · 평가액 ${plan.total_value:,.2f}",
+        f"- 가격 기준: {(plan.priced_at or '시장가격 미수집')[:16]} · 총자산 ${plan.total_value:,.2f}",
         f"- 투자 가능 현금: ${plan.cash_available_for_investing:,.2f}",
         f"- 부채상환 예약 현금: ${plan.cash_reserved_for_debt:,.2f} "
-        "(평가액·비중·편입 재원에서 제외)",
+        "(총자산·비중에는 포함, 신규매수 재원에서는 제외)",
         "",
         "> 실제 주문이 아닌 제안입니다. 참고 수량은 가격에 따라 바뀝니다. 세금·거래비용 미반영.",
         "",
@@ -156,6 +202,7 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
         "## 데이터 상태",
         "",
         *health_lines(now),
+        *price_freshness_lines(plan, portfolio, now),
     ]
     if plan.missing_prices or plan.stale_prices:
         out.append(f"- 가격 누락: {plan.missing_prices or '-'} / 이전 가격 사용: {plan.stale_prices or '-'}")
@@ -163,6 +210,8 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
         out += ["", "## ⚠️ 목표 비중 검증 실패", "", *[f"- {e}" for e in plan.target_errors]]
     if plan.alerts:
         out += ["", "## 위험 알림", "", *[f"- {a}" for a in plan.alerts]]
+
+    out += ["", "## 매수재원 검증", "", *funding_lines(plan)]
 
     out += ["", "## Technical / Regime 핵심 신호", "", *technical_context_lines(plan)]
 
@@ -179,7 +228,8 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
             sleeve = (f"Core≥{_pct(r.security.core_floor_weight)}"
                       + (f" / Tactical {_pct(r.security.tactical_weight)}"
                          if r.security.tactical_weight is not None else ""))
-        out.append(f"| {r.ticker} | {_pct(r.current)} | {_pct(r.target)} | {_pp(r.change)} | "
+        ticker_label = "부채상환 예약현금" if r.ticker == "RESERVED_CASH" else r.ticker
+        out.append(f"| {ticker_label} | {_pct(r.current)} | {_pct(r.target)} | {_pp(r.change)} | "
                    f"{r.action.value} | {sleeve} | {r.urgency} | ${r.amount:+,.0f} | {shares} |")
 
     out += ["", "### 5개 렌즈 + Regime", "",
@@ -195,7 +245,9 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
                    f"{r.regime_alignment.value} |")
 
     out += ["", "### Base Case 실행 순서와 이유", ""]
-    actionable = [r for r in plan.rows if r.action not in (Action.HOLD, Action.WATCH) and r.urgency != "없음"]
+    actionable = [r for r in plan.rows
+                  if r.action not in (Action.HOLD, Action.WATCH, Action.CASH)
+                  and r.urgency != "없음"]
     for i, r in enumerate(actionable[:3], 1):
         out.append(f"#### {i}. {r.ticker} — {r.action.value}")
         out.append("")
@@ -217,7 +269,8 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
             out.append("- 현금 목표를 복원해 실적 발표·급락 시 대응 여력을 확보합니다.")
         out.append("")
 
-    candidates = [r for r in plan.rows if r.ticker != "CASH" and r.current == 0 and r.security]
+    candidates = [r for r in plan.rows
+                  if r.ticker not in {"CASH", "RESERVED_CASH"} and r.current == 0 and r.security]
     candidates.sort(key=lambda r: (r.target <= 0, -(r.score or 0), r.ticker))
     out += ["## 5. 신규 후보 (최대 2개)", ""]
     if candidates:

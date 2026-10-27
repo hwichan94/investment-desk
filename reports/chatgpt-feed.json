@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T00:23:55.917867+09:00",
+  "generated_at": "2026-10-28T01:12:41.290727+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-27",
@@ -737,102 +737,70 @@
   },
   "recent_analyses": [
     {
-      "post_id": "226962",
-      "analyzed_at": "2026-10-27T19:10:00+09:00",
-      "title": "앤스로픽 상장 문서 S-1 뜯어보기",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "앤트로픽 S-1을 직접 읽고 정리한 글. 매출이 2025 상반기 $1.16B→2026 상반기 $16.29B로 약 14배, 영업손실은 $8.06B→$0.69B로 축소됐고 컴퓨팅 효율이 5.2배 개선됐다고 본다. 컴퓨팅 비용의 73%가 매출 외 용도(R&D 등)라 매출 여력이 있고, 토큰 가격 하락은 제본스 역설로 컴퓨팅 수요를 키운다는 해석이다. 컴퓨팅은 12~18개월 전 계약하며 GPU 임대 단가 상승이 신규 계약 마진을 압박할 수 있다고 S-1이 명시, 이는 네오클라우드 이익률에는 우호적이다. 아마존·구글은 공급자이자 주주이자 경쟁자라는 이해충돌 리스크와 상장 후 증자·사채 발행 가능성을 경고한다. 작성자는 연산 인프라(전력·반도체·데이터센터) 수요 지속에 베팅한다는 기존 입장을 재확인한다.",
+      "post_id": "226499",
+      "analyzed_at": "2026-10-27T10:20:00+09:00",
+      "title": "스페이스X 400억 달러 장전 완료 | 10-26 미국 시황 정리",
+      "author": "T3chfeed_테크피드",
+      "summary": "주간 일정 프리뷰. 머스크가 스페이스X의 GPU 차입 400억 달러 조달 완료를 공유했고, AI 외 매출이 없는 신진 네오클라우드는 자금 조달이 막힐 수 있다는 해석. 테슬라 사이버캡 로보택시 대수 463대로 증가, 합병 관련 세무 대비(배우자 증여, 1년 조건)는 인터뷰 예정. 코닝(10/27), FOMC(10/29), 구글·MS(10/29), 아마존(10/30) 실적이 핵심 이벤트라는 정리. 템퍼스 ESMO 언급 40건, 헤어스 앱 순위 상승도 언급. (rev2 재분석: 본문 개정 후에도 핵심 주장·판단 동일.)",
       "relevance": "MEDIUM",
       "claims": [
         {
           "kind": "FACT",
-          "text": "2026 상반기 앤트로픽 매출 약 $16.3B(전년 동기 $1.16B), 약 14배 성장.",
+          "text": "스페이스X가 GPU 차입용 400억 달러 조달을 마쳤다(머스크 발언).",
           "tickers": [
-            "AMZN",
-            "GOOG",
-            "AVGO",
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.vktr.com/ai-market/anthropics-s1-shows-163b-in-revenue-and-compute-squeeze/",
-          "evidence_note": "WebSearch(2026-10-27): 복수 언론이 S-1 초안 기준 상반기 매출 $16.3B·전년 $1.1B로 보도해 일치. 단 SEC 원문(sec.gov)은 접근하지 못해 공식 확인은 아님.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "2026 상반기 영업손실이 $8.06B(2025 상반기)에서 $0.69B로 축소, 2분기 흑자 달성.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "언론은 순손실 $80.7B(약 $72B는 전환상품 평가 관련 비현금 비용)만 보도했고 영업손실·2분기 흑자는 원문 외 확인 못함. 순손실 대부분이 비현금이라는 보도는 앞선 글(226859)의 순손실-영업손실 불일치를 설명할 수 있음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "2026 상반기 총 컴퓨팅 비용 약 $8.95B, 매출원가 $2.38B(26.6%)·기타 $6.57B.",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": "https://arynews.tv/anthropic-logged-net-loss-of-over-80-billion-in-first-half-of-2026",
-          "evidence_note": "언론은 상반기 컴퓨팅 지출 '거의 $9B'(전년 $2.3B)로 보도해 총액은 부합. 매출원가/기타 분해는 확인 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "컴퓨팅 자원을 대부분 12~18개월 전 계약하며 GPU 임대 단가 상승이 신규 계약 마진을 압박할 수 있다고 S-1이 명시.",
-          "tickers": [
+            "TSLA",
             "CRWV"
           ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "S-1 원문 확인 불가. 언론 보도에서 해당 문구 확인 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "컴퓨팅 의존 공급자(AWS·구글)가 앤트로픽의 주주이자 경쟁자라는 이해충돌을 S-1 위험요인에 명시.",
-          "tickers": [
-            "AMZN",
-            "GOOG"
-          ],
           "verification": "PARTIAL",
-          "evidence_url": "https://arynews.tv/anthropic-logged-net-loss-of-over-80-billion-in-first-half-of-2026",
-          "evidence_note": "아마존·구글이 주요 주주(약 21%·15%)이자 매출 약 12%씩을 차지한다는 보도는 확인. 위험요인 문구 자체는 원문 미확인.",
+          "evidence_url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
+          "evidence_note": "WebSearch: FT 보도는 아폴로 주도 약 400억 달러(은행대출 100억+투자등급 채권 300억) 조달을 '추진 중', 클로징 2027 예상이라 함. 규모 방향은 맞으나 '완료'는 공식 확인 못 함. 언론 보도 기반.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "10월 토큰 가격 인하 후 앤트로픽 토큰 수요가 다시 급증, 3분기 오픈AI Astra 출시 후 점유율 하락.",
-          "tickers": [],
+          "text": "테슬라 사이버캡 로보택시 대수가 463대로 증가.",
+          "tickers": [
+            "TSLA"
+          ],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "Q3 매출 $16.8B(+45% QoQ)라는 보도는 있어 '성장 둔화' 서술과 상충 가능. 토큰 수요·점유율은 확인 못함.",
+          "evidence_note": "2026-10-27 재시도: WebSearch에서 공식 대수 공시 없음(커뮤니티 추적치). 10-Q에서도 확인 안 됨.",
           "due": null
         },
         {
-          "kind": "PREDICTION",
-          "text": "4분기 앤트로픽 성장세가 재가속한다.",
+          "kind": "FACT",
+          "text": "영국 구글 플레이 Hers 앱 순위 500위권→350위권 상승, 템퍼스 ESMO 초록 40건 언급(경쟁사 Guardant 25, Natera 20).",
           "tickers": [],
-          "verification": "NOT_APPLICABLE",
+          "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-02-28"
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "상장 후 빠른 시일 내 앤트로픽의 대규모 사채·유상증자가 있을 수 있다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-04-30"
+          "evidence_note": "Sensor Tower·학회 초록 집계, 공식 IR 아님. 둘 다 universe 밖 종목.",
+          "due": null
         },
         {
           "kind": "OPINION",
-          "text": "컴퓨팅 효율·마진 개선과 제본스 역설로 AI 컴퓨팅 수요 증가 추세는 이어지고, 네오클라우드 이익률은 상승할 수 있다.",
+          "text": "AI 외 매출 없는 네오클라우드는 자금 조달이 막히고 스페이스X가 유리해진다. 코어위브·네비우스는 수주잔고로 높은 금리에 조달 가능.",
           "tickers": [
-            "NVDA",
-            "AVGO",
-            "VRT"
+            "CRWV"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "FOMC 10/29 금리 동결(시장 확률 90%), 포워드 가이던스는 데이터 의존적일 것.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-10-29"
+        },
+        {
+          "kind": "OPINION",
+          "text": "테슬라-스페이스X 합병 시 세금 대비로 배우자 증여가 현실적(합병일 1년 전 증여 필요).",
+          "tickers": [
+            "TSLA"
           ],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
@@ -842,32 +810,20 @@
       ],
       "thesis_impacts": [
         {
-          "ticker": "NVDA",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "컴퓨팅 수요·수익성 개선 논리를 지지하나 핵심 수치가 S-1 원문 미확인이고 단일 의견이라 LOW."
-        },
-        {
-          "ticker": "AVGO",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "앤트로픽 TPU 약정(보도 $161.2B)이 수요 근거이나 고객 집중·자금조달 위험도 함께 부각."
-        },
-        {
-          "ticker": "VRT",
+          "ticker": "CRWV",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "전력·냉각 수요에 우호적 배경이지만 직접 근거 없음."
+          "rationale": "수주잔고 있는 곳은 조달 가능하다는 언급이나 새 공식 사실 없음. 스페이스X 유리 조달은 경쟁 심화 요인."
         },
         {
-          "ticker": "AMZN",
+          "ticker": "TSLA",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "AWS 약정·지분 가치는 긍정, 이해충돌·자본 부담은 부정으로 상쇄."
+          "rationale": "로보택시 대수·합병 세무는 비공식 데이터·추측. 합병은 공식 발표 없음."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 앤트로픽 수익성 개선은 AI CAPEX 논리에 우호적이나 핵심 수치는 언론 보도 수준이고 S-1 원문을 확인하지 못했으며, 상장 후 증자 가능성은 오히려 AI 자금조달 위험을 환기한다. 이미 AI 노출이 큰 포트폴리오에서 단일 의견으로 점수·비중을 바꿀 근거가 아니다."
+      "portfolio_implication": "변경 없음. 일정 프리뷰이며 새 공식 근거가 없다. 10/27 코닝, 10/29 FOMC·구글·MS, 10/30 아마존 실적 확인 전에는 분할 유지."
     },
     {
       "post_id": "226859",
@@ -1005,175 +961,6 @@
       "portfolio_implication": "변경 없음. 핵심 수치가 단일 출처이거나 미확인(공식 S-1 원문 미확보)이라 thesis inertia 유지. 10/29~30 구글·MS·아마존 실적에서 AI CAPEX 수요를 공식 확인한 뒤 재평가."
     },
     {
-      "post_id": "226499",
-      "analyzed_at": "2026-10-27T10:20:00+09:00",
-      "title": "스페이스X 400억 달러 장전 완료 | 10-26 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "주간 일정 프리뷰. 머스크가 스페이스X의 GPU 차입 400억 달러 조달 완료를 공유했고, AI 외 매출이 없는 신진 네오클라우드는 자금 조달이 막힐 수 있다는 해석. 테슬라 사이버캡 로보택시 대수 463대로 증가, 합병 관련 세무 대비(배우자 증여, 1년 조건)는 인터뷰 예정. 코닝(10/27), FOMC(10/29), 구글·MS(10/29), 아마존(10/30) 실적이 핵심 이벤트라는 정리. 템퍼스 ESMO 언급 40건, 헤어스 앱 순위 상승도 언급. (rev2 재분석: 본문 개정 후에도 핵심 주장·판단 동일.)",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "스페이스X가 GPU 차입용 400억 달러 조달을 마쳤다(머스크 발언).",
-          "tickers": [
-            "TSLA",
-            "CRWV"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://investinglive.com/stocks/spacex-seeks-40-billion-in-debt-led-by-apollo-to-fund-nvidia-chip-order-ft-says/",
-          "evidence_note": "WebSearch: FT 보도는 아폴로 주도 약 400억 달러(은행대출 100억+투자등급 채권 300억) 조달을 '추진 중', 클로징 2027 예상이라 함. 규모 방향은 맞으나 '완료'는 공식 확인 못 함. 언론 보도 기반.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "테슬라 사이버캡 로보택시 대수가 463대로 증가.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "2026-10-27 재시도: WebSearch에서 공식 대수 공시 없음(커뮤니티 추적치). 10-Q에서도 확인 안 됨.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "영국 구글 플레이 Hers 앱 순위 500위권→350위권 상승, 템퍼스 ESMO 초록 40건 언급(경쟁사 Guardant 25, Natera 20).",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "Sensor Tower·학회 초록 집계, 공식 IR 아님. 둘 다 universe 밖 종목.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "AI 외 매출 없는 네오클라우드는 자금 조달이 막히고 스페이스X가 유리해진다. 코어위브·네비우스는 수주잔고로 높은 금리에 조달 가능.",
-          "tickers": [
-            "CRWV"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "FOMC 10/29 금리 동결(시장 확률 90%), 포워드 가이던스는 데이터 의존적일 것.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-10-29"
-        },
-        {
-          "kind": "OPINION",
-          "text": "테슬라-스페이스X 합병 시 세금 대비로 배우자 증여가 현실적(합병일 1년 전 증여 필요).",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "CRWV",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "수주잔고 있는 곳은 조달 가능하다는 언급이나 새 공식 사실 없음. 스페이스X 유리 조달은 경쟁 심화 요인."
-        },
-        {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "로보택시 대수·합병 세무는 비공식 데이터·추측. 합병은 공식 발표 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 일정 프리뷰이며 새 공식 근거가 없다. 10/27 코닝, 10/29 FOMC·구글·MS, 10/30 아마존 실적 확인 전에는 분할 유지."
-    },
-    {
-      "post_id": "226621",
-      "analyzed_at": "2026-10-26T22:30:00+09:00",
-      "title": "🎓10월 4주차 유튜브 라이브(10.25)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "10/25 유튜브 라이브 Q&A 정리. 하락장·고금리·FOMC·이란 전쟁·중간선거 불확실성 속에서 AI 수요는 견조하고 문제는 자본 조달이라는 시각. 네비우스 조달 성공에도 주가가 빠지는 것은 펀더멘털이 아닌 수급 탓이라고 보며, 아이렌·로켓랩은 3~4년 장기 보유 대상으로 매도 불필요하다고 한다. 현금은 하나의 종목이라는 원칙과 한 자릿수 %p 리밸런싱을 강조. 새 공식 수치는 없다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "네비우스가 이번에 자본 조달에 성공했다.",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": "https://w.media/?p=42837",
-          "evidence_note": "WebSearch: 2026-08 약 57.5억 달러 전환사채 클로징 보도(언론). 이번 주 신규 조달은 확인 못 함. 네비우스는 universe 밖.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "GPU 가격·연산력·토큰 가격이 계속 오르고 하락하지 않는다.",
-          "tickers": [
-            "NVDA",
-            "CRWV"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료에서 GPU 대여 가격 시계열 확인 못 함. CRWV 10-Q는 백로그 중심.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "헤지펀드 롱/숏 비율이 1:5로 숏에 쏠려 있다.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "출처 미제시 시장 통계, 공식 확인 불가.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "AI 수요는 줄기 어렵고 문제는 자본 조달이다. 금리가 내려가면 완화된다.",
-          "tickers": [
-            "CRWV",
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "아이렌 등 후보는 3~4년 보유하며 1~2년 손실로 매도하지 않는다. 현금도 종목이다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "중간선거·FOMC·실적 시즌 불확실성이 끝나야 헤지펀드 매수가 돌아온다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-11-30"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "CRWV",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "자본 조달 리스크 재확인이지만 새 공식 근거 없음. 저자는 네오클라우드 고위험을 인정."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 심리·원칙 중심 Q&A로 공식 근거가 없다. 다만 '현금도 종목' 원칙은 현재 현금 0.5%→5% 보강 제안과 방향이 같다(단독 근거 아님)."
-    },
-    {
       "post_id": "226747",
       "analyzed_at": "2026-10-26T22:30:00+09:00",
       "title": "테슬라 합병 이야기와 트레이딩에 대한 이야기",
@@ -1284,6 +1071,86 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 네오클라우드 조달 리스크는 CRWV 위험 항목에 이미 반영. 새 공식 근거 없고 저자는 이해관계자(아이렌 최대 보유). 단일 의견으로 비중 변경 불가."
+    },
+    {
+      "post_id": "226621",
+      "analyzed_at": "2026-10-26T22:30:00+09:00",
+      "title": "🎓10월 4주차 유튜브 라이브(10.25)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "10/25 유튜브 라이브 Q&A 정리. 하락장·고금리·FOMC·이란 전쟁·중간선거 불확실성 속에서 AI 수요는 견조하고 문제는 자본 조달이라는 시각. 네비우스 조달 성공에도 주가가 빠지는 것은 펀더멘털이 아닌 수급 탓이라고 보며, 아이렌·로켓랩은 3~4년 장기 보유 대상으로 매도 불필요하다고 한다. 현금은 하나의 종목이라는 원칙과 한 자릿수 %p 리밸런싱을 강조. 새 공식 수치는 없다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "네비우스가 이번에 자본 조달에 성공했다.",
+          "tickers": [],
+          "verification": "PARTIAL",
+          "evidence_url": "https://w.media/?p=42837",
+          "evidence_note": "WebSearch: 2026-08 약 57.5억 달러 전환사채 클로징 보도(언론). 이번 주 신규 조달은 확인 못 함. 네비우스는 universe 밖.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "GPU 가격·연산력·토큰 가격이 계속 오르고 하락하지 않는다.",
+          "tickers": [
+            "NVDA",
+            "CRWV"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료에서 GPU 대여 가격 시계열 확인 못 함. CRWV 10-Q는 백로그 중심.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "헤지펀드 롱/숏 비율이 1:5로 숏에 쏠려 있다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "출처 미제시 시장 통계, 공식 확인 불가.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "AI 수요는 줄기 어렵고 문제는 자본 조달이다. 금리가 내려가면 완화된다.",
+          "tickers": [
+            "CRWV",
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "아이렌 등 후보는 3~4년 보유하며 1~2년 손실로 매도하지 않는다. 현금도 종목이다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "중간선거·FOMC·실적 시즌 불확실성이 끝나야 헤지펀드 매수가 돌아온다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-11-30"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "CRWV",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "자본 조달 리스크 재확인이지만 새 공식 근거 없음. 저자는 네오클라우드 고위험을 인정."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 심리·원칙 중심 Q&A로 공식 근거가 없다. 다만 '현금도 종목' 원칙은 현재 현금 0.5%→5% 보강 제안과 방향이 같다(단독 근거 아님)."
     },
     {
       "post_id": "226270",

@@ -141,6 +141,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-10-27",
+      "accession": "0001193125-26-434271",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-09-02",
       "report_date": "2026-09-02",
       "accession": "0001730168-26-000076",
@@ -167,17 +173,6 @@
         "https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683dex992.htm"
       ],
       "chars": 16590
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-06-11",
-      "report_date": "2026-06-11",
-      "accession": "0001193125-26-266777",
-      "path": "data/market/docs/AVGO/2026-06-11-8-K-0001193125-26-266777.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717dex991.htm"
-      ],
-      "chars": 9506
     }
   ],
   "AXON": [

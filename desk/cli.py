@@ -65,7 +65,9 @@ def cmd_recommend(args: argparse.Namespace) -> int:
     pf, universe, constraints = (portfolio.load_portfolio(), portfolio.load_universe(),
                                  portfolio.load_constraints())
     plan = portfolio.build_plan(pf, universe, constraints,
-                                read_json(paths.MARKET / "quotes.json", {}) or {})
+                                read_json(paths.MARKET / "quotes.json", {}) or {},
+                                read_json(paths.MARKET / "technicals.json", {}) or {},
+                                read_json(paths.MARKET / "regime.json", {}) or {})
     written = report.write(report.render(plan, pf, universe, now), now)
     feed_path = chatgpt_feed.write(plan, pf, universe, now)
     report.append_score_history(plan, now)
@@ -87,7 +89,8 @@ def cmd_pending(args: argparse.Namespace) -> int:
 
 
 def cmd_validate(args: argparse.Namespace) -> int:
-    from desk import analysis, portfolio
+    from desk import analysis, portfolio, regime, technicals
+    from desk.store import read_json
 
     errors = analysis.validate_all()
     try:
@@ -95,6 +98,12 @@ def cmd_validate(args: argparse.Namespace) -> int:
         errors += portfolio.validate_targets(uni, pf, c)
     except Exception as exc:
         errors.append(f"config: {exc}")
+    technical_snapshot = read_json(paths.MARKET / "technicals.json")
+    if technical_snapshot is not None:
+        errors += technicals.validate_snapshot(technical_snapshot)
+    regime_snapshot = read_json(paths.MARKET / "regime.json")
+    if regime_snapshot is not None:
+        errors += regime.validate_snapshot(regime_snapshot)
     print("OK" if not errors else "\n".join(errors))
     return 1 if errors else 0
 

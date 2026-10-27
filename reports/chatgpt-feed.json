@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T21:08:31.700713+09:00",
+  "generated_at": "2026-10-27T21:53:24.915587+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-06",
@@ -136,6 +136,7 @@
       "notes": []
     },
     "alerts": [
+      "PLTR 축소를 차단했습니다: 펀더멘털·추정치 수정·상대 모멘텀이 모두 개선 중입니다.",
       "TSLA 현재 비중 35.8%가 상한 35%를 넘습니다.",
       "PLTR 현재 비중 35.6%가 상한 35%를 넘습니다.",
       "현금 0.5%가 최소 5%보다 낮습니다."
@@ -153,19 +154,30 @@
         "fundamentals": "STABLE",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 35.0,
           "portfolio_fit": 75.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": "UNSPECIFIED",
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "TSLA | Relative Momentum NEUTRAL | 50/200MA 상단 | QQQ 대비 상대강도 상승",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": true,
+          "above_sma_200": true,
+          "relative_volume_20": 1.460646,
+          "relative_strength_qqq_trend": "RISING",
+          "relative_momentum": "NEUTRAL"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "반복되는 대규모 잉여현금흐름 적자",
@@ -184,19 +196,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 70.0,
           "portfolio_fit": 80.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "NVDA | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": true,
+          "relative_volume_20": 0.859349,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "NEUTRAL"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "데이터센터 매출의 연속적인 가이던스 하회",
@@ -224,7 +247,11 @@
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": null,
+        "timing_note": null,
+        "key_technicals": null,
         "winner_protection_override_reason": null,
         "invalidation_signals": []
       },
@@ -239,19 +266,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 70.0,
           "portfolio_fit": 80.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "AMZN | Relative Momentum NEUTRAL | QQQ 대비 상대강도 상승",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": true,
+          "relative_volume_20": 0.910526,
+          "relative_strength_qqq_trend": "RISING",
+          "relative_momentum": "NEUTRAL"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "AWS 성장과 영업이익률의 동반 둔화",
@@ -270,19 +308,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 65.0,
           "portfolio_fit": 85.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "VRT | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.994233,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "유기적 성장률 급락",
@@ -301,55 +350,35 @@
         "fundamentals": "WEAKENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 15.0,
           "portfolio_fit": 55.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": "UNSPECIFIED",
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "FLNC | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 1.010829,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "생산 차질과 추가 가이던스 하향",
           "수주잔고 취소·연기 확대",
           "유동성 악화 또는 희석성 자금조달"
-        ]
-      },
-      {
-        "ticker": "PLTR",
-        "current_weight": 0.35574754,
-        "target_weight": 0.33,
-        "change_weight": -0.02574754,
-        "action": "소폭 조정 검토",
-        "urgency": "낮음",
-        "estimated_amount": -647.6,
-        "fundamentals": "STRENGTHENING",
-        "estimate_revisions": "UNKNOWN",
-        "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
-        "position_and_correlation_risk": {
-          "risk_control": 55.0,
-          "portfolio_fit": 85.0
-        },
-        "regime_alignment": "UNKNOWN",
-        "asymmetry": "UNKNOWN",
-        "core_floor_weight": 0.3,
-        "tactical_weight": 0.03,
-        "trim_source": "TACTICAL",
-        "winner_protection_active": false,
-        "winner_protection_blocked": false,
-        "asymmetric_starter": false,
-        "winner_protection_override_reason": null,
-        "invalidation_signals": [
-          "미국 상업과 정부 성장률의 동시 급락",
-          "잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리",
-          "GAAP 마진과 현금흐름의 동반 악화"
         ]
       },
       {
@@ -363,19 +392,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 70.0,
           "portfolio_fit": 90.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.855886,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "AI 매출 성장의 급격한 둔화",
@@ -394,24 +434,77 @@
         "fundamentals": "EMERGING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 35.0,
           "portfolio_fit": 60.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": "UNSPECIFIED",
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "INTC | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": true,
+          "relative_volume_20": 1.002778,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "NEUTRAL"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "매출 성장 재둔화",
           "파운드리 손실 확대",
           "잉여현금흐름 적자 장기화"
+        ]
+      },
+      {
+        "ticker": "PLTR",
+        "current_weight": 0.35574754,
+        "target_weight": 0.33,
+        "change_weight": -0.02574754,
+        "action": "유지",
+        "urgency": "없음",
+        "estimated_amount": 0.0,
+        "fundamentals": "STRENGTHENING",
+        "estimate_revisions": "UNKNOWN",
+        "expectations_gap": "UNKNOWN",
+        "relative_momentum": "STRONG",
+        "position_and_correlation_risk": {
+          "risk_control": 55.0,
+          "portfolio_fit": 85.0
+        },
+        "regime_alignment": "NEUTRAL",
+        "asymmetry": "UNKNOWN",
+        "core_floor_weight": 0.3,
+        "tactical_weight": 0.03,
+        "trim_source": "TACTICAL",
+        "winner_protection_active": true,
+        "winner_protection_blocked": true,
+        "winner_protection_source": "TECHNICAL_CONFIRMATION",
+        "asymmetric_starter": false,
+        "technical_signal": "PLTR — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": true,
+          "above_sma_200": true,
+          "relative_volume_20": 0.736877,
+          "relative_strength_qqq_trend": "RISING",
+          "relative_momentum": "STRONG"
+        },
+        "winner_protection_override_reason": null,
+        "invalidation_signals": [
+          "미국 상업과 정부 성장률의 동시 급락",
+          "잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리",
+          "GAAP 마진과 현금흐름의 동반 악화"
         ]
       },
       {
@@ -425,19 +518,30 @@
         "fundamentals": "STABLE",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 65.0,
           "portfolio_fit": 70.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": "UNSPECIFIED",
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.70301,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "생산 가이던스의 반복 하향",
@@ -456,19 +560,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 60.0,
           "portfolio_fit": 80.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "AXON | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.664545,
+          "relative_strength_qqq_trend": "RISING",
+          "relative_momentum": "NEUTRAL"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "ARR과 순매출유지율의 동반 둔화",
@@ -487,19 +602,30 @@
         "fundamentals": "WEAKENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 10.0,
           "portfolio_fit": 30.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "CRWV | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 1.323602,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "신규 부채 조달 비용의 추가 상승",
@@ -518,19 +644,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 75.0,
           "portfolio_fit": 70.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "ETN | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.844931,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "NEUTRAL"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "Electrical Americas 주문 성장 급락",
@@ -549,19 +686,30 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "UNKNOWN",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 45.0,
           "portfolio_fit": 72.0
         },
-        "regime_alignment": "UNKNOWN",
+        "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
         "trim_source": null,
         "winner_protection_active": false,
         "winner_protection_blocked": false,
+        "winner_protection_source": null,
         "asymmetric_starter": false,
+        "technical_signal": "ORCL | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-10-26",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.781137,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
           "RPO의 매출 전환 지연",
@@ -570,6 +718,24 @@
         ]
       }
     ]
+  },
+  "technical_context": {
+    "generated_at": "2026-10-27T21:52:12.442876+09:00",
+    "key_signals": [
+      "PLTR — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지",
+      "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+      "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락"
+    ],
+    "regime": {
+      "state": "RISK_OFF",
+      "as_of": "2026-10-27",
+      "reasons": [
+        "VIX rising above SMA20",
+        "credit HYG/LQD falling",
+        "breadth RSP/SPY rising"
+      ],
+      "core_auto_sell": false
+    }
   },
   "recent_analyses": [
     {

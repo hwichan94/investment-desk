@@ -2,6 +2,15 @@
 
 목표 비중·점수·편입 여부가 바뀔 때마다 위에 새 항목을 추가한다.
 
+## 2026-10-27 — 시장행동·Regime 자동 레이어 추가
+
+- 종목별 목표 비중과 Fundamental 점수는 변경하지 않음.
+- Yahoo 일봉에서 가격 추세·QQQ/섹터 상대강도·거래량을 계산해 기존 `UNKNOWN` Relative Momentum을
+  런타임에 보완하도록 추가. 원본 decision universe를 자동으로 덮어쓰지 않음.
+- Estimate Revisions가 `UNKNOWN`이어도 Fundamentals 강화 + Relative Momentum STRONG + 50/200일선 상단 +
+  QQQ 상대강도 상승이면 Winner Protection을 켜도록 확장. RSI 과매수는 약세·매도 조건에서 제외.
+- Regime은 Starter/Tactical/타이밍만 조절하며 Core 자동매도에는 사용하지 않음.
+
 ## 2026-10-27 — Trader Engine 규칙 반영
 
 - 종목별 목표 비중과 점수는 변경하지 않음.

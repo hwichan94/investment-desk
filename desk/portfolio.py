@@ -208,6 +208,27 @@ class Security(BaseModel):
             and self.relative_momentum == RelativeMomentum.STRONG
         )
 
+    def winner_protection_for(self, momentum: RelativeMomentum,
+                              technical: dict[str, Any] | None = None) -> tuple[bool, str | None]:
+        """Apply the manual rule first, then the observed-price fallback.
+
+        RSI is deliberately absent. An UNKNOWN estimate revision can only be bridged by
+        strong multi-factor momentum above both long moving averages with rising QQQ RS.
+        """
+        if not self.fundamentals_improving:
+            return False, None
+        if self.estimate_revisions == EstimateRevision.IMPROVING and momentum != RelativeMomentum.WEAK:
+            return True, "ESTIMATE_REVISIONS"
+        technical = technical or {}
+        technical_winner = (
+            self.estimate_revisions == EstimateRevision.UNKNOWN
+            and momentum == RelativeMomentum.STRONG
+            and technical.get("above_sma_50") is True
+            and technical.get("above_sma_200") is True
+            and technical.get("relative_strength_qqq_trend") == "RISING"
+        )
+        return (True, "TECHNICAL_CONFIRMATION") if technical_winner else (False, None)
+
     @property
     def asymmetric_starter(self) -> bool:
         return (
@@ -261,8 +282,14 @@ class Row(BaseModel):
     security: Security | None = None
     winner_protection_active: bool = False
     winner_protection_blocked: bool = False
+    winner_protection_source: str | None = None
     asymmetric_starter: bool = False
     trim_source: str | None = None
+    relative_momentum: RelativeMomentum = RelativeMomentum.UNKNOWN
+    regime_alignment: RegimeAlignment = RegimeAlignment.UNKNOWN
+    technical_signal: str | None = None
+    timing_note: str | None = None
+    technical: dict[str, Any] = Field(default_factory=dict)
 
 
 class Plan(BaseModel):
@@ -279,6 +306,10 @@ class Plan(BaseModel):
     target_errors: list[str]
     score: "PortfolioScore"
     target_score: "PortfolioScore"
+    technical_generated_at: str | None = None
+    regime: str = "UNKNOWN"
+    regime_as_of: str | None = None
+    regime_reasons: list[str] = Field(default_factory=list)
 
 
 # --- 100-point portfolio score -------------------------------------------------------------
@@ -407,12 +438,62 @@ def classify(current: float, target: float, c: Constraints, is_candidate_watch: 
     return (Action.ADD if change > 0 else Action.REDUCE), urgency
 
 
+def effective_relative_momentum(security: Security | None,
+                                technical: dict[str, Any]) -> RelativeMomentum:
+    if security and security.relative_momentum != RelativeMomentum.UNKNOWN:
+        return security.relative_momentum
+    try:
+        return RelativeMomentum(technical.get("relative_momentum", "UNKNOWN"))
+    except ValueError:
+        return RelativeMomentum.UNKNOWN
+
+
+def effective_regime_alignment(security: Security | None, regime: str,
+                               momentum: RelativeMomentum) -> RegimeAlignment:
+    if security and security.regime_alignment != RegimeAlignment.UNKNOWN:
+        return security.regime_alignment
+    if regime == "UNKNOWN":
+        return RegimeAlignment.UNKNOWN
+    if momentum == RelativeMomentum.STRONG:
+        return RegimeAlignment.NEUTRAL if regime == "RISK_OFF" else RegimeAlignment.POSITIVE
+    if momentum == RelativeMomentum.WEAK:
+        return RegimeAlignment.NEGATIVE
+    if regime == "RISK_OFF":
+        return RegimeAlignment.NEGATIVE
+    return RegimeAlignment.NEUTRAL
+
+
+def technical_signal(ticker: str, momentum: RelativeMomentum,
+                     technical: dict[str, Any], protected: bool) -> str | None:
+    if not technical:
+        return None
+    parts = [f"Relative Momentum {momentum.value}"]
+    if technical.get("above_sma_50") is True and technical.get("above_sma_200") is True:
+        parts.append("50/200MA 상단")
+    elif technical.get("above_sma_50") is False and technical.get("above_sma_200") is False:
+        parts.append("50/200MA 하단")
+    trend = technical.get("relative_strength_qqq_trend")
+    if trend == "RISING":
+        parts.append("QQQ 대비 상대강도 상승")
+    elif trend == "FALLING":
+        parts.append("QQQ 대비 상대강도 하락")
+    if technical.get("heavy_volume_decline"):
+        parts.append("대량 거래 하락")
+    prefix = f"{ticker} — Winner Protection ON" if protected else ticker
+    suffix = " → RSI 과열만으로 축소 금지" if protected else ""
+    return f"{prefix} | {' | '.join(parts)}{suffix}"
+
+
 def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
-               market: dict[str, Any]) -> Plan:
+               market: dict[str, Any], technicals: dict[str, Any] | None = None,
+               regime_data: dict[str, Any] | None = None) -> Plan:
     quotes = market.get("quotes", {})
+    technicals = technicals or {}
+    technical_by_ticker = technicals.get("securities", {})
+    regime_data = regime_data or {}
+    regime_state = regime_data.get("regime", "UNKNOWN")
     total, current, missing, _ = current_weights(portfolio, quotes)
     rows: list[Row] = []
-    winner_errors: list[str] = []
     winner_alerts: list[str] = []
     by_ticker = {s.ticker: s for s in universe.securities}
     for ticker in sorted(set(by_ticker) | set(current) - {"CASH"}):
@@ -421,18 +502,28 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
         action, urgency = classify(cur, tgt, c, bool(s and s.watch_reason))
         price = (quotes.get(ticker) or {}).get("price")
         amount = (tgt - cur) * total
-        protected = bool(s and s.winner_protection_active)
+        technical = technical_by_ticker.get(ticker, {})
+        momentum = effective_relative_momentum(s, technical)
+        alignment = effective_regime_alignment(s, regime_state, momentum)
+        protected, protection_source = s.winner_protection_for(momentum, technical) if s else (False, None)
         reducing = action in (Action.TRIM_WATCH, Action.REDUCE, Action.EXIT)
         blocked = bool(protected and reducing and not s.winner_protection_override_reason)
         if blocked:
-            winner_errors.append(
-                f"{ticker} Winner Protection 활성 상태에서 축소 목표를 사용하려면 "
-                "winner_protection_override_reason이 필요합니다."
-            )
             winner_alerts.append(
                 f"{ticker} 축소를 차단했습니다: 펀더멘털·추정치 수정·상대 모멘텀이 모두 개선 중입니다."
             )
             action, urgency, amount = Action.HOLD, "없음", 0.0
+        timing_note = None
+        if (not blocked and action in (Action.ADD, Action.INITIATE)
+                and momentum == RelativeMomentum.WEAK and technical.get("heavy_volume_decline")):
+            action, urgency, amount = Action.HOLD, "낮음", 0.0
+            timing_note = "Relative Momentum WEAK + 대량 거래 하락: Tactical/신규 매수 보류"
+        elif regime_state == "RISK_OFF" and action == Action.INITIATE and s and s.asymmetric_starter:
+            amount *= 0.5
+            timing_note = "RISK_OFF: Asymmetric Starter 1차 크기를 목표의 절반으로 축소"
+        elif regime_state == "RISK_OFF" and action == Action.ADD and s and s.tactical_weight:
+            amount *= 0.5
+            timing_note = "RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소"
         trim_source = None
         if s and tgt < cur:
             trim_source = "TACTICAL" if s.core_floor_weight is not None or s.tactical_weight is not None else "UNSPECIFIED"
@@ -442,8 +533,12 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
                         score=s.score(universe.score_weights) if s else None, security=s,
                         winner_protection_active=protected,
                         winner_protection_blocked=blocked,
+                        winner_protection_source=protection_source,
                         asymmetric_starter=bool(s and s.asymmetric_starter),
-                        trim_source=trim_source))
+                        trim_source=trim_source, relative_momentum=momentum,
+                        regime_alignment=alignment,
+                        technical_signal=technical_signal(ticker, momentum, technical, protected),
+                        timing_note=timing_note, technical=technical))
     cash_cur = current["CASH"]
     rows.append(Row(ticker="CASH", current=cash_cur, target=universe.cash_target,
                     change=universe.cash_target - cash_cur, action=Action.CASH,
@@ -472,6 +567,9 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
                 cash_reserved_for_debt=portfolio.cash_reserved_for_debt,
                 priced_at=market.get("fetched_at"), missing_prices=missing,
                 stale_prices=stale, current=current, rows=rows, ranked=ranked, alerts=alerts,
-                target_errors=validate_targets(universe, portfolio, c) + winner_errors,
+                target_errors=validate_targets(universe, portfolio, c),
                 score=portfolio_score(current, universe, c, core),
-                target_score=portfolio_score(target_weights, universe, c, core))
+                target_score=portfolio_score(target_weights, universe, c, core),
+                technical_generated_at=technicals.get("generated_at"),
+                regime=regime_state, regime_as_of=regime_data.get("as_of"),
+                regime_reasons=regime_data.get("reasons", []))

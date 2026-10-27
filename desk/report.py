@@ -97,6 +97,38 @@ def _recent_change_lines(now: datetime) -> tuple[list[str], list[str]]:
     return [f"- {line}" for line in changes], market
 
 
+def technical_context_lines(plan: Plan) -> list[str]:
+    regime_effect = {
+        "RISK_ON": "신규 Starter/Tactical 정상 운용, Core 유지",
+        "NEUTRAL": "종목별 신호 우선, Core 유지",
+        "RISK_OFF": "신규 Starter·Tactical 크기 축소, Core 자동매도 금지",
+        "UNKNOWN": "데이터 부족으로 비중 조정 없음",
+    }[plan.regime if plan.regime in {"RISK_ON", "NEUTRAL", "RISK_OFF"} else "UNKNOWN"]
+    priorities = ("VIX", "credit", "breadth", "QQQ", "SPY")
+    ordered_reasons = sorted(
+        plan.regime_reasons,
+        key=lambda value: next((index for index, key in enumerate(priorities) if key in value), 99),
+    )
+    reason = "; ".join(ordered_reasons[:3]) or "구성요소 데이터 부족"
+    lines = [f"- **Regime: {plan.regime}** — {reason} → {regime_effect}"]
+    priority = sorted(
+        (row for row in plan.rows if row.ticker != "CASH" and row.technical_signal),
+        key=lambda row: (not row.winner_protection_active,
+                         row.relative_momentum.value not in ("STRONG", "WEAK"), row.ticker),
+    )
+    for row in priority[:3]:
+        implication = row.timing_note
+        if row.winner_protection_active:
+            implication = implication or "RSI 과열만으로 축소 금지"
+        elif row.relative_momentum.value == "WEAK" and row.security and row.security.fundamentals_improving:
+            implication = implication or "Tactical 추가매수 보류"
+        line = row.technical_signal
+        if implication and implication not in line:
+            line += f" → {implication}"
+        lines.append(f"- {line}")
+    return lines
+
+
 def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) -> str:
     conclusion = _one_line_conclusion(plan)
     changed_lines, market_lines = _recent_change_lines(now)
@@ -132,6 +164,8 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
     if plan.alerts:
         out += ["", "## 위험 알림", "", *[f"- {a}" for a in plan.alerts]]
 
+    out += ["", "## Technical / Regime 핵심 신호", "", *technical_context_lines(plan)]
+
     out += ["", "## 2. 오늘 바뀐 점", "", *changed_lines,
             "", "## 3. 놓치면 안 되는 시황", "", *market_lines,
             "", "## 4. 보유 종목 Action (현재 → 목표)", "",
@@ -156,9 +190,9 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
             continue
         s = r.security
         out.append(f"| {r.ticker} | {s.thesis_status.value} | {s.estimate_revisions.value} | "
-                   f"{s.expectations_gap.value} | {s.relative_momentum.value} | "
+                   f"{s.expectations_gap.value} | {r.relative_momentum.value} | "
                    f"risk {s.risk_control:.0f} / fit {s.portfolio_fit:.0f} | "
-                   f"{s.regime_alignment.value} |")
+                   f"{r.regime_alignment.value} |")
 
     out += ["", "### Base Case 실행 순서와 이유", ""]
     actionable = [r for r in plan.rows if r.action not in (Action.HOLD, Action.WATCH) and r.urgency != "없음"]
@@ -170,6 +204,10 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
             out.append(f"- 이유: {s.why_now}")
             out.append(f"- 핵심 위험: {s.main_risk}")
             out.append(f"- 실행: {s.execution_plan}")
+            if r.technical_signal:
+                out.append(f"- 시장행동: {r.technical_signal}")
+            if r.timing_note:
+                out.append(f"- 타이밍 조정: {r.timing_note}")
             if s.funding_from and r.change > 0:
                 out.append(f"- 재원: {', '.join(s.funding_from)}")
             if s.kpis_12m:
@@ -189,6 +227,10 @@ def render(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime) 
             out += [f"- **{r.ticker} — {r.action.value}, 목표 {_pct(r.target)}{starter}**: {s.why_now}",
                     f"  - 기존 보유 대비/재원: {', '.join(s.funding_from) if s.funding_from else '지정 없음'}",
                     f"  - 무효화: {'; '.join(s.invalidation_signals)}"]
+            if r.technical_signal:
+                out.append(f"  - 시장행동: {r.technical_signal}")
+            if r.timing_note:
+                out.append(f"  - 타이밍 조정: {r.timing_note}")
     else:
         out.append("- 없음")
 

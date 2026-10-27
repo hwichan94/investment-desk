@@ -78,7 +78,8 @@ def test_winner_protection_blocks_reduce_without_override(root):
     assert row.winner_protection_blocked is True
     assert row.action == portfolio.Action.HOLD
     assert row.amount == 0
-    assert any("Winner Protection" in error for error in plan.target_errors)
+    assert any("축소를 차단" in alert for alert in plan.alerts)
+    assert not plan.target_errors  # protected HOLD is a valid plan, not a broken target file
 
 
 def test_winner_protection_override_allows_reduce_and_is_validated(root):

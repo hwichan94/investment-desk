@@ -57,6 +57,21 @@ def _analysis_payload(analysis: PostAnalysis) -> dict[str, Any]:
     }
 
 
+def _key_technical_signals(plan: Plan) -> list[str]:
+    rows = [row for row in plan.rows if row.ticker != "CASH" and row.technical_signal]
+    rows.sort(key=lambda row: (not row.winner_protection_active,
+                               row.relative_momentum.value not in ("STRONG", "WEAK"), row.ticker))
+    return [row.technical_signal for row in rows[:3]]
+
+
+def _key_regime_reasons(plan: Plan) -> list[str]:
+    priorities = ("VIX", "credit", "breadth", "QQQ", "SPY")
+    return sorted(
+        plan.regime_reasons,
+        key=lambda value: next((index for index, key in enumerate(priorities) if key in value), 99),
+    )[:3]
+
+
 def build_feed(plan: Plan, portfolio: Portfolio, universe: Universe, now: datetime,
                horizon_hours: int = DEFAULT_HORIZON_HOURS) -> dict[str, Any]:
     recent = load_recent_analyses(now, horizon_hours)
@@ -89,19 +104,28 @@ def build_feed(plan: Plan, portfolio: Portfolio, universe: Universe, now: dateti
             "fundamentals": security.thesis_status.value if security else "NOT_APPLICABLE",
             "estimate_revisions": security.estimate_revisions.value if security else "NOT_APPLICABLE",
             "expectations_gap": security.expectations_gap.value if security else "NOT_APPLICABLE",
-            "relative_momentum": security.relative_momentum.value if security else "NOT_APPLICABLE",
+            "relative_momentum": row.relative_momentum.value if security else "NOT_APPLICABLE",
             "position_and_correlation_risk": (
                 {"risk_control": security.risk_control, "portfolio_fit": security.portfolio_fit}
                 if security else None
             ),
-            "regime_alignment": security.regime_alignment.value if security else "NOT_APPLICABLE",
+            "regime_alignment": row.regime_alignment.value if security else "NOT_APPLICABLE",
             "asymmetry": security.asymmetry.value if security else "NOT_APPLICABLE",
             "core_floor_weight": security.core_floor_weight if security else None,
             "tactical_weight": security.tactical_weight if security else None,
             "trim_source": row.trim_source,
             "winner_protection_active": row.winner_protection_active,
             "winner_protection_blocked": row.winner_protection_blocked,
+            "winner_protection_source": row.winner_protection_source,
             "asymmetric_starter": row.asymmetric_starter,
+            "technical_signal": row.technical_signal,
+            "timing_note": row.timing_note,
+            "key_technicals": ({
+                key: row.technical.get(key) for key in (
+                    "as_of", "above_sma_50", "above_sma_200", "relative_volume_20",
+                    "relative_strength_qqq_trend", "relative_momentum",
+                )
+            } if row.technical else None),
             "winner_protection_override_reason": (
                 security.winner_protection_override_reason if security else None
             ),
@@ -131,6 +155,16 @@ def build_feed(plan: Plan, portfolio: Portfolio, universe: Universe, now: dateti
             "alerts": plan.alerts,
             "target_errors": plan.target_errors,
             "actions": actions,
+        },
+        "technical_context": {
+            "generated_at": plan.technical_generated_at,
+            "key_signals": _key_technical_signals(plan),
+            "regime": {
+                "state": plan.regime,
+                "as_of": plan.regime_as_of,
+                "reasons": _key_regime_reasons(plan),
+                "core_auto_sell": False,
+            },
         },
         "recent_analyses": [_analysis_payload(item) for item in recent],
         "new_candidates": candidates,

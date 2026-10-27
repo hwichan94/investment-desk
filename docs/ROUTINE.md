@@ -66,6 +66,11 @@ UNVERIFIED로 남기고 보고서에 이유를 적는다.
 - Core floor / Tactical sleeve가 있는 종목의 valuation·event-risk 축소는 Tactical부터 한다.
 - 상방 비대칭이 `FAVORABLE`이고 빠른 무효화가 가능하면 불확실성을 이유로 대기하지 말고 2~3% starter를
   Base Case로 검토한다.
+- `data/market/technicals.json`의 자동 Relative Momentum과 `regime.json`을 확인한다. 수동 lens가
+  `UNKNOWN`일 때만 자동값을 사용하며 RSI 과매수만으로 WEAK/축소를 만들지 않는다.
+- `RISK_OFF`는 신규 Starter, Tactical 크기와 매수 타이밍을 줄이는 신호다. 강한 Core를 자동 매도하지 않는다.
+- 실적·뉴스 이후 시장반응을 평가할 때 `desk.technicals.calculate_event_reaction`으로 당일/익일 수익률,
+  QQQ 초과수익과 거래량 배수를 계산할 수 있다. 뉴스 방향과 결합하기 전에는 반응 분류를 임의 생성하지 않는다.
 - 목표 비중은 정책 실행 규칙을 따른다: 1%p 미만 변화 금지, 신규 편입은 2회 분할.
 - 신규 후보를 추가할 때는 다섯 가지를 모두 적는다:
   1) 기존 어느 보유 종목보다 나은가, 2) 12개월 KPI·촉매(`kpis_12m`), 3) 생각을 바꿀 조건

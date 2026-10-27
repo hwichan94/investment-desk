@@ -1,9 +1,9 @@
 # 12개월 포트폴리오 액션플랜
 
-- 생성 시각(KST): 2026-10-27 21:08
+- 생성 시각(KST): 2026-10-27 21:53
 - 판단 입력 기준일(decision_universe): 2026-10-15
 - 보유 수량 기준일: 2026-10-06 (사용자 확인 2026-10-16)
-- 가격 기준: 2026-10-27T18:01 · 평가액 $25,152.11
+- 가격 기준: 2026-10-27T21:52 · 평가액 $25,152.11
 - 투자 가능 현금: $119.76
 - 부채상환 예약 현금: $0.00 (평가액·비중·편입 재원에서 제외)
 
@@ -34,9 +34,17 @@
 
 ## 위험 알림
 
+- PLTR 축소를 차단했습니다: 펀더멘털·추정치 수정·상대 모멘텀이 모두 개선 중입니다.
 - TSLA 현재 비중 35.8%가 상한 35%를 넘습니다.
 - PLTR 현재 비중 35.6%가 상한 35%를 넘습니다.
 - 현금 0.5%가 최소 5%보다 낮습니다.
+
+## Technical / Regime 핵심 신호
+
+- **Regime: RISK_OFF** — VIX rising above SMA20; credit HYG/LQD falling; breadth RSP/SPY rising → 신규 Starter·Tactical 크기 축소, Core 자동매도 금지
+- PLTR — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지
+- AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 → Tactical 추가매수 보류
+- CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
 
 ## 2. 오늘 바뀐 점
 
@@ -58,22 +66,22 @@
 | CASH | 0.48% | 5.00% | +4.52%p | 현금 조정 | - | 중간 | $+1,138 | - |
 | VRT | 3.18% | 7.00% | +3.82%p | 추가매수 | - | 중간 | $+962 | +4.81주 |
 | FLNC | 2.62% | 0.00% | -2.62%p | 전량 정리 | UNSPECIFIED | 중간 | $-660 | -120.00주 |
-| PLTR | 35.57% | 33.00% | -2.57%p | 소폭 조정 검토 | Core≥30.00% / Tactical 3.00% | 낮음 | $-648 | -3.26주 |
 | AVGO | 11.78% | 14.00% | +2.22%p | 소폭 조정 검토 | - | 낮음 | $+559 | +1.70주 |
 | INTC | 3.96% | 2.00% | -1.96%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-492 | -5.44주 |
+| PLTR | 35.57% | 33.00% | -2.57%p | 유지 | Core≥30.00% / Tactical 3.00% | 없음 | $+0 | +0.00주 |
 | CCJ | 6.60% | 6.00% | -0.60%p | 유지 | UNSPECIFIED | 없음 | $-151 | -1.91주 |
 
 ### 5개 렌즈 + Regime
 
 | 종목 | Fundamentals | Estimate Revisions | Expectations Gap | Relative Momentum | Position & Correlation Risk | Regime |
 |---|---|---|---|---|---|---|
-| TSLA | STABLE | UNKNOWN | UNKNOWN | UNKNOWN | risk 35 / fit 75 | UNKNOWN |
-| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | UNKNOWN | risk 65 / fit 85 | UNKNOWN |
-| FLNC | WEAKENING | UNKNOWN | UNKNOWN | UNKNOWN | risk 15 / fit 55 | UNKNOWN |
-| PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | UNKNOWN | risk 55 / fit 85 | UNKNOWN |
-| AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | UNKNOWN | risk 70 / fit 90 | UNKNOWN |
-| INTC | EMERGING | UNKNOWN | UNKNOWN | UNKNOWN | risk 35 / fit 60 | UNKNOWN |
-| CCJ | STABLE | UNKNOWN | UNKNOWN | UNKNOWN | risk 65 / fit 70 | UNKNOWN |
+| TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEGATIVE |
+| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 85 | NEGATIVE |
+| FLNC | WEAKENING | UNKNOWN | UNKNOWN | WEAK | risk 15 / fit 55 | NEGATIVE |
+| AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | WEAK | risk 70 / fit 90 | NEGATIVE |
+| INTC | EMERGING | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 60 | NEGATIVE |
+| PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | STRONG | risk 55 / fit 85 | NEUTRAL |
+| CCJ | STABLE | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 70 | NEGATIVE |
 
 ### Base Case 실행 순서와 이유
 
@@ -82,6 +90,7 @@
 - 이유: 자율주행·로보택시의 상방은 크지만 향후 12개월의 본업 마진과 잉여현금흐름이 현재 비중을 정당화하기에는 아직 약합니다.
 - 핵심 위험: 상용화 일정 지연, 자동차 수요와 마진 악화, 높은 기대가 동시에 작용할 수 있습니다.
 - 실행: 한 번에 전량 조정하지 말고 2회로 나눠 24%까지 축소합니다. 실적 전에는 절반만 실행하고, 현금흐름 개선이 확인되면 두 번째 축소는 취소할 수 있습니다.
+- 시장행동: TSLA | Relative Momentum NEUTRAL | 50/200MA 상단 | QQQ 대비 상대강도 상승
 - 생각을 바꿀 신호: 반복되는 대규모 잉여현금흐름 적자; 차량 수요와 자동차 마진의 동반 악화; 자율주행 상용화의 구조적 지연
 
 #### 2. NVDA — 신규 편입
@@ -89,6 +98,7 @@
 - 이유: 데이터센터 매출의 고성장과 높은 총마진이 확인되고, 현재 위험 대비 성장 가시성은 INTC·FLNC보다 명확합니다.
 - 핵심 위험: AI CAPEX 둔화, 레버리지가 높은 클라우드 고객의 신용위험, 고객 자체칩, 경쟁·수출규제와 기존 포트폴리오의 AI 투자 집중도 상승입니다.
 - 실행: 5% 신규 포지션을 2회로 나눕니다. 절반은 현재, 절반은 다음 실적 또는 8~10% 조정 시 편입합니다.
+- 시장행동: NVDA | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락
 - 재원: FLNC, INTC, TSLA
 - 생각을 바꿀 신호: 데이터센터 매출의 연속적인 가이던스 하회; 총마진의 구조적 하락; 주요 고객 CAPEX와 주문의 동반 둔화
 
@@ -101,9 +111,11 @@
 - **NVDA — 신규 편입, 목표 5.00%**: 데이터센터 매출의 고성장과 높은 총마진이 확인되고, 현재 위험 대비 성장 가시성은 INTC·FLNC보다 명확합니다.
   - 기존 보유 대비/재원: FLNC, INTC, TSLA
   - 무효화: 데이터센터 매출의 연속적인 가이던스 하회; 총마진의 구조적 하락; 주요 고객 CAPEX와 주문의 동반 둔화
+  - 시장행동: NVDA | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락
 - **AMZN — 신규 편입, 목표 4.00%**: AWS 성장과 영업이익 가속이 12개월 안에 확인 가능한 반면 광고·커머스가 사업 위험을 일부 분산합니다.
   - 기존 보유 대비/재원: TSLA, FLNC
   - 무효화: AWS 성장과 영업이익률의 동반 둔화; CAPEX 증가에도 클라우드 매출 전환 부진; 연속적인 잉여현금흐름 악화
+  - 시장행동: AMZN | Relative Momentum NEUTRAL | QQQ 대비 상대강도 상승
 
 ## 6. 다음 체크포인트
 

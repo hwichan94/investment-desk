@@ -35,6 +35,13 @@
 - **Asymmetric Starter:** 상방이 크고 무효화 조건을 빠르게 검증할 수 있으면 2~3% 초기 포지션을 허용한다.
   확인되면 늘리고 틀리면 제한된 손실로 회수한다.
 - 이전 추천이 합리적 대안보다 부진했다면 Decision Journal에 원인, 과대·과소평가 요소와 변경 규칙을 남긴다.
+- **Technical Layer:** 일봉 가격·거래량과 QQQ/섹터 상대강도는 매수 타이밍, Tactical 크기와 시장반응을
+  판단하는 보조 레이어다. Fundamental thesis를 대체하지 않으며 RSI 과매수만으로 `WEAK`이나 매도 신호를
+  만들지 않는다.
+- **Market Regime:** VIX·금리·달러·주가지수·credit·breadth의 관측값으로 `RISK_ON / NEUTRAL /
+  RISK_OFF`를 판단한다. Regime은 Starter/Tactical/매수 타이밍을 조절하지만 강한 Core를 자동 매도하지 않는다.
+- 자동 기술값은 `data/market/technicals.json`, Regime은 `data/market/regime.json`에서 읽는다. 데이터가
+  부족하거나 수집에 실패하면 `UNKNOWN`으로 두고 임의 보간하지 않는다.
 
 ## 선호 구조
 

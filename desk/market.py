@@ -129,6 +129,23 @@ def update(now: datetime, with_filings: bool = True) -> dict[str, Any]:
     write_json(paths.MARKET / "quotes.json",
                {"fetched_at": now.isoformat(), "quotes": quotes, "errors": quote_errors})
     summary = {"quotes": len(quotes), "quote_errors": quote_errors}
+    from desk import regime, technicals
+
+    history_cache: dict[str, list[dict[str, Any]]] = {}
+
+    def cached_history(symbol: str) -> list[dict[str, Any]]:
+        if symbol not in history_cache:
+            history_cache[symbol] = technicals.fetch_history(symbol)
+        return history_cache[symbol]
+
+    technical_snapshot = technicals.update(now, tickers, history_fetcher=cached_history)
+    regime_snapshot = regime.update(now, history_fetcher=cached_history)
+    summary.update({
+        "technicals": len(technical_snapshot["securities"]),
+        "technical_errors": technical_snapshot["errors"],
+        "regime": regime_snapshot["regime"],
+        "regime_errors": regime_snapshot["errors"],
+    })
     if with_filings:
         filings, filing_errors = fetch_filings(tickers)
         old = (read_json(paths.MARKET / "filings.json", {}) or {}).get("filings", {})

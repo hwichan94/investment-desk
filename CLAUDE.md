@@ -35,6 +35,8 @@ Fanding 새 글을 감지 → 주장을 구조화 → 공식 자료(IR·SEC·정
 desk/                     Python 패키지 (python -m desk <command>)
   fanding/                수집: browser.py(Playwright) parser.py collector.py state.py(세션 암호화)
   market.py               Yahoo 가격 + SEC 공시 목록
+  technicals.py           OHLCV 지표·상대모멘텀·이벤트 가격반응
+  regime.py               VIX·금리·달러·credit·breadth 시장 국면
   portfolio.py            현재 비중, 목표 검증, current→target 액션
   report.py               reports/decision-latest.md 생성
   chatgpt_feed.py          최근 72시간 구조화 분석만 담은 reports/chatgpt-feed.json 생성
@@ -47,7 +49,7 @@ config/
 data/posts/<id>.json      수집된 Fanding 글
 data/analyses/<id>.json   Claude 분석 결과 (content_hash로 재분석 필요 여부 판단)
 data/status/              수집 상태·이력·글별 실패
-data/market/              quotes.json, filings.json, new_filings.json, docs/ (SEC 원문 텍스트)
+data/market/              quotes/technicals/regime/filings JSON, docs/ (SEC 원문 텍스트)
 reports/                  decision-latest.md, archive/
 docs/ROUTINE.md           클라우드 분석 루틴 작업 지침
 docs/decision-log.md      목표 비중·점수 변경 이력 (변경마다 한 항목)
@@ -111,3 +113,5 @@ python -m pytest
 - 매 추천 실행에서 `docs/trader-decision-journal.md` 업데이트 필요 여부를 확인한다. 과거 추천이 합리적 대안보다
   부진했거나 룰 변경이 필요할 때만 새 항목을 추가한다.
 - `reports/chatgpt-feed.json`에는 구조화 분석만 넣고 `data/posts/*`의 paid article 원문은 절대 넣지 않는다.
+- Technical/Regime은 Fundamental thesis를 대체하지 않는다. RSI 과매수만으로 약세·매도를 만들지 않고,
+  `RISK_OFF`만으로 Core를 자동 축소하지 않는다. 관측 데이터가 부족하면 `UNKNOWN`을 유지한다.

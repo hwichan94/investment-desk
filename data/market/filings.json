@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T18:01:38.070260+09:00",
+  "fetched_at": "2026-10-28T00:23:47.557775+09:00",
   "filings": {
     "AMZN": [
       {
@@ -855,128 +855,6 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126002286/ef20063889_8k.htm"
       }
     ],
-    "FLNC": [
-      {
-        "form": "8-K",
-        "filed": "2026-10-09",
-        "report_date": "2026-10-08",
-        "cik": "0001868941",
-        "accession": "0001104659-26-115056",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000110465926115056/tm2627341d1_8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-09-16",
-        "report_date": "2026-09-11",
-        "cik": "0001868941",
-        "accession": "0001104659-26-108270",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000110465926108270/tm2625477d1_8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-09-01",
-        "report_date": "2026-08-27",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000037",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000037/flnc-20260827.htm"
-      },
-      {
-        "form": "10-Q",
-        "filed": "2026-08-05",
-        "report_date": "2026-06-30",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000029",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000029/flnc-20260630.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-08-05",
-        "report_date": "2026-08-05",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000028",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000028/flnc-20260805.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-06-05",
-        "report_date": "2026-06-02",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000021",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000021/flnc-20260602.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-05-15",
-        "report_date": "2026-05-12",
-        "cik": "0001868941",
-        "accession": "0001104659-26-062654",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000110465926062654/tm2614667d1_8k.htm"
-      },
-      {
-        "form": "10-Q",
-        "filed": "2026-05-06",
-        "report_date": "2026-03-31",
-        "cik": "0001868941",
-        "accession": "0001104659-26-056304",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000110465926056304/flnc-20260331x10q.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-05-06",
-        "report_date": "2026-05-06",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000014",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000014/flnc-20260506.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-04-03",
-        "report_date": "2026-03-31",
-        "cik": "0001868941",
-        "accession": "0001104659-26-039628",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000110465926039628/tm2610909d1_8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-03-16",
-        "report_date": "2026-03-12",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000008",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000008/flnc-20260312.htm"
-      },
-      {
-        "form": "10-Q",
-        "filed": "2026-02-04",
-        "report_date": "2025-12-31",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000005",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000005/flnc-20251231.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-02-04",
-        "report_date": "2026-02-04",
-        "cik": "0001868941",
-        "accession": "0001868941-26-000004",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894126000004/flnc-20260204.htm"
-      },
-      {
-        "form": "10-K",
-        "filed": "2025-11-25",
-        "report_date": "2025-09-30",
-        "cik": "0001868941",
-        "accession": "0001868941-25-000081",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000081/flnc-20250930.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-11-24",
-        "report_date": "2025-11-24",
-        "cik": "0001868941",
-        "accession": "0001868941-25-000079",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868941/000186894125000079/flnc-20251124.htm"
-      }
-    ],
     "GOOG": [
       {
         "form": "8-K",
@@ -1712,6 +1590,14 @@
     "VRT": [
       {
         "form": "8-K",
+        "filed": "2026-10-27",
+        "report_date": "2026-10-27",
+        "cik": "0001674101",
+        "accession": "0001628280-26-067393",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/vrt-20261027.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-10-26",
         "report_date": "2026-10-26",
         "cik": "0001674101",
@@ -1821,14 +1707,6 @@
         "cik": "0001674101",
         "accession": "0001193125-26-120863",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526120863/d94872d8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-03-06",
-        "report_date": "2026-03-06",
-        "cik": "0001674101",
-        "accession": "0001628280-26-015494",
-        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026015494/vrt-20260306.htm"
       }
     ]
   },

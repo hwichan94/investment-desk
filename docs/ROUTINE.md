@@ -57,6 +57,15 @@ UNVERIFIED로 남기고 보고서에 이유를 적는다.
 변경은 근거가 있을 때만, 그리고 **thesis inertia**를 지킨다.
 
 - 한 번의 글·의견만으로 점수를 5점 넘게 바꾸지 않는다. 공식 실적·가이던스 변경은 크게 반영할 수 있다.
+- 핵심 종목마다 5개 렌즈를 확인한다: Fundamentals / Estimate Revisions / Expectations Gap /
+  Relative Momentum / Position & Correlation Risk. 시장이 보상·처벌하는 요인과의 Regime/Narrative 정합성도
+  확인한다. 근거가 없으면 반드시 `UNKNOWN`으로 두고 값을 만들지 않는다.
+- Fundamentals=`STRENGTHENING`, Estimate Revisions=`IMPROVING`, Relative Momentum=`STRONG`이면
+  Winner Protection을 적용한다. 밸류에이션·신고가만으로 축소하지 않으며, 예외 축소는
+  `winner_protection_override_reason`에 구체적 근거를 남긴다.
+- Core floor / Tactical sleeve가 있는 종목의 valuation·event-risk 축소는 Tactical부터 한다.
+- 상방 비대칭이 `FAVORABLE`이고 빠른 무효화가 가능하면 불확실성을 이유로 대기하지 말고 2~3% starter를
+  Base Case로 검토한다.
 - 목표 비중은 정책 실행 규칙을 따른다: 1%p 미만 변화 금지, 신규 편입은 2회 분할.
 - 신규 후보를 추가할 때는 다섯 가지를 모두 적는다:
   1) 기존 어느 보유 종목보다 나은가, 2) 12개월 KPI·촉매(`kpis_12m`), 3) 생각을 바꿀 조건
@@ -65,6 +74,8 @@ UNVERIFIED로 남기고 보고서에 이유를 적는다.
 - 합계(현금 포함) 100%, 현금 5~20%, 단일 30%(핵심 35%) 상한.
 - 바꿨다면 `as_of`를 오늘로 하고 `docs/decision-log.md`에 항목을 추가한다:
   날짜, 무엇을(이전→이후), 왜(근거 링크·글 ID), 생각을 되돌릴 조건.
+- 매 실행마다 `docs/trader-decision-journal.md` 업데이트 필요 여부를 확인한다. 이전 추천이 합리적 대안보다
+  부진했다면 결과, 과대·과소평가 요인, 재발 방지 룰을 기록한다. 단순 가격 변동만으로 오답 처리하지 않는다.
 
 ## 3-1. 투자 아이디어 수신함 (`inbox/ideas.md`)
 
@@ -92,6 +103,10 @@ python -m pytest -q
 2. 판단 변경 여부와 이유 (없으면 왜 유지하는지)
 3. 지금 실행할 액션 상위 3개: 종목, 방향, 목표 비중, 재원, 참고 수량
 4. 수집·데이터 상태 경고 (로그인 만료, 오래된 공식 근거 등)
+
+`python -m desk recommend`가 만드는 `reports/decision-latest.md`는 한 줄 결론 → 오늘 바뀐 점 → 핵심 시황
+→ 보유 Action → 신규 후보(최대 2개) → 체크포인트 → 결론 순서를 유지한다. 함께 생성되는
+`reports/chatgpt-feed.json`은 최근 72시간 구조화 분석만 포함하며 paid article 원문을 넣지 않는다.
 
 검증이 통과하면 커밋한다. 메시지 예: `analyst: 3 posts, AVGO target 14%→15%`.
 푸시 충돌 시 `git pull --rebase` 후 재시도한다. `data/posts`, `data/status`, `data/market`은

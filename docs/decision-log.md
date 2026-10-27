@@ -2,6 +2,15 @@
 
 목표 비중·점수·편입 여부가 바뀔 때마다 위에 새 항목을 추가한다.
 
+## 2026-10-27 — Trader Engine 규칙 반영
+
+- 종목별 목표 비중과 점수는 변경하지 않음.
+- 기존 PLTR 실행 원칙의 30~35% 핵심 보유 밴드를 구조화해 목표 33%를 Core floor 30% + Tactical 3%로 구분.
+- Estimate Revisions·Expectations Gap·Relative Momentum·Regime·Asymmetry는 확인된 신규 근거가 없어
+  기존 종목 모두 기본값 `UNKNOWN` 유지. Winner Protection을 임의로 활성화하지 않음.
+- 현금 $119.756243의 성격과 금액은 바꾸지 않고 `cash_available_for_investing`으로 키만 이관했으며,
+  `cash_reserved_for_debt`는 확인된 예약액이 없어 0으로 시작.
+
 ## 2026-10-16 — 초기 이관
 
 - Codex 환경(`투자 포트폴리오 by fanding`)의 `decision_universe.json`(as_of 2026-10-15)을 그대로 이관.

@@ -23,6 +23,8 @@
       "portfolio_fit": 85,
       "evidence_confidence": 0.85,
       "target_weight": 0.33,
+      "core_floor_weight": 0.30,
+      "tactical_weight": 0.03,
       "why_now": "미국 상업·정부 매출, 계약가치와 현금창출이 동시에 가속하고 있어 핵심 보유 논리는 강화됐지만 현재 가격에는 높은 성장 기대가 반영돼 있습니다.",
       "main_risk": "높은 밸류에이션에서 성장률이나 계약의 실제 매출 전환이 둔화되면 멀티플 압축이 큽니다.",
       "invalidation_signals": [

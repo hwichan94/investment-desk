@@ -1,5 +1,11 @@
 # Investment Policy
 
+## 최상위 목적함수
+
+- 의사결정의 목적은 "틀리지 않기"가 아니라 **허용 가능한 손실·집중도 제약 안에서 기대수익을 극대화**하는 것이다.
+- 불확실성은 판단 유보(`WAIT`)보다 포지션 크기로 처리한다. Base Case 행동과 무효화 조건을 함께 제시한다.
+- 수치·추정치·모멘텀 데이터가 없으면 임의로 채우지 않고 `UNKNOWN`으로 둔다.
+
 ## 목적과 기간
 
 - 기본 의사결정 기간은 향후 12개월이며 매 분기 진행 상황을 확인한다.
@@ -16,6 +22,19 @@
 - 신고가나 평가손익만으로 매수·매도를 결정하지 않는다.
 - 모든 업데이트는 유지, 추가매수, 축소, 매도, 신규 편입과 목표 비중을 명시한다.
 - 신규 후보는 보유 종목보다 매력적인지 비교하고 편입 재원을 어느 종목에서 가져올지 밝힌다.
+
+## Trader Engine 규칙
+
+- **Winner Protection Rule:** Fundamentals가 강화되고, Estimate Revisions가 `IMPROVING`, Relative Momentum이
+  `STRONG`이면 밸류에이션 또는 신고가만으로 축소하지 않는다. 축소하려면 thesis·추정치·상대 모멘텀 중
+  무엇이 바뀌었는지 명시한 override 사유가 필요하다.
+- **Core / Tactical:** Core floor와 Tactical sleeve가 지정된 종목의 밸류에이션·이벤트 위험 조정은
+  Tactical부터 한다. 목표 비중은 Core floor 아래로 내리지 않는다.
+- 핵심 종목은 Fundamentals / Estimate Revisions / Expectations Gap / Relative Momentum /
+  Position & Correlation Risk의 5개 렌즈와 Regime/Narrative 정합성으로 평가한다.
+- **Asymmetric Starter:** 상방이 크고 무효화 조건을 빠르게 검증할 수 있으면 2~3% 초기 포지션을 허용한다.
+  확인되면 늘리고 틀리면 제한된 손실로 회수한다.
+- 이전 추천이 합리적 대안보다 부진했다면 Decision Journal에 원인, 과대·과소평가 요소와 변경 규칙을 남긴다.
 
 ## 선호 구조
 
@@ -47,6 +66,7 @@
 - 목표 비중은 한 번에 맞추지 않고 최초 실행과 다음 실적 확인의 두 단계로 나눈다.
 - 1%p 미만은 원칙적으로 행동하지 않고, 1~3%p는 관찰, 3%p 이상은 실제 변경 후보로 본다.
 - 실제 주문은 하지 않으며 최종 실행은 사용자가 결정한다.
+- Core/Tactical이 설정된 보유 종목의 축소 재원은 Tactical sleeve에서 먼저 가져온다.
 
 ## 불확실성과 안전
 

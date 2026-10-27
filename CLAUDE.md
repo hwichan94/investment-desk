@@ -21,6 +21,13 @@ Fanding 새 글을 감지 → 주장을 구조화 → 공식 자료(IR·SEC·정
 - 단순 하락·신고가는 단독 매도 사유가 아니다. thesis 훼손·촉매 지연·더 나은 기회가 사유다.
 - 보유 종목보다 매력 없는 신규 종목은 편입하지 않는다. 포트폴리오를 불필요하게 늘리지 않는다.
 - 판단을 회피하지 말고 구체적 목표 비중과 자금 이동을 제시하되, 불확실성을 함께 적는다.
+- 불확실성은 기본적으로 `WAIT`가 아니라 포지션 크기로 처리하고 Base Case 행동 + 무효화 조건을 제시한다.
+- Fundamentals + Estimate Revisions + Relative Momentum이 모두 개선 중인 강한 승자는 밸류에이션·신고가만으로
+  축소하지 않는다(Winner Protection). 축소가 필요하면 명시적 override 사유를 남긴다.
+- Core/Tactical이 지정된 종목의 밸류에이션·이벤트 위험 조정은 Tactical부터 한다.
+- 핵심 종목은 5개 렌즈(Fundamentals / Estimate Revisions / Expectations Gap / Relative Momentum /
+  Position & Correlation Risk)와 Regime/Narrative 정합성을 매번 확인한다. 근거가 없으면 `UNKNOWN`이다.
+- 상방 비대칭이 좋고 빠른 무효화가 가능하면 2~3% Asymmetric Starter를 허용한다.
 
 ## 구조
 
@@ -30,6 +37,7 @@ desk/                     Python 패키지 (python -m desk <command>)
   market.py               Yahoo 가격 + SEC 공시 목록
   portfolio.py            현재 비중, 목표 검증, current→target 액션
   report.py               reports/decision-latest.md 생성
+  chatgpt_feed.py          최근 72시간 구조화 분석만 담은 reports/chatgpt-feed.json 생성
   analysis.py             Claude 분석 JSON 스키마(PostAnalysis) + 검증
 config/
   portfolio.json          실제 보유 수량 (source of truth, 사용자 확인만)
@@ -43,6 +51,7 @@ data/market/              quotes.json, filings.json, new_filings.json, docs/ (SE
 reports/                  decision-latest.md, archive/
 docs/ROUTINE.md           클라우드 분석 루틴 작업 지침
 docs/decision-log.md      목표 비중·점수 변경 이력 (변경마다 한 항목)
+docs/trader-decision-journal.md  과거 판단의 상대성과·오류 원인·룰 변경 기록
 ```
 
 ## 실행 흐름
@@ -89,6 +98,7 @@ python -m pytest
 6. 편입하면 포트폴리오 점수가 어떻게 바뀌는지 (전/후) 보여준다.
 7. 사용자가 받아들이면 `decision_universe.json`과 `docs/decision-log.md`에 반영한다.
    사용자가 원하더라도 근거가 부족하면 그렇다고 말한다 — 듣기 좋은 결론을 만들지 않는다.
+8. 5개 Trader Lens와 Regime/Narrative를 기록한다. 데이터가 없는 lens는 추정하지 않고 `UNKNOWN`으로 둔다.
 
 결과는 `reports/ideas/YYYY-MM-DD-<ticker-or-theme>.md`로 남긴다.
 
@@ -98,3 +108,6 @@ python -m pytest
 - 보고서가 자동 생성됐다고 최신 Fanding 내용이 목표 비중에 반영됐다고 말하지 않는다.
   반영은 `decision_universe.json`이 근거와 함께 바뀌었을 때만이다.
 - 공식 근거 기준일(`official_research.json` as_of)과 보고서 생성일을 구분한다.
+- 매 추천 실행에서 `docs/trader-decision-journal.md` 업데이트 필요 여부를 확인한다. 과거 추천이 합리적 대안보다
+  부진했거나 룰 변경이 필요할 때만 새 항목을 추가한다.
+- `reports/chatgpt-feed.json`에는 구조화 분석만 넣고 `data/posts/*`의 paid article 원문은 절대 넣지 않는다.

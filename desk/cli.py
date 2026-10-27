@@ -58,7 +58,7 @@ def cmd_market(args: argparse.Namespace) -> int:
 
 
 def cmd_recommend(args: argparse.Namespace) -> int:
-    from desk import portfolio, report
+    from desk import chatgpt_feed, portfolio, report
     from desk.store import read_json
 
     now = paths.now_kst()
@@ -67,9 +67,11 @@ def cmd_recommend(args: argparse.Namespace) -> int:
     plan = portfolio.build_plan(pf, universe, constraints,
                                 read_json(paths.MARKET / "quotes.json", {}) or {})
     written = report.write(report.render(plan, pf, universe, now), now)
+    feed_path = chatgpt_feed.write(plan, pf, universe, now)
     report.append_score_history(plan, now)
     print(f"포트폴리오 점수: {plan.score.total:.1f} / 100 (목표 실행 시 {plan.target_score.total:.1f})")
     print(f"보고서: {written[0]}")
+    print(f"ChatGPT feed: {feed_path}")
     if plan.target_errors:
         print("목표 비중 검증 실패:", *plan.target_errors, sep="\n- ")
         return 1

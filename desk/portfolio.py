@@ -10,7 +10,7 @@ from datetime import date
 from enum import Enum
 from typing import Any
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 from desk import paths
 from desk.store import read_json
@@ -22,6 +22,41 @@ class ThesisStatus(str, Enum):
     EMERGING = "EMERGING"
     WEAKENING = "WEAKENING"
     BROKEN = "BROKEN"
+
+
+class EstimateRevision(str, Enum):
+    IMPROVING = "IMPROVING"
+    STABLE = "STABLE"
+    DETERIORATING = "DETERIORATING"
+    UNKNOWN = "UNKNOWN"
+
+
+class ExpectationsGap(str, Enum):
+    POSITIVE = "POSITIVE"
+    NEUTRAL = "NEUTRAL"
+    NEGATIVE = "NEGATIVE"
+    UNKNOWN = "UNKNOWN"
+
+
+class RelativeMomentum(str, Enum):
+    STRONG = "STRONG"
+    NEUTRAL = "NEUTRAL"
+    WEAK = "WEAK"
+    UNKNOWN = "UNKNOWN"
+
+
+class RegimeAlignment(str, Enum):
+    POSITIVE = "POSITIVE"
+    NEUTRAL = "NEUTRAL"
+    NEGATIVE = "NEGATIVE"
+    UNKNOWN = "UNKNOWN"
+
+
+class Asymmetry(str, Enum):
+    FAVORABLE = "FAVORABLE"
+    NEUTRAL = "NEUTRAL"
+    UNFAVORABLE = "UNFAVORABLE"
+    UNKNOWN = "UNKNOWN"
 
 
 class Position(BaseModel):
@@ -36,11 +71,35 @@ class Position(BaseModel):
 
 
 class Portfolio(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     as_of: date
     confirmed_at: date | None = None
     currency: str = "USD"
-    cash: float = Field(ge=0)
+    cash_available_for_investing: float = Field(ge=0)
+    cash_reserved_for_debt: float = Field(default=0, ge=0)
     positions: list[Position]
+
+    @model_validator(mode="before")
+    @classmethod
+    def _migrate_legacy_cash(cls, value: Any) -> Any:
+        """Read the legacy ``cash`` key without letting it leak into the new schema."""
+        if not isinstance(value, dict):
+            return value
+        data = dict(value)
+        legacy = data.pop("cash", None)
+        current = data.get("cash_available_for_investing")
+        if current is None:
+            if legacy is None:
+                raise ValueError("cash_available_for_investing is required")
+            data["cash_available_for_investing"] = legacy
+        elif legacy is not None and abs(float(current) - float(legacy)) > 1e-9:
+            raise ValueError("legacy cash conflicts with cash_available_for_investing")
+        return data
+
+    @property
+    def cash(self) -> float:
+        """Compatibility accessor; always means investable cash, never debt reserve."""
+        return self.cash_available_for_investing
 
 
 class Constraints(BaseModel):
@@ -93,9 +152,69 @@ class Security(BaseModel):
     execution_plan: str
     watch_reason: str | None = None
     source_urls: list[str] = Field(default_factory=list)
+    estimate_revisions: EstimateRevision = EstimateRevision.UNKNOWN
+    expectations_gap: ExpectationsGap = ExpectationsGap.UNKNOWN
+    relative_momentum: RelativeMomentum = RelativeMomentum.UNKNOWN
+    regime_alignment: RegimeAlignment = RegimeAlignment.UNKNOWN
+    asymmetry: Asymmetry = Asymmetry.UNKNOWN
+    core_floor_weight: float | None = Field(default=None, ge=0, le=1)
+    tactical_weight: float | None = Field(default=None, ge=0, le=1)
+    winner_protection_override_reason: str | None = Field(default=None, min_length=10)
+
+    @field_validator("winner_protection_override_reason")
+    @classmethod
+    def _nonblank_override(cls, value: str | None) -> str | None:
+        if value is not None and not value.strip():
+            raise ValueError("winner protection override reason cannot be blank")
+        if value is None:
+            return None
+        reason = value.strip()
+        lowered = reason.casefold()
+        valuation_only_terms = ("valuation", "밸류에이션", "신고가", "new high", "고평가")
+        substantive_terms = (
+            "thesis", "fundamental", "estimate", "revision", "momentum", "guidance",
+            "risk", "concentration", "correlation", "펀더멘털", "추정", "모멘텀",
+            "가이던스", "실적", "성장", "계약", "마진", "리스크", "집중", "상관",
+        )
+        if (any(term in lowered for term in valuation_only_terms)
+                and not any(term in lowered for term in substantive_terms)):
+            raise ValueError("valuation or a new high alone cannot override Winner Protection")
+        return reason
+
+    @model_validator(mode="after")
+    def _validate_sleeves(self) -> "Security":
+        if self.core_floor_weight is not None and self.target_weight + 1e-9 < self.core_floor_weight:
+            raise ValueError("target_weight cannot be below core_floor_weight")
+        if self.tactical_weight is not None and self.target_weight + 1e-9 < self.tactical_weight:
+            raise ValueError("tactical_weight cannot exceed target_weight")
+        if (self.core_floor_weight is not None and self.tactical_weight is not None
+                and abs(self.core_floor_weight + self.tactical_weight - self.target_weight) > 1e-4):
+            raise ValueError("core_floor_weight + tactical_weight must equal target_weight")
+        return self
 
     def score(self, w: ScoreWeights) -> float:
         return round(sum(getattr(self, k) * v for k, v in w.model_dump().items()), 1)
+
+    @property
+    def fundamentals_improving(self) -> bool:
+        """Directional fundamentals use the existing thesis status, not an invented score cutoff."""
+        return self.thesis_status == ThesisStatus.STRENGTHENING
+
+    @property
+    def winner_protection_active(self) -> bool:
+        return (
+            self.fundamentals_improving
+            and self.estimate_revisions == EstimateRevision.IMPROVING
+            and self.relative_momentum == RelativeMomentum.STRONG
+        )
+
+    @property
+    def asymmetric_starter(self) -> bool:
+        return (
+            self.asymmetry == Asymmetry.FAVORABLE
+            and 0.02 <= self.target_weight <= 0.03
+            and bool(self.invalidation_signals)
+        )
 
 
 class Universe(BaseModel):
@@ -140,10 +259,16 @@ class Row(BaseModel):
     price: float | None
     score: float | None = None
     security: Security | None = None
+    winner_protection_active: bool = False
+    winner_protection_blocked: bool = False
+    asymmetric_starter: bool = False
+    trim_source: str | None = None
 
 
 class Plan(BaseModel):
     total_value: float
+    cash_available_for_investing: float
+    cash_reserved_for_debt: float
     priced_at: str | None
     missing_prices: list[str]
     stale_prices: list[str]
@@ -256,9 +381,12 @@ def current_weights(portfolio: Portfolio, quotes: dict[str, Any]) -> tuple[float
             missing.append(p.ticker)
         else:
             missing.append(p.ticker)
-    total = portfolio.cash + sum(values.values())
+    # Debt-reserved cash is intentionally absent from total, weights and funding capacity.
+    total = portfolio.cash_available_for_investing + sum(values.values())
+    if total <= 0:
+        raise ValueError("investable portfolio total must be positive")
     weights = {t: v / total for t, v in values.items()}
-    weights["CASH"] = portfolio.cash / total
+    weights["CASH"] = portfolio.cash_available_for_investing / total
     return total, weights, missing, values
 
 
@@ -284,6 +412,8 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
     quotes = market.get("quotes", {})
     total, current, missing, _ = current_weights(portfolio, quotes)
     rows: list[Row] = []
+    winner_errors: list[str] = []
+    winner_alerts: list[str] = []
     by_ticker = {s.ticker: s for s in universe.securities}
     for ticker in sorted(set(by_ticker) | set(current) - {"CASH"}):
         s = by_ticker.get(ticker)
@@ -291,10 +421,29 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
         action, urgency = classify(cur, tgt, c, bool(s and s.watch_reason))
         price = (quotes.get(ticker) or {}).get("price")
         amount = (tgt - cur) * total
+        protected = bool(s and s.winner_protection_active)
+        reducing = action in (Action.TRIM_WATCH, Action.REDUCE, Action.EXIT)
+        blocked = bool(protected and reducing and not s.winner_protection_override_reason)
+        if blocked:
+            winner_errors.append(
+                f"{ticker} Winner Protection 활성 상태에서 축소 목표를 사용하려면 "
+                "winner_protection_override_reason이 필요합니다."
+            )
+            winner_alerts.append(
+                f"{ticker} 축소를 차단했습니다: 펀더멘털·추정치 수정·상대 모멘텀이 모두 개선 중입니다."
+            )
+            action, urgency, amount = Action.HOLD, "없음", 0.0
+        trim_source = None
+        if s and tgt < cur:
+            trim_source = "TACTICAL" if s.core_floor_weight is not None or s.tactical_weight is not None else "UNSPECIFIED"
         rows.append(Row(ticker=ticker, current=cur, target=tgt, change=tgt - cur, action=action,
                         urgency=urgency, amount=amount, price=price,
                         shares=(amount / price) if price else None,
-                        score=s.score(universe.score_weights) if s else None, security=s))
+                        score=s.score(universe.score_weights) if s else None, security=s,
+                        winner_protection_active=protected,
+                        winner_protection_blocked=blocked,
+                        asymmetric_starter=bool(s and s.asymmetric_starter),
+                        trim_source=trim_source))
     cash_cur = current["CASH"]
     rows.append(Row(ticker="CASH", current=cash_cur, target=universe.cash_target,
                     change=universe.cash_target - cash_cur, action=Action.CASH,
@@ -303,7 +452,7 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
     order = {"높음": 0, "중간": 1, "낮음": 2, "없음": 3}
     rows.sort(key=lambda r: (order[r.urgency], -abs(r.change)))
 
-    alerts = []
+    alerts = list(winner_alerts)
     core = {p.ticker for p in portfolio.positions if p.core_position}
     for t, w in current.items():
         if t == "CASH":
@@ -318,8 +467,11 @@ def build_plan(portfolio: Portfolio, universe: Universe, c: Constraints,
                     key=lambda x: (-x[1], x[0]))
     target_weights = {s.ticker: s.target_weight for s in universe.securities}
     target_weights["CASH"] = universe.cash_target
-    return Plan(total_value=total, priced_at=market.get("fetched_at"), missing_prices=missing,
+    return Plan(total_value=total,
+                cash_available_for_investing=portfolio.cash_available_for_investing,
+                cash_reserved_for_debt=portfolio.cash_reserved_for_debt,
+                priced_at=market.get("fetched_at"), missing_prices=missing,
                 stale_prices=stale, current=current, rows=rows, ranked=ranked, alerts=alerts,
-                target_errors=validate_targets(universe, portfolio, c),
+                target_errors=validate_targets(universe, portfolio, c) + winner_errors,
                 score=portfolio_score(current, universe, c, core),
                 target_score=portfolio_score(target_weights, universe, c, core))

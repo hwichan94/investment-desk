@@ -2,7 +2,8 @@
   "as_of": "2026-10-06",
   "confirmed_at": "2026-10-16",
   "currency": "USD",
-  "cash": 119.756243,
+  "cash_available_for_investing": 119.756243,
+  "cash_reserved_for_debt": 0,
   "positions": [
     {
       "ticker": "TSLA",

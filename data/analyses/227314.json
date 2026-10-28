@@ -1,0 +1,79 @@
+{
+  "post_id": "227314",
+  "content_hash": "79102bd173310bd9d739ce78bc361e425a59bf1ea662a497e539f985e8f3f945",
+  "analyzed_at": "2026-10-28T22:30:00+09:00",
+  "title": "예측시장도 못 맞추는 이스라엘 선거, 투자 영향은?",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "이스라엘 총선 개표 해설과 시장 영향. 출구조사상 네타냐후 리쿠드가 1당(27석), 아랍계 정당이 킹메이커로 부상, 연정 협상으로 최종 결과는 11월 4일 이후로 보며 이란 전쟁 동력은 약화됐지만 11/4~1/3이 마지막 위험 구간이라고 본다. SK하이닉스 3분기 실적 서프라이즈와 메모리 비사이클론, AI 섹터가 고점 대비 많이 하락해 연말 산타랠리 시 수혜 가능성을 언급한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "SK하이닉스가 오늘 3분기 실적을 발표했고 매출 788.4억 달러(예상 740.2억), 영업이익 628억 달러, 영업이익률 79.7%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0002120882/000119312526434994/d162547d6k.htm",
+      "evidence_note": "WebSearch(2026-10-28): 공식 발표는 10/29 예정으로 보도되고 원문 미확인. 컨센서스는 원화 기준 매출 약 95~99조 원·영업이익 약 75~78조 원이라 글의 '달러' 단위·수치와 불일치(단위 오기 가능성). 2분기 실적은 매출 79.3조 원/영업이익 60.5조 원. 원문 확인 전 사용 금지."
+    },
+    {
+      "kind": "FACT",
+      "text": "이스라엘 출구조사: 리쿠드 27석(24~30), 야샤르 21석(19~23), 아랍계 17~18석, 공식 결과 11월 4일.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch로 2026년 총선 보도를 찾지 못함(과거 선거 결과만 검색됨)."
+    },
+    {
+      "kind": "FACT",
+      "text": "SK하이닉스 HBM/DRAM이 2029년까지 사실상 완판, 2027~28년 캐파 50% 이상이 구속력 있는 장기계약.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 근거 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "11월 4일~내년 1월 3일이 이란 전쟁 확대의 마지막 위험 구간.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2027-01-03"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "연말 전쟁 우려 완화·금리 안정 시 AI 섹터가 산타랠리 최대 수혜.",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "VRT"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2026-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "메모리는 더 이상 전통적 사이클 산업이 아니며 과다공급 사이클은 어렵다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "예측시장(Kalshi·폴리마켓) 기반 투자전략은 조심해야 한다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "메모리 호황·AI 수익성 의구심 완화 논리는 우호적이나 SK하이닉스 수치가 미검증이라 반영 보류."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "간접 관련. 신규 공식 근거 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 핵심 수치(SK하이닉스 실적)가 공식 일정·단위와 맞지 않아 미검증이며, 지정학 해석은 단일 의견이다. 10/29~30 SK하이닉스 공식 발표와 빅테크 실적 후 재평가. 이란 이벤트 위험은 RISK_OFF 하의 신규 Starter 축소 기조에 이미 반영."
+}

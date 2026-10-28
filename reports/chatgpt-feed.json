@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T07:16:14.427238+09:00",
+  "generated_at": "2026-10-28T10:08:00.098198+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-27",
@@ -1168,86 +1168,6 @@
       "portfolio_implication": "변경 없음. 종목 정보 없는 트레이딩 심리 글이며, 12개월 thesis 기반 정책(단순 변동은 매도 사유 아님)과 상충하는 단기 익절 원칙은 적용하지 않는다."
     },
     {
-      "post_id": "226621",
-      "analyzed_at": "2026-10-26T22:30:00+09:00",
-      "title": "🎓10월 4주차 유튜브 라이브(10.25)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "10/25 유튜브 라이브 Q&A 정리. 하락장·고금리·FOMC·이란 전쟁·중간선거 불확실성 속에서 AI 수요는 견조하고 문제는 자본 조달이라는 시각. 네비우스 조달 성공에도 주가가 빠지는 것은 펀더멘털이 아닌 수급 탓이라고 보며, 아이렌·로켓랩은 3~4년 장기 보유 대상으로 매도 불필요하다고 한다. 현금은 하나의 종목이라는 원칙과 한 자릿수 %p 리밸런싱을 강조. 새 공식 수치는 없다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "네비우스가 이번에 자본 조달에 성공했다.",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": "https://w.media/?p=42837",
-          "evidence_note": "WebSearch: 2026-08 약 57.5억 달러 전환사채 클로징 보도(언론). 이번 주 신규 조달은 확인 못 함. 네비우스는 universe 밖.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "GPU 가격·연산력·토큰 가격이 계속 오르고 하락하지 않는다.",
-          "tickers": [
-            "NVDA",
-            "CRWV"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료에서 GPU 대여 가격 시계열 확인 못 함. CRWV 10-Q는 백로그 중심.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "헤지펀드 롱/숏 비율이 1:5로 숏에 쏠려 있다.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "출처 미제시 시장 통계, 공식 확인 불가.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "AI 수요는 줄기 어렵고 문제는 자본 조달이다. 금리가 내려가면 완화된다.",
-          "tickers": [
-            "CRWV",
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "아이렌 등 후보는 3~4년 보유하며 1~2년 손실로 매도하지 않는다. 현금도 종목이다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "중간선거·FOMC·실적 시즌 불확실성이 끝나야 헤지펀드 매수가 돌아온다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-11-30"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "CRWV",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "자본 조달 리스크 재확인이지만 새 공식 근거 없음. 저자는 네오클라우드 고위험을 인정."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 심리·원칙 중심 Q&A로 공식 근거가 없다. 다만 '현금도 종목' 원칙은 현재 현금 0.5%→5% 보강 제안과 방향이 같다(단독 근거 아님)."
-    },
-    {
       "post_id": "226676",
       "analyzed_at": "2026-10-26T22:30:00+09:00",
       "title": "까보기 전까진 아무도 모른다…! (ft. 브라질 선거, 일론 머스크)",
@@ -1336,6 +1256,86 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 네오클라우드 조달 리스크는 CRWV 위험 항목에 이미 반영. 새 공식 근거 없고 저자는 이해관계자(아이렌 최대 보유). 단일 의견으로 비중 변경 불가."
+    },
+    {
+      "post_id": "226621",
+      "analyzed_at": "2026-10-26T22:30:00+09:00",
+      "title": "🎓10월 4주차 유튜브 라이브(10.25)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "10/25 유튜브 라이브 Q&A 정리. 하락장·고금리·FOMC·이란 전쟁·중간선거 불확실성 속에서 AI 수요는 견조하고 문제는 자본 조달이라는 시각. 네비우스 조달 성공에도 주가가 빠지는 것은 펀더멘털이 아닌 수급 탓이라고 보며, 아이렌·로켓랩은 3~4년 장기 보유 대상으로 매도 불필요하다고 한다. 현금은 하나의 종목이라는 원칙과 한 자릿수 %p 리밸런싱을 강조. 새 공식 수치는 없다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "네비우스가 이번에 자본 조달에 성공했다.",
+          "tickers": [],
+          "verification": "PARTIAL",
+          "evidence_url": "https://w.media/?p=42837",
+          "evidence_note": "WebSearch: 2026-08 약 57.5억 달러 전환사채 클로징 보도(언론). 이번 주 신규 조달은 확인 못 함. 네비우스는 universe 밖.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "GPU 가격·연산력·토큰 가격이 계속 오르고 하락하지 않는다.",
+          "tickers": [
+            "NVDA",
+            "CRWV"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료에서 GPU 대여 가격 시계열 확인 못 함. CRWV 10-Q는 백로그 중심.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "헤지펀드 롱/숏 비율이 1:5로 숏에 쏠려 있다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "출처 미제시 시장 통계, 공식 확인 불가.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "AI 수요는 줄기 어렵고 문제는 자본 조달이다. 금리가 내려가면 완화된다.",
+          "tickers": [
+            "CRWV",
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "아이렌 등 후보는 3~4년 보유하며 1~2년 손실로 매도하지 않는다. 현금도 종목이다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "중간선거·FOMC·실적 시즌 불확실성이 끝나야 헤지펀드 매수가 돌아온다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-11-30"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "CRWV",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "자본 조달 리스크 재확인이지만 새 공식 근거 없음. 저자는 네오클라우드 고위험을 인정."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 심리·원칙 중심 Q&A로 공식 근거가 없다. 다만 '현금도 종목' 원칙은 현재 현금 0.5%→5% 보강 제안과 방향이 같다(단독 근거 아님)."
     },
     {
       "post_id": "226270",

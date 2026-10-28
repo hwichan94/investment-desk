@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-29",
   "sources": [
     {
       "source_id": "tsla-q2-update",
@@ -120,6 +120,16 @@
       "reliability": 1.0,
       "published_at": "2026-10-22",
       "accessed_at": "2026-10-22"
+    },
+    {
+      "source_id": "vrt-q3-10q",
+      "ticker": "VRT",
+      "title": "Vertiv Form 10-Q for the quarter ended September 30, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm",
+      "source_type": "SEC filing",
+      "reliability": 1.0,
+      "published_at": "2026-10-28",
+      "accessed_at": "2026-10-29"
     }
   ],
   "companies": [
@@ -582,6 +592,21 @@
             "지연",
             "프로젝트",
             "증설"
+          ]
+        },
+        {
+          "evidence_id": "vrt-e4",
+          "stance": "SUPPORTING",
+          "statement": "2026년 3분기 매출은 43.13억달러로 전년 동기 대비 61.2% 증가했다(인수 기여 1.57억달러 포함, 미주 +74.5%, 아시아태평양 +49.9%, EMEA +22.8%).",
+          "source_ids": [
+            "vrt-q3-10q"
+          ],
+          "keywords": [
+            "데이터센터",
+            "전력",
+            "냉각",
+            "매출",
+            "성장"
           ]
         }
       ]

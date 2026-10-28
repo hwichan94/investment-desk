@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T07:16:06.273697+09:00",
-  "as_of": "2026-10-27",
+  "generated_at": "2026-10-28T14:44:30.297814+09:00",
+  "as_of": "2026-10-28",
   "regime": "NEUTRAL",
   "score": -1,
   "reasons": [
@@ -29,11 +29,11 @@
       "reason": "US 10Y yield falling over 20 sessions (-5.0%)"
     },
     "dollar": {
-      "as_of": "2026-10-27",
-      "price": 102.364998,
-      "sma_20": 102.02275,
-      "sma_50": 100.6409,
-      "return_20d": 0.009815,
+      "as_of": "2026-10-28",
+      "price": 102.433998,
+      "sma_20": 102.0697,
+      "sma_50": 100.69568,
+      "return_20d": 0.009699,
       "reason": "Dollar index rising over 20 sessions (+1.0%)"
     },
     "qqq": {

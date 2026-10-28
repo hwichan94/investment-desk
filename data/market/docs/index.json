@@ -812,6 +812,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-10-28",
+      "accession": "0001628280-26-067707",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-10-27",
       "accession": "0001628280-26-067393",
       "path": null
@@ -827,17 +833,6 @@
       "filed": "2026-09-24",
       "accession": "0001628280-26-063311",
       "path": null
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-09-02",
-      "report_date": "2026-09-01",
-      "accession": "0001193125-26-379306",
-      "path": "data/market/docs/VRT/2026-09-02-8-K-0001193125-26-379306.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/d472406dex991.htm"
-      ],
-      "chars": 9590
     }
   ]
 }

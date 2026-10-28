@@ -483,6 +483,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-10-28",
+      "accession": "0001652044-26-000080",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-08-10",
       "accession": "0001193125-26-342390",
       "path": null
@@ -497,12 +503,6 @@
       "form": "8-K",
       "filed": "2026-06-11",
       "accession": "0001193125-26-267578",
-      "path": null
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-06-05",
-      "accession": "0001193125-26-259830",
       "path": null
     }
   ],
@@ -633,6 +633,17 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-10-28",
+      "report_date": "2026-10-28",
+      "accession": "0001193125-26-435853",
+      "path": "data/market/docs/ORCL/2026-10-28-8-K-0001193125-26-435853.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm"
+      ],
+      "chars": 6823
+    },
+    {
+      "form": "8-K",
       "filed": "2026-09-14",
       "report_date": "2026-09-12",
       "accession": "0001193125-26-389753",
@@ -663,17 +674,6 @@
         "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm"
       ],
       "chars": 39697
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-05-12",
-      "report_date": "2026-05-06",
-      "accession": "0001193125-26-219708",
-      "path": "data/market/docs/ORCL/2026-05-12-8-K-0001193125-26-219708.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526219708/d76569dex991.htm"
-      ],
-      "chars": 3368
     }
   ],
   "PLTR": [
@@ -790,6 +790,17 @@
   "VRT": [
     {
       "form": "10-Q",
+      "filed": "2026-10-28",
+      "report_date": "2026-09-30",
+      "accession": "0001628280-26-067893",
+      "path": "data/market/docs/VRT/2026-10-28-10-Q-0001628280-26-067893.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm"
+      ],
+      "chars": 136701
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-07-29",
       "report_date": "2026-06-30",
       "accession": "0001628280-26-050609",
@@ -798,17 +809,6 @@
         "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050609/vrt-20260630.htm"
       ],
       "chars": 126609
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-04-22",
-      "report_date": "2026-03-31",
-      "accession": "0001628280-26-026556",
-      "path": "data/market/docs/VRT/2026-04-22-10-Q-0001628280-26-026556.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026556/vrt-20260331.htm"
-      ],
-      "chars": 106894
     },
     {
       "form": "8-K",

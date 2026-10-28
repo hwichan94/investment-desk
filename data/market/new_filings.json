@@ -103,5 +103,40 @@
         }
       ]
     }
+  },
+  {
+    "detected_at": "2026-10-29T05:18:15.553313+09:00",
+    "filings": {
+      "GOOG": [
+        {
+          "form": "8-K",
+          "filed": "2026-10-28",
+          "report_date": "2026-10-28",
+          "cik": "0001652044",
+          "accession": "0001652044-26-000080",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
+        }
+      ],
+      "ORCL": [
+        {
+          "form": "8-K",
+          "filed": "2026-10-28",
+          "report_date": "2026-10-28",
+          "cik": "0001341439",
+          "accession": "0001193125-26-435853",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538d8k.htm"
+        }
+      ],
+      "VRT": [
+        {
+          "form": "10-Q",
+          "filed": "2026-10-28",
+          "report_date": "2026-09-30",
+          "cik": "0001674101",
+          "accession": "0001628280-26-067893",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm"
+        }
+      ]
+    }
   }
 ]

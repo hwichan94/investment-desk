@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T21:56:00.607456+09:00",
+  "fetched_at": "2026-10-29T05:18:15.553313+09:00",
   "filings": {
     "AMZN": [
       {
@@ -858,6 +858,14 @@
     "GOOG": [
       {
         "form": "8-K",
+        "filed": "2026-10-28",
+        "report_date": "2026-10-28",
+        "cik": "0001652044",
+        "accession": "0001652044-26-000080",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-08-10",
         "report_date": "2026-08-10",
         "cik": "0001652044",
@@ -967,14 +975,6 @@
         "cik": "0001652044",
         "accession": "0001652044-26-000026",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000026/goog-20260304.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-02-13",
-        "report_date": "2026-02-13",
-        "cik": "0001652044",
-        "accession": "0001193125-26-051423",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526051423/d946885d8k.htm"
       }
     ],
     "INTC": [
@@ -1224,6 +1224,14 @@
     "ORCL": [
       {
         "form": "8-K",
+        "filed": "2026-10-28",
+        "report_date": "2026-10-28",
+        "cik": "0001341439",
+        "accession": "0001193125-26-435853",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538d8k.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-09-14",
         "report_date": "2026-09-12",
         "cik": "0001341439",
@@ -1333,14 +1341,6 @@
         "cik": "0001341439",
         "accession": "0001193125-25-314207",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-20251210.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-11-21",
-        "report_date": "2025-11-18",
-        "cik": "0001341439",
-        "accession": "0001193125-25-291441",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm"
       }
     ],
     "PLTR": [
@@ -1589,6 +1589,14 @@
     ],
     "VRT": [
       {
+        "form": "10-Q",
+        "filed": "2026-10-28",
+        "report_date": "2026-09-30",
+        "cik": "0001674101",
+        "accession": "0001628280-26-067893",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-10-28",
         "report_date": "2026-10-28",
@@ -1699,14 +1707,6 @@
         "cik": "0001674101",
         "accession": "0001628280-26-026379",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-04-13",
-        "report_date": "2026-04-13",
-        "cik": "0001674101",
-        "accession": "0001628280-26-024824",
-        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026024824/vrt-20260413.htm"
       }
     ]
   },

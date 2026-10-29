@@ -1,0 +1,112 @@
+{
+  "post_id": "227361",
+  "content_hash": "010ae22b1b7acc0efc023d0d388d7b5018f5033a781f17bed93eb016d2e67efc",
+  "analyzed_at": "2026-10-29T10:30:00+09:00",
+  "title": "구글의 폭락, 문제는 역시 잉여현금흐름 | 10-29 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "연준은 10대2로 금리를 동결했고(인상 2표), 시장은 PCE를 핵심 변수로 본다. GOOG는 매출·EPS 미스와 잉여현금흐름 악화로 시간외 급락했고 MSFT는 비트와 지출 절제로 상승했다. 글은 지금 시장이 잉여현금흐름을 가장 중요하게 본다고 해석한다. 마벨의 루멘텀 인수 임박 보도, 테슬라 베트남 채용, 힘스 펩타이드 규제 완화도 다룬다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "GOOG 3분기 매출 $127.58B(예상 $128.18B), EPS $2.12(예상 $3.02) 미스.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+      "evidence_note": "WebSearch(2026-10-29)로 8-K Ex.99.1 요약 확인: 매출 $127.6B(+25%), EPS $2.12, 영업이익 $40.6B. 컨센서스는 출처마다 달라($3.01~3.02, 매출 $127.2~128.2B) 미스 폭은 미확인. 원문 직접 열람은 sec.gov 접근 불가로 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "Google Cloud 매출 $30.71B로 예상 $29.57B 상회.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
+      "evidence_note": "8-K Ex.99.1 요약: Cloud 매출 $30.7B, +103%. 컨센서스 수치는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "GOOG 잉여현금흐름이 더 악화됐다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "2차 출처(MarketBeat)만 3분기 capex $51.4B, FCF -$9.1B를 보도했으나 같은 숫자가 매출원가로도 보도돼 혼동 가능성. 원문 현금흐름표 미확인이라 사용 금지."
+    },
+    {
+      "kind": "FACT",
+      "text": "MSFT 3분기(FY26 1Q) 매출 $92.28B(예상 $90.69B), EPS $4.89(예상 $4.73) 비트.",
+      "tickers": [
+        "MSFT"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436122/msft-ex99_1.htm",
+      "evidence_note": "8-K Ex.99.1 요약: non-GAAP EPS $4.89 확인(GAAP $4.92), Microsoft Cloud $63.9B, Azure +48%. 총매출 $92.28B와 컨센서스는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "마벨이 루멘텀 인수 막바지이며 이르면 다음 주 발표, 루멘텀 시간외 +10%, 마벨 -9%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 발표 전 보도 기반. 이번 실행에서는 검증하지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "미 보건복지부가 펩타이드 6종 규제 완화 시그널.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보유·후보 종목 외(HIMS)라 검증 우선순위 낮음."
+    },
+    {
+      "kind": "FACT",
+      "text": "연준이 10대 2로 금리를 동결했고 2명이 인상에 투표.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "FOMC 성명 원문 미확인. 이번 실행에서는 시도하지 않음."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "PCE가 예상보다 진정돼야 시장에 긍정적.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-10-30"
+    },
+    {
+      "kind": "OPINION",
+      "text": "시장은 지금 잉여현금흐름을 가장 중요하게 본다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 광통신의 중요성이 예상보다 클 수 있다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "빅테크 capex 대비 FCF를 시장이 처벌한다는 신호는 AMZN에도 해당될 수 있으나 AMZN 실적이 아직 반영되지 않았다. 10/29~30 AMZN 실적 후 평가."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "GOOG capex 확대는 수요에 우호적이지만 FCF 압박이 AI CAPEX 기대 조정으로 번질 위험도 있어 방향성 판단 보류."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "광통신 M&A 보도는 간접 관련일 뿐이며 공식 근거가 없다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. GOOG는 universe 밖(관찰)이며 글 저자도 매수 시 별도 공지하겠다고 했다. 핵심 신호는 AI capex의 FCF 부담을 시장이 처벌한다는 점으로 이미 RISK_OFF·AI CAPEX 집중도 관리 기조에 반영돼 있다. GOOG FCF·capex 수치는 원문 확인 후 사용한다."
+}

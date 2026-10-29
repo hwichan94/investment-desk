@@ -87,7 +87,7 @@
     {
       "ticker": "NVDA",
       "shares": 8,
-      "average_cost": null,
+      "average_cost": 216.79,
       "market_value": null,
       "thesis": "",
       "category": "Semiconductors / AI Compute",
@@ -100,7 +100,7 @@
     {
       "ticker": "AMZN",
       "shares": 6,
-      "average_cost": null,
+      "average_cost": 251.17,
       "market_value": null,
       "thesis": "",
       "category": "Cloud / E-commerce",

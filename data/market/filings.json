@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T19:00:06.716922+09:00",
+  "fetched_at": "2026-10-30T03:30:22.036117+09:00",
   "filings": {
     "AMZN": [
       {
@@ -857,6 +857,14 @@
     ],
     "GOOG": [
       {
+        "form": "10-Q",
+        "filed": "2026-10-29",
+        "report_date": "2026-09-30",
+        "cik": "0001652044",
+        "accession": "0001652044-26-000084",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-10-28",
         "report_date": "2026-10-28",
@@ -967,14 +975,6 @@
         "cik": "0001652044",
         "accession": "0001652044-26-000031",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000031/goog-20260330.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-03-06",
-        "report_date": "2026-03-04",
-        "cik": "0001652044",
-        "accession": "0001652044-26-000026",
-        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000026/goog-20260304.htm"
       }
     ],
     "INTC": [

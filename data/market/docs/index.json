@@ -461,6 +461,17 @@
   "GOOG": [
     {
       "form": "10-Q",
+      "filed": "2026-10-29",
+      "report_date": "2026-09-30",
+      "accession": "0001652044-26-000084",
+      "path": "data/market/docs/GOOG/2026-10-29-10-Q-0001652044-26-000084.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
+      ],
+      "chars": 220935
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-07-23",
       "report_date": "2026-06-30",
       "accession": "0001652044-26-000071",
@@ -469,17 +480,6 @@
         "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
       ],
       "chars": 199291
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-04-30",
-      "report_date": "2026-03-31",
-      "accession": "0001652044-26-000048",
-      "path": "data/market/docs/GOOG/2026-04-30-10-Q-0001652044-26-000048.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm"
-      ],
-      "chars": 151992
     },
     {
       "form": "8-K",

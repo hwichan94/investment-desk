@@ -29,6 +29,15 @@ Fanding 새 글을 감지 → 주장을 구조화 → 공식 자료(IR·SEC·정
   Position & Correlation Risk)와 Regime/Narrative 정합성을 매번 확인한다. 근거가 없으면 `UNKNOWN`이다.
 - 상방 비대칭이 좋고 빠른 무효화가 가능하면 2~3% Asymmetric Starter를 허용한다.
 
+## CIS 사례 선별 적용: Thesis × Trend × Asymmetric Payoff
+
+- 2026-10-29 전략 개선: [CIS adaptation](docs/strategy/cis-adaptation-2026-10-29.md). 상세 운영 원칙은 `config/investment_policy.md`의 CIS 반영 절과 `docs/ROUTINE.md` 3-2항을 따른다.
+- **매매를 복제하지 않는다.** CIS의 사례에서 손익비 우선, 승자 보유, 감정적 물타기 배제, 추세·거래량 신호, 빠른 실패 인정만 선택적으로 통합한다. 검증되지 않은 승률·현금비중을 그대로 입력하지 않는다.
+- **Core**는 사업 thesis·4개 분기 KPI로 재평가한다. 단기 가격 하락/RSI 과열만으로 청산하지 않고 Winner Protection을 유지한다.
+- **Tactical**은 촉매·유효기간·가격/구조적 무효화·사전 위험예산을 갖춘다. 기본 1R(계획 손실)은 투자자산의 0.5% 이내, 고신뢰도 최대 1%로 검토하되, 갭손실로 한도 초과 가능하다. 실제 주문은 실행하지 않는다.
+- 최소 투자 가능 현금 목표 5% 및 부채상환 예약 현금 제외를 유지한다. 동일 AI CAPEX 테마의 상관집중과 대안 대비 기대값을 필수 검토한다.
+- 실거래 로그가 없는 승률/손익비/리스크수치는 만들지 않는다. 기존 보유 수량, 목표 비중, 점수 산식은 본 원칙만으로 자동 변경하지 않는다.
+
 ## 구조
 
 ```

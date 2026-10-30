@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "sources": [
     {
       "source_id": "tsla-q2-update",
@@ -130,6 +130,26 @@
       "reliability": 1.0,
       "published_at": "2026-10-28",
       "accessed_at": "2026-10-29"
+    },
+    {
+      "source_id": "amzn-q3-results",
+      "ticker": "AMZN",
+      "title": "Amazon.com Announces Third Quarter Results (8-K Ex.99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+      "source_type": "SEC filing",
+      "reliability": 0.98,
+      "published_at": "2026-10-29",
+      "accessed_at": "2026-10-30"
+    },
+    {
+      "source_id": "intc-q3-results",
+      "ticker": "INTC",
+      "title": "Intel Q3 2026 earnings release (8-K Ex.99)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "source_type": "SEC filing",
+      "reliability": 0.98,
+      "published_at": "2026-10-29",
+      "accessed_at": "2026-10-30"
     }
   ],
   "companies": [
@@ -526,6 +546,32 @@
             "투자",
             "평가손실"
           ]
+        },
+        {
+          "evidence_id": "intc-e4",
+          "stance": "SUPPORTING",
+          "statement": "2026년 3분기 매출은 165억달러로 21% 증가했고 GAAP 총마진은 43.0%로 전년보다 4.8%p 개선됐으며 매출·마진·EPS가 가이던스를 상회했다.",
+          "source_ids": [
+            "intc-q3-results"
+          ],
+          "keywords": [
+            "매출",
+            "총마진",
+            "마진"
+          ]
+        },
+        {
+          "evidence_id": "intc-e5",
+          "stance": "CONTRADICTING",
+          "statement": "4분기 매출 가이던스는 150억~160억달러로 3분기보다 낮고, 파운드리 손실·잉여현금흐름은 이번에 원문으로 확인하지 못했다.",
+          "source_ids": [
+            "intc-q3-results"
+          ],
+          "keywords": [
+            "가이던스",
+            "잉여현금흐름",
+            "파운드리"
+          ]
         }
       ]
     },
@@ -691,6 +737,58 @@
             "순손실",
             "마진",
             "손실"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon",
+      "aliases": [
+        "AMZN",
+        "Amazon",
+        "아마존"
+      ],
+      "thesis": "AWS 성장·영업이익 가속이 AI CAPEX 부담과 잉여현금흐름 악화를 상쇄하는지가 핵심이다.",
+      "trend": "STRENGTHENING",
+      "time_horizon": "12개월",
+      "key_dependencies": [
+        "AWS 성장률과 영업이익률",
+        "CAPEX 대비 클라우드 매출 전환",
+        "잉여현금흐름 회복"
+      ],
+      "invalidation_signals": [
+        "AWS 성장과 영업이익률의 동반 둔화",
+        "CAPEX 증가에도 클라우드 매출 전환 부진",
+        "연속적인 잉여현금흐름 악화"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "amzn-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 3분기 AWS 매출은 460억달러로 39% 증가했고 AWS 영업이익은 178억달러(전년 114억달러), 전사 영업이익률은 13.9%로 사상 최고였다.",
+          "source_ids": [
+            "amzn-q3-results"
+          ],
+          "keywords": [
+            "AWS",
+            "영업이익",
+            "마진",
+            "클라우드"
+          ]
+        },
+        {
+          "evidence_id": "amzn-e2",
+          "stance": "CONTRADICTING",
+          "statement": "최근 12개월 잉여현금흐름은 -424억달러(전년 +148억달러)로 AI 설비투자 증가가 원인이다. 4분기 매출 가이던스는 2,400억~2,470억달러.",
+          "source_ids": [
+            "amzn-q3-results"
+          ],
+          "keywords": [
+            "잉여현금흐름",
+            "CAPEX",
+            "가이던스",
+            "투자"
           ]
         }
       ]

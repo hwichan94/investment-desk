@@ -24,6 +24,18 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-10-29",
+      "report_date": "2026-10-29",
+      "accession": "0001018724-26-000038",
+      "path": "data/market/docs/AMZN/2026-10-29-8-K-0001018724-26-000038.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex992.htm"
+      ],
+      "chars": 39837
+    },
+    {
+      "form": "8-K",
       "filed": "2026-09-14",
       "accession": "0001104659-26-107526",
       "path": null
@@ -45,12 +57,6 @@
         "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex992.htm"
       ],
       "chars": 40343
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-07-09",
-      "accession": "0001104659-26-082293",
-      "path": null
     }
   ],
   "ANET": [
@@ -531,6 +537,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-10-29",
+      "accession": "0000050863-26-000188",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-08-12",
       "report_date": "2026-08-10",
       "accession": "0001193125-26-346806",
@@ -551,12 +563,6 @@
       "form": "8-K",
       "filed": "2026-05-15",
       "accession": "0000050863-26-000118",
-      "path": null
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-04-30",
-      "accession": "0001193125-26-197845",
       "path": null
     }
   ],

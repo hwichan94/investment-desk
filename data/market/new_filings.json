@@ -153,5 +153,30 @@
         }
       ]
     }
+  },
+  {
+    "detected_at": "2026-10-30T10:01:00.046022+09:00",
+    "filings": {
+      "AMZN": [
+        {
+          "form": "8-K",
+          "filed": "2026-10-29",
+          "report_date": "2026-10-29",
+          "cik": "0001018724",
+          "accession": "0001018724-26-000038",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm"
+        }
+      ],
+      "INTC": [
+        {
+          "form": "8-K",
+          "filed": "2026-10-29",
+          "report_date": "2026-10-29",
+          "cik": "0000050863",
+          "accession": "0000050863-26-000188",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm"
+        }
+      ]
+    }
   }
 ]

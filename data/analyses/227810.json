@@ -1,0 +1,113 @@
+{
+  "relevance": "MEDIUM",
+  "summary": "10월 5주차 주간 리포트. 구글·아마존 실적에서 매출이 예상을 밑돌고 CAPEX 확대가 겹쳐 나스닥이 약 2% 하락, 공포탐욕지수는 극단적 공포 2주차라고 전한다. 작성자는 AI CAPEX 전망·AI로 개선되는 기업 실적·빅테크 수익성을 분리해서 봐야 하며 AI 펀더멘탈은 견고하다고 본다. 이후 TSLA(바클레이즈 상향, 스페이스X 합병 기대), NVDA, PLTR(실적 전 증권사 상향), GOOG(검색광고 둔화, 클라우드 급성장), MSFT 등 증권사 리포트를 요약한다. 다음 주 PLTR·TEM 실적과 중간선거가 이벤트다.",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "구글 검색광고 매출 성장률이 2분기 16.8%에서 3분기 12.0%로 둔화했고 유튜브 광고는 9.2% 성장했다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "evidence_note": "10-Q 매출표: Search & other 56,567→63,350(백만달러, +12.0%), YouTube ads 10,261→11,207(+9.2%). 2분기 16.8%는 확인 안 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "구글 클라우드 매출이 전년 대비 약 103% 성장했고 수주잔고가 약 5,610억 달러다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "evidence_note": "10-Q: Google Cloud 15,157→30,709(+102.6%), Cloud 관련 백로그 $560.8B(전체 RPO $567.7B)."
+    },
+    {
+      "kind": "FACT",
+      "text": "구글 3분기 설비투자가 415억 달러다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "10-Q에서 누적(9개월) 기준 PP&E 구매만 확인, 3분기 단독 수치는 대조하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "마이크로소프트 Azure 성장률이 50%에 근접하고 FCF가 186억 달러 흑자다.",
+      "tickers": [
+        "MSFT"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "MSFT는 추적 종목이 아니어서 data/market/docs에 원문 없음. 이번 실행에서 웹 대조 안 함(증권사 인용)."
+    },
+    {
+      "kind": "FACT",
+      "text": "팔란티어 Maven 사용자가 연초 약 5만 명에서 9월 10만 명 이상으로 늘었다(도이치뱅크 채널 조사).",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "증권사 채널 조사 인용으로 공식 자료 없음. 다음 주 PLTR 실적에서 대조 예정."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "도이치뱅크는 PLTR 3분기 매출이 가이던스를 3~5% 상회할 것으로 본다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "PLTR 3분기 실적 발표(다음 주)로 채점.",
+      "due": "2026-11-06"
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라: 바클레이즈 Hold→Buy($450), 도이치 Buy($420). 스페이스X 합병 가능성이 근거다.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "증권사 의견 인용. 합병은 보도 기반 시나리오이며 회사 공식 발표가 확인되지 않아 thesis에 반영하지 않음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "빅테크 CAPEX 확대는 다른 기업의 매출이며 AI 펀더멘탈은 견고하다. 시장 하락은 FCF 민감도에 따른 동반 반응이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "중간선거에서 상하원 모두 민주당이 가져가면 친환경 전력·우주 솔루션이 주목받을 수 있다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "작성자 추측.",
+      "due": "2026-11-05"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "실적 전 증권사 상향·Maven 확산은 기대 상승 요인이나 공식 확인 전이며 단일 출처다. 기대치 상승은 오히려 실적 후 반응 위험이다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "스페이스X 합병은 미확인 시나리오, 2027 조정 EPS 감소 전망도 같이 언급되어 thesis 강화로 보지 않는다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "증권사 점유율·밸류에이션 의견만 있고 공식 근거 추가 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 글의 핵심은 AI CAPEX 동반 약세 국면에서 펀더멘탈을 구분해 보라는 의견이며, 공식 근거로 확인된 것은 GOOG 검색 둔화와 클라우드 백로그뿐이다. 보유 종목 목표 비중을 바꿀 새 공식 근거는 없다. 다음 주 PLTR 실적(보유 33%)이 핵심 체크포인트다.",
+  "post_id": "227810",
+  "content_hash": "23666ddf100ebc16c9def8a767859838c091b41c362b82f89c27c52462a0eb0a",
+  "analyzed_at": "2026-10-31T03:30:00+09:00",
+  "title": "인사이더 테크리포트 2.0 Ep. 46 | 10월 5주차",
+  "author": "T3chfeed_테크피드"
+}

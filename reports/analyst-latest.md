@@ -1,26 +1,25 @@
-# 애널리스트 루틴 보고서 (2026-10-30 20:40 KST)
+# 애널리스트 루틴 보고서 (2026-10-31 04:10 KST)
 
-**포트폴리오 점수 72.3 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(72.3 / 83.8)와 변화 없음. 가장 큰 감점 요인은 현금 여력(13.7)과 목표 정렬(63.6)이다.
+**포트폴리오 점수 71.7 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(72.3 / 83.8) 대비 -0.6점, 목표 실행 시 점수는 동일. 하락은 가격 갱신(집중도 96.7→94.6, 목표 정렬 63.6→62.1)에 따른 것이며 판단 변경과 무관하다. 가장 큰 감점 요인은 현금 여력(14.6, 투자 가능 현금 0.7%)과 목표 정렬(62.1)이다.
 
 ## 1. 분석한 글 / 아이디어
-- 새 글 4개 분석, 아이디어 수신함은 비어 있음.
-  - 227672 (세상학개론, HIGH): 인텔·아마존 실적 후 하락. 인텔 4Q 매출 가이던스 $15~16B는 8-K로 확인했다. AWS $46.0B(+39%)도 확인했다. Fab28 사고의 매출·마진 영향, 세그먼트 수치, 아마존 분기 CAPEX $77.3B는 원문 확인 실패(PARTIAL/UNVERIFIED).
-  - 227691 (세상학개론 AI 정리본, HIGH): 오라클 투자자의 날 8-K(https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm)로 FY28 하반기 FCF 흑자 전환, FY29 FCF $30B+, FY27~30 추가 조달 $20B 상한을 CONFIRMED. 글의 '추가 조달 $200B'는 공식 자료와 CONFLICT(AI 요약 단위 오류로 추정). CDS·금리 수치는 UNVERIFIED.
-  - 227657 (T3chfeed 코인베이스 실적, LOW): COIN은 universe 밖. 예측시장 연환산 매출 $200M+, 변동성 -15%만 deck로 확인했고 조정 순이익·USDC는 UNVERIFIED.
-  - 227666 (공지, NONE): 투자 내용 없음.
+- 새 글 1개 분석, 아이디어 수신함은 비어 있음.
+  - 227810 (T3chfeed 인사이더 테크리포트 Ep.46, MEDIUM): 구글·아마존 실적 후 AI CAPEX 우려로 나스닥 약세, 증권사 리포트 모음(TSLA·NVDA·PLTR·GOOG·MSFT 등).
+    - GOOG 10-Q 원문으로 CONFIRMED: 검색 +12.0%, 유튜브 광고 +9.2%, 클라우드 +102.6%, 클라우드 백로그 $560.8B (https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm).
+    - UNVERIFIED: GOOG 3분기 CAPEX $41.5B(10-Q는 누적만 대조), MSFT 수치(추적 종목 아님), PLTR Maven 사용자·도이치 3~5% 상회 전망(증권사 의견, 다음 주 실적으로 채점), TSLA–스페이스X 합병(보도 기반 시나리오, 공식 확인 없음).
+- 기존 분석 중 FACT가 전부 UNVERIFIED로 남은 HIGH/MEDIUM 건은 없음.
 
 ## 2. 판단 변경
-- **비중·점수 변경 없음.** `decision_universe.json`은 ORCL의 `watch_reason`·출처만 갱신했다(target 0% 유지, `docs/decision-log.md` 기록). `portfolio.json` 미수정(지문 64ba3c306f2d4e4c, GitHub와 일치).
-- INTC는 DCAI 호조와 4Q 가이던스 하향·공장 사고가 섞여 2% 관찰 유지(두 분기 FCF·파운드리 개선이 invalidation 기준). AMZN은 AWS 강세 대 FCF 악화로 4% 유지. AI CAPEX 동시 약세와 RISK_OFF는 신규 위험 보류 신호로만 쓴다.
+- **비중·점수 변경 없음.** `decision_universe.json`, `portfolio.json`(지문 64ba3c306f2d4e4c, GitHub와 일치) 미수정. 새 글의 공식 확인분은 GOOG(미보유)뿐이고, PLTR·TSLA는 증권사 의견 위주라 thesis 영향 LOW/NEUTRAL이다.
 - `trader-decision-journal.md`: 갱신 필요 없음.
 
 ## 3. 지금 실행할 액션 (제안, 주문 아님; `decision-latest.md` 기준)
-1. **TSLA 축소**: 목표 24.00%, 2회 분할, 재원 마련.
-2. **VRT 추가매수**: 목표 7.00%, 2회 분할, 재원 현금·TSLA. 급등 추격 금지.
-3. **PLTR 소폭 조정 검토**: 목표 33.00% (Core 30% + Tactical 3%), 다음 주 월요일 실적 전 무리한 추격 금지.
-- 현금 5% 복원이 우선이다. 구체 수량은 `decision-latest.md` 참조.
+1. **TSLA 축소**: 목표 24.00%, 2회 분할, 현금 5% 복원 재원.
+2. **VRT 추가매수**: 목표 7.00%, 2회 분할, 재원 TSLA 축소분. 급등 추격 금지.
+3. **PLTR 목표 33.00%**(Core 30% + Tactical 3%) 정렬: 다음 주 실적 전 기대치 상승(증권사 상향) 구간이므로 실적 확인 전 무리한 추격 금지.
+- 구체 수량은 `decision-latest.md` 참조.
 
 ## 4. 데이터 상태
-- Fanding 수집 OK, 분석 대기 0개. 공식 근거 기준일 2026-10-30.
-- 환경 메모: 샌드박스에서 sec.gov 직접 WebFetch 차단. INTC/COIN은 WebSearch 스니펫 기준으로만 확인했다.
-- `desk validate` OK, `pytest` 전체 통과.
+- Fanding 수집 OK, 분석 대기 0개. 공식 근거 기준일 2026-10-30, 가격은 03:02 KST 기준.
+- 다음 이벤트: PLTR·TEM 실적(다음 주), 미국 중간선거(KST 11/5 확인).
+- `desk validate` OK, `pytest` 통과.

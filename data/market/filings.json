@@ -1,7 +1,15 @@
 {
-  "fetched_at": "2026-10-30T19:02:28.306186+09:00",
+  "fetched_at": "2026-10-31T03:02:22.717187+09:00",
   "filings": {
     "AMZN": [
+      {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "report_date": "2026-09-30",
+        "cik": "0001018724",
+        "accession": "0001018724-26-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
+      },
       {
         "form": "8-K",
         "filed": "2026-10-29",
@@ -113,14 +121,6 @@
         "cik": "0001018724",
         "accession": "0001104659-26-028556",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926028556/tm266670d9_8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-03-13",
-        "report_date": "2026-03-13",
-        "cik": "0001018724",
-        "accession": "0001104659-26-027729",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027729/tm266670d8_8k.htm"
       }
     ],
     "ANET": [
@@ -492,6 +492,14 @@
     "CCJ": [
       {
         "form": "6-K",
+        "filed": "2026-10-30",
+        "report_date": "2026-10-30",
+        "cik": "0001009001",
+        "accession": "0001193125-26-439858",
+        "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526439858/d106072d6k.htm"
+      },
+      {
+        "form": "6-K",
         "filed": "2026-10-01",
         "report_date": "2026-10-01",
         "cik": "0001009001",
@@ -601,14 +609,6 @@
         "cik": "0001009001",
         "accession": "0001193125-26-139310",
         "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526139310/d48743d6k.htm"
-      },
-      {
-        "form": "6-K",
-        "filed": "2026-04-02",
-        "report_date": "2026-04-02",
-        "cik": "0001009001",
-        "accession": "0001193125-26-139308",
-        "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526139308/d711806d6k.htm"
       }
     ],
     "CRWV": [
@@ -979,6 +979,14 @@
     ],
     "INTC": [
       {
+        "form": "10-Q",
+        "filed": "2026-10-30",
+        "report_date": "2026-09-26",
+        "cik": "0000050863",
+        "accession": "0000050863-26-000191",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-10-29",
         "report_date": "2026-10-29",
@@ -1089,14 +1097,6 @@
         "cik": "0000050863",
         "accession": "0000050863-26-000011",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-01-22",
-        "report_date": "2026-01-22",
-        "cik": "0000050863",
-        "accession": "0000050863-26-000009",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000009/intc-20260122.htm"
       }
     ],
     "NVDA": [

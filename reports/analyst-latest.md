@@ -1,30 +1,26 @@
-# 애널리스트 루틴 보고서 (2026-10-30 10:35 KST)
+# 애널리스트 루틴 보고서 (2026-10-30 20:40 KST)
 
-**포트폴리오 점수 72.3 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(72.1 / 83.8) 대비 현재 +0.2, 목표 실행 시 변화 없음(가격 변동 영향). 가장 큰 감점 요인은 현금 여력(13.7, 투자 가능 현금 0.7%)과 목표 정렬(63.6), 상위 2종목 합 62% 집중이다.
+**포트폴리오 점수 72.3 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(72.3 / 83.8)와 변화 없음. 가장 큰 감점 요인은 현금 여력(13.7)과 목표 정렬(63.6)이다.
 
 ## 1. 분석한 글 / 아이디어
-- 새 글 1개, 아이디어 수신함은 비어 있음.
-  - 227619 (T3chfeed, 10-30 미국 시황, MEDIUM): 구글(-12%)·아마존의 실적 후 하락, PCE 3.6%·GDP 3.4%에 따른 금리 인상 우려, 대형 AI주에서 소형주·국채로의 자금 이동을 다룬다. 팔란티어-FedEx 언급, 힘스 펩타이드는 소식 수준.
-- 공식 근거 검증(AMZN 3Q 8-K Ex.99.1, https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm):
-  - 매출 $201.9B, 희석 EPS $1.89, AWS $46.0B(+39%), 4Q 매출 가이던스 $240~247B 확인. 컨센서스 대비 미스 여부는 공식 자료에 없어 PARTIAL.
-  - 글에 없는 사실: AWS 영업이익 $17.8B(전년 $11.4B), 전사 영업이익률 13.9%(사상 최고). 반대로 TTM FCF는 -$42.4B(전년 +$14.8B).
-  - 광고 둔화는 Prime Day 이동 효과라는 회사 설명 CONFIRMED(해당 효과 제외 시 매출 성장률 약 +400bp).
-  - 글의 주가 등락률은 quotes.json과 약간 다르다(GOOG -11.98% vs 글 -12.29%, AMZN -2.63% vs 글 -4.25%).
-- INTC 3Q 실적(웹 검색으로 확인한 8-K 실적 보도자료, https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm): 매출 $16.5B(+21%), GAAP 총마진 43.0%, 가이던스 상회. 4Q 매출 가이던스 $15~16B는 3Q보다 낮다. sec.gov 직접 접속이 막혀 파운드리 손실·FCF는 확인하지 못했다.
-- 미확인(UNVERIFIED): PCE·GDP 수치(BEA 원문 미접근), FedEx-팔란티어 제휴, 테슬라 로보택시 무료 탑승, AMZN 컨센서스 대비 수치.
+- 새 글 4개 분석, 아이디어 수신함은 비어 있음.
+  - 227672 (세상학개론, HIGH): 인텔·아마존 실적 후 하락. 인텔 4Q 매출 가이던스 $15~16B는 8-K로 확인했다. AWS $46.0B(+39%)도 확인했다. Fab28 사고의 매출·마진 영향, 세그먼트 수치, 아마존 분기 CAPEX $77.3B는 원문 확인 실패(PARTIAL/UNVERIFIED).
+  - 227691 (세상학개론 AI 정리본, HIGH): 오라클 투자자의 날 8-K(https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm)로 FY28 하반기 FCF 흑자 전환, FY29 FCF $30B+, FY27~30 추가 조달 $20B 상한을 CONFIRMED. 글의 '추가 조달 $200B'는 공식 자료와 CONFLICT(AI 요약 단위 오류로 추정). CDS·금리 수치는 UNVERIFIED.
+  - 227657 (T3chfeed 코인베이스 실적, LOW): COIN은 universe 밖. 예측시장 연환산 매출 $200M+, 변동성 -15%만 deck로 확인했고 조정 순이익·USDC는 UNVERIFIED.
+  - 227666 (공지, NONE): 투자 내용 없음.
 
 ## 2. 판단 변경
-- **변경 없음** (`decision_universe.json`, `portfolio.json` 미수정). `official_research.json`에 AMZN(신규 항목)과 INTC의 3분기 근거를 추가하고 as_of를 2026-10-30으로 갱신했다. AMZN은 AWS·마진 호조와 FCF 악화가 엇갈려 thesis inertia에 따라 점수·목표 4%를 유지한다. INTC는 한 분기 호조와 낮은 4Q 가이던스가 섞여 있어 2% 관찰 포지션을 유지한다.
-- 금리 인상 우려와 대형 AI주 약세는 RISK_OFF 기조를 강화하는 맥락이며 신규 Starter·Tactical 크기 축소 신호로만 쓴다. Core 자동 축소 사유는 아니다.
+- **비중·점수 변경 없음.** `decision_universe.json`은 ORCL의 `watch_reason`·출처만 갱신했다(target 0% 유지, `docs/decision-log.md` 기록). `portfolio.json` 미수정(지문 64ba3c306f2d4e4c, GitHub와 일치).
+- INTC는 DCAI 호조와 4Q 가이던스 하향·공장 사고가 섞여 2% 관찰 유지(두 분기 FCF·파운드리 개선이 invalidation 기준). AMZN은 AWS 강세 대 FCF 악화로 4% 유지. AI CAPEX 동시 약세와 RISK_OFF는 신규 위험 보류 신호로만 쓴다.
 - `trader-decision-journal.md`: 갱신 필요 없음.
 
 ## 3. 지금 실행할 액션 (제안, 주문 아님; `decision-latest.md` 기준)
-1. **TSLA 축소**: 목표 24.00%, 2회 분할, 첫 축소는 실적 전 절반만. 최근 +7.7% 반등일에는 서두르지 않는다.
-2. **VRT 추가매수**: 목표 7.00%, 2회 분할, 재원 현금·TSLA. 급등일 추격 금지.
-3. **PLTR 소폭 조정 검토**: 목표 33.00%, Core 30% 하한·Tactical 구조 유지, 신고가 추격은 피한다.
-- 보조: 현금 5% 복원 필요. 구체 수량은 `decision-latest.md` 참조.
+1. **TSLA 축소**: 목표 24.00%, 2회 분할, 재원 마련.
+2. **VRT 추가매수**: 목표 7.00%, 2회 분할, 재원 현금·TSLA. 급등 추격 금지.
+3. **PLTR 소폭 조정 검토**: 목표 33.00% (Core 30% + Tactical 3%), 다음 주 월요일 실적 전 무리한 추격 금지.
+- 현금 5% 복원이 우선이다. 구체 수량은 `decision-latest.md` 참조.
 
 ## 4. 데이터 상태
 - Fanding 수집 OK, 분석 대기 0개. 공식 근거 기준일 2026-10-30.
-- 환경 메모: 샌드박스에서 sec.gov 직접 WebFetch는 차단된다(WebSearch로만 확인).
+- 환경 메모: 샌드박스에서 sec.gov 직접 WebFetch 차단. INTC/COIN은 WebSearch 스니펫 기준으로만 확인했다.
 - `desk validate` OK, `pytest` 전체 통과.

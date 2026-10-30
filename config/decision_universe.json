@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-30",
   "horizon_months": 12,
   "cash_target": 0.05,
   "score_weights": {
-    "fundamental_quality": 0.20,
-    "fundamental_momentum": 0.20,
+    "fundamental_quality": 0.2,
+    "fundamental_momentum": 0.2,
     "catalyst_visibility": 0.15,
-    "valuation": 0.20,
+    "valuation": 0.2,
     "risk_control": 0.15,
-    "portfolio_fit": 0.10
+    "portfolio_fit": 0.1
   },
   "securities": [
     {
@@ -23,7 +23,7 @@
       "portfolio_fit": 85,
       "evidence_confidence": 0.85,
       "target_weight": 0.33,
-      "core_floor_weight": 0.30,
+      "core_floor_weight": 0.3,
       "tactical_weight": 0.03,
       "why_now": "미국 상업·정부 매출, 계약가치와 현금창출이 동시에 가속하고 있어 핵심 보유 논리는 강화됐지만 현재 가격에는 높은 성장 기대가 반영돼 있습니다.",
       "main_risk": "높은 밸류에이션에서 성장률이나 계약의 실제 매출 전환이 둔화되면 멀티플 압축이 큽니다.",
@@ -76,7 +76,10 @@
         "주요 고객 이탈 또는 자체칩 전환 가속",
         "마진과 현금흐름의 동반 하락"
       ],
-      "funding_from": ["CASH", "TSLA"],
+      "funding_from": [
+        "CASH",
+        "TSLA"
+      ],
       "execution_plan": "목표와의 차이가 작으므로 급하게 추격하지 말고 조정 또는 다음 실적 확인 때 1~2%p를 보충합니다."
     },
     {
@@ -142,7 +145,10 @@
         "수주와 매출 전환의 괴리 확대",
         "공급 차질로 인한 마진 훼손"
       ],
-      "funding_from": ["CASH", "TSLA"],
+      "funding_from": [
+        "CASH",
+        "TSLA"
+      ],
       "execution_plan": "현재 비중에서 7%까지 2회 분할매수하되 급등일 추격은 피하고 다음 실적 전후 변동성을 이용합니다."
     },
     {
@@ -164,7 +170,11 @@
         "총마진의 구조적 하락",
         "주요 고객 CAPEX와 주문의 동반 둔화"
       ],
-      "funding_from": ["CASH", "INTC", "TSLA"],
+      "funding_from": [
+        "CASH",
+        "INTC",
+        "TSLA"
+      ],
       "execution_plan": "현재 보유분을 유지하고 5% 목표까지 추가매수를 2회로 나눕니다. 절반은 현재, 절반은 다음 실적 또는 8~10% 조정 시 집행합니다.",
       "source_urls": [
         "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/"
@@ -189,7 +199,10 @@
         "CAPEX 증가에도 클라우드 매출 전환 부진",
         "연속적인 잉여현금흐름 악화"
       ],
-      "funding_from": ["CASH", "TSLA"],
+      "funding_from": [
+        "CASH",
+        "TSLA"
+      ],
       "execution_plan": "4% 신규 포지션을 2회 분할합니다. AWS 성장률과 CAPEX 회수 속도를 다음 실적에서 재평가합니다.",
       "source_urls": [
         "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx"
@@ -216,9 +229,10 @@
       ],
       "funding_from": [],
       "execution_plan": "지금은 편입하지 않고 다음 분기 현금흐름과 RPO 전환을 확인합니다.",
-      "watch_reason": "성장 점수는 높지만 이미 AI CAPEX 노출이 큰 포트폴리오에 자금조달 위험까지 추가하므로 NVDA·AMZN보다 후순위입니다.",
+      "watch_reason": "성장 점수는 높지만 이미 AI CAPEX 노출이 큰 포트폴리오에 자금조달 위험까지 추가하므로 NVDA·AMZN보다 후순위입니다. 2026-10-28 투자자의 날: FY28 하반기 FCF 흑자 전환, FY27~30 추가 조달 $20B 상한(8-K)으로 자금조달 우려는 완화됐으나 FY27~28 음의 FCF는 그대로라 점수·목표는 유지합니다.",
       "source_urls": [
-        "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx"
+        "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm"
       ]
     },
     {

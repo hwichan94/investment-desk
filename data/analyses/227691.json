@@ -1,0 +1,90 @@
+{
+  "relevance": "HIGH",
+  "summary": "10월 29일 투자학개론 AI 정리본. 10월 약세 시장을 '뉴스가 무엇이든 악재로 해석된 분위기 장세'로 규정하고 세 가지 우려(장기금리 급등, AI 자금조달·부도 리스크, 기술주 쏠림)가 완화됐다고 본다. 오라클 투자자의 날의 FCF 흑자 전환 시점 앞당김과 CDS 정점 대비 하락을 근거로 든다. 이란 전쟁과 중간선거가 남은 불확실성이며 선거 후 1~2주가 방향을 정한다고 보고, 현금은 모두 쓰지 말고 단계적으로 대응하라고 조언한다.",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "오라클이 FY2028 하반기(2028년 상반기) FCF 흑자 전환, FY29 FCF $30B+, FY28 이후 자체 조달을 제시했다.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "evidence_note": "8-K Ex.99.1(2026-10-28): FY28 2H 양의 FCF, FY29 FCF $30B+, FY29부터 self-funded, FY27~28이 CAPEX 정점 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "오라클이 남은 FY2027 동안 추가 조달해야 할 금액이 $200B이다.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "CONFLICT",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "evidence_note": "공식 자료는 FY27~FY30 추가 자본시장 조달을 $20B(주식 $10B+총부채 $10B, 차환 제외)로 제한한다고 밝힘. 글의 $200B는 AI 요약의 단위 오류로 보이며 이는 AI 정리본의 오류 가능성을 스스로 경고한 부분과 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "오라클 CDS가 정점 329에서 274로 약 17% 하락했다.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 없음. 시장 데이터 제공처 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "10년물 금리가 4.99~5.0% 부근에서 안정됐고 9월 FOMC에서 금리를 인상했다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "data/market/regime.json 금리 값과 FOMC 성명은 이번 실행에서 대조하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "고객 선급금 비중이 기존 0~20%에서 45~55%로 올랐다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "오라클 8-K도 고객 선급금이 현금 수요를 줄인다고 하나 비율은 확인되지 않음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "자금조달 우려는 정점을 지났을 가능성이 높고 하락 모멘텀은 멈췄지만 중간선거 전에는 상승 전환이 어렵다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "중간선거 후 1~2주에 시장 방향이 정해진다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-20"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "내년 1월 전까지 이란 전쟁이 휴전·종결 국면에 들어간다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2027-01-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "ORCL",
+      "direction": "STRENGTHEN",
+      "magnitude": "MEDIUM",
+      "rationale": "공식 투자자의 날 자료로 FCF 흑자 시점·추가 조달 상한($20B)이 명확해졌다. 다만 ORCL은 AI CAPEX 상관집중 때문에 target 0% 관찰이며 FY27~28 음의 FCF는 그대로다."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "글은 오라클 뒤를 따라 정점 대비 15% 하락했다고만 언급하며 공식 근거는 없다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. ORCL 투자자의 날은 우려를 줄이는 공식 근거지만 포트폴리오에 AI CAPEX 노출이 이미 크므로 target 0% 관찰을 유지하고 watch_reason에 이번 근거를 추가한다. 현금 5% 복원 우선 원칙은 글의 '현금을 전부 쓰지 말라'와 일치한다.",
+  "post_id": "227691",
+  "content_hash": "2224635cbe53765698be515041f287b35346890c7f457107247574bbf83fbd79",
+  "analyzed_at": "2026-10-30T20:30:00+09:00",
+  "title": "🐹 AI 정리본: 지난 시장과 다가올 연말",
+  "author": "세상학개론 - 한정수 작가"
+}

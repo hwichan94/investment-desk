@@ -1,0 +1,115 @@
+{
+  "relevance": "HIGH",
+  "summary": "구글에 이어 인텔·아마존 실적이 중간선거 전 분위기를 눌렀다. 인텔은 데이터센터·AI 부문이 강했지만 PC 부진과 4분기 가이던스($15~16B) 하향, Fab28 폭발 사고·기판 부족·수율이 역풍이다. 아마존은 AWS +39%로 예상 상회에도 소매·광고 부진과 CAPEX 확대($77.3B)로 실망 매물이 나왔다. AI가 GDP를 홀로 끌고 간다는 진단과 샌디스크 -5%, 엔비디아의 엔스케일 보증 검토 소식도 다룬다.",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "인텔 4분기 매출 가이던스 $15~16B(3분기 매출 $16.5B, 전년비 +21%).",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "evidence_note": "8-K 실적 보도자료: 4Q 매출 $15.0~16.0B, 3Q 가이던스 상회 확인. 컨센서스 $17.1B는 공식 자료에 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "이스라엘 Fab28 폭발 사고로 2명이 사망했고 10nm 서버 칩 공급이 늦어져 매출 약 $300M 감소, 매출총이익률 2%p 하락이 예상된다.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "evidence_note": "사고 자체(10월 14일 Kiryat Gat, 2명 사망)는 보도로 확인. 매출·마진 영향 수치는 보도자료 원문을 직접 읽지 못해 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "인텔 데이터센터&AI 매출 $7.3B(+78%), 클라이언트 $8.1B(-5%).",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보도자료 검색 결과에 세그먼트 수치가 없고 sec.gov 직접 접속은 막혀 확인 못함. 직전 2분기 DCAI $6.3B(+59%)와는 방향이 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "AWS 매출 $46.0B, +39.3%로 5년 내 가장 빠른 성장.",
+      "tickers": [
+        "AMZN"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+      "evidence_note": "8-K Ex.99.1: AWS $46.0B(+39%). 컨센서스 $45.4B는 공식 자료에 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "아마존 3분기 CAPEX가 $77.3B로 예상 $57.4B를 크게 상회했다.",
+      "tickers": [
+        "AMZN"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+      "evidence_note": "8-K는 2026 연간 현금 CAPEX 약 $220B 전망과 TTM FCF -$42.4B(CAPEX 순지출 YoY +$94.8B)를 확인. 분기 $77.3B 수치는 원문에서 직접 못 찾음."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국 3분기 GDP 속보치 3.4%(예상 3.2%, 2분기 2.2%).",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "BEA 원문 미접근. 글이 인용한 중앙일보 기사 인용만 있음."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 엔스케일의 460MW 앤스로픽 프로젝트에 $45B 신용보증을 검토 중이다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "언론 소식 수준으로 공식 확인 불가."
+    },
+    {
+      "kind": "OPINION",
+      "text": "인텔은 미국 내 제조라는 전략적 포지션만으로 부족하고 실행력 검증 기간이 내년까지 이어진다.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "다음 주 월요일 애플·팔란티어 실적이 시장 분위기에 영향을 준다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-02"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "INTC",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "DCAI 호조는 thesis를 지지하지만 4Q 매출 가이던스 하향, 공장 사고·기판·수율 역풍, 2027 대규모 CAPEX와 FCF 불확실성은 invalidation 신호(FCF 적자 장기화)에 가깝다. 이미 2% 관찰 포지션이라 크기로 처리한다."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AWS 가속은 강화 요인, CAPEX·FCF 악화는 약화 요인이다. 직전 글 분석(227619)과 동일하게 점수·목표 유지."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "신용보증 소식은 확인되지 않은 보도다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. INTC는 목표 2%의 관찰 포지션이며 4Q 가이던스 하향과 Fab28 사고만으로 즉시 정리하지 않고 다음 두 분기 FCF·파운드리 개선을 invalidation 기준으로 유지한다. AI CAPEX 상관집중(AMZN·INTC·NVDA 동시 약세)은 RISK_OFF 맥락에서 신규 위험 추가 보류 신호로만 쓴다.",
+  "post_id": "227672",
+  "content_hash": "cf851d03949290523761d81603579e0ef582a558fe35525ca00c553ea1e5e6c1",
+  "analyzed_at": "2026-10-30T20:30:00+09:00",
+  "title": "인텔 공장 터지기라도 했나요? 네 (인텔, 아마존 실적발표)",
+  "author": "세상학개론 - 한정수 작가"
+}

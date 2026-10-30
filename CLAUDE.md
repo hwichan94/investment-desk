@@ -12,6 +12,12 @@ Fanding 새 글을 감지 → 주장을 구조화 → 공식 자료(IR·SEC·정
 - **숫자 생성 금지.** 없는 값은 `UNKNOWN`. 출처 없는 수치를 쓰지 않는다.
 - **`config/portfolio.json`은 사용자가 실제 거래를 확인해 준 경우에만 수정한다.** 추천 수량을 보유
   수량으로 착각하지 않는다. 수정 시 `as_of`/`confirmed_at` 갱신.
+- **실제 보유 수량·현금의 유일한 기준은 GitHub `main`의 `config/portfolio.json`이다.** 채팅 기억·이전 보고서·
+  테스트 값을 기준으로 삼지 않는다. 사용자(또는 ChatGPT)가 GitHub에 반영해 두었다면 같은 정보를 다시 묻지 않는다.
+  분석 시작 전 동기화하고, 보고서 커밋 직전 `python -m desk portfolio-check --remote --expect <시작 지문>`으로
+  바뀌지 않았는지 확인한다. 바뀌었으면 기존 데이터로 커밋하지 말고 `git pull --rebase` 후 다시 계산한다.
+- 테스트에 실제 보유 수량·현금을 하드코딩하지 않는다. 계산 로직은 `tests/fixtures/portfolio.json`(합성 데이터)으로,
+  실제 파일은 구조·정합성만 `config/portfolio.json`에서 검증한다.
 - `.secrets/`(평문 세션·키)는 절대 커밋·출력하지 않는다. `data/secure/*.enc`는 암호화본이라 커밋한다.
 
 ## 투자 성향 (상세: `config/investment_policy.md`)
@@ -83,6 +89,7 @@ python -m desk market     # 가격·SEC 공시 갱신
 python -m desk recommend  # 액션플랜 보고서
 python -m desk pending    # 분석 대기 글
 python -m desk validate   # 분석 JSON·목표 비중 검증
+python -m desk portfolio-check [--remote] [--expect 지문]  # portfolio.json 지문, GitHub 최신본과 비교(다르면 exit 3)
 python -m desk status     # 상태 요약
 python -m pytest
 ```

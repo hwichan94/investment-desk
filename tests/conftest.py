@@ -8,9 +8,10 @@ from desk import paths
 REPO = Path(__file__).resolve().parent.parent
 
 
-@pytest.fixture
-def root(tmp_path, monkeypatch):
-    """Isolated project root with a copy of the real config."""
+FIXTURE_PORTFOLIO = REPO / "tests" / "fixtures" / "portfolio.json"
+
+
+def _isolate(tmp_path, monkeypatch):
     shutil.copytree(REPO / "config", tmp_path / "config")
     mapping = {
         "ROOT": tmp_path, "CONFIG": tmp_path / "config", "DATA": tmp_path / "data",
@@ -27,4 +28,19 @@ def root(tmp_path, monkeypatch):
     for d in ("POSTS", "ANALYSES", "STATUS", "MARKET"):
         mapping[d].mkdir(parents=True)
     monkeypatch.delenv("FANDING_STATE_KEY", raising=False)
+    return tmp_path
+
+
+@pytest.fixture
+def root(tmp_path, monkeypatch):
+    """Isolated project root: real config, but a synthetic portfolio (never the live holdings)."""
+    _isolate(tmp_path, monkeypatch)
+    shutil.copy(FIXTURE_PORTFOLIO, tmp_path / "config" / "portfolio.json")
+    return tmp_path
+
+
+@pytest.fixture
+def real_config(tmp_path, monkeypatch):
+    """Isolated project root with the real config/portfolio.json, for validating the live file."""
+    _isolate(tmp_path, monkeypatch)
     return tmp_path

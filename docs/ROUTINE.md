@@ -10,7 +10,12 @@ pip install -e . -q
 git pull --rebase
 python -m desk status
 python -m desk pending
+python -m desk portfolio-check --remote   # 출력된 지문을 시작 지문으로 기록
 ```
+
+**포트폴리오 기준은 GitHub `main`의 `config/portfolio.json` 하나다.** `git pull --rebase` 직후의 파일을
+그대로 사용하고, 사용자가 이미 GitHub에 반영했는데 수량·현금을 다시 묻지 않는다. 시작 지문을 보고서 작성 내내
+기억해 둔다. 이 파일은 수정하지 않는다.
 
 `data/status/collector.json`의 상태가 `AUTH_REQUIRED`이면 보고서 맨 위 경고로 남기고 계속 진행한다
 (수집만 멈춘 것이고 분석·가격 갱신은 계속할 수 있다).
@@ -126,6 +131,16 @@ python -m desk recommend
 python -m desk validate
 python -m pytest -q
 ```
+
+**보고서 생성 직전과 커밋·푸시 직전**에 시작 지문과 GitHub 최신본을 확인한다.
+
+```
+python -m desk portfolio-check --remote --expect <시작 지문>
+```
+
+exit 3(STALE)이면 보유 수량·현금이 분석 도중 바뀐 것이다. 기존 데이터로 만든 보고서를 커밋하지 말고
+`git pull --rebase origin main` 후 최신 파일로 `recommend`부터 다시 계산하고 새 지문으로 위 확인을 반복한다.
+테스트는 실제 보유 수량을 하드코딩하지 않는다(`tests/fixtures/portfolio.json` 사용).
 
 `reports/analyst-latest.md`를 쓴다 (덮어쓰기, 같은 내용을 `reports/archive/analyst-YYYY-MM-DD.md`에도):
 

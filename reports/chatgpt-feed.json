@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T10:01:07.525002+09:00",
+  "generated_at": "2026-10-30T10:07:44.440788+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -749,6 +749,327 @@
   },
   "recent_analyses": [
     {
+      "post_id": "227218",
+      "analyzed_at": "2026-10-30T10:00:00+09:00",
+      "title": "📙[하반기 톺아보기] 2027년을 준비하는 투자 가설! (AI 인프라&데이터센터 편)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "세상학개론 팀이 지난 3개월의 AI 인프라·데이터센터 투자 가설을 복기한 글이다. 연산력 부족과 희소한 인프라 가설을 유지하고, 고금리 반론과 코어위브 신용위험·퍼머스 상장 무산 같은 악재를 점검했으며, 네오클라우드가 증명해야 할 3조건(전력·건설·GPU 확보, 자금 조달, 계약의 매출 전환)을 제시한다. 신규 사실이나 수치는 거의 없고 이전 글 인용이 중심이며 11/15 라이브와 다음 주 암호화폐 편을 예고한다.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "OPINION",
+          "text": "AI 경쟁이 심해질수록 연산력 부족이 지속되고 희소한 인프라를 가진 기업이 수혜를 본다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "GPU 가격은 상승 추세이고 데이터센터 딜 유찰·프론티어 랩 자금조달 실패 같은 악화 지표는 아직 없다(10/1 라이브 인용).",
+          "tickers": [
+            "CRWV"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "과거 라이브 발언 인용. 글에 출처 수치가 없어 확인 불가.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "네비우스는 전력·자금·매출 전환 3조건을 모두 보였고 아이렌은 2조건을 보였다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "두 종목 모두 보유·후보 밖이며 새 수치가 없다.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "2027년은 AI 클라우드 실적이 숫자로 버블론을 잠재우는 해가 될 수 있다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "CRWV",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "코어위브 신용위험을 언급하지만 새 수치가 없는 복기 글이다. 3조건(자금 조달·계약의 매출 전환)은 CRWV 점검 체크리스트로만 쓴다."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 신규 사실이 없는 가설 복기 글이다. 네오클라우드 3조건은 CRWV 검토 시 체크리스트로만 참고한다."
+    },
+    {
+      "post_id": "227440",
+      "analyzed_at": "2026-10-30T10:00:00+09:00",
+      "title": "엇갈린 구글과 마이크로소프트 실적발표... 원인은? (ft. FOMC)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "FOMC는 동결했고 12월 인상 확률을 87.2%로 반영 중이며 워시 의장은 관망 기조를 유지했다. GOOG는 클라우드(+103%)가 호조였으나 검색·YouTube 등 서비스 부문이 기대에 못 미쳐 -10%, MSFT는 매출·EPS 비트로 +3%였다. 오라클 투자자의 날은 CAPEX가 FY28 정점이고 FY29부터 자체 자금 성장이라는 점을 제시해 클라우드 섹터 우려를 낮췄다. 마벨의 루멘텀 인수설은 미확정 소식으로 희석 우려를 언급했다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "GOOG 3Q 매출 $127.6B, Cloud $30.7B(+103%), Google Services $96.3B.",
+          "tickers": [
+            "GOOG"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "evidence_note": "10-Q 분기 매출표: 총매출 127,577, Cloud 30,709(전년 15,157), Services 96,302(백만달러). 컨센서스(매출 $127.9B, Services $98.4B)는 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "GOOG 3Q EPS $2.12가 예상치 $2.87을 밑돌았고 원인은 SpaceX 지분 미실현 손실.",
+          "tickers": [
+            "GOOG"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "evidence_note": "10-Q: 희석 EPS $2.12 확인, OI&E가 SpaceX 등 시장성 지분 미실현 손실로 $21.0B 감소 확인. 다만 $2.87은 10-Q상 전년 동기 EPS이므로 '예상치'로 쓴 것은 오기 가능성이 높다.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "GOOG가 3분기 말부터 제3자 컴퓨팅 용량을 쓰기 시작해 4분기에 확대한다.",
+          "tickers": [
+            "GOOG"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "10-Q 해당 문구를 이번에 검색하지 않았다.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "MSFT 매출 $92.28B, 비-OpenAI 효과 EPS $4.89, Azure +48%, 분기 CAPEX $45.2B, 연간 CAPEX $175B→$170B.",
+          "tickers": [
+            "MSFT"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch(2026-10-30)는 실적 전 가이던스(매출 $89.85~90.95B, Azure ~45%, CAPEX $50B+)만 반환했다. 직전 분석 227361에서 8-K Ex.99.1 요약으로 EPS $4.89·Azure +48%는 확인됨. CAPEX 수치는 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "오라클은 FY30까지 연평균 35%+ 성장, 추가 조달을 $200억(주식 $100억·채권 $100억)으로 제한, FY29 FCF 최소 $300억, CAPEX는 FY27~28 정점.",
+          "tickers": [
+            "ORCL"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+          "evidence_note": "8-K Ex.99.1: FY26~FY30 CAGR 35%+, FY30 매출 $225B+, 추가 조달 $20B, FY29 FCF 최소 $30B. 글은 정점을 'FY28'로 적었으나 공시는 'FY27-FY28'. FY28 하반기 FCF 흑자 전환도 공시와 일치.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "오라클 투자자의 날 직후 주가 하루 +11%.",
+          "tickers": [
+            "ORCL"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "주가 반응은 desk market 데이터 미갱신 구간이라 확인하지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "마벨이 루멘텀 인수를 추진한다(루멘텀 시총 $83B, 마벨 $220B).",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch(2026-10-30)에서 공식 발표나 신뢰할 보도를 찾지 못함. 공식 발표 전 소식으로 취급.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "12월 FOMC 인상 확률 87.2%, 워시 의장이 연 8회 FOMC 중 2회를 전략 논의 전용으로 전환 예정.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "FOMC 성명·CME FedWatch 원문 미확인.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "마벨 인수가 확정되면 희석 우려가 추가 반영되고 불발되면 루멘텀 하락·마벨 반등.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "검색 트래픽 감소와 광고 정책 신뢰 하락은 구글의 구조적 우려다.",
+          "tickers": [
+            "GOOG"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "ORCL",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "투자자의 날 8-K가 FY29 FCF 최소 $300억과 추가 조달 $200억 상한을 공식 제시해 자금조달 우려를 일부 완화한다. 다만 목표는 경영진 전망이며 FY27~28 CAPEX 정점 기간의 실행 위험은 남는다."
+        },
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "GOOG는 외부 용량까지 끌어 쓸 만큼 공급이 부족하고 MSFT도 수요 초과를 언급해 수요에는 우호적이지만, FCF 압박은 별개 위험이다."
+        },
+        {
+          "ticker": "AMZN",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "AMZN 실적 발표 전이다. 클라우드 수요 호조 신호는 우호적이나 시장이 CAPEX 대비 FCF를 처벌하는 흐름은 부담이다."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. ORCL은 공식 8-K로 자금조달 완화 신호가 확인됐으나 한 번의 경영진 전망이라 점수·목표 비중을 바꾸지 않는다. GOOG는 universe 밖 관찰 종목이다. 글의 EPS 컨센서스 $2.87은 10-Q상 전년 동기 값과 같아 사용하지 않는다."
+    },
+    {
+      "post_id": "227172",
+      "analyzed_at": "2026-10-30T10:00:00+09:00",
+      "title": "AI 사이클, 실적들 훑어보며 상황 파악하기",
+      "author": "T3chfeed_테크피드",
+      "summary": "코닝·블룸에너지·버티브 실적과 BofA 데이터센터 전력 용량 추정(2025년 41GW→2028년 133GW→2030년 219GW)을 근거로 AI 인프라 수요가 2028년 이후 2030년까지 이어질 단서가 많다고 주장한다. 앤트로픽은 구글·MSFT와 2033년까지 약정했고 순매출유지율이 900%라고 하며, 코닝·블룸에너지의 2027년 예상 PER(32.5배, 52.8배)이 이 장기 성장을 충분히 반영하지 않았을 수 있다고 본다. 구글의 FCF 적자 전환은 선투자 성격이라 괜찮다고 본다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "BofA 추정 글로벌 데이터센터 누적 가동 용량: 2025년 ~41GW, 2028년 ~133GW, 2030년 ~219GW.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "BofA 리포트 비공개 2차 인용. 공식 자료 없음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "버티브는 2028년부터 네이티브 800V DC 아키텍처가 배치되기 시작한다고 밝혔다.",
+          "tickers": [
+            "VRT"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "VRT 3Q 10-Q(2026-10-28)에서 800V 관련 문구를 찾지 못했다. 실적 컨퍼런스콜 발언은 SEC 정기보고서에 없을 수 있어 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "구글 FCF가 적자 전환했고 구글은 2027년에도 CAPEX를 확대하겠다고 했다.",
+          "tickers": [
+            "GOOG"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "evidence_note": "10-Q: 분기 CAPEX $51.4B, 9개월 CAPEX $132.0B(전년 $63.6B), 9개월 영업현금흐름 $127.1B. 9개월 합산 FCF는 약 -$4.8B(본 보고서 산출). 3분기 단독 FCF와 2027년 CAPEX 전망 문구는 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽의 순매출유지율 900%, 구글·MSFT와 2033년까지 약정.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "앤트로픽 S-1 원문을 확인하지 못했다. 보유·후보 종목이 아니라 우선순위 낮음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "코닝 2026년 4분기 예상 매출 $5.2B, 2028년 4분기 $7.5B, 2030년 4분기 $10B 내부 목표.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "코닝은 universe 밖이며 IR 원문 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "마벨이 루멘텀 인수를 선언했다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch(2026-10-30)에서 공식 발표를 찾지 못함. 227440에서는 글쓴이 스스로 '소식'이라 표현.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "SK하이닉스 2029년까지 물량 전부 판매.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료 미확인(기존 227314와 동일 이유).",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "2027년 중~하순 2028년 이후 데이터센터 성장 전망이 나올 때 현재 밸류에이션이 정당화되는지 점검해야 한다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-09-30"
+        },
+        {
+          "kind": "OPINION",
+          "text": "AI 수요 존재 여부 논쟁은 끝났고 이제 수요 지속 기간이 핵심 질문이다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "VRT",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "장기 데이터센터 전력·냉각 수요 서사를 뒷받침하지만 핵심 수치는 2차 인용이며 VRT 10-Q 기반 근거는 별도로 갱신된 상태다."
+        },
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "2030년까지의 수요 시나리오는 우호적이나 BofA·앤트로픽 수치가 미검증이라 점수에 반영하지 않는다."
+        }
+      ],
+      "new_candidates": [
+        "GLW",
+        "BE",
+        "LITE"
+      ],
+      "portfolio_implication": "변경 없음. 코닝(GLW)·블룸에너지(BE)·루멘텀(LITE)은 글쓴이가 밸류에이션 재점검을 말한 정도이고 공식 근거를 수집하지 않았다. 신규 편입 기준(기존 보유보다 나은가, KPI, 재원)을 채우지 못해 후보 등재에 그친다. AI CAPEX 상관집중이 이미 높아 동일 테마 추가는 신중하다."
+    },
+    {
+      "post_id": "227447",
+      "analyzed_at": "2026-10-30T10:00:00+09:00",
+      "title": "📌라이브 공지 : 10월 5주차 <투자학개론> 라이브!",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "10월 5주차 투자학개론 라이브(목요일 오후 8시) 안내 공지이며 주제는 주요 시장 이벤트와 시사점 정리(포트폴리오 관리)다.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 투자 내용이 없는 공지다."
+    },
+    {
       "post_id": "227361",
       "analyzed_at": "2026-10-29T10:30:00+09:00",
       "title": "구글의 폭락, 문제는 역시 잉여현금흐름 | 10-29 미국 시황 정리",
@@ -1486,7 +1807,9 @@
     }
   ],
   "new_candidates": [
-    "GLW"
+    "GLW",
+    "BE",
+    "LITE"
   ],
   "report_paths": {
     "analyst_latest": "reports/analyst-latest.md",

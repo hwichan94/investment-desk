@@ -1,0 +1,115 @@
+{
+  "as_of": "2026-01-01",
+  "confirmed_at": "2026-01-01",
+  "currency": "USD",
+  "cash_available_for_investing": 500.0,
+  "cash_reserved_for_debt": 0,
+  "positions": [
+    {
+      "ticker": "TSLA",
+      "shares": 20,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "AI / Robotics",
+      "themes": [
+        "Autonomy",
+        "Robotics"
+      ],
+      "core_position": true
+    },
+    {
+      "ticker": "PLTR",
+      "shares": 40,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "AI Software",
+      "themes": [
+        "AI Applications",
+        "Defense AI"
+      ],
+      "core_position": true
+    },
+    {
+      "ticker": "AVGO",
+      "shares": 10,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "Semiconductors / Networking",
+      "themes": [
+        "AI CAPEX",
+        "AI Networking Bottleneck"
+      ],
+      "core_position": false
+    },
+    {
+      "ticker": "CCJ",
+      "shares": 20,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "Nuclear Energy",
+      "themes": [
+        "Nuclear Renaissance",
+        "Data Center Power"
+      ],
+      "core_position": false
+    },
+    {
+      "ticker": "INTC",
+      "shares": 10,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "Semiconductors",
+      "themes": [
+        "AI Compute",
+        "Foundry"
+      ],
+      "core_position": false
+    },
+    {
+      "ticker": "VRT",
+      "shares": 4,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "Data Center Infrastructure",
+      "themes": [
+        "AI CAPEX",
+        "Data Center Power",
+        "Cooling"
+      ],
+      "core_position": false
+    },
+    {
+      "ticker": "NVDA",
+      "shares": 6,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "Semiconductors / AI Compute",
+      "themes": [
+        "AI CAPEX",
+        "AI Compute"
+      ],
+      "core_position": false
+    },
+    {
+      "ticker": "AMZN",
+      "shares": 5,
+      "average_cost": null,
+      "market_value": null,
+      "thesis": "",
+      "category": "Cloud / E-commerce",
+      "themes": [
+        "AWS",
+        "AI CAPEX",
+        "Cloud"
+      ],
+      "core_position": false
+    }
+  ]
+}

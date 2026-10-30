@@ -56,30 +56,30 @@ def _market(prices):
     return {"fetched_at": NOW.isoformat(), "quotes": {t: {"price": p} for t, p in prices.items()}}
 
 
-def test_real_config_is_valid():
+def test_real_config_is_valid(real_config):
     pf, uni, c = portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints()
     assert portfolio.validate_targets(uni, pf, c) == []
 
 
-def test_confirmed_portfolio_snapshot_is_synced():
+def test_live_portfolio_json_is_wellformed_and_consistent(real_config):
+    """Checks config/portfolio.json (the single source of truth) without pinning today's quantities."""
     pf, uni = portfolio.load_portfolio(), portfolio.load_universe()
-    expected = {"TSLA": 23, "PLTR": 45, "AVGO": 12, "CCJ": 21,
-                "INTC": 11, "VRT": 4, "NVDA": 8, "AMZN": 6}
+    tickers = [position.ticker for position in pf.positions]
+    universe_tickers = {security.ticker for security in uni.securities}
 
-    assert {position.ticker: position.shares for position in pf.positions} == expected
+    assert tickers and len(tickers) == len(set(tickers))
+    assert all(position.shares > 0 for position in pf.positions)
+    assert all(position.average_cost is None or position.average_cost > 0 for position in pf.positions)
     assert all(position.market_value is None for position in pf.positions)
-    costs = {position.ticker: position.average_cost for position in pf.positions}
-    assert costs["AVGO"] is None
-    assert costs["NVDA"] == pytest.approx(216.79)
-    assert costs["AMZN"] == pytest.approx(251.17)
-    assert pf.cash_available_for_investing == pytest.approx(201.50)
-    assert pf.cash_reserved_for_debt == 0
-    assert pf.as_of.isoformat() == "2026-10-29"
-    assert pf.confirmed_at.isoformat() == "2026-10-29"
-    assert "FLNC" not in {security.ticker for security in uni.securities}
-    assert {"NVDA", "AMZN"} <= {security.ticker for security in uni.securities}
-    watchlist = json.loads((paths.CONFIG / "watchlist.json").read_text(encoding="utf-8"))
-    assert "NVDA" not in watchlist["tickers"]
+    assert pf.cash_available_for_investing >= 0 and pf.cash_reserved_for_debt >= 0
+    assert pf.confirmed_at <= pf.as_of
+    assert set(tickers) <= universe_tickers
+
+
+def test_fixture_portfolio_is_isolated_from_live_holdings(root):
+    pf = portfolio.load_portfolio()
+    assert pf.as_of.isoformat() == "2026-01-01"
+    assert pf.cash_available_for_investing == pytest.approx(500.0)
 
 
 def test_plan_classifies_actions(root):
@@ -124,8 +124,8 @@ def test_report_renders(root):
     pf, uni, c = portfolio.load_portfolio(), portfolio.load_universe(), portfolio.load_constraints()
     text = report.render(portfolio.build_plan(pf, uni, c, _market(PRICES)), pf, uni, NOW)
     assert "현재 → 목표" in text and "NVDA" in text and "실제 주문이 아닌" in text
-    assert "FLNC" not in text
-    assert "매수재원 검증" in text and "$201.50" in text
+    assert "FLNC" not in text  # FLNC is not in the universe
+    assert "매수재원 검증" in text and f"${pf.cash_available_for_investing:,.2f}" in text
     written = report.write(text, NOW)
     assert (paths.REPORTS / "decision-latest.md").exists() and len(written) == 2
 
@@ -145,3 +145,38 @@ def test_score_penalizes_concentration(root):
     calm = portfolio.portfolio_score({"AVGO": 0.25, "NVDA": 0.25, "AMZN": 0.25, "VRT": 0.20, "CASH": 0.05}, uni, c, set())
     hot = portfolio.portfolio_score({"AVGO": 0.70, "NVDA": 0.25, "CASH": 0.05}, uni, c, set())
     assert hot.components["concentration"] < calm.components["concentration"]
+
+
+def test_portfolio_fingerprint_changes_with_holdings_or_cash(root):
+    from desk import portfolio_sync
+
+    raw = portfolio_sync.local_raw()
+    base = portfolio_sync.fingerprint(raw)
+    assert portfolio_sync.fingerprint(json.loads(json.dumps(raw))) == base
+
+    more = json.loads(json.dumps(raw))
+    more["positions"][0]["shares"] += 1
+    assert portfolio_sync.fingerprint(more) != base
+    cash = json.loads(json.dumps(raw))
+    cash["cash_available_for_investing"] += 1
+    assert portfolio_sync.fingerprint(cash) != base
+    dated = json.loads(json.dumps(raw))
+    dated["confirmed_at"] = "2099-01-01"
+    assert portfolio_sync.fingerprint(dated) != base
+
+
+def test_portfolio_check_flags_stale_baseline_and_remote(root, monkeypatch):
+    from desk import portfolio_sync
+
+    ok, _ = portfolio_sync.check()
+    assert ok
+    ok, messages = portfolio_sync.check(expect="deadbeefdeadbeef")
+    assert not ok and any("STALE" in m for m in messages)
+
+    changed = portfolio_sync.local_raw()
+    changed["cash_available_for_investing"] += 100
+    monkeypatch.setattr(portfolio_sync, "remote_raw", lambda fetch=True: changed)
+    ok, messages = portfolio_sync.check(remote=True)
+    assert not ok and any("GitHub" in m for m in messages)
+    monkeypatch.setattr(portfolio_sync, "remote_raw", lambda fetch=True: portfolio_sync.local_raw())
+    assert portfolio_sync.check(remote=True)[0]

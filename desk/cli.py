@@ -58,7 +58,7 @@ def cmd_market(args: argparse.Namespace) -> int:
 
 
 def cmd_recommend(args: argparse.Namespace) -> int:
-    from desk import chatgpt_feed, portfolio, report
+    from desk import chatgpt_feed, portfolio, portfolio_sync, report
     from desk.store import read_json
 
     now = paths.now_kst()
@@ -71,6 +71,7 @@ def cmd_recommend(args: argparse.Namespace) -> int:
     written = report.write(report.render(plan, pf, universe, now), now)
     feed_path = chatgpt_feed.write(plan, pf, universe, now)
     report.append_score_history(plan, now)
+    print(f"포트폴리오 지문: {portfolio_sync.fingerprint(portfolio_sync.local_raw())}")
     print(f"포트폴리오 점수: {plan.score.total:.1f} / 100 (목표 실행 시 {plan.target_score.total:.1f})")
     print(f"보고서: {written[0]}")
     print(f"ChatGPT feed: {feed_path}")
@@ -108,6 +109,14 @@ def cmd_validate(args: argparse.Namespace) -> int:
     return 1 if errors else 0
 
 
+def cmd_portfolio_check(args: argparse.Namespace) -> int:
+    from desk import portfolio_sync
+
+    ok, messages = portfolio_sync.check(expect=args.expect, remote=args.remote)
+    print("\n".join(messages))
+    return 0 if ok else 3
+
+
 def cmd_status(args: argparse.Namespace) -> int:
     from desk.report import health_lines
 
@@ -131,6 +140,10 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("recommend", help="액션플랜 보고서 생성").set_defaults(func=cmd_recommend)
     sub.add_parser("pending", help="Claude 분석 대기 글 목록").set_defaults(func=cmd_pending)
     sub.add_parser("validate", help="분석·설정 파일 검증").set_defaults(func=cmd_validate)
+    p = sub.add_parser("portfolio-check", help="portfolio.json 지문 출력·GitHub 최신본과 비교")
+    p.add_argument("--expect", help="분석 시작 때 기록한 지문. 다르면 exit 3")
+    p.add_argument("--remote", action="store_true", help="origin/main의 portfolio.json과 비교(fetch 포함)")
+    p.set_defaults(func=cmd_portfolio_check)
     sub.add_parser("status", help="시스템 상태 요약").set_defaults(func=cmd_status)
     args = parser.parse_args(argv)
     return args.func(args)

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T03:30:30.050702+09:00",
+  "generated_at": "2026-10-30T09:59:34.969200+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -763,8 +763,8 @@
             "GOOG"
           ],
           "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm",
-          "evidence_note": "WebSearch(2026-10-29)로 8-K Ex.99.1 요약 확인: 매출 $127.6B(+25%), EPS $2.12, 영업이익 $40.6B. 컨센서스는 출처마다 달라($3.01~3.02, 매출 $127.2~128.2B) 미스 폭은 미확인. 원문 직접 열람은 sec.gov 접근 불가로 못 함.",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "evidence_note": "WebSearch(2026-10-29)로 8-K Ex.99.1 요약 확인: 매출 $127.6B(+25%), EPS $2.12, 영업이익 $40.6B. 컨센서스는 출처마다 달라($3.01~3.02, 매출 $127.2~128.2B) 미스 폭은 미확인. 원문 직접 열람은 sec.gov 접근 불가로 못 함. 10-Q 재확인(2026-10-30): 매출 $127,577M, 희석 EPS $2.12(전년 $2.87). 컨센서스는 여전히 미확인이며 '예상 $3.02'는 근거 없음.",
           "due": null
         },
         {
@@ -784,9 +784,9 @@
           "tickers": [
             "GOOG"
           ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "2차 출처(MarketBeat)만 3분기 capex $51.4B, FCF -$9.1B를 보도했으나 같은 숫자가 매출원가로도 보도돼 혼동 가능성. 원문 현금흐름표 미확인이라 사용 금지.",
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+          "evidence_note": "10-Q(2026-10-29): 분기 CAPEX $51.4B 확인, 9개월 영업현금흐름 $127.1B·CAPEX $132.0B로 9개월 FCF 약 -$4.8B(산출). 3분기 단독 FCF 수치는 미확인이며 기존 MarketBeat의 -$9.1B는 사용하지 않는다.",
           "due": null
         },
         {
@@ -877,112 +877,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. GOOG는 universe 밖(관찰)이며 글 저자도 매수 시 별도 공지하겠다고 했다. 핵심 신호는 AI capex의 FCF 부담을 시장이 처벌한다는 점으로 이미 RISK_OFF·AI CAPEX 집중도 관리 기조에 반영돼 있다. GOOG FCF·capex 수치는 원문 확인 후 사용한다."
-    },
-    {
-      "post_id": "227218",
-      "analyzed_at": "2026-10-28T22:30:00+09:00",
-      "title": "📙[하반기 톺아보기] 2027년을 준비하는 투자 가설! (AI 인프라&데이터센터 편)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "투자전공반 3개월 복기 형식의 글. 'AI 연산력 부족·희소 인프라 수혜' 가설이 수요·경제성·반론 점검을 거치며 유지됐다고 정리하고, 2027년 체크포인트(에이전트 토큰·GPU/CPU/메모리 수요, 전력망 연결 용량·MW당 단가, 계약의 매출 전환·마진)를 제시한다. 네비우스·코어위브 2분기 실적, 코어위브 신용 위험과 퍼머스 상장 무산 후 '네오클라우드 3조건'(전력·건설·GPU 확보 / 자금조달 / 계약의 매출화)도 재소개한다. 새 사실보다 기존 글 요약이 중심.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "네비우스: 2분기 신규 계약의 약 70%가 선급금 포함, 선급금이 CapEx의 50~60% 충당.",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "WebSearch(2026-10-28): 2026년 선급금 $9B+가 관련 capex의 50~60%를 커버하고 2분기 계약 약 70%가 선급금 포함이라는 보도와 일치. 단 분기 capex 대비 선급금이 약 60%라는 보도도 있어 정의 차이 존재. 회사 IR 원문은 미열람.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "네비우스 2분기 계약의 CapEx·운영비 회수기간 1년 10개월(과거 2~3년).",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "제3자 분석에서 1년 10개월, 다른 분석은 22개월 — 회사 가이던스가 아닌 추정치.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "코어위브 2분기 신규 계약 마진이 직전 분기 계약보다 5~10% 좋다.",
-          "tickers": [
-            "CRWV"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch로 코어위브 2분기 계약 마진 근거를 찾지 못함. data/market/docs/CRWV 원문 대조는 다음 루틴 과제.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "10월 중순 코어위브 신용 위험 부각, 호주 퍼머스 상장 무산.",
-          "tickers": [
-            "CRWV"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료 미확인(시장 뉴스성).",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "AI 인프라는 수요 대비 공급 부족이며 희소 인프라(전력·부지)가 수혜를 본다.",
-          "tickers": [
-            "CRWV",
-            "VRT",
-            "ETN",
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "2027년은 AI 클라우드 실적이 버블론을 숫자로 잠재우는 해이며 올해 말~내년이 'AI 2차 광풍' 준비 구간.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "GPU 가격 하락·데이터센터 딜 취소·프론티어 랩 자금조달 실패 등 경고지표는 아직 없다.",
-          "tickers": [
-            "CRWV"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "CRWV",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "기존 가설 재확인이며 신규 데이터 없음. 신용 위험은 글이 인정한 리스크로 thesis 점검 지표(자금조달·계약 매출화)와 일치."
-        },
-        {
-          "ticker": "VRT",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "전력·냉각 병목 논리를 재언급했을 뿐 종목별 신규 근거 없음."
-        },
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "연산력 부족 가설 재확인, 신규 실적·가이던스 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 복기·교육성 글로 신규 공식 근거가 없고 핵심 수치 일부는 네비우스 2분기 보도와 정합(PARTIAL)할 뿐이다. 코어위브 체크포인트(자금조달·계약의 매출 전환)는 기존 모니터링 항목을 유지한다."
     },
     {
       "post_id": "227314",
@@ -1076,101 +970,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 핵심 수치(SK하이닉스 실적)가 공식 일정·단위와 맞지 않아 미검증이며, 지정학 해석은 단일 의견이다. 10/29~30 SK하이닉스 공식 발표와 빅테크 실적 후 재평가. 이란 이벤트 위험은 RISK_OFF 하의 신규 Starter 축소 기조에 이미 반영."
-    },
-    {
-      "post_id": "227126",
-      "analyzed_at": "2026-10-28T15:30:00+09:00",
-      "title": "사이버캡 500대 돌파 | 10-28 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "10/28 미국 시황 정리. 반도체지수 +3.6%로 AI 대형주가 지수를 끌어올렸고 코닝 3분기 실적(매출 $5.08B, EPS $0.91, 광통신 +44%)이 AI 투자의 실물 확인으로 제시된다. 엔비디아 Vera Rubin NVL72와 Vera CPU의 오라클 배치, 테슬라 텍사스 사이버캡 등록 대수 증가, 조비·아이온큐·알레그로 소식이 이어진다. 저자는 FOMC 동결과 높은 유가, 10/29 구글·MS 실적을 지수 방향의 핵심 변수로 본다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "코닝 3Q 매출 $5.08B(예상 $5.03B), EPS $0.91(예상 $0.88), 광통신 매출 $2.38B(+44% YoY), 4Q 가이던스 $5.2~5.3B.",
-          "tickers": [],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000024741/000002474126000273/glw-20261027xex99xq32026.htm",
-          "evidence_note": "코닝 8-K 실적 보도자료(2026-10-27) 및 WebSearch 요약과 일치. 단 $5.08B/$0.91은 core 기준(GAAP 매출 $4.86B, EPS $0.78)이며 4Q core EPS 가이던스 $0.96~1.00.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "엔비디아 Vera Rubin NVL72와 Vera CPU가 오라클 데이터센터에 배치되고 수 GW 확대가 예정됐다.",
-          "tickers": [
-            "NVDA",
-            "ORCL"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch(2026-10-28): 오라클이 Vera Rubin 초기 배치 파트너라는 일반 보도만 확인, 10월 오라클 배치·수 GW 발표 원문은 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "텍사스 등록 로보택시 1,051대 중 사이버캡 544대, 모델 Y 507대.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료 없음(주 규제기관 등록 데이터 기반 2차 집계 추정). 확인 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "미국 9월 내구재 신규 주문 전월 +1.8%, 컴퓨터 관련 +3.9%.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "Census 원문 미확인. 검증 시도 필요 시 다음 루틴에서 보강.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "10/29 구글·MS 실적에서 서프라이즈가 예상되나 시장 반등으로 이어질지는 불확실.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-10-30"
-        },
-        {
-          "kind": "OPINION",
-          "text": "엔비디아의 공략 가능시장이 넓어지며, 의존도 축소 움직임에도 수요가 커 시장은 여전히 크다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "Vera Rubin 오라클 배치 보도는 미확인이고 이미 알려진 로드맵. 신규 근거 아님."
-        },
-        {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "사이버캡 등록 대수는 2차 집계로 공식 확인 불가. 주가 반응만 근거."
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "Rubin 배치 보도는 미확인. 오라클 자금조달 위험은 별도 관리."
-        }
-      ],
-      "new_candidates": [
-        "GLW"
-      ],
-      "portfolio_implication": "변경 없음. 코닝 실적은 AI 광통신 수요의 공식 확인이지만 코닝은 universe에 없고 이번 글만으로 편입 근거 부족(관찰만). 10/29~30 구글·MS·아마존 실적 후 재평가."
     },
     {
       "post_id": "226962",
@@ -1301,6 +1100,101 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 상반기 매출은 언론으로 교차 확인됐으나 영업손실·흑자 전환 주장은 미확인이고 순손실 $80.7B(주로 회계비용)와 구분해야 한다. 단일 의견이라 thesis inertia 유지, 10/29~30 빅테크 실적에서 CAPEX 확인 후 재평가."
+    },
+    {
+      "post_id": "227126",
+      "analyzed_at": "2026-10-28T15:30:00+09:00",
+      "title": "사이버캡 500대 돌파 | 10-28 미국 시황 정리",
+      "author": "T3chfeed_테크피드",
+      "summary": "10/28 미국 시황 정리. 반도체지수 +3.6%로 AI 대형주가 지수를 끌어올렸고 코닝 3분기 실적(매출 $5.08B, EPS $0.91, 광통신 +44%)이 AI 투자의 실물 확인으로 제시된다. 엔비디아 Vera Rubin NVL72와 Vera CPU의 오라클 배치, 테슬라 텍사스 사이버캡 등록 대수 증가, 조비·아이온큐·알레그로 소식이 이어진다. 저자는 FOMC 동결과 높은 유가, 10/29 구글·MS 실적을 지수 방향의 핵심 변수로 본다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "코닝 3Q 매출 $5.08B(예상 $5.03B), EPS $0.91(예상 $0.88), 광통신 매출 $2.38B(+44% YoY), 4Q 가이던스 $5.2~5.3B.",
+          "tickers": [],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000024741/000002474126000273/glw-20261027xex99xq32026.htm",
+          "evidence_note": "코닝 8-K 실적 보도자료(2026-10-27) 및 WebSearch 요약과 일치. 단 $5.08B/$0.91은 core 기준(GAAP 매출 $4.86B, EPS $0.78)이며 4Q core EPS 가이던스 $0.96~1.00.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "엔비디아 Vera Rubin NVL72와 Vera CPU가 오라클 데이터센터에 배치되고 수 GW 확대가 예정됐다.",
+          "tickers": [
+            "NVDA",
+            "ORCL"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch(2026-10-28): 오라클이 Vera Rubin 초기 배치 파트너라는 일반 보도만 확인, 10월 오라클 배치·수 GW 발표 원문은 찾지 못함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "텍사스 등록 로보택시 1,051대 중 사이버캡 544대, 모델 Y 507대.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료 없음(주 규제기관 등록 데이터 기반 2차 집계 추정). 확인 못함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "미국 9월 내구재 신규 주문 전월 +1.8%, 컴퓨터 관련 +3.9%.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "Census 원문 미확인. 검증 시도 필요 시 다음 루틴에서 보강.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "10/29 구글·MS 실적에서 서프라이즈가 예상되나 시장 반등으로 이어질지는 불확실.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-10-30"
+        },
+        {
+          "kind": "OPINION",
+          "text": "엔비디아의 공략 가능시장이 넓어지며, 의존도 축소 움직임에도 수요가 커 시장은 여전히 크다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "Vera Rubin 오라클 배치 보도는 미확인이고 이미 알려진 로드맵. 신규 근거 아님."
+        },
+        {
+          "ticker": "TSLA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "사이버캡 등록 대수는 2차 집계로 공식 확인 불가. 주가 반응만 근거."
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "Rubin 배치 보도는 미확인. 오라클 자금조달 위험은 별도 관리."
+        }
+      ],
+      "new_candidates": [
+        "GLW"
+      ],
+      "portfolio_implication": "변경 없음. 코닝 실적은 AI 광통신 수요의 공식 확인이지만 코닝은 universe에 없고 이번 글만으로 편입 근거 부족(관찰만). 10/29~30 구글·MS·아마존 실적 후 재평가."
     },
     {
       "post_id": "227009",

@@ -1,0 +1,119 @@
+{
+  "relevance": "MEDIUM",
+  "summary": "FOMC는 동결했고 12월 인상 확률을 87.2%로 반영 중이며 워시 의장은 관망 기조를 유지했다. GOOG는 클라우드(+103%)가 호조였으나 검색·YouTube 등 서비스 부문이 기대에 못 미쳐 -10%, MSFT는 매출·EPS 비트로 +3%였다. 오라클 투자자의 날은 CAPEX가 FY28 정점이고 FY29부터 자체 자금 성장이라는 점을 제시해 클라우드 섹터 우려를 낮췄다. 마벨의 루멘텀 인수설은 미확정 소식으로 희석 우려를 언급했다.",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "GOOG 3Q 매출 $127.6B, Cloud $30.7B(+103%), Google Services $96.3B.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "evidence_note": "10-Q 분기 매출표: 총매출 127,577, Cloud 30,709(전년 15,157), Services 96,302(백만달러). 컨센서스(매출 $127.9B, Services $98.4B)는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "GOOG 3Q EPS $2.12가 예상치 $2.87을 밑돌았고 원인은 SpaceX 지분 미실현 손실.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "evidence_note": "10-Q: 희석 EPS $2.12 확인, OI&E가 SpaceX 등 시장성 지분 미실현 손실로 $21.0B 감소 확인. 다만 $2.87은 10-Q상 전년 동기 EPS이므로 '예상치'로 쓴 것은 오기 가능성이 높다."
+    },
+    {
+      "kind": "FACT",
+      "text": "GOOG가 3분기 말부터 제3자 컴퓨팅 용량을 쓰기 시작해 4분기에 확대한다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "10-Q 해당 문구를 이번에 검색하지 않았다."
+    },
+    {
+      "kind": "FACT",
+      "text": "MSFT 매출 $92.28B, 비-OpenAI 효과 EPS $4.89, Azure +48%, 분기 CAPEX $45.2B, 연간 CAPEX $175B→$170B.",
+      "tickers": [
+        "MSFT"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-10-30)는 실적 전 가이던스(매출 $89.85~90.95B, Azure ~45%, CAPEX $50B+)만 반환했다. 직전 분석 227361에서 8-K Ex.99.1 요약으로 EPS $4.89·Azure +48%는 확인됨. CAPEX 수치는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "오라클은 FY30까지 연평균 35%+ 성장, 추가 조달을 $200억(주식 $100억·채권 $100억)으로 제한, FY29 FCF 최소 $300억, CAPEX는 FY27~28 정점.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538dex991.htm",
+      "evidence_note": "8-K Ex.99.1: FY26~FY30 CAGR 35%+, FY30 매출 $225B+, 추가 조달 $20B, FY29 FCF 최소 $30B. 글은 정점을 'FY28'로 적었으나 공시는 'FY27-FY28'. FY28 하반기 FCF 흑자 전환도 공시와 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "오라클 투자자의 날 직후 주가 하루 +11%.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "주가 반응은 desk market 데이터 미갱신 구간이라 확인하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "마벨이 루멘텀 인수를 추진한다(루멘텀 시총 $83B, 마벨 $220B).",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-10-30)에서 공식 발표나 신뢰할 보도를 찾지 못함. 공식 발표 전 소식으로 취급."
+    },
+    {
+      "kind": "FACT",
+      "text": "12월 FOMC 인상 확률 87.2%, 워시 의장이 연 8회 FOMC 중 2회를 전략 논의 전용으로 전환 예정.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "FOMC 성명·CME FedWatch 원문 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "마벨 인수가 확정되면 희석 우려가 추가 반영되고 불발되면 루멘텀 하락·마벨 반등.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "검색 트래픽 감소와 광고 정책 신뢰 하락은 구글의 구조적 우려다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "ORCL",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "투자자의 날 8-K가 FY29 FCF 최소 $300억과 추가 조달 $200억 상한을 공식 제시해 자금조달 우려를 일부 완화한다. 다만 목표는 경영진 전망이며 FY27~28 CAPEX 정점 기간의 실행 위험은 남는다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "GOOG는 외부 용량까지 끌어 쓸 만큼 공급이 부족하고 MSFT도 수요 초과를 언급해 수요에는 우호적이지만, FCF 압박은 별개 위험이다."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AMZN 실적 발표 전이다. 클라우드 수요 호조 신호는 우호적이나 시장이 CAPEX 대비 FCF를 처벌하는 흐름은 부담이다."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. ORCL은 공식 8-K로 자금조달 완화 신호가 확인됐으나 한 번의 경영진 전망이라 점수·목표 비중을 바꾸지 않는다. GOOG는 universe 밖 관찰 종목이다. 글의 EPS 컨센서스 $2.87은 10-Q상 전년 동기 값과 같아 사용하지 않는다.",
+  "post_id": "227440",
+  "content_hash": "6d0bc0f287507c39f68bec4272736bf584e3e9c4442bd01da462c0371fc5b269",
+  "analyzed_at": "2026-10-30T10:00:00+09:00",
+  "title": "엇갈린 구글과 마이크로소프트 실적발표... 원인은? (ft. FOMC)",
+  "author": "세상학개론 - 한정수 작가"
+}

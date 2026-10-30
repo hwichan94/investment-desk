@@ -114,7 +114,7 @@ def test_strong_observed_momentum_activates_pltr_winner_protection(root):
 
 def test_winner_protection_does_not_block_a_small_add(root):
     prices = {"TSLA": 391.62, "PLTR": 198.84, "AVGO": 329.17, "CCJ": 79.07,
-              "INTC": 90.47, "VRT": 199.78, "NVDA": 216.0}
+              "INTC": 90.47, "VRT": 199.78, "NVDA": 216.0, "AMZN": 250.0}
     market = {"fetched_at": NOW.isoformat(),
               "quotes": {ticker: {"price": price} for ticker, price in prices.items()}}
     plan = portfolio.build_plan(

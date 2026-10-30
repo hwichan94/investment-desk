@@ -1,67 +1,33 @@
 {
-  "post_id": "227218",
-  "content_hash": "582fb083ec4fd73f4aa71175fddfcbd5ac1c5114e07cb5e47b469164727fdd8a",
-  "analyzed_at": "2026-10-28T22:30:00+09:00",
-  "title": "📙[하반기 톺아보기] 2027년을 준비하는 투자 가설! (AI 인프라&데이터센터 편)",
-  "author": "세상학개론 - 한정수 작가",
-  "summary": "투자전공반 3개월 복기 형식의 글. 'AI 연산력 부족·희소 인프라 수혜' 가설이 수요·경제성·반론 점검을 거치며 유지됐다고 정리하고, 2027년 체크포인트(에이전트 토큰·GPU/CPU/메모리 수요, 전력망 연결 용량·MW당 단가, 계약의 매출 전환·마진)를 제시한다. 네비우스·코어위브 2분기 실적, 코어위브 신용 위험과 퍼머스 상장 무산 후 '네오클라우드 3조건'(전력·건설·GPU 확보 / 자금조달 / 계약의 매출화)도 재소개한다. 새 사실보다 기존 글 요약이 중심.",
-  "relevance": "MEDIUM",
+  "relevance": "LOW",
+  "summary": "세상학개론 팀이 지난 3개월의 AI 인프라·데이터센터 투자 가설을 복기한 글이다. 연산력 부족과 희소한 인프라 가설을 유지하고, 고금리 반론과 코어위브 신용위험·퍼머스 상장 무산 같은 악재를 점검했으며, 네오클라우드가 증명해야 할 3조건(전력·건설·GPU 확보, 자금 조달, 계약의 매출 전환)을 제시한다. 신규 사실이나 수치는 거의 없고 이전 글 인용이 중심이며 11/15 라이브와 다음 주 암호화폐 편을 예고한다.",
   "claims": [
     {
-      "kind": "FACT",
-      "text": "네비우스: 2분기 신규 계약의 약 70%가 선급금 포함, 선급금이 CapEx의 50~60% 충당.",
-      "tickers": [],
-      "verification": "PARTIAL",
-      "evidence_note": "WebSearch(2026-10-28): 2026년 선급금 $9B+가 관련 capex의 50~60%를 커버하고 2분기 계약 약 70%가 선급금 포함이라는 보도와 일치. 단 분기 capex 대비 선급금이 약 60%라는 보도도 있어 정의 차이 존재. 회사 IR 원문은 미열람."
-    },
-    {
-      "kind": "FACT",
-      "text": "네비우스 2분기 계약의 CapEx·운영비 회수기간 1년 10개월(과거 2~3년).",
-      "tickers": [],
-      "verification": "PARTIAL",
-      "evidence_note": "제3자 분석에서 1년 10개월, 다른 분석은 22개월 — 회사 가이던스가 아닌 추정치."
-    },
-    {
-      "kind": "FACT",
-      "text": "코어위브 2분기 신규 계약 마진이 직전 분기 계약보다 5~10% 좋다.",
-      "tickers": [
-        "CRWV"
-      ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "WebSearch로 코어위브 2분기 계약 마진 근거를 찾지 못함. data/market/docs/CRWV 원문 대조는 다음 루틴 과제."
-    },
-    {
-      "kind": "FACT",
-      "text": "10월 중순 코어위브 신용 위험 부각, 호주 퍼머스 상장 무산.",
-      "tickers": [
-        "CRWV"
-      ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "공식 자료 미확인(시장 뉴스성)."
-    },
-    {
       "kind": "OPINION",
-      "text": "AI 인프라는 수요 대비 공급 부족이며 희소 인프라(전력·부지)가 수혜를 본다.",
-      "tickers": [
-        "CRWV",
-        "VRT",
-        "ETN",
-        "NVDA"
-      ],
-      "verification": "NOT_APPLICABLE"
-    },
-    {
-      "kind": "OPINION",
-      "text": "2027년은 AI 클라우드 실적이 버블론을 숫자로 잠재우는 해이며 올해 말~내년이 'AI 2차 광풍' 준비 구간.",
+      "text": "AI 경쟁이 심해질수록 연산력 부족이 지속되고 희소한 인프라를 가진 기업이 수혜를 본다.",
       "tickers": [],
       "verification": "NOT_APPLICABLE"
     },
     {
-      "kind": "OPINION",
-      "text": "GPU 가격 하락·데이터센터 딜 취소·프론티어 랩 자금조달 실패 등 경고지표는 아직 없다.",
+      "kind": "FACT",
+      "text": "GPU 가격은 상승 추세이고 데이터센터 딜 유찰·프론티어 랩 자금조달 실패 같은 악화 지표는 아직 없다(10/1 라이브 인용).",
       "tickers": [
         "CRWV"
       ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "과거 라이브 발언 인용. 글에 출처 수치가 없어 확인 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "네비우스는 전력·자금·매출 전환 3조건을 모두 보였고 아이렌은 2조건을 보였다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "두 종목 모두 보유·후보 밖이며 새 수치가 없다."
+    },
+    {
+      "kind": "OPINION",
+      "text": "2027년은 AI 클라우드 실적이 숫자로 버블론을 잠재우는 해가 될 수 있다.",
+      "tickers": [],
       "verification": "NOT_APPLICABLE"
     }
   ],
@@ -70,21 +36,14 @@
       "ticker": "CRWV",
       "direction": "NEUTRAL",
       "magnitude": "LOW",
-      "rationale": "기존 가설 재확인이며 신규 데이터 없음. 신용 위험은 글이 인정한 리스크로 thesis 점검 지표(자금조달·계약 매출화)와 일치."
-    },
-    {
-      "ticker": "VRT",
-      "direction": "NEUTRAL",
-      "magnitude": "LOW",
-      "rationale": "전력·냉각 병목 논리를 재언급했을 뿐 종목별 신규 근거 없음."
-    },
-    {
-      "ticker": "NVDA",
-      "direction": "NEUTRAL",
-      "magnitude": "LOW",
-      "rationale": "연산력 부족 가설 재확인, 신규 실적·가이던스 없음."
+      "rationale": "코어위브 신용위험을 언급하지만 새 수치가 없는 복기 글이다. 3조건(자금 조달·계약의 매출 전환)은 CRWV 점검 체크리스트로만 쓴다."
     }
   ],
   "new_candidates": [],
-  "portfolio_implication": "변경 없음. 복기·교육성 글로 신규 공식 근거가 없고 핵심 수치 일부는 네비우스 2분기 보도와 정합(PARTIAL)할 뿐이다. 코어위브 체크포인트(자금조달·계약의 매출 전환)는 기존 모니터링 항목을 유지한다."
+  "portfolio_implication": "변경 없음. 신규 사실이 없는 가설 복기 글이다. 네오클라우드 3조건은 CRWV 검토 시 체크리스트로만 참고한다.",
+  "post_id": "227218",
+  "content_hash": "5364816cf58a8e477a4208b77bd1c5b0f44767ae0e25bce04fe2efe7abef455f",
+  "analyzed_at": "2026-10-30T10:00:00+09:00",
+  "title": "📙[하반기 톺아보기] 2027년을 준비하는 투자 가설! (AI 인프라&데이터센터 편)",
+  "author": "세상학개론 - 한정수 작가"
 }

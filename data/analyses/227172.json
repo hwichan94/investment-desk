@@ -1,0 +1,98 @@
+{
+  "relevance": "MEDIUM",
+  "summary": "코닝·블룸에너지·버티브 실적과 BofA 데이터센터 전력 용량 추정(2025년 41GW→2028년 133GW→2030년 219GW)을 근거로 AI 인프라 수요가 2028년 이후 2030년까지 이어질 단서가 많다고 주장한다. 앤트로픽은 구글·MSFT와 2033년까지 약정했고 순매출유지율이 900%라고 하며, 코닝·블룸에너지의 2027년 예상 PER(32.5배, 52.8배)이 이 장기 성장을 충분히 반영하지 않았을 수 있다고 본다. 구글의 FCF 적자 전환은 선투자 성격이라 괜찮다고 본다.",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "BofA 추정 글로벌 데이터센터 누적 가동 용량: 2025년 ~41GW, 2028년 ~133GW, 2030년 ~219GW.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "BofA 리포트 비공개 2차 인용. 공식 자료 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "버티브는 2028년부터 네이티브 800V DC 아키텍처가 배치되기 시작한다고 밝혔다.",
+      "tickers": [
+        "VRT"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "VRT 3Q 10-Q(2026-10-28)에서 800V 관련 문구를 찾지 못했다. 실적 컨퍼런스콜 발언은 SEC 정기보고서에 없을 수 있어 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "구글 FCF가 적자 전환했고 구글은 2027년에도 CAPEX를 확대하겠다고 했다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "evidence_note": "10-Q: 분기 CAPEX $51.4B, 9개월 CAPEX $132.0B(전년 $63.6B), 9개월 영업현금흐름 $127.1B. 9개월 합산 FCF는 약 -$4.8B(본 보고서 산출). 3분기 단독 FCF와 2027년 CAPEX 전망 문구는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽의 순매출유지율 900%, 구글·MSFT와 2033년까지 약정.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "앤트로픽 S-1 원문을 확인하지 못했다. 보유·후보 종목이 아니라 우선순위 낮음."
+    },
+    {
+      "kind": "FACT",
+      "text": "코닝 2026년 4분기 예상 매출 $5.2B, 2028년 4분기 $7.5B, 2030년 4분기 $10B 내부 목표.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "코닝은 universe 밖이며 IR 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "마벨이 루멘텀 인수를 선언했다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-10-30)에서 공식 발표를 찾지 못함. 227440에서는 글쓴이 스스로 '소식'이라 표현."
+    },
+    {
+      "kind": "FACT",
+      "text": "SK하이닉스 2029년까지 물량 전부 판매.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 미확인(기존 227314와 동일 이유)."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "2027년 중~하순 2028년 이후 데이터센터 성장 전망이 나올 때 현재 밸류에이션이 정당화되는지 점검해야 한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2027-09-30"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 수요 존재 여부 논쟁은 끝났고 이제 수요 지속 기간이 핵심 질문이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "VRT",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "장기 데이터센터 전력·냉각 수요 서사를 뒷받침하지만 핵심 수치는 2차 인용이며 VRT 10-Q 기반 근거는 별도로 갱신된 상태다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "2030년까지의 수요 시나리오는 우호적이나 BofA·앤트로픽 수치가 미검증이라 점수에 반영하지 않는다."
+    }
+  ],
+  "new_candidates": [
+    "GLW",
+    "BE",
+    "LITE"
+  ],
+  "portfolio_implication": "변경 없음. 코닝(GLW)·블룸에너지(BE)·루멘텀(LITE)은 글쓴이가 밸류에이션 재점검을 말한 정도이고 공식 근거를 수집하지 않았다. 신규 편입 기준(기존 보유보다 나은가, KPI, 재원)을 채우지 못해 후보 등재에 그친다. AI CAPEX 상관집중이 이미 높아 동일 테마 추가는 신중하다.",
+  "post_id": "227172",
+  "content_hash": "4858ea30d2f1f99e093cf3e022299aa72a219a68a24477cdb376d95afdb53b85",
+  "analyzed_at": "2026-10-30T10:00:00+09:00",
+  "title": "AI 사이클, 실적들 훑어보며 상황 파악하기",
+  "author": "T3chfeed_테크피드"
+}

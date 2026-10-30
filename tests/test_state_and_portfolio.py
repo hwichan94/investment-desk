@@ -63,18 +63,21 @@ def test_real_config_is_valid():
 
 def test_confirmed_portfolio_snapshot_is_synced():
     pf, uni = portfolio.load_portfolio(), portfolio.load_universe()
-    expected = {"TSLA": 23, "PLTR": 45, "AVGO": 9, "CCJ": 21,
-                "INTC": 11, "VRT": 4, "NVDA": 3}
+    expected = {"TSLA": 23, "PLTR": 45, "AVGO": 12, "CCJ": 21,
+                "INTC": 11, "VRT": 4, "NVDA": 8, "AMZN": 6}
 
     assert {position.ticker: position.shares for position in pf.positions} == expected
     assert all(position.market_value is None for position in pf.positions)
-    assert next(position for position in pf.positions if position.ticker == "NVDA").average_cost is None
-    assert pf.cash_available_for_investing == pytest.approx(3816.44)
+    costs = {position.ticker: position.average_cost for position in pf.positions}
+    assert costs["AVGO"] is None
+    assert costs["NVDA"] == pytest.approx(216.79)
+    assert costs["AMZN"] == pytest.approx(251.17)
+    assert pf.cash_available_for_investing == pytest.approx(201.50)
     assert pf.cash_reserved_for_debt == 0
-    assert pf.as_of.isoformat() == "2026-10-27"
-    assert pf.confirmed_at.isoformat() == "2026-10-27"
+    assert pf.as_of.isoformat() == "2026-10-29"
+    assert pf.confirmed_at.isoformat() == "2026-10-29"
     assert "FLNC" not in {security.ticker for security in uni.securities}
-    assert "NVDA" in {security.ticker for security in uni.securities}
+    assert {"NVDA", "AMZN"} <= {security.ticker for security in uni.securities}
     watchlist = json.loads((paths.CONFIG / "watchlist.json").read_text(encoding="utf-8"))
     assert "NVDA" not in watchlist["tickers"]
 
@@ -122,7 +125,7 @@ def test_report_renders(root):
     text = report.render(portfolio.build_plan(pf, uni, c, _market(PRICES)), pf, uni, NOW)
     assert "현재 → 목표" in text and "NVDA" in text and "실제 주문이 아닌" in text
     assert "FLNC" not in text
-    assert "매수재원 검증" in text and "$3,816.44" in text
+    assert "매수재원 검증" in text and "$201.50" in text
     written = report.write(text, NOW)
     assert (paths.REPORTS / "decision-latest.md").exists() and len(written) == 2
 

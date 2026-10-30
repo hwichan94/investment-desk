@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-31T03:02:22.717187+09:00",
+  "generated_at": "2026-10-31T07:21:45.397395+09:00",
   "as_of": "2026-10-30",
   "regime": "RISK_OFF",
   "score": -3,
@@ -14,79 +14,79 @@
   "components": {
     "vix": {
       "as_of": "2026-10-30",
-      "price": 21.389999,
-      "sma_20": 17.099,
-      "sma_50": 16.2222,
-      "return_20d": 0.397126,
+      "price": 19.42,
+      "sma_20": 17.0005,
+      "sma_50": 16.1828,
+      "return_20d": 0.268452,
       "reason": "VIX rising above SMA20"
     },
     "us_10y": {
       "as_of": "2026-10-30",
-      "price": 4.939,
-      "sma_20": 5.1229,
-      "sma_50": 5.01308,
-      "return_20d": -0.064052,
-      "reason": "US 10Y yield falling over 20 sessions (-6.4%)"
+      "price": 4.929,
+      "sma_20": 5.1224,
+      "sma_50": 5.01288,
+      "return_20d": -0.065947,
+      "reason": "US 10Y yield falling over 20 sessions (-6.6%)"
     },
     "dollar": {
       "as_of": "2026-10-30",
-      "price": 101.975998,
-      "sma_20": 102.0568,
-      "sma_50": 100.81652,
-      "return_20d": 0.000451,
+      "price": 101.963997,
+      "sma_20": 102.0562,
+      "sma_50": 100.81628,
+      "return_20d": 0.000334,
       "reason": "Dollar index rising over 20 sessions (+0.0%)"
     },
     "qqq": {
       "as_of": "2026-10-30",
-      "price": 686.599976,
-      "sma_20": 727.992999,
-      "sma_50": 724.626028,
-      "return_20d": -0.08402,
+      "price": 690.48999,
+      "sma_20": 728.1875,
+      "sma_50": 724.703828,
+      "return_20d": -0.078831,
       "reason": "QQQ below SMA50"
     },
     "spy": {
       "as_of": "2026-10-30",
-      "price": 755.169983,
-      "sma_20": 770.440494,
-      "sma_50": 766.763843,
-      "return_20d": -0.018801,
+      "price": 755.719971,
+      "sma_20": 770.467993,
+      "sma_50": 766.774843,
+      "return_20d": -0.018086,
       "reason": "SPY below SMA50"
     },
     "hyg": {
       "as_of": "2026-10-30",
-      "price": 77.339996,
-      "sma_20": 77.154,
-      "sma_50": 77.808525,
-      "return_20d": 0.005591,
+      "price": 77.43,
+      "sma_20": 77.1585,
+      "sma_50": 77.810325,
+      "return_20d": 0.006761,
       "reason": "hyg mixed or insufficient directional signal"
     },
     "lqd": {
       "as_of": "2026-10-30",
-      "price": 104.129997,
-      "sma_20": 103.191,
-      "sma_50": 103.767858,
-      "return_20d": 0.022587,
+      "price": 104.269997,
+      "sma_20": 103.198,
+      "sma_50": 103.770658,
+      "return_20d": 0.023961,
       "reason": "lqd mixed or insufficient directional signal"
     },
     "rsp": {
       "as_of": "2026-10-30",
-      "price": 218.009995,
-      "sma_20": 214.878998,
-      "sma_50": 214.718954,
-      "return_20d": 0.039479,
+      "price": 218.309998,
+      "sma_20": 214.893998,
+      "sma_50": 214.724954,
+      "return_20d": 0.04091,
       "reason": "rsp mixed or insufficient directional signal"
     },
     "credit_hyg_lqd": {
-      "value": 0.742725,
-      "sma_20": 0.747719,
-      "return_20d": -0.01662,
+      "value": 0.742591,
+      "sma_20": 0.747712,
+      "return_20d": -0.016798,
       "trend": "FALLING",
       "reason": "credit HYG/LQD falling"
     },
     "breadth_rsp_spy": {
-      "value": 0.28869,
-      "sma_20": 0.278941,
-      "return_20d": 0.059397,
+      "value": 0.288877,
+      "sma_20": 0.27895,
+      "return_20d": 0.060083,
       "trend": "RISING",
       "reason": "breadth RSP/SPY rising"
     }

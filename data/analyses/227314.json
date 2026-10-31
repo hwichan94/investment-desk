@@ -11,9 +11,9 @@
       "kind": "FACT",
       "text": "SK하이닉스가 오늘 3분기 실적을 발표했고 매출 788.4억 달러(예상 740.2억), 영업이익 628억 달러, 영업이익률 79.7%.",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0002120882/000119312526434994/d162547d6k.htm",
-      "evidence_note": "WebSearch(2026-10-28): 공식 발표는 10/29 예정으로 보도되고 원문 미확인. 컨센서스는 원화 기준 매출 약 95~99조 원·영업이익 약 75~78조 원이라 글의 '달러' 단위·수치와 불일치(단위 오기 가능성). 2분기 실적은 매출 79.3조 원/영업이익 60.5조 원. 원문 확인 전 사용 금지."
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.placera.se/pressmeddelanden/sk-hynix-announces-3q26-financial-results-20261028",
+      "evidence_note": "WebSearch(2026-10-31): SK하이닉스 3Q26 실적(10/28 발표, 미감사): 매출 104.6조 원, 영업이익 83.3조 원(영업이익률 79.7%), 순이익 39.8조 원. 컨센서스(FnGuide 매출 98.2조/영업이익 77.0조) 상회 → 방향·영업이익률은 일치. 다만 글의 '달러 매출 788.4억/영업이익 628억' 중 영업이익 628억 달러는 보도 환산(약 $62.8B)과 근접하나 원 환산은 매체별로 상이, 매출 달러 환산·예상치(740.2억)는 미확인. 2차 보도 기반이라 점수 반영 없음."
     },
     {
       "kind": "FACT",

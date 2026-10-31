@@ -1,13 +1,14 @@
-# 애널리스트 루틴 보고서 (2026-10-31 13:10 KST)
+# 애널리스트 루틴 보고서 (2026-10-31 16:10 KST)
 
 **포트폴리오 점수 71.7 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(71.7 / 83.8) 대비 변화 없음. 가장 큰 감점 요인은 현금 여력과 목표 정렬이다.
 
 ## 1. 분석한 글 / 아이디어
-- 새 글 0개, 아이디어 수신함 비어 있음. 직전 분석 이후 신규 공시·실적 발표 없음.
-- 기존 분석 보강: 227314(MEDIUM)의 SK하이닉스 3Q26 실적 주장이 전부 UNVERIFIED였던 것을 웹 검색으로 재확인 → PARTIAL. 매출 104.6조 원, 영업이익 83.3조 원(영업이익률 79.7%, 미감사)으로 방향·마진 일치, 달러 환산·예상치는 미확인. 2차 보도 기반이라 점수·비중 반영 없음. 출처: https://www.placera.se/pressmeddelanden/sk-hynix-announces-3q26-financial-results-20261028
+- 새 글 1개: **227854** (세상학개론, "중간선거 직전 AI 블랙 프라이데이... 승부수", relevance MEDIUM). 작성자의 개인 매매 공유와 시장 심리 해석(중간선거 전 자금 이탈 = 유동성 긴축 효과, AI 섹터 펀더멘털은 견고).
+  - 검증: INTC 실적 후 급락은 가격 데이터로 PARTIAL(종가 -24.4%, 글의 -28%는 미확인), GOOG -12.3% 급락과 10-Q는 CONFIRMED, ORCL 투자자의 날 CapEx 피크·FCF 흑자 전환은 기존 8-K 근거로 PARTIAL(일반화는 작성자 해석). 헤지펀드 노출 축소·IREN 계약 금액은 2차 인용·universe 밖이라 UNVERIFIED.
+- 아이디어 수신함 비어 있음. 신규 공시·실적 발표 추가 없음.
 
 ## 2. 판단 변경
-- **비중·점수 변경 없음.** `decision_universe.json`, `portfolio.json`(지문 64ba3c306f2d4e4c, GitHub와 일치) 미수정. 새 글의 공식 확인분은 GOOG(미보유)뿐이고, PLTR·TSLA는 증권사 의견 위주라 thesis 영향 LOW/NEUTRAL이다.
+- **비중·점수 변경 없음.** `decision_universe.json`, `portfolio.json`(지문 64ba3c306f2d4e4c, GitHub와 일치) 미수정. 단일 의견이고 언급 종목(IREN 등)은 universe 밖이며 공식 근거가 없다. 시장 급락·선거 전 불확실성은 신규 Starter 크기·매수 타이밍을 줄이는 참고 신호로만 쓴다.
 - `trader-decision-journal.md`: 갱신 필요 없음.
 
 ## 3. 지금 실행할 액션 (제안, 주문 아님; `decision-latest.md` 기준)
@@ -17,6 +18,6 @@
 - 구체 수량은 `decision-latest.md` 참조.
 
 ## 4. 데이터 상태
-- Fanding 수집 OK, 분석 대기 0개. 공식 근거 기준일 2026-10-30, 가격은 03:02 KST 기준.
+- Fanding 수집 OK, 분석 대기 0개. 공식 근거 기준일 2026-10-30, 가격은 2026-10-31 14:42 KST 기준.
 - 다음 이벤트: PLTR·TEM 실적(다음 주), 미국 중간선거(KST 11/5 확인).
 - `desk validate` OK, `pytest` 통과.

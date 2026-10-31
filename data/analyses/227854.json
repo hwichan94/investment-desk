@@ -1,0 +1,98 @@
+{
+  "post_id": "227854",
+  "content_hash": "417d9b0011b37d244fc5540a0494c10a96e738b380bee1cdfbd9a4d8d6d1dc78",
+  "analyzed_at": "2026-10-31T15:30:00+09:00",
+  "title": "중간선거 직전 AI 블랙 프라이데이... 승부수",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "구글·인텔 실적 후 기술주가 다시 급락해 이번 주 반등분을 반납했고, 작성자는 중간선거 전 불확실성으로 자금이 빠지는 것이 유동성 긴축과 비슷하다고 본다. 가격이 아니라 기업 실적·방향성으로 가설을 검증하므로 AI 섹터 전망은 부정적이지 않다고 하며, 오라클 투자자의 날을 근거로 AI CapEx가 내년~내후년 피크 후 FCF가 흑자 전환할 것으로 본다. 본인은 비트코인 비중과 현금 일부를 줄여 아이렌·T1에너지·인플렉션·네비우스·코어위브·로켓랩 등을 분할 매수했다고 공유하나 매수 추천은 아니라고 선을 긋는다. 중간선거 후 1~2주는 추가 하락 가능성도 감수한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "인텔이 실적 발표 다음 날 하루 -28% 하락했다.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+      "evidence_note": "data/market/quotes.json(Yahoo, 2026-10-30 종가): INTC 86.96→65.76 = -24.4%. 방향·대폭 하락은 일치하나 -28%는 장중 또는 다른 기준일 가능성, 정확 수치 미확인. Q3 실적 보도자료(8-K Ex.99)는 official_research에 기록됨."
+    },
+    {
+      "kind": "FACT",
+      "text": "구글도 실적 후 급락했다.",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "evidence_note": "quotes.json: GOOG 317.28→278.22(-12.3%, 2026-10-30 종가). 10-Q(9/30 분기) 존재 확인. 하락 원인(검색 둔화)은 기존 분석 227810에서 10-Q로 확인됨."
+    },
+    {
+      "kind": "FACT",
+      "text": "오라클 투자자의 날에서 AI CapEx가 내년이나 내후년 피크 후 감소하고 FCF가 흑자로 전환될 것이라 들었다.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "기존 분석 227691에서 ORCL 투자자의 날(8-K 2026-10-28)의 FCF 흑자 시점·조달 상한($20B)을 확인. ORCL 한 회사의 계획이며 'AI 기업 전체 CapEx 피크'로의 일반화는 작성자 해석이라 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "헤지펀드의 주식 노출 축소가 2017년 이후 최대, 펀드매니저들이 'sell first, ask questions later'를 택하고 있다(블룸버그).",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식·1차 자료 아님. 이번 실행에서 확인 시도하지 않음(2차 보도 인용, 점수 영향 없음)."
+    },
+    {
+      "kind": "FACT",
+      "text": "아이렌 마이크로소프트 계약 $9.7B, 시총 약 $9.7B.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "IREN은 보유·후보 universe 밖이며 이번 실행에서 확인하지 않음. 작성자 개인 매매 공유로 thesis 반영 없음."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "중간선거 후 1~2주 뒤 관망 자금이 AI 섹터로 돌아온다. 그 전까지 추가 하락 가능.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-11-21"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "AI CapEx는 내년~내후년 피크 후 FCF·수익성이 부각된다.",
+      "tickers": [
+        "ORCL"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2028-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "실적에서 AI 섹터를 부정적으로 볼 근거는 없고 이번 미스는 AI에 더 집중하지 못해서 생겼다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "중간선거 전 자금 이탈은 빅스텝 금리인상과 비슷한 유동성 긴축 효과다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "INTC",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "-24%대 급락 사실만 가격 데이터로 확인. 하락 원인(실적·공장)은 글이 구체적 수치를 주지 않았고 thesis 판단은 공식 10-Q/보도자료 기반 기존 평가를 따른다. 가격 하락 자체는 매도·매수 사유가 아니다."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "시총 순위 변동 언급뿐, 공식 근거 추가 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 글은 작성자의 개인 매매 공유와 시장 심리 해석이며 단일 의견이다. IREN 등 언급 종목은 universe 밖이고 공식 근거가 없어 후보화하지 않는다. 시장 급락·중간선거 전 불확실성은 신규 Starter 크기와 매수 타이밍을 줄이는 신호로만 참고하고, 현금 5% 복원 우선 원칙은 유지한다."
+}

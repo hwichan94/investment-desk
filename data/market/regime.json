@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-31T07:21:45.397395+09:00",
+  "generated_at": "2026-10-31T14:42:41.272427+09:00",
   "as_of": "2026-10-30",
   "regime": "RISK_OFF",
   "score": -3,
@@ -30,11 +30,11 @@
     },
     "dollar": {
       "as_of": "2026-10-30",
-      "price": 101.963997,
-      "sma_20": 102.0562,
-      "sma_50": 100.81628,
-      "return_20d": 0.000334,
-      "reason": "Dollar index rising over 20 sessions (+0.0%)"
+      "price": 101.879997,
+      "sma_20": 102.052,
+      "sma_50": 100.8146,
+      "return_20d": -0.000491,
+      "reason": "Dollar index falling over 20 sessions (-0.0%)"
     },
     "qqq": {
       "as_of": "2026-10-30",
@@ -64,7 +64,7 @@
       "as_of": "2026-10-30",
       "price": 104.269997,
       "sma_20": 103.198,
-      "sma_50": 103.770658,
+      "sma_50": 103.770659,
       "return_20d": 0.023961,
       "reason": "lqd mixed or insufficient directional signal"
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-31T21:31:00.337270+09:00",
+  "generated_at": "2026-11-01T04:20:22.914302+09:00",
   "as_of": "2026-10-30",
   "regime": "RISK_OFF",
   "score": -3,
@@ -64,7 +64,7 @@
       "as_of": "2026-10-30",
       "price": 104.269997,
       "sma_20": 103.198,
-      "sma_50": 103.770659,
+      "sma_50": 103.770658,
       "return_20d": 0.023961,
       "reason": "lqd mixed or insufficient directional signal"
     },

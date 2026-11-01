@@ -1,0 +1,109 @@
+{
+  "post_id": "227962",
+  "content_hash": "bd005292e1458872d2bf60841c12c2e172aec851f599b65067d1acf7492fb009",
+  "analyzed_at": "2026-11-01T23:00:00+09:00",
+  "title": "미국 중간선거.",
+  "author": "T3chfeed_테크피드",
+  "summary": "11/3 미국 중간선거(KST 11/4 오후 윤곽)를 앞두고, 작성자는 민주당 상·하원 장악 시에도 트럼프 거부권이 남아 AI 인프라 투자가 당장 막히지는 않는다고 본다. 오히려 데이터센터의 전력·인허가·토지는 주·지방정부 결정이 좌우하며 정당과 무관하게 규제 부담이 커지는 추세라고 하고, 젠슨 황이 인허가를 최대 병목으로 꼽은 점과 연결해 블룸에너지·버티브를 수혜 아이디어로 언급한다. 역사적으로 중간선거 후 6개월 상승 확률이 높다는 통계와 이란 협상·군사 옵션 변수를 제시하며, 비중을 크게 바꾸지 않고 추가매수 여력을 남기며 코닝은 늘렸다고 공유한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "텍사스(공화당 주지사)가 전력망·수자원 문제로 신규 데이터센터 인허가를 중단시켰다.",
+      "tickers": [],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.kbtx.com/2026/09/22/abbott-pauses-data-center-permits-pending-water-power-review/",
+      "evidence_note": "웹 검색(2026-11-01): 8/3 그리드 연결 승인 중단, 9/21 TCEQ 데이터센터 허가 중단 지시, 감사 종료까지 유지. 범위는 ERCOT 승인 필요 대형 프로젝트 위주(KUT 보도)로 전면 금지는 아님. 지방 방송·로펌 보도로 정부 1차 문서는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "젠슨 황이 Bg2Pod 인터뷰에서 부지·전력·건물 인프라 확보를 확장의 핵심 장애로 꼽았다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.globaldatacenterhub.com/p/jensen-huang-says-the-chips-are-the",
+      "evidence_note": "2차 보도로 land/power/shell 병목 발언 확인. 정확한 원문 인용·'인허가' 표현은 트랜스크립트 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "1874년 이후 38차 중간선거 평균: 1개월 +0.5%, 3개월 +6.0%, 6개월 +10%, 12개월 +14%, 6개월 상승 87%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Motley Fool 2차 인용이며 공식·1차 자료 아님. 검색 시도에서 원자료 미확인. 판단 근거로 쓰지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "DeskHQ 설문 기준 민주당 상·하원 동시 장악 확률 61%, 하원 83%, 상원 63%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "설문 수치는 공식 자료가 아니며 확인하지 않음. 선거 결과는 KST 11/4~5 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "외신(FT·Foreign Policy 등)이 선거 후 트럼프의 대이란 강경 옵션 여지를 논평했고 루비오는 외교 우선·군사력 준비를 언급했다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "언론 논평 인용이며 이번 실행에서 확인 시도하지 않음. 지정학 시나리오는 포지션 크기·유가 점검 참고만."
+    },
+    {
+      "kind": "FACT",
+      "text": "작성자가 토요일 코닝(GLW) 포지션을 추가했다.",
+      "tickers": [
+        "GLW"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "작성자 개인 매매 공유. GLW는 universe 밖이고 검증 불가. 후보화하지 않음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "민주당 의회 장악이 AI 인프라 투자를 당장 막지는 않으며 핵심 변수는 주지사·지방정부의 전력·인허가다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "블룸에너지 온사이트 전력, 버티브의 전력밀도·냉각 효율이 인허가·전력 병목의 수혜 아이디어다.",
+      "tickers": [
+        "VRT"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "선거 후 6개월 증시는 상승 확률이 높으나 선거 직후 불확실성은 최고조다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2027-05-04"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "중간선거 후 트럼프는 이란에 대해 강경 대응 또는 협상 진전 중 하나로 움직일 여지가 커진다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2026-12-04"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "작성자가 병목 해소형 수혜 아이디어로 언급했으나 근거는 의견 수준. 텍사스 인허가 중단은 신규 데이터센터 착공 지연 위험(촉매 지연)이지만, 확인된 범위는 대형 신규 프로젝트 위주라 기존 thesis 변경은 없음. 기존 VRT 증액 계획의 분할·추격 금지 원칙 유지."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "인허가·전력 병목은 수요 감소가 아니라 배치 시점 지연 요인. 2차 보도만 확인되어 변경 근거 아님."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AI CAPEX 상관 테마 전반의 인프라 지연 위험으로만 참고. 공식 근거 추가 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 단일 의견이며 확인된 FACT는 텍사스 데이터센터 인허가 중단뿐으로 AI CAPEX 테마의 시점 지연 위험을 상기시킨다. 중간선거(KST 11/4~5)와 이란 변수는 신규 Starter 크기와 매수 타이밍을 줄이는 신호로만 참고하고, 현금 5% 복원 우선 원칙과 기존 분할 계획을 유지한다. 블룸에너지·코어위브 외 언급 종목(GLW 등)은 universe 밖이고 공식 근거가 없어 후보화하지 않는다."
+}

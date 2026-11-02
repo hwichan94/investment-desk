@@ -1,0 +1,72 @@
+{
+  "post_id": "228284",
+  "content_hash": "c72c3978b442f369c1e1b0306e9a5ed54a11a4abea1d83ae77e66dae4c73e38f",
+  "analyzed_at": "2026-11-03T07:00:00+09:00",
+  "title": "템퍼스 '26 3분기 실적 | 수익성이 눈에 보인다.",
+  "author": "T3chfeed_테크피드",
+  "summary": "템퍼스AI 3분기 실적 해설. 매출 $411.5M(+23%), 조정 EBITDA $25.6M으로 수익성이 개선됐고 Data & Apps가 가속하며 2027년 xT FDA 승인 단가 효과 약 $80M을 기대한다고 본다. 연간 가이던스는 유지(상향 없음), 유전성 암 부문은 부진하다고 지적한다. 주주서한의 '프론티어 모델 기업' 언급과 Personalis 인수(11/30 주총, 12월 완료 전망)·희석 우려를 핵심 관전 포인트로 제시한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "3분기 매출 $411.5M(+23% YoY), 조정 EBITDA $25.6M.",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526442619/tem-ex99_1.htm",
+      "evidence_note": "TEM 8-K EX-99.1(2026-11-02) 검색 결과 스니펫으로 확인(원문 sec.gov 직접 열람은 네트워크 제한으로 불가)."
+    },
+    {
+      "kind": "FACT",
+      "text": "종양학 검사량 +32%, 유전성 암 매출 +3%, Data & Apps +33%.",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526442619/tem-ex99_1.htm",
+      "evidence_note": "동일 8-K 검색 스니펫에서 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "연간 매출 가이던스 $1.600~1.605B 유지(상향 없음).",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "CONFLICT",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526442619/tem-ex99_1.htm",
+      "evidence_note": "검색 요약은 가이던스가 '상향'됐다고 서술. 글은 '유지'. 이전 가이던스 원문 비교 필요, 수치 범위 자체는 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "Non-GAAP EPS +$0.07, 컨센서스 -$0.09, 주식보상비용 $48.1M, MRD 12,000건, xT $80M, Personalis 일정.",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "SEC 원문 접근 불가로 미확인(www.sec.gov 도메인 허용 필요)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "주주서한의 프론티어 모델 기업 언급은 대형 고객과의 연결고리를 시사한다.",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "Personalis 주총 통과 후 12월 인수 완료.",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-31"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "TEM"
+  ],
+  "portfolio_implication": "변경 없음. TEM은 universe 밖 후보이며, 보유 종목 대비 우위·희석(Personalis 인수)·가이던스 방향이 확인되지 않아 신규 편입 근거 부족. 단일 의견글로 비중을 바꾸지 않는다."
+}

@@ -711,6 +711,17 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-02",
+      "report_date": "2026-11-02",
+      "accession": "0001321655-26-000045",
+      "path": "data/market/docs/PLTR/2026-11-02-8-K-0001321655-26-000045.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+      ],
+      "chars": 23774
+    },
+    {
+      "form": "8-K",
       "filed": "2026-08-03",
       "report_date": "2026-08-03",
       "accession": "0001321655-26-000039",
@@ -736,17 +747,6 @@
         "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm"
       ],
       "chars": 22081
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-02-02",
-      "report_date": "2026-02-02",
-      "accession": "0001321655-26-000004",
-      "path": "data/market/docs/PLTR/2026-02-02-8-K-0001321655-26-000004.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/a2025q4ex991earningsrelease.htm"
-      ],
-      "chars": 24354
     }
   ],
   "TSLA": [

@@ -1,0 +1,63 @@
+{
+  "summary": "선거 슈퍼위크 전 시황 정리. 10월 AI 섹터 하락을 이란 협상 실패, 중간선거 헤지, 매수세 실종, 강제청산이 겹친 결과로 보고 선거 후 불확실성 해소를 기대한다. 이스라엘 야당 아이젠코트의 연정 가능성 상승, 네오클라우드 옥석 가리기(머스크 발언), 주지사 선거 중심 데이터센터 모라토리엄 위험(36개 주 중 21개 주 후보 지지 주장), 오픈AI 조달 목표 하향, 바이낸스 63억달러 해킹을 다룬다. 작성자는 지금 액션을 취할 상황은 아니라고 본다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 200억달러로 낮췄다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 없음(비상장). 보도 인용 수준이며 검증 시도 결과 확인 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국 주지사 선거 36개 주 중 21개 주에서 최소 한 후보가 데이터센터 모라토리엄을 지지한다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "출처 미제시. 선거 후보 공약 집계는 공식 자료로 확인 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "네오클라우드 업체가 200개 이상(536개 통계)이며 머스크가 통폐합을 예상했다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "머스크 발언 인용은 SNS 단독 근거. 개수는 기준 의존."
+    },
+    {
+      "kind": "FACT",
+      "text": "바이낸스에서 63억달러 해킹이 발생했고 30억달러는 동결됐다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보유·후보와 무관한 크립토 사건. 확인하지 않음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "모라토리엄은 기존 인허가 보유 사업자에게 가격결정력 호재가 될 수 있다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "자금조달 우려와 옥석 가리기는 서사 수준. CRWV는 target 0% 관찰 상태이며 자동 Relative Momentum WEAK."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "모라토리엄은 데이터센터 전력·냉각 수요의 시점 지연 위험이나 구체 근거 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 선거·모라토리엄 불확실성은 AI CAPEX 시점 지연 위험으로 기록하고 신규 Starter 크기와 매수 타이밍을 줄이는 참고만 한다. 블룸에너지·네비우스·아이렌은 공식 근거 없어 후보화하지 않는다.",
+  "post_id": "228198",
+  "content_hash": "de6eac66a12974d70bfcc9d6fabca3ddc3edade2f7135d697cc980a8ef2c6e3f",
+  "analyzed_at": "2026-11-02T22:20:00+09:00",
+  "title": "선거 슈퍼위크, 남아있는 부정적 내러티브를 살펴보자!",
+  "author": "세상학개론 - 한정수 작가"
+}

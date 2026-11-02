@@ -1,0 +1,60 @@
+{
+  "summary": "11/1 유튜브 라이브 정리본. 인텔이 실적 후 약 28~30% 폭락(1971년 이후 최대 낙폭 언급)한 배경으로 가이던스 하향과 공장 사고를 든다. 중간선거 전에는 매수세 유입이 어렵고 11월 중순에야 방향이 정해질 것이라 보며, 작성자는 인텔을 추가매수·매도 없이 보유한다고 한다. 이스라엘 연정 구도와 이란 공습 위험, 네오클라우드(아이렌 vs 코어위브), 광통신 밸류에이션 등 Q&A 중심이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "인텔 공장에서 실제 사고가 발생했고 인텔이 실적 후 큰 폭락했다.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "evidence_note": "INTC 10-Q(2026-10-30): 10월 중순 Kiryat Gat 공장 사고로 사상자·가동 중단, 4Q26~2027 상반기 제조원가·총이익 악영향 명시. 주가 낙폭 -28~30%는 글 주장이며 quotes로 별도 확인 대상."
+    },
+    {
+      "kind": "FACT",
+      "text": "인텔 다음 분기 가이던스가 하향됐다.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "evidence_note": "10-Q 공장 사고 영향 경고는 확인. 구체 가이던스 수치는 8-K 보도자료 원문(path 없음)이 없어 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 하향했다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "228198 동일 주장. 공식 자료 없음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "중간선거 전에는 대규모 매수세 유입이 어렵다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "11월 중순 이후 시장이 방향을 정해 특정 섹터 상승.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "INTC",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "공장 사고는 10-Q로 확인된 실질 악재(4Q26~1H27 원가 영향). 현재 target 2%의 소형 포지션이며 추정 불가 영향이라 점수 변경은 공식 실적 검토 후 별도."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. INTC 10-Q 사고 공시는 별도 공식 근거 검토 대상으로 남기고 점수는 단일 의견글로 바꾸지 않는다.",
+  "post_id": "228196",
+  "content_hash": "4461fa646d37a7c829201d0312720689c8c773f2ec1063f3009aa92a63b44e88",
+  "analyzed_at": "2026-11-02T22:20:00+09:00",
+  "title": "🎓10월 5주차 유튜브 라이브(11.01)",
+  "author": "세상학개론 - 한정수 작가"
+}

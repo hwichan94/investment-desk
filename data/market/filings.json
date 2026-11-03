@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T15:48:44.570073+09:00",
+  "fetched_at": "2026-11-04T02:05:00.392769+09:00",
   "filings": {
     "AMZN": [
       {
@@ -736,6 +736,14 @@
     "ETN": [
       {
         "form": "8-K",
+        "filed": "2026-11-03",
+        "report_date": "2026-11-03",
+        "cik": "0001551182",
+        "accession": "0001551182-26-000037",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn-20261103.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-10-16",
         "report_date": "2026-10-16",
         "cik": "0001551182",
@@ -845,14 +853,6 @@
         "cik": "0001551182",
         "accession": "0001551182-26-000002",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000002/etn-20260203.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-01-26",
-        "report_date": "2026-01-26",
-        "cik": "0001551182",
-        "accession": "0001140361-26-002286",
-        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126002286/ef20063889_8k.htm"
       }
     ],
     "GOOG": [
@@ -1345,6 +1345,14 @@
     ],
     "PLTR": [
       {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "report_date": "2026-09-30",
+        "cik": "0001321655",
+        "accession": "0001321655-26-000048",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-11-02",
         "report_date": "2026-11-02",
@@ -1455,14 +1463,6 @@
         "cik": "0001321655",
         "accession": "0001321655-25-000066",
         "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000066/pltr-20250331.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-05-05",
-        "report_date": "2025-05-05",
-        "cik": "0001321655",
-        "accession": "0001321655-25-000063",
-        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/pltr-20250505.htm"
       }
     ],
     "TSLA": [

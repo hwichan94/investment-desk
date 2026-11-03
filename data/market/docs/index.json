@@ -386,6 +386,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-03",
+      "accession": "0001551182-26-000037",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-10-16",
       "accession": "0001551182-26-000034",
       "path": null
@@ -401,17 +407,6 @@
       "filed": "2026-07-31",
       "accession": "0001551182-26-000027",
       "path": null
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-06-11",
-      "report_date": "2026-06-10",
-      "accession": "0000950142-26-001733",
-      "path": "data/market/docs/ETN/2026-06-11-8-K-0000950142-26-001733.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_ex9901.htm"
-      ],
-      "chars": 21744
     }
   ],
   "FLNC": [
@@ -689,23 +684,23 @@
   "PLTR": [
     {
       "form": "10-Q",
+      "filed": "2026-11-03",
+      "report_date": "2026-09-30",
+      "accession": "0001321655-26-000048",
+      "path": "data/market/docs/PLTR/2026-11-03-10-Q-0001321655-26-000048.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
+      ],
+      "chars": 400094
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-08-04",
       "report_date": "2026-06-30",
       "accession": "0001321655-26-000041",
       "path": "data/market/docs/PLTR/2026-08-04-10-Q-0001321655-26-000041.txt",
       "sources": [
         "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm"
-      ],
-      "chars": 400094
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-05-05",
-      "report_date": "2026-03-31",
-      "accession": "0001321655-26-000028",
-      "path": "data/market/docs/PLTR/2026-05-05-10-Q-0001321655-26-000028.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm"
       ],
       "chars": 400094
     },

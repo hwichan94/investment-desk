@@ -1,0 +1,84 @@
+{
+  "post_id": "228422",
+  "content_hash": "3fcc362db4396249ba4a4caad20aa77579b6650412b64e17be147be2fa4ef12b",
+  "analyzed_at": "2026-11-03T17:00:00+09:00",
+  "title": "어닝 서프라이즈! 팔란티어와 애플도 피해가지 못한 중간선거 조정",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "중간선거 D-1 약세장에서 PLTR(-5%)과 애플이 실적 호조에도 하락했다는 시황 글. PLTR은 매출 +96%, 상업 매출이 처음 정부를 넘어선 점, 가이던스 상향을 강조하고, 애플은 메모리 원가 상승으로 다음 분기 마진이 하락할 전망이라 본다. 미국-이란 협상 교착과 홍콩 금융서밋 월가 CEO 발언(AI 조정은 건전, 옥석 가리기)을 정리한다. 저자는 PLTR 보유 물량이 거의 없다고 밝힌다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "PLTR 3Q 매출 $2.31B(예상 $2.18B), 주당순이익 $0.44(예상 $0.41).",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "evidence_note": "매출 $2.313B, GAAP/조정 EPS $0.44 확인. 컨센서스는 보도자료에 없어 UNVERIFIED."
+    },
+    {
+      "kind": "FACT",
+      "text": "상업 매출 $984M(+148%)이 처음 정부 매출 $953M을 넘어섬.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "evidence_note": "원문은 U.S. commercial/government 기준이며 글의 '상업'은 미국 상업임."
+    },
+    {
+      "kind": "FACT",
+      "text": "PLTR이 연간 가이던스를 상향했다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "evidence_note": "FY26 매출 $8.530~8.534B, 조정 영업이익, 조정 FCF, 미국 상업 가이던스 상향."
+    },
+    {
+      "kind": "FACT",
+      "text": "PLTR 주가 실적 발표 후 약 -5% 하락.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "가격 반응은 공식 자료 아님. data/market/quotes.json 확인 필요."
+    },
+    {
+      "kind": "FACT",
+      "text": "애플 매출 +12%, 아이폰 +17%, 마진율 47.9%→다음 분기 45~46% 전망.",
+      "tickers": [
+        "AAPL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "AAPL은 추적 대상이 아니라 원문 미확보."
+    },
+    {
+      "kind": "OPINION",
+      "text": "중간선거 이후에야 이란 협상과 시장 불확실성이 정리될 것이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "메모리 공급 부족이 지속돼 빅테크가 애플보다 우위다.",
+      "tickers": [
+        "MU",
+        "AAPL"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "실적·가이던스 상향은 공식 자료로 확인됨. 주가 하락은 매크로/선거 이벤트 해석으로 thesis 훼손 근거가 아님."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 단기 가격 하락은 단독 매도·추가매수 사유가 아니며 PLTR Core 보유 유지. 선거 전후 변동성은 신규 Tactical 크기 조절 요인."
+}

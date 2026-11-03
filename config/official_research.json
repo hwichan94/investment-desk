@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-03",
   "sources": [
     {
       "source_id": "tsla-q2-update",
@@ -150,6 +150,16 @@
       "reliability": 0.98,
       "published_at": "2026-10-29",
       "accessed_at": "2026-10-30"
+    },
+    {
+      "source_id": "pltr-q3-pr",
+      "ticker": "PLTR",
+      "title": "Palantir Q3 2026 earnings press release (8-K EX-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_type": "SEC filing",
+      "reliability": 1.0,
+      "published_at": "2026-11-02",
+      "accessed_at": "2026-11-03"
     }
   ],
   "companies": [
@@ -343,6 +353,37 @@
             "TCV",
             "RDV",
             "옵션",
+            "매출 전환"
+          ]
+        },
+        {
+          "evidence_id": "pltr-e4",
+          "stance": "SUPPORTING",
+          "statement": "2026년 3분기 매출은 23.13억달러로 전년 대비 96% 성장했고 미국 상업 매출은 9.84억달러(+148%)로 처음 미국 정부 매출(9.53억달러)을 넘어섰다. FY2026 매출 가이던스는 85.30~85.34억달러로, 조정 영업이익은 52.45~52.49억달러로, 조정 FCF는 48~50억달러로 상향됐다.",
+          "source_ids": [
+            "pltr-q3-pr"
+          ],
+          "keywords": [
+            "매출",
+            "성장",
+            "상업",
+            "가이던스",
+            "상향"
+          ]
+        },
+        {
+          "evidence_id": "pltr-e5",
+          "stance": "CONTRADICTING",
+          "statement": "3분기 TCV는 29.18억달러로 전년 대비 6% 증가에 그쳐 매출 성장(+96%)과 격차가 크다. 조정 FCF 마진은 2분기 63%에서 3분기 53%로 낮아졌다.",
+          "source_ids": [
+            "pltr-q3-pr",
+            "pltr-q2-update"
+          ],
+          "keywords": [
+            "TCV",
+            "계약",
+            "마진",
+            "현금흐름",
             "매출 전환"
           ]
         }

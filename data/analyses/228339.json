@@ -1,0 +1,85 @@
+{
+  "post_id": "228339",
+  "content_hash": "5d40b287c9123094bfb2418912b487d2c44ef1d55dac948a8037b90ac3b26d97",
+  "analyzed_at": "2026-11-03T17:00:00+09:00",
+  "title": "팔란티어 3분기 실적",
+  "author": "T3chfeed_테크피드",
+  "summary": "PLTR 3분기 실적 해설. 매출 +96%, Rule of 40 158을 인정하면서도 미국 비중이 74.8%→83.7%로 커진 점(해외 성장 미검증)과 신규 계약가치 +6%에 그친 점을 핵심 관전 포인트로 꼽는다. 후자는 기존 고객 내 확장으로 긍정 해석하고, 미국 상업 침투율은 5% 미만(고객 686곳/잠재 3만 곳)으로 본다. 10-Q 확인 전이라는 단서를 달고 PER 하락을 근거로 실적이 주가를 따라갈 것으로 본다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "매출 전년 대비 +96%, Rule of 40 158.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "evidence_note": "8-K EX-99.1: 매출 $2.313B(+96%), Rule of 40 158%."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국 매출 비중이 전년 74.8%에서 83.7%로 확대.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "evidence_note": "3분기 미국 매출 $1.937B/총 $2.313B=83.7%, 미국 +119% 성장 역산 시 전년 비중 약 75%로 방향·수준 일치. 전년 수치 원문 직접 대조는 안 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "신규 계약가치(TCV) 전년 대비 +6% 성장.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "evidence_note": "TCV $2.918B, 전년 대비 +6%. 미국 상업 TCV는 +11%."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국 상업 고객 수 686곳.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보도자료에 고객 수 없음. 투자자 프레젠테이션/10-Q 미확인(10-Q 아직 미공시)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "TCV 저성장은 기존 고객 내 확장 전략의 결과로 긍정 해석 가능하다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "미국 상업 시장 침투율은 5% 미만으로 성장 여력이 크다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "해외 확산 기대가 붙어야 주가 상승이 가능하며 PER 하락 시 주가가 실적을 따라간다.",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-03-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "공식 실적·가이던스 상향은 기존 thesis를 확인하는 수준. 글이 지적한 TCV +6%와 미국 편중은 매출 전환 리스크 모니터링 항목(기존 무효화 신호와 일치)."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. PLTR 목표 33%(Core 30+Tactical 3%) 유지. 다음 분기 TCV/RDV 전환율과 해외 매출 성장을 KPI로 확인."
+}

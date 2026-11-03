@@ -84,6 +84,17 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-03",
+      "report_date": "2026-11-03",
+      "accession": "0001596532-26-000252",
+      "path": "data/market/docs/ANET/2026-11-03-8-K-0001596532-26-000252.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/ex991q326-earningsrelease.htm"
+      ],
+      "chars": 19652
+    },
+    {
+      "form": "8-K",
       "filed": "2026-08-04",
       "report_date": "2026-08-04",
       "accession": "0001596532-26-000174",
@@ -109,17 +120,6 @@
         "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000074/ex991q126-earningsrelease.htm"
       ],
       "chars": 18318
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-02-12",
-      "report_date": "2026-02-12",
-      "accession": "0001596532-26-000010",
-      "path": "data/market/docs/ANET/2026-02-12-8-K-0001596532-26-000010.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/ex991q425-earningsrelease.htm"
-      ],
-      "chars": 23113
     }
   ],
   "AVGO": [
@@ -364,6 +364,17 @@
   "ETN": [
     {
       "form": "10-Q",
+      "filed": "2026-11-03",
+      "report_date": "2026-09-30",
+      "accession": "0001551182-26-000040",
+      "path": "data/market/docs/ETN/2026-11-03-10-Q-0001551182-26-000040.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm"
+      ],
+      "chars": 128670
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-07-31",
       "report_date": "2026-06-30",
       "accession": "0001551182-26-000030",
@@ -372,17 +383,6 @@
         "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000030/etn-20260630.htm"
       ],
       "chars": 118462
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-05-05",
-      "report_date": "2026-03-31",
-      "accession": "0001551182-26-000013",
-      "path": "data/market/docs/ETN/2026-05-05-10-Q-0001551182-26-000013.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm"
-      ],
-      "chars": 104832
     },
     {
       "form": "8-K",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T02:05:00.392769+09:00",
+  "fetched_at": "2026-11-04T08:25:14.293258+09:00",
   "filings": {
     "AMZN": [
       {
@@ -125,6 +125,14 @@
     ],
     "ANET": [
       {
+        "form": "8-K",
+        "filed": "2026-11-03",
+        "report_date": "2026-11-03",
+        "cik": "0001596532",
+        "accession": "0001596532-26-000252",
+        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/anet-20261103.htm"
+      },
+      {
         "form": "10-Q",
         "filed": "2026-08-05",
         "report_date": "2026-06-30",
@@ -235,14 +243,6 @@
         "cik": "0001596532",
         "accession": "0001596532-25-000148",
         "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000148/anet-20250530.htm"
-      },
-      {
-        "form": "10-Q",
-        "filed": "2025-05-07",
-        "report_date": "2025-03-31",
-        "cik": "0001596532",
-        "accession": "0001596532-25-000106",
-        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000106/anet-20250331.htm"
       }
     ],
     "AVGO": [
@@ -735,6 +735,14 @@
     ],
     "ETN": [
       {
+        "form": "10-Q",
+        "filed": "2026-11-03",
+        "report_date": "2026-09-30",
+        "cik": "0001551182",
+        "accession": "0001551182-26-000040",
+        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-11-03",
         "report_date": "2026-11-03",
@@ -845,14 +853,6 @@
         "cik": "0001551182",
         "accession": "0001140361-26-004227",
         "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126004227/ef20064951_8k.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-02-03",
-        "report_date": "2026-02-03",
-        "cik": "0001551182",
-        "accession": "0001551182-26-000002",
-        "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000002/etn-20260203.htm"
       }
     ],
     "GOOG": [

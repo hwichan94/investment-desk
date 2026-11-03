@@ -44,7 +44,8 @@
         "PLTR"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "보도자료에 고객 수 없음. 투자자 프레젠테이션/10-Q 미확인(10-Q 아직 미공시)."
+      "evidence_note": "10-Q(2026-11-03) 확인: 전체 고객 1,090곳(전년 911곳, TTM 매출 인식 기준). 미국 상업 고객 686곳은 10-Q에 별도 표기 없어 여전히 미확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm"
     },
     {
       "kind": "OPINION",

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-04T02:05:09.378377+09:00",
+  "generated_at": "2026-11-04T04:08:48.241434+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -749,6 +749,120 @@
   },
   "recent_analyses": [
     {
+      "post_id": "227812",
+      "analyzed_at": "2026-11-04T03:00:00+09:00",
+      "title": "알레그로 '26 3분기 실적 | 하락의 이유는 확실, 그러나 투자 이유는 살아있다.",
+      "author": "T3chfeed_테크피드",
+      "summary": "ALGM 26년 3분기(회계 FY27 2Q) 실적 해설. 매출·EPS는 컨센서스를 상회하고 비수기인 4분기 성장 가이던스를 냈으나, 데이터센터 매출이 전분기 대비 3% 증가에 그쳐 하이퍼스케일러 800V 프로그램 1~2분기 지연이 부각돼 주가가 부진하다고 설명한다. 전류센서 신규 설계 채택은 전분기 대비 2배 이상 늘었고 중국 휴머노이드 업체 채택이 추가됐다는 점을 근거로 투자 논리(전기차 기반+데이터센터+휴머노이드 옵션)는 유지된다고 본다. 밸류에이션은 PER 약 200배/선행 약 36배로 데이터센터 관점에선 비싸고 휴머노이드 관점에선 합리적이라는 양면 평가이며, 데이터센터 매출 본격화는 2027년, 휴머노이드는 2028년 이후로 전망한다.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "매출 $276.88M(예상 $270.86M 대비 +2.2%), 전년 대비 큰 폭 성장.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm",
+          "evidence_note": "공식 8-K EX-99.1 제목: 2Q 매출 전년 대비 +29%, $277M(웹검색 요약으로 확인, sec.gov 직접 열람은 네트워크 제한으로 불가). 컨센서스 수치는 비공식.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "Non-GAAP EPS $0.26으로 예상 상회, 전년 대비 증가.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm",
+          "evidence_note": "검색 결과상 8-K 보도자료의 Non-GAAP EPS $0.26(전년 대비 2배). 컨센서스 $0.244는 비공식 수치.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "4분기(계절적 비수기) 성장 가이던스 제시.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm",
+          "evidence_note": "검색 결과상 3분기(12/25 종료) 매출 가이던스 $278M~$288M, 직전 분기 $277M 대비 상승.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "데이터센터 매출 $46M, 전년 대비 +150%, 전분기 대비 +3%.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "보도자료는 '데이터센터 분기 기록'만 확인되고 $46M 수치는 검색으로 확인 못 함. 이전 분기 약 $44M(17% 비중 기반 산술 추정)과 대조하면 개연성은 있으나 미검증.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "하이퍼스케일러 800V 전력 시스템 프로그램이 1~2분기 지연됐다고 회사가 언급.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "실적 콜 녹취를 열람하지 못함. 보도자료에는 지연 언급이 확인되지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "데이터센터 전류센서 신규 설계 채택이 전분기 대비 2배 이상 증가, 중국 휴머노이드 업체 채택.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm",
+          "evidence_note": "보도자료 인용: 'IPO 이후 최고 분기 design win, 전년 대비 약 +40%', 데이터센터 기록. '2배 이상'과 휴머노이드 건은 콜 녹취 필요.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "PER 약 200배, 선행 PER 약 36배.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료가 아닌 시장 데이터 기반 수치. 가격 데이터는 추적 대상이 아님.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "데이터센터 매출은 2027년, 휴머노이드는 2028년부터 본격 반영.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "채점 시점: 2027-12 / 2028-12.",
+          "due": "2027-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "시장 센티멘트 악화로 지연 악재가 과대 반영되었고 투자 논리는 유효하다.",
+          "tickers": [
+            "ALGM"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [
+        "ALGM"
+      ],
+      "portfolio_implication": "변경 없음. ALGM은 universe 밖 종목이며 AI CAPEX 노출이 기존 보유(AVGO·VRT·ETN 등)와 겹친다. 데이터센터 매출 지연 신호와 PER 약 200배는 편입 근거가 약하다. 아이디어 요청이 오면 그때 신규 후보로 평가."
+    },
+    {
       "post_id": "228339",
       "analyzed_at": "2026-11-03T17:00:00+09:00",
       "title": "팔란티어 3분기 실적",
@@ -1023,6 +1137,158 @@
       "portfolio_implication": "변경 없음. TEM은 universe 밖 후보이며, 보유 종목 대비 우위·희석(Personalis 인수)·가이던스 방향이 확인되지 않아 신규 편입 근거 부족. 단일 의견글로 비중을 바꾸지 않는다."
     },
     {
+      "post_id": "228196",
+      "analyzed_at": "2026-11-02T22:20:00+09:00",
+      "title": "🎓10월 5주차 유튜브 라이브(11.01)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "11/1 유튜브 라이브 정리본. 인텔이 실적 후 약 28~30% 폭락(1971년 이후 최대 낙폭 언급)한 배경으로 가이던스 하향과 공장 사고를 든다. 중간선거 전에는 매수세 유입이 어렵고 11월 중순에야 방향이 정해질 것이라 보며, 작성자는 인텔을 추가매수·매도 없이 보유한다고 한다. 이스라엘 연정 구도와 이란 공습 위험, 네오클라우드(아이렌 vs 코어위브), 광통신 밸류에이션 등 Q&A 중심이다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "인텔 공장에서 실제 사고가 발생했고 인텔이 실적 후 큰 폭락했다.",
+          "tickers": [
+            "INTC"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+          "evidence_note": "INTC 10-Q(2026-10-30): 10월 중순 Kiryat Gat 공장 사고로 사상자·가동 중단, 4Q26~2027 상반기 제조원가·총이익 악영향 명시. 주가 낙폭 -28~30%는 글 주장이며 quotes로 별도 확인 대상.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "인텔 다음 분기 가이던스가 하향됐다.",
+          "tickers": [
+            "INTC"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+          "evidence_note": "10-Q 공장 사고 영향 경고는 확인. 구체 가이던스 수치는 8-K 보도자료 원문(path 없음)이 없어 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 하향했다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "228198 동일 주장. 공식 자료 없음.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "중간선거 전에는 대규모 매수세 유입이 어렵다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "11월 중순 이후 시장이 방향을 정해 특정 섹터 상승.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "공장 사고는 10-Q로 확인된 실질 악재(4Q26~1H27 원가 영향). 현재 target 2%의 소형 포지션이며 추정 불가 영향이라 점수 변경은 공식 실적 검토 후 별도."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. INTC 10-Q 사고 공시는 별도 공식 근거 검토 대상으로 남기고 점수는 단일 의견글로 바꾸지 않는다."
+    },
+    {
+      "post_id": "227314",
+      "analyzed_at": "2026-11-02T22:20:00+09:00",
+      "title": "예측시장도 못 맞추는 이스라엘 선거, 투자 영향은?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "이스라엘 총선 개표 중 출구조사 기준 리쿠드가 제1당(27석)이나 61석 연정 구성은 불확실하고 아랍계 정당이 킹메이커라는 정리다. 트럼프가 중간선거 전 이란 타격을 안 하겠다고 했으므로 11/4~1/3이 이란 전쟁 심화의 마지막 위험 구간이라고 본다. SK하이닉스 3Q 실적 서프라이즈로 AI 수익성 의구심이 풀리고 메모리는 사이클 산업이 아니라는 견해를 낸다. 연말 전쟁 우려 완화·금리 안정 시 AI 섹터 반등 가능성을 언급한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "SK하이닉스 3분기 매출 약 788억달러·영업이익 약 628억달러(영업이익률 약 80%)로 컨센서스를 상회했다.",
+          "tickers": [],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil",
+          "evidence_note": "웹 검색(2026-11-02): 잠정 매출 104.6조원·영업이익 83.3조원, 영업이익률 약 80%, FnGuide 컨센서스 상회 보도 확인. 비감사 잠정치. 원/달러 환산은 글 수치와 근사.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "HBM/DRAM 2029년분 사실상 완판, 2027-28 캐파 50% 이상 법적 구속력 장기계약.",
+          "tickers": [
+            "AVGO",
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 근거 미확인. 개인 견해와 섞인 서술.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "이스라엘 출구조사에서 리쿠드 27석 제1당, 아이젠코트 21석.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "정치 이벤트로 공식 투자자료 대상 아님. 11/4 공식 결과로 확인.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "메모리는 더 이상 순수 사이클 산업이 아니다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "11/4~내년 1/3이 이란 전쟁 심화의 마지막 위험 구간.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "연말 전쟁 우려 완화·금리 안정 시 AI 섹터가 산타랠리 최대 수혜.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "AVGO",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "HBM/메모리 수요 확인은 AI CAPEX thesis에 우호적이나 직접 사업 데이터는 아님."
+        },
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "하이닉스 실적은 AI 수요 간접 신호. 단일 의견 글이라 점수 변경 사유 아님."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 지정학 이벤트(이란·선거) 변동성은 신규 Starter 크기와 매수 타이밍을 줄이는 참고로만 쓴다. 메모리 업황 확인은 AI CAPEX 집중 보유(상관집중)를 정당화하지만 추가 노출 사유는 아니다."
+    },
+    {
       "post_id": "227691",
       "analyzed_at": "2026-11-02T22:20:00+09:00",
       "title": "🐹 AI 정리본: 지난 시장과 다가올 연말",
@@ -1109,75 +1375,6 @@
       "portfolio_implication": "변경 없음. 오라클 공식 가이던스는 AI CAPEX 자금조달 위험 완화 신호지만 포트폴리오는 이미 AI CAPEX 상관집중이 높아 현금 5% 복원과 기존 분할 계획을 유지한다."
     },
     {
-      "post_id": "228196",
-      "analyzed_at": "2026-11-02T22:20:00+09:00",
-      "title": "🎓10월 5주차 유튜브 라이브(11.01)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "11/1 유튜브 라이브 정리본. 인텔이 실적 후 약 28~30% 폭락(1971년 이후 최대 낙폭 언급)한 배경으로 가이던스 하향과 공장 사고를 든다. 중간선거 전에는 매수세 유입이 어렵고 11월 중순에야 방향이 정해질 것이라 보며, 작성자는 인텔을 추가매수·매도 없이 보유한다고 한다. 이스라엘 연정 구도와 이란 공습 위험, 네오클라우드(아이렌 vs 코어위브), 광통신 밸류에이션 등 Q&A 중심이다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "인텔 공장에서 실제 사고가 발생했고 인텔이 실적 후 큰 폭락했다.",
-          "tickers": [
-            "INTC"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
-          "evidence_note": "INTC 10-Q(2026-10-30): 10월 중순 Kiryat Gat 공장 사고로 사상자·가동 중단, 4Q26~2027 상반기 제조원가·총이익 악영향 명시. 주가 낙폭 -28~30%는 글 주장이며 quotes로 별도 확인 대상.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "인텔 다음 분기 가이던스가 하향됐다.",
-          "tickers": [
-            "INTC"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
-          "evidence_note": "10-Q 공장 사고 영향 경고는 확인. 구체 가이던스 수치는 8-K 보도자료 원문(path 없음)이 없어 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 하향했다.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "228198 동일 주장. 공식 자료 없음.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "중간선거 전에는 대규모 매수세 유입이 어렵다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11월 중순 이후 시장이 방향을 정해 특정 섹터 상승.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "WEAKEN",
-          "magnitude": "LOW",
-          "rationale": "공장 사고는 10-Q로 확인된 실질 악재(4Q26~1H27 원가 영향). 현재 target 2%의 소형 포지션이며 추정 불가 영향이라 점수 변경은 공식 실적 검토 후 별도."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. INTC 10-Q 사고 공시는 별도 공식 근거 검토 대상으로 남기고 점수는 단일 의견글로 바꾸지 않는다."
-    },
-    {
       "post_id": "228198",
       "analyzed_at": "2026-11-02T22:20:00+09:00",
       "title": "선거 슈퍼위크, 남아있는 부정적 내러티브를 살펴보자!",
@@ -1249,89 +1446,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 선거·모라토리엄 불확실성은 AI CAPEX 시점 지연 위험으로 기록하고 신규 Starter 크기와 매수 타이밍을 줄이는 참고만 한다. 블룸에너지·네비우스·아이렌은 공식 근거 없어 후보화하지 않는다."
-    },
-    {
-      "post_id": "227314",
-      "analyzed_at": "2026-11-02T22:20:00+09:00",
-      "title": "예측시장도 못 맞추는 이스라엘 선거, 투자 영향은?",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "이스라엘 총선 개표 중 출구조사 기준 리쿠드가 제1당(27석)이나 61석 연정 구성은 불확실하고 아랍계 정당이 킹메이커라는 정리다. 트럼프가 중간선거 전 이란 타격을 안 하겠다고 했으므로 11/4~1/3이 이란 전쟁 심화의 마지막 위험 구간이라고 본다. SK하이닉스 3Q 실적 서프라이즈로 AI 수익성 의구심이 풀리고 메모리는 사이클 산업이 아니라는 견해를 낸다. 연말 전쟁 우려 완화·금리 안정 시 AI 섹터 반등 가능성을 언급한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "SK하이닉스 3분기 매출 약 788억달러·영업이익 약 628억달러(영업이익률 약 80%)로 컨센서스를 상회했다.",
-          "tickers": [],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil",
-          "evidence_note": "웹 검색(2026-11-02): 잠정 매출 104.6조원·영업이익 83.3조원, 영업이익률 약 80%, FnGuide 컨센서스 상회 보도 확인. 비감사 잠정치. 원/달러 환산은 글 수치와 근사.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "HBM/DRAM 2029년분 사실상 완판, 2027-28 캐파 50% 이상 법적 구속력 장기계약.",
-          "tickers": [
-            "AVGO",
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 근거 미확인. 개인 견해와 섞인 서술.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "이스라엘 출구조사에서 리쿠드 27석 제1당, 아이젠코트 21석.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "정치 이벤트로 공식 투자자료 대상 아님. 11/4 공식 결과로 확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "메모리는 더 이상 순수 사이클 산업이 아니다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11/4~내년 1/3이 이란 전쟁 심화의 마지막 위험 구간.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "연말 전쟁 우려 완화·금리 안정 시 AI 섹터가 산타랠리 최대 수혜.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "HBM/메모리 수요 확인은 AI CAPEX thesis에 우호적이나 직접 사업 데이터는 아님."
-        },
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "하이닉스 실적은 AI 수요 간접 신호. 단일 의견 글이라 점수 변경 사유 아님."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 지정학 이벤트(이란·선거) 변동성은 신규 Starter 크기와 매수 타이밍을 줄이는 참고로만 쓴다. 메모리 업황 확인은 AI CAPEX 집중 보유(상관집중)를 정당화하지만 추가 노출 사유는 아니다."
     },
     {
       "post_id": "228018",
@@ -1591,6 +1705,7 @@
     }
   ],
   "new_candidates": [
+    "ALGM",
     "TEM"
   ],
   "report_paths": {

@@ -1,0 +1,101 @@
+{
+  "post_id": "227812",
+  "content_hash": "3c3059a9f8702bac87485ed3d3e5ddca608986ace0231db1f5f72a0891744542",
+  "analyzed_at": "2026-11-04T03:00:00+09:00",
+  "title": "알레그로 '26 3분기 실적 | 하락의 이유는 확실, 그러나 투자 이유는 살아있다.",
+  "author": "T3chfeed_테크피드",
+  "summary": "ALGM 26년 3분기(회계 FY27 2Q) 실적 해설. 매출·EPS는 컨센서스를 상회하고 비수기인 4분기 성장 가이던스를 냈으나, 데이터센터 매출이 전분기 대비 3% 증가에 그쳐 하이퍼스케일러 800V 프로그램 1~2분기 지연이 부각돼 주가가 부진하다고 설명한다. 전류센서 신규 설계 채택은 전분기 대비 2배 이상 늘었고 중국 휴머노이드 업체 채택이 추가됐다는 점을 근거로 투자 논리(전기차 기반+데이터센터+휴머노이드 옵션)는 유지된다고 본다. 밸류에이션은 PER 약 200배/선행 약 36배로 데이터센터 관점에선 비싸고 휴머노이드 관점에선 합리적이라는 양면 평가이며, 데이터센터 매출 본격화는 2027년, 휴머노이드는 2028년 이후로 전망한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "매출 $276.88M(예상 $270.86M 대비 +2.2%), 전년 대비 큰 폭 성장.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "공식 8-K EX-99.1 제목: 2Q 매출 전년 대비 +29%, $277M(웹검색 요약으로 확인, sec.gov 직접 열람은 네트워크 제한으로 불가). 컨센서스 수치는 비공식.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "Non-GAAP EPS $0.26으로 예상 상회, 전년 대비 증가.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "검색 결과상 8-K 보도자료의 Non-GAAP EPS $0.26(전년 대비 2배). 컨센서스 $0.244는 비공식 수치.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "4분기(계절적 비수기) 성장 가이던스 제시.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "검색 결과상 3분기(12/25 종료) 매출 가이던스 $278M~$288M, 직전 분기 $277M 대비 상승.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "데이터센터 매출 $46M, 전년 대비 +150%, 전분기 대비 +3%.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보도자료는 '데이터센터 분기 기록'만 확인되고 $46M 수치는 검색으로 확인 못 함. 이전 분기 약 $44M(17% 비중 기반 산술 추정)과 대조하면 개연성은 있으나 미검증."
+    },
+    {
+      "kind": "FACT",
+      "text": "하이퍼스케일러 800V 전력 시스템 프로그램이 1~2분기 지연됐다고 회사가 언급.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "실적 콜 녹취를 열람하지 못함. 보도자료에는 지연 언급이 확인되지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "데이터센터 전류센서 신규 설계 채택이 전분기 대비 2배 이상 증가, 중국 휴머노이드 업체 채택.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "보도자료 인용: 'IPO 이후 최고 분기 design win, 전년 대비 약 +40%', 데이터센터 기록. '2배 이상'과 휴머노이드 건은 콜 녹취 필요.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000866291/000119312526436963/algm-ex99_1.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "PER 약 200배, 선행 PER 약 36배.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료가 아닌 시장 데이터 기반 수치. 가격 데이터는 추적 대상이 아님."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "데이터센터 매출은 2027년, 휴머노이드는 2028년부터 본격 반영.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "채점 시점: 2027-12 / 2028-12.",
+      "due": "2027-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "시장 센티멘트 악화로 지연 악재가 과대 반영되었고 투자 논리는 유효하다.",
+      "tickers": [
+        "ALGM"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "ALGM"
+  ],
+  "portfolio_implication": "변경 없음. ALGM은 universe 밖 종목이며 AI CAPEX 노출이 기존 보유(AVGO·VRT·ETN 등)와 겹친다. 데이터센터 매출 지연 신호와 PER 약 200배는 편입 근거가 약하다. 아이디어 요청이 오면 그때 신규 후보로 평가."
+}

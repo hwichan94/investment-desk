@@ -293,5 +293,30 @@
         }
       ]
     }
+  },
+  {
+    "detected_at": "2026-11-05T08:48:06.028786+09:00",
+    "filings": {
+      "CCJ": [
+        {
+          "form": "6-K",
+          "filed": "2026-11-04",
+          "report_date": "2026-11-04",
+          "cik": "0001009001",
+          "accession": "0001193125-26-447681",
+          "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526447681/d183354d6k.htm"
+        }
+      ],
+      "ORCL": [
+        {
+          "form": "8-K",
+          "filed": "2026-11-04",
+          "report_date": "2026-11-02",
+          "cik": "0001341439",
+          "accession": "0001193125-26-447507",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm"
+        }
+      ]
+    }
   }
 ]

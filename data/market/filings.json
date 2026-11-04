@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T02:17:27.569204+09:00",
+  "fetched_at": "2026-11-05T08:48:06.028786+09:00",
   "filings": {
     "AMZN": [
       {
@@ -492,6 +492,14 @@
     "CCJ": [
       {
         "form": "6-K",
+        "filed": "2026-11-04",
+        "report_date": "2026-11-04",
+        "cik": "0001009001",
+        "accession": "0001193125-26-447681",
+        "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526447681/d183354d6k.htm"
+      },
+      {
+        "form": "6-K",
         "filed": "2026-10-30",
         "report_date": "2026-10-30",
         "cik": "0001009001",
@@ -601,14 +609,6 @@
         "cik": "0001009001",
         "accession": "0001193125-26-205080",
         "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526205080/d103546d6k.htm"
-      },
-      {
-        "form": "6-K",
-        "filed": "2026-04-02",
-        "report_date": "2026-04-02",
-        "cik": "0001009001",
-        "accession": "0001193125-26-139310",
-        "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526139310/d48743d6k.htm"
       }
     ],
     "CRWV": [
@@ -1224,6 +1224,14 @@
     "ORCL": [
       {
         "form": "8-K",
+        "filed": "2026-11-04",
+        "report_date": "2026-11-02",
+        "cik": "0001341439",
+        "accession": "0001193125-26-447507",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-10-28",
         "report_date": "2026-10-28",
         "cik": "0001341439",
@@ -1333,14 +1341,6 @@
         "cik": "0001341439",
         "accession": "0001193125-25-315925",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-12-10",
-        "report_date": "2025-12-10",
-        "cik": "0001341439",
-        "accession": "0001193125-25-314207",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-20251210.htm"
       }
     ],
     "PLTR": [

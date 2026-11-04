@@ -247,6 +247,17 @@
   "CCJ": [
     {
       "form": "6-K",
+      "filed": "2026-11-04",
+      "report_date": "2026-11-04",
+      "accession": "0001193125-26-447681",
+      "path": "data/market/docs/CCJ/2026-11-04-6-K-0001193125-26-447681.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526447681/d183354dex991.htm"
+      ],
+      "chars": 347252
+    },
+    {
+      "form": "6-K",
       "filed": "2026-10-30",
       "report_date": "2026-10-30",
       "accession": "0001193125-26-439858",
@@ -281,21 +292,6 @@
         "https://www.sec.gov/Archives/edgar/data/1009001/000119312526327250/d307413dex991.htm"
       ],
       "chars": 2289
-    },
-    {
-      "form": "6-K",
-      "filed": "2026-07-31",
-      "report_date": "2026-07-31",
-      "accession": "0001193125-26-326768",
-      "path": "data/market/docs/CCJ/2026-07-31-6-K-0001193125-26-326768.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526326768/d125942dex991.htm",
-        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526326768/d125942dex992.htm",
-        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526326768/d125942dex993.htm",
-        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526326768/d125942dex994.htm",
-        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526326768/d125942dex995.htm"
-      ],
-      "chars": 280921
     }
   ],
   "CRWV": [
@@ -638,6 +634,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-04",
+      "accession": "0001193125-26-447507",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-10-28",
       "report_date": "2026-10-28",
       "accession": "0001193125-26-435853",
@@ -668,17 +670,6 @@
         "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
       ],
       "chars": 29152
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-06-10",
-      "report_date": "2026-06-10",
-      "accession": "0001193125-26-265848",
-      "path": "data/market/docs/ORCL/2026-06-10-8-K-0001193125-26-265848.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm"
-      ],
-      "chars": 39697
     }
   ],
   "PLTR": [

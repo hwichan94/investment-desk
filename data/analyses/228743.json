@@ -1,0 +1,78 @@
+{
+  "post_id": "228743",
+  "content_hash": "11cd2b1fef4af5e856215a30b2f68276f4484d1c89699535649229eafb8b2ce6",
+  "analyzed_at": "2026-11-05T03:00:00+09:00",
+  "title": "트럼프 레임덕 시작, 민주당 스윕의 시장 영향은? (ft. T1 에너지)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "중간선거에서 민주당이 상하원 과반(블루 스윕)을 사실상 확보했다는 전제로 시장 방향을 정리한다. 텍사스 주지사 교체로 데이터센터 모라토리엄 우려가 단기 악재이나, 이미 승인된 부지의 희소성이 오히려 계약 단가에 우호적일 수 있다고 본다. 필자는 민주당 우호 영역인 태양광 T1 Energy에 10만 주 정찰 매수했으며 보조금(45X) 의존 사업이라 장기 코어가 아닌 헷지용이라고 밝힌다. 인텔은 AMD 대비 역량 열위로 추가 매수 없이 유지, 써클은 3분기 매출·순이익 서프라이즈를 언급한다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "민주당이 상하원 과반과 주요 주지사직을 확보한 블루 스윕 확률 99.9%, 텍사스에서 히노호사가 애벗을 꺾음.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색 결과가 선거 전 여론조사·예비선거까지만 나와 개표 결과 공식 확인 실패(주 선관위 원문 미확인).",
+      "evidence_url": null
+    },
+    {
+      "kind": "FACT",
+      "text": "T1 Energy는 모듈 공장(G1)을 보유하고 텍사스에 셀 공장(G2)을 건설 중이며 45X 크레딧 판매로 수익을 낸다.",
+      "tickers": [
+        "TE"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "2분기 실적(매출 $250.1M, 순손실 $36.9M, 45X 크레딧 $160M을 달러당 $0.91에 판매), G2 Austin 셀 1차 capex $425M→$510M, 첫 셀 생산 2027 1분기로 지연. 구조는 일치하나 사업이 보조금·관세환급 의존이고 자본 부담이 커진다는 점이 확인됨. 모듈 7센트/셀 4센트 단가는 원문 미확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001992243/000121390026088022/ea030161501ex99-1.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "AMD는 비슷한 공급 제약에도 실적이 대단했고 내년 매출 성장률 80% 상회 전망.",
+      "tickers": [
+        "AMD"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "3분기 매출 $13.4B, non-GAAP EPS $2.09와 4분기 가속 코멘트는 8-K로 확인되나 내년 80% 전망의 공식 수치는 찾지 못함.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "써클이 3분기 매출·순이익 모두 서프라이즈.",
+      "tickers": [
+        "CRCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이번 실행에서 원문 미확인, universe 밖 종목.",
+      "evidence_url": null
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "선거 직후 시장은 단기 하락 후 1~2주 안에 불확실성 해소 쪽으로 기울고, 텍사스 승인 부지 희소성으로 데이터센터 계약 단가가 오를 수 있다.",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2026-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "민주당도 증시·GDP 때문에 AI를 밀 수밖에 없고 속도조절은 버블 없는 장기 성장에 도움. 인텔은 지금 늘릴 이유가 없어 유지.",
+      "tickers": [
+        "INTC"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "INTC",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "필자는 AMD 대비 열위를 이유로 추가 매수 없이 유지. 가격 하락만으로 thesis 변화로 보지 않으며 단일 의견이라 반영하지 않음."
+    }
+  ],
+  "new_candidates": [
+    "TE: 필자의 민주당 스윕 헷지용 태양광 정찰 매수(10만 주). 보조금 의존·셀 공장 지연·희석 위험으로 편입 근거 부족"
+  ],
+  "portfolio_implication": "변경 없음. 정책 수혜 헷지 성격의 소형 아이디어이고 TE는 수익성·지연·희석 위험이 커 AI CAPEX 보유 대비 우위가 입증되지 않았다. 선거 결과는 공식 확인 전이므로 비중에 반영하지 않는다."
+}

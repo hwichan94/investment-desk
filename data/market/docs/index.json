@@ -62,6 +62,17 @@
   "ANET": [
     {
       "form": "10-Q",
+      "filed": "2026-11-04",
+      "report_date": "2026-09-30",
+      "accession": "0001596532-26-000254",
+      "path": "data/market/docs/ANET/2026-11-04-10-Q-0001596532-26-000254.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm"
+      ],
+      "chars": 276824
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-08-05",
       "report_date": "2026-06-30",
       "accession": "0001596532-26-000175",
@@ -70,17 +81,6 @@
         "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm"
       ],
       "chars": 275174
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-05-06",
-      "report_date": "2026-03-31",
-      "accession": "0001596532-26-000078",
-      "path": "data/market/docs/ANET/2026-05-06-10-Q-0001596532-26-000078.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000078/anet-20260331.htm"
-      ],
-      "chars": 271841
     },
     {
       "form": "8-K",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T15:24:02.680739+09:00",
+  "fetched_at": "2026-11-05T02:17:27.569204+09:00",
   "filings": {
     "AMZN": [
       {
@@ -125,6 +125,14 @@
     ],
     "ANET": [
       {
+        "form": "10-Q",
+        "filed": "2026-11-04",
+        "report_date": "2026-09-30",
+        "cik": "0001596532",
+        "accession": "0001596532-26-000254",
+        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-11-03",
         "report_date": "2026-11-03",
@@ -235,14 +243,6 @@
         "cik": "0001596532",
         "accession": "0001596532-25-000170",
         "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000170/anet-20250613.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2025-06-03",
-        "report_date": "2025-05-30",
-        "cik": "0001596532",
-        "accession": "0001596532-25-000148",
-        "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000148/anet-20250530.htm"
       }
     ],
     "AVGO": [

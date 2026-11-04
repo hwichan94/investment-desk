@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-04T08:25:14.293258+09:00",
-  "as_of": "2026-11-03",
+  "generated_at": "2026-11-04T15:24:02.680739+09:00",
+  "as_of": "2026-11-04",
   "regime": "RISK_OFF",
   "score": -3,
   "reasons": [
@@ -29,12 +29,12 @@
       "reason": "US 10Y yield falling over 20 sessions (-6.0%)"
     },
     "dollar": {
-      "as_of": "2026-11-03",
-      "price": 101.889999,
-      "sma_20": 102.034,
-      "sma_50": 100.9314,
-      "return_20d": 0.000589,
-      "reason": "Dollar index rising over 20 sessions (+0.1%)"
+      "as_of": "2026-11-04",
+      "price": 101.496002,
+      "sma_20": 101.9958,
+      "sma_50": 100.98252,
+      "return_20d": -0.007277,
+      "reason": "Dollar index falling over 20 sessions (-0.7%)"
     },
     "qqq": {
       "as_of": "2026-11-03",
@@ -56,7 +56,7 @@
       "as_of": "2026-11-03",
       "price": 76.980003,
       "sma_20": 77.1395,
-      "sma_50": 77.732928,
+      "sma_50": 77.91408,
       "return_20d": -0.003753,
       "reason": "hyg mixed or insufficient directional signal"
     },
@@ -64,7 +64,7 @@
       "as_of": "2026-11-03",
       "price": 103.720001,
       "sma_20": 103.371,
-      "sma_50": 103.71314,
+      "sma_50": 103.947043,
       "return_20d": 0.015469,
       "reason": "lqd mixed or insufficient directional signal"
     },

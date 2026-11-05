@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-05T10:07:18.686821+09:00",
+  "generated_at": "2026-11-05T15:48:20.946869+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -199,7 +199,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": true,
           "above_sma_200": true,
-          "relative_volume_20": 1.30856,
+          "relative_volume_20": 1.313373,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
@@ -269,7 +269,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": true,
-          "relative_volume_20": 1.352277,
+          "relative_volume_20": 1.354531,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -311,7 +311,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.757297,
+          "relative_volume_20": 1.759147,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -353,7 +353,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": true,
           "above_sma_200": true,
-          "relative_volume_20": 2.171268,
+          "relative_volume_20": 2.173055,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "STRONG"
         },
@@ -395,7 +395,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.475301,
+          "relative_volume_20": 1.480625,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -437,7 +437,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.103602,
+          "relative_volume_20": 1.108751,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -479,7 +479,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.417533,
+          "relative_volume_20": 1.441328,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -521,7 +521,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.490414,
+          "relative_volume_20": 1.49456,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -563,7 +563,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.908037,
+          "relative_volume_20": 0.90878,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
@@ -605,7 +605,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.962408,
+          "relative_volume_20": 0.966621,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -647,7 +647,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.225596,
+          "relative_volume_20": 2.227381,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -689,7 +689,7 @@
           "as_of": "2026-11-04",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 3.018286,
+          "relative_volume_20": 3.025698,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -731,7 +731,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-05T08:48:06.028786+09:00",
+    "generated_at": "2026-11-05T15:48:07.522470+09:00",
     "key_signals": [
       "AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지",
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
@@ -739,7 +739,7 @@
     ],
     "regime": {
       "state": "NEUTRAL",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "reasons": [
         "credit HYG/LQD falling",
         "breadth RSP/SPY rising",
@@ -1330,158 +1330,6 @@
       "portfolio_implication": "변경 없음. TEM은 universe 밖 후보이며, 보유 종목 대비 우위·희석(Personalis 인수)·가이던스 방향이 확인되지 않아 신규 편입 근거 부족. 단일 의견글로 비중을 바꾸지 않는다."
     },
     {
-      "post_id": "228196",
-      "analyzed_at": "2026-11-02T22:20:00+09:00",
-      "title": "🎓10월 5주차 유튜브 라이브(11.01)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "11/1 유튜브 라이브 정리본. 인텔이 실적 후 약 28~30% 폭락(1971년 이후 최대 낙폭 언급)한 배경으로 가이던스 하향과 공장 사고를 든다. 중간선거 전에는 매수세 유입이 어렵고 11월 중순에야 방향이 정해질 것이라 보며, 작성자는 인텔을 추가매수·매도 없이 보유한다고 한다. 이스라엘 연정 구도와 이란 공습 위험, 네오클라우드(아이렌 vs 코어위브), 광통신 밸류에이션 등 Q&A 중심이다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "인텔 공장에서 실제 사고가 발생했고 인텔이 실적 후 큰 폭락했다.",
-          "tickers": [
-            "INTC"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
-          "evidence_note": "INTC 10-Q(2026-10-30): 10월 중순 Kiryat Gat 공장 사고로 사상자·가동 중단, 4Q26~2027 상반기 제조원가·총이익 악영향 명시. 주가 낙폭 -28~30%는 글 주장이며 quotes로 별도 확인 대상.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "인텔 다음 분기 가이던스가 하향됐다.",
-          "tickers": [
-            "INTC"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
-          "evidence_note": "10-Q 공장 사고 영향 경고는 확인. 구체 가이던스 수치는 8-K 보도자료 원문(path 없음)이 없어 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 하향했다.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "228198 동일 주장. 공식 자료 없음.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "중간선거 전에는 대규모 매수세 유입이 어렵다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11월 중순 이후 시장이 방향을 정해 특정 섹터 상승.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "WEAKEN",
-          "magnitude": "LOW",
-          "rationale": "공장 사고는 10-Q로 확인된 실질 악재(4Q26~1H27 원가 영향). 현재 target 2%의 소형 포지션이며 추정 불가 영향이라 점수 변경은 공식 실적 검토 후 별도."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. INTC 10-Q 사고 공시는 별도 공식 근거 검토 대상으로 남기고 점수는 단일 의견글로 바꾸지 않는다."
-    },
-    {
-      "post_id": "227314",
-      "analyzed_at": "2026-11-02T22:20:00+09:00",
-      "title": "예측시장도 못 맞추는 이스라엘 선거, 투자 영향은?",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "이스라엘 총선 개표 중 출구조사 기준 리쿠드가 제1당(27석)이나 61석 연정 구성은 불확실하고 아랍계 정당이 킹메이커라는 정리다. 트럼프가 중간선거 전 이란 타격을 안 하겠다고 했으므로 11/4~1/3이 이란 전쟁 심화의 마지막 위험 구간이라고 본다. SK하이닉스 3Q 실적 서프라이즈로 AI 수익성 의구심이 풀리고 메모리는 사이클 산업이 아니라는 견해를 낸다. 연말 전쟁 우려 완화·금리 안정 시 AI 섹터 반등 가능성을 언급한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "SK하이닉스 3분기 매출 약 788억달러·영업이익 약 628억달러(영업이익률 약 80%)로 컨센서스를 상회했다.",
-          "tickers": [],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil",
-          "evidence_note": "웹 검색(2026-11-02): 잠정 매출 104.6조원·영업이익 83.3조원, 영업이익률 약 80%, FnGuide 컨센서스 상회 보도 확인. 비감사 잠정치. 원/달러 환산은 글 수치와 근사.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "HBM/DRAM 2029년분 사실상 완판, 2027-28 캐파 50% 이상 법적 구속력 장기계약.",
-          "tickers": [
-            "AVGO",
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 근거 미확인. 개인 견해와 섞인 서술.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "이스라엘 출구조사에서 리쿠드 27석 제1당, 아이젠코트 21석.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "정치 이벤트로 공식 투자자료 대상 아님. 11/4 공식 결과로 확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "메모리는 더 이상 순수 사이클 산업이 아니다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11/4~내년 1/3이 이란 전쟁 심화의 마지막 위험 구간.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "연말 전쟁 우려 완화·금리 안정 시 AI 섹터가 산타랠리 최대 수혜.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "HBM/메모리 수요 확인은 AI CAPEX thesis에 우호적이나 직접 사업 데이터는 아님."
-        },
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "하이닉스 실적은 AI 수요 간접 신호. 단일 의견 글이라 점수 변경 사유 아님."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 지정학 이벤트(이란·선거) 변동성은 신규 Starter 크기와 매수 타이밍을 줄이는 참고로만 쓴다. 메모리 업황 확인은 AI CAPEX 집중 보유(상관집중)를 정당화하지만 추가 노출 사유는 아니다."
-    },
-    {
       "post_id": "227691",
       "analyzed_at": "2026-11-02T22:20:00+09:00",
       "title": "🐹 AI 정리본: 지난 시장과 다가올 연말",
@@ -1568,6 +1416,75 @@
       "portfolio_implication": "변경 없음. 오라클 공식 가이던스는 AI CAPEX 자금조달 위험 완화 신호지만 포트폴리오는 이미 AI CAPEX 상관집중이 높아 현금 5% 복원과 기존 분할 계획을 유지한다."
     },
     {
+      "post_id": "228196",
+      "analyzed_at": "2026-11-02T22:20:00+09:00",
+      "title": "🎓10월 5주차 유튜브 라이브(11.01)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "11/1 유튜브 라이브 정리본. 인텔이 실적 후 약 28~30% 폭락(1971년 이후 최대 낙폭 언급)한 배경으로 가이던스 하향과 공장 사고를 든다. 중간선거 전에는 매수세 유입이 어렵고 11월 중순에야 방향이 정해질 것이라 보며, 작성자는 인텔을 추가매수·매도 없이 보유한다고 한다. 이스라엘 연정 구도와 이란 공습 위험, 네오클라우드(아이렌 vs 코어위브), 광통신 밸류에이션 등 Q&A 중심이다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "인텔 공장에서 실제 사고가 발생했고 인텔이 실적 후 큰 폭락했다.",
+          "tickers": [
+            "INTC"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+          "evidence_note": "INTC 10-Q(2026-10-30): 10월 중순 Kiryat Gat 공장 사고로 사상자·가동 중단, 4Q26~2027 상반기 제조원가·총이익 악영향 명시. 주가 낙폭 -28~30%는 글 주장이며 quotes로 별도 확인 대상.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "인텔 다음 분기 가이던스가 하향됐다.",
+          "tickers": [
+            "INTC"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+          "evidence_note": "10-Q 공장 사고 영향 경고는 확인. 구체 가이던스 수치는 8-K 보도자료 원문(path 없음)이 없어 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 하향했다.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "228198 동일 주장. 공식 자료 없음.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "중간선거 전에는 대규모 매수세 유입이 어렵다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "11월 중순 이후 시장이 방향을 정해 특정 섹터 상승.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "공장 사고는 10-Q로 확인된 실질 악재(4Q26~1H27 원가 영향). 현재 target 2%의 소형 포지션이며 추정 불가 영향이라 점수 변경은 공식 실적 검토 후 별도."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. INTC 10-Q 사고 공시는 별도 공식 근거 검토 대상으로 남기고 점수는 단일 의견글로 바꾸지 않는다."
+    },
+    {
       "post_id": "228198",
       "analyzed_at": "2026-11-02T22:20:00+09:00",
       "title": "선거 슈퍼위크, 남아있는 부정적 내러티브를 살펴보자!",
@@ -1641,83 +1558,47 @@
       "portfolio_implication": "변경 없음. 선거·모라토리엄 불확실성은 AI CAPEX 시점 지연 위험으로 기록하고 신규 Starter 크기와 매수 타이밍을 줄이는 참고만 한다. 블룸에너지·네비우스·아이렌은 공식 근거 없어 후보화하지 않는다."
     },
     {
-      "post_id": "228018",
-      "analyzed_at": "2026-11-02T10:30:00+09:00",
-      "title": "이번 주의 분위기를 바꿀 것들 | 11-02 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "11월 첫 주는 기업 실적(애플·팔란티어), 미국 중간선거, 고용지표가 겹치는 이벤트 주간이라는 시황 정리 글이다. 지난 금요일 아마존·구글 실적 후 테크주가 하락했고 인텔·샌디스크·코어위브 낙폭이 컸으며, 주말 VIX가 4월 이후 최고 수준이라 시장이 보험성 헤지에 나섰다고 본다. 테라팹은 TSMC와 운영권을 두고 재협상 중이며 일정 지연·PCB 수율 60% 보도가 있고, 팔란티어-HD현대 로보틱스 사례(문제해결 21.5일→7.9일)를 로보틱스 노출 근거로 든다. 주요 일정으로 PLTR 실적(글 기준 KST 11/3), 조비·아이온큐 실적, ADP·비농업 고용을 안내한다.",
+      "post_id": "227314",
+      "analyzed_at": "2026-11-02T22:20:00+09:00",
+      "title": "예측시장도 못 맞추는 이스라엘 선거, 투자 영향은?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "이스라엘 총선 개표 중 출구조사 기준 리쿠드가 제1당(27석)이나 61석 연정 구성은 불확실하고 아랍계 정당이 킹메이커라는 정리다. 트럼프가 중간선거 전 이란 타격을 안 하겠다고 했으므로 11/4~1/3이 이란 전쟁 심화의 마지막 위험 구간이라고 본다. SK하이닉스 3Q 실적 서프라이즈로 AI 수익성 의구심이 풀리고 메모리는 사이클 산업이 아니라는 견해를 낸다. 연말 전쟁 우려 완화·금리 안정 시 AI 섹터 반등 가능성을 언급한다.",
       "relevance": "MEDIUM",
       "claims": [
         {
           "kind": "FACT",
-          "text": "테슬라·스페이스X의 테라팹에 TSMC 참여 협상이 진행 중이며 TSMC는 자사 기술이 들어가는 공장은 TSMC가 운영해야 한다고 밝혔다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://thenextweb.com/news/tsmc-terafab-musk-wei-must-run-fab",
-          "evidence_note": "웹 검색(2026-11-02): TSMC 웨이 회장 실적콜 발언·머스크 10/7 X 게시글 보도 확인. 11/2 '독자 운영 재검토'와 생산 지연 2027 중반·PCB 수율 60%는 확인 못함. 2차 보도이며 공식 문서 미확인.",
+          "text": "SK하이닉스 3분기 매출 약 788억달러·영업이익 약 628억달러(영업이익률 약 80%)로 컨센서스를 상회했다.",
+          "tickers": [],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.koreatimes.co.kr/business/companies/20261028/sk-hynix-logs-record-q3-operating-profit-of-628-bil",
+          "evidence_note": "웹 검색(2026-11-02): 잠정 매출 104.6조원·영업이익 83.3조원, 영업이익률 약 80%, FnGuide 컨센서스 상회 보도 확인. 비감사 잠정치. 원/달러 환산은 글 수치와 근사.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "팔란티어 도입 후 HD 현대 로보틱스의 문제해결 시간이 21.5일에서 7.9일로 63% 단축됐다.",
+          "text": "HBM/DRAM 2029년분 사실상 완판, 2027-28 캐파 50% 이상 법적 구속력 장기계약.",
           "tickers": [
-            "PLTR"
+            "AVGO",
+            "NVDA"
           ],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "웹 검색(2026-11-02): HD현대-팔란티어 그룹 전략 파트너십 확대(2026-01-20 보도자료)는 확인되나 해당 수치는 찾지 못함. 회사 사례 홍보 수치일 수 있음.",
+          "evidence_note": "공식 근거 미확인. 개인 견해와 섞인 서술.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "PLTR 3분기 실적 발표가 글 기준 11/3(화) 22:45 KST로 안내됐다.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "웹 검색: 복수 캘린더가 미국 11/2(월) 장마감 후를 제시, 회사 공식 확정 미확인. 발표 시각이 글과 불일치 가능. 회사 가이던스 3분기 매출 21.60~21.64억달러는 2분기 보도자료 보도 기준. 실제 발표는 IR 공지로 확인 필요.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "주말 VIX가 장중 4월 이후 가장 높은 수준이었다.",
+          "text": "이스라엘 출구조사에서 리쿠드 27석 제1당, 아이젠코트 21석.",
           "tickers": [],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "이번 실행에서 공식 시계열 확인 못함. data/market/regime.json 참고.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "지난 금요일 아마존·구글 실적 후 테크주 하락, 인텔·샌디스크·코어위브 낙폭 최대.",
-          "tickers": [
-            "AMZN",
-            "INTC"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "가격 데이터는 GitHub Actions 수집분(data/market)으로 별도 확인 대상. 이번에 검증하지 않음.",
+          "evidence_note": "정치 이벤트로 공식 투자자료 대상 아님. 11/4 공식 결과로 확인.",
           "due": null
         },
         {
           "kind": "OPINION",
-          "text": "공화당이 상하원을 이기면 정책·이란 협상에 긍정적이며 불안이 큰 상태에서는 '생각보다 괜찮은 결과'에 반등폭이 클 수 있다.",
+          "text": "메모리는 더 이상 순수 사이클 산업이 아니다.",
           "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "팔란티어는 로보틱스로도 노출된 기업이며 테슬라와 결국 만날 것이다.",
-          "tickers": [
-            "PLTR",
-            "TSLA"
-          ],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
           "evidence_note": null,
@@ -1725,36 +1606,39 @@
         },
         {
           "kind": "PREDICTION",
-          "text": "이번 주 시장 방향은 금요일 고용보고서와 애플 실적에 따라 갈릴 것이다.",
+          "text": "11/4~내년 1/3이 이란 전쟁 심화의 마지막 위험 구간.",
           "tickers": [],
-          "verification": "UNVERIFIED",
+          "verification": "NOT_APPLICABLE",
           "evidence_url": null,
           "evidence_note": null,
-          "due": "2026-11-06"
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "연말 전쟁 우려 완화·금리 안정 시 AI 섹터가 산타랠리 최대 수혜.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
         }
       ],
       "thesis_impacts": [
         {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
+          "ticker": "AVGO",
+          "direction": "STRENGTHEN",
           "magnitude": "LOW",
-          "rationale": "테라팹 지연·운영권 협상은 장기 옵션 가치의 불확실성으로 2차 보도 수준이다. 확인된 공식 변화 없음."
+          "rationale": "HBM/메모리 수요 확인은 AI CAPEX thesis에 우호적이나 직접 사업 데이터는 아님."
         },
         {
-          "ticker": "PLTR",
+          "ticker": "NVDA",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "HD현대 사례는 미검증 홍보성 수치. 실적 전 기대 상승 상태라 이벤트 위험이 커지므로 추격 금지 원칙 유지."
-        },
-        {
-          "ticker": "INTC",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "테라팹 TSMC 참여 가능성은 Intel 14A 역할을 대체하는지 불명확. 추가 보도 확인 필요."
+          "rationale": "하이닉스 실적은 AI 수요 간접 신호. 단일 의견 글이라 점수 변경 사유 아님."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 시황·일정 정리 글이며 확인된 사실은 테라팹 TSMC 협상 정도다. PLTR 실적(11/3 KST 새벽~) 및 중간선거 전 변동성이 커 신규 Starter 크기와 매수 타이밍을 줄이는 참고로만 쓰고, 기존 분할 계획과 현금 5% 복원 우선 원칙을 유지한다."
+      "portfolio_implication": "변경 없음. 지정학 이벤트(이란·선거) 변동성은 신규 Starter 크기와 매수 타이밍을 줄이는 참고로만 쓴다. 메모리 업황 확인은 AI CAPEX 집중 보유(상관집중)를 정당화하지만 추가 노출 사유는 아니다."
     }
   ],
   "new_candidates": [

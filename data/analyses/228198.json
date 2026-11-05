@@ -6,8 +6,9 @@
       "kind": "FACT",
       "text": "오픈AI가 300억달러 조달 목표 중 110억달러만 확보해 목표를 200억달러로 낮췄다.",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "공식 자료 없음(비상장). 보도 인용 수준이며 검증 시도 결과 확인 불가."
+      "verification": "PARTIAL",
+      "evidence_note": "FT·WSJ 보도(2026-10-30~31)로 목표 최대 200억달러 하향·약 110억달러 확약 확인. 회사 공식 발표는 없고 라운드 미종결, 수치 변동 가능.",
+      "evidence_url": "https://thenextweb.com/news/openai-funding-round-20bn-target-cut-ft"
     },
     {
       "kind": "FACT",
@@ -29,8 +30,9 @@
       "kind": "FACT",
       "text": "바이낸스에서 63억달러 해킹이 발생했고 30억달러는 동결됐다.",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "보유·후보와 무관한 크립토 사건. 확인하지 않음."
+      "verification": "PARTIAL",
+      "evidence_note": "복수 언론 보도로 약 63억달러 탈취(10/29)·약 30억달러 동결 확인. 회사 공식 문서는 미확인, 보유·후보 무관.",
+      "evidence_url": "https://www.newstribune.com/news/2026/nov/02/binance-seeks-to-shore-up-confidence-after-record-63-billion-heist/"
     },
     {
       "kind": "OPINION",

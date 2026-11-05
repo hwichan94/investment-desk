@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-06T02:26:22.757634+09:00",
+  "generated_at": "2026-11-06T04:07:50.658217+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -748,6 +748,18 @@
     }
   },
   "recent_analyses": [
+    {
+      "post_id": "228889",
+      "analyzed_at": "2026-11-06T02:30:00+09:00",
+      "title": "📌라이브 공지 : 11월 1주차 <투자학개론> 라이브!",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "11월 5일(목) 오후 8시 투자전공반 라이브 안내 공지. 주제는 '주요 시장 이벤트와 시사점 정리(포트폴리오 관리)'이며 투자 판단에 쓸 구체적 주장은 없다.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 라이브 안내 공지로 투자 내용이 없다."
+    },
     {
       "post_id": "228803",
       "analyzed_at": "2026-11-05T18:00:00+09:00",

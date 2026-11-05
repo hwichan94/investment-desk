@@ -318,5 +318,48 @@
         }
       ]
     }
+  },
+  {
+    "detected_at": "2026-11-06T08:48:36.608701+09:00",
+    "filings": {
+      "AXON": [
+        {
+          "form": "8-K",
+          "filed": "2026-11-05",
+          "report_date": "2026-11-05",
+          "cik": "0001069183",
+          "accession": "0001628280-26-071150",
+          "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071150/axon-20261105.htm"
+        },
+        {
+          "form": "8-K",
+          "filed": "2026-11-05",
+          "report_date": "2026-11-05",
+          "cik": "0001069183",
+          "accession": "0001628280-26-071086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105.htm"
+        }
+      ],
+      "CCJ": [
+        {
+          "form": "6-K",
+          "filed": "2026-11-05",
+          "report_date": "2026-11-05",
+          "cik": "0001009001",
+          "accession": "0001193125-26-449424",
+          "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526449424/d172780d6k.htm"
+        }
+      ],
+      "GOOG": [
+        {
+          "form": "8-K",
+          "filed": "2026-11-05",
+          "report_date": "2026-11-05",
+          "cik": "0001652044",
+          "accession": "0001193125-26-449835",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm"
+        }
+      ]
+    }
   }
 ]

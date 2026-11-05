@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-05",
   "sources": [
     {
       "source_id": "tsla-q2-update",
@@ -160,6 +160,26 @@
       "reliability": 1.0,
       "published_at": "2026-11-02",
       "accessed_at": "2026-11-03"
+    },
+    {
+      "source_id": "anet-q3-pr",
+      "ticker": "ANET",
+      "title": "Arista Q3 2026 earnings press release (8-K EX-99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/anet-20261103xex991.htm",
+      "source_type": "SEC filing",
+      "reliability": 1.0,
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "source_id": "etn-q3-10q",
+      "ticker": "ETN",
+      "title": "Eaton Form 10-Q for quarter ended 2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm",
+      "source_type": "SEC filing",
+      "reliability": 1.0,
+      "published_at": "2026-11-03",
+      "accessed_at": "2026-11-05"
     }
   ],
   "companies": [
@@ -830,6 +850,107 @@
             "CAPEX",
             "가이던스",
             "투자"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "company_name": "Arista Networks",
+      "aliases": [
+        "ANET",
+        "Arista",
+        "아리스타"
+      ],
+      "thesis": "AI 데이터센터 네트워킹 수요가 매출 성장과 높은 영업마진으로 이어지는지가 핵심이다.",
+      "trend": "STRENGTHENING",
+      "time_horizon": "12개월",
+      "key_dependencies": [
+        "AI 백엔드·프론트엔드 네트워크 수요",
+        "대형 클라우드 고객 집중도",
+        "영업마진 유지"
+      ],
+      "invalidation_signals": [
+        "성장률 급감 또는 가이던스 하향",
+        "상위 고객 CAPEX 축소",
+        "영업마진 하락"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "anet-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 3분기 매출은 36.6억달러로 가이던스 33억달러를 넘었고 전년 대비 58.5% 증가했다. 비GAAP 영업이익률은 49.1%다.",
+          "source_ids": [
+            "anet-q3-pr"
+          ],
+          "keywords": [
+            "매출",
+            "성장",
+            "영업이익률",
+            "revenue"
+          ]
+        },
+        {
+          "evidence_id": "anet-e2",
+          "stance": "SUPPORTING",
+          "statement": "4분기 가이던스는 매출 39~40억달러, 비GAAP 영업이익률 48~49%, 비GAAP EPS 1.26~1.30달러다.",
+          "source_ids": [
+            "anet-q3-pr"
+          ],
+          "keywords": [
+            "가이던스",
+            "guidance",
+            "4분기"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "ETN",
+      "company_name": "Eaton",
+      "aliases": [
+        "ETN",
+        "Eaton",
+        "이튼"
+      ],
+      "thesis": "데이터센터·전력 인프라 수요가 수주잔고와 마진으로 이어지는지가 핵심이다.",
+      "trend": "STRENGTHENING",
+      "time_horizon": "12개월",
+      "key_dependencies": [
+        "Electrical 부문 주문과 수주잔고",
+        "데이터센터 투자 지속",
+        "마진 방어"
+      ],
+      "invalidation_signals": [
+        "Electrical Americas 주문 성장 급락",
+        "백로그와 마진의 동반 악화",
+        "데이터센터 투자 둔화"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "etn-e1",
+          "stance": "SUPPORTING",
+          "statement": "2026년 3분기 순매출은 89.47억달러로 전년 동기 69.88억달러에서 증가했다.",
+          "source_ids": [
+            "etn-q3-10q"
+          ],
+          "keywords": [
+            "매출",
+            "net sales",
+            "revenue"
+          ]
+        },
+        {
+          "evidence_id": "etn-e2",
+          "stance": "SUPPORTING",
+          "statement": "2026년 9월 30일 기준 확정 수주잔고는 약 262억달러이며 약 72%가 12개월 내 납품 예정이다.",
+          "source_ids": [
+            "etn-q3-10q"
+          ],
+          "keywords": [
+            "백로그",
+            "수주잔고",
+            "backlog"
           ]
         }
       ]

@@ -62,7 +62,9 @@
       "tickers": [
         "AXON"
       ],
-      "verification": "UNVERIFIED"
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071086/axon-20261105xex991.htm",
+      "evidence_note": "2026-11-06 KST 확인: Axon 3Q26 8-K(2026-11-05) 2026 FCF 가이던스 $350~400M, 직전 목표 $450M에서 하향(재고 투자 확대). 방향은 일치하나 \"하락 추세\" 장기 시계열은 미확인."
     },
     {
       "kind": "OPINION",

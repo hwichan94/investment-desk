@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "sources": [
     {
       "source_id": "tsla-q2-update",
@@ -180,6 +180,16 @@
       "reliability": 1.0,
       "published_at": "2026-11-03",
       "accessed_at": "2026-11-05"
+    },
+    {
+      "source_id": "ccj-q3-results",
+      "ticker": "CCJ",
+      "title": "Cameco Reports 2026 Third Quarter Results (6-K Ex.99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526439858/d106072dex991.htm",
+      "source_type": "SEC filing",
+      "reliability": 0.97,
+      "published_at": "2026-10-30",
+      "accessed_at": "2026-11-06"
     }
   ],
   "companies": [
@@ -540,6 +550,38 @@
             "순이익",
             "판매량",
             "감소"
+          ]
+        },
+        {
+          "evidence_id": "ccj-e4",
+          "stance": "SUPPORTING",
+          "statement": "2026년 9월 말 현금 8억6천만 캐나다달러, 총부채 10억 캐나다달러, 미사용 신용한도 10억 캐나다달러로 재무 건전성이 유지됐다. Westinghouse 조정 EBITDA 지분은 3분기 1억4,300만 캐나다달러로 전년 1억2,400만 캐나다달러보다 늘었다.",
+          "source_ids": [
+            "ccj-q3-results"
+          ],
+          "keywords": [
+            "현금",
+            "부채",
+            "Westinghouse",
+            "웨스팅하우스",
+            "재무"
+          ]
+        },
+        {
+          "evidence_id": "ccj-e5",
+          "stance": "CONTRADICTING",
+          "statement": "3분기 조정 순손실은 200만 캐나다달러였고 Key Lake 계획 정비로 생산이 줄고 단위원가가 올랐다. 9개월 Westinghouse 지분손실은 8,000만 캐나다달러로 전년 순이익 3,200만 캐나다달러에서 악화됐다(전년 Dukovany 일회성 영향).",
+          "source_ids": [
+            "ccj-q3-results"
+          ],
+          "keywords": [
+            "순이익",
+            "조정",
+            "Key Lake",
+            "생산",
+            "원가",
+            "Westinghouse",
+            "웨스팅하우스"
           ]
         }
       ]

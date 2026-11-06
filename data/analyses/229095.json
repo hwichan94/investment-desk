@@ -1,0 +1,106 @@
+{
+  "summary": "전일 VIX가 하루 약 70% 급등하는 폭락과 다수 헤지펀드 청산설이 이어졌다. 그 와중에 IREN 3분기 실적은 매출 $228M(예상 $221M 상회), 클라우드 $200M(+182%), 수주잔고 $20.3B로 확신이 커졌다고 평가한다. 연말 $4B ARR 목표는 마이크로소프트 설계 변경으로 약 1개월 지연되나 고객 귀책이며, 추가 조달 목표는 $8B에서 $6B로 축소됐다. 헤지펀드 청산 소문은 미확인이며 타이밍만 아쉽다는 결론이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "IREN 총매출 $228M(전분기 +66%), 클라우드 $200M(+182%), 비트코인 $28M",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "evidence_note": "Q1 FY27 8-K 보도자료(2026-11-05) 검색 결과로 확인. 시장 예상 약 $219~221M 상회."
+    },
+    {
+      "kind": "FACT",
+      "text": "IREN 수주잔고가 $16.6B에서 $20.3B(+22%)로 증가, 약 2/3가 투자적격 고객",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "evidence_note": "백로그 $20.3B, +22%, 투자적격 2/3 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "IREN $4B ARR 목표 계약·자금조달 완료, 프론티어 AI 랩 계약 확장",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "evidence_note": "$4B+ ARR 완전 계약·조달, 분기 후 계약 확장 확인. 목표 시점 1개월 지연은 회사 설명 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "IREN은 순손실 $263M, 조정 EBITDA $66M이다(글에는 없는 보완 사실)",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "evidence_note": "GAAP 적자 지속. 글은 이 점을 언급하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "Walleye·Lone Pine 등 다수 헤지펀드가 청산·마진콜을 당했다",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "공식 자료 없음. 소문 수준이라 판단 근거로 쓰지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "VIX가 하루 70% 급등해 역사상 3번째 상승폭이다",
+      "tickers": [
+        "VIX"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": null,
+      "evidence_note": "regime.json VIX 28.18, 20일 수익률 +82.9%로 급등 방향은 일치. 순위는 확인 못함."
+    },
+    {
+      "kind": "OPINION",
+      "text": "시장 분위기가 더 나빠지기보다 나아질 확률이 크다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "IREN $4B ARR 달성이 2027년 1~2월로 이월된다",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "회사 가이던스 추적 필요",
+      "due": "2027-03-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "GPU 재계약 단가 2배 사례는 GPU 수요 근거이나 IREN 경영진 발언 인용이라 LOW."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드 단가 상승 확인은 업황 긍정, 그러나 CRWV 자체 재무(희석·부채)는 별개."
+    }
+  ],
+  "new_candidates": [
+    "IREN"
+  ],
+  "portfolio_implication": "변경 없음. IREN은 실적이 강하지만 순손실·자금조달 의존이 큰 네오클라우드로 CRWV와 같은 AI CAPEX 집중을 더한다. 현금 0.8%, 상위 2종목 61% 상황에서 편입 재원이 없다. 관찰 후보로만 기록한다.",
+  "post_id": "229095",
+  "content_hash": "b41617f5dc2c0d795a4ef649975273a056e8d99c10013e8b3fd1f9d12138e4aa",
+  "analyzed_at": "2026-11-06T16:30:00+09:00",
+  "title": "관세전쟁 이래 최악의 폭락과 1년만의 어닝 서프라이즈 (ft. 아이렌 실적발표)",
+  "author": "세상학개론 - 한정수 작가"
+}

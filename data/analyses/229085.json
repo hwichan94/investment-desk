@@ -1,0 +1,94 @@
+{
+  "summary": "나스닥 -5% 패닉장을 레버리지 펀드 청산과 민주당 AI 데이터센터 규제 우려가 겹친 결과로 해석한다. 텍사스 당선인 발언은 전면 중단이 아닌 주민 보호 조건부라 CapEx는 속도 조절일 뿐 방향은 유지된다고 본다. 구글의 와이오밍 $17B 투자(전력·인프라 비용 자체 부담)를 근거로 빅테크가 수혜라 주장하며, 작성자는 코닝·플래닛랩스·블룸에너지를 단기 트레이딩으로 분할 신규 진입했다고 밝힌다. IonQ 3Q는 긍정적이고 첫 조정 EBITDA 개선을 기대한다고 하나 수치는 없다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "나스닥이 하루 약 5% 하락한 패닉장이었다",
+      "tickers": [
+        "QQQ"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": null,
+      "evidence_note": "data/market/regime.json: QQQ 20일 수익률 -13.4%, VIX 28.18로 급등(20일 SMA 18.3). 단일 일 -5%는 직접 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "구글이 와이오밍에 $170억 데이터센터 투자를 발표했고 전력·인프라 비용을 직접 부담한다",
+      "tickers": [
+        "GOOG"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "GOOG 8-K(11-05)가 sec.gov 접근 제한으로 원문 확인 불가. 시도했으나 검증 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "IonQ 3Q26 실적이 긍정적이며 사상 첫 조정 EBITDA 개선이 기대된다",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "웹검색으로 3Q26 수치를 찾지 못함(2Q26 조정 EBITDA 약 -$120M까지만 확인). 방향성 주장만 있고 수치 없음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "데이터센터 규제는 속도 지연이지 AI CapEx 중단이 아니며, 부채 없이 FCF가 큰 빅테크가 유리하다",
+      "tickers": [
+        "GOOG",
+        "AMZN",
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "4분기 빅테크 실적에서 데이터센터 빌드 속도·방향이 확정될 것",
+      "tickers": [
+        "GOOG",
+        "AMZN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "채점 대기",
+      "due": "2027-02-28"
+    },
+    {
+      "kind": "OPINION",
+      "text": "현재 하락은 중간선거 직후 불확실성의 정점으로 이후 회복할 것",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "evidence_url": null,
+      "evidence_note": null
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CapEx 속도 조절 논리일 뿐 공식 근거 변화 없음."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "빅테크 수혜 주장은 의견이며 직접 근거 없음."
+    }
+  ],
+  "new_candidates": [
+    "GLW",
+    "PL",
+    "BE",
+    "IONQ"
+  ],
+  "portfolio_implication": "변경 없음. 작성자의 단기 트레이딩 진입은 개인 의견 한 건이며, 보유 종목이 아닌 GLW·PL·BE는 공식 근거가 없어 편입하지 않는다. 투자 가능 현금 0.8%로 신규 자금 여력도 없다. RISK_OFF는 신규 Starter·Tactical 크기를 줄이는 신호로만 쓴다.",
+  "post_id": "229085",
+  "content_hash": "1a4fce51072eb02762b7ee28e05aae081c7a56ab04e22d484b2a625ae0945f6a",
+  "analyzed_at": "2026-11-06T16:30:00+09:00",
+  "title": "현재 시장 폭락에 관하여 (feat. 아이온큐 3분기 실적)",
+  "author": "T3chfeed_테크피드"
+}

@@ -1,0 +1,91 @@
+{
+  "summary": "11/5 투자학개론 AI 정리본. 중간선거 후 민주당 수혜 섹터(주택·보험·유통)는 성장성·밸류가 매력적이지 않고 기술주 밸류가 4년 최저(나스닥 포워드 P/E 19배)라는 시각이다. 금리·유가 안정과 VIX 하락으로 대형주 우려는 해소됐으나 CTA 숏 쏠림과 네오클라우드 자금조달 우려는 남았다고 본다. AI 인프라 내러티브는 정책 불확실성에도 유지되며 자금 환경이 풀리면 소형 네오클라우드로 로테이션을 예상한다. 대부분 시황 의견이며 종목별 공식 확인 가능한 사실은 적다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "메타가 미국 20조 원·유로 13.6조 원 규모로 채권을 발행했고 CDS는 지난주보다 하락.",
+      "tickers": [
+        "META"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.newsquawk.com/headlines/meta-meta-plans-a-usd-denominated-and-eur-denominated-bond-sale",
+      "evidence_note": "WebSearch(2026-11-06): 11월 초 메타의 달러(5분할)·유로(6분할, 첫 유로 발행) 채권 발행 추진은 언론 보도로 확인. 최종 규모는 보도마다 달라 불확실하고 CDS 수치는 확인 못함. 공식 SEC 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "10년물 금리가 피크 후 한 달간 하락해 4.8%대, 유가 급락, 금리 인상 반영 3회→2회.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "금리 수준·선물 반영 횟수는 검색에서 확인되지 않음. desk regime.json(Actions 갱신)과 대조 필요."
+    },
+    {
+      "kind": "FACT",
+      "text": "나스닥 포워드 P/E 19배(5년 평균 24.2배), 메모리 10배→5.3배, AI 인프라 22→14배.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "강사 제시 차트 수치로 공식 출처 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "CTA 포지셔닝이 3.3시그마 숏, 최근 1년 상위 1.9%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 근거 없음(민간 포지셔닝 추정)."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "시장 분위기 개선·자금조달 완화 시 대형주에서 네오클라우드 소형주로 로테이션.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2027-06-30"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "Anthropic IPO가 성공하면 AI 불확실성이 제거되고 기술주 VIX가 더 하락.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "due": "2027-03-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 인프라 투자는 정치·기술·금융 권력 모두에 이익이라 초당적으로 2030년까지 지속되는 내러티브.",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "민주당 집권 시 AI 금지보다 조건부 데이터센터 규제가 유력하며 마진은 소폭 감소에 그친다. NVDA는 CAPEX 속도 둔화에 상대적으로 불리, 빅테크 자체는 수혜.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "민주당 집권 시 AI CAPEX 속도 둔화 가능성은 NVDA에 상대적 부정 요인이나 강사 의견이며 근거 약함."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CRWV CDS가 신고점에 근접한다는 언급은 자금조달 리스크를 상기시키나 공식 확인 불가."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 시황·정책 해설이 중심이고 공식 근거로 확인된 종목별 변화가 없다. 현금 여력이 낮고 AI CAPEX 집중도가 높은 상태에서 네오클라우드 로테이션 베팅은 근거가 부족해 비중 확대 사유가 아니다.",
+  "post_id": "229127",
+  "content_hash": "ba190158506f7648b6eef86782bc0af3b814c68a208c86c16d94ae06307e94ef",
+  "analyzed_at": "2026-11-07T04:10:00+09:00",
+  "title": "🐹 AI 정리본: 투자 가설 재정비: 민주당 수혜 섹터는 언제, 어디서 나올까",
+  "author": "세상학개론 - 한정수 작가"
+}

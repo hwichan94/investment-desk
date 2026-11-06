@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-06T10:08:53.393920+09:00",
+  "generated_at": "2026-11-06T15:47:21.081818+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -198,7 +198,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.095011,
+          "relative_volume_20": 2.115333,
           "relative_strength_qqq_trend": "FLAT",
           "relative_momentum": "NEUTRAL"
         },
@@ -240,7 +240,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": true,
-          "relative_volume_20": 1.850182,
+          "relative_volume_20": 1.859762,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -310,7 +310,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.509823,
+          "relative_volume_20": 2.51292,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -352,7 +352,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": true,
           "above_sma_200": true,
-          "relative_volume_20": 1.834042,
+          "relative_volume_20": 1.86917,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
@@ -394,7 +394,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.912803,
+          "relative_volume_20": 2.927685,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -436,7 +436,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.450599,
+          "relative_volume_20": 2.460796,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -478,7 +478,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.020035,
+          "relative_volume_20": 2.033172,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -520,7 +520,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.375751,
+          "relative_volume_20": 2.459219,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -562,7 +562,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 3.83614,
+          "relative_volume_20": 3.871576,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
@@ -604,7 +604,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.307207,
+          "relative_volume_20": 1.312939,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -646,7 +646,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.255649,
+          "relative_volume_20": 2.256414,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -688,7 +688,7 @@
           "as_of": "2026-11-05",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.35165,
+          "relative_volume_20": 1.355898,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-06T08:48:36.608701+09:00",
+    "generated_at": "2026-11-06T15:47:08.200137+09:00",
     "key_signals": [
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
       "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -738,7 +738,7 @@
     ],
     "regime": {
       "state": "RISK_OFF",
-      "as_of": "2026-11-05",
+      "as_of": "2026-11-06",
       "reasons": [
         "VIX rising above SMA20",
         "credit HYG/LQD falling",

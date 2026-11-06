@@ -1,0 +1,2719 @@
+CCJ 6-K filed 2026-11-06 (period 2026-11-06)
+[source] https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex991.htm
+EX-99.1
+2
+d58993dex991.htm
+EX-99.1
+EX-99.1
+Exhibit 99.1
+CAMECO CORPORATION
+US$1,000,000,000
+EQUITY DISTRIBUTION AGREEMENT
+November 5, 2026
+TD Securities Inc.
+66 Wellington Street West, 10
+th
+Floor
+Toronto, Ontario M5K 1A2
+TD Securities (USA) LLC
+1 Vanderbilt Avenue
+New York, New York 10017
+CIBC World Markets Inc.
+161 Bay Street, 6
+th
+Floor
+Toronto, Ontario M5J 2S8
+CIBC World Markets Corp.
+300 Madison Ave, 6
+th
+Floor
+New York, New York 10017
+Scotia Capital Inc.
+40 Temperance Street, 6
+th
+Floor
+Toronto, Ontario M5H 0B4
+Scotia Capital (USA) Inc.
+250 Vesey Street, 24
+th
+Floor
+New York, New York 10281
+Ladies and Gentlemen:
+Cameco Corporation, a corporation incorporated under the
+Canada Business Corporations Act
+(the
+“
+Corporation
+”), confirms its agreement (this “
+Agreement
+”) with TD Securities Inc., CIBC World Markets Inc. and Scotia Capital Inc. (collectively, the “
+Canadian Agents
+”), and TD Securities
+(USA) LLC, CIBC World Markets Corp. and Scotia Capital (USA) Inc. (collectively, the “
+U.S. Agents
+”, and together with the Canadian Agents, the “
+Agents
+”) to issue and sell common shares of the Corporation upon
+and subject to the terms and conditions contained herein. Capitalized terms used herein have the meanings given to them in
+Section
+26
+hereof.
+1.
+Issuance and Sale of Shares
+The Corporation agrees that, from time to time during the term of this Agreement, on the terms and subject to the conditions
+set forth herein, it may issue and sell through the Agents, common shares (the “
+Shares
+”) of the Corporation having an aggregate sales price of up to US$1,000,000,000 (or the equivalent in Canadian currency) (the
+“
+Offering
+”). The Shares will be sold on the terms set forth herein at such times and in such amounts as the Corporation and the Agents shall agree from time to time. The issuance and sale of the Shares through the Agents will be
+effected pursuant to the Canadian Prospectus (as defined below) and the Registration Statement (as defined below) filed by the Corporation, which Registration Statement became effective upon filing with the U.S. Securities and Exchange Commission
+(the “
+SEC
+”) pursuant to Rule 467(a) under the Securities Act.
+When determining the aggregate value of
+the Placement Shares (as defined below) sold, the Corporation will use the daily exchange rate posted by the Bank of Canada on the date the applicable Placement Shares were sold to determine the United States dollar equivalent of any Placement
+Shares sold in consideration for Canadian dollars.
+Nothing contained herein shall prohibit or restrict the Corporation from
+issuing securities or raising money in any manner other than through Placements pursuant to this Agreement.
+2.
+Placements
+(a)
+Placement Notice
+. Each time that the Corporation wishes to issue and sell Shares hereunder (each, a
+“
+Placement
+”), it will notify the applicable Agent that the Corporation has selected such Agent, in its sole discretion, to act as its agent in respect of such Placement by
+e-mail
+notice (or
+other method mutually agreed to in writing by the parties) (a “
+Placement Notice
+”) containing the parameters within which it desires to sell the Shares, which shall at a minimum include (i) the number of Shares to be sold
+under the applicable Placement pursuant to this Agreement (“
+Placement Shares
+”), (ii) the time period during which sales are requested to be made, (iii) any limitation on the number of Placement Shares that may be sold in any
+one Trading Day (as defined below), (iv) whether the Corporation desires the Placement Shares to be sold on a particular stock exchange, (v) any minimum price below which sales may not be made, and (vi) the amount of the Placement Fee,
+with a copy to the other Agents. The Placement Notice shall originate from any two of the individuals (each an “
+Authorized Representative
+”) from the Corporation set forth on
+Schedule
+1
+, and shall be
+addressed to each of the respective individuals from the applicable Agent set forth on
+Schedule
+1
+attached hereto, as such
+Schedule
+1
+may be amended from time to time by notice given in accordance
+with Section 14. The Placement Notice shall be effective upon delivery to the applicable Agent unless and until (A) the entire amount of the Placement Shares referred to in the Placement Notice have been sold, (B) the Placement Notice
+is suspended or terminated in accordance with the notice requirements set forth in
+Section
+4
+or
+Section
+13
+, as applicable, (C) the Corporation issues a subsequent Placement Notice with
+parameters superseding those on the earlier Placement Notice, or (D) this Agreement has been terminated under the provisions of
+Section
+13
+. Notwithstanding the foregoing, the Corporation may not deliver a Placement
+Notice to an Agent if the Corporation has delivered a continuing Placement Notice to another Agent, unless the Corporation has terminated the prior Placement Notice in accordance with the notice requirements set forth in
+Section
+4
+.
+(b)
+Placement Fee
+. The amount of compensation to be paid by the
+Corporation to the Agents with respect to each Placement under this Agreement shall be equal to up to 2% of the gross proceeds from such Placement (the “
+Placement Fee
+”) as set out in the Placement Notice, which amount shall be
+paid in the same currency as the sale of the Placement Shares it pertains to.
+(c)
+No Obligation
+. It is
+expressly acknowledged and agreed that neither the Corporation nor the Agents will have any obligation whatsoever with respect to a Placement or any Placement Shares unless and until the Corporation delivers a Placement Notice to the applicable
+Agent, which Placement Notice has not been suspended or otherwise terminated in accordance with the terms of this Agreement, and then only upon the terms specified therein and herein. It is also expressly acknowledged that the Agents will be under
+no obligation to purchase Placement Shares on a principal basis. In the event of a conflict between the terms of this Agreement and the terms of a Placement Notice, the terms of the Placement Notice will prevail.
+(d)
+Limitations on Placements
+. Under no circumstances shall the Corporation deliver a Placement Notice if after
+giving effect to the issuance of the Placement Shares requested to be issued under such Placement Notice, the aggregate sales price of the Placement Shares sold
+2
+pursuant to this Agreement would exceed US$1,000,000,000 (or the equivalent in Canadian
+currency).
+3.
+Sale of Placement Shares by the Agents
+Subject to the terms and conditions of this Agreement, upon the Corporation’s issuance of a Placement Notice, and unless
+the sale of the Placement Shares described therein has been suspended, or otherwise terminated in accordance with the terms of this Agreement, each of the applicable Agents will severally and not jointly use its commercially reasonable efforts
+consistent with its normal trading and sales practices and applicable law to sell on behalf of the Corporation and as agent, such Placement Shares up to the amount specified during the time period specified, and otherwise in accordance with the
+terms of such Placement Notice and this Agreement. The applicable Agent will provide written confirmation to the Corporation no later than the opening of the Trading Day (as defined below) immediately following the Trading Day on which it has made
+sales of Placement Shares hereunder setting forth (i) the number of Placement Shares sold on such day (showing the number of Placement Shares sold on the TSX, on any other “marketplace” (as such term is defined in NI
+21-101
+(as defined below)) in Canada (a “
+Canadian Marketplace
+”), on the NYSE, on any other “marketplace” (as such term is defined in NI
+21-101)
+in the United States (a “
+United States Marketplace
+”) and pursuant to any other sales method permitted by applicable law and this Agreement to be used by the Agents), (ii) the average price of the Placement Shares sold (showing the
+average price of the Placement Shares sold on the TSX, a Canadian Marketplace, the NYSE, a United States Marketplace and pursuant to any other sales method permitted by applicable law and this Agreement to be used by the Agents), (iii) the gross
+proceeds of the Placement Shares sold, (iv) the Placement Fee payable by the Corporation to the Agents with respect to such Placement Shares sold, and (v) the Net Proceeds (as defined below) payable to the Corporation. Subject to the terms
+and conditions of the Placement Notice, the Agents may sell Placement Shares by any method permitted by law that constitutes an
+“at-the-market
+distribution”
+under NI
+44-102,
+including, without limitation, (i) in privately negotiated transactions with the consent of the Corporation and, if required, consent under the rules of the TSX and the NYSE; (ii) as
+block transactions; and (iii) as sales made directly on the NYSE and the TSX, or on any Canadian Marketplace or United States Marketplace. Each of the U.S. Agents, severally (and not jointly), covenants and agrees with the Corporation that
+(i) it shall not, directly or indirectly, advertise or solicit offers to purchase or sell Placement Shares in Canada, and (ii) it shall not sell Placement Shares on the TSX or any Canadian Marketplace. Each of the Canadian Agents,
+severally (and not jointly), covenants and agrees with the Corporation that (i) it shall not, directly or indirectly, advertise or solicit offers to purchase or sell Placement Shares in the United States, and (ii) it shall not sell
+Placement Shares on the NYSE or any United States Marketplace. For the avoidance of doubt, none of the U.S. Agents is acting as an agent or underwriter of the Placement Shares in the Canadian Qualifying Jurisdictions and no action on the part of any
+of the U.S. Agents in its capacity as an Agent of the Offering of the Placement Shares in the United States is intended to create any impression or support any conclusion that it is acting as an agent or underwriter of the Placement Shares in the
+Canadian Qualifying Jurisdictions. The Corporation acknowledges and agrees that sales of Placement Shares in the United States under this Agreement may be made through affiliates of TD Securities (USA) LLC, and that TD Securities (USA) LLC may
+otherwise fulfill its obligations pursuant to this Agreement to or through an affiliated broker-dealer.
+3
+Each of the Agents hereby covenants and agrees that, during the time an
+Agent is the recipient of a Placement Notice pursuant to
+Section
+2
+hereof that has not been suspended or terminated in accordance with the terms hereof, such Agent will prudently and actively monitor the market’s
+reaction to trades made on any marketplace (as such term is defined in NI
+21-101)
+pursuant to this Agreement in order to evaluate the likely market impact of future trades, and that, if such Agent that is the
+recipient of the Placement Notice has concerns as to whether a particular sale contemplated by a Placement Notice may have a significant effect on the market price of the Shares, the applicable Agent will, promptly upon receipt of the applicable
+Placement Notice, recommend to the Corporation against effecting the trade at that time or on the terms proposed. Notwithstanding the foregoing, the Corporation acknowledges and agrees that the Agents cannot provide complete assurances that any sale
+will not have a significant effect on the market price of the Shares.
+The Agents severally and not jointly covenant that
+the Agents will not (nor will any affiliate thereof or person or company acting jointly or in concert therewith) over-allot Placement Shares in connection with the distribution of Placement Shares in an
+“at-the-market
+distribution” (as defined in NI
+44-102)
+or enter into any transaction that is intended to stabilize or maintain the market price of the
+Placement Shares in connection with such distribution.
+Notwithstanding anything to the contrary set forth in this
+Agreement or a Placement Notice, the Corporation acknowledges and agrees that (i) there can be no assurance that the Agents will be successful in selling any Placement Shares or as to the price at which any Placement Shares are sold, if at all,
+and (ii) the Agents will incur no liability or obligation to the Corporation or any other person or entity if they do not sell Placement Shares for any reason other than a failure by the Agents to use their commercially reasonable efforts
+consistent with their normal trading and sales practices to sell on behalf of the Corporation and as agent such Placement Shares as provided under this
+Section
+3
+.
+4.
+Suspension of Sales
+(a) The Corporation or the applicable Agent may, upon notice to the other party in writing, by telephone (confirmed
+immediately by
+e-mail)
+or by
+e-mail
+notice (or other method mutually agreed to in writing by the parties), suspend any sale of Placement Shares for which it has
+delivered or received, as applicable, a Placement Notice; provided, however, that such suspension shall not affect or impair any party’s obligations with respect to any Placement Shares sold hereunder prior to the receipt of such notice of
+suspension. The Corporation and the Agents, severally and not jointly, agree that no such notice shall be effective against any other party unless it is made to one of the individuals named on
+Schedule
+1
+hereto, as such
+Schedule may be amended from time to time by written notice to each of the parties hereto.
+(b) Notwithstanding any
+other provision of this Agreement, during any period in which the Corporation is in possession of material
+non-public
+information with respect to the Corporation, its subsidiaries or the Shares, the
+Corporation and the Agents (provided they have been given prior written notice of such by the Corporation, which notice the Agents, severally and not jointly, agree to treat confidentially) agree that no sale of Placement Shares will take place. The
+Corporation and the Agents, severally and not jointly, agree that no such notice shall be effective against any other party unless it is made to one of the individuals named on
+Schedule
+1
+4
+hereto, as such Schedule may be amended from time to time by written notice to each of the
+parties hereto. A Placement Notice shall not be considered in effect from the time it has been suspended in accordance with this Section 4.
+5.
+Settlement
+(a)
+Settlement of Placement Shares
+. Unless otherwise specified in the applicable Placement Notice, settlement
+for sales of Placement Shares will occur on the first (1
+st
+) Trading Day on the applicable stock exchange following the Trading Day on which the Placement Shares were sold or, if the Placement
+Shares are not sold on a stock exchange, on the first (1
+st
+) Trading Day following the date on which such sales are made (each a “
+Settlement Date
+”). The amount of proceeds to be
+delivered to the Corporation on a Settlement Date against the receipt of the Placement Shares sold (“
+Net Proceeds
+”) will be equal to the aggregate sales price at which such Placement Shares were sold, after deduction of the
+Placement Fee for such sales payable by the Corporation to the applicable Agent pursuant to
+Section
+2
+hereof.
+(b)
+Delivery of Shares
+. On each Settlement Date, the Corporation will, or will cause its transfer agent to,
+electronically transfer the Placement Shares being sold by crediting the applicable Agent’s account or its designee’s account (provided that the applicable Agent shall have given the Corporation written notice of such designee at least
+one Trading Day prior to the Settlement Date) at CDS Clearing and Depository Services Inc. through its CDSX system for Placement Shares sold in Canada and at The Depository Trust Company through its Deposit Withdrawal at Custodian System for
+Placement Shares sold in the United States or by such other means of delivery as may be mutually agreed upon by the Corporation and the applicable Agent and, upon receipt of such Placement Shares, which in all cases shall be freely tradeable,
+transferable, registered shares in good deliverable form, the applicable Agent will, on each Settlement Date, deliver the related Net Proceeds in same day funds to an account designated by the Corporation prior to the Settlement Date. If the
+Corporation defaults in its obligation to deliver Placement Shares on a Settlement Date, the Corporation agrees that in addition to and in no way limiting the rights and obligations set forth in
+Section
+11
+hereto, it will
+(i) hold the Agents harmless against any loss, claim, damage, or expense (including reasonable legal fees and expenses), as incurred, arising out of or in connection with such default by the Corporation and (ii) pay to the Agents any
+Placement Fee, discount, or other compensation to which it would otherwise have been entitled absent such default; provided, however, that without limiting
+Section
+11
+herein, with respect to (ii) above, the Corporation
+shall not be obligated to pay the Agents any Placement Fee, discount or other compensation on any Placement Shares that it is not possible to settle due to: (A) a suspension or material limitation in trading in securities generally on the TSX
+or the NYSE; (B) a material disruption in securities settlement or clearance services in the United States or Canada; or (C) failure by an Agent to comply with its obligations under the terms of this Agreement.
+The applicable Agent in respect of a Placement Notice covenants and agrees to copy or otherwise include the Corporation on any
+correspondence between such Agent and the transfer agent of the Corporation in connection with or relating to the settlement (electronic or otherwise) of any sale of Placement Shares hereunder.
+5
+6.
+Registration Statement and Prospectuses
+The Corporation has prepared and filed with the Canadian Qualifying Authorities in the Canadian Qualifying Jurisdictions the
+Canadian Base Prospectus in respect of an aggregate of up to US$3,000,000,000 (or its equivalent in one or more foreign currencies or currency units) in common shares, first preferred shares, second preferred shares, debt securities, warrants,
+subscription receipts and units of the Corporation (collectively, the “
+Shelf Securities
+”) in each case in accordance with Canadian Securities Laws. The Securities Division of the Financial and Consumer Affairs Authority of
+Saskatchewan (the “
+Reviewing Authority
+”) is the principal regulator of the Corporation under the passport system procedures provided for under Multilateral Instrument
+11-102
+–
+Passport System
+and National Policy
+11-202
+–
+Process for Prospectus Reviews in Multiple Jurisdictions
+in respect of the Shelf Securities and the Offering. A receipt for the Canadian Base
+Prospectus is deemed to have been issued in accordance with the WKSI Rules upon its filing with the Canadian Qualifying Authorities (the “
+Deemed Receipt
+”). The term “
+Canadian Base Prospectus
+” means the final
+short form base shelf prospectus (in the English language only) dated November 5, 2026 relating to the Shelf Securities, at the time it was filed in accordance with Canadian Securities Laws, including NI
+44-101
+and NI
+44-102
+(including the WKSI Rules), and includes all documents incorporated therein by reference and the documents otherwise deemed to be a part thereof or
+included therein pursuant to Canadian Securities Laws, including but not limited to, all Designated News Releases. As used herein, a “
+Designated News Release
+” means a news release disseminated by the Corporation in respect of
+previously undisclosed information that, in the Corporation’s determination, constitutes a material fact (as such term is defined in Canadian Securities Laws) and identified by the Corporation as a “designated news release” in
+writing on the face page of the version of such news release that is filed by the Corporation on SEDAR+. As used herein, “
+Canadian Prospectus Supplement
+” means the most recent prospectus supplement (in the English language only)
+to the Canadian Base Prospectus relating to the Placement Shares, to be filed by the Corporation with the Canadian Qualifying Authorities in accordance with Canadian Securities Laws. The Canadian Prospectus Supplement shall provide that any and all
+Designated News Releases shall be deemed to be incorporated by reference in the Canadian Prospectus Supplement and the Canadian Base Prospectus.
+The Corporation has also prepared and filed with the SEC, pursuant to the Canada/U.S. Multi-Jurisdictional Disclosure System
+adopted by the SEC, a registration statement on
+Form F-10
+(File
+No. 333-299849)
+covering the registration of the Shelf Securities under the Securities Act and
+the rules and regulations (the “
+Rules and Regulations
+”) of the SEC thereunder, and such amendments to such registration statement as may have been permitted or required to the date of this Agreement. Such registration statement,
+including the Canadian Base Prospectus (with such deletions therefrom and additions thereto as are permitted or required by
+Form F-10
+and the Rules and Regulations and including exhibits to such
+registration statement), has become effective in such form pursuant to Rule 467(a) under the Securities Act. Such registration statement on
+Form F-10,
+at any given time, including amendments and
+supplements thereto to such time, the exhibits and any schedules thereto at such time and the documents incorporated by reference therein at such time, is herein called the “
+Registration Statement
+.”
+The Canadian Base Prospectus, with such deletions therefrom and additions thereto as are permitted or required by
+Form F-10
+and the Rules and Regulations in the form in which it appeared
+6
+in the Registration Statement on the date it became effective under the Securities Act is
+herein called the “
+U.S. Base Prospectus
+.” “
+U.S. Prospectus Supplement
+” means the most recent Canadian Prospectus Supplement, with such deletions therefrom and additions thereto as are permitted or required by
+Form F-10
+and the Securities Act, relating to the offering of the Placement Shares, to be filed by the Corporation with the SEC pursuant to General Instruction II.L of
+Form F-10;
+“
+U.S. Prospectus
+” means the U.S. Prospectus Supplement (and any additional U.S. prospectus supplement prepared in accordance with the provisions of this Agreement and filed
+with the SEC in accordance with General Instruction II.L of
+Form F-10)
+together with the U.S. Base Prospectus; and “
+Issuer Free Writing Prospectus
+” means any “issuer free writing
+prospectus” as defined in Rule 433 relating to the Placement Shares that (i) is required to be filed with the SEC by the Corporation or (ii) is exempt from filing pursuant to Rule 433(d)(5)(i), in each case in the form
+filed or required to be filed with the SEC or, if not required to be filed, in the form retained in the Corporation’s records pursuant to Rule 433(g).
+Any reference herein to the Registration Statement, the Base Prospectuses (as defined below), the Prospectus Supplements (as
+defined below) or the Prospectuses (as defined below) or any amendment or supplement thereto shall be deemed to refer to and include the documents incorporated by reference therein, and any reference herein to the terms “amend,”
+“amendment” or “supplement” with respect to the Registration Statement, the Base Prospectuses, the Prospectus Supplements or the Prospectuses shall be deemed to refer to and include the filing or furnishing of any document
+with or to the SEC or Canadian Qualifying Authorities, as applicable, on or after the effective date of the Registration Statement or the date of the Base Prospectuses, the Prospectus Supplements or the Prospectuses, as the case may be, and deemed
+to be incorporated by reference therein. For purposes of this Agreement, all references to the Canadian Base Prospectus, the Canadian Prospectus Supplement and the Canadian Prospectus or any amendment or supplement thereto shall be deemed to include
+any copy filed with any Canadian Qualifying Jurisdiction on SEDAR+ and all references to the Registration Statement, the U.S. Base Prospectus, the U.S. Prospectus Supplement and the U.S. Prospectus or any amendment or supplement thereto shall be
+deemed to include any copy filed with the SEC on EDGAR.
+The Corporation has also prepared and filed with the SEC an
+appointment of agent for service of process upon the Corporation on
+Form F-X
+in conjunction with the filing of the Registration Statement.
+All references in this Agreement to financial statements and schedules and other information which is “contained,”
+“included” or “stated” in the Registration Statement, the U.S. Base Prospectus or the U.S. Prospectus (or other references of like import) shall be deemed to mean and include all such financial statements and schedules and
+other information which is incorporated by reference in or otherwise deemed by the Rules and Regulations to be a part of or included in the Registration Statement, the U.S. Base Prospectus or the U.S. Prospectus, as the case may be; and all
+references in this Agreement to amendments or supplements to the Registration Statement, the U.S. Base Prospectus or the U.S. Prospectus shall be deemed to mean and include the filing of any document under the Exchange Act, and which is deemed to be
+incorporated therein by reference or otherwise deemed by the Rules and Regulations to be a part of or included in the Registration Statement, the U.S. Base Prospectus or the U.S. Prospectus, as the case may be. All references in this Agreement to
+financial statements and other information which is “described,” “contained,” “included” or “stated” in the Canadian Base Prospectus or the
+7
+Canadian Prospectus (or other references of like import) shall be deemed to mean and include
+all such financial statements and other information which is incorporated by reference in or otherwise deemed by Canadian Securities Laws to be a part of or included in the Canadian Prospectus.
+7.
+Representations and Warranties of the Corporation
+The Corporation represents and warrants to, and agrees with, the Agents that:
+(a)
+Prospectuses and Registration Statement
+. The Corporation is qualified in accordance with NI
+44-101
+and NI
+44-102
+to file a short form base shelf prospectus in each of the Canadian Qualifying Jurisdictions and (i) the entering into of this Agreement will not
+cause the Deemed Receipt for the Canadian Base Prospectus to cease to be effective; (ii) no order or action that would have the effect of ceasing or suspending the distribution of the Shares has been issued by any Canadian Securities Regulator
+and no proceeding for that purpose has been initiated or, to the Corporation’s knowledge, contemplated or threatened by any Canadian Securities Regulator; and (iii) any request made to the Corporation on the part of any Canadian
+Securities Regulator for additional information has been complied with. At the time of filing the Registration Statement, the Corporation met, and as of the date hereof the Corporation meets, the general eligibility requirements for use of
+Form F-10
+under the Securities Act. Any amendment or supplement to the Registration Statement or the Prospectuses required by this Agreement will be so prepared and filed by the Corporation and, as applicable,
+the Corporation will use commercially reasonable efforts to cause it to become effective as soon as reasonably practicable. No stop order suspending the effectiveness of the Registration Statement has been issued, and no proceeding for that purpose
+has been instituted or, to the knowledge of the Corporation, threatened by the SEC. No order preventing or suspending the use of the Base Prospectuses, the Prospectus Supplements, the Prospectuses or any Issuer Free Writing Prospectus has been
+issued by the SEC or any Canadian Qualifying Authority. The Canadian Prospectus, at the time of filing thereof with the Canadian Qualifying Authorities, complied in all material respects and, as amended or supplemented, if applicable, will comply in
+all material respects with Canadian Securities Laws. The Canadian Prospectus, as amended or supplemented, as of its date, did not and, as of each Applicable Time and Settlement Date, if any, will not contain a misrepresentation, as defined under
+Canadian Securities Laws. The Canadian Prospectus, as amended or supplemented, as of its date, did and, as of each Applicable Time and Settlement Date, if any, will contain full, true and plain disclosure of all material facts relating to the
+Placement Shares and to the Corporation. The representations and warranties set forth in the two immediately preceding sentences do not apply to statements in or omissions from the Canadian Prospectus, or any amendments or supplements thereto, made
+in reliance upon and in conformity with information relating to the Agents furnished to the Corporation in writing by or on behalf of the Agents expressly for use therein. The U.S. Prospectus, at the time first filed in accordance with General
+Instruction II.L. of
+Form F-10,
+conformed in all material respects and, as amended or supplemented, if applicable, will conform in all material respects to the Canadian Prospectus, except for such
+deletions therefrom and additions thereto as are permitted or required by
+Form F-10
+and the Rules and Regulations. The Corporation has delivered to the Agents one complete electronic copy of each of the
+Canadian Base Prospectus and the Registration Statement and a copy of each consent of experts filed as a part thereof, and conformed copies of the Canadian Base Prospectus, the Registration Statement (without exhibits) and the Prospectuses, as
+amended or supplemented, at such places as the Agents have reasonably requested. At the time of filing the Registration Statement, the Corporation was not and, as of the
+8
+date of this Agreement, is not, an Ineligible Issuer (as defined in Rule 405 under the
+Securities Act), without taking account of any determination by the SEC pursuant to Rule 405 under the Securities Act that it is not necessary that the Corporation be considered an Ineligible Issuer.
+(b)
+No Misstatement or Omission
+. Each part of the Registration Statement, when such part became or becomes
+effective, at any deemed effective date pursuant to
+Form F-10
+and the Rules and Regulations on the date of filing thereof with the SEC and at each Applicable Time and Settlement Date, and the U.S.
+Prospectus, on the date of filing thereof with the SEC and at each Applicable Time and Settlement Date, conformed in all material respects or will conform in all material respects with the requirements of the Rules and Regulations; each part of the
+Registration Statement, when such part became or becomes effective, did not or will not contain an untrue statement of a material fact or omit to state a material fact required to be stated therein or necessary to make the statements therein not
+misleading; and the U.S. Prospectus, on the date of filing thereof with the SEC, and the U.S. Prospectus and the applicable Issuer Free Writing Prospectus(es), if any, issued at or prior to such Applicable Time, taken together (collectively, and
+with respect to any Placement Shares, together with the public offering price of such Placement Shares, the “
+Disclosure Package
+”) and at each Applicable Time and Settlement Date, did not or will not include an untrue statement of
+a material fact or omit to state a material fact necessary to make the statements therein, in light of the circumstances under which they were made, not misleading. The representations contained in this Section 7(b) shall not apply to
+statements or omissions in any such document made in reliance on information furnished in writing to the Corporation by or on behalf of the Agents expressly stating that such information is intended for use in the Registration Statement, the U.S.
+Prospectus, or any amendment or supplement thereto, it being understood and agreed that the only such information furnished by any Agent consists of the information described as such in Section 11(b) hereof.
+(c)
+No Misstatement or Omission in an Issuer Free Writing Prospectus
+. Each Issuer Free Writing Prospectus, as of
+the Applicable Time did not or will not contain an untrue statement of a material fact or omit to state a material fact necessary to make the statements therein, in light of the circumstances under which they were made, not misleading; provided,
+however, that the Corporation makes no representation or warranty with respect to any statement contained in any Issuer Free Writing Prospectus in reliance upon and in conformity with written information furnished to the Corporation by and through
+the Agents for use therein.
+(d)
+Conformity of Issuer Free Writing Prospectus
+. Each Issuer Free Writing
+Prospectus conformed or will conform in all material respects with the requirements of the Securities Act on the date of first use, and the Corporation has complied or will comply with any filing requirements applicable to such Issuer Free Writing
+Prospectus pursuant to the Securities Act. Each Issuer Free Writing Prospectus, as of its issue date and at all subsequent times through the completion of the public offer and sale of the Placement Shares, did not, does not and will not include any
+information that conflicted, conflicts or will conflict with the information contained in the Registration Statement or the Prospectuses, including any document incorporated by reference therein, in each case, that has not been superseded or
+modified. The Corporation has not made any offer relating to the Shares that would constitute an Issuer Free Writing Prospectus without the prior written consent of the Agents. The Corporation has retained in accordance with the Securities Act all
+Issuer Free Writing Prospectuses that were not required to be filed pursuant to the Securities Act.
+9
+(e)
+WKSI Eligibility
+. As of the date of the Canadian Base
+Prospectus, the Corporation was eligible to file the Canadian Base Prospectus pursuant to the WKSI Rules, including qualifying as a “well-known seasoned issuer” and an “eligible issuer” (as such terms are defined in the WKSI
+Rules), and satisfied each other applicable requirement of the WKSI Rules for a deemed receipt to be issued for the Canadian Base Prospectus. The Corporation is not required to withdraw the Canadian Base Prospectus pursuant to section 9B.6(1)(b) of
+NI
+44-102.
+(f)
+Incorporation and Good Standing
+. Each of the
+Material Corporate Entities and the Corporation has been duly incorporated and is validly existing under the laws of its jurisdiction of incorporation, is
+up-to-date
+in
+all corporate filings except where failure to be
+up-to-date
+in such corporate filings does not and will not have a Material Adverse Effect (as defined below), has
+corporate power and authority to own, lease and operate its properties and to conduct its business as now conducted by it and each of the Corporation and the Material Corporate Entities is duly qualified as a foreign or extra-provincial corporation,
+as the case may be, to transact business and is in good standing in each jurisdiction in which such qualification is required, whether by the ownership or leasing of property or the conduct of business, except where the failure to so qualify would
+not have a material adverse effect on (i) the business, general affairs, management, condition, financial position, shareholders’ equity, results of operations or properties of the Corporation and its consolidated interest in the Material
+Corporate Entities and the Joint Venture Inkai Limited Liability Partnership (“
+JV
+Inkai
+”) and Westinghouse Electric Company (“
+WEC
+”, and collectively with the Material Corporate Entities and JV Inkai, the
+“
+Material Entities
+”), taken as a whole, or (ii) the ability of the Corporation to perform its obligations under this Agreement or to consummate the transactions contemplated by this Agreement (collectively, a
+“
+Material Adverse Effect
+”), and except as otherwise disclosed in the Registration Statement, Prospectuses and the Disclosure Package, all of the issued and outstanding share capital of the Material Corporate Entities has
+been duly authorized and validly issued, is fully paid and
+non-assessable
+and is owned by the Corporation, directly or indirectly, free and clear of any security interest, mortgage, pledge, lien, encumbrance
+or claim.
+(g)
+Material Subsidiaries
+. The Material Entities are the only material subsidiaries, joint
+venture or partnership in which the Corporation has an interest or participates in that would have to be disclosed by the Corporation in its Annual Information Form for its fiscal year ended December 31, 2025 pursuant to Section 3.2
+–
+Intercorporate Relationships
+of
+Form 51-102F2
+pursuant to NI
+51-102.
+JV Inkai has been formed and is existing under the laws of Kazakhstan, with
+power and authority to own, lease and operate its properties and to conduct its business as now conducted by it and the Corporation holds a 40.0% limited partnership interest in JV Inkai. WEC has been formed and is existing under the laws of the
+State of Delaware, with power and authority to own, lease and operate its properties and to conduct its business as now conducted by it and the Corporation holds a 49.0% indirect ownership interest in WEC.
+(h)
+No Defaults
+. Neither the execution, delivery or performance of this Agreement by the Corporation nor the
+consummation of any of the transactions contemplated hereby will give rise to a right to terminate or accelerate the due date of any payment due under, or conflict with or result in the breach of any term or provision of, or constitute a default
+under, or require any consent or waiver under, or result in the execution or imposition of any lien, charge or encumbrance upon any properties or assets of the Corporation or any of the Material Entities pursuant to the terms of any indenture,
+mortgage, deed or trust or other agreement or instrument to which the Corporation,
+10
+the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC, is a
+party or by which any of them or any of their respective properties or businesses is bound, or any franchise, license, permit, judgment, decree, order, statute, rule, regulation or
+by-law
+applicable to the
+Corporation, the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC, except where such right, conflict, breach, default, consent or waiver requirement, execution or imposition would not have a Material Adverse Effect,
+or violate any provisions of the articles (subject to the Corporation’s compliance with ownership restrictions therein), by laws or other constating documents of the Corporation or any of the Material Entities.
+(i)
+Due Authorization and Enforceability of Agreement
+. The Corporation has full corporate power and authority to
+enter into this Agreement and to perform its obligations set out herein, and this Agreement has been duly authorized, executed and delivered by the Corporation and is a legal, valid and binding obligation of the Corporation enforceable against the
+Corporation in accordance with its terms subject to bankruptcy, insolvency, creditor arrangement laws and laws affecting creditors’ rights generally and equitable relief and except as rights to indemnity and contribution may be limited by
+applicable laws.
+(j)
+No Consents
+. No filing with, or authorization, approval, consent, license, order,
+registration, qualification or decree of, any court or governmental authority or agency is necessary or required for the performance by the Corporation of its obligations hereunder or in connection with the offering, issuance or sale of the Shares
+or the consummation of the transactions contemplated by this Agreement, except (i) such as have been obtained or as may be required (and will be obtained prior to each Applicable Time and associated Settlement Date) under the U.S. Securities
+Laws (including state “blue sky” securities laws) and (ii) such as have been obtained or as may be required (and will be obtained prior to each Settlement Date) under the Canadian Securities Laws.
+(k)
+No Material Adverse Change
+. Except as has been disclosed in the Registration Statement, Prospectuses,
+Disclosure Package or any amendment to the Registration Statement or amendment to the Prospectuses, subsequent to the date of the latest interim financial statements incorporated by reference in the Prospectuses, there has not been any material
+adverse change, actual or to the knowledge of the Corporation, pending, in the capital, assets, liabilities (absolute, accrued, contingent or otherwise), earnings, business, operations or condition (financial or otherwise) or results of the
+operations of the Corporation and its subsidiaries (taken as a whole). Except as otherwise disclosed in the Registration Statement, Prospectuses, Disclosure Package or any amendment to the Registration Statement or amendment to the Prospectuses,
+subsequent to the date of the latest interim financial statements incorporated by reference in the Prospectuses, neither the Corporation, the Material Corporate Entities, JV Inkai nor to the Corporation’s knowledge, WEC, has sustained any loss
+or interference with its business or properties from fire, explosion, flood, hurricane, accident or other calamity, whether or not covered by insurance, or from any labour dispute or any legal or governmental proceeding, that would be material to
+the Corporation on a consolidated basis.
+(l)
+Financial Information
+. The audited and interim financial
+statements of the Corporation incorporated by reference in the Registration Statement, Prospectuses, the Disclosure Package and any amendment to the Prospectuses, have been prepared in accordance with International Financial Reporting Standards
+(“
+IFRS
+”) applied on a basis consistent with those of
+11
+previous periods for which financial statements have been prepared in accordance with IFRS,
+unless otherwise noted, and present fairly: (i) the assets, liabilities (whether accrued, absolute, contingent or otherwise) and the consolidated financial position of the Corporation as at the periods then ended; and (ii) the consolidated
+earnings and retained earnings and the changes in consolidated cash resources of the Corporation for the periods then ended. The interactive data in the eXtensible Business Reporting Language incorporated by reference into the Registration Statement
+fairly presents the information called for in all material respects and has been prepared in accordance with the SEC’s rules and guidelines applicable thereto. The summary financial information relating to WEC incorporated by reference in the
+Registration Statement, Prospectuses, the Disclosure Package and any amendment to the Prospectuses, presents fairly on a summary basis the financial position of WEC as of the dates indicated, and the consolidated results of operations and changes in
+financial position of WEC and its subsidiaries for the periods specified.
+(m)
+Legal Proceedings
+. Except as
+has been disclosed in each of the Registration Statement, the Prospectuses and the Disclosure Package, or any amendment to the Prospectuses, there are no claims, actions, suits, investigations, notices or proceedings (including, without limitation,
+by aboriginal groups) pending or, to the Corporation’s knowledge, threatened by or against or affecting the Corporation, the Material Corporate Entities or JV Inkai in any court or before or by any federal, provincial, state, municipal or
+other governmental department, commission, board or agency, domestic or foreign, which would have a Material Adverse Effect. Except as has been disclosed in each of the Registration Statement, the Prospectuses and the Disclosure Package, or any
+amendment to the Prospectuses, to the Corporation’s knowledge, there are no claims, actions, suits, investigations, notices or proceedings (including, without limitation, by aboriginal groups) pending, threatened by or against or affecting WEC
+in any court or before or by any federal, provincial, state, municipal or other governmental department, commission, board or agency, domestic or foreign, which would have a Material Adverse Effect.
+(n)
+No Violation
+. The Corporation is not a party to, bound or affected by or subject to any provision in its
+constating documents or
+by-laws
+which is violated, contravened or breached by the execution and delivery by it of this Agreement or the performance by it of any of the terms hereof. The Corporation is not
+bound or affected by or subject to any statutory law or regulation in the Province of Saskatchewan, the Province of Ontario or the federal laws of Canada applicable in such provinces which is violated, contravened or breached by the execution and
+delivery by it of this Agreement or the performance by it of any of the terms hereof; no event has occurred which constitutes or which, with the giving of notice, lapse of time or both, would constitute a default under or in respect of any material
+agreement, undertaking or instrument to which the Corporation, the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC is a party or to which any of their respective properties may be subject which, if determined
+against the Corporation or a Material Entity, as applicable could (either individually or in the aggregate) have a Material Adverse Effect.
+(o)
+Compliance with Anti-Corruption Laws and Anti-Money Laundering Laws
+. Neither the Corporation nor any of its
+subsidiaries nor, to the knowledge of the Corporation, any director, officer, agent, employee, affiliate or other person acting on behalf of the Corporation or any of its subsidiaries is aware of or has made (i) any unlawful contribution to any
+candidate for non United States or Canadian office, or failed to disclose fully any such contribution in violation
+12
+of law, or (ii) any payment to any federal or state governmental officer or official,
+or other person charged with similar public or quasi public duties, other than payments required or permitted by the laws of the United States or Canada of any jurisdiction thereof. Without limiting the generality of the foregoing, none of the
+Corporation, its subsidiaries or, to the knowledge of the Corporation, any director, officer, agent, employee or affiliate of the Corporation or any of its subsidiaries is aware of or has taken any action, directly or indirectly, that would result
+in a violation by such persons of the Canadian Corruption of Foreign Public Officials Act or the Foreign Corrupt Practices Act of 1977, as amended, and the rules and regulations thereunder (collectively the
+“Foreign Corruption
+Laws
+”), including, without limitation, making use of the mails or any means or instrumentality of interstate commerce corruptly in furtherance of an offer, payment, promise to pay or authorization of the payment of any money, or other
+property, gift, promise to give, or authorization of the giving of anything of value to any “foreign official” (as such term is defined in the Foreign Corruption Laws) or any foreign political party or official thereof or any candidate
+for foreign political office, in contravention of the Foreign Corruption Laws; and the Corporation and each of its subsidiaries have conducted their businesses in compliance with the Foreign Corruption Laws and have instituted and maintain policies
+and procedures designed to ensure, and which are reasonably expected to continue to ensure, continued compliance therewith. The operations of the Corporation and each of its subsidiaries are and have been conducted at all times in compliance with
+applicable financial record keeping and reporting requirements of the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (Canada) and the U.S. Currency and Foreign Transactions Reporting Act of 1970, as amended, the money laundering
+statutes of all applicable jurisdictions, the rules and regulations thereunder and any related or similar rules, regulations or guidelines issued, administered or enforced by any governmental agency (collectively, the “
+Money Laundering
+Laws
+”) and no action, suit or proceeding by or before any court or governmental agency, authority or body or any arbitrator involving the Corporation or any subsidiary with respect to the Money Laundering Laws is pending or, to the best
+knowledge of the Corporation, threatened.
+(p)
+Sanctions
+. None of the Corporation, any of the Material
+Corporate Entities, or JV Inkai, or to the Corporation’s knowledge, WEC, or to the Corporation’s knowledge, any director, trustee, officer, agent or employee of the Corporation (or any of its affiliates) or any of the Material Entities
+is currently the subject or the target of any sanctions administered or enforced by the United States, United Kingdom or Canadian government or the United Nations Security Council or the European Union, including, without limitation, the Office of
+Foreign Assets Control of the U.S. Department of the Treasury, His Majesty’s Treasury, Global Affairs Canada, or pursuant to the
+Special Economic Measures Act
+(Canada) or other relevant sanctions authority or statute, rule or regulation
+of Canada, the United States, the United Kingdom, the European Union or the United Nations (collectively, “
+Sanctions
+”), nor is the Corporation or any of its subsidiaries located, organized or resident in a country or territory
+that is the subject or the target of comprehensive country-wide or territory-wide Sanctions, including, without limitation, Cuba, Iran, North Korea, Syria and the Crimean and occupied region of Ukraine (each, a “
+Sanctioned
+Country
+”); and the Corporation will not knowingly, directly or indirectly, use the proceeds of the offering of the sale of the Placement Shares, or lend, contribute or otherwise make available such proceeds to any subsidiary, joint venture
+partner or other person or entity (i) to fund or facilitate any activities of or business with any person, or in any Sanctioned Country in violation of applicable Sanctions or (ii) in any other manner that will result in a violation by any
+person (including any person participating in the transaction, whether as underwriter, agent, advisor, investor or otherwise) of
+13
+applicable Sanctions. Since April 24, 2019, the Corporation and its subsidiaries have
+not knowingly engaged in and are not now knowingly engaged in any dealings or transactions with any person that at the time of the dealing or transaction is or was the subject or the target of Sanctions or with any Sanctioned Country in violation of
+applicable Sanctions. Notwithstanding anything in this Agreement, the representations, warranties and covenants in this Agreement shall not apply to any of the Corporation, its affiliates, or any of the Material Entities registered, incorporated or
+existing under the laws of Canada or any province or territory thereof or to any director, trustee, officer, agent or employee of any of the foregoing to the extent that they would result in a violation of or conflict with the
+Foreign
+Extraterritorial Measures (United States) Order
+, 1992 (Canada), or any similar applicable anti-boycott law or regulation.
+(q)
+Internal and Disclosure Controls
+. For all applicable times, the Corporation has maintained systems of
+internal accounting and disclosure controls in compliance with NI
+52-109
+and Canadian Securities Laws and as required by Rule
+13a-15(e)
+under the Exchange Act sufficient
+to provide reasonable assurance regarding the reliability of financial reporting and the preparation of financial statements for external purposes in accordance with IFRS, including but not limited to internal accounting controls sufficient to
+provide reasonable assurance that (i) transactions are executed in accordance with management’s general or specific authorizations; (ii) transactions are recorded as necessary to permit preparation of financial statements in
+conformity with IFRS and to maintain asset accountability; (iii) access to assets is permitted only in accordance with management’s general or specific authorization; and (iv) the recorded accountability for assets is compared with
+the existing assets at reasonable intervals and appropriate action is taken with respect to any differences. Since the end of the Corporation’s most recent audited fiscal year, the Corporation has not identified and the Corporation’s
+independent accountants have not identified to the Corporation, any material weaknesses in the Corporation’s internal controls.
+(r)
+Taxes
+. The Corporation and each of the Material Corporate Entities, JV Inkai and to the Corporation’s
+knowledge, WEC has duly and timely paid all taxes thereon and all assessments received by it to the extent required to be paid and not being contested in good faith, except where the failure to do so would not have a Material Adverse Effect; and to
+the Corporation’s knowledge, except as otherwise disclosed in the Registration Statement, Prospectuses, Disclosure Package or any amendment to the Prospectuses, there is no tax deficiency that has been asserted against the Corporation or any
+of the Material Entities or any of their respective properties or assets that if ultimately upheld would have a Material Adverse Effect.
+(s)
+Insurance
+. The Corporation and the Material Corporate Entities are insured by recognized insurers, all of
+which insurance is in full force or effect, or are self-insured against such losses and risks and in such amounts as are reasonable and consistent with sound business practice.
+(t)
+Title to Properties
+. Each of the Corporation, the Material Corporate Entities, JV Inkai and to the
+Corporation’s knowledge, WEC holds title to its properties and assets as described in the Registration Statement, Prospectuses and Disclosure Package, including, without limitation, mineral leases, surface rights or leases, mining rights or
+claims or other conventional proprietary interests or rights recognized in the jurisdiction in which a particular property is located, free and clear of all liens, encumbrances and defects, except such as (i) are described in the Registration
+Statement, Prospectuses or Disclosure Package, (ii) have been created in the ordinary course of business in connection with financing arrangements, (iii) do not materially affect the value of such
+14
+properties or assets and do not materially interfere with the use made and proposed to be
+made of such properties and assets by the Corporation or such Material Entity, or (iv) are not material to the Corporation and its subsidiaries taken as a whole. Except as disclosed in the Registration Statement, Prospectuses and Disclosure
+Package, and except as would not have a Material Adverse Effect: (a) no other property rights are necessary for the conduct of the Corporation’s business as presently conducted or as proposed to be conducted by the Corporation as
+described in the Registration Statement, Prospectuses and Disclosure Package and (b) there are no material restrictions on the ability of the Corporation, the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC to
+use or otherwise exploit any existing property rights. Neither the Corporation, the Material Corporate Entities, JV Inkai nor to the Corporation’s knowledge, WEC has received any notice of any claim adverse to its ownership of any such
+properties or assets or of any claim against the continued possession of any such properties or assets, whether owned or held under lease or sublease by the Corporation or any Material Entity, except as could not have a Material Adverse Effect.
+(u)
+Mining Disclosure
+. With respect to information contained in the Registration Statement, Prospectuses and
+Disclosure Package: (i) information relating to the Corporation’s estimates of mineral reserves and mineral resources contained in the Registration Statement, Prospectuses and Disclosure Package has been reviewed and verified by the
+Corporation or independent consultants to the Corporation for consistency with the Corporation’s most recently prepared mineral reserve and mineral resource estimates; (ii) the mineral reserve and mineral resource estimates have been
+prepared in all material respects in accordance with NI
+43-101
+by or under the supervision of a qualified person as defined therein; and (iii) the methods used in estimating the Corporation’s
+mineral reserves and mineral resources are in accordance with accepted mineral reserve and mineral resource estimation practices. The Corporation has duly filed with the applicable Canadian Qualifying Authorities in compliance with Applicable
+Securities Laws all technical reports required by NI
+43-101
+to be filed with the Canadian Qualifying Authorities and all such reports (as amended) comply in all material respects with the requirements thereof.
+(v)
+Government Licenses
+. The Corporation, the Material Corporate Entities, JV Inkai and to the
+Corporation’s knowledge, WEC possess such permits, licenses, approvals, consents and other authorizations (collectively, “
+Governmental Licenses
+”) issued by the appropriate federal, state, provincial, local or foreign
+regulatory agencies or bodies necessary to conduct the business now operated by them, except where the failure to so possess would not, individually or in the aggregate, result in a Material Adverse Effect; the Corporation, the Material Corporate
+Entities, JV Inkai and to the Corporation’s knowledge, WEC are in compliance with the terms and conditions of all such Governmental Licenses, except where the failure to so comply would not, individually or in the aggregate, result in a
+Material Adverse Effect; all of the Governmental Licenses are valid and in full force and effect, except where the invalidity of such Governmental Licenses or the failure of such Governmental Licenses to be in full force and effect would not,
+individually or in the aggregate, result in a Material Adverse Effect; and neither the Corporation, the Material Corporate Entities, JV Inkai nor to the Corporation’s knowledge, WEC has received any notice of proceedings relating to the
+revocation or modification of, failure to renew or imposition of a burdensome restriction under any such Governmental Licenses which, individually or in the aggregate, if the subject of an unfavourable decision, ruling or finding, would result in a
+Material Adverse Effect.
+15
+(w)
+Labour Relations
+. Except as would not, individually or in
+the aggregate, have a Material Adverse Effect, no labour disturbance by or dispute with employees of the Corporation, the Material Corporate Entities, JV Inkai, nor to the Corporation’s knowledge, WEC, exists or, to the knowledge of the
+Corporation, is contemplated or threatened, and the Corporation is not aware of any existing or imminent labour disturbance by, or dispute with, the employees of any of its or the Material Entities’ principal suppliers, contractors or
+customers.
+(x)
+IT Systems and Data
+. (i) There has been no security breach or other compromise of or
+relating to any of the Corporation’s information technology and computer systems, networks, hardware, software, data (including the data of its customers, employees, suppliers, vendors and any third party data maintained by or on behalf of
+it), equipment or technology (collectively, “
+IT Systems and Data
+”) which would reasonably be expected to have a Material Adverse Effect; and (ii) the Corporation has not been notified of, and has no knowledge of any event or
+condition that would reasonably be expected to result in, any such security breach or other compromise to its IT Systems and Data that would reasonably be expected to have a Material Adverse Effect; and the Corporation has implemented backup and
+disaster recovery technology consistent with standards and practices adopted by similarly sized companies in the same industry.
+(y)
+Capitalization
+. The Corporation has an authorized capitalization as set forth in each of the Registration
+Statement, Prospectuses and Disclosure Package, and as of November 4, 2026, 435,532,978 common shares of the Corporation have been duly and validly authorized and issued and are fully paid and
+non-assessable.
+(z)
+The Placement Shares
+. When issued in accordance
+with this Agreement, and upon receipt of payment for the Placement Shares, the Placement Shares will have been duly and validly created and issued as fully paid and
+non-assessable.
+(aa)
+No Brokers’ Fees
+. Other than the Agents pursuant to this Agreement, there is no person acting or
+purporting to act at the request of the Corporation who is entitled to any brokerage, agency or other fiscal advisory or similar fee in connection with the offering and sale of the Placement Shares.
+(bb)
+No Preemptive or Registration Rights
+. Except as disclosed in the Registration Statement, Prospectuses and
+Disclosure Package, no person has any agreement or option, or right or privilege (whether
+pre-emptive
+or contractual) capable of becoming an agreement or an option (including convertible or exchangeable
+securities or warrants) for the purchase, subscription for or issuance of securities of any kind of the Corporation, other than pursuant to this Agreement, and none of the common shares of the Corporation have been issued in violation of any
+pre-emptive
+or similar rights.
+(cc)
+No Orders
+. Neither the Reviewing
+Authority, the SEC or any other securities regulatory authority, any stock exchange nor any similar regulatory authority has issued any order which is currently outstanding preventing or suspending trading in any securities of the Corporation, and
+no proceedings for such purpose are pending, or to the best of the Corporation’s knowledge, threatened.
+16
+(dd)
+Listing on TSX and NYSE
+. The issued and outstanding
+Shares are listed and posted for trading on the TSX and the NYSE and the Placement Shares will be as of the Applicable Time listed and posted for trading on the TSX and the NYSE upon the Corporation complying with customary conditions imposed by the
+TSX and the NYSE, as applicable, with respect thereto.
+(ee)
+Reporting Issuer Status
+. The Corporation is and
+will be at each Settlement Date, a “reporting issuer” not in default of any requirement under the Canadian Securities Laws of the Canadian Qualifying Jurisdictions and has filed in each of the Canadian Qualifying Jurisdictions its Annual
+Information Form for the year ended December 31, 2025 under NI
+44-101;
+without limiting the foregoing, no material change relating to the Corporation has occurred with respect to which the requisite
+material change report has not been filed on a
+non-confidential
+basis with all relevant securities regulatory authorities (unless originally filed on a confidential basis and subsequently made
+non-confidential);
+and the Corporation is a “foreign private issuer” (as defined in Rule 405 under the Securities Act).
+(ff)
+Transfer Agent and Registrar
+. Computershare Investor Services Inc. has been, or a successor will be, duly
+appointed as transfer agent and registrar for the Shares in Canada and Computershare Trust Company, N.A. has been, or a successor will be, duly appointed as
+co-transfer
+agent and
+co-registrar
+for the Shares in the United States.
+(gg)
+Investment
+Company Act
+. The Corporation is not and, after giving effect to the Offering and the application of the Net Proceeds as described in the Registration Statement, the Prospectuses and the Disclosure Package, will not be, required to register as an
+“investment company” as such term is defined in the Investment Company Act of 1940, as amended.
+(hh)
+Independent Accountants
+. KPMG LLP, which has audited the audited financial statements of the Corporation incorporated by reference in the Registration Statement, Prospectuses, the Disclosure Package and any amendment to the Prospectuses, and
+has audited the Corporation’s management’s assessment of the Corporation’s internal control over financial reporting, is independent within the meaning of the Rules of Professional Conduct/Code of Ethics of the various provincial
+institutes/order, the
+Canada Business Corporations Act
+and the Public Company Accounting Oversight Board (United States) and there has not been a “reportable event” (within the meaning of NI
+51-102)
+with KPMG LLP or any of the Corporation’s auditors, during the last three years.
+(ii)
+No Stabilization
+. Neither the Corporation, the Material Corporate Entities, JV Inkai nor to the
+Corporation’s knowledge, WEC nor any of the Corporation’s other subsidiaries has taken, directly or indirectly, any action which is designed to or which has constituted, or which might reasonably be expected to cause or result in, the
+stabilization or manipulation of the price of the Shares of the Corporation in connection with the Offering.
+(jj)
+Disclosure
+. The statements in the Registration Statement, the Prospectuses and the Disclosure Package under the headings “Certain Canadian Federal Income Tax Considerations”, “Certain U.S. Federal Income Tax
+Considerations” and “Enforcement of Certain Civil Liabilities” insofar as such statements summarize legal matters, agreements, documents or proceedings discussed therein, will be accurate summaries of such legal matters,
+agreements, documents or
+17
+proceedings in all material respects and subject to the qualifications, assumptions,
+limitations and understandings set out therein.
+(kk)
+Compliance with Environmental Laws
+. Except for such
+matters as would, individually or in the aggregate, not result in a Material Adverse Effect, (i) neither the Corporation, the Material Corporate Entities, JV Inkai nor to the Corporation’s knowledge, WEC is in violation of any federal,
+state, provincial, local or foreign statute, law, rule, regulation, ordinance, legal code, permit or any legally binding judicial or administrative interpretation thereof, including any judicial or administrative order, consent, decree or judgment,
+relating to pollution or protection of the environment (including, without limitation, ambient air, surface water, groundwater, land surface or subsurface strata) or wildlife, including, without limitation, laws and regulations relating to the
+release or threatened release of chemicals, pollutants, contaminants, wastes, toxic substances, hazardous substances, radioactive substances, petroleum or petroleum products, asbestos-containing materials or mold (collectively, “
+Hazardous
+Materials
+”) or to the manufacture, processing, distribution, use, treatment, storage, disposal, transport or handling of Hazardous Materials (collectively, “
+Environmental Laws
+”), (ii) the Corporation, the Material
+Corporate Entities, JV Inkai and to the Corporation’s knowledge, WEC have all permits, consents, certificates, registrations, approvals and all other authorizations required under any applicable Environmental Laws for their respective
+businesses as presently conducted and are each in compliance with their requirements, (iii) there are no pending or, to the Corporation’s knowledge, threatened administrative, regulatory or judicial actions, suits, claims, liens, actions
+concerning any noncompliance or violation, investigations or adversarial legal proceedings pursuant to any Environmental Law against the Corporation, the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC,
+(iv) there are no orders for
+clean-up
+or remediation, or actions, suits or proceedings by any private party or governmental body or agency, against or affecting the Corporation, the Material Corporate
+Entities, JV Inkai or to the Corporation’s knowledge, WEC alleging releases of Hazardous Materials or any violation of Environmental Laws, and (v) there has been no disposal, discharge, emission, contamination or other release of any kind
+at, onto or from any property now or previously owned, operated, used or leased by the Corporation, the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC or into the environment surrounding any such property of any
+Hazardous Materials with respect to which the Corporation, the Material Corporate Entities, JV Inkai or to the Corporation’s knowledge, WEC has knowledge.
+(ll)
+Significant Acquisitions
+. Since January 1, 2025, the Corporation has not completed any acquisition
+that is a “significant acquisition” for the purpose of Part 8 of NI
+51-102,
+nor is it proposing to complete any acquisition that has progressed to a state where a reasonable person would believe
+that the likelihood of the Corporation completing the acquisition is high and such acquisition would be a “significant acquisition” for the purposes of Part 8 of NI
+51-102
+if completed as of the
+date of the Prospectuses or the Disclosure Package, in respect of which historical and/or pro forma financial statements would be required to be included or incorporated by reference into the Registration Statement, the Prospectuses or the
+Disclosure Package under Applicable Securities Laws.
+8.
+Covenants of the Corporation
+.
+The Corporation covenants and agrees with the Agents that:
+18
+(a)
+Prospectus and Registration Statement Amendments
+. After
+the date of this Agreement and until the completion of the sales contemplated hereunder, (i) the Corporation will notify the Agents promptly of the time when any subsequent amendment to the Canadian Base Prospectus or the Registration Statement
+has been filed with any Canadian Qualifying Authority or the SEC and has become effective or where a receipt has been issued or deemed to be issued therefor, as applicable, or any subsequent supplement to the U.S. Prospectus or the Canadian
+Prospectus has been filed (each, an “
+Amendment Date
+”) and of any request by the SEC or any Canadian Qualifying Authority for any amendment or supplement to the Registration Statement or the Prospectuses or for additional
+information; (ii) the Corporation will file promptly all other material required to be filed by it with the SEC pursuant to Rule 433(d) and with the Canadian Qualifying Authorities; (iii) the Corporation will submit to the Agents a
+copy of any amendment or supplement to the Registration Statement (insofar as it relates to the transactions contemplated hereby) or the Prospectuses (other than a copy of any documents incorporated by reference into the Registration Statement or
+the Prospectuses) a reasonable period of time before the filing thereof and will afford the Agents and the Agents’ counsel a reasonable opportunity to comment on any such proposed filing and to perform any due diligence investigations as may
+reasonably be required prior to such proposed filing; and (iv) the Corporation will furnish to the Agents at the time of filing thereof a copy of any document that upon filing is deemed to be incorporated by reference in the Registration
+Statement or the Prospectuses (provided that the Corporation shall not be required to deliver documents or information incorporated by reference into the Registration Statement or the Prospectuses if such documents are accessible from SEDAR+ or
+EDGAR) and the Corporation will cause (A) each amendment or supplement to the U.S. Prospectus to be filed with the SEC as required pursuant to General Instruction II.L of
+Form F-10
+of the Rules and
+Regulations or, in the case of any document to be incorporated therein by reference, to be filed with the SEC as required pursuant to the Exchange Act, within the time period prescribed and (B) each amendment or supplement to the Canadian
+Prospectus to be filed with the Canadian Qualifying Authorities as required pursuant to Canadian Shelf Procedures or, in the case of any document to be incorporated therein by reference, to be filed with the Canadian Qualifying Authorities as
+required pursuant to the Canadian Securities Laws, within the time period prescribed. Notwithstanding anything to the contrary set forth in this Section 8(a), but subject to compliance with Section 4(b) hereof, the Corporation shall not be
+obligated to furnish to the Agents any document or information incorporated by reference into the Registration Statement or Prospectus for which the Corporation has requested or received confidential treatment from the SEC or Canadian Qualifying
+Authorities; provided that to the extent that the subject document or information includes material
+non-public
+information regarding the Corporation and its subsidiaries that has not otherwise been made
+public, the Corporation shall not issue any Placement Notice, shall suspend any sale of Placement Shares for which it has delivered a Placement Notice, and no sale of Placement Shares shall take place while any request for such confidential
+treatment is pending or, if granted, until such document or information has since been made public.
+(b)
+Notice
+of Stop Orders
+. The Corporation will advise the Agents, promptly after it receives notice thereof, of the issuance by the SEC or the Canadian Qualifying Authorities of any stop order or of any order preventing or suspending the use of the
+Prospectuses or other prospectus in respect of the Shares, of any notice of objection of the SEC to the use of the form of the Registration Statement or any post-effective amendment thereto, of the suspension of the qualification of the Shares for
+offering or sale in the United States or the Canadian Qualifying Jurisdictions, of the initiation or threatening of any proceeding for any such purpose, or of any
+19
+request by the SEC or the Canadian Qualifying Authorities for the amending or supplementing
+of the Registration Statement (insofar as it relates to the transactions contemplated hereby) or the Prospectuses or for additional information relating to the Shares. If there is a Placement Notice that has been issued by the Corporation that has
+not been suspended or terminated in accordance with the notice requirements set forth in
+Section
+4
+or
+Section
+13
+, as applicable, the Corporation will use its commercially reasonable efforts to
+prevent the issuance of any stop order or any order preventing or suspending the use of the Prospectuses or other prospectus in respect of the Shares, a notice of objection of the SEC to the form of the Registration Statement or any post-effective
+amendment thereto, the suspension of any qualification for offering or sale in the United States or the Canadian Qualifying Jurisdictions, and, in the event of the issuance of any such stop order or any such order preventing or suspending the use of
+any prospectus relating to the Shares or suspending any such qualification, the Corporation will use its commercially reasonable efforts to obtain the lifting or withdrawal of such order as soon as possible. If there is no such outstanding Placement
+Notice, then, if, in the Corporation’s determination and at the Corporation’s sole discretion, it is necessary to prevent the issuance of any stop order or have a stop order lifted, the Corporation will use its commercially reasonable
+efforts to prevent the issuance of any stop order or any order preventing or suspending the use of the Prospectuses or other prospectus in respect of the Shares, a notice of objection of the SEC to the form of the Registration Statement or any
+post-effective amendment thereto, the suspension of any qualification for offering or sale in the United States or the Canadian Qualifying Jurisdictions, and, in the event of the issuance of any such stop order or any such order preventing or
+suspending the use of any prospectus relating to the Shares or suspending any such qualification, the Corporation will use its commercially reasonable efforts to obtain the lifting or withdrawal of such order as soon as possible.
+(c)
+Delivery of Prospectus; Subsequent Changes
+. Within the time during which a prospectus relating to the Shares
+is required to be delivered by the Agents under the Securities Act (including in circumstances where such requirement may be satisfied pursuant to Rule 172 or Rule 173(a) under the Securities Act) or the Canadian Securities Laws, the
+Corporation will comply in all material respects with all requirements imposed upon it by the Securities Act, by the Rules and Regulations and by the Canadian Securities Laws, as appropriate and as from time to time in force, and will file or
+furnish on or before their respective due dates all reports required to be filed or furnished by it with the SEC pursuant to Sections 13(a), 13(c), or 15(d) of the Exchange Act, if applicable, or any other provision of or under the Exchange Act
+or with the Canadian Qualifying Authorities pursuant to Canadian Securities Laws (subject to the AMF Exemption), as appropriate. If during such period any event occurs as a result of which the Prospectuses as then amended or supplemented would
+include an untrue statement of material fact or omit to state a material fact necessary to make the statements therein, in the light of the circumstances then existing, not misleading, or if during such period it is necessary to amend or supplement
+the Registration Statement or the Prospectuses to comply with the Securities Act or the Canadian Securities Laws, the Corporation will immediately notify the Agents to suspend the offering of Placement Shares during such period and, if, in the
+Corporation’s determination and at the Corporation’s sole discretion, it is necessary to file an amendment or supplement to the Registration Statement or the Prospectuses to comply with the Securities Act or Canadian Securities Laws, the
+Corporation will promptly prepare and, after complying with
+Section
+8(a)(iii)
+, file with the Canadian Qualifying Authorities and the SEC such amendment or supplement as may be necessary to correct such statement or omission
+or to make the Registration Statement or the
+20
+Prospectuses comply with such requirements, and the Corporation will furnish to the Agents
+such number of copies of such amendment or supplement as the Agents may reasonably request.
+(d)
+Delivery of
+Registration Statement and Prospectuses
+. The Corporation will furnish to the Agents and their counsel (at the expense of the Corporation) copies of the Registration Statement and the Prospectuses (including all documents incorporated by
+reference therein) in the English language only, and all amendments and supplements to the Registration Statement or the Prospectuses that are filed with the SEC or Canadian Qualifying Authorities during the period in which a prospectus relating to
+the Shares is required to be delivered under the Securities Act (including all documents filed with the SEC during such period that are deemed to be incorporated by reference therein) or the Canadian Qualifying Authorities (including all documents
+filed with the Canadian Qualifying Authorities during such period that are deemed to be incorporated by reference therein), in each case as soon as reasonably practicable and in such quantities as the Agents may from time to time reasonably request;
+provided, however, the Corporation shall not be required to furnish any documents to the Agents that are available on SEDAR+ or EDGAR.
+(e)
+Earnings Statement
+. The Corporation will make generally available to its security holders as soon as
+practicable, but in any event not later than 15 months after the end of the Corporation’s current fiscal quarter, an earnings statement covering a 12 month period that satisfies the provisions of Section 11(a) of the Securities Act and
+Rule 158 of the Rules and Regulations.
+(f)
+Material
+Non-public
+Information
+. The Corporation covenants that it will not issue a Placement Notice to any Agent in accordance with
+Section
+2
+hereof if (i) the Corporation is in possession of material
+non-public
+information regarding the Corporation and its subsidiaries, taken as a whole, or the Shares or (ii) at any time from and including the date on which the Corporation shall issue a press release
+containing, or shall otherwise publicly announce, its earnings, revenues or other results of operations (an “
+Earnings Announcement
+”) through and including the time that the Corporation files interim financial statements on Form
+6-K
+or an annual report on Form
+40-F
+that includes consolidated financial statements as of and for the same period or periods, as the case may be, covered by such Earnings
+Announcement.
+(g)
+Expenses
+. The Corporation, whether or not the transactions contemplated hereunder are
+consummated or this Agreement is terminated in accordance with
+Section
+13
+, will pay all expenses relating to the following matters: (i) the preparation and filing of the Registration Statement and each amendment and
+supplement thereto, each of the Prospectuses and each amendment and supplement thereto and each Issuer Free Writing Prospectus, (ii) the preparation, issuance and delivery of the Placement Shares, (iii) all fees and disbursements of the
+Corporation’s counsel, accountants and other advisors, (iv) the reasonable and documented fees, disbursements and expenses of counsel to the Agents in connection with this Agreement, the Registration Statement and the Prospectuses and
+ongoing services in connection with the transaction contemplated hereunder, (v) the qualification of the Placement Shares under securities law, including filing fees in connection therewith, (vi) the printing and delivery to the Agents of
+copies of the Prospectuses and any amendments or supplements thereto, and of this Agreement, (vii) the fees and expenses incurred in connection with the listing or qualification of the Placement Shares for trading on the TSX and NYSE, and
+(viii) the filing fees and expenses related to the SEC, the Canadian Qualifying Authorities and the Financial Industry Regulatory Authority, Inc.
+21
+(“
+FINRA
+”) (including reasonable fees and disbursements of counsel to the
+Agents incurred in connection therewith). All fees and expenses are to be paid in the currency in which such fees and expenses were incurred.
+(h)
+Use of Proceeds
+. The Corporation will use the Net Proceeds as described in the Prospectuses.
+(i)
+Notice of Other Sales
+. During the pendency of any Placement Notice given hereunder, the Corporation shall
+provide the Agents notice as promptly as reasonably possible before it offers to sell, contracts to sell, sells, grants any option to sell or otherwise disposes of any Shares (other than Placement Shares offered pursuant to the provisions of this
+Agreement) or securities convertible into or exchangeable for Shares, warrants or any rights to purchase or acquire Shares;
+provided
+, that such notice shall not be required in connection with the (i) issuance, grant or sale of Shares,
+equity awards to purchase Shares or Shares issuable upon the exercise of options or other equity awards pursuant to any stock option, stock bonus or other stock plan or arrangement described in the Registration Statement and Prospectuses or the
+documents incorporated by reference therein, (ii) the issuance of securities in connection with an acquisition, merger or sale or purchase of assets, (iii) the issuance or sale of Shares pursuant to any dividend reinvestment plan that the
+Corporation may adopt from time to time provided the implementation of such is disclosed to the Agents in advance or (iv) any Shares issuable upon the exchange, conversion or redemption of securities or the exercise of warrants, options or
+other rights in effect or outstanding.
+(j)
+Change of Circumstances
+. During the term of this Agreement, the
+Corporation will, at any time during a fiscal quarter in which the Corporation intends to deliver a Placement Notice to the Agents to sell Placement Shares, advise the Agents promptly after it has received notice or obtained knowledge thereof, of
+any information or fact that would alter or affect in any material respect any opinion, certificate, letter or other document provided to the Agents pursuant to this Agreement.
+(k)
+Due Diligence Cooperation
+. The Corporation will cooperate with any due diligence review conducted by the
+Agents or their agents from time to time during the term of this Agreement, including, without limitation, upon reasonable request, making available senior corporate officers of the Corporation and its Canadian and U.S. legal counsel and, upon
+reasonable request, using commercially reasonable efforts to make available representatives of the auditors for the Corporation and the qualified persons responsible for preparing or supervising the preparation of the technical reports for each of
+the Corporation’s material properties, and providing documents and information reasonably requested, including as necessary or appropriate to fulfil the Agents’ obligations under this Agreement, the Securities Act and Canadian Securities
+Laws, provided, however, that the Corporation shall be required to make available senior corporate officers only (i) by telephone, video conference or at the Corporation’s principal offices and (ii) during the Corporation’s
+ordinary business hours.
+(l)
+Affirmation of Representations, Warranties, Covenants and Other Agreements
+.
+Upon commencement of the offering of the Placement Shares under this Agreement (and upon the recommencement of the offering of the Placement Shares under this Agreement following any suspension of sales under
+Section
+4
+),
+and at each Applicable Time, each Settlement Date and each
+22
+Amendment Date, the Corporation shall be deemed to have affirmed each representation and
+warranty contained in this Agreement.
+(m)
+Required Filings Relating to Placement of Placement Shares
+. As
+may be required pursuant to Applicable Securities Laws, in each management discussion and analysis, quarterly report, or annual financial statements / annual report on
+Form 40-F
+filed by the Corporation
+in respect of any quarterly or annual period, as applicable, in which sales of Placement Shares were made by the Agents under this Agreement, the Corporation shall set forth with regard to such period the number and average price of Placement Shares
+sold through the Agents under this Agreement, the aggregate gross proceeds and aggregate Net Proceeds received by the Corporation and the aggregate compensation paid or payable by the Corporation to the Agents with respect to sales of Placement
+Shares pursuant to this Agreement during such annual or quarterly period, as applicable. For so long as the Shares are listed on the TSX, the Corporation will provide the TSX with all information it requires with respect to the Offering within the
+timelines prescribed by the TSX. Each Agent severally and not jointly agrees to assist the Corporation with such periodic reporting as may be reasonably required by the Corporation in respect of the sale of the Placement Shares for which it acted as
+agent.
+(n)
+Representation Dates; Certificate
+. During the term of this Agreement, each time the Corporation
+(i) files the Prospectuses relating to the Placement Shares or amends or supplements the Registration Statement or the Prospectuses relating to the Placement Shares by means of a post-effective amendment or supplement but not by means of
+incorporation of document(s) by reference to the Registration Statement or the Prospectuses relating to the Placement Shares; (ii) files or amends an annual report on
+Form 40-F;
+(iii) files or
+amends interim financial statements on
+Form 6-K;
+or (iv) at any other time reasonably requested by the Agents in connection with the execution of a block transaction (each date of filing of one or
+more of the documents referred to in clauses (i) through (iii) and at the time of a request pursuant to (iv) above shall be a “
+Representation Date
+”), the Corporation shall furnish the Agents with certificates, in
+the form attached hereto as Exhibit A within three (3) Trading Days of any Representation Date. The requirement to provide a certificate under this
+Section
+8(n)
+shall be waived for any Representation Date occurring at
+a time at which no Placement Notice is pending, which waiver shall continue until the earlier to occur of the date the Corporation delivers a Placement Notice hereunder (which for such calendar quarter shall be considered a Representation Date) and
+the next occurring Representation Date; provided, however, that such waiver shall not apply for any Representation Date on which the Corporation files its annual report on
+Form 40-F.
+Notwithstanding the
+foregoing, if the Corporation subsequently decides to sell Placement Shares following a Representation Date when the Corporation relied on such waiver and did not provide the Agents with a certificate under this
+Section
+8(n)
+, then before the Corporation delivers the Placement Notice or the Agents sell any Placement Shares, the Corporation shall provide the Agents with a certificate, in the form attached hereto as
+Exhibit
+A
+, dated the date of the Placement Notice.
+(o)
+Legal Opinions
+. Upon
+execution of this Agreement and (x) within three (3) Trading Days of each Representation Date with respect to which the Corporation is obligated to deliver a certificate in the form attached hereto as
+Exhibit
+A
+for which no waiver is applicable and (y) concurrently with the delivery of a certificate pursuant to the last sentence of
+Section
+8(n)
+, the Corporation will furnish or cause to be furnished to the Agents and to
+counsel to the Agents, (A) (i) the written opinion of McCarthy Tétrault LLP and other local Canadian counsel as required,
+23
+such opinions to be substantially similar to the form attached hereto as
+Exhibit
+B
+, and (ii) the written opinion and negative assurance letter of Covington & Burling LLP, such opinion and negative assurance letter to be substantially similar to the form attached hereto as
+Exhibit
+C
+; (B) the written opinion of Dentons LLP, the Corporation’s Kazakh counsel, such opinion to be substantially similar to the form attached hereto as
+Exhibit
+D
+; (C) the
+written opinion of Loyens & Loeff Switzerland LLC, the Corporation’s Switzerland counsel, such opinion to be substantially similar to the form attached hereto as
+Exhibit
+E
+; and (D) the written opinion of
+Davis Graham & Stubbs LLP, the Corporation’s Nevada counsel, such opinion to be substantially similar to the form attached hereto as
+Exhibit
+F
+, each dated the date that the opinion is required to be
+delivered, in form and substance satisfactory to the Agents and their counsel, acting reasonably, or, in lieu of such opinions, counsel last furnishing such opinion to the Agents may furnish the Agents with a letter to the effect that the Agents may
+rely on such last opinion to the same extent as though it was dated the date of such letter authorizing reliance (except that statements in such last opinion shall be deemed to relate to the Registration Statement and the Prospectuses as amended and
+supplemented to the time of delivery of such letter authorizing reliance).
+(p)
+Comfort Letters
+. Upon
+execution of this Agreement and (x) within three (3) Trading Days of each Representation Date with respect to which the Corporation is obligated to deliver a certificate in the form attached hereto as
+Exhibit
+A
+for which no waiver is applicable and (y) concurrently with the delivery of a certificate pursuant to the last sentence of
+Section
+8(n)
+, the Corporation shall cause KPMG LLP to furnish to the Agents a letter (each, a
+“
+Comfort Letter
+”) addressed to the Agents dated the date such Comfort Letter is delivered, in form and substance satisfactory to the Agents, acting reasonably, (A) relating to the verification of certain of the financial
+information and statistical and accounting data relating to the Corporation and its subsidiaries, as applicable, contained in the Registration Statement and the Prospectuses or incorporated by reference therein, which comfort letters shall be based
+on a review having a
+cut-off
+date not more than two business days prior to the date of such letter, (B) stating that such auditors are independent public accountants within the meaning of the Securities
+Act and the rules and regulations thereunder, and that in their opinion the portion of the audited financial statements of the Corporation incorporated by reference in the Registration Statement and the Prospectuses and audited by such auditors
+comply as to form in all material respects with the applicable accounting requirements of the Securities Act and the related regulations adopted by the SEC (the first such letter in each case, the “
+Initial Comfort Letter
+”) and
+(C) if applicable, updating the Initial Comfort Letter with any information which would have been included in the Initial Comfort Letter had it been given on such date and modified as necessary to relate to the Registration Statement and the
+Prospectuses, as amended and supplemented to the date of such letter.
+(q)
+Certificate of Chief Financial
+Officer
+. Upon execution of this Agreement and, if reasonably requested by the Agents, (x) within three (3) Trading Days of each Representation Date with respect to which the Corporation is obligated to deliver a certificate in the form
+attached hereto as
+Exhibit A
+for which no waiver is applicable and (y) concurrently with the delivery of a certificate pursuant to the last sentence of
+Section
+8(n)
+, the Corporation shall furnish to the Agents a
+certificate dated the date of the Comfort Letter delivered pursuant to
+Section
+8(p)
+signed by the Chief Financial Officer of the Corporation, in form and substance satisfactory to the Agents, concerning certain financial
+information contained in the Registration Statement, the Prospectuses or the Disclosure Package (each, a “
+CFO Certificate
+”).
+24
+(r)
+Market Activities
+. The Corporation will not, directly or
+indirectly, (i) take any action designed to or that would constitute or that might reasonably be expected to cause or result in, under Canadian Securities Laws or the Exchange Act or otherwise, stabilization or manipulation of the price of any
+security of the Corporation to facilitate the sale or resale of the Placement Shares or (ii) bid for, or purchase the Placement Shares, or pay anyone any compensation for soliciting purchases of the Placement Shares other than the Agents.
+(s)
+Investment Company Act
+. The Corporation will conduct its affairs in such a manner so as to reasonably ensure
+that prior to the termination of this Agreement, it will not be or become required to register as an “investment company” as defined in the United States Investment Company Act of 1940, as amended, and the rules and regulations of the
+SEC promulgated thereunder.
+(t)
+No Offer to Sell
+. Other than a free writing prospectus (as defined in
+Rule 405 under the Securities Act) approved in advance by the Corporation and the Agents in each of their capacities as principal or agent hereunder, neither the Agents nor the Corporation (including its agents and representatives, other than
+the Agents in each of their capacities as such) will make, use, prepare, authorize, approve or refer to any written communication (as defined in Rule 405 under the Securities Act), required to be filed by it with the SEC, that constitutes an
+offer to sell or solicitation of an offer to buy Placement Shares hereunder.
+(u)
+Consent to the
+Agents
+’
+Trading
+. The Corporation consents to the extent permitted under the Securities Act, the Exchange Act, Canadian Securities Laws, the rules of the TSX and the NYSE and under this Agreement, to the Agents trading in the
+Shares of the Corporation: (i) for the account of their clients at the same time as sales of Placement Shares occur pursuant to this Agreement; and (ii) for the Agents’ own accounts provided that no such purchase or sale shall take
+place by an Agent while such Agent has received a Placement Notice that remains in effect, unless the Corporation has expressly authorized or consented in writing to any such trades by such Agent.
+(v)
+Actively-Traded Security
+. The Corporation shall notify the Agents immediately by an email addressed to each
+of the respective individuals from each of the Agents set forth on
+Schedule
+1
+attached hereto if the Shares cease to qualify as an “actively-traded security” exempted from the requirements of Rule 101 of
+Regulation M under the Exchange Act by subsection (c)(1) of such rule and the sales shall be suspended until that or other exemptive provisions have been satisfied in the judgment of each party.
+(w)
+Outbound Investment Rules
+. Neither the Corporation nor any of its subsidiaries is a “covered foreign
+person”, as that term is defined in 31 C.F.R. § 850.209.
+(x)
+Withdrawal of Canadian Base
+Prospectus
+. The Corporation will promptly notify the Agents if the Corporation withdraws the Canadian Base Prospectus pursuant to the WKSI Rules.
+9.
+Additional Representations and Covenants of the Corporation
+(a)
+Issuer Free Writing Prospectuses
+. The Corporation covenants that, unless it obtains the prior written
+consent of the Agents, it will not make any offer relating to the Placement Shares that would constitute an Issuer Free Writing Prospectus required to be filed by it with the SEC or
+25
+retained by the Corporation under Rule 433; except as set forth in a Placement Notice,
+no use of any Issuer Free Writing Prospectus has been consented to by the Agents. If at any time following issuance of an Issuer Free Writing Prospectus any event shall occur or condition shall exist as a result of which such Issuer Free Writing
+Prospectus conflicted or would conflict with the information contained in the Registration Statement or the Prospectuses or included or would include an untrue statement of a material fact or omitted or would omit to state a material fact necessary
+in order to make the statements therein, in light of the circumstances existing at that subsequent time, not misleading, the Corporation will promptly notify the Agents and, if, in the Corporation’s reasonable determination, it is necessary to
+file an amendment or supplement to such Issuer Free Writing Prospectus to comply with the Securities Act or Canadian Securities Laws, the Corporation will promptly prepare and file with the Canadian Qualifying Authorities and the SEC such amendment
+or supplement as may be necessary to correct such misstatement or omission or to make such Issuer Free Writing Prospectus comply with such requirements, and the Corporation will furnish to the Agents such number of copies of such amendment or
+supplement as the Agents may reasonably request.
+(b)
+Non-Issuer
+Free
+Writing Prospectus
+. The Corporation consents to the use by the Agents of a free writing prospectus that (a) is not an “Issuer Free Writing Prospectus” as defined in Rule 433, and (b) contains only information
+describing the terms of the Shares or the Offering, or information permitted under Rule 134 under the Securities Act; provided that the Agents, severally and not jointly, covenant with the Corporation not to take any action that would result in
+the Corporation being required to file with the SEC under Rule 433(d) a free writing prospectus prepared by or on behalf of the Agents that otherwise would not be required to be filed by the Corporation thereunder, but for the action of the
+Agents.
+(c)
+Distribution of Offering Materials
+. The Corporation has not distributed and will not
+distribute, during the term of this Agreement, any “marketing materials” (as defined in NI 41-101) in connection with the offering and sale of the Placement Shares other than the Registration Statement, the Prospectuses or any Issuer
+Free Writing Prospectus reviewed and consented to by the Agents and included in a Placement Notice (as described in clause 9(a) above), provided that the Agents, severally and not jointly, covenant with the Corporation not to take any action
+that would result in the Corporation being required to file with the Canadian Qualifying Authorities any “marketing materials” that otherwise would not be required to be filed by the Corporation, but for the action of the Agents.
+10.
+Conditions to the Agents
+’
+Obligations
+.
+The obligations of the Agents hereunder with respect to a Placement will be subject to the continuing accuracy and
+completeness of the representations and warranties made by the Corporation herein, to the due performance by the Corporation of its obligations hereunder, to the completion by the Agents of a due diligence review satisfactory to the Agents in their
+reasonable judgment, and to the continuing satisfaction (or waiver by the Agents in their sole discretion) of the following additional conditions:
+(a)
+Canadian Prospectus Supplement
+. The Canadian Prospectus Supplement shall have been filed with the Canadian
+Qualifying Authorities under the Canadian Shelf Procedures and in accordance with this Agreement, the Deemed Receipt for the Canadian Base Prospectus shall
+26
+remain effective, the Corporation shall not have withdrawn and shall not be required to
+withdraw the Canadian Base Prospectus pursuant to the WKSI Rules, all requests for additional information on the part of the Canadian Qualifying Authorities shall have been complied with to the reasonable satisfaction of the Agents and the
+Agents’ counsel and the AMF Exemption shall remain in full force and effect without amendment.
+(b)
+Registration Statement Effective
+. The Registration Statement shall remain effective and shall be available for the sale of (i) all Placement Shares issued pursuant to all prior Placements and not yet sold by the Agents and (ii) all
+Placement Shares contemplated to be issued by the Placement Notice relating to such Placement.
+(c)
+No Material
+Notices
+. None of the following events shall have occurred and be continuing: (i) receipt by the Corporation of any request for additional information from the SEC, the Canadian Qualifying Authorities or any other federal or state or foreign
+or other governmental, administrative or self-regulatory authority during the period of effectiveness of the Registration Statement and the Prospectuses, the response to which would require any amendments or supplements to the Registration Statement
+or the Prospectuses; (ii) the issuance by the SEC, the Canadian Qualifying Authorities or any other federal or state or foreign or other governmental authority of any stop order suspending the effectiveness of the Registration Statement or the
+Prospectuses or the initiation of any proceedings for that purpose; (iii) receipt by the Corporation of any notification with respect to the suspension of the qualification or exemption from qualification of any of the Placement Shares for sale
+in any jurisdiction or the initiation or threatening of any proceeding for such purpose; (iv) the occurrence of any event that makes any statement of a material fact made in the Registration Statement or the Prospectuses or any document
+incorporated or deemed to be incorporated therein by reference untrue in any material respect or that requires the making of any changes in the Registration Statement, Prospectuses or documents so that, in the case of the Registration Statement, it
+will not contain any untrue statement of a material fact or omit to state any material fact required to be stated therein or necessary to make the statements therein not misleading, and in the case of each Prospectus, it will not contain any untrue
+statement of a material fact or omit to state any material fact required to be stated therein or necessary to make the statements therein, in the light of the circumstances under which they were made, not misleading; and (v) the
+Corporation’s reasonable determination that a post-effective amendment to the Registration Statement or Prospectuses would be appropriate.
+(d)
+Material Changes
+. Except as contemplated and appropriately disclosed in the Prospectuses, or disclosed in
+the Corporation’s reports filed with the SEC and Canadian Qualifying Authorities, in each case at the time the applicable Placement Notice is delivered, there shall not have been any material change, on a consolidated basis, in the authorized
+common share capital of the Corporation, or any development that causes or could reasonably be expected to cause a Material Adverse Effect, the effect of which, in the sole judgment of the Agents (without relieving the Corporation of any obligation
+or liability it may otherwise have), acting reasonably, is so material as to make it impracticable or inadvisable to proceed with the offering of the Placement Shares on the terms and in the manner contemplated in the Prospectuses.
+(e)
+Certificate
+. The Agents shall have received the certificate required to be delivered pursuant to
+Section
+8(n)
+on or before the date on which delivery of such certificate is required pursuant to
+Section
+8(n)
+.
+27
+(f)
+Legal Opinions
+. The Agents shall have received the
+opinions of counsel to be delivered pursuant to
+Section
+8(o)
+on or before the date on which such delivery of such opinions are required pursuant to
+Section
+8(o)
+. In addition, on such dates that the
+opinions required by
+Section
+8(o)
+are delivered, the Agents shall have also received (i) the opinion and negative assurance letter of Skadden, Arps, Slate, Meagher & Flom LLP, U.S. counsel to the Agents, with
+respect to the issuance and sale of the Placement Shares in the United States, the Registration Statement, the Disclosure Package, the U.S. Prospectus and other related matters as the Agents may reasonably require, and (ii) the opinion of
+Borden Ladner Gervais LLP, Canadian counsel for the Agents, with respect to the issuance and sale of the Placement Shares in Canada, the Canadian Prospectus and other related matters as the Agents may reasonably require, it being understood that
+counsel for the Agents may rely on the opinions of counsel for the Corporation and that counsel for the Agents and counsel for the Corporation may rely upon the opinions of local counsel as to all matters not governed by the laws of the respective
+jurisdictions in which they are qualified to practice, and may rely, to the extent appropriate in the circumstances, as to matters of fact on certificates of the Corporation, auditors and public officials, and that the opinions of counsel may be
+subject to usual qualifications as to equitable remedies, creditors’ rights laws and public policy considerations.
+(g)
+Comfort Letters
+. The Agents shall have received the Comfort Letter(s) required to be delivered pursuant to
+Section
+8(p)
+on or before the date on which the delivery of such letter is required pursuant to
+Section
+8(p)
+.
+(h)
+Certificate of Chief Financial Officer
+. If applicable, the Agents shall have received the CFO Certificate
+required to be delivered pursuant to
+Section
+8(q)
+on or before the date on which the delivery of such certificate is required pursuant to
+Section
+8(q)
+.
+(i)
+Approval for Listing; No Suspension
+. The Placement Shares shall have either been (i) approved for
+listing, subject to notice of issuance, on the NYSE and the TSX, or (ii) the Corporation shall have filed an application for listing of the Placement Shares on the NYSE and the TSX at or prior to the issuance of the Placement Notice. Trading in
+the Shares shall not have been suspended on such markets.
+(j)
+Other Materials
+. On each date on which the
+Corporation is required to deliver a certificate pursuant to
+Section
+8(n)
+, the Corporation shall have furnished to the Agents such appropriate further information, certificates and documents as the Agents may reasonably
+request.
+(k)
+Securities Act Filings Made
+. All filings with the SEC required by General Instruction II.L of
+Form F-10,
+the Securities Act and required by the Canadian Qualifying Authorities to have been filed prior to the issuance of any Placement Notice hereunder shall have been made within the applicable time
+period prescribed for such filing by General Instruction II.L of
+Form F-10,
+the Securities Act and Canadian Securities Laws.
+(l)
+FINRA
+. If a filing with FINRA is required, FINRA shall not have objected to the fairness or reasonableness
+of the terms or arrangements under this Agreement.
+28
+11.
+Indemnification and Contribution
+.
+(a)
+Right of Indemnity from the Corporation
+. The Corporation agrees to fully protect, save harmless and
+indemnify each of the Agents and each of their respective affiliates (including within the meaning of Rule 405 under the Securities Act) and persons controlling (or deemed to be controlling, within the meaning of either Section 15 of the
+Securities Act or Section 20 of the Exchange Act) any of the Agents, as the case may be, and each of their respective directors, officers, partners, employees and agents, from and against any losses, expenses, claims, damages, or liabilities,
+joint or several, including, without limitation, the aggregate amount paid in reasonable settlement of any actions, suits, proceedings, investigations or claims (collectively, the “
+Claims
+”) to which such person may become subject
+or otherwise involved, in any capacity insofar as Claims relate to, are caused by or arise out of:
+(i)
+any untrue statement or alleged untrue statement of a material fact contained in the Canadian Prospectus or
+any amendment thereto, the U.S. Prospectus or any amendment thereto, the Registration Statement or any amendment thereto, any Issuer Free Writing Prospectus or any amendment or supplement thereto, or any omission or alleged omission to state therein
+a material fact required to be stated therein or necessary to make the statements therein not misleading, except insofar as such Claims are caused by any such untrue statement or omission or alleged untrue statement or omission based upon
+information relating solely to the Agents or any of them that has been provided in writing to the Corporation by or on behalf of any Agent specifically for inclusion therein;
+(ii)
+the Corporation’s failure to comply with any requirement of Applicable Securities Law; or
+(iii)
+any order made or inquiry, investigation or proceeding commenced or threatened by any securities regulatory
+authority or other competent authority based upon any untrue statement or omission, misrepresentation, alleged untrue statement or omission, or alleged misrepresentation in the Canadian Prospectus or any amendment thereto, the U.S. Prospectus or any
+amendment thereto, the Registration Statement or any amendment thereto, any Issuer Free Writing Prospectus or any amendment or supplement thereto or in the Public Record (except to the extent based upon information relating solely to the Agents or
+any of them that has been provided in writing to the Corporation by or on behalf of any Agent specifically for inclusion therein) preventing or restricting trading in the Placement Shares or the distribution of the Placement Shares in the United
+States or any of the Canadian Qualifying Jurisdictions;
+and will reimburse the parties entitled to
+indemnification hereunder for all reasonable and documented costs, charges and expenses (including reasonable legal expenses), as incurred, which any of them may pay or incur in connection with investigating, defending against, responding to or
+disputing any such Claims. This indemnity is without regard to the exclusive or contributory negligence of the party entitled to indemnification hereunder, except with respect to any Claim
+29
+described in
+Section
+11(a)(i)
+above insofar as resulting from the
+willful misconduct, gross negligence or bad faith of such party in performing the services that are the subject of this Agreement. This indemnity is in addition to any liability which the Corporation may otherwise have.
+(b)
+Right of Indemnity from the Agents
+. Each Agent agrees, severally and not jointly or jointly and severally,
+to fully protect, save harmless and indemnify the Corporation, each of its affiliates, and the Corporation’s directors, officers, partners, employees and agents, to the same extent as the foregoing indemnity from the Corporation to such Agent
+pursuant to Section 11(a), but only to the extent that such Claims arise out of or are based upon any misrepresentation or untrue statement, omission or alleged omission made in the Canadian Prospectus or any amendment thereto or the U.S.
+Prospectus or any amendment thereto based on information relating solely to the Agents or any of them that has been provided in writing to the Corporation by or on behalf of any Agent specifically for inclusion therein.
+The Corporation acknowledges that the names of the Agents set forth on the cover and under the heading “Relationship
+Between the Company and Certain of the Agents” constitute the only information furnished in writing by or on behalf of the Agents for inclusion in the Prospectuses.
+(c)
+Notification of Claims
+. If any Claim is asserted against any person entitled to indemnification under
+Section 11(a) or 11(b), such person (the “
+Indemnified Party
+”) will notify the person against whom such indemnity may be sought pursuant to Section 11(a) or 11(b) (the “
+Indemnifying Party
+”) as soon as
+possible of the particulars of such Claim (but the omission so to notify the Indemnifying Party of any Claim shall not relieve the Indemnifying Party from its obligation to indemnify or provide reimbursement except to the extent that the
+Indemnifying Party suffers actual prejudice by that failure, and then only to such extent). The Indemnifying Party shall be entitled to participate in the defense of any Claim so asserted and, after written notice to the Indemnified Party, to assume
+the defense thereof; provided, however, that:
+(i)
+the defense shall be conducted through legal counsel acceptable to the Indemnified Party, acting reasonably;
+and
+(ii)
+no Indemnifying Party shall, without the prior written consent of the Indemnified Party, effect the
+settlement or compromise of, consent to the entry of any judgment with respect to, or make an admission of liability with respect to, any pending or threatened Claim in respect of which indemnification or contribution may be sought hereunder
+(whether or not the Indemnified Party is an actual or potential party to such action or claim) unless such settlement, compromise or judgment: (A) includes an unconditional release of the Indemnified Party from all liability arising out of such
+action or claim; and (B) does not include a statement as to or an admission of fault, culpability or a failure to act, by or on behalf of any Indemnified Party, which consent shall not be unreasonably withheld.
+30
+(d)
+Retaining Counsel
+. In any such Claim, the Indemnified
+Party shall have the right to retain other counsel to act on his, her or its behalf, provided that the fees and disbursements of such counsel shall be paid by the Indemnified Party unless:
+(i)
+Indemnifying Party and the Indemnified Party shall have mutually agreed to the retention of such other
+counsel;
+(ii)
+the Indemnifying Party has not retained counsel acceptable to the Indemnified Party, acting reasonably,
+within a timely fashion following receipt by the Indemnifying Party of notice of any such Claim from the Indemnified Party;
+(iii)
+the named parties to any such Claim (including any added third or impleaded party) include both the
+Indemnifying Party and the Indemnified Party and the Indemnified Party shall have been advised in writing by legal counsel that the representation of both parties by the same counsel would be inappropriate due to the actual or potential differing
+interests between them; or
+(iv)
+the Indemnified Party shall have reasonably concluded that there may be legal defenses available to it that
+are different from or in addition to those available to the Indemnifying Party;
+in which event the
+Indemnifying Party shall bear the reasonable fees, costs and expenses of such other counsel with respect to the entire defense. It is understood, however, that the Indemnifying Party shall not, in connection with any one action or separate but
+substantially similar or related actions in the same jurisdiction, be liable for the reasonable fees, costs and expenses of more than one separate law firm (in addition to any local counsel) for all such Indemnified Parties unless, in the opinion of
+counsel to any such Indemnified Parties, representation of all or any of such Indemnified Parties by the same counsel would be inappropriate due to actual or potential differing interests between any of them.
+An Indemnifying Party shall not
+be required to indemnify any Indemnified Party in respect of any Claim which is settled or compromised, or in respect of which a judgment is entered, or in respect of which admission of liability is made, by such Indemnified Party without the prior
+written consent of the Indemnifying Party.
+(e)
+Contribution.
+In order to provide for just and equitable
+contribution in circumstances in which the indemnification provided for in this
+Section
+11
+is unavailable, in whole or in part, for any reason to an Indemnified Party in respect of any losses, expenses, claims, damages and
+liabilities referred to therein, the Corporation shall contribute to the amount paid or payable (or, if such indemnity is unavailable only in respect of a portion of the amount so paid or payable, such portion of the amount so paid or payable) by
+such Indemnified Party as a result of such liabilities, claims, demands, losses, costs, damages and expenses:
+(i)
+in such proportion as is appropriate to reflect the relative benefits received by the Corporation on the one
+hand and the Agents on the other hand from the distribution of the Placement Shares; or
+31
+(ii)
+if the allocation provided by clause (i) above is not permitted by applicable law, in such proportion
+as is appropriate to reflect not only the relative benefits referred to in clause (i) above but also the relative fault of the Corporation on the one hand and the Agents on the other hand in connection with the matters or things referred to in
+Section
+11(a)
+and
+Section
+11(b)
+hereof which resulted in such losses, expenses, claims, damages and liabilities, as well as any other relevant equitable considerations;
+provided that the Agents shall not in any event be liable to contribute, in the aggregate, any amount in excess of the
+Placement Fee or any portion thereof actually received. The relative benefits received by the Corporation on the one hand and the Agents on the other shall be deemed to be in the same ratio as the total net proceeds from the distribution of
+Placement Shares received by the Corporation is to the Placement Fee received by the Agents. The relative fault of the Corporation on the one hand and of the Agents on the other shall be determined by reference to, among other things, whether the
+matters or things referred to in
+Section
+11(a)
+and
+Section
+11(b)
+hereof which resulted in such losses, expenses, claims, damages, and liabilities relate to information supplied by or steps or
+actions taken or done or not taken or done by or on behalf of the Corporation (including indirectly as aforesaid) or to information supplied by or steps or actions taken or done or not taken or done by or on behalf of the Agents and the relative
+intent, knowledge, access to information and opportunity to correct or prevent such statement, omission or misrepresentation, or other matter or thing referred to in
+Section
+11(a)
+and
+Section
+11(b)
+hereof. The parties hereto agree that it would not be just and equitable if contribution pursuant to this
+Section
+11(e)
+were determined by any method of allocation which does not take into account the equitable
+considerations referred to above in this
+Section
+11(e)
+.
+Notwithstanding the provisions of this
+Section
+11(e)
+, no person guilty of misrepresentation (within the meaning of Applicable Securities Laws) shall be entitled to contribution from any person who was not guilty of such misrepresentation.
+(f) If an Indemnified Party has reason to believe that a claim for contribution may arise, it shall give the other
+parties hereto notice thereof in writing, but failure to give such notice shall relieve a party of any obligation which it may have to the Indemnified Party under
+Section
+11(e)
+only to the extent such party suffers actual
+prejudice by that failure, and then only to such extent.
+(g) The rights provided in this
+Section
+11
+shall be in addition to and not in derogation of any other right which the Indemnified Parties may have by statute or otherwise at law.
+(h) If any provision of this
+Section
+11
+is determined to be void, voidable or unenforceable,
+in whole or in part, such determination shall not affect or impair or be deemed to affect or impair the validity of any other provision of this Agreement and such void, voidable or unenforceable provision shall be severable from this Agreement.
+12.
+Representations and Agreements to Survive Delivery
+All representations and warranties of the Corporation herein or in certificates delivered pursuant hereto shall remain
+operative and in full force and effect regardless of (i) any investigation made by or on behalf of the Agents, any controlling persons, or the Corporation (or
+32
+any of their respective officers, directors or controlling persons), (ii) delivery and
+acceptance of the Placement Shares and payment therefor or (iii) any termination of this Agreement.
+13.
+Termination
+(a) The Corporation shall have the right to terminate this Agreement with any or all of the Agents in its sole
+discretion at any time by giving written notice as hereinafter specified. Any such termination shall be without liability of any party to any other party except that the provisions of
+Section
+8(g)
+,
+Section
+11
+,
+Section
+12
+, Section 13(a),
+Section
+13(e)
+, Section 13(f),
+Section
+15
+,
+Section
+18
+and
+Section
+19
+hereof shall remain in full force and effect notwithstanding such termination.
+(b) Each Agent shall have the right to terminate its obligations under this Agreement in its sole discretion at any
+time after the date of this Agreement by giving written notice as hereinafter specified. Any such termination shall be without liability of any party to any other party except that the provisions of
+Section
+8(g)
+,
+Section
+11
+,
+Section
+12
+, Section 13(b),
+Section
+13(e)
+,
+Section
+15
+,
+Section
+18
+and
+Section
+19
+hereof shall remain in full force and effect notwithstanding such termination.
+(c) Unless previously terminated pursuant to this
+Section
+13
+, this Agreement shall
+automatically terminate upon the earlier of (i) December 5, 2029, such date being the expiration date of the Registration Statement, and (ii) the issuance and sale of all the Placement Shares through the Agents on the terms and subject to
+the conditions set forth herein; provided that any such termination shall in all cases be deemed to provide that
+Section
+8(g)
+,
+Section
+11
+,
+Section
+12
+, Section 13(c),
+Section
+13(e)
+,
+Section
+15
+,
+Section
+18
+and
+Section
+19
+shall remain in full force and effect.
+(d) This Agreement shall remain in full force and effect unless terminated pursuant to
+Sections
+13(a)
+,
+13(b)
+,
+13(c)
+or otherwise by mutual agreement of the parties; provided that any such termination shall in all cases be deemed to provide that
+Section
+8(g)
+,
+Section
+11
+,
+Section
+12
+, Section 13(d),
+Section
+13(e)
+,
+Section
+15
+,
+Section
+18
+and
+Section
+19
+shall remain in full force and effect.
+(e) Any termination of this Agreement
+shall be effective on the date specified in such notice of termination; provided that such termination shall not be effective until the close of business on the date of receipt of such notice by the Agents or the Corporation, as the case may be. If
+such termination shall occur prior to the Settlement Date for any sale of Placement Shares, such Placement Shares shall settle in accordance with the provisions of this Agreement.
+(f) In the event that the Corporation terminates this Agreement, as permitted under
+Section
+13(a)
+, the Corporation shall be under no continuing obligation, either pursuant to this Agreement or otherwise to utilize the services of the Agents in connection with any sale of securities of the Corporation or to
+pay any compensation to the Agents other than compensation with respect to sales of Placement Shares subscribed on or before the termination date or otherwise agreed to in writing among the Corporation and the Agents and the Corporation shall be
+free to engage other placement agents and underwriters from and after the termination date with no continuing obligation to the Agents.
+33
+14.
+Notices
+All notices or other communications required or permitted to be given by any party to any other party pursuant to the terms of
+this Agreement shall be in writing and if sent to the Agents, shall be delivered to:
+TD Securities Inc.
+66 Wellington Street West, 10
+th
+Floor
+Toronto, Ontario M5K 1A2
+Attention: Michael Faralla & Kosta Galanis
+Email:
+[redacted – personal information]
+-and-
+CIBC World Markets Inc.
+161 Bay Street, 6
+th
+Floor
+Toronto, Ontario M5J 2S8
+Attention: Kay Yoo
+Email:
+[redacted – personal information]
+-and-
+Scotia Capital Inc.
+40 Temperance Street, 6
+th
+Floor
+Toronto, Ontario M5H 0B4
+Attention: Darren Grant & John Burchat
+Email:
+[redacted – personal information]
+-and-
+TD Securities (USA) LLC
+1 Vanderbilt Avenue
+New York, New York 10017
+Attention: ATM Team
+Email:
+[redacted – personal information]
+; with a copy to
+[redacted – personal information]
+-and-
+CIBC World Markets Corp.
+300 Madison Ave, 6
+th
+Floor
+New York, New York 10017
+Attention: Kay Yoo
+Email:
+[redacted – personal information]
+-and-
+Scotia Capital (USA) Inc.
+34
+250 Vesey Street, 24
+th
+Floor
+New York, New York 10281
+Attention: Darren Grant & John Burchat
+Email:
+[redacted – personal information]
+With a copy to:
+Borden Ladner Gervais LLP
+1200 Waterfront Centre
+200 Burrard St.
+Vancouver, BC, V7X 1T2
+Attention: Fred R. Pletcher
+E-mail:
+[redacted – personal information]
+-and-
+Skadden, Arps, Slate, Meagher & Flom LLP
+222 Bay Street
+Suite 1750
+Toronto, ON M5K 1J5
+Attention: Ryan Dzierniejko
+E-mail:
+[redacted – personal information]
+or if sent to the Corporation, shall be delivered to:
+Cameco Corporation
+2121-11
+th
+Street West
+Saskatoon, Saskatchewan
+S7M 1J3
+Attention: R. Liam Mooney, Senior Vice-President and Chief Legal Officer
+E-mail:
+[redacted – personal information]
+(with a copy to
+[redacted
+– personal information]
+)
+With a copy to:
+McCarthy Tétrault LLP
+Suite 5300, TD Bank Tower
+Box 48, 66 Wellington Street West
+Toronto ON M5K 1E6
+Attention: Andrew Parker
+E-mail:
+[redacted – personal information]
+-and-
+35
+Covington & Burling LLP
+One CityCenter
+850 Tenth Street, NW
+Washington, DC 20001
+Attention: Kerry Shannon Burke
+E-mail:
+[redacted – personal information]
+Each party to this Agreement may change such address for notices by sending to the other parties to this Agreement written
+notice of a new address for such purpose. Each such notice or other communication shall be deemed given (i) when delivered personally or by
+e-mail
+(with an original to follow) on or before 4:30 p.m.,
+Toronto time, on a Business Day or, if such day is not a Business Day, on the next succeeding Business Day, (ii) on the next Business Day after timely delivery to a nationally-recognized overnight courier, (iii) on the Business Day
+actually received if deposited in the mail (certified or registered mail, return receipt requested, postage prepaid), and (iv) if sent by email, on the Business Day on which receipt is confirmed by the individual to whom the notice is sent,
+other than via auto-reply. For purposes of this Agreement, “
+Business Day
+” shall mean any day on which the NYSE and TSX are open for business.
+15.
+Consent to Jurisdiction
+The Corporation irrevocably (i) agrees that any legal suit, action or proceeding against the Corporation brought by any
+Agent or by any person who controls any Agent arising out of or based upon this Agreement or the transactions contemplated thereby may be instituted in any Ontario Court, (ii) waives, to the fullest extent it may effectively do so, any
+objection which it may now or hereafter have to the laying of venue of any such proceeding and (iii) submits to the exclusive jurisdiction of such courts in any such suit, action or proceeding. To the extent that the Corporation has or
+hereafter may acquire any immunity from jurisdiction of any court or from any legal process (whether through service of notice, attachment prior to judgment, attachment in aid of execution, execution or otherwise) with respect to itself or its
+property, it hereby irrevocably waives such immunity in respect of its obligations under the above-referenced documents, to the extent permitted by law. The provisions of this
+Section
+15
+shall survive any termination of
+this Agreement, in whole or in part.
+16.
+Successors and Assigns
+This Agreement shall inure to the benefit of and be binding upon the Corporation and the Agents and their respective
+successors and the affiliates, controlling persons, officers and directors referred to in
+Section
+11
+hereof. References to any of the parties contained in this Agreement shall be deemed to include the successors and
+permitted assigns of such party. Nothing in this Agreement, express or implied, is intended to confer upon any party other than the parties hereto or their respective successors and permitted assigns any rights, remedies, obligations or liabilities
+under or by reason of this Agreement, except as expressly provided in this Agreement. No party
+36
+may assign its rights or obligations under this Agreement without the prior written consent
+of the other parties.
+17.
+Adjustments for Stock Splits
+The parties acknowledge and agree that all share related numbers contained in this Agreement shall be adjusted to take into
+account any stock split, stock dividend or similar event effected with respect to the Shares.
+18.
+Entire Agreement; Amendment; Severability
+This Agreement (including all schedules and exhibits attached hereto and Placement Notices issued pursuant hereto) constitutes
+the entire agreement and supersedes all other prior and contemporaneous agreements and undertakings, both written and oral, among the parties hereto with regard to the subject matter hereof. Neither this Agreement nor any term hereof may be amended
+except pursuant to a written instrument executed by the Corporation and the Agents. In the event that any one or more of the provisions contained herein, or the application thereof in any circumstance, is held invalid, illegal or unenforceable, the
+validity, legality and enforceability of any such provision in every other respect and of the remaining provisions contained herein shall not be affected or impaired thereby.
+19.
+Termination of Prior Agreement
+The Corporation and the Agents hereby confirm and agree that the equity distribution agreement, dated November 12, 2024,
+among the Corporation and the Agents is hereby terminated effective as of the date of this Agreement, pursuant to Section 13(d) thereof and, except as provided in Section 13 thereof, is of no further force and effect.
+20.
+Applicable Law
+This Agreement and any claim, controversy or dispute relative to or arising out of this Agreement shall be governed by and
+interpreted in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable in the Province of Ontario. Each of the parties hereto irrevocably attorns to the jurisdiction of the courts of the Province of Ontario.
+21.
+Waiver of Jury Trial
+The Corporation and the Agents hereby irrevocably waive any right either may have to a trial by jury in respect of any claim
+based upon or arising out of this Agreement or any transaction contemplated hereby.
+22.
+Absence of Fiduciary Duties
+The parties acknowledge that they are sophisticated in business and financial matters and that each of them is solely
+responsible for making its own independent investigation and analysis of the transactions contemplated by this Agreement. They further acknowledge that the Agents have not been engaged by the Corporation to provide, and have not provided, financial
+advisory services in connection with the terms of the Offering nor have the Agents assumed at any time a
+37
+fiduciary relationship to the Corporation in connection with such Offering. The Corporation hereby waives, to the fullest extent permitted by law, any claims it may have against the Agents for
+breach of fiduciary duty or alleged breach of fiduciary duty and agrees the Agents shall have no liability (whether direct or indirect) to the Corporation in respect of such a fiduciary duty claim or to any person asserting a fiduciary duty claim on
+behalf of or in right of the Corporation, including shareholders, employees or creditors of the Corporation.
+23.
+Judgment Currency
+The Corporation agrees to indemnify each Agent, its directors, officers, affiliates and each person, if any, who controls such
+Agent within the meaning of Section 15 of the Securities Act or Section 20 of the Exchange Act, against any loss incurred by such Agent as a result of any judgment or order being given or made for any amount due hereunder and such judgment
+or order being expressed and paid in a currency (the “
+Judgment Currency
+”) other than U.S. dollars and as a result of any variation as between (i) the rate of exchange at which the U.S. dollar amount is converted into the
+Judgment Currency for the purpose of such judgment or order, and (ii) the rate of exchange at which such indemnified person is able to purchase U.S. dollars with the amount of the Judgment Currency actually received by the indemnified person.
+The foregoing indemnity shall constitute a separate and independent obligation of the Corporation and shall continue in full force and effect notwithstanding any such judgment or order as aforesaid. The term “rate of exchange” shall
+include any premiums and costs of exchange payable in connection with the purchase of, or conversion into, the relevant currency.
+24.
+Compliance with
+USA PATRIOT Act
+In accordance with the requirements of the USA PATRIOT Act (Title III of Pub.
+L. 107-56
+(signed into law October 26, 2001)), the Agents are required to obtain, verify and record information that identifies their respective clients, including the Corporation, which information
+may include the name and address of their respective clients, as well as other information that will allow the Agents to properly identify their respective clients.
+25.
+Recognition of the U.S.
+Special Resolution Regimes
+(a) In the event that any Agent that is a Covered Entity becomes subject to a proceeding under a U.S. Special
+Resolution Regime, the transfer from such Agent of this Agreement, and any interest and obligation in or under this Agreement, will be effective to the same extent as the transfer would be effective under the U.S. Special Resolution Regime if this
+Agreement, and any such interest and obligation, were governed by the laws of the United States or a state of the United States.
+(b) In the event that any Agent that is a Covered Entity or a BHC Act Affiliate of such Agent becomes subject to a
+proceeding under a U.S. Special Resolution Regime, Default Rights under this Agreement that may be exercised against such Agent are permitted to be exercised to no greater extent than such Default Rights could be exercised under the U.S. Special
+Resolution Regime if this Agreement were governed by the laws of the United States or a state of the United States.
+38
+(c) For the purposes of this
+Section
+25
+,
+the following terms have the respective meanings set forth below:
+(i)
+“
+BHC Act Affiliate
+” has the meaning assigned to the term “affiliate” in, and
+shall be interpreted in accordance with, 12 U.S.C. § 1841(k);
+(ii)
+“
+Covered Entity
+” means any of the following:
+(A)
+a “covered entity” as that term is defined in, and interpreted in accordance with, 12 C.F.R.
+§ 252.82(b);
+(B)
+a “covered bank” as that term is defined in, and interpreted in accordance with, 12 C.F.R.
+§ 47.3(b); or
+(C)
+a “covered FSI” as that term is defined in, and interpreted in accordance with, 12 C.F.R.
+§ 382.2(b);
+(iii)
+“
+Default Right
+” has the meaning assigned to that term in, and shall be interpreted in
+accordance with, 12 C.F.R. §§ 252.81, 47.2 or 382.1, as applicable; and
+(iv)
+“
+U.S. Special Resolution Regime
+” means each of (i) the Federal Deposit Insurance Act
+and the regulations promulgated thereunder and (ii) Title II of the Dodd-Frank Wall Street Reform and Consumer Protection Act and the regulations promulgated thereunder.
+26.
+Definitions
+As used in this Agreement, the following terms have the respective meanings set forth below:
+(a) “
+Amendment Date
+” has the meaning given thereto in
+Section
+8(a)
+hereof;
+(b) “
+AMF Exemption
+” means the exemptive relief decision dated November 4, 2026 obtained by
+the Corporation from the Autorité des marchés financiers (Quebec) providing relief from the requirement under section 40.1 of the
+Securities Act
+(Québec) and section 2.2(2) of NI
+41-101
+to prepare, deliver and file a French version of the Canadian Prospectus Supplement, the documents incorporated by reference in the Canadian Prospectus Supplement, and any other prospectus supplement to
+be filed in relation to an
+“at-the-market
+distribution” under the Canadian Base Prospectus;
+(c) “
+Applicable Securities Laws
+” means all applicable Canadian Securities Laws and U.S. Securities
+Laws;
+(d) “
+Applicable Time
+” means, with respect to any Placement Shares, the time of sale of
+such Placement Shares pursuant to this Agreement;
+39
+(e) “
+Authorized Representative
+” has the meaning
+given thereto in
+Section
+2(a)
+hereof;
+(f) “
+Base Prospectuses
+” means,
+collectively, the Canadian Base Prospectus and the U.S. Base Prospectus;
+(g) “
+Canadian Base
+Prospectus
+” has the meaning given thereto in
+Section
+6
+hereof;
+(h)
+“
+Canadian Marketplace
+” has the meaning given thereto in
+Section
+3
+hereof;
+(i) “
+Canadian Prospectus
+” means the Canadian Prospectus Supplement (and any additional Canadian
+Prospectus Supplement prepared in accordance with the provisions of this Agreement and filed with the Canadian Qualifying Authorities in accordance with Canadian Securities Laws) together with the Canadian Base Prospectus;
+(j) “
+Canadian Prospectus Supplement
+” has the meaning given thereto in
+Section
+6
+hereof;
+(k) “
+Canadian Qualifying Authorities
+” means the
+securities regulatory authorities in each of the provinces and territories of Canada;
+(l) “
+Canadian
+Qualifying Jurisdictions
+” means each of the provinces and territories of Canada;
+(m) “
+Canadian
+Securities Laws
+” means the applicable rules and regulations under such laws, together with applicable published national, multilateral and local policy statements, instruments, notices and blanket orders of the Canadian Qualifying
+Authorities in each of the Canadian Qualifying Jurisdictions and all discretionary orders or rulings, if any, of the Canadian Qualifying Authorities made in connection with the transactions contemplated by this Agreement, including but not limited
+to, the AMF Exemption;
+(n) “
+Canadian Shelf Procedures
+” means NI
+44-101
+and NI
+44-102;
+(o)
+“
+Comfort Letter
+” has the meaning given thereto in
+Section
+8(p)
+hereof;
+(p) “
+Deemed Receipt
+” has the meaning given thereto in
+Section
+6
+hereof;
+(q) “
+Designated News Release
+” has the meaning given thereto in
+Section
+6
+hereof;
+(r) “
+Disclosure Package
+” has the meaning given
+thereto in
+Section
+7(b)
+hereof;
+(s) “
+EDGAR
+” means the SEC’s
+Electronic Data Gathering, Analysis and Retrieval System;
+(t) “
+Exchange Act
+” means the United
+States Securities Exchange Act of 1934, as amended;
+(u) “
+Indemnified Party
+” and
+“
+Indemnified Parties
+” each has the meaning given thereto in
+Section
+11(c)
+hereof;
+40
+(v) “
+Initial Comfort Letter
+” has the meaning given
+thereto in
+Section
+8(p)
+hereof;
+(w) “
+Issuer Free Writing Prospectus
+”
+has the meaning given thereto in
+Section
+6
+hereof;
+(x) “
+Judgment
+Currency
+” has the meaning given thereto in
+Section
+23
+hereof;
+(y)
+“
+Material
+Corporate Entities
+” means Cameco Europe Ltd. and Cameco U.S. Holdings, Inc.;
+(z) “
+Net Proceeds
+” has the meaning given thereto in
+Section
+5(a)
+hereof;
+(aa) “
+NI
+21-101
+” means National Instrument
+21-101
+–
+Marketplace Operation;
+(bb) “
+NI
+41-101
+” means National Instrument
+41-101
+–
+General Prospectus Requirements
+;
+(cc) “
+NI
+44-101
+” means National Instrument
+44-101
+–
+Short Form Prospectus Distributions;
+(dd) “
+NI
+44-102
+” means National Instrument
+44-102
+–
+Shelf Distributions
+;
+(ee) “
+NYSE
+” means the New York Stock Exchange;
+(ff) “
+Offering
+” has the meaning given thereto in
+Section
+1
+hereof;
+(gg) “
+Placement
+” has the meaning given thereto in
+Section
+2(a)
+hereof;
+(hh) “
+Placement Fee
+” has the meaning given thereto in
+Section
+2(b)
+hereof;
+(ii) “
+Placement Notice
+” has the meaning given thereto in
+Section
+2(a)
+hereof;
+(jj) “
+Placement Shares
+” has the meaning given
+thereto in
+Section
+2(a)
+hereof;
+(kk) “
+Prospectus Supplements
+” means,
+collectively, the Canadian Prospectus Supplement and the U.S. Prospectus Supplement;
+(ll)
+“
+Prospectuses
+” means, collectively, the Canadian Prospectus and the U.S. Prospectus;
+(mm)
+“
+Public Record
+” means all documents incorporated by reference in the Canadian Prospectus from time to time, in compliance, or intended compliance, with applicable Canadian Securities Laws;
+(nn) “
+Registration Statement
+” has the meaning given thereto in
+Section
+6
+hereof;
+(oo) “
+Representation Date
+” has the meaning given thereto in
+Section
+8(n)
+hereof;
+(pp) “
+Reviewing Authority
+” has the meaning given
+thereto in
+Section
+6
+hereof;
+41
+(qq) “
+Rule
+433
+” means
+Rule 433 under the Securities Act;
+(rr) “
+Rules and Regulations
+” has the meaning given
+thereto in
+Section
+6
+hereof;
+(ss) “
+SEC
+” means the United States
+Securities and Exchange Commission;
+(tt) “
+Securities Act
+” means the United States Securities
+Act of 1933, as amended;
+(uu) “
+SEDAR+
+” means the System for Electronic Data Analysis and
+Retrieval +;
+(vv) “
+Settlement Date
+” has the meaning given thereto in
+Section
+5(a)
+hereof;
+(ww) “
+Shares
+” has the meaning given thereto in
+Section
+1
+hereof;
+(xx) “
+Shelf Securities
+” has the meaning given
+thereto in
+Section
+6
+hereof;
+(yy) “
+Trading Day
+” means any day on
+which either the NYSE or the TSX is open for trading;
+(zz) “
+TSX
+” means the Toronto Stock
+Exchange;
+(aaa) “
+United States Marketplace
+” has the meaning given thereto in
+Section
+3
+hereof;
+(bbb) “
+U.S. Base Prospectus
+” has the meaning given
+thereto in
+Section
+6
+hereof;
+(ccc) “
+U.S. Prospectus
+” has the meaning
+given thereto in
+Section
+6
+hereof;
+(ddd) “
+U.S. Prospectus Supplement
+”
+has the meaning given thereto in
+Section
+6
+hereof;
+(eee) “
+U.S. Securities
+Laws
+” means United States federal and state securities laws, including, but not limited to, the Exchange Act and the Securities Act; and
+(fff) “
+WKSI Rules
+”
+means the requirements set out in Part 9B of NI
+44-102,
+or any successor instrument, rule or policy.
+27.
+Counterparts
+This Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which
+together shall constitute one and the same instrument. Delivery of an executed Agreement by one party to the other may be made by email transmission.
+[
+Remainder of page left intentionally blank.
+]
+42
+If the foregoing accurately reflects your understanding and agreement with
+respect to the matters described herein please indicate your agreement by countersigning this Agreement in the space provided below.
+Yours very truly,
+CAMECO CORPORATION
+By:
+/s/ Heidi Shockey
+Name:
+Heidi Shockey
+Title:
+Senior Vice-President and
+Chief Financial Officer
+By:
+/s/ R. Liam Mooney
+Name:
+R. Liam Mooney
+Title:
+Senior Vice-President and
+Chief Legal Officer
+ACCEPTED as of the date first-above written:
+TD SECURITIES INC.
+By:
+/s/ Michael Faralla
+Name:
+Michael Faralla
+Title:
+Managing Director, Head of
+Global Mining Investment Banking
+CIBC WORLD MARKETS INC.
+By:
+/s/ Kay Yoo
+Name:
+Kay Yoo
+Title:
+Managing Director, Global
+Investment Banking
+SCOTIA CAPITAL INC.
+By:
+/s/ Darren Grant
+Name:
+Darren Grant
+Title:
+Managing Director
+TD SECURITIES (USA) LLC
+By:
+/s/ Michael Murphy
+Name:
+Michael Murphy
+Title:
+Managing Director
+CIBC WORLD MARKETS CORP.
+By:
+/s/ Greg Ogborn
+Name:
+Greg Ogborn
+Title:
+Managing Director
+SCOTIA CAPITAL (USA) INC.
+By:
+/s/ Tim Mann
+Name:
+Tim Mann
+Title:
+Managing Director
+SCHEDULE 1
+The Authorized Representatives of the Corporation are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Tim Gitzel,
+Chief Executive Officer
+[redacted – personal information]
+[redacted – personal information]
+Grant Isaac,
+President and Chief Operating Officer
+[redacted – personal information]
+[redacted – personal information]
+Lisa Aitken,
+Senior Vice-President and Chief Marketing Officer
+[redacted – personal information]
+[redacted – personal information]
+Rachelle Girard,
+Senior Vice-President and Chief Corporate Officer
+[redacted – personal information]
+[redacted – personal information]
+R. Liam Mooney,
+Senior Vice-President and Chief Legal Officer
+[redacted – personal information]
+[redacted – personal information]
+Heidi Shockey,
+Senior Vice-President and Chief Financial Officer
+[redacted – personal information]
+[redacted – personal information]
+The Authorized Representatives of TD Securities Inc. are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Michael Faralla
+[redacted – personal
+information]
+[redacted –
+personal information]
+Kosta Galanis
+[redacted – personal
+information]
+[redacted –
+personal information]
+Fraser Marr
+[redacted – personal
+information]
+[redacted –
+personal information]
+The Authorized Representatives of CIBC World Markets Inc. are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Kay Yoo
+[redacted – personal
+information]
+[redacted –
+personal information]
+Rob Magwood
+[redacted – personal
+information]
+[redacted –
+personal information]
+Sid Ramanathan
+[redacted – personal
+information]
+[redacted –
+personal information]
+Tom Cooper
+[redacted – personal
+information]
+[redacted –
+personal information]
+Joey
+Santos
+[redacted –
+personal information]
+[redacted – personal information]
+Schedule 1
+The Authorized Representatives of Scotia Capital Inc. are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Darren Grant
+[redacted –
+personal information]
+[redacted – personal information]
+Paul
+O’Hea
+[redacted –
+personal information]
+[redacted – personal information]
+Tim
+Mann
+[redacted –
+personal information]
+[redacted – personal information]
+John
+Burchat
+[redacted –
+personal information]
+[redacted – personal information]
+Jason
+Melo
+[redacted –
+personal information]
+[redacted – personal information]
+Gaurav
+Sharma
+[redacted –
+personal information]
+[redacted – personal information] Office: 416
+863-5965
+Dane
+Saunders
+[redacted –
+personal information]
+[redacted – personal information]
+Noel
+Amyot
+[redacted –
+personal information]
+[redacted – personal information]
+The Authorized Representatives of TD Securities (USA) LLC are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Michael Murphy
+[redacted –
+personal information]
+[redacted – personal information]
+Adriano Pierroz
+[redacted –
+personal information]
+[redacted – personal information]
+Megan
+Sanford
+[redacted –
+personal information]
+[redacted – personal information]
+The Authorized Representatives of CIBC World Markets Corp. are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Greg
+Ogborn
+[redacted –
+personal information]
+[redacted – personal information]
+Schedule 1
+The Authorized Representatives of Scotia Capital (USA) Inc. are as follows:
+Name and Office / Title
+E-mail
+Address
+Telephone Numbers
+Darren Grant
+[redacted –
+personal information]
+[redacted – personal information]
+Paul
+O’Hea
+[redacted –
+personal information]
+[redacted – personal information]
+Tim
+Mann
+[redacted –
+personal information]
+[redacted – personal information]
+John
+Burchat
+[redacted –
+personal information]
+[redacted – personal information]
+Jason
+Melo
+[redacted –
+personal information]
+[redacted – personal information]
+Gaurav Sharma
+[redacted –
+personal information]
+[redacted – personal information]
+Dane
+Saunders
+[redacted –
+personal information]
+[redacted – personal information]
+Noel
+Amyot
+[redacted –
+personal information]
+[redacted – personal information]
+Schedule 1
+EXHIBIT A
+OFFICER’S CERTIFICATE
+I, [name of executive officer], the [title of executive officer] of Cameco Corporation, a corporation incorporated under the
+Canada
+Business Corporations Act
+(the “
+Corporation
+”) do hereby certify in such capacity and not in my personal capacity, on behalf of the Corporation pursuant to Section 8(n) of the Equity Distribution Agreement dated
+November 5, 2026 (the “
+Distribution Agreement
+”) among the Corporation, TD Securities Inc., CIBC World Markets Inc., Scotia Capital Inc., TD Securities (USA) LLC, CIBC World Markets Corp. and Scotia Capital (USA) Inc., to the
+best of my knowledge, that:
+(i)
+Except as set forth in the Registration Statement, the Prospectuses and the Disclosure Package, the
+representations and warranties of the Corporation in Section 7 of the Distribution Agreement are true and correct on and as of the date hereof with the same force and effect as if expressly made on and as of the date hereof, except for those
+representations and warranties that speak solely as of a specific date and which were true and correct as of such date; and
+(ii)
+The Corporation has complied with all agreements and satisfied all conditions on its part to be performed or
+satisfied pursuant to the Distribution Agreement at or prior to the date hereof.
+Date:
+by
+Name:
+Title:
+A-1
+EXHIBIT B
+MATTERS TO BE COVERED BY
+INITIAL OPINION OF CORPORATION’S CANADIAN COUNSEL
+1.
+the Corporation is a corporation incorporated and existing under the
+Canada
+Business Corporations
+Act
+;
+2.
+the Corporation has the corporate power and capacity to execute and deliver and carry out its obligations
+under the Equity Distribution Agreement and to issue the Shares;
+3.
+the Corporation has the corporate power and authority to carry on its business as described in the
+Prospectus;
+4.
+the Corporation has taken all necessary corporate action to authorize the execution and delivery of the
+Equity Distribution Agreement and the performance of its obligations thereunder;
+5.
+the Corporation has duly executed and delivered the Equity Distribution Agreement;
+6.
+the Equity Distribution Agreement constitutes a valid and legally binding obligation of the Corporation,
+enforceable against the Corporation in accordance with its terms;
+7.
+the authorized capital of the Corporation consists of an unlimited number of common shares, unlimited number
+of First Preferred Shares, an unlimited number of Second Preferred Shares and one Class B share;
+8.
+the outstanding
+common shares were duly authorized and validly issued and outstanding as fully paid
+and
+non-assessable;
+9.
+the execution and delivery by the Corporation of the Equity Distribution Agreement does not, and the
+performance by the Corporation of its obligations thereunder does not and will not:
+(a)
+contravene or result in a breach of or constitute a default under its articles or
+by-laws;
+or
+(b)
+contravene any statute or regulation of the Province of Ontario, or any statute or regulation of Canada
+applicable therein.
+10.
+the Corporation has taken all necessary corporate action to duly authorize the issuance of the Shares on the
+terms and subject to the conditions contained in the Equity Distribution Agreement and, upon receipt by the Corporation of payment therefor by the Agents as provided in the Equity Distribution Agreement, the Shares will have been validly issued by
+the Corporation as fully paid and
+non-assessable
+common shares in the capital of the Corporation;
+B-1
+11.
+the Corporation is:
+(a)
+a “reporting issuer” under the
+Securities Act
+(Ontario) and is not on the list of
+defaulting reporting issuers published by the Ontario Securities Commission;
+(b)
+a “reporting issuer” under the
+Securities Act
+(British Columbia) and is not on the list
+of defaulting reporting issuers published by the British Columbia Securities Commission;
+(c)
+a “reporting issuer” under the
+Securities Act
+(Alberta) and is not on the list of
+defaulting reporting issuers published by the Alberta Securities Commission; and
+(d)
+a “reporting issuer” under the
+Securities Act
+(Québec) and is not on the list of
+defaulting reporting issuers published by the AMF;
+12.
+the attributes and characteristics of the Shares conform in all material respects to the attributes and
+characteristics of the common shares of the Corporation described under the heading “Description of Share Capital” in the Final Base Shelf Prospectus;
+13.
+all necessary documents have been filed by the Corporation, all requisite proceedings have been taken by the
+Corporation, and all necessary approvals, permits, consents and authorizations have been obtained by the Corporation under the Securities Laws of each of the Subject Jurisdictions to qualify the Shares for distribution and sale to the public in each
+of the Subject Jurisdictions through or to persons or companies who are duly registered in an appropriate category of dealer registration under the Securities Laws of each of the Subject Jurisdictions in which such person or company has engaged in
+the distribution of the Shares who have complied with the relevant provisions of the Securities Laws of such Subject Jurisdictions and the terms and conditions of their registration;
+14.
+all necessary corporate action has been taken by the Corporation to authorize the execution and filing of
+the Final Base Shelf Prospectus and the filing of the Prospectus Supplement under the Securities Laws;
+15.
+all necessary corporate action has been taken by the Corporation to authorise the execution and filing of
+the Registration Statement with the SEC and the filing of the U.S. Prospectus with the SEC;
+16.
+subject to the qualifications, assumptions, limitations, restrictions and exceptions stated or referred to
+therein, the statements made in the Prospectus Supplement under the headings “Certain Canadian Federal Income Tax Considerations” and “Eligibility for Investment” are, in all material respects, an accurate summary of the
+matters referred to therein; and
+17.
+the TSX has accepted notice of the Offering and conditionally approved the listing on the TSX of the Shares,
+subject to the Corporation fulfilling all of the requirements of the TSX as set out in the TSX Conditional Letter.
+B-2
+EXHIBIT C
+MATTERS TO BE COVERED BY
+INITIAL OPINION OF CORPORATION’S U.S. COUNSEL
+1.
+The Company has duly executed and delivered the Distribution Agreement (insofar as the validity of such
+execution and delivery is governed by the law of the State of New York).
+2.
+The issuance of the Shares and the execution and delivery of the Distribution Agreement and the consummation
+by the Company of the transactions contemplated thereby in accordance with the terms thereof do not violate or conflict with any New York or United States federal statute, law, rule or regulation known to us to which the Company is subject.
+3.
+No consent, approval, authorization or other action by or filing with any governmental agency or
+instrumentality of the State of New York or the United States of America is required on the part of the Company for the issuance of the Shares or the execution and delivery of the Distribution Agreement or the consummation of the transaction
+contemplated thereby in accordance with the terms thereof, except those required under United States federal and state securities laws.
+4.
+The Registration Statement has become effective under the Securities Act and, to our knowledge, no stop
+order suspending the effectiveness of the Registration Statement has been issued under the Securities Act and no proceedings for that purpose have been instituted or are pending or threatened by the Commission. The Prospectus has been filed in the
+manner and within the time period required by General Instruction II.L of Form
+F-10.
+5.
+Except as to the financial statements, including the notes thereto, the financial schedules and the other
+financial data derived therefrom, and the mineral and reserve data and other scientific and technical information derived from the reports of or attributable to persons named in the Prospectus under the heading “Interests of Experts,”
+included or incorporated or deemed incorporated by reference in the Registration Statement, the Prospectus, or the ATM Disclosure Package, as to which we express no opinion, the Registration Statement, as of the Liability Effective Time, the
+Prospectus, as of its date, and the Form
+F-X,
+as of its date, complied as to form in all material respects with the requirements of the Securities Act and the applicable rules and regulations of the Commission
+thereunder.
+6.
+The statements in the Prospectus and the ATM Disclosure Package under the caption “Certain U.S.
+Federal Income Tax Considerations,” insofar as such summaries constitute summaries of the laws and regulations referred to therein, are accurate in all material respects and fairly summarize the matters referred to therein.
+7.
+The Company is not and, after giving effect to the offering and sale of the Shares and the application of
+the proceeds thereof as described in the Prospectus, will not be required to register as an “investment company,” as such term is defined in the Investment Company Act of 1940.
+C-1
+EXHIBIT D
+MATTERS TO BE COVERED BY
+INITIAL OPINION OF CORPORATION’S KAZAKH COUNSEL
+1.
+Inkai was registered as a limited liability partnership formed under the laws of the Republic of Kazakhstan
+on 21 March 1996, and
+re-registered
+on 7 December 1998 in accordance with Kazakhstan Law, and is qualified to carry on its business in the Republic of Kazakhstan.
+2.
+Cameco Corporation is a participant of Inkai and its participatory interest.
+3.
+Inkai exists under Kazakhstan law, and has not been liquidated, and has not been declared bankrupt.
+D-1
+EXHIBIT E
+MATTERS TO BE COVERED BY
+INITIAL OPINION OF CORPORATION’S SWITZERLAND COUNSEL
+1.1
+Corporate status
+The Companies have been duly incorporated and are validly existing as an
+Aktiengesellschaft
+(corporation) under Swiss law.
+1.2
+Corporate power
+1.2.1
+Cameco Europe has the corporate power to own any assets and to conduct any business within the limits of its
+object clause as set forth in clause 3 of its Articles.
+1.2.2
+Cameco Investments has the corporate power to own any assets and to conduct any business within the limits of
+its object clause as set forth in clause 3 of its Articles.
+1.3
+Shareholdings
+1.3.1
+Based on the Cameco Europe Share Register, the issued and outstanding shares in the capital of Cameco Europe
+and Cameco Investments holds title to such Cameco Europe Shares, free and clear of any pledge (
+Pfandrecht
+), right of usufruct (
+Nutzniessung
+) or attachment (
+Arrest
+).
+1.3.2
+Based on the Cameco Investments Share Register, the issued and outstanding shares in the capital of Cameco
+Europe and Cameco Luxembourg holds title to such Cameco Investments Shares, free and clear of any pledge (
+Pfandrecht
+), right of usufruct (
+Nutzniessung
+) or attachment (
+Arrest
+).
+E-1
+EXHIBIT F
+MATTERS TO BE COVERED BY
+INITIAL OPINION OF CORPORATION’S NEVADA COUNSEL
+1.
+Cameco U.S. Holdings, Inc. is validly existing as a corporation in good standing under the laws of the State of
+Nevada.
+2.
+Cameco U.S. Holdings, Inc. has the requisite corporate authority to own and operate its properties and to
+conduct its business in the manner now conducted.
+3.
+All of the issued and outstanding shares of Cameco U.S. Holdings, Inc. are owned, directly or indirectly, by
+Cameco Corporation.
+F-1
+
+[source] https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex992.htm
+EX-99.2
+3
+d58993dex992.htm
+EX-99.2
+EX-99.2
+Exhibit 99.2
+November 5, 2026
+VIA EDGAR
+Re:
+Cameco Corporation (the “Issuer”)
+Dear Ladies and Gentlemen:
+We
+refer you to the prospectus supplement dated November 5, 2026 (the “
+Prospectus Supplement
+”) to the base shelf prospectus of the Issuer dated November 5, 2026, forming part of the Registration Statement on Form
+F-10
+(File
+No. 333-299849)
+filed by the Issuer with the U.S. Securities and Exchange Commission, qualifying the distribution of common shares to which the Prospectus
+Supplement relates. In the Prospectus Supplement, reference is made to the name of this firm on the cover page and under the heading “Legal Matters” and to the name and opinion of this firm under the heading “Eligibility for
+Investment”. We hereby consent to being named in the Prospectus Supplement and to the use of our opinion therein.
+In giving
+this consent, we do not thereby admit that we come within the category of persons whose consent is required by the Securities Act of 1933, as amended, or the rules and regulations promulgated thereunder.
+Yours truly,
+/s/ McCarthy Tétrault LLP
+McCarthy Tétrault LLP
+
+[source] https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex993.htm
+EX-99.3
+4
+d58993dex993.htm
+EX-99.3
+EX-99.3
+Exhibit 99.3
+November 5, 2026
+VIA EDGAR
+Re: Cameco Corporation (the “Issuer”)
+Dear Ladies and Gentlemen:
+We
+refer to the prospectus supplement dated November 5, 2026 (the “
+Prospectus Supplement
+”) to the short form base shelf prospectus of Cameco Corporation (the
+“
+Issuer
+”), dated November 5, 2026,
+forming part of the Registration Statement on Form
+F-10
+(File
+No. 333-299849)
+filed by the Issuer with the U.S. Securities and Exchange Commission. In the
+Prospectus Supplement, reference is made to the name of this firm under the heading “Legal Matters” and to the name and opinion of this firm under the heading “Eligibility for Investment”. We hereby consent to being named in
+the Prospectus Supplement and to the use of our opinion therein.
+In giving this consent, we do not thereby admit that we come within the
+category of persons whose consent is required by the Securities Act of 1933, as amended, or the rules and regulations promulgated thereunder.
+Yours truly,
+/s/ Borden Ladner Gervais LLP
+Borden Ladner Gervais LLP
+
+[source] https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex994.htm
+EX-99.4
+5
+d58993dex994.htm
+EX-99.4
+EX-99.4
+Exhibit 99.4
+NEWS RELEASE
+All amounts in Canadian dollars
+unless specified otherwise
+Saskatoon
+Saskatchewan
+Canada
+Cameco Reports Document Filing
+November 05, 2026
+Cameco Corporation
+(TSX: CCO; NYSE: CCJ) announced today the renewal of its
+at-the-market
+equity program (the “ATM Program”) allowing Cameco to issue up to US$1 billion (or its Canadian dollar equivalent) of common shares (the
+“Common Shares”) from treasury to the public from time to time, at Cameco’s discretion. Cameco has entered into an equity distribution agreement (the “Distribution Agreement”) dated November 5, 2026 with TD
+Securities Inc., CIBC World Markets Inc. and Scotia Capital Inc., as Canadian agents, and TD Securities (USA) LLC, CIBC World Markets Corp. and Scotia Capital (USA) Inc., as U.S. agents, in respect of the ATM Program. The Distribution Agreement
+replaces Cameco’s prior equity distribution agreement dated November 12, 2024, which has been terminated.
+Subject to the terms of
+the Distribution Agreement, the volume and timing of distributions under the ATM Program, if any, will be determined at Cameco’s sole discretion. As Common Shares sold in the ATM Program will be distributed at the prevailing market price at
+the time of the sale, prices may vary among purchasers during the period of the distribution. Any Common Shares sold in the ATM Program will be sold in transactions that are deemed to be
+“at-the-market
+distributions” as defined in National Instrument
+44-102
+- Shelf Distributions, through the Toronto Stock Exchange, the NYSE or by any other
+method permitted by law, at the prevailing market price at the time of sale. The ATM Program will be effective until December 5, 2029, unless fully utilized or terminated before such date in accordance with the terms of the Distribution
+Agreement.
+Net proceeds of the ATM Program, if any, are expected to fund development opportunities, future acquisitions, repayment of indebtedness,
+and/or other general corporate purposes.
+The ATM Program is established pursuant to a prospectus supplement (the “Canadian ATM
+Supplement”) to a short form base shelf prospectus filed today (the “Base Shelf Prospectus”) with the securities regulatory authorities in each of the provinces and territories of Canada, and a corresponding prospectus supplement
+(the “U.S. ATM Supplement”) to a shelf registration statement on Form
+F-10
+with the United States Securities and Exchange Commission (the “SEC”) under the Multijurisdictional Disclosure
+System (Registration
+No. 333-299849)
+(the “U.S. Registration Statement”).
+The filings of
+the Base Shelf Prospectus and the U.S. Registration Statement allow Cameco to make offerings of Common Shares, preferred shares, warrants, subscription receipts, debt securities and units or any combination thereof, having an aggregate offering
+price of up to US$3 billion (or its equivalent in another currency) during the next 37 months in Canada and the United States. The specific terms of any offering of securities will be set forth in a shelf prospectus supplement, such as the
+Canadian ATM Supplement and the U.S. ATM Supplement.
+Cameco has filed the Base Shelf Prospectus and the Canadian ATM Supplement with the securities
+regulatory authorities in each of the provinces and territories of Canada, and has filed the U.S. Registration Statement and the
+U.S. ATM Supplement with the SEC. Before you invest, you should read these documents and other documents Cameco has filed with the securities regulatory authorities in each of the provinces and
+territories of Canada or the SEC, as applicable, for more complete information about Cameco and the ATM Program. Copies of the Base Shelf Prospectus, the Canadian ATM Supplement and the Distribution Agreement are available free of charge on SEDAR+
+at www.sedarplus.ca, and copies of the U.S. Registration Statement, the U.S. ATM Supplement and the Distribution Agreement are available free of charge on EDGAR on the SEC website at www.sec.gov.
+You may also obtain copies of the Base Shelf Prospectus and the Canadian ATM Supplement in Canada from: TD Securities Inc.,1625 Tech Avenue, Mississauga,
+Ontario, L4W 5P5, Attention: Symcor, NPM, or by telephone at
+289-360-2009
+or by email at sdcconfirms@td.com; CIBC Capital Markets, 161 Bay Street, 5th Floor, Toronto, ON
+M5J 2S8 or by telephone at
+1-416-956-6378
+or by email at Mailbox.CanadianProspectus@cibc.com ; or Scotia Capital Inc., 40
+Temperance Street, 6th Floor, Toronto, Ontario M5H 0B4, Attention: Equity Capital Markets, or by telephone at
+416-863-7704,
+or by email at
+equityprospectus@scotiabank.com. You may also obtain copies of the U.S. Registration Statement and the U.S. ATM Supplement in the United States from: TD Securities (USA) LLC, 1 Vanderbilt Avenue, New York, New York 10017, Attention: Equity Capital
+Markets or by email at TD.ECM_Prospectus@tdsecurities.com; CIBC Capital Markets, 161 Bay Street, 5th Floor, Toronto, ON M5J 2S8 or by telephone at
+1-416-956-6378
+or by email at Mailbox.USProspectus@cibc.com ; or Scotia Capital (USA) Inc., 250 Vesey Street, 24th Floor, New
+York, NY 10281, Attention: US ECM or by telephone at
+212-255-6854
+or by email at us.ecm@scotiabank.com.
+No securities regulatory authority has either approved or disapproved the contents of this press release. This press release does not constitute an offer
+to sell or the solicitation of an offer to buy, nor shall there be any sale of, any securities in any province, territory, state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to the registration or qualification
+under the securities laws of any such province, territory, state or jurisdiction.
+Caution about Forward-Looking Information
+Certain information in this news release, including statements regarding potential sales of Common Shares through the ATM Program and the anticipated use
+of the net proceeds of the ATM Program, constitutes “forward-looking information” within the meaning of applicable securities laws in Canada and the United States, including the U.S. Private Securities Litigation Reform Act of 1995.
+Forward-looking information and statements involve risks, uncertainties and other factors that could cause actual results to differ materially from those expressed or
+implied by them. Sentences and phrases containing words such as “believe”, “estimate”, “anticipate”, “plan”, “will”, “intend”, “predict”, “outlook”,
+“goal”, “target”, “forecast”, “project”, “scheduled”, “proposed”, “expect”, “potential”, “strategy”, and the negative of any of these words,
+or variations of them, or comparable terminology that does not relate strictly to current or historical facts, are all indicative of forward-looking information or statements.
+Forward-looking information is necessarily based on a number of opinions, assumptions and estimates that, while considered reasonable by Cameco as of the date of this
+press release, are subject to known and unknown risks, uncertainties, assumptions and other factors that may cause the actual results, level of activity, performance or achievements to be materially different from those expressed or implied by such
+forward-looking information, including but not limited to the factors described in greater detail in the “Risk Factors” section of Cameco’s current annual information form, the Canadian ATM Supplement, the U.S. ATM Supplement and
+in Cameco’s other materials filed with the Canadian securities regulatory authorities and the SEC from time to time, available at www.sedarplus.ca and www.sec.gov, respectively. These factors are not intended to represent a complete list of
+the factors that could affect Cameco; however, these factors should be considered carefully. There can be no assurance that such estimates and assumptions will prove to be correct. The forward-looking statements contained in this press release are
+made as of the date of this press release, and Cameco expressly disclaims any obligation to update or alter statements containing any forward-looking information, or the factors or assumptions underlying them, whether as a result of new information,
+future events or otherwise, except as required by law.
+Profile
+Cameco is one of the largest global providers of the uranium fuel needed to power a secure energy future. Our competitive position is based on our controlling ownership
+of the world’s largest high-grade reserves and
+low-cost
+operations, as well as significant investments across the nuclear fuel cycle, including ownership interests in Westinghouse Electric Company and
+Global Laser Enrichment. Utilities around the
+- 2 -
+world rely on Cameco to provide global nuclear fuel solutions for the generation of safe, reliable, carbon-free nuclear power. Our shares trade on the Toronto and New York stock exchanges. Our
+head office is in Saskatoon, Saskatchewan, Canada.
+As used in this news release, the terms we, us, our, the Company and Cameco mean Cameco Corporation and its
+subsidiaries unless otherwise indicated.
+- End -
+Investor inquiries
+Media inquiries
+Cory Kos
+Veronica Baker
+306-716-6782
+306-385-5541
+cory_kos@cameco.com
+veronica_baker@cameco.com
+- 3 -

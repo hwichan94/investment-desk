@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-06T15:47:08.200137+09:00",
+  "fetched_at": "2026-11-07T01:47:42.328469+09:00",
   "filings": {
     "AMZN": [
       {
@@ -369,6 +369,14 @@
     ],
     "AXON": [
       {
+        "form": "10-Q",
+        "filed": "2026-11-06",
+        "report_date": "2026-09-30",
+        "cik": "0001069183",
+        "accession": "0001628280-26-071242",
+        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm"
+      },
+      {
         "form": "8-K",
         "filed": "2026-11-05",
         "report_date": "2026-11-05",
@@ -479,17 +487,17 @@
         "cik": "0001069183",
         "accession": "0001628280-26-011106",
         "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011106/axon-20260224.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-02-13",
-        "report_date": "2026-02-10",
-        "cik": "0001069183",
-        "accession": "0001628280-26-008101",
-        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026008101/axon-20260210.htm"
       }
     ],
     "CCJ": [
+      {
+        "form": "6-K",
+        "filed": "2026-11-06",
+        "report_date": "2026-11-06",
+        "cik": "0001009001",
+        "accession": "0001193125-26-451174",
+        "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993d6k.htm"
+      },
       {
         "form": "6-K",
         "filed": "2026-11-05",
@@ -601,14 +609,6 @@
         "cik": "0001009001",
         "accession": "0001193125-26-216519",
         "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526216519/d143481d6k.htm"
-      },
-      {
-        "form": "6-K",
-        "filed": "2026-05-08",
-        "report_date": "2026-05-08",
-        "cik": "0001009001",
-        "accession": "0001193125-26-213812",
-        "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526213812/d152766d6k.htm"
       }
     ],
     "CRWV": [

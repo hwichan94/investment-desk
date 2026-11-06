@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-06T16:07:34.449129+09:00",
+  "generated_at": "2026-11-07T01:47:51.635337+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
     "confirmed_at": "2026-10-29",
     "currency": "USD",
-    "total_portfolio_value": 24309.94,
-    "equity_value": 24108.44,
-    "investable_total": 24309.94,
+    "total_portfolio_value": 25280.661,
+    "equity_value": 25079.161,
+    "investable_total": 25280.661,
     "cash_available_for_investing": 201.5,
     "cash_reserved_for_debt": 0.0,
     "reserved_cash_included_in_total": true,
@@ -18,8 +18,8 @@
         "ticker": "TSLA",
         "shares": 23.0,
         "average_cost": 419.799565,
-        "current_value": 7904.87,
-        "current_weight": 0.32517028,
+        "current_value": 8322.09,
+        "current_weight": 0.32918799,
         "category": "AI / Robotics",
         "themes": [
           "Autonomy",
@@ -31,8 +31,8 @@
         "ticker": "PLTR",
         "shares": 45.0,
         "average_cost": 160.890222,
-        "current_value": 6974.55,
-        "current_weight": 0.28690116,
+        "current_value": 7282.125,
+        "current_weight": 0.28805121,
         "category": "AI Software",
         "themes": [
           "AI Applications",
@@ -44,8 +44,8 @@
         "ticker": "AVGO",
         "shares": 12.0,
         "average_cost": null,
-        "current_value": 3498.36,
-        "current_weight": 0.14390657,
+        "current_value": 3560.04,
+        "current_weight": 0.14082069,
         "category": "Semiconductors / Networking",
         "themes": [
           "AI CAPEX",
@@ -57,8 +57,8 @@
         "ticker": "CCJ",
         "shares": 21.0,
         "average_cost": 96.7914,
-        "current_value": 1434.93,
-        "current_weight": 0.05902647,
+        "current_value": 1484.91,
+        "current_weight": 0.05873699,
         "category": "Nuclear Energy",
         "themes": [
           "Nuclear Renaissance",
@@ -70,8 +70,8 @@
         "ticker": "INTC",
         "shares": 11.0,
         "average_cost": 137.33,
-        "current_value": 574.75,
-        "current_weight": 0.02364259,
+        "current_value": 613.36,
+        "current_weight": 0.02426202,
         "category": "Semiconductors",
         "themes": [
           "AI Compute",
@@ -83,8 +83,8 @@
         "ticker": "VRT",
         "shares": 4.0,
         "average_cost": 290.98,
-        "current_value": 706.92,
-        "current_weight": 0.02907946,
+        "current_value": 731.9,
+        "current_weight": 0.02895098,
         "category": "Data Center Infrastructure",
         "themes": [
           "AI CAPEX",
@@ -97,8 +97,8 @@
         "ticker": "NVDA",
         "shares": 8.0,
         "average_cost": 216.79,
-        "current_value": 1452.8,
-        "current_weight": 0.05976156,
+        "current_value": 1506.52,
+        "current_weight": 0.0595918,
         "category": "Semiconductors / AI Compute",
         "themes": [
           "AI CAPEX",
@@ -110,8 +110,8 @@
         "ticker": "AMZN",
         "shares": 6.0,
         "average_cost": 251.17,
-        "current_value": 1561.26,
-        "current_weight": 0.06422311,
+        "current_value": 1578.216,
+        "current_weight": 0.0624278,
         "category": "Cloud / E-commerce",
         "themes": [
           "AWS",
@@ -128,16 +128,16 @@
     "objective": "maximize expected return within acceptable loss and concentration constraints",
     "cash_target": 0.05,
     "portfolio_score": {
-      "total": 71.8,
+      "total": 71.5,
       "components": {
-        "quality": 68.4,
-        "thesis": 89.4,
-        "concentration": 97.6,
-        "cash": 16.6,
-        "alignment": 57.8
+        "quality": 68.3,
+        "thesis": 89.2,
+        "concentration": 96.6,
+        "cash": 15.9,
+        "alignment": 57.9
       },
       "notes": [
-        "상위 2종목 합 61%"
+        "상위 2종목 합 62%"
       ]
     },
     "target_portfolio_score": {
@@ -156,25 +156,25 @@
     ],
     "target_errors": [],
     "funding": {
-      "cash_target_amount": 1215.5,
+      "cash_target_amount": 1264.03,
       "cash_available_for_buys_after_target": 0.0,
-      "desired_buy_amount": 523.87,
-      "recommended_buy_amount": 523.87,
-      "planned_sell_proceeds": 2659.35,
+      "desired_buy_amount": 1567.99,
+      "recommended_buy_amount": 1567.99,
+      "planned_sell_proceeds": 2821.72,
       "cash_first_allocations": {},
-      "sales_funded_buy_amount": 523.87,
+      "sales_funded_buy_amount": 1567.99,
       "funding_shortfall": 0.0,
       "cash_is_not_an_automatic_buy_signal": true
     },
     "actions": [
       {
         "ticker": "TSLA",
-        "current_weight": 0.32517028,
+        "current_weight": 0.32918799,
         "target_weight": 0.24,
-        "change_weight": -0.08517028,
+        "change_weight": -0.08918799,
         "action": "축소",
         "urgency": "높음",
-        "estimated_amount": -2070.48,
+        "estimated_amount": -2254.73,
         "fundamentals": "STABLE",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -192,14 +192,14 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "TSLA | Relative Momentum NEUTRAL | 50/200MA 하단 | 대량 거래 하락",
+        "technical_signal": "TSLA | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.115333,
-          "relative_strength_qqq_trend": "FLAT",
+          "relative_volume_20": 0.471238,
+          "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
         "winner_protection_override_reason": null,
@@ -210,55 +210,13 @@
         ]
       },
       {
-        "ticker": "PLTR",
-        "current_weight": 0.28690116,
-        "target_weight": 0.33,
-        "change_weight": 0.04309884,
-        "action": "추가매수",
-        "urgency": "중간",
-        "estimated_amount": 523.87,
-        "fundamentals": "STRENGTHENING",
-        "estimate_revisions": "UNKNOWN",
-        "expectations_gap": "UNKNOWN",
-        "relative_momentum": "NEUTRAL",
-        "position_and_correlation_risk": {
-          "risk_control": 55.0,
-          "portfolio_fit": 85.0
-        },
-        "regime_alignment": "NEGATIVE",
-        "asymmetry": "UNKNOWN",
-        "core_floor_weight": 0.3,
-        "tactical_weight": 0.03,
-        "trim_source": null,
-        "winner_protection_active": false,
-        "winner_protection_blocked": false,
-        "winner_protection_source": null,
-        "asymmetric_starter": false,
-        "technical_signal": "PLTR | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락 | 대량 거래 하락",
-        "timing_note": "RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소",
-        "key_technicals": {
-          "as_of": "2026-11-05",
-          "above_sma_50": false,
-          "above_sma_200": true,
-          "relative_volume_20": 1.859762,
-          "relative_strength_qqq_trend": "FALLING",
-          "relative_momentum": "NEUTRAL"
-        },
-        "winner_protection_override_reason": null,
-        "invalidation_signals": [
-          "미국 상업과 정부 성장률의 동시 급락",
-          "잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리",
-          "GAAP 마진과 현금흐름의 동반 악화"
-        ]
-      },
-      {
         "ticker": "CASH",
-        "current_weight": 0.00828879,
+        "current_weight": 0.00797052,
         "target_weight": 0.05,
-        "change_weight": 0.04171121,
+        "change_weight": 0.04202948,
         "action": "현금 조정",
         "urgency": "중간",
-        "estimated_amount": 1014.0,
+        "estimated_amount": 1062.53,
         "fundamentals": "NOT_APPLICABLE",
         "estimate_revisions": "NOT_APPLICABLE",
         "expectations_gap": "NOT_APPLICABLE",
@@ -280,13 +238,55 @@
         "invalidation_signals": []
       },
       {
+        "ticker": "PLTR",
+        "current_weight": 0.28805121,
+        "target_weight": 0.33,
+        "change_weight": 0.04194879,
+        "action": "추가매수",
+        "urgency": "중간",
+        "estimated_amount": 530.25,
+        "fundamentals": "STRENGTHENING",
+        "estimate_revisions": "UNKNOWN",
+        "expectations_gap": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
+        "position_and_correlation_risk": {
+          "risk_control": 55.0,
+          "portfolio_fit": 85.0
+        },
+        "regime_alignment": "NEGATIVE",
+        "asymmetry": "UNKNOWN",
+        "core_floor_weight": 0.3,
+        "tactical_weight": 0.03,
+        "trim_source": null,
+        "winner_protection_active": false,
+        "winner_protection_blocked": false,
+        "winner_protection_source": null,
+        "asymmetric_starter": false,
+        "technical_signal": "PLTR | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락",
+        "timing_note": "RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소",
+        "key_technicals": {
+          "as_of": "2026-11-06",
+          "above_sma_50": false,
+          "above_sma_200": true,
+          "relative_volume_20": 0.43554,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "NEUTRAL"
+        },
+        "winner_protection_override_reason": null,
+        "invalidation_signals": [
+          "미국 상업과 정부 성장률의 동시 급락",
+          "잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리",
+          "GAAP 마진과 현금흐름의 동반 악화"
+        ]
+      },
+      {
         "ticker": "VRT",
-        "current_weight": 0.02907946,
+        "current_weight": 0.02895098,
         "target_weight": 0.07,
-        "change_weight": 0.04092054,
-        "action": "유지",
-        "urgency": "낮음",
-        "estimated_amount": 0.0,
+        "change_weight": 0.04104902,
+        "action": "추가매수",
+        "urgency": "중간",
+        "estimated_amount": 1037.75,
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -304,13 +304,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "VRT | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
-        "timing_note": "Relative Momentum WEAK + 대량 거래 하락: Tactical/신규 매수 보류",
+        "technical_signal": "VRT | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": "Relative Momentum WEAK: 추격매수 금지, 분할·반전 확인",
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.51292,
+          "relative_volume_20": 0.479364,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -323,12 +323,12 @@
       },
       {
         "ticker": "AMZN",
-        "current_weight": 0.06422311,
+        "current_weight": 0.0624278,
         "target_weight": 0.04,
-        "change_weight": -0.02422311,
+        "change_weight": -0.0224278,
         "action": "소폭 조정 검토",
         "urgency": "낮음",
-        "estimated_amount": -588.86,
+        "estimated_amount": -566.99,
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -346,13 +346,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "AMZN | Relative Momentum NEUTRAL | 50/200MA 상단 | QQQ 대비 상대강도 상승 | 대량 거래 하락",
+        "technical_signal": "AMZN | Relative Momentum NEUTRAL | 50/200MA 상단 | QQQ 대비 상대강도 상승",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": true,
           "above_sma_200": true,
-          "relative_volume_20": 1.86917,
+          "relative_volume_20": 0.330683,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
@@ -365,9 +365,9 @@
       },
       {
         "ticker": "NVDA",
-        "current_weight": 0.05976156,
+        "current_weight": 0.0595918,
         "target_weight": 0.05,
-        "change_weight": -0.00976156,
+        "change_weight": -0.0095918,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -388,13 +388,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "NVDA | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "NVDA | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.927685,
+          "relative_volume_20": 0.797634,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -406,52 +406,10 @@
         ]
       },
       {
-        "ticker": "AVGO",
-        "current_weight": 0.14390657,
-        "target_weight": 0.14,
-        "change_weight": -0.00390657,
-        "action": "유지",
-        "urgency": "없음",
-        "estimated_amount": 0.0,
-        "fundamentals": "STRENGTHENING",
-        "estimate_revisions": "UNKNOWN",
-        "expectations_gap": "UNKNOWN",
-        "relative_momentum": "WEAK",
-        "position_and_correlation_risk": {
-          "risk_control": 70.0,
-          "portfolio_fit": 90.0
-        },
-        "regime_alignment": "NEGATIVE",
-        "asymmetry": "UNKNOWN",
-        "core_floor_weight": null,
-        "tactical_weight": null,
-        "trim_source": "UNSPECIFIED",
-        "winner_protection_active": false,
-        "winner_protection_blocked": false,
-        "winner_protection_source": null,
-        "asymmetric_starter": false,
-        "technical_signal": "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
-        "timing_note": null,
-        "key_technicals": {
-          "as_of": "2026-11-05",
-          "above_sma_50": false,
-          "above_sma_200": false,
-          "relative_volume_20": 2.460796,
-          "relative_strength_qqq_trend": "FALLING",
-          "relative_momentum": "WEAK"
-        },
-        "winner_protection_override_reason": null,
-        "invalidation_signals": [
-          "AI 매출 성장의 급격한 둔화",
-          "주요 고객 이탈 또는 자체칩 전환 가속",
-          "마진과 현금흐름의 동반 하락"
-        ]
-      },
-      {
         "ticker": "INTC",
-        "current_weight": 0.02364259,
+        "current_weight": 0.02426202,
         "target_weight": 0.02,
-        "change_weight": -0.00364259,
+        "change_weight": -0.00426202,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -472,13 +430,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "INTC | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "INTC | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.033172,
+          "relative_volume_20": 0.547811,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -491,9 +449,9 @@
       },
       {
         "ticker": "CCJ",
-        "current_weight": 0.05902647,
+        "current_weight": 0.05873699,
         "target_weight": 0.06,
-        "change_weight": 0.00097353,
+        "change_weight": 0.00126301,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -514,13 +472,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.459219,
+          "relative_volume_20": 0.591317,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -529,6 +487,48 @@
           "생산 가이던스의 반복 하향",
           "장기 계약 가격의 구조적 악화",
           "Westinghouse 손실의 지속"
+        ]
+      },
+      {
+        "ticker": "AVGO",
+        "current_weight": 0.14082069,
+        "target_weight": 0.14,
+        "change_weight": -0.00082069,
+        "action": "유지",
+        "urgency": "없음",
+        "estimated_amount": 0.0,
+        "fundamentals": "STRENGTHENING",
+        "estimate_revisions": "UNKNOWN",
+        "expectations_gap": "UNKNOWN",
+        "relative_momentum": "WEAK",
+        "position_and_correlation_risk": {
+          "risk_control": 70.0,
+          "portfolio_fit": 90.0
+        },
+        "regime_alignment": "NEGATIVE",
+        "asymmetry": "UNKNOWN",
+        "core_floor_weight": null,
+        "tactical_weight": null,
+        "trim_source": "UNSPECIFIED",
+        "winner_protection_active": false,
+        "winner_protection_blocked": false,
+        "winner_protection_source": null,
+        "asymmetric_starter": false,
+        "technical_signal": "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-11-06",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 0.525506,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
+        },
+        "winner_protection_override_reason": null,
+        "invalidation_signals": [
+          "AI 매출 성장의 급격한 둔화",
+          "주요 고객 이탈 또는 자체칩 전환 가속",
+          "마진과 현금흐름의 동반 하락"
         ]
       },
       {
@@ -542,7 +542,7 @@
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
-        "relative_momentum": "NEUTRAL",
+        "relative_momentum": "WEAK",
         "position_and_correlation_risk": {
           "risk_control": 60.0,
           "portfolio_fit": 80.0
@@ -556,15 +556,15 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "AXON | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승 | 대량 거래 하락",
+        "technical_signal": "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 3.871576,
-          "relative_strength_qqq_trend": "RISING",
-          "relative_momentum": "NEUTRAL"
+          "relative_volume_20": 2.48061,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "WEAK"
         },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
@@ -598,13 +598,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "CRWV | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "CRWV | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.312939,
+          "relative_volume_20": 0.438863,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -640,13 +640,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "ETN | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "ETN | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.256414,
+          "relative_volume_20": 0.491648,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -682,13 +682,13 @@
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "ORCL | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "ORCL | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
         "timing_note": null,
         "key_technicals": {
-          "as_of": "2026-11-05",
+          "as_of": "2026-11-06",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.355898,
+          "relative_volume_20": 0.327344,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -730,11 +730,11 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-06T15:47:08.200137+09:00",
+    "generated_at": "2026-11-07T01:47:42.328469+09:00",
     "key_signals": [
-      "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
-      "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
-      "CRWV | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락"
+      "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
+      "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+      "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락"
     ],
     "regime": {
       "state": "RISK_OFF",
@@ -748,6 +748,228 @@
     }
   },
   "recent_analyses": [
+    {
+      "post_id": "229085",
+      "analyzed_at": "2026-11-06T16:30:00+09:00",
+      "title": "현재 시장 폭락에 관하여 (feat. 아이온큐 3분기 실적)",
+      "author": "T3chfeed_테크피드",
+      "summary": "나스닥 -5% 패닉장을 레버리지 펀드 청산과 민주당 AI 데이터센터 규제 우려가 겹친 결과로 해석한다. 텍사스 당선인 발언은 전면 중단이 아닌 주민 보호 조건부라 CapEx는 속도 조절일 뿐 방향은 유지된다고 본다. 구글의 와이오밍 $17B 투자(전력·인프라 비용 자체 부담)를 근거로 빅테크가 수혜라 주장하며, 작성자는 코닝·플래닛랩스·블룸에너지를 단기 트레이딩으로 분할 신규 진입했다고 밝힌다. IonQ 3Q는 긍정적이고 첫 조정 EBITDA 개선을 기대한다고 하나 수치는 없다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "나스닥이 하루 약 5% 하락한 패닉장이었다",
+          "tickers": [
+            "QQQ"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "data/market/regime.json: QQQ 20일 수익률 -13.4%, VIX 28.18로 급등(20일 SMA 18.3). 단일 일 -5%는 직접 확인 못함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "구글이 와이오밍에 $170억 데이터센터 투자를 발표했고 전력·인프라 비용을 직접 부담한다",
+          "tickers": [
+            "GOOG"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "GOOG 8-K(11-05)가 sec.gov 접근 제한으로 원문 확인 불가. 시도했으나 검증 못함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "IonQ 3Q26 실적이 긍정적이며 사상 첫 조정 EBITDA 개선이 기대된다",
+          "tickers": [
+            "IONQ"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "웹검색으로 3Q26 수치를 찾지 못함(2Q26 조정 EBITDA 약 -$120M까지만 확인). 방향성 주장만 있고 수치 없음.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "데이터센터 규제는 속도 지연이지 AI CapEx 중단이 아니며, 부채 없이 FCF가 큰 빅테크가 유리하다",
+          "tickers": [
+            "GOOG",
+            "AMZN",
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "4분기 빅테크 실적에서 데이터센터 빌드 속도·방향이 확정될 것",
+          "tickers": [
+            "GOOG",
+            "AMZN"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "채점 대기",
+          "due": "2027-02-28"
+        },
+        {
+          "kind": "OPINION",
+          "text": "현재 하락은 중간선거 직후 불확실성의 정점으로 이후 회복할 것",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "CapEx 속도 조절 논리일 뿐 공식 근거 변화 없음."
+        },
+        {
+          "ticker": "AMZN",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "빅테크 수혜 주장은 의견이며 직접 근거 없음."
+        }
+      ],
+      "new_candidates": [
+        "GLW",
+        "PL",
+        "BE",
+        "IONQ"
+      ],
+      "portfolio_implication": "변경 없음. 작성자의 단기 트레이딩 진입은 개인 의견 한 건이며, 보유 종목이 아닌 GLW·PL·BE는 공식 근거가 없어 편입하지 않는다. 투자 가능 현금 0.8%로 신규 자금 여력도 없다. RISK_OFF는 신규 Starter·Tactical 크기를 줄이는 신호로만 쓴다."
+    },
+    {
+      "post_id": "229111",
+      "analyzed_at": "2026-11-06T16:30:00+09:00",
+      "title": "🎓11월 1주차 투자학개론 라이브 (26.11.05)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "투자전공반 라이브(11/5) 녹화본 제공 및 요약본 예고 안내. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 라이브 안내 글이라 투자 내용이 없다."
+    },
+    {
+      "post_id": "229095",
+      "analyzed_at": "2026-11-06T16:30:00+09:00",
+      "title": "관세전쟁 이래 최악의 폭락과 1년만의 어닝 서프라이즈 (ft. 아이렌 실적발표)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "전일 VIX가 하루 약 70% 급등하는 폭락과 다수 헤지펀드 청산설이 이어졌다. 그 와중에 IREN 3분기 실적은 매출 $228M(예상 $221M 상회), 클라우드 $200M(+182%), 수주잔고 $20.3B로 확신이 커졌다고 평가한다. 연말 $4B ARR 목표는 마이크로소프트 설계 변경으로 약 1개월 지연되나 고객 귀책이며, 추가 조달 목표는 $8B에서 $6B로 축소됐다. 헤지펀드 청산 소문은 미확인이며 타이밍만 아쉽다는 결론이다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "IREN 총매출 $228M(전분기 +66%), 클라우드 $200M(+182%), 비트코인 $28M",
+          "tickers": [
+            "IREN"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+          "evidence_note": "Q1 FY27 8-K 보도자료(2026-11-05) 검색 결과로 확인. 시장 예상 약 $219~221M 상회.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "IREN 수주잔고가 $16.6B에서 $20.3B(+22%)로 증가, 약 2/3가 투자적격 고객",
+          "tickers": [
+            "IREN"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+          "evidence_note": "백로그 $20.3B, +22%, 투자적격 2/3 확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "IREN $4B ARR 목표 계약·자금조달 완료, 프론티어 AI 랩 계약 확장",
+          "tickers": [
+            "IREN"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+          "evidence_note": "$4B+ ARR 완전 계약·조달, 분기 후 계약 확장 확인. 목표 시점 1개월 지연은 회사 설명 확인 못함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "IREN은 순손실 $263M, 조정 EBITDA $66M이다(글에는 없는 보완 사실)",
+          "tickers": [
+            "IREN"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000065/irenreportsq1-fy27result.htm",
+          "evidence_note": "GAAP 적자 지속. 글은 이 점을 언급하지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "Walleye·Lone Pine 등 다수 헤지펀드가 청산·마진콜을 당했다",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료 없음. 소문 수준이라 판단 근거로 쓰지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "VIX가 하루 70% 급등해 역사상 3번째 상승폭이다",
+          "tickers": [
+            "VIX"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "regime.json VIX 28.18, 20일 수익률 +82.9%로 급등 방향은 일치. 순위는 확인 못함.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "시장 분위기가 더 나빠지기보다 나아질 확률이 크다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "IREN $4B ARR 달성이 2027년 1~2월로 이월된다",
+          "tickers": [
+            "IREN"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "회사 가이던스 추적 필요",
+          "due": "2027-03-31"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "GPU 재계약 단가 2배 사례는 GPU 수요 근거이나 IREN 경영진 발언 인용이라 LOW."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "네오클라우드 단가 상승 확인은 업황 긍정, 그러나 CRWV 자체 재무(희석·부채)는 별개."
+        }
+      ],
+      "new_candidates": [
+        "IREN"
+      ],
+      "portfolio_implication": "변경 없음. IREN은 실적이 강하지만 순손실·자금조달 의존이 큰 네오클라우드로 CRWV와 같은 AI CAPEX 집중을 더한다. 현금 0.8%, 상위 2종목 61% 상황에서 편입 재원이 없다. 관찰 후보로만 기록한다."
+    },
     {
       "post_id": "228889",
       "analyzed_at": "2026-11-06T02:30:00+09:00",
@@ -1157,202 +1379,14 @@
         "ALGM"
       ],
       "portfolio_implication": "변경 없음. ALGM은 universe 밖 종목이며 AI CAPEX 노출이 기존 보유(AVGO·VRT·ETN 등)와 겹친다. 데이터센터 매출 지연 신호와 PER 약 200배는 편입 근거가 약하다. 아이디어 요청이 오면 그때 신규 후보로 평가."
-    },
-    {
-      "post_id": "228339",
-      "analyzed_at": "2026-11-03T17:00:00+09:00",
-      "title": "팔란티어 3분기 실적",
-      "author": "T3chfeed_테크피드",
-      "summary": "PLTR 3분기 실적 해설. 매출 +96%, Rule of 40 158을 인정하면서도 미국 비중이 74.8%→83.7%로 커진 점(해외 성장 미검증)과 신규 계약가치 +6%에 그친 점을 핵심 관전 포인트로 꼽는다. 후자는 기존 고객 내 확장으로 긍정 해석하고, 미국 상업 침투율은 5% 미만(고객 686곳/잠재 3만 곳)으로 본다. 10-Q 확인 전이라는 단서를 달고 PER 하락을 근거로 실적이 주가를 따라갈 것으로 본다.",
-      "relevance": "HIGH",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "매출 전년 대비 +96%, Rule of 40 158.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
-          "evidence_note": "8-K EX-99.1: 매출 $2.313B(+96%), Rule of 40 158%.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "미국 매출 비중이 전년 74.8%에서 83.7%로 확대.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
-          "evidence_note": "3분기 미국 매출 $1.937B/총 $2.313B=83.7%, 미국 +119% 성장 역산 시 전년 비중 약 75%로 방향·수준 일치. 전년 수치 원문 직접 대조는 안 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "신규 계약가치(TCV) 전년 대비 +6% 성장.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
-          "evidence_note": "TCV $2.918B, 전년 대비 +6%. 미국 상업 TCV는 +11%.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "미국 상업 고객 수 686곳.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
-          "evidence_note": "10-Q(2026-11-03) 확인: 전체 고객 1,090곳(전년 911곳, TTM 매출 인식 기준). 미국 상업 고객 686곳은 10-Q에 별도 표기 없어 여전히 미확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "TCV 저성장은 기존 고객 내 확장 전략의 결과로 긍정 해석 가능하다.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "미국 상업 시장 침투율은 5% 미만으로 성장 여력이 크다.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "해외 확산 기대가 붙어야 주가 상승이 가능하며 PER 하락 시 주가가 실적을 따라간다.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-03-31"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "공식 실적·가이던스 상향은 기존 thesis를 확인하는 수준. 글이 지적한 TCV +6%와 미국 편중은 매출 전환 리스크 모니터링 항목(기존 무효화 신호와 일치)."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. PLTR 목표 33%(Core 30+Tactical 3%) 유지. 다음 분기 TCV/RDV 전환율과 해외 매출 성장을 KPI로 확인."
-    },
-    {
-      "post_id": "228422",
-      "analyzed_at": "2026-11-03T17:00:00+09:00",
-      "title": "어닝 서프라이즈! 팔란티어와 애플도 피해가지 못한 중간선거 조정",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "중간선거 D-1 약세장에서 PLTR(-5%)과 애플이 실적 호조에도 하락했다는 시황 글. PLTR은 매출 +96%, 상업 매출이 처음 정부를 넘어선 점, 가이던스 상향을 강조하고, 애플은 메모리 원가 상승으로 다음 분기 마진이 하락할 전망이라 본다. 미국-이란 협상 교착과 홍콩 금융서밋 월가 CEO 발언(AI 조정은 건전, 옥석 가리기)을 정리한다. 저자는 PLTR 보유 물량이 거의 없다고 밝힌다.",
-      "relevance": "HIGH",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "PLTR 3Q 매출 $2.31B(예상 $2.18B), 주당순이익 $0.44(예상 $0.41).",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
-          "evidence_note": "매출 $2.313B, GAAP/조정 EPS $0.44 확인. 컨센서스는 보도자료에 없어 UNVERIFIED.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "상업 매출 $984M(+148%)이 처음 정부 매출 $953M을 넘어섬.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
-          "evidence_note": "원문은 U.S. commercial/government 기준이며 글의 '상업'은 미국 상업임.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "PLTR이 연간 가이던스를 상향했다.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
-          "evidence_note": "FY26 매출 $8.530~8.534B, 조정 영업이익, 조정 FCF, 미국 상업 가이던스 상향.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "PLTR 주가 실적 발표 후 약 -5% 하락.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "가격 반응은 공식 자료 아님. data/market/quotes.json 확인 필요.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "애플 매출 +12%, 아이폰 +17%, 마진율 47.9%→다음 분기 45~46% 전망.",
-          "tickers": [
-            "AAPL"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "AAPL은 추적 대상이 아니라 원문 미확보.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "중간선거 이후에야 이란 협상과 시장 불확실성이 정리될 것이다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "메모리 공급 부족이 지속돼 빅테크가 애플보다 우위다.",
-          "tickers": [
-            "MU",
-            "AAPL"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "실적·가이던스 상향은 공식 자료로 확인됨. 주가 하락은 매크로/선거 이벤트 해석으로 thesis 훼손 근거가 아님."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 단기 가격 하락은 단독 매도·추가매수 사유가 아니며 PLTR Core 보유 유지. 선거 전후 변동성은 신규 Tactical 크기 조절 요인."
     }
   ],
   "new_candidates": [
+    "GLW",
+    "PL",
+    "BE",
+    "IONQ",
+    "IREN",
     "JOBY: 필자 보유 eVTOL. 인증 지연·증자 위험·사업 가시성 낮음으로 현 보유 AI CAPEX 종목 대비 우위 입증 없음, 관찰도 불필요",
     "TE: 필자의 민주당 스윕 헷지용 태양광 정찰 매수(10만 주). 보조금 의존·셀 공장 지연·희석 위험으로 편입 근거 부족",
     "ALGM"

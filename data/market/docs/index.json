@@ -184,6 +184,17 @@
   "AXON": [
     {
       "form": "10-Q",
+      "filed": "2026-11-06",
+      "report_date": "2026-09-30",
+      "accession": "0001628280-26-071242",
+      "path": "data/market/docs/AXON/2026-11-06-10-Q-0001628280-26-071242.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm"
+      ],
+      "chars": 144162
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-08-06",
       "report_date": "2026-06-30",
       "accession": "0001628280-26-053646",
@@ -192,17 +203,6 @@
         "https://www.sec.gov/Archives/edgar/data/1069183/000162828026053646/axon-20260630.htm"
       ],
       "chars": 117860
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-05-07",
-      "report_date": "2026-03-31",
-      "accession": "0001628280-26-031542",
-      "path": "data/market/docs/AXON/2026-05-07-10-Q-0001628280-26-031542.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1069183/000162828026031542/axon-20260331.htm"
-      ],
-      "chars": 99077
     },
     {
       "form": "8-K",
@@ -252,6 +252,20 @@
   "CCJ": [
     {
       "form": "6-K",
+      "filed": "2026-11-06",
+      "report_date": "2026-11-06",
+      "accession": "0001193125-26-451174",
+      "path": "data/market/docs/CCJ/2026-11-06-6-K-0001193125-26-451174.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex992.htm",
+        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex993.htm",
+        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993dex994.htm"
+      ],
+      "chars": 171144
+    },
+    {
+      "form": "6-K",
       "filed": "2026-11-05",
       "report_date": "2026-11-05",
       "accession": "0001193125-26-449424",
@@ -286,17 +300,6 @@
         "https://www.sec.gov/Archives/edgar/data/1009001/000119312526439858/d106072dex995.htm"
       ],
       "chars": 295978
-    },
-    {
-      "form": "6-K",
-      "filed": "2026-10-01",
-      "report_date": "2026-10-01",
-      "accession": "0001193125-26-410308",
-      "path": "data/market/docs/CCJ/2026-10-01-6-K-0001193125-26-410308.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1009001/000119312526410308/d59652dex991.htm"
-      ],
-      "chars": 9813
     }
   ],
   "CRWV": [

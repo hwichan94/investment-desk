@@ -361,5 +361,30 @@
         }
       ]
     }
+  },
+  {
+    "detected_at": "2026-11-07T01:47:42.328469+09:00",
+    "filings": {
+      "AXON": [
+        {
+          "form": "10-Q",
+          "filed": "2026-11-06",
+          "report_date": "2026-09-30",
+          "cik": "0001069183",
+          "accession": "0001628280-26-071242",
+          "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026071242/axon-20260930.htm"
+        }
+      ],
+      "CCJ": [
+        {
+          "form": "6-K",
+          "filed": "2026-11-06",
+          "report_date": "2026-11-06",
+          "cik": "0001009001",
+          "accession": "0001193125-26-451174",
+          "url": "https://www.sec.gov/Archives/edgar/data/1009001/000119312526451174/d58993d6k.htm"
+        }
+      ]
+    }
   }
 ]

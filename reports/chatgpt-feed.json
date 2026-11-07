@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-07T16:07:23.379184+09:00",
+  "generated_at": "2026-11-07T22:01:57.995851+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-07T14:59:29.470723+09:00",
+    "generated_at": "2026-11-07T22:01:48.283898+09:00",
     "key_signals": [
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -1397,112 +1397,6 @@
         "TE: 필자의 민주당 스윕 헷지용 태양광 정찰 매수(10만 주). 보조금 의존·셀 공장 지연·희석 위험으로 편입 근거 부족"
       ],
       "portfolio_implication": "변경 없음. 정책 수혜 헷지 성격의 소형 아이디어이고 TE는 수익성·지연·희석 위험이 커 AI CAPEX 보유 대비 우위가 입증되지 않았다. 선거 결과는 공식 확인 전이므로 비중에 반영하지 않는다."
-    },
-    {
-      "post_id": "228539",
-      "analyzed_at": "2026-11-04T16:20:00+09:00",
-      "title": "중간선거 개표가 시작됩니다. | 11-04 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "중간선거 개표 시작과 중동 협상 국면의 시황 정리. 민주당 하원 탈환 가능성이 우세하나 거부권 때문에 실질 변화는 제한적이며 과거 중간선거 이후 시장은 상승했다고 본다. 브렌트유는 $110에서 $100 부근으로 하락했고, JOLTS 구인건수는 752만 건으로 금리 부담을 키웠다. AMD는 매출·EPS 비트와 4분기 가속 가이던스, TSLA는 유럽 FSD 규제 완화, PLTR은 피터 틸 측 400만 주 매수 계획 공시를 다룬다. 필자는 공포 지수 극단에서 S&P 500을 추가 매수했다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "AMD 3분기 매출 $13.38B(예상 $13.08B), 조정 EPS $2.09(예상 $1.97) 비트.",
-          "tickers": [
-            "AMD"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
-          "evidence_note": "8-K EX-99.1: 매출 $13.4B(+45% YoY), non-GAAP EPS $2.09 확인. 컨센서스 대비 비트율은 비공식 수치.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "AMD가 4분기 매출 성장률 66%를 가이던스로 제시, Helios·Venice 생산 확대로 가속.",
-          "tickers": [
-            "AMD"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/amdq32026earningsslidesf.htm",
-          "evidence_note": "8-K EX-99.1/검색: Q4 가속 코멘트(Helios·Venice 생산 확대)는 확인되나 공식 Q4 매출 가이던스 수치나 66% 성장률은 찾지 못함(컨센서스 약 $16.1B는 비공식). 수치는 미확인으로 유지.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "PLTR 10-Q: 피터 틸 측 PLTR Holdings II가 2026-08-19 계획을 세웠고 최대 400만 주 매수 가능, 종료는 2027-12-16.",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
-          "evidence_note": "10-Q 검색 요약상 계획 수립일 2026-08-19, 최대 400만 주 매수는 일치. 종료 시점은 2027-06-30으로 보여 글(2027-12-16)과 다름. 요약 열람이라 원문 재확인 필요. data/market/docs 사본은 40만 자에서 잘려 해당 항목이 없음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "네덜란드 RDW가 TSLA FSD 변경(Tesla Assisted Driving 명칭, 속도 초과 설정 축소)을 승인, EU 승인에는 국가 55%·인구 65% 필요.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "규제 기관 원문을 찾지 않았음. 회사 공시 대상이 아니며 이번 실행에서 미검증.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "JOLTS 구인건수 752.3만 건(8월 719만 건).",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": "https://www.bls.gov/news.release/jolts.nr0.htm",
-          "evidence_note": "BLS 9월 JOLTS(11/3 발표 예정) 원문 수치를 검색으로 찾지 못함. 8월은 BLS 기준 약 710만 건으로 글의 719만 건과 차이(개정 가능). 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "브렌트유가 $110에서 $100 부근으로 약 10% 하락.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 가격 자료 미확인. 가격은 Actions 수집 범위 밖.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "중간선거 후 이란 협상 여지가 커질 수 있고, 과거 중간선거 이후 시장은 상승 마감했다.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "채점 시점: 2026-12-31 (선거 후 시장 반응).",
-          "due": "2026-12-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "극단적 공포 구간은 S&P 500 추가 매수 기회, 선거 불확실성은 크지만 실질 변화는 제한적.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "내부자(이사회 의장 연계) 매수 계획은 약한 긍정 신호이나, 기간·규모가 불확실하고 계획 수립 시점이 이미 3개월 전이라 thesis 변화로 보지 않는다."
-        },
-        {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "유럽 FSD 규제 완화는 진행 중이고 독일 승인 대기. 미검증 단일 정보라 반영하지 않는다."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 시황·선거 불확실성은 현금 5% 이상 유지와 기존 목표 비중 내에서 처리한다. AMD는 universe 밖 종목이며 AI CAPEX 노출이 기존 보유와 겹치므로 신규 편입 근거로 쓰지 않는다. 단일 글만으로 비중을 바꾸지 않는다."
     }
   ],
   "new_candidates": [

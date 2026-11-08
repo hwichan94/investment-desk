@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T19:24:49.088414+09:00",
+  "generated_at": "2026-11-09T02:57:39.478073+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-08T19:24:41.728430+09:00",
+    "generated_at": "2026-11-09T02:57:32.619185+09:00",
     "key_signals": [
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -1207,18 +1207,6 @@
         "IREN"
       ],
       "portfolio_implication": "변경 없음. IREN은 실적이 강하지만 순손실·자금조달 의존이 큰 네오클라우드로 CRWV와 같은 AI CAPEX 집중을 더한다. 현금 0.8%, 상위 2종목 61% 상황에서 편입 재원이 없다. 관찰 후보로만 기록한다."
-    },
-    {
-      "post_id": "228889",
-      "analyzed_at": "2026-11-06T02:30:00+09:00",
-      "title": "📌라이브 공지 : 11월 1주차 <투자학개론> 라이브!",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "11월 5일(목) 오후 8시 투자전공반 라이브 안내 공지. 주제는 '주요 시장 이벤트와 시사점 정리(포트폴리오 관리)'이며 투자 판단에 쓸 구체적 주장은 없다.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 라이브 안내 공지로 투자 내용이 없다."
     }
   ],
   "new_candidates": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T09:38:02.197068+09:00",
+  "generated_at": "2026-11-08T19:24:49.088414+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-08T09:37:49.982923+09:00",
+    "generated_at": "2026-11-08T19:24:41.728430+09:00",
     "key_signals": [
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -1219,98 +1219,6 @@
       "thesis_impacts": [],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 라이브 안내 공지로 투자 내용이 없다."
-    },
-    {
-      "post_id": "228803",
-      "analyzed_at": "2026-11-05T18:00:00+09:00",
-      "title": "조비 '26 3분기 실적 | 수요는 확인됐다.",
-      "author": "T3chfeed_테크피드",
-      "summary": "조비 3분기 실적 해설. 블레이드 중심 매출이 컨센서스를 상회하고 연간 가이던스를 상향했으며 eIPP 시범비행(텍사스·플로리다)을 이행했다고 평가한다. 반면 FAA TIA 시험이 2027년 상반기로 밀리고 두바이 승객 운항도 지연돼 인증 일정은 명백히 부정적이라고 본다. 분기 현금소진 1.95억달러, 보유현금 약 22억달러로 인증까지는 버틸 수 있으나 Resonant Sciences 인수(-4.5억달러)와 증자 가능성(최대 6.2억달러 등록)으로 추가 희석을 예상한다. 필자는 하이리스크 하이리턴으로 보고 투자를 지속한다.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "3분기 매출 서프라이즈, 연간 가이던스 상향(2026 매출 약 1.4억달러).",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819848/000181984826000531/joby-8kx20261104xexx99_1.htm",
-          "evidence_note": "8-K 보도자료·검색 결과: 3분기 매출 $55.1M(전년比 +$32.5M, 블레이드 주도), 연간 가이던스 $135~140M(기존 $115~125M). 필자 '$140M'은 상단 값이며 컨센서스 상회 여부는 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "3분기 보유현금 약 $2.198B, 분기 현금소진 $195M(전분기 $202M).",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819848/000181984826000531/joby-8kx20261104xexx99_1.htm",
-          "evidence_note": "보도자료: 현금·투자 약 $2.2B, 3분기 현금사용 $195M, 2H 가이던스 $385~415M 부합. 소수점 단위 $2.198B는 원문 표 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "블레이드 44,000명 이상 승객 운송 역대 최대, 매출총이익률 29.2%, 전분기 대비 +42.5%.",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819848/000181984826000531/joby-8kx20261104xexx99_1.htm",
-          "evidence_note": "44,000+ 승객·블레이드 기록 분기는 확인. 총이익률 29.2%와 +42.5%는 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "Resonant Sciences 인수(-$450M, 2027 상반기), 토요타 추가 투자 +$250M(조건부), 증자 최대 $620M 등록.",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "Resonant Sciences 인수 계획과 EBITDA 흑자·TTM 매출 $100M+ 확인. 인수가·토요타·증자 한도 수치는 이번에 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "TIA 시험 시작이 2027년 상반기로 지연, 두바이 승객 운항 시점 후퇴.",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "보도자료 일정 문구와 FAA 인용 발언 원문은 확인하지 못함.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "FAA 인증 완료는 2027년 5월~2028년 5월, 높은 확률로 증자 한 번 더.",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2028-06-30"
-        },
-        {
-          "kind": "OPINION",
-          "text": "FAA 인증 지연으로 이번 분기는 부정적 요인이 더 크며 하이리스크 하이리턴 종목.",
-          "tickers": [
-            "JOBY"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [
-        "JOBY: 필자 보유 eVTOL. 인증 지연·증자 위험·사업 가시성 낮음으로 현 보유 AI CAPEX 종목 대비 우위 입증 없음, 관찰도 불필요"
-      ],
-      "portfolio_implication": "변경 없음. 보유·후보 종목이 아닌 고위험 비핵심 종목이며 인증 일정이 부정적이어서 편입 근거가 없다."
     }
   ],
   "new_candidates": [
@@ -1318,8 +1226,7 @@
     "PL",
     "BE",
     "IONQ",
-    "IREN",
-    "JOBY: 필자 보유 eVTOL. 인증 지연·증자 위험·사업 가시성 낮음으로 현 보유 AI CAPEX 종목 대비 우위 입증 없음, 관찰도 불필요"
+    "IREN"
   ],
   "report_paths": {
     "analyst_latest": "reports/analyst-latest.md",

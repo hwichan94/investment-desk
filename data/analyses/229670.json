@@ -1,0 +1,53 @@
+{
+  "post_id": "229670",
+  "content_hash": "423f4edb2aefa5f14216b9a77b796dd8439595af4319a6e32521c4a12329491a",
+  "analyzed_at": "2026-11-09T16:15:00+09:00",
+  "title": "🎓11월 1주차 유튜브 라이브(11.8)",
+  "author": "세상학개론 - 한정수 작가",
+  "new_candidates": [],
+  "summary": "세상학개론 11/8 라이브 정리. IREN 실적을 매우 긍정적으로 평가하고 보유량을 늘렸다고 한다(IREN은 universe 밖). 민주당 의회 장악 후 데이터센터 규제 우려는 연방보다 주(州) 차원이 관건이고, 기존 승인 건은 영향이 작다는 시각이다. 전력망이 병목이며 현금 비중 확보의 중요성을 강조한다. 서클·비트코인 보유도 언급한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "IREN 실적에서 GPU 선급금이 90%에 달한다.",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "IREN은 universe 밖이라 data/market/docs에 원문이 없고 이번 실행에서 확인하지 않았다."
+    },
+    {
+      "kind": "FACT",
+      "text": "텍사스 규제기관(PUCT/TCEQ) 조사로 신규 인허가가 중단된 상태이며 결과는 12월 예상.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 근거 미확인. 작성자 설명."
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 병목은 GPU에서 전력망으로 이동했고 2028년 하반기 이후 완화된다.",
+      "tickers": [
+        "CRWV",
+        "ETN",
+        "VRT"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "하락장일수록 현금 비중이 중요하다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드 센티먼트 개선 언급이지만 IREN 중심 발언이며 공식 근거가 없다."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 개별 보유 발언 중심이며 IREN은 공식 근거 없이 후보로 올리지 않는다. 현금 여력 확보 원칙은 기존 정책과 일치한다."
+}

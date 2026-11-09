@@ -1,0 +1,67 @@
+{
+  "post_id": "229461",
+  "content_hash": "451e1bdf52286234eccfe97badc1a7b961a35491ec28421e727c36346a8d5cf8",
+  "analyzed_at": "2026-11-09T16:15:00+09:00",
+  "title": "엔비디아 젠슨 황 외도 인정, 어지러운 한 주가 시작됩니다. | 11-09 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "new_candidates": [],
+  "summary": "11/9 미국 시황 정리. NVDA CEO 사생활 의혹과 이사회 독립조사 착수, 조사 중 CEO 유지 입장이 핵심이다. 작성자는 주가 하락 가능성을 높게 보고 해임 시 불확실성이 매우 크다고 본다. TSLA는 사이버트럭 단종·사이버캡 확대와 FSD 매출 추정(3Q 약 $258M)을 언급한다. 이번 주 CPI(화)·PPI(금)·10년물 경매와 HIMS·RKLB 등 실적이 일정이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 젠슨 황 관련 의혹을 인정하고 이사회 독립조사에 착수했으며 CEO는 유지된다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-11-09)에서 해당 보도·회사 공시를 찾지 못했다. 3월 상원의원 수출통제 발언 조사 보도만 확인된다. 사실로 취급하지 않는다."
+    },
+    {
+      "kind": "FACT",
+      "text": "TSLA가 사이버트럭을 2027년까지 단종하고 사이버캡 생산을 확대한다. FSD 3Q 매출 약 $258M(추정).",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 근거 미확인이며 FSD 수치는 작성자 추정치다."
+    },
+    {
+      "kind": "FACT",
+      "text": "9월 CPI YoY +3.7%, 근원 +2.6%, PPI YoY +6.3%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "BLS 원문 미확인. 이번 주 CPI 발표 후 확인 대상."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "스캔들로 NVDA 주가는 하락할 가능성이 높다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-11-10"
+    },
+    {
+      "kind": "OPINION",
+      "text": "물가·금리 안정이 성장주 밸류에이션 부담을 완화한다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "의혹은 공식 확인되지 않았고 사업 펀더멘털 변화가 없다. 공식 이벤트(실적, 정책 대응)를 보고 판단한다."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "단종·FSD 수치는 미확인이다."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 미확인 의혹과 일정 안내 중심이며 공식 근거가 없다. NVDA 실적과 CPI 결과를 체크포인트로 둔다."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-09T07:07:01.243504+09:00",
+  "generated_at": "2026-11-09T15:29:41.816426+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-09T07:06:51.336919+09:00",
+    "generated_at": "2026-11-09T15:29:35.499896+09:00",
     "key_signals": [
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -738,7 +738,7 @@
     ],
     "regime": {
       "state": "RISK_OFF",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-09",
       "reasons": [
         "VIX rising above SMA20",
         "credit HYG/LQD falling",

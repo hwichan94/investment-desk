@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T04:51:13.188038+09:00",
+  "generated_at": "2026-11-10T07:15:39.181031+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -812,6 +812,70 @@
       "portfolio_implication": "변경 없음. 개별 보유 발언 중심이며 IREN은 공식 근거 없이 후보로 올리지 않는다. 현금 여력 확보 원칙은 기존 정책과 일치한다."
     },
     {
+      "post_id": "229659",
+      "analyzed_at": "2026-11-09T16:15:00+09:00",
+      "title": "엔비디아 스캔들",
+      "author": "T3chfeed_테크피드",
+      "summary": "NVDA 스캔들 후속. 작성자는 CEO 교체 가능성을 크게 우려하지 않고, NVDA 코어 펀더멘털은 견고하다고 본다. 3분기 가이던스($108B)가 중국 데이터센터 컴퓨팅 매출을 제외해 실적 영향은 제한적이라는 논리다. 한편 싱가포르 등을 통한 클라우드 연산력 제공이 규제 강화 대상이 될 수 있고, 11/18 APEC 트럼프-시진핑 회담을 주시한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NVDA 3분기 가이던스 $108B이며 중국 데이터센터 컴퓨팅 매출을 가정에서 제외했다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
+          "evidence_note": "Q2 FY27 8-K 보도자료: Q3 매출 $108.0B ±2%, 중국 데이터센터 컴퓨팅 매출 미가정(WebSearch 요약 확인; 원문 재열람 권장).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "H200 약 60만 장이 홍콩에서 중국 본토 반입 승인을 기다린다(로이터 11/5).",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "2차 인용. 공식 근거 없음.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "미국이 GPU 클라우드 컴퓨팅 접근에 대한 심사를 강화할 수 있다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "해임 시에도 즉시 매도보다 시장이 소화한 뒤 판단하는 게 낫다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "가이던스가 중국을 제외하므로 실적 직접 영향은 작다는 점은 공식 근거로 맞다. 다만 규제·거버넌스 리스크는 Position & Correlation 렌즈의 이벤트 위험으로 남는다."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 중국 제외 가이던스는 확인되나 거버넌스 의혹 자체는 미확인이다. 단일 의견으로 비중을 바꾸지 않는다."
+    },
+    {
       "post_id": "229461",
       "analyzed_at": "2026-11-09T16:15:00+09:00",
       "title": "엔비디아 젠슨 황 외도 인정, 어지러운 한 주가 시작됩니다. | 11-09 미국 시황 정리",
@@ -887,70 +951,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 미확인 의혹과 일정 안내 중심이며 공식 근거가 없다. NVDA 실적과 CPI 결과를 체크포인트로 둔다."
-    },
-    {
-      "post_id": "229659",
-      "analyzed_at": "2026-11-09T16:15:00+09:00",
-      "title": "엔비디아 스캔들",
-      "author": "T3chfeed_테크피드",
-      "summary": "NVDA 스캔들 후속. 작성자는 CEO 교체 가능성을 크게 우려하지 않고, NVDA 코어 펀더멘털은 견고하다고 본다. 3분기 가이던스($108B)가 중국 데이터센터 컴퓨팅 매출을 제외해 실적 영향은 제한적이라는 논리다. 한편 싱가포르 등을 통한 클라우드 연산력 제공이 규제 강화 대상이 될 수 있고, 11/18 APEC 트럼프-시진핑 회담을 주시한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "NVDA 3분기 가이던스 $108B이며 중국 데이터센터 컴퓨팅 매출을 가정에서 제외했다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
-          "evidence_note": "Q2 FY27 8-K 보도자료: Q3 매출 $108.0B ±2%, 중국 데이터센터 컴퓨팅 매출 미가정(WebSearch 요약 확인; 원문 재열람 권장).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "H200 약 60만 장이 홍콩에서 중국 본토 반입 승인을 기다린다(로이터 11/5).",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "2차 인용. 공식 근거 없음.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "미국이 GPU 클라우드 컴퓨팅 접근에 대한 심사를 강화할 수 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "해임 시에도 즉시 매도보다 시장이 소화한 뒤 판단하는 게 낫다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "가이던스가 중국을 제외하므로 실적 직접 영향은 작다는 점은 공식 근거로 맞다. 다만 규제·거버넌스 리스크는 Position & Correlation 렌즈의 이벤트 위험으로 남는다."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 중국 제외 가이던스는 확인되나 거버넌스 의혹 자체는 미확인이다. 단일 의견으로 비중을 바꾸지 않는다."
     },
     {
       "post_id": "229330",

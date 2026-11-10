@@ -1,9 +1,9 @@
 # 12개월 포트폴리오 액션플랜
 
-- 생성 시각(KST): 2026-11-11 01:18
+- 생성 시각(KST): 2026-11-11 06:19
 - 판단 입력 기준일(decision_universe): 2026-10-30
 - 보유 수량 기준일: 2026-10-29 (사용자 확인 2026-10-29)
-- 가격 기준: 2026-11-10T23:54 · 총자산 $26,370.67
+- 가격 기준: 2026-11-11T06:19 · 총자산 $26,440.02
 - 투자 가능 현금: $201.50
 - 부채상환 예약 현금: $0.00 (총자산·비중에는 포함, 신규매수 재원에서는 제외)
 
@@ -13,25 +13,25 @@
 
 > Base Case는 TSLA 축소(24.00%), PLTR 추가매수(33.00%), VRT 추가매수(7.00%)이며, 각 무효화 신호가 나오면 즉시 재평가합니다.
 
-## 포트폴리오 점수: **71.6 / 100** (목표 실행 시 83.8)
+## 포트폴리오 점수: **71.4 / 100** (목표 실행 시 83.8)
 
 | 항목 | 비중 | 현재 | 목표 실행 시 |
 |---|---:|---:|---:|
 | 보유 종목 질 | 50% | 68.3 | 70.2 |
-| thesis 건강도 | 15% | 89.3 | 91.3 |
-| 집중도 | 15% | 96.9 | 100.0 |
-| 현금 여력 | 5% | 15.3 | 100.0 |
-| 목표 정렬 | 15% | 58.1 | 100.0 |
+| thesis 건강도 | 15% | 89.2 | 91.3 |
+| 집중도 | 15% | 96.5 | 100.0 |
+| 현금 여력 | 5% | 15.2 | 100.0 |
+| 목표 정렬 | 15% | 57.4 | 100.0 |
 
 - 감점 요인: 상위 2종목 합 62%
 
 ## 데이터 상태
 
-- Fanding 수집: **OK** (마지막 실행 2026-11-10T23:53, 마지막 성공 2026-11-10T23:53)
+- Fanding 수집: **OK** (마지막 실행 2026-11-11T06:18, 마지막 성공 2026-11-11T06:18)
 - 저장된 글 98개, Claude 분석 대기 0개
 - 공식 근거 기준일: 2026-11-06 (5일 전)
-- 최근 감지된 신규 SEC 공시: ANET(8-K), ETN(10-Q), ANET(10-Q), CCJ(6-K), ORCL(8-K), AXON(8-K, 8-K), CCJ(6-K), GOOG(8-K), AXON(10-Q), CCJ(6-K)
-- 시장가격 최신성: 최신 · 수집 후 1.4시간
+- 최근 감지된 신규 SEC 공시: ANET(10-Q), CCJ(6-K), ORCL(8-K), AXON(8-K, 8-K), CCJ(6-K), GOOG(8-K), AXON(10-Q), CCJ(6-K), CRWV(8-K)
+- 시장가격 최신성: 최신 · 수집 후 0.0시간
 - 통화/환율: 환율 적용 없음(USD 기준)
 
 ## 위험 알림
@@ -41,24 +41,24 @@
 
 ## 매수재원 검증
 
-- 총자산: **$26,370.67** (주식 $26,169.17 + 투자 가능 현금 $201.50 + 부채상환 예약 현금 $0.00)
-- 신규 투자 가능 현금: **$201.50** · 현금 목표 $1,318.53 유지 시 즉시 배분 가능 $0.00
+- 총자산: **$26,440.02** (주식 $26,238.52 + 투자 가능 현금 $201.50 + 부채상환 예약 현금 $0.00)
+- 신규 투자 가능 현금: **$201.50** · 현금 목표 $1,322.00 유지 시 즉시 배분 가능 $0.00
 - 기존 종목 매도 없이 우선 집행 검토: 해당 없음
-- 추천 매수 합계 $1,614.79 · 계획 매도 재원 $2,317.43 · 매도 재원 필요분 $1,614.79
+- 추천 매수 합계 $1,638.07 · 계획 매도 재원 $2,671.49 · 매도 재원 필요분 $1,638.07
 - 현금 보유 자체는 매수 신호가 아닙니다. 종합점수·펀더멘털·시장행동을 통과한 ADD/INITIATE만 위 재원 안에서 배분합니다.
 
 ## Technical / Regime 핵심 신호
 
-- **Regime: RISK_OFF** — VIX rising above SMA20; breadth RSP/SPY rising; QQQ below SMA50 → 신규 Starter·Tactical 크기 축소, Core 자동매도 금지
+- **Regime: RISK_OFF** — VIX rising above SMA20; credit HYG/LQD falling; breadth RSP/SPY rising → 신규 Starter·Tactical 크기 축소, Core 자동매도 금지
 - AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지
-- AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 → 추격매수 금지, 분할·반전 확인
+- AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락 → 추격매수 금지, 분할·반전 확인
 - CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
 
 ## 2. 오늘 바뀐 점
 
-- 변경 없음. 공지성 글이며 PDF 본문은 수집 대상이 아니다.
 - 변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다.
 - 변경 없음. RKLB는 비보유·universe 외 종목이며 EPS 미스와 뉴트론 일정 불확실이 있어 보유 종목 대비 우위를 입증하지 못했다. 신규 편입 판단은 별도 평가 없이 하지 않는다. 앤스로픽 IPO는 비상장 이벤트로 목표 비중 영향 없음.
+- 변경 없음. 공지성 글이며 PDF 본문은 수집 대상이 아니다.
 
 ## 3. 놓치면 안 되는 시황
 
@@ -70,15 +70,15 @@
 
 | 종목 | 현재 | 목표 | 변화 | 판단 | 구분 | 긴급도 | 금액 | 참고 수량 |
 |---|---:|---:|---:|---|---|---|---:|---:|
-| TSLA | 32.79% | 24.00% | -8.79%p | 축소 | UNSPECIFIED | 높음 | $-2,317 | -6.16주 |
-| CASH | 0.76% | 5.00% | +4.24%p | 현금 조정 | - | 중간 | $+1,117 | - |
-| PLTR | 28.78% | 33.00% | +4.22%p | 추가매수 | Core≥30.00% / Tactical 3.00% | 중간 | $+556 | +3.30주 |
-| VRT | 2.99% | 7.00% | +4.01%p | 추가매수 | - | 중간 | $+1,059 | +5.38주 |
-| AMZN | 6.14% | 4.00% | -2.14%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
-| AVGO | 14.95% | 14.00% | -0.95%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
-| INTC | 2.48% | 2.00% | -0.48%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
-| NVDA | 5.20% | 5.00% | -0.20%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
-| CCJ | 5.91% | 6.00% | +0.09%p | 유지 | - | 없음 | $+0 | +0.00주 |
+| TSLA | 33.04% | 24.00% | -9.04%p | 축소 | UNSPECIFIED | 높음 | $-2,389 | -6.29주 |
+| PLTR | 28.73% | 33.00% | +4.27%p | 추가매수 | Core≥30.00% / Tactical 3.00% | 중간 | $+564 | +3.34주 |
+| CASH | 0.76% | 5.00% | +4.24%p | 현금 조정 | - | 중간 | $+1,121 | - |
+| VRT | 2.94% | 7.00% | +4.06%p | 추가매수 | - | 중간 | $+1,074 | +5.53주 |
+| AVGO | 15.07% | 14.00% | -1.07%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-282 | -0.85주 |
+| AMZN | 6.15% | 4.00% | -2.15%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
+| INTC | 2.42% | 2.00% | -0.42%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
+| CCJ | 5.79% | 6.00% | +0.21%p | 유지 | - | 없음 | $+0 | +0.00주 |
+| NVDA | 5.11% | 5.00% | -0.11%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
 
 ### 5개 렌즈 + Regime
 
@@ -87,11 +87,11 @@
 | TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEGATIVE |
 | PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 55 / fit 85 | NEGATIVE |
 | VRT | STRENGTHENING | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 85 | NEGATIVE |
-| AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | STRONG | risk 70 / fit 80 | NEUTRAL |
 | AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 90 | NEGATIVE |
+| AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | STRONG | risk 70 / fit 80 | NEUTRAL |
 | INTC | EMERGING | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 60 | NEGATIVE |
-| NVDA | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEGATIVE |
 | CCJ | STABLE | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 70 | NEGATIVE |
+| NVDA | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEGATIVE |
 
 ### Base Case 실행 순서와 이유
 
@@ -138,25 +138,25 @@
 - **TSLA**: 반복되는 대규모 잉여현금흐름 적자
 - **PLTR**: 미국 상업과 정부 성장률의 동시 급락
 - **VRT**: 유기적 성장률 급락
-- **AMZN**: AWS 성장과 영업이익률의 동반 둔화
 - **AVGO**: AI 매출 성장의 급격한 둔화
+- **AMZN**: AWS 성장과 영업이익률의 동반 둔화
 
 ## 부록: 추가 자본 매력도 순위
 
 | 순위 | 종목 | 종합점수 | 근거 신뢰도 | 현재 | 목표 | 상태 |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | NVDA | 85.6 | 88% | 5.20% | 5.00% | STRENGTHENING |
-| 2 | AVGO | 83.4 | 85% | 14.95% | 14.00% | STRENGTHENING |
-| 3 | AMZN | 81.6 | 85% | 6.14% | 4.00% | STRENGTHENING |
-| 4 | VRT | 78.9 | 82% | 2.99% | 7.00% | STRENGTHENING |
+| 1 | NVDA | 85.6 | 88% | 5.11% | 5.00% | STRENGTHENING |
+| 2 | AVGO | 83.4 | 85% | 15.07% | 14.00% | STRENGTHENING |
+| 3 | AMZN | 81.6 | 85% | 6.15% | 4.00% | STRENGTHENING |
+| 4 | VRT | 78.8 | 82% | 2.94% | 7.00% | STRENGTHENING |
 | 5 | ETN | 75.6 | 82% | 0.00% | 0.00% | STRENGTHENING |
-| 6 | ORCL | 75.4 | 84% | 0.00% | 0.00% | STRENGTHENING |
-| 7 | PLTR | 73.8 | 85% | 28.78% | 33.00% | STRENGTHENING |
+| 6 | ORCL | 75.3 | 84% | 0.00% | 0.00% | STRENGTHENING |
+| 7 | PLTR | 73.8 | 85% | 28.73% | 33.00% | STRENGTHENING |
 | 8 | AXON | 70.8 | 84% | 0.00% | 0.00% | STRENGTHENING |
-| 9 | CCJ | 69.6 | 78% | 5.91% | 6.00% | STABLE |
-| 10 | INTC | 57.4 | 72% | 2.48% | 2.00% | EMERGING |
+| 9 | CCJ | 69.6 | 78% | 5.79% | 6.00% | STABLE |
+| 10 | INTC | 57.4 | 72% | 2.42% | 2.00% | EMERGING |
 | 11 | CRWV | 51.9 | 86% | 0.00% | 0.00% | WEAKENING |
-| 12 | TSLA | 51.0 | 72% | 32.79% | 24.00% | STABLE |
+| 12 | TSLA | 51.0 | 72% | 33.04% | 24.00% | STABLE |
 
 ## 7. 결론
 

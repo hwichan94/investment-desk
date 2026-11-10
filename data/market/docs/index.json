@@ -327,6 +327,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-10",
+      "accession": "0001769628-26-000461",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-09-22",
       "report_date": "2026-09-17",
       "accession": "0001769628-26-000432",
@@ -352,17 +358,6 @@
       "filed": "2026-08-11",
       "accession": "0001769628-26-000362",
       "path": null
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-08-10",
-      "report_date": "2026-08-07",
-      "accession": "0001769628-26-000357",
-      "path": "data/market/docs/CRWV/2026-08-10-8-K-0001769628-26-000357.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/ex991pr.htm"
-      ],
-      "chars": 4167
     }
   ],
   "ETN": [

@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T07:15:39.181031+09:00",
+  "generated_at": "2026-11-10T12:38:54.279607+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
     "confirmed_at": "2026-10-29",
     "currency": "USD",
-    "total_portfolio_value": 26482.926,
-    "equity_value": 26281.426,
-    "investable_total": 26482.926,
+    "total_portfolio_value": 26413.07,
+    "equity_value": 26211.57,
+    "investable_total": 26413.07,
     "cash_available_for_investing": 201.5,
     "cash_reserved_for_debt": 0.0,
     "reserved_cash_included_in_total": true,
@@ -18,8 +18,8 @@
         "ticker": "TSLA",
         "shares": 23.0,
         "average_cost": 419.799565,
-        "current_value": 8761.16,
-        "current_weight": 0.33082296,
+        "current_value": 8695.15,
+        "current_weight": 0.32919876,
         "category": "AI / Robotics",
         "themes": [
           "Autonomy",
@@ -31,8 +31,8 @@
         "ticker": "PLTR",
         "shares": 45.0,
         "average_cost": 160.890222,
-        "current_value": 7627.95,
-        "current_weight": 0.28803275,
+        "current_value": 7614.0,
+        "current_weight": 0.28826638,
         "category": "AI Software",
         "themes": [
           "AI Applications",
@@ -44,8 +44,8 @@
         "ticker": "AVGO",
         "shares": 12.0,
         "average_cost": null,
-        "current_value": 3846.6,
-        "current_weight": 0.1452483,
+        "current_value": 3833.76,
+        "current_weight": 0.14514632,
         "category": "Semiconductors / Networking",
         "themes": [
           "AI CAPEX",
@@ -57,8 +57,8 @@
         "ticker": "CCJ",
         "shares": 21.0,
         "average_cost": 96.7914,
-        "current_value": 1576.365,
-        "current_weight": 0.05952382,
+        "current_value": 1582.77,
+        "current_weight": 0.05992374,
         "category": "Nuclear Energy",
         "themes": [
           "Nuclear Renaissance",
@@ -70,8 +70,8 @@
         "ticker": "INTC",
         "shares": 11.0,
         "average_cost": 137.33,
-        "current_value": 647.295,
-        "current_weight": 0.02444197,
+        "current_value": 653.07,
+        "current_weight": 0.02472526,
         "category": "Semiconductors",
         "themes": [
           "AI Compute",
@@ -83,8 +83,8 @@
         "ticker": "VRT",
         "shares": 4.0,
         "average_cost": 290.98,
-        "current_value": 794.44,
-        "current_weight": 0.0299982,
+        "current_value": 801.88,
+        "current_weight": 0.03035921,
         "category": "Data Center Infrastructure",
         "themes": [
           "AI CAPEX",
@@ -97,8 +97,8 @@
         "ticker": "NVDA",
         "shares": 8.0,
         "average_cost": 216.79,
-        "current_value": 1416.28,
-        "current_weight": 0.05347898,
+        "current_value": 1429.36,
+        "current_weight": 0.05411563,
         "category": "Semiconductors / AI Compute",
         "themes": [
           "AI CAPEX",
@@ -110,8 +110,8 @@
         "ticker": "AMZN",
         "shares": 6.0,
         "average_cost": 251.17,
-        "current_value": 1611.336,
-        "current_weight": 0.06084433,
+        "current_value": 1601.58,
+        "current_weight": 0.06063589,
         "category": "Cloud / E-commerce",
         "themes": [
           "AWS",
@@ -128,13 +128,13 @@
     "objective": "maximize expected return within acceptable loss and concentration constraints",
     "cash_target": 0.05,
     "portfolio_score": {
-      "total": 71.4,
+      "total": 71.6,
       "components": {
-        "quality": 68.2,
+        "quality": 68.3,
         "thesis": 89.2,
-        "concentration": 96.2,
-        "cash": 15.2,
-        "alignment": 58.4
+        "concentration": 96.5,
+        "cash": 15.3,
+        "alignment": 58.7
       },
       "notes": [
         "상위 2종목 합 62%"
@@ -157,25 +157,25 @@
     ],
     "target_errors": [],
     "funding": {
-      "cash_target_amount": 1324.15,
+      "cash_target_amount": 1320.65,
       "cash_available_for_buys_after_target": 0.0,
-      "desired_buy_amount": 1615.07,
-      "recommended_buy_amount": 1615.07,
-      "planned_sell_proceeds": 2405.26,
+      "desired_buy_amount": 1598.19,
+      "recommended_buy_amount": 1598.19,
+      "planned_sell_proceeds": 2356.01,
       "cash_first_allocations": {},
-      "sales_funded_buy_amount": 1615.07,
+      "sales_funded_buy_amount": 1598.19,
       "funding_shortfall": 0.0,
       "cash_is_not_an_automatic_buy_signal": true
     },
     "actions": [
       {
         "ticker": "TSLA",
-        "current_weight": 0.33082296,
+        "current_weight": 0.32919876,
         "target_weight": 0.24,
-        "change_weight": -0.09082296,
+        "change_weight": -0.08919876,
         "action": "축소",
         "urgency": "높음",
-        "estimated_amount": -2405.26,
+        "estimated_amount": -2356.01,
         "fundamentals": "STABLE",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -199,7 +199,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": true,
           "above_sma_200": false,
-          "relative_volume_20": 0.534848,
+          "relative_volume_20": 0.909785,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
@@ -212,12 +212,12 @@
       },
       {
         "ticker": "CASH",
-        "current_weight": 0.00760868,
+        "current_weight": 0.0076288,
         "target_weight": 0.05,
-        "change_weight": 0.04239132,
+        "change_weight": 0.0423712,
         "action": "현금 조정",
         "urgency": "중간",
-        "estimated_amount": 1122.65,
+        "estimated_amount": 1119.15,
         "fundamentals": "NOT_APPLICABLE",
         "estimate_revisions": "NOT_APPLICABLE",
         "expectations_gap": "NOT_APPLICABLE",
@@ -240,12 +240,12 @@
       },
       {
         "ticker": "PLTR",
-        "current_weight": 0.28803275,
+        "current_weight": 0.28826638,
         "target_weight": 0.33,
-        "change_weight": 0.04196725,
+        "change_weight": 0.04173362,
         "action": "추가매수",
         "urgency": "중간",
-        "estimated_amount": 555.71,
+        "estimated_amount": 551.16,
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -269,7 +269,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": true,
-          "relative_volume_20": 0.532485,
+          "relative_volume_20": 0.897846,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -282,12 +282,12 @@
       },
       {
         "ticker": "VRT",
-        "current_weight": 0.0299982,
+        "current_weight": 0.03035921,
         "target_weight": 0.07,
-        "change_weight": 0.0400018,
+        "change_weight": 0.03964079,
         "action": "추가매수",
         "urgency": "중간",
-        "estimated_amount": 1059.36,
+        "estimated_amount": 1047.03,
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -311,7 +311,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.578722,
+          "relative_volume_20": 0.873501,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -324,9 +324,9 @@
       },
       {
         "ticker": "AMZN",
-        "current_weight": 0.06084433,
+        "current_weight": 0.06063589,
         "target_weight": 0.04,
-        "change_weight": -0.02084433,
+        "change_weight": -0.02063589,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -353,7 +353,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": true,
           "above_sma_200": true,
-          "relative_volume_20": 0.662624,
+          "relative_volume_20": 1.061995,
           "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "STRONG"
         },
@@ -366,9 +366,9 @@
       },
       {
         "ticker": "AVGO",
-        "current_weight": 0.1452483,
+        "current_weight": 0.14514632,
         "target_weight": 0.14,
-        "change_weight": -0.0052483,
+        "change_weight": -0.00514632,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -395,7 +395,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.866016,
+          "relative_volume_20": 1.53195,
           "relative_strength_qqq_trend": "FLAT",
           "relative_momentum": "NEUTRAL"
         },
@@ -408,9 +408,9 @@
       },
       {
         "ticker": "INTC",
-        "current_weight": 0.02444197,
+        "current_weight": 0.02472526,
         "target_weight": 0.02,
-        "change_weight": -0.00444197,
+        "change_weight": -0.00472526,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -437,7 +437,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.587313,
+          "relative_volume_20": 1.016904,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -450,9 +450,9 @@
       },
       {
         "ticker": "NVDA",
-        "current_weight": 0.05347898,
+        "current_weight": 0.05411563,
         "target_weight": 0.05,
-        "change_weight": -0.00347898,
+        "change_weight": -0.00411563,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -479,7 +479,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 3.042913,
+          "relative_volume_20": 3.900773,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -492,9 +492,9 @@
       },
       {
         "ticker": "CCJ",
-        "current_weight": 0.05952382,
+        "current_weight": 0.05992374,
         "target_weight": 0.06,
-        "change_weight": 0.00047618,
+        "change_weight": 7.626e-05,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -521,7 +521,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.564688,
+          "relative_volume_20": 0.895298,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -563,7 +563,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 1.758739,
+          "relative_volume_20": 2.706518,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -605,7 +605,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.489793,
+          "relative_volume_20": 0.711285,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -647,7 +647,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.715689,
+          "relative_volume_20": 1.085699,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "NEUTRAL"
         },
@@ -689,7 +689,7 @@
           "as_of": "2026-11-09",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 0.412473,
+          "relative_volume_20": 0.63473,
           "relative_strength_qqq_trend": "FALLING",
           "relative_momentum": "WEAK"
         },
@@ -731,7 +731,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-10T04:51:05.069565+09:00",
+    "generated_at": "2026-11-10T12:38:47.225092+09:00",
     "key_signals": [
       "AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -739,7 +739,7 @@
     ],
     "regime": {
       "state": "RISK_OFF",
-      "as_of": "2026-11-09",
+      "as_of": "2026-11-10",
       "reasons": [
         "VIX rising above SMA20",
         "credit HYG/LQD falling",
@@ -749,6 +749,114 @@
     }
   },
   "recent_analyses": [
+    {
+      "post_id": "229671",
+      "analyzed_at": "2026-11-10T08:30:00+09:00",
+      "title": "📌[필독] 🧭T3chfeed Core Project 안내",
+      "author": "T3chfeed_테크피드",
+      "summary": "T3chfeed 3주 무료 체험 프로그램(11/9~11/27) 홍보 공지. 투자 판단에 쓸 종목·수치 주장이 없다.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 마케팅 공지."
+    },
+    {
+      "post_id": "229707",
+      "analyzed_at": "2026-11-10T08:30:00+09:00",
+      "title": "📢 2027년 투자전공반 연회원권 & 굿즈 패키지 사전 안내 🎁",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "세상학개론 2027년 연회원권(11/16~11/30) 및 굿즈 패키지 안내. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 구독 운영 공지."
+    },
+    {
+      "post_id": "229685",
+      "analyzed_at": "2026-11-10T08:30:00+09:00",
+      "title": "AI는 기술 패권 전쟁이라는 걸 다시금 일깨워준 젠슨 황 (ft. 이더리움)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "NYT 보도(젠슨 황과 중국 스파이 의심 인물 Megaspeed 전 임원 앨리스 황의 친분)를 계기로 민주당 의회 하에서 중국향 AI 칩 수출통제가 법제화·강화될 것이며 NVDA 동남아 수요 일부가 우회수출이었을 가능성과 창업자 리스크를 우려한다. 이더리움은 전량 정리해 BTC·기타 코인으로 재배분했다고 밝힌다. AI 하락은 레버리지 청산에 따른 과매도로 보며 기업(IREN·루멘텀 CEO 발언)을 신뢰하는 장기투자 입장을 유지한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NYT가 미 정보당국이 젠슨 황이 중국 스파이 의심 인물(Megaspeed 임원 출신 앨리스 황)과 가깝다고 본다고 보도했다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://6abc.com/story/nvidia-denies-report-ceo-was-allegedly-targeted-chinese-spy-plot/20000206/",
+          "evidence_note": "WebSearch로 NYT 보도(2026-10-29)와 Nvidia 반박은 확인(2차 매체). 익명 소식통 기반·미입증, 공식 자료 아님. 글의 '부적절한 관계 인정' 성명은 확인 못 했고 Nvidia는 교류가 'unusual하지 않다'고 밝힘 → 확인된 부분만 PARTIAL.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "젠슨 황이 성명으로 부적절한 관계를 인정했고 CEO직은 유지한다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "검색 결과에서 해당 인정 성명을 찾지 못함. 사실로 취급하지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "엔비디아는 중국향 매출을 실적 전망에서 0으로 잡아 왔다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
+          "evidence_note": "직전 분석(229659)에서 확인한 Q2 FY27 8-K: Q3 가이던스가 중국 데이터센터 컴퓨팅 매출 미가정.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "민주당 의회가 중국향 AI 칩 수출통제를 법률로 강화하고 NVDA는 공개 청문회·조사를 받는다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-06-30"
+        },
+        {
+          "kind": "OPINION",
+          "text": "동남아 수요 감소분을 다른 고객이 흡수하면 실제 매출 영향은 우려보다 작을 수 있다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "현 AI 하락은 펀더멘털이 아닌 레버리지 청산 과매도이며 장기투자자에게는 기회다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "정책·거버넌스 이벤트 리스크는 Position & Correlation 렌즈로 관리. 중국 제외 가이던스(공식)로 직접 실적 영향은 제한적이고, 핵심 사실(관계 인정)은 미확인."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 핵심 주장 일부만 2차 매체로 부분 확인, 단일 의견이며 가이던스는 중국 제외. 11/18 미중 회담·NVDA 실적·수출통제 입법을 체크포인트로 유지."
+    },
     {
       "post_id": "229670",
       "analyzed_at": "2026-11-09T16:15:00+09:00",
@@ -810,70 +918,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 개별 보유 발언 중심이며 IREN은 공식 근거 없이 후보로 올리지 않는다. 현금 여력 확보 원칙은 기존 정책과 일치한다."
-    },
-    {
-      "post_id": "229659",
-      "analyzed_at": "2026-11-09T16:15:00+09:00",
-      "title": "엔비디아 스캔들",
-      "author": "T3chfeed_테크피드",
-      "summary": "NVDA 스캔들 후속. 작성자는 CEO 교체 가능성을 크게 우려하지 않고, NVDA 코어 펀더멘털은 견고하다고 본다. 3분기 가이던스($108B)가 중국 데이터센터 컴퓨팅 매출을 제외해 실적 영향은 제한적이라는 논리다. 한편 싱가포르 등을 통한 클라우드 연산력 제공이 규제 강화 대상이 될 수 있고, 11/18 APEC 트럼프-시진핑 회담을 주시한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "NVDA 3분기 가이던스 $108B이며 중국 데이터센터 컴퓨팅 매출을 가정에서 제외했다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
-          "evidence_note": "Q2 FY27 8-K 보도자료: Q3 매출 $108.0B ±2%, 중국 데이터센터 컴퓨팅 매출 미가정(WebSearch 요약 확인; 원문 재열람 권장).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "H200 약 60만 장이 홍콩에서 중국 본토 반입 승인을 기다린다(로이터 11/5).",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "2차 인용. 공식 근거 없음.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "미국이 GPU 클라우드 컴퓨팅 접근에 대한 심사를 강화할 수 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "해임 시에도 즉시 매도보다 시장이 소화한 뒤 판단하는 게 낫다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "가이던스가 중국을 제외하므로 실적 직접 영향은 작다는 점은 공식 근거로 맞다. 다만 규제·거버넌스 리스크는 Position & Correlation 렌즈의 이벤트 위험으로 남는다."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 중국 제외 가이던스는 확인되나 거버넌스 의혹 자체는 미확인이다. 단일 의견으로 비중을 바꾸지 않는다."
     },
     {
       "post_id": "229461",
@@ -951,6 +995,70 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 미확인 의혹과 일정 안내 중심이며 공식 근거가 없다. NVDA 실적과 CPI 결과를 체크포인트로 둔다."
+    },
+    {
+      "post_id": "229659",
+      "analyzed_at": "2026-11-09T16:15:00+09:00",
+      "title": "엔비디아 스캔들",
+      "author": "T3chfeed_테크피드",
+      "summary": "NVDA 스캔들 후속. 작성자는 CEO 교체 가능성을 크게 우려하지 않고, NVDA 코어 펀더멘털은 견고하다고 본다. 3분기 가이던스($108B)가 중국 데이터센터 컴퓨팅 매출을 제외해 실적 영향은 제한적이라는 논리다. 한편 싱가포르 등을 통한 클라우드 연산력 제공이 규제 강화 대상이 될 수 있고, 11/18 APEC 트럼프-시진핑 회담을 주시한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NVDA 3분기 가이던스 $108B이며 중국 데이터센터 컴퓨팅 매출을 가정에서 제외했다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
+          "evidence_note": "Q2 FY27 8-K 보도자료: Q3 매출 $108.0B ±2%, 중국 데이터센터 컴퓨팅 매출 미가정(WebSearch 요약 확인; 원문 재열람 권장).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "H200 약 60만 장이 홍콩에서 중국 본토 반입 승인을 기다린다(로이터 11/5).",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "2차 인용. 공식 근거 없음.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "미국이 GPU 클라우드 컴퓨팅 접근에 대한 심사를 강화할 수 있다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "해임 시에도 즉시 매도보다 시장이 소화한 뒤 판단하는 게 낫다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "가이던스가 중국을 제외하므로 실적 직접 영향은 작다는 점은 공식 근거로 맞다. 다만 규제·거버넌스 리스크는 Position & Correlation 렌즈의 이벤트 위험으로 남는다."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 중국 제외 가이던스는 확인되나 거버넌스 의혹 자체는 미확인이다. 단일 의견으로 비중을 바꾸지 않는다."
     },
     {
       "post_id": "229330",

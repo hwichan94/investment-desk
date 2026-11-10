@@ -1,0 +1,93 @@
+{
+ "summary": "앤스로픽 IPO 일정(공모가 70~78달러, 약 640억 달러 조달 보도)과 로켓랩 3Q26 실적 리뷰. 로켓랩은 매출 $268M 상회, EPS 미스, 수주잔고 급증, 뉴트론 일정 미확정이 핵심. 거시는 유가 하락, 이란 전쟁 종결 기대, 중국향 GPU 우회로 차단에 따른 GPU 병목 완화와 데이터센터 전력 병목 부각, 코어위브 CDS·스프레드 안정화 필요를 낙관 근거로 든다.",
+ "relevance": "MEDIUM",
+ "claims": [
+  {
+   "kind": "FACT",
+   "text": "로켓랩 3Q 매출 $268M(컨센서스 $256M 상회).",
+   "tickers": [
+    "RKLB"
+   ],
+   "verification": "CONFIRMED",
+   "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+   "evidence_note": "2026-11-09 8-K 보도자료: 매출 $268M, 전년비 +73%. 컨센서스 수치는 미확인."
+  },
+  {
+   "kind": "FACT",
+   "text": "로켓랩 수주잔고가 3분기에 급증했다.",
+   "tickers": [
+    "RKLB"
+   ],
+   "verification": "CONFIRMED",
+   "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+   "evidence_note": "보도자료·검색 요약: 총 백로그 $3.57B, 3분기 신규 약 $1B 계약. 글의 '$1.8B 중 절반' 표현과는 기준이 달라 수치 불일치(글은 발사 백로그 기준 추정)."
+  },
+  {
+   "kind": "FACT",
+   "text": "뉴트론 가격이 $55M에서 $70M으로 인상, 신규 8건 계약.",
+   "tickers": [
+    "RKLB"
+   ],
+   "verification": "PARTIAL",
+   "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+   "evidence_note": "보도자료상 뉴트론 베이스 가격 $70M, 3Q 뉴트론 계약 $515M+, 뉴트론 백로그 16건. 8건·$55M 이전가는 직접 확인 못 함."
+  },
+  {
+   "kind": "FACT",
+   "text": "뉴트론 첫 발사 확정 날짜는 없고 1단 탱크 시험 통과 전엔 제시하지 않겠다고 했다.",
+   "tickers": [
+    "RKLB"
+   ],
+   "verification": "UNVERIFIED",
+   "evidence_note": "전화회의록 미확인. 2차 매체는 4Q26 목표 등 상충하는 보도."
+  },
+  {
+   "kind": "FACT",
+   "text": "앤스로픽 IPO: 주당 70~78달러, 8.25억 주, 총 약 640억 달러, 다음 주 목~금 상장 예정.",
+   "tickers": [],
+   "verification": "UNVERIFIED",
+   "evidence_note": "S-1/F-1 원문을 이번 실행에서 찾지 못함. 비상장 상태 정보로 포트폴리오 직접 영향 없음."
+  },
+  {
+   "kind": "PREDICTION",
+   "text": "뉴트론 1단 탱크 시험 실패 시 발사가 2028년으로 밀린다.",
+   "tickers": [
+    "RKLB"
+   ],
+   "verification": "NOT_APPLICABLE",
+   "due": "2027-06-30"
+  },
+  {
+   "kind": "OPINION",
+   "text": "앞으로 비관할 이유보다 낙관할 이유가 많다; 데이터센터 전력 병목이 부각된다.",
+   "tickers": [
+    "VRT",
+    "ETN"
+   ],
+   "verification": "NOT_APPLICABLE"
+  }
+ ],
+ "thesis_impacts": [
+  {
+   "ticker": "VRT",
+   "direction": "STRENGTHEN",
+   "magnitude": "LOW",
+   "rationale": "전력망 연결 데이터센터 병목 부각 주장은 방향상 전력·냉각 인프라에 우호적이나 작성자 견해이며 공식 근거 없음."
+  },
+  {
+   "ticker": "CRWV",
+   "direction": "NEUTRAL",
+   "magnitude": "LOW",
+   "rationale": "CDS·스프레드가 더 안정돼야 한다는 언급은 신용 위험이 아직 해소되지 않았다는 뜻이라 현행 target 0% 관찰 기조와 일치."
+  }
+ ],
+ "new_candidates": [
+  "RKLB"
+ ],
+ "portfolio_implication": "변경 없음. RKLB는 비보유·universe 외 종목이며 EPS 미스와 뉴트론 일정 불확실이 있어 보유 종목 대비 우위를 입증하지 못했다. 신규 편입 판단은 별도 평가 없이 하지 않는다. 앤스로픽 IPO는 비상장 이벤트로 목표 비중 영향 없음.",
+ "post_id": "229987",
+ "content_hash": "932f8ded10289754db40043271767c4cfd6af2f53913b9d3ef91f22e72b8410b",
+ "title": "상장 일정을 확정한 앤스로픽, 뉴트론 일정을 못 정한 로켓랩",
+ "author": "세상학개론 - 한정수 작가",
+ "analyzed_at": "2026-11-11T01:15:00+09:00"
+}

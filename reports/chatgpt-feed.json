@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T23:54:55.857953+09:00",
+  "generated_at": "2026-11-11T01:18:49.871545+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -750,6 +750,197 @@
   },
   "recent_analyses": [
     {
+      "post_id": "229744",
+      "analyzed_at": "2026-11-11T01:15:00+09:00",
+      "title": "🎉특별 콘텐츠 : 투자전공반 10월 월간지! (+편지)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "투자전공반 10월 월간지(PDF) 배포 공지. 거시·지정학, AI 인프라 자금조달, 시장 심리, 현금 비중 복기 목차만 소개되며 본문 투자 주장은 없다.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 공지성 글이며 PDF 본문은 수집 대상이 아니다."
+    },
+    {
+      "post_id": "229966",
+      "analyzed_at": "2026-11-11T01:15:00+09:00",
+      "title": "사이버트럭의 실패",
+      "author": "T3chfeed_테크피드",
+      "summary": "사이버트럭 라인을 내년 여름부터 사이버캡 생산으로 전환한다는 해석. 사이버트럭은 흑자 전환했으나 기회비용상 사이버캡 확대가 낫다고 보며, 모델 S/X→옵티머스 전환 사례로 약 6개월 소요를 추정한다. 로보택시 약 1,000대 운영으로 수요를 확인 중이며 테슬라가 로보택시에 기업 운명을 걸고 있다는 평가.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "모델 S/X가 2026년 중반 단종(sunset)되어 S/X 판매가 감소했다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+          "evidence_note": "3Q26 10-Q: 'fewer Model S and Model X deliveries after the product sunset in mid-2026'.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "머스크가 텍사스 사이버트럭 생산을 2027년 중반경 종료하고 사이버캡 생산을 늘린다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "WebSearch상 2차 매체(fourweekmba, tikr)가 머스크 X 게시글을 인용. 공식 8-K·주주 덱은 이번에 직접 확인 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "사이버캡 설비 연 12.5만대 확보, 사이버트럭 라인도 12.5만대 이상으로 표기.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "2차 매체가 Tesla Q3 덱 수치를 인용. 설비 용량은 실제 생산속도와 다르다고 Tesla 각주에 명시됐다는 보도. 원문 덱 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "로보택시는 현재 약 1,000대 규모로 운영 중이다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료에서 대수 확인 못 함. 2차 매체는 오스틴 중심·댈러스 예정 수준만 언급.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "로보택시 확장이 테슬라의 핵심 베팅이며 사이버캡 전환은 합리적 의사결정이다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "TSLA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "이미 알려진 자원 재배치 내러티브의 재해석이다. 신규 공식 수치(수요·단위경제)가 없어 thesis 강화/훼손 근거로는 약하다."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다."
+    },
+    {
+      "post_id": "229987",
+      "analyzed_at": "2026-11-11T01:15:00+09:00",
+      "title": "상장 일정을 확정한 앤스로픽, 뉴트론 일정을 못 정한 로켓랩",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "앤스로픽 IPO 일정(공모가 70~78달러, 약 640억 달러 조달 보도)과 로켓랩 3Q26 실적 리뷰. 로켓랩은 매출 $268M 상회, EPS 미스, 수주잔고 급증, 뉴트론 일정 미확정이 핵심. 거시는 유가 하락, 이란 전쟁 종결 기대, 중국향 GPU 우회로 차단에 따른 GPU 병목 완화와 데이터센터 전력 병목 부각, 코어위브 CDS·스프레드 안정화 필요를 낙관 근거로 든다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "로켓랩 3Q 매출 $268M(컨센서스 $256M 상회).",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+          "evidence_note": "2026-11-09 8-K 보도자료: 매출 $268M, 전년비 +73%. 컨센서스 수치는 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "로켓랩 수주잔고가 3분기에 급증했다.",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+          "evidence_note": "보도자료·검색 요약: 총 백로그 $3.57B, 3분기 신규 약 $1B 계약. 글의 '$1.8B 중 절반' 표현과는 기준이 달라 수치 불일치(글은 발사 백로그 기준 추정).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "뉴트론 가격이 $55M에서 $70M으로 인상, 신규 8건 계약.",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm",
+          "evidence_note": "보도자료상 뉴트론 베이스 가격 $70M, 3Q 뉴트론 계약 $515M+, 뉴트론 백로그 16건. 8건·$55M 이전가는 직접 확인 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "뉴트론 첫 발사 확정 날짜는 없고 1단 탱크 시험 통과 전엔 제시하지 않겠다고 했다.",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "전화회의록 미확인. 2차 매체는 4Q26 목표 등 상충하는 보도.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤스로픽 IPO: 주당 70~78달러, 8.25억 주, 총 약 640억 달러, 다음 주 목~금 상장 예정.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "S-1/F-1 원문을 이번 실행에서 찾지 못함. 비상장 상태 정보로 포트폴리오 직접 영향 없음.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "뉴트론 1단 탱크 시험 실패 시 발사가 2028년으로 밀린다.",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-06-30"
+        },
+        {
+          "kind": "OPINION",
+          "text": "앞으로 비관할 이유보다 낙관할 이유가 많다; 데이터센터 전력 병목이 부각된다.",
+          "tickers": [
+            "VRT",
+            "ETN"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "VRT",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "전력망 연결 데이터센터 병목 부각 주장은 방향상 전력·냉각 인프라에 우호적이나 작성자 견해이며 공식 근거 없음."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "CDS·스프레드가 더 안정돼야 한다는 언급은 신용 위험이 아직 해소되지 않았다는 뜻이라 현행 target 0% 관찰 기조와 일치."
+        }
+      ],
+      "new_candidates": [
+        "RKLB"
+      ],
+      "portfolio_implication": "변경 없음. RKLB는 비보유·universe 외 종목이며 EPS 미스와 뉴트론 일정 불확실이 있어 보유 종목 대비 우위를 입증하지 못했다. 신규 편입 판단은 별도 평가 없이 하지 않는다. 앤스로픽 IPO는 비상장 이벤트로 목표 비중 영향 없음."
+    },
+    {
       "post_id": "229854",
       "analyzed_at": "2026-11-10T13:10:00+09:00",
       "title": "힘스 '26 3분기 실적 | 성장에 대한 청구서",
@@ -863,18 +1054,6 @@
       "portfolio_implication": "변경 없음. 마케팅 공지."
     },
     {
-      "post_id": "229707",
-      "analyzed_at": "2026-11-10T08:30:00+09:00",
-      "title": "📢 2027년 투자전공반 연회원권 & 굿즈 패키지 사전 안내 🎁",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "세상학개론 2027년 연회원권(11/16~11/30) 및 굿즈 패키지 안내. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 구독 운영 공지."
-    },
-    {
       "post_id": "229685",
       "analyzed_at": "2026-11-10T08:30:00+09:00",
       "title": "AI는 기술 패권 전쟁이라는 걸 다시금 일깨워준 젠슨 황 (ft. 이더리움)",
@@ -959,6 +1138,18 @@
       "portfolio_implication": "변경 없음. 핵심 주장 일부만 2차 매체로 부분 확인, 단일 의견이며 가이던스는 중국 제외. 11/18 미중 회담·NVDA 실적·수출통제 입법을 체크포인트로 유지."
     },
     {
+      "post_id": "229707",
+      "analyzed_at": "2026-11-10T08:30:00+09:00",
+      "title": "📢 2027년 투자전공반 연회원권 & 굿즈 패키지 사전 안내 🎁",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "세상학개론 2027년 연회원권(11/16~11/30) 및 굿즈 패키지 안내. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 구독 운영 공지."
+    },
+    {
       "post_id": "229670",
       "analyzed_at": "2026-11-09T16:15:00+09:00",
       "title": "🎓11월 1주차 유튜브 라이브(11.8)",
@@ -1019,6 +1210,70 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 개별 보유 발언 중심이며 IREN은 공식 근거 없이 후보로 올리지 않는다. 현금 여력 확보 원칙은 기존 정책과 일치한다."
+    },
+    {
+      "post_id": "229659",
+      "analyzed_at": "2026-11-09T16:15:00+09:00",
+      "title": "엔비디아 스캔들",
+      "author": "T3chfeed_테크피드",
+      "summary": "NVDA 스캔들 후속. 작성자는 CEO 교체 가능성을 크게 우려하지 않고, NVDA 코어 펀더멘털은 견고하다고 본다. 3분기 가이던스($108B)가 중국 데이터센터 컴퓨팅 매출을 제외해 실적 영향은 제한적이라는 논리다. 한편 싱가포르 등을 통한 클라우드 연산력 제공이 규제 강화 대상이 될 수 있고, 11/18 APEC 트럼프-시진핑 회담을 주시한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NVDA 3분기 가이던스 $108B이며 중국 데이터센터 컴퓨팅 매출을 가정에서 제외했다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
+          "evidence_note": "Q2 FY27 8-K 보도자료: Q3 매출 $108.0B ±2%, 중국 데이터센터 컴퓨팅 매출 미가정(WebSearch 요약 확인; 원문 재열람 권장).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "H200 약 60만 장이 홍콩에서 중국 본토 반입 승인을 기다린다(로이터 11/5).",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "2차 인용. 공식 근거 없음.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "미국이 GPU 클라우드 컴퓨팅 접근에 대한 심사를 강화할 수 있다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "해임 시에도 즉시 매도보다 시장이 소화한 뒤 판단하는 게 낫다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "가이던스가 중국을 제외하므로 실적 직접 영향은 작다는 점은 공식 근거로 맞다. 다만 규제·거버넌스 리스크는 Position & Correlation 렌즈의 이벤트 위험으로 남는다."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 중국 제외 가이던스는 확인되나 거버넌스 의혹 자체는 미확인이다. 단일 의견으로 비중을 바꾸지 않는다."
     },
     {
       "post_id": "229461",
@@ -1096,73 +1351,11 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 미확인 의혹과 일정 안내 중심이며 공식 근거가 없다. NVDA 실적과 CPI 결과를 체크포인트로 둔다."
-    },
-    {
-      "post_id": "229659",
-      "analyzed_at": "2026-11-09T16:15:00+09:00",
-      "title": "엔비디아 스캔들",
-      "author": "T3chfeed_테크피드",
-      "summary": "NVDA 스캔들 후속. 작성자는 CEO 교체 가능성을 크게 우려하지 않고, NVDA 코어 펀더멘털은 견고하다고 본다. 3분기 가이던스($108B)가 중국 데이터센터 컴퓨팅 매출을 제외해 실적 영향은 제한적이라는 논리다. 한편 싱가포르 등을 통한 클라우드 연산력 제공이 규제 강화 대상이 될 수 있고, 11/18 APEC 트럼프-시진핑 회담을 주시한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "NVDA 3분기 가이던스 $108B이며 중국 데이터센터 컴퓨팅 매출을 가정에서 제외했다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
-          "evidence_note": "Q2 FY27 8-K 보도자료: Q3 매출 $108.0B ±2%, 중국 데이터센터 컴퓨팅 매출 미가정(WebSearch 요약 확인; 원문 재열람 권장).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "H200 약 60만 장이 홍콩에서 중국 본토 반입 승인을 기다린다(로이터 11/5).",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "2차 인용. 공식 근거 없음.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "미국이 GPU 클라우드 컴퓨팅 접근에 대한 심사를 강화할 수 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "해임 시에도 즉시 매도보다 시장이 소화한 뒤 판단하는 게 낫다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "가이던스가 중국을 제외하므로 실적 직접 영향은 작다는 점은 공식 근거로 맞다. 다만 규제·거버넌스 리스크는 Position & Correlation 렌즈의 이벤트 위험으로 남는다."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 중국 제외 가이던스는 확인되나 거버넌스 의혹 자체는 미확인이다. 단일 의견으로 비중을 바꾸지 않는다."
     }
   ],
-  "new_candidates": [],
+  "new_candidates": [
+    "RKLB"
+  ],
   "report_paths": {
     "analyst_latest": "reports/analyst-latest.md",
     "decision_latest": "reports/decision-latest.md",

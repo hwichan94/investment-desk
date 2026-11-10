@@ -1,18 +1,21 @@
-# 애널리스트 루틴 보고서 (2026-11-10 13:20 KST)
+# 애널리스트 루틴 보고서 (2026-11-11 01:20 KST)
 
-**포트폴리오 점수 71.6 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(71.4 / 83.8) 대비 현재 +0.2(가격 변동), 목표 실행 시 동일. 주요 감점 요인: 목표 정렬, 현금 여력(투자 가능 현금 $201.50, 5% 목표 미달), 보유 종목 질.
+**포트폴리오 점수 71.6 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(71.6 / 83.8) 대비 변화 없음. 주요 감점 요인: 목표 정렬, 현금 여력(5% 목표 미달), 보유 종목 질.
 
 ## 1. 분석한 글 / 아이디어
-- **229854 (T3chfeed, HIMS 3Q 실적)** relevance LOW: 매출 $890M(+49%)과 연간 조정 EBITDA 가이던스 하향($275~325M → $257~277M)은 [SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001773751/000177375126000242/hims-20260930x8xkearningsr.htm)로 CONFIRMED. 구독자 YoY +13%·매출총이익률 약 57%는 PARTIAL. 컨센서스 대비 미스 수치와 분기 EBITDA는 UNVERIFIED(2차 매체 수치 상충). HIMS는 보유·후보 종목이 아니라 thesis 영향 없음.
+- **229744 (세상학개론, 10월 월간지 공지)** NONE: 투자 주장 없음.
+- **229966 (T3chfeed, 사이버트럭의 실패)** MEDIUM, TSLA: 3Q 10-Q로 모델 S/X 2026 중반 단종 CONFIRMED. 사이버트럭 라인의 사이버캡 전환(2027 중반 종료)·12.5만대 설비는 2차 매체뿐이라 PARTIAL, 로보택시 약 1,000대는 UNVERIFIED. thesis 영향 NEUTRAL/LOW.
+- **229987 (세상학개론, 앤스로픽 IPO·로켓랩 3Q)** MEDIUM: RKLB 3Q 매출 $268M, 백로그 $3.57B(+약 $1B 신규 계약)는 [SEC 8-K](https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm)로 CONFIRMED. 뉴트론 발사일·앤스로픽 IPO 조건은 UNVERIFIED. RKLB는 비보유·universe 외이며 EPS 미스·일정 불확실로 편입 근거 부족.
+- 기존 229461의 TSLA 사실 주장을 UNVERIFIED→PARTIAL로 보강.
 - 아이디어 수신함 '대기' 없음.
 
-## 2. 판단 변경
-- 변경 없음. `decision_universe.json`, `portfolio.json`(지문 64ba3c306f2d4e4c) 미수정. 새 글은 비보유 종목이고, 마지막 분석 이후 새 SEC 공시도 없다. 저널 갱신 불필요.
+## 2. 판단 변경 여부
+변경 없음. 모두 단일 의견 또는 2차 출처 수준이며, 신규 공식 실적·가이던스 변화가 없어 `decision_universe.json` 점수·목표 비중을 유지한다. trader-decision-journal 업데이트 필요 없음.
 
-## 3. 지금 실행할 액션 상위 3개 (제안, 주문 아님)
-decision-latest 기준: TSLA 축소(목표 24%, -6.23주), PLTR 추가매수(33%, +3.26주), VRT 추가매수(7%, +5.22주). 재원·상세는 `reports/decision-latest.md` 참조.
+## 3. 지금 실행할 액션 상위 3개
+`reports/decision-latest.md`의 액션을 그대로 따른다(이번 분석으로 변경 없음). 현재 목표 비중·재원·참고 수량은 해당 보고서 참고.
 
-## 4. 데이터 상태 경고
-- Fanding 수집 OK(2026-11-10 12:37 KST). 공식 근거 기준일 2026-11-06(4일 전).
-- 투자 가능 현금 5% 목표 미달.
-- 환경: `python`은 3.11인데 pip는 3.13에 설치되어 `python3.13 -m desk`로 실행. validate OK, pytest 통과.
+## 4. 수집·데이터 상태 경고
+- Fanding 수집 OK(2026-11-10 23:53 KST). 포트폴리오 지문 64ba3c306f2d4e4c, GitHub main과 일치.
+- 공식 근거 기준일 2026-11-06(5일 경과). 이번 실행에서 신규 보유종목 공시 반영은 없음.
+- 환경 문제: 이번 실행에서 pip install이 지연되어 의존성 설치 후 진행. 코드 변경 없음.

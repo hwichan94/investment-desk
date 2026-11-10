@@ -1,0 +1,66 @@
+{
+ "summary": "사이버트럭 라인을 내년 여름부터 사이버캡 생산으로 전환한다는 해석. 사이버트럭은 흑자 전환했으나 기회비용상 사이버캡 확대가 낫다고 보며, 모델 S/X→옵티머스 전환 사례로 약 6개월 소요를 추정한다. 로보택시 약 1,000대 운영으로 수요를 확인 중이며 테슬라가 로보택시에 기업 운명을 걸고 있다는 평가.",
+ "relevance": "MEDIUM",
+ "claims": [
+  {
+   "kind": "FACT",
+   "text": "모델 S/X가 2026년 중반 단종(sunset)되어 S/X 판매가 감소했다.",
+   "tickers": [
+    "TSLA"
+   ],
+   "verification": "CONFIRMED",
+   "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+   "evidence_note": "3Q26 10-Q: 'fewer Model S and Model X deliveries after the product sunset in mid-2026'."
+  },
+  {
+   "kind": "FACT",
+   "text": "머스크가 텍사스 사이버트럭 생산을 2027년 중반경 종료하고 사이버캡 생산을 늘린다.",
+   "tickers": [
+    "TSLA"
+   ],
+   "verification": "PARTIAL",
+   "evidence_note": "WebSearch상 2차 매체(fourweekmba, tikr)가 머스크 X 게시글을 인용. 공식 8-K·주주 덱은 이번에 직접 확인 못 함."
+  },
+  {
+   "kind": "FACT",
+   "text": "사이버캡 설비 연 12.5만대 확보, 사이버트럭 라인도 12.5만대 이상으로 표기.",
+   "tickers": [
+    "TSLA"
+   ],
+   "verification": "PARTIAL",
+   "evidence_note": "2차 매체가 Tesla Q3 덱 수치를 인용. 설비 용량은 실제 생산속도와 다르다고 Tesla 각주에 명시됐다는 보도. 원문 덱 미확인."
+  },
+  {
+   "kind": "FACT",
+   "text": "로보택시는 현재 약 1,000대 규모로 운영 중이다.",
+   "tickers": [
+    "TSLA"
+   ],
+   "verification": "UNVERIFIED",
+   "evidence_note": "공식 자료에서 대수 확인 못 함. 2차 매체는 오스틴 중심·댈러스 예정 수준만 언급."
+  },
+  {
+   "kind": "OPINION",
+   "text": "로보택시 확장이 테슬라의 핵심 베팅이며 사이버캡 전환은 합리적 의사결정이다.",
+   "tickers": [
+    "TSLA"
+   ],
+   "verification": "NOT_APPLICABLE"
+  }
+ ],
+ "thesis_impacts": [
+  {
+   "ticker": "TSLA",
+   "direction": "NEUTRAL",
+   "magnitude": "LOW",
+   "rationale": "이미 알려진 자원 재배치 내러티브의 재해석이다. 신규 공식 수치(수요·단위경제)가 없어 thesis 강화/훼손 근거로는 약하다."
+  }
+ ],
+ "new_candidates": [],
+ "portfolio_implication": "변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다.",
+ "post_id": "229966",
+ "content_hash": "8f4dbbb17ae1efaa48de21f9f096b3a6ba7316b828068e986d65454ea866ae46",
+ "title": "사이버트럭의 실패",
+ "author": "T3chfeed_테크피드",
+ "analyzed_at": "2026-11-11T01:15:00+09:00"
+}

@@ -1,92 +1,90 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-11T15:20:57.159576+09:00",
+  "generated_at": "2026-11-12T02:10:26.809823+09:00",
   "as_of": "2026-11-11",
-  "regime": "RISK_OFF",
-  "score": -3,
+  "regime": "NEUTRAL",
+  "score": -1,
   "reasons": [
     "QQQ below SMA50",
     "SPY below SMA50",
-    "VIX rising above SMA20",
-    "credit HYG/LQD falling",
     "breadth RSP/SPY rising"
   ],
   "components": {
     "vix": {
-      "as_of": "2026-11-10",
-      "price": 19.459999,
-      "sma_20": 19.273,
-      "sma_50": 17.0844,
-      "return_20d": 0.274394,
-      "reason": "VIX rising above SMA20"
+      "as_of": "2026-11-11",
+      "price": 17.780001,
+      "sma_20": 19.3185,
+      "sma_50": 17.136,
+      "return_20d": 0.053942,
+      "reason": "vix mixed or insufficient directional signal"
     },
     "us_10y": {
-      "as_of": "2026-11-10",
-      "price": 4.983,
-      "sma_20": 4.9971,
-      "sma_50": 5.04064,
-      "return_20d": -0.044853,
-      "reason": "US 10Y yield falling over 20 sessions (-4.5%)"
+      "as_of": "2026-11-11",
+      "price": 4.998,
+      "sma_20": 4.9875,
+      "sma_50": 5.04468,
+      "return_20d": -0.036994,
+      "reason": "US 10Y yield falling over 20 sessions (-3.7%)"
     },
     "dollar": {
       "as_of": "2026-11-11",
-      "price": 102.309998,
-      "sma_20": 101.915501,
-      "sma_50": 101.241,
-      "return_20d": -0.00234,
-      "reason": "Dollar index falling over 20 sessions (-0.2%)"
+      "price": 102.901001,
+      "sma_20": 101.945051,
+      "sma_50": 101.25282,
+      "return_20d": 0.003423,
+      "reason": "Dollar index rising over 20 sessions (+0.3%)"
     },
     "qqq": {
-      "as_of": "2026-11-10",
-      "price": 674.76001,
-      "sma_20": 700.864001,
-      "sma_50": 719.19644,
-      "return_20d": -0.09254,
+      "as_of": "2026-11-11",
+      "price": 692.76001,
+      "sma_20": 699.054501,
+      "sma_50": 718.913573,
+      "return_20d": -0.049647,
       "reason": "QQQ below SMA50"
     },
     "spy": {
-      "as_of": "2026-11-10",
-      "price": 749.919983,
-      "sma_20": 760.688489,
-      "sma_50": 764.550414,
-      "return_20d": -0.036105,
+      "as_of": "2026-11-11",
+      "price": 759.969971,
+      "sma_20": 760.206989,
+      "sma_50": 764.551952,
+      "return_20d": -0.012513,
       "reason": "SPY below SMA50"
     },
     "hyg": {
-      "as_of": "2026-11-10",
-      "price": 77.18,
-      "sma_20": 77.179,
-      "sma_50": 77.561224,
-      "return_20d": 0.001168,
+      "as_of": "2026-11-11",
+      "price": 77.285004,
+      "sma_20": 77.20275,
+      "sma_50": 77.531931,
+      "return_20d": 0.006184,
       "reason": "hyg mixed or insufficient directional signal"
     },
     "lqd": {
-      "as_of": "2026-11-10",
-      "price": 103.879997,
-      "sma_20": 103.8775,
-      "sma_50": 103.589499,
-      "return_20d": 0.012969,
+      "as_of": "2026-11-11",
+      "price": 103.82,
+      "sma_20": 103.9355,
+      "sma_50": 103.57054,
+      "return_20d": 0.011299,
       "reason": "lqd mixed or insufficient directional signal"
     },
     "rsp": {
-      "as_of": "2026-11-10",
-      "price": 220.880005,
-      "sma_20": 217.487498,
-      "sma_50": 214.607172,
-      "return_20d": 0.035537,
+      "as_of": "2026-11-11",
+      "price": 222.065002,
+      "sma_20": 217.986248,
+      "sma_50": 214.712969,
+      "return_20d": 0.047032,
       "reason": "rsp mixed or insufficient directional signal"
     },
     "credit_hyg_lqd": {
-      "value": 0.742973,
-      "sma_20": 0.742992,
-      "return_20d": -0.011651,
-      "trend": "FALLING",
-      "reason": "credit HYG/LQD falling"
+      "value": 0.744413,
+      "sma_20": 0.742803,
+      "return_20d": -0.005058,
+      "trend": "FLAT",
+      "reason": "credit_hyg_lqd mixed or insufficient directional signal"
     },
     "breadth_rsp_spy": {
-      "value": 0.294538,
-      "sma_20": 0.285983,
-      "return_20d": 0.074325,
+      "value": 0.292202,
+      "sma_20": 0.286814,
+      "return_20d": 0.060299,
       "trend": "RISING",
       "reason": "breadth RSP/SPY rising"
     }

@@ -1,0 +1,72 @@
+{
+  "post_id": "228676",
+  "content_hash": "dece5a893311f64f98a8395ff2d4c151f9a445efdbf2a8ccfa49bcc6fc16785d",
+  "analyzed_at": "2026-11-12T03:00:00+09:00",
+  "title": "[투자전공반 하반기 톺아보기] 2027년을 준비하는 투자 가설! (비트코인&크립토 편)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "세상학개론의 2027년 투자 가설 복기(비트코인·크립토 편). 핵심 가설은 미 정부·빅테크·금융권의 이해가 맞물려 크립토 시장이 장기 성장한다는 것이다. 근거로 DTCC 주식 토큰화 테스트, 스테이블코인의 단기채 수요, 재무부 바이백발 인플레 헤지 수요를 든다. 클래리티 법안 부결과 양자컴퓨터 위험은 반론으로 점검했으나 가설은 유지한다. 2028년 반감기까지 비트코인 우호 환경이라고 보며, 이더리움은 가치 축적 구조 불명확으로 보류한다. 새 공식 수치는 없고 과거 라이브·일기 발언의 재정리다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "CFTC가 크립토 규제안에 대해 60일 공개 의견 수렴 중이며 이후 본격 규제안이 마련된다.",
+      "tickers": [
+        "CRCL",
+        "HOOD"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://public-inspection.federalregister.gov/2026-20888.pdf",
+      "evidence_note": "CFTC ANPRM(Regulation CTX/CAM, 2026-10-05 발표, Federal Register 게시 예정 10-13)에 60일 의견 수렴 문구 확인. 마감일(약 12월 중순)은 게시일 기준 계산이며 본 데스크 계산. 2027년 대중화 전망은 의견."
+    },
+    {
+      "kind": "FACT",
+      "text": "클래리티 법안이 9월 상원 표결에서 부결됐다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "의회 공식 기록을 검색으로 찾지 못함. 보유·후보 종목 판단과 직접 관련 낮아 추가 시도 보류."
+    },
+    {
+      "kind": "FACT",
+      "text": "DTCC가 블랙락·JP모건·골드만, 로빈후드·써클 등과 주식 토큰화 실거래 테스트를 진행했다.",
+      "tickers": [
+        "HOOD",
+        "CRCL"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "7/15 일기 인용의 재인용이며 DTCC 공식 자료는 이번 세션에서 확인하지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "코인 시장이 8/20 백악관 행사·바이백 발표 후 한 달간 20~30% 상승했다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "가격 데이터는 universe 밖(크립토)이라 data/market에 없음. 출처 없는 수치로 취급."
+    },
+    {
+      "kind": "FACT",
+      "text": "공개키가 노출된 초기 지갑에 약 110만 BTC가 있어 유통량 약 2,000만 개의 5% 정도가 양자컴퓨터 위험에 노출된다.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "온체인 분석 인용. 공식 자료 아님."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "반감기 사이클과 매크로 수요로 2028~2029년까지 비트코인 우상향.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_url": null,
+      "evidence_note": "장기 전망. 채점 시점 2028년 반감기 이후.",
+      "due": "2029-12-31"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "CRCL",
+    "HOOD"
+  ],
+  "portfolio_implication": "변경 없음. 보유·후보 universe에 비트코인/크립토 자산이 없고 글은 과거 발언의 재정리로 새 공식 데이터가 없다. CRCL·HOOD는 언급만 되었고 편입 근거(실적·KPI)가 없어 target 0% 유지. 크립토 노출은 투자 아이디어 수신함으로 요청이 올 때 별도 평가한다."
+}

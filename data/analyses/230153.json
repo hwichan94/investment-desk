@@ -1,107 +1,108 @@
 {
- "summary": "10월 CPI 급등으로 12월 FOMC 인상 확률이 99.8%까지 올라 50bp 가능성도 열려 있고 국채 입찰 수요도 약했다는 거시 정리. 핵심은 코어위브 3분기 실적으로, 작성자는 매출·수익성·가이던스가 모두 서프라이즈였고 네오클라우드의 3대 우려(수요 진위, 구형 GPU 가치, 부채 상환)를 해소했다고 본다. 선수금 70%, 계약 현금흐름의 부채 상환 충분, 2027·2028년 상환 완료 GPU 재가용을 근거로 든다.",
- "relevance": "HIGH",
- "claims": [
-  {
-   "kind": "FACT",
-   "text": "코어위브 3분기 실적이 매출·수익성·가이던스 모두 예상을 상회했다.",
-   "tickers": [
-    "CRWV"
-   ],
-   "verification": "UNVERIFIED",
-   "evidence_note": "2026-11-10 8-K는 new_filings에 감지되었으나 data/market/docs에 원문 없음(path null)이고 sec.gov·investors.coreweave.com 접근 불가. WebSearch에서도 3분기 2026 결과는 색인되지 않음. 직전 2분기 가이던스(3Q 매출 $3.45~3.6B)는 2차 매체로만 확인."
-  },
-  {
-   "kind": "FACT",
-   "text": "올해 계약금액의 70%를 선수금으로 받았고 일부 고객은 100%를 부담한다.",
-   "tickers": [
-    "CRWV"
-   ],
-   "verification": "UNVERIFIED",
-   "evidence_note": "원문 접근 불가."
-  },
-  {
-   "kind": "FACT",
-   "text": "2027년 GPU 13만 개, 2028년 17만 개가 계약 만료로 풀리며 원금 상환이 끝나 추가 CapEx 없이 연 $4B/$10B 매출이 가능하다.",
-   "tickers": [
-    "CRWV"
-   ],
-   "verification": "UNVERIFIED",
-   "evidence_note": "경영진 발언 인용으로 원문·전화회의록 미확인. 갱신·재계약 가격 가정에 의존."
-  },
-  {
-   "kind": "FACT",
-   "text": "코어위브가 확정 계약 현금흐름으로 기존·신규 부채(담보·무담보)를 모두 상환 가능하다고 밝혔다.",
-   "tickers": [
-    "CRWV"
-   ],
-   "verification": "UNVERIFIED",
-   "evidence_note": "회사 주장을 인용한 것으로 원문 미확인. 회사 자기평가이며 독립 검증 아님."
-  },
-  {
-   "kind": "FACT",
-   "text": "호퍼·암페어 GPU 가격이 3분기에만 30~50% 상승했다.",
-   "tickers": [
-    "CRWV"
-   ],
-   "verification": "UNVERIFIED",
-   "evidence_note": "원문 접근 불가."
-  },
-  {
-   "kind": "FACT",
-   "text": "엔스케일의 MS 계약 취소·IPO 연기, 크루소의 와이오밍 부지 구글 양도, 람다-앤스로픽 계약 기한 미충족.",
-   "tickers": [],
-   "verification": "UNVERIFIED",
-   "evidence_note": "1차 출처 확인 못 함."
-  },
-  {
-   "kind": "FACT",
-   "text": "국채 입찰 낙찰금리 5.02%, 간접 낙찰률 61.2%, 프라이머리 딜러 비율 9.8%.",
-   "tickers": [],
-   "verification": "UNVERIFIED",
-   "evidence_note": "TreasuryDirect 접근 불가."
-  },
-  {
-   "kind": "OPINION",
-   "text": "네오클라우드 자금조달 우려는 지금이 피크일 수 있고 시장의 빅테크 대비 할인은 지속되기 어렵다.",
-   "tickers": [
-    "CRWV"
-   ],
-   "verification": "NOT_APPLICABLE"
-  },
-  {
-   "kind": "PREDICTION",
-   "text": "11월 CPI는 12월 10일 발표되며 유가 하락으로 물가 상승률이 낮아질 것이다.",
-   "tickers": [],
-   "verification": "NOT_APPLICABLE",
-   "due": "2026-12-10"
-  }
- ],
- "thesis_impacts": [
-  {
-   "ticker": "CRWV",
-   "direction": "STRENGTHEN",
-   "magnitude": "LOW",
-   "rationale": "신용·수요 우려 완화 주장이나 공식 원문으로 검증하지 못했고 universe상 target 0% 관찰 종목. 원문 확인 전에는 LOW."
-  },
-  {
-   "ticker": "NVDA",
-   "direction": "STRENGTHEN",
-   "magnitude": "LOW",
-   "rationale": "GPU 수요 초과·구형 GPU 가격 상승 주장은 AI CAPEX 수요에 우호적이나 미검증."
-  },
-  {
-   "ticker": "ORCL",
-   "direction": "NEUTRAL",
-   "magnitude": "LOW",
-   "rationale": "네오클라우드 신용 우려 완화 시 AI 인프라 부채 프레임에 간접 영향. 직접 정보 없음."
-  }
- ],
- "new_candidates": [],
- "portfolio_implication": "변경 없음. 코어위브 실적은 유의미하나 공식 원문 검증이 막혀(네트워크 제한) 점수·목표 비중을 바꾸지 않는다. 다음 실행에서 CRWV 8-K 원문 수치를 확인한 뒤 관찰 종목 재평가. 거시(12월 인상) 위험은 이미 RISK 항목으로 반영.",
- "post_id": "230153",
- "content_hash": "77e58dec80c11ff27bc91f06a301fbf939f8e410c65939195757351307bb8805",
- "title": "인플레이션은 튀었지만 코어위브는 잘해줬다...! (코어위브 실적발표)",
- "author": "세상학개론 - 한정수 작가",
- "analyzed_at": "2026-11-11T16:00:00+09:00"
+  "summary": "10월 CPI 급등으로 12월 FOMC 인상 확률이 99.8%까지 올라 50bp 가능성도 열려 있고 국채 입찰 수요도 약했다는 거시 정리. 핵심은 코어위브 3분기 실적으로, 작성자는 매출·수익성·가이던스가 모두 서프라이즈였고 네오클라우드의 3대 우려(수요 진위, 구형 GPU 가치, 부채 상환)를 해소했다고 본다. 선수금 70%, 계약 현금흐름의 부채 상환 충분, 2027·2028년 상환 완료 GPU 재가용을 근거로 든다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "코어위브 3분기 실적이 매출·수익성·가이던스 모두 예상을 상회했다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "2026-11-13 검색 스니펫 기준: 3Q 매출 $3.66B(컨센서스 $3.55B 상회), FY26 가이던스 $13.0~13.3B로 상향. 순손실 $709M이라 수익성 상회는 미확인. IR 원문은 네트워크 차단으로 직접 열람 못함. 나머지 FACT는 UNVERIFIED 유지.",
+      "evidence_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "kind": "FACT",
+      "text": "올해 계약금액의 70%를 선수금으로 받았고 일부 고객은 100%를 부담한다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "원문 접근 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "2027년 GPU 13만 개, 2028년 17만 개가 계약 만료로 풀리며 원금 상환이 끝나 추가 CapEx 없이 연 $4B/$10B 매출이 가능하다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "경영진 발언 인용으로 원문·전화회의록 미확인. 갱신·재계약 가격 가정에 의존."
+    },
+    {
+      "kind": "FACT",
+      "text": "코어위브가 확정 계약 현금흐름으로 기존·신규 부채(담보·무담보)를 모두 상환 가능하다고 밝혔다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "회사 주장을 인용한 것으로 원문 미확인. 회사 자기평가이며 독립 검증 아님."
+    },
+    {
+      "kind": "FACT",
+      "text": "호퍼·암페어 GPU 가격이 3분기에만 30~50% 상승했다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "원문 접근 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔스케일의 MS 계약 취소·IPO 연기, 크루소의 와이오밍 부지 구글 양도, 람다-앤스로픽 계약 기한 미충족.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "1차 출처 확인 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "국채 입찰 낙찰금리 5.02%, 간접 낙찰률 61.2%, 프라이머리 딜러 비율 9.8%.",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "TreasuryDirect 접근 불가."
+    },
+    {
+      "kind": "OPINION",
+      "text": "네오클라우드 자금조달 우려는 지금이 피크일 수 있고 시장의 빅테크 대비 할인은 지속되기 어렵다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "11월 CPI는 12월 10일 발표되며 유가 하락으로 물가 상승률이 낮아질 것이다.",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-10"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "신용·수요 우려 완화 주장이나 공식 원문으로 검증하지 못했고 universe상 target 0% 관찰 종목. 원문 확인 전에는 LOW."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "GPU 수요 초과·구형 GPU 가격 상승 주장은 AI CAPEX 수요에 우호적이나 미검증."
+    },
+    {
+      "ticker": "ORCL",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드 신용 우려 완화 시 AI 인프라 부채 프레임에 간접 영향. 직접 정보 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 코어위브 실적은 유의미하나 공식 원문 검증이 막혀(네트워크 제한) 점수·목표 비중을 바꾸지 않는다. 다음 실행에서 CRWV 8-K 원문 수치를 확인한 뒤 관찰 종목 재평가. 거시(12월 인상) 위험은 이미 RISK 항목으로 반영.",
+  "post_id": "230153",
+  "content_hash": "77e58dec80c11ff27bc91f06a301fbf939f8e410c65939195757351307bb8805",
+  "title": "인플레이션은 튀었지만 코어위브는 잘해줬다...! (코어위브 실적발표)",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-11T16:00:00+09:00"
 }

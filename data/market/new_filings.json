@@ -401,5 +401,30 @@
         }
       ]
     }
+  },
+  {
+    "detected_at": "2026-11-13T04:55:19.259285+09:00",
+    "filings": {
+      "CRWV": [
+        {
+          "form": "10-Q",
+          "filed": "2026-11-12",
+          "report_date": "2026-09-30",
+          "cik": "0001769628",
+          "accession": "0001769628-26-000465",
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm"
+        }
+      ],
+      "NVDA": [
+        {
+          "form": "8-K",
+          "filed": "2026-11-12",
+          "report_date": "2026-11-11",
+          "cik": "0001045810",
+          "accession": "0001045810-26-000082",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+        }
+      ]
+    }
   }
 ]

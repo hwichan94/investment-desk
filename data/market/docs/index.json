@@ -305,23 +305,23 @@
   "CRWV": [
     {
       "form": "10-Q",
+      "filed": "2026-11-12",
+      "report_date": "2026-09-30",
+      "accession": "0001769628-26-000465",
+      "path": "data/market/docs/CRWV/2026-11-12-10-Q-0001769628-26-000465.txt",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm"
+      ],
+      "chars": 400094
+    },
+    {
+      "form": "10-Q",
       "filed": "2026-08-12",
       "report_date": "2026-06-30",
       "accession": "0001769628-26-000366",
       "path": "data/market/docs/CRWV/2026-08-12-10-Q-0001769628-26-000366.txt",
       "sources": [
         "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm"
-      ],
-      "chars": 400094
-    },
-    {
-      "form": "10-Q",
-      "filed": "2026-05-08",
-      "report_date": "2026-03-31",
-      "accession": "0001769628-26-000222",
-      "path": "data/market/docs/CRWV/2026-05-08-10-Q-0001769628-26-000222.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm"
       ],
       "chars": 400094
     },
@@ -589,6 +589,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-12",
+      "accession": "0001045810-26-000082",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-09-03",
       "accession": "0001045810-26-000078",
       "path": null
@@ -603,12 +609,6 @@
       "form": "8-K",
       "filed": "2026-08-17",
       "accession": "0001045810-26-000069",
-      "path": null
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-07-02",
-      "accession": "0001045810-26-000060",
       "path": null
     }
   ],

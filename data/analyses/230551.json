@@ -1,0 +1,23 @@
+{
+  "analyzed_at": "2026-11-13T07:30:00+09:00",
+  "new_candidates": [],
+  "post_id": "230551",
+  "content_hash": "45b75cfd3ccc27dba271735b477de43b9e39e931a9ebd70c475bacdfab85d067",
+  "title": "앰프리어스, 비행기로 보내던 배터리를 이제 배로 보냅니다",
+  "author": "나스다큐",
+  "summary": "텐베거 후보로 다룬 앰프리어스(AMPX) 3Q: 매출 3,910만 달러(+83% YoY), 총이익률 27%, 매출 가이던스 상향, 조정 EBITDA 가이던스는 400만→250만 달러로 하향. 본문이 중간에 끊겨(paywall 추정) 작성자의 우려 내용은 확인 불가.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "AMPX 3Q 매출 3,910만 달러(+83%), 총이익률 27%, 매출 가이던스 상향·조정 EBITDA 가이던스 400만→250만 달러 하향.",
+      "tickers": [
+        "AMPX"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "AMPX는 추적 종목이 아니라 data/market/docs에 없고, 웹 도구로 IR 원문 확인 미시도(낮은 관련도). 본문 잘림."
+    }
+  ],
+  "thesis_impacts": [],
+  "portfolio_implication": "변경 없음. 보유·후보 종목이 아니며(소형주 관찰 아이디어), 편입 판단 근거 부족."
+}

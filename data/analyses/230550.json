@@ -1,0 +1,40 @@
+{
+  "analyzed_at": "2026-11-13T07:30:00+09:00",
+  "new_candidates": [],
+  "post_id": "230550",
+  "content_hash": "98849f14f54274e17e866075bc458c5c1abe0dccafd1e21d092e7b27e3c8b677",
+  "title": "낮에는 코어위브가, 밤에는 젠슨 황이 시장을 흔들었습니다",
+  "author": "나스다큐",
+  "summary": "11일 미국장에서 코어위브가 실적 후 24.7% 급등하며 AI 인프라가 동반 상승했고 엔비디아도 2.94% 올랐으나, 마감 후 WSJ가 엔비디아 이사회의 젠슨 황 CEO 교체 준비를 보도해 시간외 8% 넘게 하락했다. 이사회는 밤늦게 회의했으나 아침까지 결정이 없었다. 짧은 시황 글.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "코어위브가 11일 실적 후 하루 24.7% 상승했다.",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "가격 데이터(data/market) 대조 미실시. 실적 발표 자체는 CRWV 10-Q/8-K 공시로 확인됨."
+    },
+    {
+      "kind": "FACT",
+      "text": "WSJ가 엔비디아 이사회가 젠슨 황 CEO를 내보낼 준비를 한다고 보도, NVDA 시간외 8%+ 하락(159.88달러).",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "11/9 기준 보도(Fortune 등)는 이사회 조사 중이며 황이 CEO 유지. 해임 준비 보도(WSJ)와 시간외 가격은 직접 확인 못함. 11/12 NVDA 8-K는 sec.gov 차단으로 미열람.",
+      "evidence_url": "https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "키맨 리스크 이벤트이나 사업 펀더멘털 훼손 증거 없음, 결정 미확정. 이벤트 리스크 모니터링."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 이사회 결정·공식 8-K 확인 전 NVDA 5% 유지, 단일 보도만으로 비중 변경하지 않는다."
+}

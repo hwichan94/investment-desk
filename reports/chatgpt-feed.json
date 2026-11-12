@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T04:55:30.733445+09:00",
+  "generated_at": "2026-11-13T07:07:43.792588+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -750,6 +750,30 @@
   },
   "recent_analyses": [
     {
+      "post_id": "230138",
+      "analyzed_at": "2026-11-12T22:30:00+09:00",
+      "title": "『STOCK INTRO』 강의 & 전자책 무료 공개!",
+      "author": "T3chfeed_테크피드",
+      "summary": "T3chfeed의 무료 전자책 'STOCK INTRO'와 3주 코어 프로젝트 홍보 글. 펀더멘탈·가치평가·공시 읽는 법의 입문 교육 자료 안내이며 종목·시장 판단은 없다.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 교육·홍보 공지로 투자 판단 내용 없음."
+    },
+    {
+      "post_id": "230450",
+      "analyzed_at": "2026-11-12T22:30:00+09:00",
+      "title": "📌라이브 공지 : 11월 2주차 <분석학개론> 라이브!",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "목요일 8시 투자학개론 라이브(주요 시장 이벤트와 포트폴리오 관리) 진행 공지. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 라이브 일정 공지."
+    },
+    {
       "post_id": "230485",
       "analyzed_at": "2026-11-12T22:30:00+09:00",
       "title": "조비 vs 아처, 앞서 있는 쪽은 어디인가 (3분기 실적 리뷰)",
@@ -822,105 +846,6 @@
         "ACHR"
       ],
       "portfolio_implication": "변경 없음. JOBY/ACHR은 적자 pre-revenue 투기 영역으로 universe 밖이며, 기존 보유 종목 대비 우위나 12개월 KPI·편입 재원이 없어 편입 검토 대상이 아니다."
-    },
-    {
-      "post_id": "230138",
-      "analyzed_at": "2026-11-12T22:30:00+09:00",
-      "title": "『STOCK INTRO』 강의 & 전자책 무료 공개!",
-      "author": "T3chfeed_테크피드",
-      "summary": "T3chfeed의 무료 전자책 'STOCK INTRO'와 3주 코어 프로젝트 홍보 글. 펀더멘탈·가치평가·공시 읽는 법의 입문 교육 자료 안내이며 종목·시장 판단은 없다.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 교육·홍보 공지로 투자 판단 내용 없음."
-    },
-    {
-      "post_id": "230450",
-      "analyzed_at": "2026-11-12T22:30:00+09:00",
-      "title": "📌라이브 공지 : 11월 2주차 <분석학개론> 라이브!",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "목요일 8시 투자학개론 라이브(주요 시장 이벤트와 포트폴리오 관리) 진행 공지. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 라이브 일정 공지."
-    },
-    {
-      "post_id": "230423",
-      "analyzed_at": "2026-11-12T22:30:00+09:00",
-      "title": "젠슨 황 이후의 엔비디아",
-      "author": "T3chfeed_테크피드",
-      "summary": "NVDA CEO 스캔들 관련 부정적 보도가 이어지고 이사회가 대응을 논의 중이라며, 젠슨 황 부재 시 CFO Colette Kress 임시 CEO 및 후임 후보(Ian Buck 내부, Rene Haas 외부)를 논한다. 애플·구글·MS의 CEO 교체 후 시총 사례를 들어 '젠슨=엔비디아' 프레임이 맞을 수도 아닐 수도 있다고 하며, 황이 물러날 확률을 40% 이상으로 본다. CUDA·NVLink·고객관계 해자는 여전히 견고하고 AI 내러티브는 역전 가능하다는 입장이다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "Colette Kress가 임시 CEO를 맡을 것으로 보도되고 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFLICT",
-          "evidence_url": "https://www.axios.com/2026/11/09/nvidia-jensen-huang-succession-plan",
-          "evidence_note": "2026-11-09 기준 보도는 황이 조사 기간 중 CEO직을 유지하며 Kress는 가능한 임시 대안으로만 거론된다. 임시 CEO 선임 확정 보도는 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "NVDA 이사회가 CEO 관련 사안을 조사 중이다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.scrippsnews.com/us-news/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-with-whom-he-had-an-affair",
-          "evidence_note": "언론 보도로 확인(NYT 인용). SEC 8-K 등 회사 공식 공시는 미확인; 회사는 국가안보·영업비밀 침해 정황이 없다고 밝힌 것으로 보도됨.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "Ian Buck은 CUDA 핵심 개발자 출신 HPC 부문 부사장이며 Rene Haas는 과거 엔비디아 부사장 후 ARM CEO다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "이번 검색에서 직접 확인하지 못함. 후보 거론은 투자 판단에 직접 영향 없음.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "젠슨 황이 CEO직을 내려놓을 확률이 40% 이상이다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "작성자 주관 확률. 근거 수치 없음.",
-          "due": "2027-12-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "CUDA 생태계·NVLink·고객 관계로 구축된 해자는 키맨 부재에도 견고하며 CEO 교체 후 내러티브가 반전될 수 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "키맨·지배구조 리스크는 커졌지만 사업 펀더멘털 훼손 증거는 없고, 글의 핵심 사실(임시 CEO)은 공식 보도로 확인되지 않음. 점수·비중 변경 근거로 부족."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. NVDA 5%는 이벤트 리스크 모니터링 대상. 이사회 조사 결과·공식 8-K 공시가 나오면 재평가하고, 단일 의견만으로 비중을 바꾸지 않는다."
     },
     {
       "post_id": "230357",
@@ -1139,6 +1064,106 @@
       "portfolio_implication": "변경 없음. 보유·후보 universe에 비트코인/크립토 자산이 없고 글은 과거 발언의 재정리로 새 공식 데이터가 없다. CRCL·HOOD는 언급만 되었고 편입 근거(실적·KPI)가 없어 target 0% 유지. 크립토 노출은 투자 아이디어 수신함으로 요청이 올 때 별도 평가한다."
     },
     {
+      "post_id": "230094",
+      "analyzed_at": "2026-11-11T16:00:00+09:00",
+      "title": "시장의 새로운 걱정, \"금리 0.5% 인상하나?\" | 11-11 미국 시황 정리",
+      "author": "T3chfeed_테크피드",
+      "summary": "10월 CPI가 예상을 상회(근원 0.3% vs 예상 0.2%)해 12월 금리 인상 폭(0.25%p vs 0.50%p) 논쟁이 시작됐다는 시황. 엔비디아는 수출위반 의혹으로 뉴욕남부연방검사장 조사 대상이 되어 -5.47%, 힘스는 단기 실적 실망으로 -16.61%지만 2030 목표(매출 $6.5B+, 조정 EBITDA $1.3B+)를 재확인했다. 템퍼스·조비·앱셀레라 소식과 분산·현금 체력의 중요성을 강조한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "10월 CPI가 예상을 상회했고 근원 CPI는 +0.3%(예상 0.2%).",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "이번 실행에서 sec.gov·BLS 도메인 접근 불가(네트워크 허용 목록 밖). 검증 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "CME 기준 12월 0.25%p 인상 90.8%, 0.50%p 인상 9.2%.",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "CME FedWatch 접근 불가. 같은 날 다른 글(230153)은 12월 인상 확률 99.8%라고 하여 인상 폭 확률 표현이 서로 다름(시점 차이 가능).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "엔비디아가 뉴욕남부연방검사장·법무법인 WLR&K를 선임했고 약 $75억 규모 칩 수출 위반 의혹이 보도됐다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 공시·1차 보도 확인 못 함. 의혹 단계 정보.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "힘스가 2030년 목표(매출 최소 $6.5B, 조정 EBITDA 최소 $1.3B)를 재확인했다.",
+          "tickers": [
+            "HIMS"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://quartr.com/events/hims-hers-health-inc-hims-q2-2026_3eQ7k2rQ",
+          "evidence_note": "2차 요약(Quartr 등)에서 동일 목표가 2026년에도 유지로 확인되나 이번 3분기 프레젠테이션 원문은 미확인. HIMS는 비보유·universe 외.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "엔비디아 조사 1차 1~3개월, 최종 3~6개월 소요.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-05-11"
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "12월 CPI에서 11월 유가 하락이 반영되는지에 따라 12월 인상 폭이 갈린다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-10"
+        },
+        {
+          "kind": "OPINION",
+          "text": "고금리 국면에서는 현금 체력과 기술 발전이 관건이며 분석 기반 분산이 승률을 높인다.",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "수출위반 의혹 조사는 불확실성 요인이나 의혹 단계이며 공식 확인 없음. 펀더멘털 변화 없어 thesis 훼손으로 보지 않고 위험 모니터링 항목으로만 기록."
+        },
+        {
+          "ticker": "PLTR",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "금리 인상 폭 우려는 고밸류 성장주 전반의 할인율 요인이나 개별 thesis 정보는 없음."
+        }
+      ],
+      "new_candidates": [
+        "HIMS",
+        "TEM",
+        "JOBY",
+        "ABCL"
+      ],
+      "portfolio_implication": "변경 없음. 거시(12월 인상) 우려와 NVDA 조사는 단일 작성자 의견·미확인 보도 수준이라 비중을 바꾸지 않는다. NVDA 조사 진행과 12월 10일 CPI/FOMC를 체크포인트로 유지. HIMS 등 언급 종목은 universe 외로 편입 근거 없음."
+    },
+    {
       "post_id": "230153",
       "analyzed_at": "2026-11-11T16:00:00+09:00",
       "title": "인플레이션은 튀었지만 코어위브는 잘해줬다...! (코어위브 실적발표)",
@@ -1264,179 +1289,16 @@
       "portfolio_implication": "변경 없음. 코어위브 실적은 유의미하나 공식 원문 검증이 막혀(네트워크 제한) 점수·목표 비중을 바꾸지 않는다. 다음 실행에서 CRWV 8-K 원문 수치를 확인한 뒤 관찰 종목 재평가. 거시(12월 인상) 위험은 이미 RISK 항목으로 반영."
     },
     {
-      "post_id": "230094",
-      "analyzed_at": "2026-11-11T16:00:00+09:00",
-      "title": "시장의 새로운 걱정, \"금리 0.5% 인상하나?\" | 11-11 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "10월 CPI가 예상을 상회(근원 0.3% vs 예상 0.2%)해 12월 금리 인상 폭(0.25%p vs 0.50%p) 논쟁이 시작됐다는 시황. 엔비디아는 수출위반 의혹으로 뉴욕남부연방검사장 조사 대상이 되어 -5.47%, 힘스는 단기 실적 실망으로 -16.61%지만 2030 목표(매출 $6.5B+, 조정 EBITDA $1.3B+)를 재확인했다. 템퍼스·조비·앱셀레라 소식과 분산·현금 체력의 중요성을 강조한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "10월 CPI가 예상을 상회했고 근원 CPI는 +0.3%(예상 0.2%).",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "이번 실행에서 sec.gov·BLS 도메인 접근 불가(네트워크 허용 목록 밖). 검증 못 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "CME 기준 12월 0.25%p 인상 90.8%, 0.50%p 인상 9.2%.",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "CME FedWatch 접근 불가. 같은 날 다른 글(230153)은 12월 인상 확률 99.8%라고 하여 인상 폭 확률 표현이 서로 다름(시점 차이 가능).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "엔비디아가 뉴욕남부연방검사장·법무법인 WLR&K를 선임했고 약 $75억 규모 칩 수출 위반 의혹이 보도됐다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 공시·1차 보도 확인 못 함. 의혹 단계 정보.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "힘스가 2030년 목표(매출 최소 $6.5B, 조정 EBITDA 최소 $1.3B)를 재확인했다.",
-          "tickers": [
-            "HIMS"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://quartr.com/events/hims-hers-health-inc-hims-q2-2026_3eQ7k2rQ",
-          "evidence_note": "2차 요약(Quartr 등)에서 동일 목표가 2026년에도 유지로 확인되나 이번 3분기 프레젠테이션 원문은 미확인. HIMS는 비보유·universe 외.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "엔비디아 조사 1차 1~3개월, 최종 3~6개월 소요.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-05-11"
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "12월 CPI에서 11월 유가 하락이 반영되는지에 따라 12월 인상 폭이 갈린다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-10"
-        },
-        {
-          "kind": "OPINION",
-          "text": "고금리 국면에서는 현금 체력과 기술 발전이 관건이며 분석 기반 분산이 승률을 높인다.",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "WEAKEN",
-          "magnitude": "LOW",
-          "rationale": "수출위반 의혹 조사는 불확실성 요인이나 의혹 단계이며 공식 확인 없음. 펀더멘털 변화 없어 thesis 훼손으로 보지 않고 위험 모니터링 항목으로만 기록."
-        },
-        {
-          "ticker": "PLTR",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "금리 인상 폭 우려는 고밸류 성장주 전반의 할인율 요인이나 개별 thesis 정보는 없음."
-        }
-      ],
-      "new_candidates": [
-        "HIMS",
-        "TEM",
-        "JOBY",
-        "ABCL"
-      ],
-      "portfolio_implication": "변경 없음. 거시(12월 인상) 우려와 NVDA 조사는 단일 작성자 의견·미확인 보도 수준이라 비중을 바꾸지 않는다. NVDA 조사 진행과 12월 10일 CPI/FOMC를 체크포인트로 유지. HIMS 등 언급 종목은 universe 외로 편입 근거 없음."
-    },
-    {
-      "post_id": "229966",
+      "post_id": "229744",
       "analyzed_at": "2026-11-11T01:15:00+09:00",
-      "title": "사이버트럭의 실패",
-      "author": "T3chfeed_테크피드",
-      "summary": "사이버트럭 라인을 내년 여름부터 사이버캡 생산으로 전환한다는 해석. 사이버트럭은 흑자 전환했으나 기회비용상 사이버캡 확대가 낫다고 보며, 모델 S/X→옵티머스 전환 사례로 약 6개월 소요를 추정한다. 로보택시 약 1,000대 운영으로 수요를 확인 중이며 테슬라가 로보택시에 기업 운명을 걸고 있다는 평가.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "모델 S/X가 2026년 중반 단종(sunset)되어 S/X 판매가 감소했다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
-          "evidence_note": "3Q26 10-Q: 'fewer Model S and Model X deliveries after the product sunset in mid-2026'.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "머스크가 텍사스 사이버트럭 생산을 2027년 중반경 종료하고 사이버캡 생산을 늘린다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "WebSearch상 2차 매체(fourweekmba, tikr)가 머스크 X 게시글을 인용. 공식 8-K·주주 덱은 이번에 직접 확인 못 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "사이버캡 설비 연 12.5만대 확보, 사이버트럭 라인도 12.5만대 이상으로 표기.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "2차 매체가 Tesla Q3 덱 수치를 인용. 설비 용량은 실제 생산속도와 다르다고 Tesla 각주에 명시됐다는 보도. 원문 덱 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "로보택시는 현재 약 1,000대 규모로 운영 중이다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료에서 대수 확인 못 함. 2차 매체는 오스틴 중심·댈러스 예정 수준만 언급.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "로보택시 확장이 테슬라의 핵심 베팅이며 사이버캡 전환은 합리적 의사결정이다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "이미 알려진 자원 재배치 내러티브의 재해석이다. 신규 공식 수치(수요·단위경제)가 없어 thesis 강화/훼손 근거로는 약하다."
-        }
-      ],
+      "title": "🎉특별 콘텐츠 : 투자전공반 10월 월간지! (+편지)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "투자전공반 10월 월간지(PDF) 배포 공지. 거시·지정학, AI 인프라 자금조달, 시장 심리, 현금 비중 복기 목차만 소개되며 본문 투자 주장은 없다.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다."
+      "portfolio_implication": "변경 없음. 공지성 글이며 PDF 본문은 수집 대상이 아니다."
     },
     {
       "post_id": "229987",
@@ -1541,18 +1403,6 @@
         "RKLB"
       ],
       "portfolio_implication": "변경 없음. RKLB는 비보유·universe 외 종목이며 EPS 미스와 뉴트론 일정 불확실이 있어 보유 종목 대비 우위를 입증하지 못했다. 신규 편입 판단은 별도 평가 없이 하지 않는다. 앤스로픽 IPO는 비상장 이벤트로 목표 비중 영향 없음."
-    },
-    {
-      "post_id": "229744",
-      "analyzed_at": "2026-11-11T01:15:00+09:00",
-      "title": "🎉특별 콘텐츠 : 투자전공반 10월 월간지! (+편지)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "투자전공반 10월 월간지(PDF) 배포 공지. 거시·지정학, AI 인프라 자금조달, 시장 심리, 현금 비중 복기 목차만 소개되며 본문 투자 주장은 없다.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 공지성 글이며 PDF 본문은 수집 대상이 아니다."
     },
     {
       "post_id": "229854",
@@ -1668,18 +1518,6 @@
       "portfolio_implication": "변경 없음. 마케팅 공지."
     },
     {
-      "post_id": "229707",
-      "analyzed_at": "2026-11-10T08:30:00+09:00",
-      "title": "📢 2027년 투자전공반 연회원권 & 굿즈 패키지 사전 안내 🎁",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "세상학개론 2027년 연회원권(11/16~11/30) 및 굿즈 패키지 안내. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 구독 운영 공지."
-    },
-    {
       "post_id": "229685",
       "analyzed_at": "2026-11-10T08:30:00+09:00",
       "title": "AI는 기술 패권 전쟁이라는 걸 다시금 일깨워준 젠슨 황 (ft. 이더리움)",
@@ -1762,6 +1600,18 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 핵심 주장 일부만 2차 매체로 부분 확인, 단일 의견이며 가이던스는 중국 제외. 11/18 미중 회담·NVDA 실적·수출통제 입법을 체크포인트로 유지."
+    },
+    {
+      "post_id": "229707",
+      "analyzed_at": "2026-11-10T08:30:00+09:00",
+      "title": "📢 2027년 투자전공반 연회원권 & 굿즈 패키지 사전 안내 🎁",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "세상학개론 2027년 연회원권(11/16~11/30) 및 굿즈 패키지 안내. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 구독 운영 공지."
     }
   ],
   "new_candidates": [

@@ -15,7 +15,7 @@
       ],
       "verification": "UNVERIFIED",
       "evidence_url": null,
-      "evidence_note": "3Q 8-K(2026-11-10) 원문과 IR 접근 불가(sec.gov·investors.coreweave.com 네트워크 차단). 직전 2Q 보고 기준 FY26 가이던스는 $12.4~13.2B로 확인되어 상향 방향은 정합적이나 새 수치는 미확인."
+      "evidence_note": "3Q 릴리스 검색 요약에서 FY 매출 가이던스 수치 미확인(capex만 확인). 이전 FY26 가이던스 $12.4~13.2B와 방향은 정합적."
     },
     {
       "kind": "FACT",
@@ -23,9 +23,9 @@
       "tickers": [
         "CRWV"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_url": null,
-      "evidence_note": "공식 자료 미확보. 2Q 말 약 $104B + 3Q 초 신규 약정 $25B+(검색 결과)로 약 $129B+ 수준이라 규모 면에서는 부합하나 $132.5B 자체는 확인 못함."
+      "verification": "CONFIRMED",
+      "evidence_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "evidence_note": "CoreWeave 3Q26 IR 릴리스: 9/30 기준 매출 수주잔고 약 $132.5B, 3Q 매출 $3,661M, 영업이익 $207M, FY26 capex $37~39B."
     },
     {
       "kind": "FACT",
@@ -44,8 +44,8 @@
         "NVDA"
       ],
       "verification": "PARTIAL",
-      "evidence_url": "https://abc7news.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/",
-      "evidence_note": "11/9 언론 보도로 이사회 독립 조사·CEO 관계 인정·시간외 하락(약 3~5%) 확인. 공식 IR/SEC 자료는 아님. 글의 '직속 임원 추가 폭로'와 '추가 8% 하락'은 11/12분이라 확인 못함."
+      "evidence_url": "https://www.scrippsnews.com/us-news/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-with-whom-he-had-an-affair",
+      "evidence_note": "언론 보도로 이사회 조사 확인; 황은 조사 중 CEO 유지. 공식 공시는 미확인."
     },
     {
       "kind": "FACT",

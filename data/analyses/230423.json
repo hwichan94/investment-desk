@@ -1,0 +1,68 @@
+{
+  "post_id": "230423",
+  "content_hash": "8863cba5cc1a362acd221b098fc93e718c6ff3d14d4a846991c2180c87f6eeb4",
+  "analyzed_at": "2026-11-12T22:30:00+09:00",
+  "title": "젠슨 황 이후의 엔비디아",
+  "author": "T3chfeed_테크피드",
+  "summary": "NVDA CEO 스캔들 관련 부정적 보도가 이어지고 이사회가 대응을 논의 중이라며, 젠슨 황 부재 시 CFO Colette Kress 임시 CEO 및 후임 후보(Ian Buck 내부, Rene Haas 외부)를 논한다. 애플·구글·MS의 CEO 교체 후 시총 사례를 들어 '젠슨=엔비디아' 프레임이 맞을 수도 아닐 수도 있다고 하며, 황이 물러날 확률을 40% 이상으로 본다. CUDA·NVLink·고객관계 해자는 여전히 견고하고 AI 내러티브는 역전 가능하다는 입장이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Colette Kress가 임시 CEO를 맡을 것으로 보도되고 있다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFLICT",
+      "evidence_url": "https://www.axios.com/2026/11/09/nvidia-jensen-huang-succession-plan",
+      "evidence_note": "2026-11-09 기준 보도는 황이 조사 기간 중 CEO직을 유지하며 Kress는 가능한 임시 대안으로만 거론된다. 임시 CEO 선임 확정 보도는 찾지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 이사회가 CEO 관련 사안을 조사 중이다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.scrippsnews.com/us-news/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-with-whom-he-had-an-affair",
+      "evidence_note": "언론 보도로 확인(NYT 인용). SEC 8-K 등 회사 공식 공시는 미확인; 회사는 국가안보·영업비밀 침해 정황이 없다고 밝힌 것으로 보도됨."
+    },
+    {
+      "kind": "FACT",
+      "text": "Ian Buck은 CUDA 핵심 개발자 출신 HPC 부문 부사장이며 Rene Haas는 과거 엔비디아 부사장 후 ARM CEO다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이번 검색에서 직접 확인하지 못함. 후보 거론은 투자 판단에 직접 영향 없음."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "젠슨 황이 CEO직을 내려놓을 확률이 40% 이상이다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2027-12-31",
+      "evidence_note": "작성자 주관 확률. 근거 수치 없음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "CUDA 생태계·NVLink·고객 관계로 구축된 해자는 키맨 부재에도 견고하며 CEO 교체 후 내러티브가 반전될 수 있다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "키맨·지배구조 리스크는 커졌지만 사업 펀더멘털 훼손 증거는 없고, 글의 핵심 사실(임시 CEO)은 공식 보도로 확인되지 않음. 점수·비중 변경 근거로 부족."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. NVDA 5%는 이벤트 리스크 모니터링 대상. 이사회 조사 결과·공식 8-K 공시가 나오면 재평가하고, 단일 의견만으로 비중을 바꾸지 않는다."
+}

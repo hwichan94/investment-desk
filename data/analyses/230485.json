@@ -1,0 +1,67 @@
+{
+  "post_id": "230485",
+  "content_hash": "21a5d7be4935368765837cde4a8c640b31803430180c6d971d2b061a9f76cac3",
+  "analyzed_at": "2026-11-12T22:30:00+09:00",
+  "title": "조비 vs 아처, 앞서 있는 쪽은 어디인가 (3분기 실적 리뷰)",
+  "author": "T3chfeed_테크피드",
+  "summary": "UAM 대표주 Joby와 Archer의 3분기 실적을 경영진 약속 이행, 비행 단계, 승객운항, 파트너십, 생산, 현금 6개 축으로 비교한다. 둘 다 FAA 인증 일정을 못 지켰고 유료 상업운항 목표가 사라졌으나, 비행 단계·현금·매출 규모·생산에서 조비가 앞서고 Archer는 Anduril 방산 납품에서 앞선다고 결론짓는다. 투자 권유가 아닌 비교 분석이다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Joby 3분기 매출은 $55.09M이다.",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001819848/000181984826000531/joby-8kx20261104xexx99_1.htm",
+      "evidence_note": "Joby 3Q26 8-K 보도자료: 매출 $55.1M, 순손실 $211.8M, 현금성 $2.2B, 17대 생산 중."
+    },
+    {
+      "kind": "FACT",
+      "text": "Archer 3분기 매출은 $5.1M이며 Anduril에 초도 부품(배터리팩·전기모터)을 납품했다.",
+      "tickers": [
+        "ACHR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm",
+      "evidence_note": "Archer 3Q26 8-K: 매출 $5.1M, 현금·단기투자 $1,353.6M, 영업현금소진 $164.6M. Anduril 납품은 검색 요약 기준으로 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "Joby의 소비 가능 기간은 약 11분기, Archer는 약 6.5분기다.",
+      "tickers": [
+        "JOBY",
+        "ACHR"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001824502/000182450226000087/archerq326earningspressr.htm",
+      "evidence_note": "현금($2.2B vs $1.35B)과 소진 방향은 일치. 분기 수는 작성자 산식이며 직접 확인하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "Joby는 Toyota로부터 1차 $250M을 받고 2차를 기다리며, Archer는 Stellantis 최대 $400M 합의 후 수령액이 없다.",
+      "tickers": [
+        "JOBY",
+        "ACHR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이번 검색에서 원문 확인 못함."
+    },
+    {
+      "kind": "OPINION",
+      "text": "지금까지 확인된 범위에서는 Joby가 Archer보다 앞서 있다.",
+      "tickers": [
+        "JOBY",
+        "ACHR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "JOBY",
+    "ACHR"
+  ],
+  "portfolio_implication": "변경 없음. JOBY/ACHR은 적자 pre-revenue 투기 영역으로 universe 밖이며, 기존 보유 종목 대비 우위나 12개월 KPI·편입 재원이 없어 편입 검토 대상이 아니다."
+}

@@ -1,0 +1,75 @@
+{
+  "summary": "젠슨 황 사임 발표 후 NVDA -4.3%, AVGO·AMD는 약 +5% 상승. 유가 재상승으로 중소형주 조정, PPI 대기. 임시 CEO는 CFO 크레스이며 과거 황의 공격적 투자·보증에 제동을 건 인물이라 NVDA의 투자전략이 보수화될 수 있다는 해석. 테슬라-스페이스X 합병 협상 진전 보도(빠르면 12월 발표), 앱셀레라 CEO 내부자 매수. 작성자는 NVDA를 아직 매도하지 않았다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "젠슨 황이 즉시 사임하고 CFO 콜레트 크레스가 임시 CEO를 맡았다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "NVDA 8-K(2026-11-12) 및 회사 보도자료로 확인(웹 검색 결과 요약; sec.gov 직접 열람은 네트워크 차단).",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA -4.3%, AVGO·AMD 약 +5% 마감.",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "data/market/quotes.json: NVDA 종가 166.19, AVGO 364.36(전일 291.53 대비 급등폭이 더 크나 전일 기준 불일치 가능). 방향은 일치, 정확한 등락률은 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "블룸버그·로이터: 테슬라-스페이스X 합병 협상 진전, 빠르면 12월 발표.",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "웹 검색을 NVDA·NBIS 위주로만 수행, 합병 보도 원문 미확인. 2차 전언."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "12월 테슬라-스페이스X 합병 발표 가능(2027년 초 지연 가능성도).",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_note": "작성자가 전하는 보도 기반 전망.",
+      "due": "2026-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "크레스 체제에서 NVDA 투자·보증 전략이 보수화될 수 있다.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "evidence_note": "의견."
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "WEAKEN",
+      "magnitude": "MEDIUM",
+      "rationale": "키맨 부재는 공식 확인된 사실. 다만 사업 펀더멘털 훼손 증거는 아직 없고 후임·전략 불확실성이 핵심."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병은 보도 단계, 주주승인·중국/국방 장애 존재. 조건·교환비율 미정."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "NVDA(5%)는 CEO 공백 이벤트 리스크. 단일 의견으로 비중 변경하지 않고, 다음주 NVDA 실적과 후임 CEO 발표를 체크포인트로 둔다. TSLA 합병은 확인 전 반영 안 함.",
+  "analyzed_at": "2026-11-13T12:00:00+09:00",
+  "post_id": "230625",
+  "content_hash": "3f58df7d3c01de668aee48b61db01042c6e60a2c30765d5ec1df88ee7912ed1c",
+  "title": "젠슨 황이 없는 엔비디아 | 11-13 미국 시황 정리",
+  "author": "T3chfeed_테크피드"
+}

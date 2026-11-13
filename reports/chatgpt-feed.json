@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T10:51:29.635282+09:00",
+  "generated_at": "2026-11-13T13:07:20.854842+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -750,103 +750,241 @@
   },
   "recent_analyses": [
     {
-      "post_id": "229966",
-      "analyzed_at": "2026-11-13T07:30:00+09:00",
-      "title": "사이버트럭의 실패",
-      "author": "T3chfeed_테크피드",
-      "summary": "사이버트럭 라인을 내년 여름부터 사이버캡 생산으로 전환한다는 해석. 사이버트럭은 흑자 전환했으나 기회비용상 사이버캡 확대가 낫다고 보며, 모델 S/X→옵티머스 전환 사례로 약 6개월 소요를 추정한다. 로보택시 약 1,000대 운영으로 수요를 확인 중이며 테슬라가 로보택시에 기업 운명을 걸고 있다는 평가.",
+      "post_id": "230631",
+      "analyzed_at": "2026-11-13T12:00:00+09:00",
+      "title": "젠슨 황이 떠난 날, 시장은 생각보다 빨리 숨을 골랐습니다",
+      "author": "나스다큐",
+      "summary": "12일 미국장에서 나스닥은 장초반 -1.5%에서 -0.39% 마감. NVDA는 148.80달러 저점 후 165달러까지 반등해 4.34% 하락한 166.19달러로 마감. 임시 CEO는 크레스(CFO 겸직), 첫 독립 의장 하비 존스, 사임 사유는 회사가 밝히지 않음. 시장은 AI 투자 흐름 자체는 꺾이지 않았다고 판단.",
       "relevance": "MEDIUM",
       "claims": [
         {
           "kind": "FACT",
-          "text": "모델 S/X가 2026년 중반 단종(sunset)되어 S/X 판매가 감소했다.",
+          "text": "크레스 임시 CEO, 하비 존스 첫 이사회 의장, 황은 CEO·이사직 모두 사임, 회사는 사유 미공개.",
           "tickers": [
-            "TSLA"
+            "NVDA"
           ],
           "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
-          "evidence_note": "3Q26 10-Q: 'fewer Model S and Model X deliveries after the product sunset in mid-2026'.",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+          "evidence_note": "NVDA 8-K/보도자료 요약으로 확인.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "머스크가 텍사스 사이버트럭 생산을 2027년 중반경 종료하고 사이버캡 생산을 늘린다.",
+          "text": "NVDA는 148.80달러 저점 후 4.34% 내린 166.19달러로 마감.",
           "tickers": [
-            "TSLA"
+            "NVDA"
           ],
           "verification": "PARTIAL",
           "evidence_url": null,
-          "evidence_note": "WebSearch상 2차 매체(fourweekmba, tikr)가 머스크 X 게시글을 인용. 공식 8-K·주주 덱은 이번에 직접 확인 못 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "사이버캡 설비 연 12.5만대 확보, 사이버트럭 라인도 12.5만대 이상으로 표기.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "2차 매체가 Tesla Q3 덱 수치를 인용. 설비 용량은 실제 생산속도와 다르다고 Tesla 각주에 명시됐다는 보도. 원문 덱 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "로보택시는 현재 약 1,000대 규모로 운영 중이다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료에서 대수 확인 못 함. 2차 매체는 오스틴 중심·댈러스 예정 수준만 언급.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "로보택시 확장이 테슬라의 핵심 베팅이며 사이버캡 전환은 합리적 의사결정이다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
+          "evidence_note": "종가 166.19는 data/market/quotes.json과 일치. 저점·등락률은 미확인(quotes의 previous_close 181.6은 등락률과 불일치, 기준일 상이 가능).",
           "due": null
         }
       ],
       "thesis_impacts": [
         {
-          "ticker": "TSLA",
+          "ticker": "NVDA",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "이미 알려진 자원 재배치 내러티브의 재해석이다. 신규 공식 수치(수요·단위경제)가 없어 thesis 강화/훼손 근거로는 약하다."
+          "rationale": "장중 -14%에서 -4%로 회복한 가격반응은 수요 thesis 유지로 해석 가능하나 해석은 작성자 의견."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다. [본문 개정(rev2) 재검토: 주장·결론 변화 없음.]"
+      "portfolio_implication": "변경 없음. 사건은 공식 확인됐고 시장 반응은 제한적이었다."
     },
     {
-      "post_id": "230551",
-      "analyzed_at": "2026-11-13T07:30:00+09:00",
-      "title": "앰프리어스, 비행기로 보내던 배터리를 이제 배로 보냅니다",
-      "author": "나스다큐",
-      "summary": "텐베거 후보로 다룬 앰프리어스(AMPX) 3Q: 매출 3,910만 달러(+83% YoY), 총이익률 27%, 매출 가이던스 상향, 조정 EBITDA 가이던스는 400만→250만 달러로 하향. 본문이 중간에 끊겨(paywall 추정) 작성자의 우려 내용은 확인 불가.",
-      "relevance": "LOW",
+      "post_id": "230625",
+      "analyzed_at": "2026-11-13T12:00:00+09:00",
+      "title": "젠슨 황이 없는 엔비디아 | 11-13 미국 시황 정리",
+      "author": "T3chfeed_테크피드",
+      "summary": "젠슨 황 사임 발표 후 NVDA -4.3%, AVGO·AMD는 약 +5% 상승. 유가 재상승으로 중소형주 조정, PPI 대기. 임시 CEO는 CFO 크레스이며 과거 황의 공격적 투자·보증에 제동을 건 인물이라 NVDA의 투자전략이 보수화될 수 있다는 해석. 테슬라-스페이스X 합병 협상 진전 보도(빠르면 12월 발표), 앱셀레라 CEO 내부자 매수. 작성자는 NVDA를 아직 매도하지 않았다.",
+      "relevance": "HIGH",
       "claims": [
         {
           "kind": "FACT",
-          "text": "AMPX 3Q 매출 3,910만 달러(+83%), 총이익률 27%, 매출 가이던스 상향·조정 EBITDA 가이던스 400만→250만 달러 하향.",
+          "text": "젠슨 황이 즉시 사임하고 CFO 콜레트 크레스가 임시 CEO를 맡았다.",
           "tickers": [
-            "AMPX"
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+          "evidence_note": "NVDA 8-K(2026-11-12) 및 회사 보도자료로 확인(웹 검색 결과 요약; sec.gov 직접 열람은 네트워크 차단).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "NVDA -4.3%, AVGO·AMD 약 +5% 마감.",
+          "tickers": [
+            "NVDA",
+            "AVGO"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "data/market/quotes.json: NVDA 종가 166.19, AVGO 364.36(전일 291.53 대비 급등폭이 더 크나 전일 기준 불일치 가능). 방향은 일치, 정확한 등락률은 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "블룸버그·로이터: 테슬라-스페이스X 합병 협상 진전, 빠르면 12월 발표.",
+          "tickers": [
+            "TSLA"
           ],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "AMPX는 추적 종목이 아니라 data/market/docs에 없고, 웹 도구로 IR 원문 확인 미시도(낮은 관련도). 본문 잘림.",
+          "evidence_note": "웹 검색을 NVDA·NBIS 위주로만 수행, 합병 보도 원문 미확인. 2차 전언.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "12월 테슬라-스페이스X 합병 발표 가능(2027년 초 지연 가능성도).",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": "작성자가 전하는 보도 기반 전망.",
+          "due": "2026-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "크레스 체제에서 NVDA 투자·보증 전략이 보수화될 수 있다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": "의견.",
           "due": null
         }
       ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "WEAKEN",
+          "magnitude": "MEDIUM",
+          "rationale": "키맨 부재는 공식 확인된 사실. 다만 사업 펀더멘털 훼손 증거는 아직 없고 후임·전략 불확실성이 핵심."
+        },
+        {
+          "ticker": "TSLA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "합병은 보도 단계, 주주승인·중국/국방 장애 존재. 조건·교환비율 미정."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "NVDA(5%)는 CEO 공백 이벤트 리스크. 단일 의견으로 비중 변경하지 않고, 다음주 NVDA 실적과 후임 CEO 발표를 체크포인트로 둔다. TSLA 합병은 확인 전 반영 안 함."
+    },
+    {
+      "post_id": "230666",
+      "analyzed_at": "2026-11-13T12:00:00+09:00",
+      "title": "🎓11월 2주차 분석학개론 라이브 (26.11.12)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "라이브 녹화본 안내와 댓글 요청. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
       "thesis_impacts": [],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 보유·후보 종목이 아니며(소형주 관찰 아이디어), 편입 판단 근거 부족."
+      "portfolio_implication": "변경 없음 (공지)."
+    },
+    {
+      "post_id": "230658",
+      "analyzed_at": "2026-11-13T12:00:00+09:00",
+      "title": "왕좌에서 내려온 젠슨황, AI 업계 세대 교체의 신호탄일까? (ft. 네비우스 실적발표)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "황 퇴임을 'AI 세대교체 신호'로 해석. 크레스 임시 체제에서 큰 전략 결정은 자제될 것이며 NVDA 주도권이 GPU사에서 프론티어 랩/TPU·AMD로 이동할 위험을 지적. 네오클라우드 중 코어위브가 가장 취약, 네비우스는 3Q 실적 후 ARR 목표 지연(12월→내년 2월, $7B 하단)과 ARR 가이던스 중단으로 -16%. 앤스로픽 IPO는 공모 6배 청약. 다음주 NVDA 실적과 앤스로픽 상장 예정.",
+      "relevance": "HIGH",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "네비우스 3Q 매출 $980.8M로 역대 최대.",
+          "tickers": [
+            "NBIS"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-2.htm",
+          "evidence_note": "Nebius 6-K exhibit(웹 검색 요약)에 그룹 매출 $980.8M 기재. +571% YoY 수치는 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "네비우스가 ARR 가이던스를 중단하고 ARR 목표를 내년 2월로 미뤘다.",
+          "tickers": [
+            "NBIS"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "6-K에 ARR이 사업을 대표하는 지표가 아니라는 설명 확인. 목표 지연·$7B 하단 전망은 원문 미열람.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤스로픽 IPO 공모 644억 달러 + 사모 260억 달러, 공모 물량 6배 청약.",
+          "tickers": [
+            "ANTHROPIC"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "비상장 기업 관련 보도 인용, 공식 자료 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "크레스는 OpenAI 2,500억 달러 보증 등 황의 생태계 지원에 반대했다.",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "보도 인용, 공식 근거 없음.",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "앤스로픽 상장 후 빠진 유동성이 AI 섹터로 복귀할 가능성이 크다.",
+          "tickers": [
+            "NVDA",
+            "AVGO"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": "작성자 전망.",
+          "due": "2026-12-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "코어위브가 황 퇴임의 가장 큰 내러티브 타격을 받는다. 펀더멘털은 유지.",
+          "tickers": [
+            "CRWV"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": "의견.",
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "WEAKEN",
+          "magnitude": "MEDIUM",
+          "rationale": "리더십·전략 연속성 불확실성. 펀더멘털 훼손 증거는 아직 없음."
+        },
+        {
+          "ticker": "AVGO",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "TPU/커스텀 실리콘 수혜 주장은 의견. 공식 근거 없음."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "NVDA 보증 의존·부채로 내러티브 리스크. 비보유 후보, 근거 약함."
+        }
+      ],
+      "new_candidates": [
+        "NBIS"
+      ],
+      "portfolio_implication": "변경 없음. 비중 변경은 NVDA 실적(다음주)과 후임 CEO 정보 이후. NBIS는 3Q 실적 후 신뢰 하락으로 편입 근거 부족."
     },
     {
       "post_id": "230423",
@@ -924,6 +1062,30 @@
       "portfolio_implication": "변경 없음. NVDA 5%는 이벤트 리스크 모니터링 대상. 이사회 조사 결과·공식 8-K 공시가 나오면 재평가하고, 단일 의견만으로 비중을 바꾸지 않는다. [본문 개정(rev2) 재검토 + 11/13 검색: 이사회 조사 중이며 황 CEO 유지, 최종 결정 보도 없음. 11/12 제출 NVDA 8-K(sec.gov)는 샌드박스 네트워크 차단으로 열람 불가.]"
     },
     {
+      "post_id": "230551",
+      "analyzed_at": "2026-11-13T07:30:00+09:00",
+      "title": "앰프리어스, 비행기로 보내던 배터리를 이제 배로 보냅니다",
+      "author": "나스다큐",
+      "summary": "텐베거 후보로 다룬 앰프리어스(AMPX) 3Q: 매출 3,910만 달러(+83% YoY), 총이익률 27%, 매출 가이던스 상향, 조정 EBITDA 가이던스는 400만→250만 달러로 하향. 본문이 중간에 끊겨(paywall 추정) 작성자의 우려 내용은 확인 불가.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "AMPX 3Q 매출 3,910만 달러(+83%), 총이익률 27%, 매출 가이던스 상향·조정 EBITDA 가이던스 400만→250만 달러 하향.",
+          "tickers": [
+            "AMPX"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "AMPX는 추적 종목이 아니라 data/market/docs에 없고, 웹 도구로 IR 원문 확인 미시도(낮은 관련도). 본문 잘림.",
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 보유·후보 종목이 아니며(소형주 관찰 아이디어), 편입 판단 근거 부족."
+    },
+    {
       "post_id": "230550",
       "analyzed_at": "2026-11-13T07:30:00+09:00",
       "title": "낮에는 코어위브가, 밤에는 젠슨 황이 시장을 흔들었습니다",
@@ -966,16 +1128,79 @@
       "portfolio_implication": "변경 없음. 이사회 결정·공식 8-K 확인 전 NVDA 5% 유지, 단일 보도만으로 비중 변경하지 않는다."
     },
     {
-      "post_id": "230450",
-      "analyzed_at": "2026-11-12T22:30:00+09:00",
-      "title": "📌라이브 공지 : 11월 2주차 <분석학개론> 라이브!",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "목요일 8시 투자학개론 라이브(주요 시장 이벤트와 포트폴리오 관리) 진행 공지. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
+      "post_id": "229966",
+      "analyzed_at": "2026-11-13T07:30:00+09:00",
+      "title": "사이버트럭의 실패",
+      "author": "T3chfeed_테크피드",
+      "summary": "사이버트럭 라인을 내년 여름부터 사이버캡 생산으로 전환한다는 해석. 사이버트럭은 흑자 전환했으나 기회비용상 사이버캡 확대가 낫다고 보며, 모델 S/X→옵티머스 전환 사례로 약 6개월 소요를 추정한다. 로보택시 약 1,000대 운영으로 수요를 확인 중이며 테슬라가 로보택시에 기업 운명을 걸고 있다는 평가.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "모델 S/X가 2026년 중반 단종(sunset)되어 S/X 판매가 감소했다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+          "evidence_note": "3Q26 10-Q: 'fewer Model S and Model X deliveries after the product sunset in mid-2026'.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "머스크가 텍사스 사이버트럭 생산을 2027년 중반경 종료하고 사이버캡 생산을 늘린다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "WebSearch상 2차 매체(fourweekmba, tikr)가 머스크 X 게시글을 인용. 공식 8-K·주주 덱은 이번에 직접 확인 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "사이버캡 설비 연 12.5만대 확보, 사이버트럭 라인도 12.5만대 이상으로 표기.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "2차 매체가 Tesla Q3 덱 수치를 인용. 설비 용량은 실제 생산속도와 다르다고 Tesla 각주에 명시됐다는 보도. 원문 덱 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "로보택시는 현재 약 1,000대 규모로 운영 중이다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료에서 대수 확인 못 함. 2차 매체는 오스틴 중심·댈러스 예정 수준만 언급.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "로보택시 확장이 테슬라의 핵심 베팅이며 사이버캡 전환은 합리적 의사결정이다.",
+          "tickers": [
+            "TSLA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "TSLA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "이미 알려진 자원 재배치 내러티브의 재해석이다. 신규 공식 수치(수요·단위경제)가 없어 thesis 강화/훼손 근거로는 약하다."
+        }
+      ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 라이브 일정 공지."
+      "portfolio_implication": "변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다. [본문 개정(rev2) 재검토: 주장·결론 변화 없음.]"
     },
     {
       "post_id": "230138",
@@ -988,6 +1213,18 @@
       "thesis_impacts": [],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 교육·홍보 공지로 투자 판단 내용 없음."
+    },
+    {
+      "post_id": "230450",
+      "analyzed_at": "2026-11-12T22:30:00+09:00",
+      "title": "📌라이브 공지 : 11월 2주차 <분석학개론> 라이브!",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "목요일 8시 투자학개론 라이브(주요 시장 이벤트와 포트폴리오 관리) 진행 공지. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 라이브 일정 공지."
     },
     {
       "post_id": "230485",
@@ -1723,6 +1960,7 @@
     }
   ],
   "new_candidates": [
+    "NBIS",
     "JOBY",
     "ACHR",
     "CRCL",

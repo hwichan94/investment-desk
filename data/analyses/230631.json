@@ -1,0 +1,40 @@
+{
+  "summary": "12일 미국장에서 나스닥은 장초반 -1.5%에서 -0.39% 마감. NVDA는 148.80달러 저점 후 165달러까지 반등해 4.34% 하락한 166.19달러로 마감. 임시 CEO는 크레스(CFO 겸직), 첫 독립 의장 하비 존스, 사임 사유는 회사가 밝히지 않음. 시장은 AI 투자 흐름 자체는 꺾이지 않았다고 판단.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "크레스 임시 CEO, 하비 존스 첫 이사회 의장, 황은 CEO·이사직 모두 사임, 회사는 사유 미공개.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "NVDA 8-K/보도자료 요약으로 확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA는 148.80달러 저점 후 4.34% 내린 166.19달러로 마감.",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "종가 166.19는 data/market/quotes.json과 일치. 저점·등락률은 미확인(quotes의 previous_close 181.6은 등락률과 불일치, 기준일 상이 가능)."
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "장중 -14%에서 -4%로 회복한 가격반응은 수요 thesis 유지로 해석 가능하나 해석은 작성자 의견."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 사건은 공식 확인됐고 시장 반응은 제한적이었다.",
+  "analyzed_at": "2026-11-13T12:00:00+09:00",
+  "post_id": "230631",
+  "content_hash": "1d170c1c0c717fd2378a37b99ae99adeabb7b0311f30d5dfc9242cad211943ad",
+  "title": "젠슨 황이 떠난 날, 시장은 생각보다 빨리 숨을 골랐습니다",
+  "author": "나스다큐"
+}

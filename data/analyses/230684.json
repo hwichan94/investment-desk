@@ -1,0 +1,41 @@
+{
+  "post_id": "230684",
+  "content_hash": "7928bd0787e9f94e7992516a75bf78af58aea70b5410157831e601ae95f4d80e",
+  "title": "인튜이티브 머신스, 달 통신위성 4기를 로켓 하나에 몰아 싣습니다 (텐베거 심화 리포트)",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-13T23:55:00+09:00",
+  "new_candidates": [],
+  "thesis_impacts": [],
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "LUNR 3Q26 매출 약 2.69억 달러, 총이익률 26%, FCF 약 +3,300만 달러",
+      "tickers": [
+        "LUNR"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-reports-third-quarter-2026-financial-results",
+      "evidence_note": "웹 검색으로 회사 보도자료 확인: 매출 $269.3M, 총이익 $69M(26%), FCF $33M, 백로그 $1.9B. 영업CF·1회성 1,900만은 미확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "26% 총이익률에 1회성 이익이 섞여 있어 질을 할인해야 하나 현금 전환은 개선",
+      "tickers": [
+        "LUNR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "내년 매출 바닥은 이미 계약으로 확보",
+      "tickers": [
+        "LUNR"
+      ],
+      "verification": "UNVERIFIED",
+      "due": "2027-12-31"
+    }
+  ],
+  "summary": "인튜이티브 머신스(LUNR) 3분기 실적 해석. 매출 2.69억 달러(전분기 +31%, 전년 5배+), 총이익률 26%이나 1회성 1,900만 달러 포함. 영업현금흐름 +6,600만, FCF +3,300만으로 '계약 뒤 현금' 조건 충족을 평가. 달 통신위성 일정이 핵심 변수, 내년 매출 바닥은 계약으로 확보됐다는 주장. 11/12 종가 13.03달러(+6.98%). 본문은 수집분 기준 일부만 확인됨.",
+  "relevance": "LOW",
+  "portfolio_implication": "변경 없음. LUNR은 보유·universe 밖. 보유 종목과 직접 연관 없고 단일 글 근거로 신규 편입 사유 불충분(관찰 수준)."
+}

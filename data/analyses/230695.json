@@ -1,0 +1,42 @@
+{
+  "post_id": "230695",
+  "content_hash": "366a828bb7515b7a8003a5b25fb00525791374f3dba1e5ca85449bdd97372a91",
+  "title": "솜털까지 세겠다는 앱사이, 12월 성적표는 이렇게 보겠습니다",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-13T23:55:00+09:00",
+  "new_candidates": [],
+  "thesis_impacts": [],
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "ABSI 현금 1억 7,370만 달러(전분기 2억 110만), 연구개발비 2,360만 달러(전년 1,920만)",
+      "tickers": [
+        "ABSI"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001672688/000167268826000150/exhibit991-2026q310xqpr.htm",
+      "evidence_note": "웹 검색 결과 요약으로 확인(현금 $173.7M, R&D $23.6M vs $19.2M, 순손실 $33.3M). 전분기 수치는 $201.1M(6/30 기준)로 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "13주 중간 데이터 12월, 26주 데이터 내년 초 일정 유지",
+      "tickers": [
+        "ABSI"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001672688/000167268826000150/exhibit991-2026q310xqpr.htm",
+      "evidence_note": "검색 요약 기준. 런웨이 표현(2028년 상/하반기)은 출처 간 불일치 → 원문 재확인 필요."
+    },
+    {
+      "kind": "OPINION",
+      "text": "주가 하락은 회사 숙제 미달이 아니라 readout 눈높이 하향 발언 때문",
+      "tickers": [
+        "ABSI"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "summary": "앱사이(ABSI) 3분기 실적. ABS-201 탈모 13주 중간 데이터는 12월, 26주는 내년 초로 유지, 현금 1억 7,370만 달러(전분기 2억 110만), 1,200mg 코호트 모집 완료. 11/12 주가 -9.73%(9.14달러)는 12월 readout 눈높이를 낮추는 발언에 반응했다는 해석. 12월엔 절대 수치보다 방향을 보라는 주장.",
+  "relevance": "LOW",
+  "portfolio_implication": "변경 없음. ABSI는 보유·universe 밖인 소형 바이오 이벤트주(12월 binary). 편입 근거 부족."
+}

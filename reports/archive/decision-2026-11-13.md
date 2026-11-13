@@ -1,9 +1,9 @@
 # 12개월 포트폴리오 액션플랜
 
-- 생성 시각(KST): 2026-11-13 13:07
+- 생성 시각(KST): 2026-11-13 20:00
 - 판단 입력 기준일(decision_universe): 2026-10-30
 - 보유 수량 기준일: 2026-10-29 (사용자 확인 2026-10-29)
-- 가격 기준: 2026-11-13T10:51 · 총자산 $27,389.57
+- 가격 기준: 2026-11-13T20:00 · 총자산 $27,389.57
 - 투자 가능 현금: $201.50
 - 부채상환 예약 현금: $0.00 (총자산·비중에는 포함, 신규매수 재원에서는 제외)
 
@@ -27,11 +27,11 @@
 
 ## 데이터 상태
 
-- Fanding 수집: **OK** (마지막 실행 2026-11-13T10:50, 마지막 성공 2026-11-13T10:50)
-- 저장된 글 112개, Claude 분석 대기 0개
+- Fanding 수집: **OK** (마지막 실행 2026-11-13T19:58, 마지막 성공 2026-11-13T19:58)
+- 저장된 글 117개, Claude 분석 대기 5개
 - 공식 근거 기준일: 2026-11-06 (7일 전)
 - 최근 감지된 신규 SEC 공시: CCJ(6-K), ORCL(8-K), AXON(8-K, 8-K), CCJ(6-K), GOOG(8-K), AXON(10-Q), CCJ(6-K), CRWV(8-K), CRWV(10-Q), NVDA(8-K)
-- 시장가격 최신성: 최신 · 수집 후 2.3시간
+- 시장가격 최신성: 최신 · 수집 후 0.0시간
 - 통화/환율: 환율 적용 없음(USD 기준)
 
 ## 위험 알림
@@ -49,22 +49,22 @@
 
 ## Technical / Regime 핵심 신호
 
-- **Regime: NEUTRAL** — breadth RSP/SPY rising; QQQ below SMA50; SPY below SMA50 → 종목별 신호 우선, Core 유지
+- **Regime: NEUTRAL** — VIX falling below SMA20; credit HYG/LQD rising; breadth RSP/SPY rising → 종목별 신호 우선, Core 유지
 - AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지
 - AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 → 추격매수 금지, 분할·반전 확인
 - CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
 
 ## 2. 오늘 바뀐 점
 
-- 변경 없음. 사건은 공식 확인됐고 시장 반응은 제한적이었다.
+- 변경 없음. 비중 변경은 NVDA 실적(다음주)과 후임 CEO 정보 이후. NBIS는 3Q 실적 후 신뢰 하락으로 편입 근거 부족.
 - NVDA(5%)는 CEO 공백 이벤트 리스크. 단일 의견으로 비중 변경하지 않고, 다음주 NVDA 실적과 후임 CEO 발표를 체크포인트로 둔다. TSLA 합병은 확인 전 반영 안 함.
 - 변경 없음 (공지).
 
 ## 3. 놓치면 안 되는 시황
 
-- **젠슨 황이 떠난 날, 시장은 생각보다 빨리 숨을 골랐습니다**: 12일 미국장에서 나스닥은 장초반 -1.5%에서 -0.39% 마감. NVDA는 148.80달러 저점 후 165달러까지 반등해 4.34% 하락한 166.19달러로 마감. 임시 CEO는 크레스(CFO 겸직), 첫 독립 의장 하비 존스, 사임 사유는 회사가 밝히지 않음. 시장은 AI 투자 흐름 자체는 꺾이지 않았다고 판단. → 변경 없음. 사건은 공식 확인됐고 시장 반응은 제한적이었다.
-- **젠슨 황이 없는 엔비디아 | 11-13 미국 시황 정리**: 젠슨 황 사임 발표 후 NVDA -4.3%, AVGO·AMD는 약 +5% 상승. 유가 재상승으로 중소형주 조정, PPI 대기. 임시 CEO는 CFO 크레스이며 과거 황의 공격적 투자·보증에 제동을 건 인물이라 NVDA의 투자전략이 보수화될 수 있다는 해석. 테슬라-스페이스X 합병 협상 진전 보도(빠르면 12월 발표), 앱셀레라 CEO 내부자 매수. 작성자는 NVDA를 아직 매도하지 않았다. → NVDA(5%)는 CEO 공백 이벤트 리스크. 단일 의견으로 비중 변경하지 않고, 다음주 NVDA 실적과 후임 CEO 발표를 체크포인트로 둔다. TSLA 합병은 확인 전 반영 안 함.
 - **왕좌에서 내려온 젠슨황, AI 업계 세대 교체의 신호탄일까? (ft. 네비우스 실적발표)**: 황 퇴임을 'AI 세대교체 신호'로 해석. 크레스 임시 체제에서 큰 전략 결정은 자제될 것이며 NVDA 주도권이 GPU사에서 프론티어 랩/TPU·AMD로 이동할 위험을 지적. 네오클라우드 중 코어위브가 가장 취약, 네비우스는 3Q 실적 후 ARR 목표 지연(12월→내년 2월, $7B 하단)과 ARR 가이던스 중단으로 -16%. 앤스로픽 IPO는 공모 6배 청약. 다음주 NVDA 실적과 앤스로픽 상장 예정. → 변경 없음. 비중 변경은 NVDA 실적(다음주)과 후임 CEO 정보 이후. NBIS는 3Q 실적 후 신뢰 하락으로 편입 근거 부족.
+- **젠슨 황이 없는 엔비디아 | 11-13 미국 시황 정리**: 젠슨 황 사임 발표 후 NVDA -4.3%, AVGO·AMD는 약 +5% 상승. 유가 재상승으로 중소형주 조정, PPI 대기. 임시 CEO는 CFO 크레스이며 과거 황의 공격적 투자·보증에 제동을 건 인물이라 NVDA의 투자전략이 보수화될 수 있다는 해석. 테슬라-스페이스X 합병 협상 진전 보도(빠르면 12월 발표), 앱셀레라 CEO 내부자 매수. 작성자는 NVDA를 아직 매도하지 않았다. → NVDA(5%)는 CEO 공백 이벤트 리스크. 단일 의견으로 비중 변경하지 않고, 다음주 NVDA 실적과 후임 CEO 발표를 체크포인트로 둔다. TSLA 합병은 확인 전 반영 안 함.
+- **젠슨 황이 떠난 날, 시장은 생각보다 빨리 숨을 골랐습니다**: 12일 미국장에서 나스닥은 장초반 -1.5%에서 -0.39% 마감. NVDA는 148.80달러 저점 후 165달러까지 반등해 4.34% 하락한 166.19달러로 마감. 임시 CEO는 크레스(CFO 겸직), 첫 독립 의장 하비 존스, 사임 사유는 회사가 밝히지 않음. 시장은 AI 투자 흐름 자체는 꺾이지 않았다고 판단. → 변경 없음. 사건은 공식 확인됐고 시장 반응은 제한적이었다.
 
 ## 4. 보유 종목 Action (현재 → 목표)
 
@@ -86,7 +86,7 @@
 |---|---|---|---|---|---|---|
 | TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEUTRAL |
 | PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 55 / fit 85 | NEUTRAL |
-| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 85 | NEGATIVE |
+| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 65 / fit 85 | NEUTRAL |
 | AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 90 | NEUTRAL |
 | AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | STRONG | risk 70 / fit 80 | POSITIVE |
 | CCJ | STABLE | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 70 | NEGATIVE |
@@ -116,8 +116,7 @@
 - 이유: AI 데이터센터 전력·냉각 병목이 매출 성장, 마진 확대와 가이던스 상향으로 실제 숫자에 반영되고 있습니다.
 - 핵심 위험: 대형 프로젝트 지연, 공급망 병목, 네오클라우드 고객의 자금조달 악화와 AI 데이터센터 투자 둔화입니다.
 - 실행: 현재 비중에서 7%까지 2회 분할매수하되 급등일 추격은 피하고 다음 실적 전후 변동성을 이용합니다.
-- 시장행동: VRT | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
-- 타이밍 조정: Relative Momentum WEAK: 추격매수 금지, 분할·반전 확인
+- 시장행동: VRT | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승
 - 재원: CASH, TSLA
 - 생각을 바꿀 신호: 유기적 성장률 급락; 수주와 매출 전환의 괴리 확대; 공급 차질로 인한 마진 훼손
 
@@ -130,7 +129,7 @@
 - **ORCL — 관찰, 목표 0.00%**: OCI와 RPO 성장은 매우 강하지만 대규모 데이터센터 투자와 자금조달 부담까지 함께 평가해야 합니다.
   - 기존 보유 대비/재원: 지정 없음
   - 무효화: RPO의 매출 전환 지연; 자금조달 비용과 희석 확대; OCI 성장 둔화
-  - 시장행동: ORCL | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승
+  - 시장행동: ORCL | Relative Momentum NEUTRAL | 50/200MA 하단
 
 ## 6. 다음 체크포인트
 
@@ -147,9 +146,9 @@
 | 1 | NVDA | 85.6 | 88% | 4.85% | 5.00% | STRENGTHENING |
 | 2 | AVGO | 83.4 | 85% | 15.96% | 14.00% | STRENGTHENING |
 | 3 | AMZN | 81.6 | 85% | 5.86% | 4.00% | STRENGTHENING |
-| 4 | VRT | 78.9 | 82% | 3.06% | 7.00% | STRENGTHENING |
+| 4 | VRT | 78.8 | 82% | 3.06% | 7.00% | STRENGTHENING |
 | 5 | ETN | 75.6 | 82% | 0.00% | 0.00% | STRENGTHENING |
-| 6 | ORCL | 75.4 | 84% | 0.00% | 0.00% | STRENGTHENING |
+| 6 | ORCL | 75.3 | 84% | 0.00% | 0.00% | STRENGTHENING |
 | 7 | PLTR | 73.8 | 85% | 28.19% | 33.00% | STRENGTHENING |
 | 8 | AXON | 70.8 | 84% | 0.00% | 0.00% | STRENGTHENING |
 | 9 | CCJ | 69.6 | 78% | 5.50% | 6.00% | STABLE |

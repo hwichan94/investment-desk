@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T20:00:12.358461+09:00",
+  "fetched_at": "2026-11-14T04:43:07.416301+09:00",
   "filings": {
     "AMZN": [
       {
@@ -1589,6 +1589,14 @@
     ],
     "VRT": [
       {
+        "form": "8-K",
+        "filed": "2026-11-13",
+        "report_date": "2026-11-13",
+        "cik": "0001674101",
+        "accession": "0001628280-26-073564",
+        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026073564/vrt-20261113.htm"
+      },
+      {
         "form": "10-Q",
         "filed": "2026-10-28",
         "report_date": "2026-09-30",
@@ -1699,14 +1707,6 @@
         "cik": "0001674101",
         "accession": "0001628280-26-026556",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026556/vrt-20260331.htm"
-      },
-      {
-        "form": "8-K",
-        "filed": "2026-04-22",
-        "report_date": "2026-04-22",
-        "cik": "0001674101",
-        "accession": "0001628280-26-026379",
-        "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm"
       }
     ]
   },

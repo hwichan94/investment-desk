@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T01:23:49.365663+09:00",
+  "generated_at": "2026-11-16T07:50:33.336926+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -731,7 +731,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-16T01:23:42.769955+09:00",
+    "generated_at": "2026-11-16T07:50:26.320710+09:00",
     "key_signals": [
       "AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
@@ -739,7 +739,7 @@
     ],
     "regime": {
       "state": "NEUTRAL",
-      "as_of": "2026-11-13",
+      "as_of": "2026-11-15",
       "reasons": [
         "VIX falling below SMA20",
         "credit HYG/LQD rising",
@@ -1153,18 +1153,6 @@
       "portfolio_implication": "변경 없음. 단일 작가의 증권사 리포트 정리이며 새 공식 근거가 없다. NVDA 실적(11/17 PT)·후임 CEO·청문회가 체크포인트."
     },
     {
-      "post_id": "230742",
-      "analyzed_at": "2026-11-14T05:10:00+09:00",
-      "title": "📌[얼리버드] 연 회원권 + 굿즈 패키지 신청 전, 꼭!! 확인하셔야 할 내용 FAQ",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "투자전공반 얼리버드 연회원권(30만 원) 신청 FAQ. 11/16 13:00~11/30 신청, 굿즈 패키지 안내. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음 (공지)."
-    },
-    {
       "post_id": "230748",
       "analyzed_at": "2026-11-14T05:10:00+09:00",
       "title": "📌 연 회원권 + 굿즈 패키지 신청 전, 자주 묻는 질문 모음 (FAQ)",
@@ -1177,50 +1165,16 @@
       "portfolio_implication": "변경 없음 (공지)."
     },
     {
-      "post_id": "230684",
-      "analyzed_at": "2026-11-13T23:55:00+09:00",
-      "title": "인튜이티브 머신스, 달 통신위성 4기를 로켓 하나에 몰아 싣습니다 (텐베거 심화 리포트)",
-      "author": "나스다큐",
-      "summary": "인튜이티브 머신스(LUNR) 3분기 실적 해석. 매출 2.69억 달러(전분기 +31%, 전년 5배+), 총이익률 26%이나 1회성 1,900만 달러 포함. 영업현금흐름 +6,600만, FCF +3,300만으로 '계약 뒤 현금' 조건 충족을 평가. 달 통신위성 일정이 핵심 변수, 내년 매출 바닥은 계약으로 확보됐다는 주장. 11/12 종가 13.03달러(+6.98%). 본문은 수집분 기준 일부만 확인됨.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "LUNR 3Q26 매출 약 2.69억 달러, 총이익률 26%, FCF 약 +3,300만 달러",
-          "tickers": [
-            "LUNR"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-reports-third-quarter-2026-financial-results",
-          "evidence_note": "웹 검색으로 회사 보도자료 확인: 매출 $269.3M, 총이익 $69M(26%), FCF $33M, 백로그 $1.9B. 영업CF·1회성 1,900만은 미확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "26% 총이익률에 1회성 이익이 섞여 있어 질을 할인해야 하나 현금 전환은 개선",
-          "tickers": [
-            "LUNR"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "내년 매출 바닥은 이미 계약으로 확보",
-          "tickers": [
-            "LUNR"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-12-31"
-        }
-      ],
+      "post_id": "230742",
+      "analyzed_at": "2026-11-14T05:10:00+09:00",
+      "title": "📌[얼리버드] 연 회원권 + 굿즈 패키지 신청 전, 꼭!! 확인하셔야 할 내용 FAQ",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "투자전공반 얼리버드 연회원권(30만 원) 신청 FAQ. 11/16 13:00~11/30 신청, 굿즈 패키지 안내. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
       "thesis_impacts": [],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. LUNR은 보유·universe 밖. 보유 종목과 직접 연관 없고 단일 글 근거로 신규 편입 사유 불충분(관찰 수준)."
+      "portfolio_implication": "변경 없음 (공지)."
     },
     {
       "post_id": "230695",
@@ -1269,16 +1223,50 @@
       "portfolio_implication": "변경 없음. ABSI는 보유·universe 밖인 소형 바이오 이벤트주(12월 binary). 편입 근거 부족."
     },
     {
-      "post_id": "230666",
-      "analyzed_at": "2026-11-13T12:00:00+09:00",
-      "title": "🎓11월 2주차 분석학개론 라이브 (26.11.12)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "라이브 녹화본 안내와 댓글 요청. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
+      "post_id": "230684",
+      "analyzed_at": "2026-11-13T23:55:00+09:00",
+      "title": "인튜이티브 머신스, 달 통신위성 4기를 로켓 하나에 몰아 싣습니다 (텐베거 심화 리포트)",
+      "author": "나스다큐",
+      "summary": "인튜이티브 머신스(LUNR) 3분기 실적 해석. 매출 2.69억 달러(전분기 +31%, 전년 5배+), 총이익률 26%이나 1회성 1,900만 달러 포함. 영업현금흐름 +6,600만, FCF +3,300만으로 '계약 뒤 현금' 조건 충족을 평가. 달 통신위성 일정이 핵심 변수, 내년 매출 바닥은 계약으로 확보됐다는 주장. 11/12 종가 13.03달러(+6.98%). 본문은 수집분 기준 일부만 확인됨.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "LUNR 3Q26 매출 약 2.69억 달러, 총이익률 26%, FCF 약 +3,300만 달러",
+          "tickers": [
+            "LUNR"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-reports-third-quarter-2026-financial-results",
+          "evidence_note": "웹 검색으로 회사 보도자료 확인: 매출 $269.3M, 총이익 $69M(26%), FCF $33M, 백로그 $1.9B. 영업CF·1회성 1,900만은 미확인.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "26% 총이익률에 1회성 이익이 섞여 있어 질을 할인해야 하나 현금 전환은 개선",
+          "tickers": [
+            "LUNR"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "내년 매출 바닥은 이미 계약으로 확보",
+          "tickers": [
+            "LUNR"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-12-31"
+        }
+      ],
       "thesis_impacts": [],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음 (공지)."
+      "portfolio_implication": "변경 없음. LUNR은 보유·universe 밖. 보유 종목과 직접 연관 없고 단일 글 근거로 신규 편입 사유 불충분(관찰 수준)."
     },
     {
       "post_id": "230658",
@@ -1380,6 +1368,18 @@
         "NBIS"
       ],
       "portfolio_implication": "변경 없음. 비중 변경은 NVDA 실적(다음주)과 후임 CEO 정보 이후. NBIS는 3Q 실적 후 신뢰 하락으로 편입 근거 부족."
+    },
+    {
+      "post_id": "230666",
+      "analyzed_at": "2026-11-13T12:00:00+09:00",
+      "title": "🎓11월 2주차 분석학개론 라이브 (26.11.12)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "라이브 녹화본 안내와 댓글 요청. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음 (공지)."
     },
     {
       "post_id": "230625",
@@ -1504,222 +1504,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 사건은 공식 확인됐고 시장 반응은 제한적이었다."
-    },
-    {
-      "post_id": "229966",
-      "analyzed_at": "2026-11-13T07:30:00+09:00",
-      "title": "사이버트럭의 실패",
-      "author": "T3chfeed_테크피드",
-      "summary": "사이버트럭 라인을 내년 여름부터 사이버캡 생산으로 전환한다는 해석. 사이버트럭은 흑자 전환했으나 기회비용상 사이버캡 확대가 낫다고 보며, 모델 S/X→옵티머스 전환 사례로 약 6개월 소요를 추정한다. 로보택시 약 1,000대 운영으로 수요를 확인 중이며 테슬라가 로보택시에 기업 운명을 걸고 있다는 평가.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "모델 S/X가 2026년 중반 단종(sunset)되어 S/X 판매가 감소했다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
-          "evidence_note": "3Q26 10-Q: 'fewer Model S and Model X deliveries after the product sunset in mid-2026'.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "머스크가 텍사스 사이버트럭 생산을 2027년 중반경 종료하고 사이버캡 생산을 늘린다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "WebSearch상 2차 매체(fourweekmba, tikr)가 머스크 X 게시글을 인용. 공식 8-K·주주 덱은 이번에 직접 확인 못 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "사이버캡 설비 연 12.5만대 확보, 사이버트럭 라인도 12.5만대 이상으로 표기.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "2차 매체가 Tesla Q3 덱 수치를 인용. 설비 용량은 실제 생산속도와 다르다고 Tesla 각주에 명시됐다는 보도. 원문 덱 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "로보택시는 현재 약 1,000대 규모로 운영 중이다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료에서 대수 확인 못 함. 2차 매체는 오스틴 중심·댈러스 예정 수준만 언급.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "로보택시 확장이 테슬라의 핵심 베팅이며 사이버캡 전환은 합리적 의사결정이다.",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "이미 알려진 자원 재배치 내러티브의 재해석이다. 신규 공식 수치(수요·단위경제)가 없어 thesis 강화/훼손 근거로는 약하다."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. TSLA는 최대 비중(24%)이므로 Cybercab 램프 속도와 로보택시 단위경제를 다음 분기 KPI로 추적한다. 단일 글로 비중을 바꾸지 않는다. [본문 개정(rev2) 재검토: 주장·결론 변화 없음.]"
-    },
-    {
-      "post_id": "230423",
-      "analyzed_at": "2026-11-13T07:30:00+09:00",
-      "title": "젠슨 황 이후의 엔비디아",
-      "author": "T3chfeed_테크피드",
-      "summary": "NVDA CEO 스캔들 관련 부정적 보도가 이어지고 이사회가 대응을 논의 중이라며, 젠슨 황 부재 시 CFO Colette Kress 임시 CEO 및 후임 후보(Ian Buck 내부, Rene Haas 외부)를 논한다. 애플·구글·MS의 CEO 교체 후 시총 사례를 들어 '젠슨=엔비디아' 프레임이 맞을 수도 아닐 수도 있다고 하며, 황이 물러날 확률을 40% 이상으로 본다. CUDA·NVLink·고객관계 해자는 여전히 견고하고 AI 내러티브는 역전 가능하다는 입장이다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "Colette Kress가 임시 CEO를 맡을 것으로 보도되고 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFLICT",
-          "evidence_url": "https://www.axios.com/2026/11/09/nvidia-jensen-huang-succession-plan",
-          "evidence_note": "2026-11-09 기준 보도는 황이 조사 기간 중 CEO직을 유지하며 Kress는 가능한 임시 대안으로만 거론된다. 임시 CEO 선임 확정 보도는 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "NVDA 이사회가 CEO 관련 사안을 조사 중이다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.scrippsnews.com/us-news/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-with-whom-he-had-an-affair",
-          "evidence_note": "언론 보도로 확인(NYT 인용). SEC 8-K 등 회사 공식 공시는 미확인; 회사는 국가안보·영업비밀 침해 정황이 없다고 밝힌 것으로 보도됨.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "Ian Buck은 CUDA 핵심 개발자 출신 HPC 부문 부사장이며 Rene Haas는 과거 엔비디아 부사장 후 ARM CEO다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "이번 검색에서 직접 확인하지 못함. 후보 거론은 투자 판단에 직접 영향 없음.",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "젠슨 황이 CEO직을 내려놓을 확률이 40% 이상이다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "작성자 주관 확률. 근거 수치 없음.",
-          "due": "2027-12-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "CUDA 생태계·NVLink·고객 관계로 구축된 해자는 키맨 부재에도 견고하며 CEO 교체 후 내러티브가 반전될 수 있다.",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "키맨·지배구조 리스크는 커졌지만 사업 펀더멘털 훼손 증거는 없고, 글의 핵심 사실(임시 CEO)은 공식 보도로 확인되지 않음. 점수·비중 변경 근거로 부족."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. NVDA 5%는 이벤트 리스크 모니터링 대상. 이사회 조사 결과·공식 8-K 공시가 나오면 재평가하고, 단일 의견만으로 비중을 바꾸지 않는다. [본문 개정(rev2) 재검토 + 11/13 검색: 이사회 조사 중이며 황 CEO 유지, 최종 결정 보도 없음. 11/12 제출 NVDA 8-K(sec.gov)는 샌드박스 네트워크 차단으로 열람 불가.]"
-    },
-    {
-      "post_id": "230550",
-      "analyzed_at": "2026-11-13T07:30:00+09:00",
-      "title": "낮에는 코어위브가, 밤에는 젠슨 황이 시장을 흔들었습니다",
-      "author": "나스다큐",
-      "summary": "11일 미국장에서 코어위브가 실적 후 24.7% 급등하며 AI 인프라가 동반 상승했고 엔비디아도 2.94% 올랐으나, 마감 후 WSJ가 엔비디아 이사회의 젠슨 황 CEO 교체 준비를 보도해 시간외 8% 넘게 하락했다. 이사회는 밤늦게 회의했으나 아침까지 결정이 없었다. 짧은 시황 글.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "코어위브가 11일 실적 후 하루 24.7% 상승했다.",
-          "tickers": [
-            "CRWV"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "가격 데이터(data/market) 대조 미실시. 실적 발표 자체는 CRWV 10-Q/8-K 공시로 확인됨.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "WSJ가 엔비디아 이사회가 젠슨 황 CEO를 내보낼 준비를 한다고 보도, NVDA 시간외 8%+ 하락(159.88달러).",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/",
-          "evidence_note": "11/9 기준 보도(Fortune 등)는 이사회 조사 중이며 황이 CEO 유지. 해임 준비 보도(WSJ)와 시간외 가격은 직접 확인 못함. 11/12 NVDA 8-K는 sec.gov 차단으로 미열람.",
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "키맨 리스크 이벤트이나 사업 펀더멘털 훼손 증거 없음, 결정 미확정. 이벤트 리스크 모니터링."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 이사회 결정·공식 8-K 확인 전 NVDA 5% 유지, 단일 보도만으로 비중 변경하지 않는다."
-    },
-    {
-      "post_id": "230551",
-      "analyzed_at": "2026-11-13T07:30:00+09:00",
-      "title": "앰프리어스, 비행기로 보내던 배터리를 이제 배로 보냅니다",
-      "author": "나스다큐",
-      "summary": "텐베거 후보로 다룬 앰프리어스(AMPX) 3Q: 매출 3,910만 달러(+83% YoY), 총이익률 27%, 매출 가이던스 상향, 조정 EBITDA 가이던스는 400만→250만 달러로 하향. 본문이 중간에 끊겨(paywall 추정) 작성자의 우려 내용은 확인 불가.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "AMPX 3Q 매출 3,910만 달러(+83%), 총이익률 27%, 매출 가이던스 상향·조정 EBITDA 가이던스 400만→250만 달러 하향.",
-          "tickers": [
-            "AMPX"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "AMPX는 추적 종목이 아니라 data/market/docs에 없고, 웹 도구로 IR 원문 확인 미시도(낮은 관련도). 본문 잘림.",
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 보유·후보 종목이 아니며(소형주 관찰 아이디어), 편입 판단 근거 부족."
     }
   ],
   "new_candidates": [

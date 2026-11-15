@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T15:33:20.464795+09:00",
+  "generated_at": "2026-11-16T01:23:42.769955+09:00",
   "as_of": "2026-11-13",
   "regime": "NEUTRAL",
   "score": 1,
@@ -56,7 +56,7 @@
       "as_of": "2026-11-13",
       "price": 76.940002,
       "sma_20": 77.002547,
-      "sma_50": 77.138052,
+      "sma_50": 77.138053,
       "return_20d": 0.006252,
       "reason": "hyg mixed or insufficient directional signal"
     },

@@ -1,67 +1,79 @@
 {
   "post_id": "230772",
-  "content_hash": "d5ac97512f89a1f6f77fef3ff3a50b1a3612b754587eb73a9c211f455e8bc94b",
+  "content_hash": "cc2021b3588d0593727680d42e1332e7d429413215aec0add960161fc7272c66",
+  "analyzed_at": "2026-11-15T16:00:00+09:00",
   "title": "🐹AI 정리본 : NVIDIA 위기와 수혜주",
   "author": "세상학개론 - 한정수 작가",
-  "analyzed_at": "2026-11-13T23:55:00+09:00",
-  "new_candidates": [
-    "AMD"
-  ],
-  "thesis_impacts": [
-    {
-      "ticker": "NVDA",
-      "direction": "NEUTRAL",
-      "magnitude": "LOW",
-      "rationale": "리더십 공백은 공식 확인됐고 제3자 해석 이상의 새 펀더멘털 증거 없음. 기존 분석(230625/230631)과 동일 결론."
-    },
-    {
-      "ticker": "CRWV",
-      "direction": "WEAKEN",
-      "magnitude": "LOW",
-      "rationale": "NVDA 보증·지원 의존도와 부채가 높아 리더십 공백 시 가장 취약하다는 의견. 공식 수치 근거 없음."
-    }
-  ],
+  "summary": "세상학개론 11/12 라이브의 AI 정리본. NVDA 젠슨 황 스캔들·리더십 리스크로 시장이 흔들리고 Fear&Greed가 37로 내려왔다고 정리한다. 작가는 황이 완전히 물러나면 NVDA 프리미엄(주가의 20~30%로 추정)을 부여하기 어렵다는 조건부 보유 입장이며, 네오클라우드(특히 CRWV)가 NVDA 보증 약화에 가장 취약하고 IREN·NBIS는 상대적으로 안정적이라고 본다. 수혜는 AMD·AVGO·MRVL 등 대안 생태계, 미국 프론티어 랩, 바이오 대형주로 본다. 작가 개인 판단과 AI 요약본 특성상 오류 가능성이 크다.",
+  "relevance": "HIGH",
   "claims": [
     {
       "kind": "FACT",
-      "text": "젠슨 황 사임·크레스 임시 CEO (라이브 이후 확정, 작가는 사임 전 시점에서 가능성만 언급)",
-      "tickers": [
-        "NVDA"
-      ],
-      "verification": "CONFIRMED",
-      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
-      "evidence_note": "230625/230631 분석에서 8-K 확인."
-    },
-    {
-      "kind": "FACT",
-      "text": "IREN·코어위브 최근 실적이 예상보다 양호했고 네오클라우드 분위기 개선",
+      "text": "CoreWeave 3Q 실적이 예상보다 좋았다(IREN도 호조)",
       "tickers": [
         "CRWV"
       ],
-      "verification": "PARTIAL",
-      "evidence_note": "CRWV 3Q 10-Q/8-K(11/12) 공시는 감지됐으나 official_research 미반영. 이 글의 '예상보다 양호'는 평가 주장."
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+      "evidence_note": "CRWV 10-Q: 3Q 매출 $3,661M, 순손실 $709M, RPO $132.3B. IREN은 웹 검색(회사 IR 요약) 기준 AI Cloud 매출 $200M·백로그 $20.3B이나 ARR $4B 목표가 2027-01로 지연 — '호조'와 부분적으로만 일치."
     },
     {
       "kind": "FACT",
-      "text": "NVDA CEO 지분 약 3.5%, 이사 10~11명 중 다수 장기 재직",
+      "text": "NVDA 이사회가 젠슨 황 관련 조사 진행, 황은 불륜설을 부인",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
+      "evidence_note": "웹 검색 요약: 11/8 독립이사 위원회 조사 개시, 황은 CEO 유지 중이라고 보도. 'Zoom 이사회 회의'·불륜설 세부는 공식 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA -7~8% 하락, 공포탐욕지수 45→37",
       "tickers": [
         "NVDA"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "proxy statement 미확인."
+      "evidence_note": "가격은 data/market 확인 대상, 지수는 제3자. 공식 근거 없음."
     },
     {
       "kind": "FACT",
-      "text": "Anthropic 상장이 다음 주 예정, 오라클 대중국 계약 파기, 슈퍼마이크로 3인 기소",
+      "text": "황 지분 약 3.5%, 이사 10명 중 4명이 30년 이상 재직",
       "tickers": [
-        "ORCL"
+        "NVDA"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "공식 자료 미확인(보도 인용). 비상장·수사 사안."
+      "evidence_note": "NVDA 위임장(proxy) 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA의 칩 우회수출 추적·SMCI 직원 3명 기소·오라클 중국 계약 파기",
+      "tickers": [
+        "NVDA",
+        "SMCI"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 자료 미확인(제3자 보도 인용)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "황이 완전히 퇴임하면 NVDA 프리미엄 소멸, 황 프리미엄은 주가의 20~30%",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "CRWV가 NVDA 의존·부채가 가장 높아 황 부재 시 가장 취약, NBIS·IREN은 상대적으로 안정",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
     },
     {
       "kind": "PREDICTION",
-      "text": "젠슨 황 이탈 시 NVDA 추가 하락, 잔류 시 반등; 우회수출 규제 강화로 단기 중국 수요 둔화",
+      "text": "이사회는 황을 해임하기보다 어떤 형태로든 잔류시킬 가능성이 높다",
       "tickers": [
         "NVDA"
       ],
@@ -70,33 +82,42 @@
     },
     {
       "kind": "PREDICTION",
-      "text": "젠슨 황 부재 시 CRWV가 가장 큰 타격, NBIS·IREN은 상대적으로 안정",
+      "text": "우회수출 차단 강화로 AMD·AVGO·MRVL 및 미국 프론티어 랩이 수혜",
       "tickers": [
-        "CRWV"
-      ],
-      "verification": "UNVERIFIED",
-      "due": "2027-06-30"
-    },
-    {
-      "kind": "PREDICTION",
-      "text": "NVDA 약화의 최대 수혜는 AMD, 다음은 AVGO·MRVL",
-      "tickers": [
+        "AVGO",
         "AMD",
-        "AVGO"
+        "MRVL"
       ],
       "verification": "UNVERIFIED",
       "due": "2027-06-30"
-    },
-    {
-      "kind": "OPINION",
-      "text": "NVDA의 문제는 펀더멘털 훼손이 아니라 내러티브·거버넌스 리스크",
-      "tickers": [
-        "NVDA"
-      ],
-      "verification": "NOT_APPLICABLE"
     }
   ],
-  "summary": "11/12 분석학개론 라이브 AI 정리본(작가 주장; 정리본 오류 가능 고지). NVDA 스캔들·리더십 리스크가 주제. 작가는 젠슨 황 완전 이탈 시 NVDA 프리미엄(20~30%) 상실로 매도 계획, 이사회가 잔류시킬 것으로 기대. 수혜 후보는 AMD·AVGO/MRVL(TPU)·Anthropic, 피해는 CRWV 최대·NBIS/IREN 상대 안정·소형 네오클라우드. 시장은 금리 인상 우려·AI 채권 발행 증가로 공포 국면, 바이오 대형주만 강세. 이 글 시점(11/12 라이브)에는 사임 전이었고 이후 사임이 8-K로 확정됨.",
-  "relevance": "HIGH",
-  "portfolio_implication": "변경 없음. 단일 의견·AI 요약본이며 NVDA 사임은 이미 직전 보고서에서 반영 판단됨. 다음주 NVDA 실적·후임 CEO·CRWV 10-Q를 체크포인트로 유지."
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "거버넌스 리스크는 기존 판단에 이미 반영. 공식 증거 없음, 11/17 실적과 12월 조사 진행이 검증 지점."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "NVDA 약화 시 커스텀 ASIC 수혜라는 작가 주장일 뿐 근거 없음."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "NVDA 보증 약화 시 가장 취약하다는 작가 의견. 10-Q상 모든 GPU가 NVDA이고 고객 계약이 NVDA GPU를 명시(의존도는 공식 확인)."
+    },
+    {
+      "ticker": "INTC",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "작가는 인텔 30~40% 하락을 언급하나 thesis 정보 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 단일 작가의 AI 요약본이며 새 공식 근거가 없다. 조건부 NVDA 매도 의견은 황 완전 퇴임 시에만 해당하며 아직 발생하지 않았다. AI CAPEX 상관집중 점검 계속."
 }

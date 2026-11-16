@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T15:31:07.769154+09:00",
+  "generated_at": "2026-11-16T16:09:36.171614+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -750,6 +750,120 @@
   },
   "recent_analyses": [
     {
+      "post_id": "230985",
+      "analyzed_at": "2026-11-15T16:00:00+09:00",
+      "title": "젠슨 황의 복귀 가능성",
+      "author": "T3chfeed_테크피드",
+      "summary": "T3chfeed가 젠슨 황 복귀 가능성을 분석한다. 황 축출의 직접 원인은 앤트로픽 음모가 아니라 중국 수출을 둘러싼 정치권(중국 강경파) 갈등이라고 보고, 복귀 여부는 '고의 중국 수출' 및 '부하 직원 관계' 조사 결과에 달렸다고 본다. 시나리오별 복귀 확률(해임 0%, 약 30%, 약 70%)은 작가의 주관적 추정이다. 황 비공개 진술이 12/1로 미뤄졌고 2027년 1월 민주당 다수 의회가 출범한다. 작가는 악재가 주가에 반영됐다며 NVDA를 매도하지 않으며 팔란티어를 간접 수혜 후보로 본다.",
+      "relevance": "HIGH",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "황 복귀를 요구하는 서명이 13만 명 이상, 머스크·아모데이 지지",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "청원 원문·서명 수 공식 확인 불가. 법적 효력 없다고 작가도 인정.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "황 비공개 진술이 12월 1일로 연기, 이튿날 법무책임자 진술",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
+          "evidence_note": "웹 검색에서 12/1 일정 확인 못 함. 이사회 독립위원회 조사 개시(11/8)만 확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "이사회가 '기밀 유출 근거 없음'이라 입장 표명, CIA 의견 갈림",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 자료 미확인. 회사는 기밀 침해 징후가 없다고 밝힌 것으로 보도(웹 검색 요약).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "Commerce 산업안보국이 Megaspeed를 조사했고 NVDA 법무책임자와 접촉",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://thenextweb.com/news/megaspeed-probe-commerce-nvidia-lawyer-justice-department-nyt",
+          "evidence_note": "NYT 인용 보도: Commerce가 NVDA 개입 후 조사 중단, DOJ로 이관. 시점·세부는 공식 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "트럼프가 중국향 GPU 판매에 25% 수익 공유 조건으로 수출 허용",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "이번 실행에서 공식 근거 미조회(이전 정책 보도).",
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "복귀 확률: 고의수출·직원관계 모두 없으면 ~70%, 직원관계만 있으면 ~30%, 고의수출 입증 시 0%",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-03-31"
+        },
+        {
+          "kind": "OPINION",
+          "text": "NVDA 주가는 황 부재를 이미 반영했으므로 지금 매도는 옳지 않다",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "앤트로픽은 운 좋은 수혜자일 뿐 설계자가 아니며, PLTR이 간접 수혜 가능",
+          "tickers": [
+            "PLTR"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "조사 결과·복귀 확률은 작가 추정. 11/17 실적, 12월 진술, 2027-01 의회 출범이 체크포인트."
+        },
+        {
+          "ticker": "PLTR",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "수혜 가능성 언급만 있고 근거·후속 내용은 추후 유튜브로 미룸."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 확률 추정은 근거 없는 주관적 수치로 의사결정에 입력하지 않는다. NVDA 판단은 11/17 실적 이후 재검토."
+    },
+    {
       "post_id": "230772",
       "analyzed_at": "2026-11-15T16:00:00+09:00",
       "title": "🐹AI 정리본 : NVIDIA 위기와 수혜주",
@@ -888,120 +1002,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 단일 작가의 AI 요약본이며 새 공식 근거가 없다. 조건부 NVDA 매도 의견은 황 완전 퇴임 시에만 해당하며 아직 발생하지 않았다. AI CAPEX 상관집중 점검 계속."
-    },
-    {
-      "post_id": "230985",
-      "analyzed_at": "2026-11-15T16:00:00+09:00",
-      "title": "젠슨 황의 복귀 가능성",
-      "author": "T3chfeed_테크피드",
-      "summary": "T3chfeed가 젠슨 황 복귀 가능성을 분석한다. 황 축출의 직접 원인은 앤트로픽 음모가 아니라 중국 수출을 둘러싼 정치권(중국 강경파) 갈등이라고 보고, 복귀 여부는 '고의 중국 수출' 및 '부하 직원 관계' 조사 결과에 달렸다고 본다. 시나리오별 복귀 확률(해임 0%, 약 30%, 약 70%)은 작가의 주관적 추정이다. 황 비공개 진술이 12/1로 미뤄졌고 2027년 1월 민주당 다수 의회가 출범한다. 작가는 악재가 주가에 반영됐다며 NVDA를 매도하지 않으며 팔란티어를 간접 수혜 후보로 본다.",
-      "relevance": "HIGH",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "황 복귀를 요구하는 서명이 13만 명 이상, 머스크·아모데이 지지",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "청원 원문·서명 수 공식 확인 불가. 법적 효력 없다고 작가도 인정.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "황 비공개 진술이 12월 1일로 연기, 이튿날 법무책임자 진술",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout",
-          "evidence_note": "웹 검색에서 12/1 일정 확인 못 함. 이사회 독립위원회 조사 개시(11/8)만 확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "이사회가 '기밀 유출 근거 없음'이라 입장 표명, CIA 의견 갈림",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 자료 미확인. 회사는 기밀 침해 징후가 없다고 밝힌 것으로 보도(웹 검색 요약).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "Commerce 산업안보국이 Megaspeed를 조사했고 NVDA 법무책임자와 접촉",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://thenextweb.com/news/megaspeed-probe-commerce-nvidia-lawyer-justice-department-nyt",
-          "evidence_note": "NYT 인용 보도: Commerce가 NVDA 개입 후 조사 중단, DOJ로 이관. 시점·세부는 공식 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "트럼프가 중국향 GPU 판매에 25% 수익 공유 조건으로 수출 허용",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "이번 실행에서 공식 근거 미조회(이전 정책 보도).",
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "복귀 확률: 고의수출·직원관계 모두 없으면 ~70%, 직원관계만 있으면 ~30%, 고의수출 입증 시 0%",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-03-31"
-        },
-        {
-          "kind": "OPINION",
-          "text": "NVDA 주가는 황 부재를 이미 반영했으므로 지금 매도는 옳지 않다",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "앤트로픽은 운 좋은 수혜자일 뿐 설계자가 아니며, PLTR이 간접 수혜 가능",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "조사 결과·복귀 확률은 작가 추정. 11/17 실적, 12월 진술, 2027-01 의회 출범이 체크포인트."
-        },
-        {
-          "ticker": "PLTR",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "수혜 가능성 언급만 있고 근거·후속 내용은 추후 유튜브로 미룸."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 확률 추정은 근거 없는 주관적 수치로 의사결정에 입력하지 않는다. NVDA 판단은 11/17 실적 이후 재검토."
     },
     {
       "post_id": "230886",
@@ -1158,18 +1158,6 @@
       "title": "📌 연 회원권 + 굿즈 패키지 신청 전, 자주 묻는 질문 모음 (FAQ)",
       "author": "세상학개론 - 한정수 작가",
       "summary": "연회원권 + 굿즈 패키지 신청 FAQ 모음(230742와 유사). 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음 (공지)."
-    },
-    {
-      "post_id": "230742",
-      "analyzed_at": "2026-11-14T05:10:00+09:00",
-      "title": "📌[얼리버드] 연 회원권 + 굿즈 패키지 신청 전, 꼭!! 확인하셔야 할 내용 FAQ",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "투자전공반 얼리버드 연회원권(30만 원) 신청 FAQ. 11/16 13:00~11/30 신청, 굿즈 패키지 안내. 투자 내용 없음.",
       "relevance": "NONE",
       "claims": [],
       "thesis_impacts": [],

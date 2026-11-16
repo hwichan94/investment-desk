@@ -1,0 +1,75 @@
+{
+  "post_id": "231127",
+  "content_hash": "21abc63a6f0fa35cb5bc59a74bff06617dc7e7e35a1768256b507cabde3aecfb",
+  "analyzed_at": "2026-11-16T16:30:00+09:00",
+  "title": "AI가 쉬어 간 주말, 스타십은 처음으로 붙잡혔습니다 (11/16 시황)",
+  "author": "나스다큐",
+  "summary": "나스다큐 11/16 시황(발췌 본문). 금요일 AMD·AVGO·MRVL로 갔던 자금이 AI 전반에서 빠졌다. AMD 약 9% 하락, NVDA 2.01% 하락한 $162.85. HSBC가 NVDA를 보유로 하향하고 목표가를 $365→$170으로 낮췄다. 미 10년물 5.15%, 12월 인상 기대, 옵션이 내는 실적 후 변동폭 ±7.31%. 본문은 IREN 13% 하락 언급 직후 잘려 있다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "HSBC가 NVDA를 매수→보유로 하향, 목표가 $365→$170",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색에서는 2025-04 HSBC 하향(목표 $120)만 나옴. 2026-11 건은 확인 못 함.",
+      "evidence_url": "https://www.gurufocus.com/news/2761999/nvidia-downgraded-by-hsbc-as-gpu-pricing-power-weakens"
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 금요일 -2.01% $162.85, AMD 약 -9%, AVGO·MRVL 약 -5%",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "가격은 data/market(GitHub Actions) 소관. 이번 실행에서 대조 안 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 실적 후 옵션 내재 변동폭 ±7.31%, 과거 4회 5~6%대",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "옵션 데이터 공식 출처 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "미 10년물 5.15%, 12월 금리 인상 기본 시나리오",
+      "tickers": [
+        "MACRO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Treasury/Fed 자료 미조회."
+    },
+    {
+      "kind": "FACT",
+      "text": "스타십을 발사탑 메카질라로 캐치",
+      "tickers": [
+        "SPACEX"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보유 무관."
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "애널리스트 하향·옵션 변동폭은 실적 전 포지셔닝 정보. 검증 안 됨."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "일시 로테이션 되돌림. 펀더멘털 변화 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 가격 급락·HSBC 의견은 단독 매도·매수 사유가 아님. 본문이 잘려 있어 전체 평가는 불가."
+}

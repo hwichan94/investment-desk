@@ -1,0 +1,110 @@
+{
+  "post_id": "231202",
+  "content_hash": "5d73ac6deced1e8151e1672cc5fcbc2af41b80ced0c59dcacca8aff2721737f0",
+  "analyzed_at": "2026-11-16T16:30:00+09:00",
+  "title": "앤스로픽 상장이 어쩌면 올해 가장 중요한 이벤트인 이유",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "세상학개론 한정수 작가. 이번 주 NVDA 실적, 3자 정상회담, 앤트로픽 상장을 분기점으로 본다. 앤트로픽 청약이 6배 몰려 유동성이 빠졌다가 금요일부터 돌아올 것이며 기술주로 올 가능성이 높다고 본다. 임시 CEO 크레스는 안전 운영, 실적은 양호하리라 예상한다. 앤트로픽 첫날 참여 의사. 시총 $1.4T, 매출 Goldman 전망 기반으로 Forward PER 7~8배라고 주장하고 연산 효율성 해자와 곡괭이(AI 공장) 수혜 논리를 편다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 상장 시 공모가 $70~78, 시작 밸류 약 $1.4T(이전 $2T)",
+      "tickers": [
+        "ANT"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "범위 상단 기준 약 $1.4T 확인. $2T 언급은 euronews(2026-09)와 일치. 공모 규모는 최대 약 $64B, 아직 가격 미확정.",
+      "evidence_url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 청약이 목표의 6배, 상장 전 유동성 흡수",
+      "tickers": [
+        "ANT"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "'주문서 이미 충족' 보도는 있으나 6배 수치는 확인 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 2025 매출 $4.6B, Goldman 전망 2026 $52B, 2027 $136B, 2029 $442B",
+      "tickers": [
+        "ANT"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 S-1·Goldman 원문 미확인. 이번에 읽지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 실적 18일 아침(KST), 3자 정상회담 19일 선전",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "NVDA 일정은 IR로 CONFIRMED. 정상회담 일정은 미확인.",
+      "evidence_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+    },
+    {
+      "kind": "FACT",
+      "text": "WSJ가 크레스 CFO와 황이 OpenAI 보증으로 대립했다고 보도",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "원문 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "NVDA 실적 양호, 임시 CEO가 보증·투자 철회는 안 함",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-11-18"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "상장 자금이 기술주로 환류, 상장가 아래로 떨어질 기회도 있음",
+      "tickers": [
+        "ANT"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 공장(곡괭이)이 AI 모델·앱 골드러시의 결국 수혜자",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "VRT"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "낙관적 예상일 뿐 공식 근거 없음. 11/17 실적 대기."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "앤트로픽이 TPU 등 다중 공급 사용을 언급. 단일 의견이라 LOW."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AI 공장 지속 논리는 이미 thesis에 반영."
+    }
+  ],
+  "new_candidates": [
+    "ANT"
+  ],
+  "portfolio_implication": "변경 없음. 앤트로픽은 비상장 후보라 종목 점수표 대상 아님(상장 후 가격 형성 뒤 아이디어 평가 가능). 작가 개인의 상장 첫날 매수는 사용자에게 적용하지 않는다."
+}

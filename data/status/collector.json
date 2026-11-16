@@ -1,24 +1,22 @@
 {
   "status": "OK",
   "message": "",
-  "discovered": 20,
+  "discovered": 19,
   "created": [
-    "231202",
-    "231127",
-    "231129",
-    "231056"
+    "231248"
   ],
   "updated": [
-    "230742"
+    "231202",
+    "231129"
   ],
-  "unchanged": 13,
+  "unchanged": 14,
   "locked": 2,
   "locked_ids": [
     "231036",
     "230748"
   ],
   "failures": [],
-  "last_run_at": "2026-11-16T15:29:41.400614+09:00",
-  "last_success_at": "2026-11-16T15:29:41.400614+09:00",
+  "last_run_at": "2026-11-17T04:36:47.012813+09:00",
+  "last_success_at": "2026-11-17T04:36:47.012813+09:00",
   "consecutive_failures": 0
 }

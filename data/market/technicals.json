@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T07:50:26.320710+09:00",
+  "generated_at": "2026-11-16T15:31:01.342375+09:00",
   "benchmark": "QQQ",
   "securities": {
     "AMZN": {
@@ -69,7 +69,7 @@
       "rsi_14": 53.200069,
       "sma_20": 330.959,
       "sma_50": 345.253836,
-      "sma_200": 366.478087,
+      "sma_200": 366.478089,
       "above_sma_20": true,
       "above_sma_50": true,
       "above_sma_200": false,
@@ -309,7 +309,7 @@
       "rsi_14": 47.174993,
       "sma_20": 126.5965,
       "sma_50": 136.409878,
-      "sma_200": 153.166112,
+      "sma_200": 153.166111,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,

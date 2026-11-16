@@ -1,7 +1,7 @@
 {
   "post_id": "231202",
-  "content_hash": "5d73ac6deced1e8151e1672cc5fcbc2af41b80ced0c59dcacca8aff2721737f0",
-  "analyzed_at": "2026-11-16T16:30:00+09:00",
+  "content_hash": "8a66764c2ee30134124b9f8d3ec740040d9e1b671b7b23c9478126a3612f9f29",
+  "analyzed_at": "2026-11-17T05:00:00+09:00",
   "title": "앤스로픽 상장이 어쩌면 올해 가장 중요한 이벤트인 이유",
   "author": "세상학개론 - 한정수 작가",
   "summary": "세상학개론 한정수 작가. 이번 주 NVDA 실적, 3자 정상회담, 앤트로픽 상장을 분기점으로 본다. 앤트로픽 청약이 6배 몰려 유동성이 빠졌다가 금요일부터 돌아올 것이며 기술주로 올 가능성이 높다고 본다. 임시 CEO 크레스는 안전 운영, 실적은 양호하리라 예상한다. 앤트로픽 첫날 참여 의사. 시총 $1.4T, 매출 Goldman 전망 기반으로 Forward PER 7~8배라고 주장하고 연산 효율성 해자와 곡괭이(AI 공장) 수혜 논리를 편다.",
@@ -14,8 +14,8 @@
         "ANT"
       ],
       "verification": "PARTIAL",
-      "evidence_note": "범위 상단 기준 약 $1.4T 확인. $2T 언급은 euronews(2026-09)와 일치. 공모 규모는 최대 약 $64B, 아직 가격 미확정.",
-      "evidence_url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
+      "evidence_note": "$70~78 범위·825M주·최대 약 $64B는 복수 매체 일치. 시총은 매체별 $1.3~1.4T로 상이(주식수 기준 차이). 최종 공모가 미확정(11/18 예정, 상단 초과 가능성 보도). S-1 원문 미조회.",
+      "evidence_url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=ipo"
     },
     {
       "kind": "FACT",
@@ -24,7 +24,8 @@
         "ANT"
       ],
       "verification": "PARTIAL",
-      "evidence_note": "'주문서 이미 충족' 보도는 있으나 6배 수치는 확인 못 함."
+      "evidence_note": "Bloomberg·CNBC: 수 배 초과청약·장부 충족 보도. 구체적 6배 수치는 확인 못 함.",
+      "evidence_url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
     },
     {
       "kind": "FACT",
@@ -32,8 +33,9 @@
       "tickers": [
         "ANT"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "공식 S-1·Goldman 원문 미확인. 이번에 읽지 못함."
+      "verification": "PARTIAL",
+      "evidence_note": "2025 $4.6B와 2026 $52B(Goldman 투자자 안내)는 FT 인용 보도로 일치. 2027 $136B·2029 $442B는 미확인(2030 $685B 보도만 확인). 2차 보도, 원문 미조회.",
+      "evidence_url": "https://thenextweb.com/news/goldman-anthropic-revenue-685b-2030-ipo"
     },
     {
       "kind": "FACT",

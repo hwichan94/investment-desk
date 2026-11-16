@@ -1,0 +1,128 @@
+{
+  "post_id": "231248",
+  "content_hash": "d4df6c28e4b5127856d8c4dd33ea26cb86d75d42ef3dd3f0f3b4bf788fc5771f",
+  "analyzed_at": "2026-11-17T05:00:00+09:00",
+  "title": "[11월 3주차] 11/15 특별 공개 라이브: AI 요약본",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "11/15 공개 라이브 AI 요약본. 중간선거 후 기술주 급락을 유동성 긴축(이란전쟁·금리인상 전망·앤트로픽 IPO 자금 흡수)과 내러티브 악화(AI 규제, 젠슨황 사태, 코어위브 CDS)로 설명하고, 펀더멘털보다 퀀트·기계적 매도 비중이 크며 장기투자자에겐 저가 매수 구간이라 본다. 네오클라우드 자금조달 우려는 구조적으로 정점이라 주장하고, 엔비디아는 단기 리더십·CUDA 해자 약화 위험을 언급한다. 작가는 AI 공장 중심 보유, 현금 비중 유지 후 저가 매수 전략을 설명한다. 매수·매도 추천은 아니라고 명시.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "기술주 하락은 펀더멘털보다 알고리즘·퀀트 기계적 매도 영향이 크다는 MS·골드만 리포트 언급",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "해당 리포트 원문을 찾지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 IPO 청약이 역대 최대 조달액의 6배(블룸버그 인용)",
+      "tickers": [
+        "ANT"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "Bloomberg·CNBC가 복수 배 초과청약을 보도했으나 6배 수치는 확인 못 함.",
+      "evidence_url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 2029 매출 예상 약 $440B, 올해 엔비디아 매출 $410B 상회 전망",
+      "tickers": [
+        "ANT",
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Goldman 2030 $685B 보도는 확인했으나 2029 수치는 미확인. NVDA 매출은 실적 발표(11/17 PT) 전이라 SEC 원문 대조 보류."
+    },
+    {
+      "kind": "FACT",
+      "text": "이번 분기 엔비디아 영업이익 $63B, 네오클라우드 관련 약정 약 $7B",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "실적 발표 전이라 확인 불가. 발표 후 재검증 필요."
+    },
+    {
+      "kind": "FACT",
+      "text": "코어위브 CDS 급등 후 다소 완화",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "CDS 시계열 공식 자료 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "민주당 중간선거 압승, 2027년 1월부터 의회 활동",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "선거 결과 공식 자료 미조회. 시장 내러티브 설명용."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "네오클라우드 자금조달 우려는 구조적으로 현재가 정점, 선급금·매출로 희석·채권 필요 감소",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-06-30"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "엔비디아 단기 어려움(직원 이탈·리더십 공백) 가능성",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-03-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "장기 투자자에겐 매도보다 매수 고려 구간, 현금 비중으로 저가 매수 대응",
+      "tickers": [
+        "PLTR",
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "CUDA 소프트웨어 해자 약화, 프런티어 랩으로 협상력 이동",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "리더십·CUDA 해자 약화 우려는 정성적 의견. 공식 근거 없음, 11/17 실적 확인 후 판단."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "프런티어 랩의 다중 공급(TPU 등) 선호 주장은 TPU·커스텀 칩 thesis에 우호적이나 단일 의견."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AI 공장 자금조달 정점론은 이미 thesis에 반영, 데이터센터 지연 우려는 상쇄."
+    }
+  ],
+  "new_candidates": [
+    "ANT"
+  ],
+  "portfolio_implication": "변경 없음. 작가의 저가 매수 의견은 개인 전략이며 사용자 포트폴리오 현금 $201.50(5% 미달)과 맞지 않는다. 데이터센터 규제 지연·네오클라우드 신용 우려는 AI CAPEX 상관집중 위험 점검 항목으로만 기록."
+}

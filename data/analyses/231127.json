@@ -43,8 +43,9 @@
       "tickers": [
         "MACRO"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "Treasury/Fed 자료 미조회."
+      "verification": "PARTIAL",
+      "evidence_note": "11/4~11/10 보도상 10년물 4.85~4.93%, 12월 인상 확률 약 77%(11/5경)로 12월 인상 기본 시나리오 방향은 일치. 5.15% 수치는 확인 못 함(11/13 종가 미조회).",
+      "evidence_url": "https://tradingeconomics.com/united-states/government-bond-yield/news/598025"
     },
     {
       "kind": "FACT",

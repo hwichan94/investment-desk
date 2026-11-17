@@ -1,0 +1,95 @@
+{
+  "post_id": "231385",
+  "content_hash": "b69422882779f33224c814792887f71d6d7a7c86dcce83620ca52a7a23248869",
+  "analyzed_at": "2026-11-17T14:00:00+09:00",
+  "title": "엔비디아 실적 D-1 | 11-17 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "NVDA 실적 하루 전 시황. 유가 4% 하락, 미 상무부 최종규정으로 해외 데이터센터를 통한 GPU 원격 이용까지 통제 대상이 되고 동남아·브라질 허가 요건이 강화된다고 전한다. 워시 의장의 AI 투자수익 우려, 젠슨 황 복귀 관련 정치권 갈등을 언급한다. 작가는 HIMS·JOBY·GLW·TSLA를 소량 추가 매입했다고 밝힌다. 모두 단일 작가 해석이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "미 상무부가 해외 데이터센터 경유 GPU 원격이용까지 통제하는 최종규정을 공개, 싱가포르·말레이시아·태국·인도네시아·브라질 허가요건 강화",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch에서 2026-01 BIS 규정(원격접근 스크리닝)과 6월 BIS 명확화는 확인했으나 11월 최종규정은 찾지 못함. 공식 BIS/Federal Register 원문 확인 필요."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라가 기가 베를린에 30억 유로를 투자해 사이버캡 생산시설을 추가(2029년 생산 개시, 연 최대 100만 대)",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch에서 €3B·2029 수치 확인 못 함. 확인된 것은 4680 배터리 $250M 증설뿐."
+    },
+    {
+      "kind": "FACT",
+      "text": "팔란티어 영국 NHS 계약이 2029년까지 연장(원래 2027년 만료)",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "초기 3년 계약은 2027-03 종료, 2년 연장 옵션(=2029-03)이 있고 FT가 연장 준비를 보도. 공식 연장 확정은 확인 못 함.",
+      "evidence_url": "https://www.digitalhealth.net/2026/06/fdp-here-to-stay-says-patel-as-palantir-contract-faces-review/"
+    },
+    {
+      "kind": "FACT",
+      "text": "IEA가 일일 170만 배럴 공급 과잉을 전망, 유가 4% 하락",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "IEA 원문 미조회."
+    },
+    {
+      "kind": "FACT",
+      "text": "아이온큐 CFO/COO 사임, 신임 CFO에 대규모 주식보상",
+      "tickers": [
+        "IONQ"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "8-K 미조회, 비보유."
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 인프라 기업은 거시 공포가 걷히면 더 크게 상승할 가능성, 현 구간은 매수 기회",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "12월 금리 인상 예정이며 시장이 이미 반영",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "수출통제·리더십 이슈는 11/18 실적 확인 전이라 판단 보류."
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "NHS 계약 연장 보도는 정부 매출 지속성에 우호적이나 공식 확정은 아님."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "사이버캡 유럽 생산·모델Y 로보택시 시범은 내러티브이며 수치 미확인, 2029 생산은 12개월 밖."
+    }
+  ],
+  "new_candidates": [
+    "HIMS",
+    "JOBY",
+    "GLW",
+    "IONQ"
+  ],
+  "portfolio_implication": "변경 없음. 수치 대부분이 미검증인 단일 작가 시황이다. 수출통제 규정은 BIS 원문 확인 후 재검토하고 NVDA 실적(11/18 KST) 뒤 일괄 반영한다. 작가의 추가매수는 사용자 포트폴리오와 무관(현금 5% 미달)."
+}

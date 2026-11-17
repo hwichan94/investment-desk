@@ -1,0 +1,42 @@
+{
+  "post_id": "231419",
+  "content_hash": "d7b5a31d600124b084325e2adebb1297c70210cc2ad693c15ee9dde2b8d7faa0",
+  "analyzed_at": "2026-11-17T14:00:00+09:00",
+  "title": "모두가 비관적인 일주일을 지나는 낙관주의자의 자세 (ft. 케빈워시)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "기술주 급락을 유동성 이탈(앤트로픽 IPO 청약 수요 흡수, 기계적 청산)로 설명하고 장기투자자에게 하락장은 기회라는 낙관론을 편다. 워시 연준 의장의 생산성·일자리 태스크포스 연설(초지능, 3개 시나리오)을 공유한다. 앤트로픽 청약은 6~7배에서 20배까지 갔다는 말을 전한다. 매매 추천은 없다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 IPO 초과청약이 지난주 6~7배(블룸버그)에서 약 20배로 증가했다는 전언(알티미터 거스트너)",
+      "tickers": [
+        "ANT"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "이전 분석(231248)에서 복수 배 초과청약만 확인. 20배는 2차 전언이라 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "케빈 워시 연준 의장이 샌프란시스코 연은 행사에서 초지능·생산성 연설, 3개 시나리오(긍정·고용충격·실망)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "연준 연설 원문 미조회, 본문 요약만 확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "현재 가장 싼 자산은 AI·기술주이며 월마트가 기술주보다 비싸게 평가됨",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "유동성이 돌아오면 하락분은 회복된다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 거시 의견이며 종목 근거가 없다. 워시의 '실망 시나리오'는 AI CAPEX 상관집중 점검 항목으로만 기록한다."
+}

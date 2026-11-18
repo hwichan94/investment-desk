@@ -1,9 +1,9 @@
 # 12개월 포트폴리오 액션플랜
 
-- 생성 시각(KST): 2026-11-19 04:06
+- 생성 시각(KST): 2026-11-19 05:42
 - 판단 입력 기준일(decision_universe): 2026-10-30
 - 보유 수량 기준일: 2026-10-29 (사용자 확인 2026-10-29)
-- 가격 기준: 2026-11-18T20:48 · 총자산 $25,602.51
+- 가격 기준: 2026-11-19T05:42 · 총자산 $25,803.17
 - 투자 가능 현금: $201.50
 - 부채상환 예약 현금: $0.00 (총자산·비중에는 포함, 신규매수 재원에서는 제외)
 
@@ -13,51 +13,52 @@
 
 > Base Case는 TSLA 축소(24.00%), PLTR 추가매수(33.00%), VRT 추가매수(7.00%)이며, 각 무효화 신호가 나오면 즉시 재평가합니다.
 
-## 포트폴리오 점수: **70.4 / 100** (목표 실행 시 83.8)
+## 포트폴리오 점수: **70.2 / 100** (목표 실행 시 83.8)
 
 | 항목 | 비중 | 현재 | 목표 실행 시 |
 |---|---:|---:|---:|
 | 보유 종목 질 | 50% | 68.1 | 70.2 |
-| thesis 건강도 | 15% | 89.1 | 91.3 |
-| 집중도 | 15% | 96.7 | 100.0 |
-| 현금 여력 | 5% | 15.7 | 100.0 |
-| 목표 정렬 | 15% | 51.4 | 100.0 |
+| thesis 건강도 | 15% | 89.2 | 91.3 |
+| 집중도 | 15% | 97.1 | 100.0 |
+| 현금 여력 | 5% | 15.6 | 100.0 |
+| 목표 정렬 | 15% | 49.5 | 100.0 |
 
-- 감점 요인: 상위 2종목 합 62%
+- 감점 요인: 상위 2종목 합 61%
 
 ## 데이터 상태
 
-- Fanding 수집: **OK** (마지막 실행 2026-11-18T20:47, 마지막 성공 2026-11-18T20:47)
+- Fanding 수집: **OK** (마지막 실행 2026-11-19T05:41, 마지막 성공 2026-11-19T05:41)
 - 저장된 글 134개, Claude 분석 대기 0개
 - 공식 근거 기준일: 2026-11-06 (13일 전)
-- 최근 감지된 신규 SEC 공시: AXON(10-Q), CCJ(6-K), CRWV(8-K), CRWV(10-Q), NVDA(8-K), VRT(8-K), NVDA(8-K)
-- 시장가격 최신성: 최신 · 수집 후 7.3시간
+- 최근 감지된 신규 SEC 공시: CRWV(8-K), CRWV(10-Q), NVDA(8-K), VRT(8-K), NVDA(8-K), AXON(8-K)
+- 시장가격 최신성: 최신 · 수집 후 0.0시간
 - 통화/환율: 환율 적용 없음(USD 기준)
 
 ## 위험 알림
 
+- AMZN 축소를 차단했습니다: 펀더멘털·추정치 수정·상대 모멘텀이 모두 개선 중입니다.
 - 투자 가능 현금 0.8%가 최소 5%보다 낮습니다.
 
 ## 매수재원 검증
 
-- 총자산: **$25,602.51** (주식 $25,401.01 + 투자 가능 현금 $201.50 + 부채상환 예약 현금 $0.00)
-- 신규 투자 가능 현금: **$201.50** · 현금 목표 $1,280.13 유지 시 즉시 배분 가능 $0.00
+- 총자산: **$25,803.17** (주식 $25,601.67 + 투자 가능 현금 $201.50 + 부채상환 예약 현금 $0.00)
+- 신규 투자 가능 현금: **$201.50** · 현금 목표 $1,290.16 유지 시 즉시 배분 가능 $0.00
 - 기존 종목 매도 없이 우선 집행 검토: 해당 없음
-- 추천 매수 합계 $2,434.32 · 계획 매도 재원 $3,636.02 · 매도 재원 필요분 $2,434.32
+- 추천 매수 합계 $1,767.46 · 계획 매도 재원 $3,258.36 · 매도 재원 필요분 $1,767.46
 - 현금 보유 자체는 매수 신호가 아닙니다. 종합점수·펀더멘털·시장행동을 통과한 ADD/INITIATE만 위 재원 안에서 배분합니다.
 
 ## Technical / Regime 핵심 신호
 
-- **Regime: NEUTRAL** — VIX rising above SMA20; credit HYG/LQD rising; breadth RSP/SPY rising → 종목별 신호 우선, Core 유지
+- **Regime: RISK_OFF** — VIX rising above SMA20; breadth RSP/SPY rising; QQQ below SMA50 → 신규 Starter·Tactical 크기 축소, Core 자동매도 금지
+- AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지
 - AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 → 추격매수 금지, 분할·반전 확인
 - CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
-- CRWV | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
 
 ## 2. 오늘 바뀐 점
 
+- 변경 없음. RKLB는 보유·후보 종목이 아니며 시험 횟수만으로 편입 근거가 되지 않는다.
 - 변경 없음. NVDA 보증 집계는 미검증 단일 출처이므로 점수·비중을 바꾸지 않고 다음 10-Q에서 보증·구매의무 주석을 확인한다.
 - 변경 없음. 231676·231702 이후 새 공식 근거가 없고 단일 의견으로 비중을 바꾸지 않는다.
-- 변경 없음. RKLB는 보유·후보 종목이 아니며 시험 횟수만으로 편입 근거가 되지 않는다.
 
 ## 3. 놓치면 안 되는 시황
 
@@ -69,28 +70,28 @@
 
 | 종목 | 현재 | 목표 | 변화 | 판단 | 구분 | 긴급도 | 금액 | 참고 수량 |
 |---|---:|---:|---:|---|---|---|---:|---:|
-| TSLA | 34.15% | 24.00% | -10.15%p | 축소 | UNSPECIFIED | 높음 | $-2,598 | -6.83주 |
-| PLTR | 27.52% | 33.00% | +5.48%p | 추가매수 | Core≥30.00% / Tactical 3.00% | 높음 | $+1,404 | +8.97주 |
-| CASH | 0.79% | 5.00% | +4.21%p | 현금 조정 | - | 중간 | $+1,079 | - |
-| VRT | 2.97% | 7.00% | +4.03%p | 추가매수 | - | 중간 | $+1,031 | +5.41주 |
-| AMZN | 6.04% | 4.00% | -2.04%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-523 | -2.03주 |
-| AVGO | 16.01% | 14.00% | -2.01%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-515 | -1.51주 |
-| CCJ | 5.29% | 6.00% | +0.71%p | 유지 | - | 없음 | $+0 | +0.00주 |
-| INTC | 2.37% | 2.00% | -0.37%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
-| NVDA | 4.86% | 5.00% | +0.14%p | 유지 | - | 없음 | $+0 | +0.00주 |
+| TSLA | 34.17% | 24.00% | -10.17%p | 축소 | UNSPECIFIED | 높음 | $-2,625 | -6.85주 |
+| PLTR | 27.29% | 33.00% | +5.71%p | 추가매수 | Core≥30.00% / Tactical 3.00% | 높음 | $+736 | +4.71주 |
+| CASH | 0.78% | 5.00% | +4.22%p | 현금 조정 | - | 중간 | $+1,089 | - |
+| VRT | 3.00% | 7.00% | +4.00%p | 추가매수 | - | 중간 | $+1,031 | +5.32주 |
+| AVGO | 16.45% | 14.00% | -2.45%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-633 | -1.79주 |
+| AMZN | 6.20% | 4.00% | -2.20%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
+| CCJ | 5.10% | 6.00% | +0.90%p | 유지 | - | 없음 | $+0 | +0.00주 |
+| INTC | 2.32% | 2.00% | -0.32%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
+| NVDA | 4.68% | 5.00% | +0.32%p | 유지 | - | 없음 | $+0 | +0.00주 |
 
 ### 5개 렌즈 + Regime
 
 | 종목 | Fundamentals | Estimate Revisions | Expectations Gap | Relative Momentum | Position & Correlation Risk | Regime |
 |---|---|---|---|---|---|---|
-| TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEUTRAL |
-| PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 55 / fit 85 | NEUTRAL |
-| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 65 / fit 85 | NEUTRAL |
-| AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEUTRAL |
-| AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 90 | NEUTRAL |
+| TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEGATIVE |
+| PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 55 / fit 85 | NEGATIVE |
+| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 65 / fit 85 | NEGATIVE |
+| AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 90 | NEGATIVE |
+| AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | STRONG | risk 70 / fit 80 | NEUTRAL |
 | CCJ | STABLE | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 70 | NEGATIVE |
-| INTC | EMERGING | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 60 | NEUTRAL |
-| NVDA | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEUTRAL |
+| INTC | EMERGING | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 60 | NEGATIVE |
+| NVDA | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEGATIVE |
 
 ### Base Case 실행 순서와 이유
 
@@ -99,7 +100,7 @@
 - 이유: 자율주행·로보택시의 상방은 크지만 향후 12개월의 본업 마진과 잉여현금흐름이 현재 비중을 정당화하기에는 아직 약합니다.
 - 핵심 위험: 상용화 일정 지연, 자동차 수요와 마진 악화, 높은 기대가 동시에 작용할 수 있습니다.
 - 실행: 한 번에 전량 조정하지 말고 2회로 나눠 24%까지 축소합니다. 실적 전에는 절반만 실행하고, 현금흐름 개선이 확인되면 두 번째 축소는 취소할 수 있습니다.
-- 시장행동: TSLA | Relative Momentum NEUTRAL | QQQ 대비 상대강도 상승
+- 시장행동: TSLA | Relative Momentum NEUTRAL | 50/200MA 상단 | QQQ 대비 상대강도 상승
 - 생각을 바꿀 신호: 반복되는 대규모 잉여현금흐름 적자; 차량 수요와 자동차 마진의 동반 악화; 자율주행 상용화의 구조적 지연
 
 #### 2. PLTR — 추가매수
@@ -108,6 +109,7 @@
 - 핵심 위험: 높은 밸류에이션에서 성장률이나 계약의 실제 매출 전환이 둔화되면 멀티플 압축이 큽니다.
 - 실행: 30~35% 핵심 보유 밴드를 유지합니다. 신고가만으로 매도하거나 추가매수하지 말고 다음 실적에서 성장·마진을 재확인합니다.
 - 시장행동: PLTR | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락
+- 타이밍 조정: RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소
 - 생각을 바꿀 신호: 미국 상업과 정부 성장률의 동시 급락; 잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리; GAAP 마진과 현금흐름의 동반 악화
 
 #### 3. VRT — 추가매수
@@ -135,25 +137,25 @@
 - **TSLA**: 반복되는 대규모 잉여현금흐름 적자
 - **PLTR**: 미국 상업과 정부 성장률의 동시 급락
 - **VRT**: 유기적 성장률 급락
-- **AMZN**: AWS 성장과 영업이익률의 동반 둔화
 - **AVGO**: AI 매출 성장의 급격한 둔화
+- **AMZN**: AWS 성장과 영업이익률의 동반 둔화
 
 ## 부록: 추가 자본 매력도 순위
 
 | 순위 | 종목 | 종합점수 | 근거 신뢰도 | 현재 | 목표 | 상태 |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | NVDA | 85.6 | 88% | 4.86% | 5.00% | STRENGTHENING |
-| 2 | AVGO | 83.4 | 85% | 16.01% | 14.00% | STRENGTHENING |
-| 3 | AMZN | 81.6 | 85% | 6.04% | 4.00% | STRENGTHENING |
-| 4 | VRT | 78.8 | 82% | 2.97% | 7.00% | STRENGTHENING |
+| 1 | NVDA | 85.6 | 88% | 4.68% | 5.00% | STRENGTHENING |
+| 2 | AVGO | 83.4 | 85% | 16.45% | 14.00% | STRENGTHENING |
+| 3 | AMZN | 81.6 | 85% | 6.20% | 4.00% | STRENGTHENING |
+| 4 | VRT | 78.8 | 82% | 3.00% | 7.00% | STRENGTHENING |
 | 5 | ETN | 75.6 | 82% | 0.00% | 0.00% | STRENGTHENING |
 | 6 | ORCL | 75.3 | 84% | 0.00% | 0.00% | STRENGTHENING |
-| 7 | PLTR | 73.8 | 85% | 27.52% | 33.00% | STRENGTHENING |
+| 7 | PLTR | 73.8 | 85% | 27.29% | 33.00% | STRENGTHENING |
 | 8 | AXON | 70.8 | 84% | 0.00% | 0.00% | STRENGTHENING |
-| 9 | CCJ | 69.6 | 78% | 5.29% | 6.00% | STABLE |
-| 10 | INTC | 57.4 | 72% | 2.37% | 2.00% | EMERGING |
+| 9 | CCJ | 69.6 | 78% | 5.10% | 6.00% | STABLE |
+| 10 | INTC | 57.4 | 72% | 2.32% | 2.00% | EMERGING |
 | 11 | CRWV | 51.9 | 86% | 0.00% | 0.00% | WEAKENING |
-| 12 | TSLA | 51.0 | 72% | 34.15% | 24.00% | STABLE |
+| 12 | TSLA | 51.0 | 72% | 34.17% | 24.00% | STABLE |
 
 ## 7. 결론
 

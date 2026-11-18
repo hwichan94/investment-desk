@@ -1,0 +1,70 @@
+{
+  "post_id": "231702",
+  "content_hash": "ddaa3e584f856442e10a4b03f20d560838665822a0d216966ecc189702a6214a",
+  "title": "엔비디아 어닝 서프라이즈 속 복귀각을 잡는 젠슨황...",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-18T10:30:00+09:00",
+  "summary": "NVDA 실적을 어닝 서프라이즈로 평가: 매출 1,158억 달러(전분기 +20%, 전년 +103%), 다음 분기 1,300억 달러 가이던스로 예상 상회, GM 가이던스 71~72%는 예상 중간값 71.6%를 소폭 하회, FY28 성장률 70→75% 상향. 임시 CEO 크레스는 네오클라우드를 재무·부지·전력이 갖춰진 곳 위주로 선별 지원하겠다고 밝혔고, 작가는 CoreWeave·Nebius·Iren 등 상장 3사가 수혜라고 해석한다. 젠슨 황은 이사회가 동의하면 복귀 의사를 밝혔으나 이사회는 복귀 계획이 없다고 했다.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "NVDA 분기 매출 1,158억 달러, QoQ +20%, YoY +103%",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "웹검색(NVIDIA IR·SEC)에서 FQ3 FY27 실적 원문 미색인, sec.gov는 샌드박스 네트워크에서 차단되어 8-K(2026-11-17) 직접 열람 불가. data/market/docs 갱신 후 대조 필요."
+    },
+    {
+      "kind": "FACT",
+      "text": "다음 분기 매출 1,300억 달러 가이던스(예상 상회), GM 가이던스 71~72%",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "웹검색(NVIDIA IR·SEC)에서 FQ3 FY27 실적 원문 미색인, sec.gov는 샌드박스 네트워크에서 차단되어 8-K(2026-11-17) 직접 열람 불가. data/market/docs 갱신 후 대조 필요."
+    },
+    {
+      "kind": "FACT",
+      "text": "콜에서 네오클라우드 선별 지원 원칙(부지·전력·자금조달 선확보) 언급",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "콜 녹취록은 웹검색에서 확인하지 못함."
+    },
+    {
+      "kind": "OPINION",
+      "text": "CRWV 등 상장 네오클라우드 3사는 NVDA 지원 범위 안이라 안심해도 됨",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "2027년부터 실제 성장을 내는 기업에만 성장 프리미엄이 선별적으로 들어간다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "MEDIUM",
+      "rationale": "매출·가이던스 상회와 성장률 상향이 사실이면 우호적이나 공식 원문 미대조."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "선별 지원 원칙은 양면적(자금조달력 입증 업체 유리, 약한 업체 불리). 작가 해석만으로 반영하지 않음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. NVDA 공식 수치 대조 후 재평가하며 단일 의견으로 비중을 바꾸지 않는다."
+}

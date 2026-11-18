@@ -1,28 +1,33 @@
 {
-  "summary": "공포장(AI 불안, 12월 금리 인상 우려, 이란, 규제 불확실성)에서도 펀더멘털을 쌓는 기업은 컴백한다는 논리로 팔란티어를 옹호한다. 2022년 -64.7% 후 2023·2024년 급등 사례를 들고, 현재는 흑자·현금흐름 확대 상태라 더 유리하다고 본다. 데이터센터 지연 시 컴퓨트 희소성이 커져 오픈모델·효율 소프트웨어 내러티브가 수혜라는 주장과 알렉스 카프 CEO 역량·AI Sovereign 부트캠프를 강조한다.",
+  "post_id": "231560",
+  "content_hash": "72d6004acc7e1920b19873cf2d975a79b928d5fcd62f5e0b6c0c832daa4e218c",
+  "title": "팔란티어가 해야 할 일",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-18T10:30:00+09:00",
+  "summary": "공포장(금리 인상 우려·이란·규제 불확실성)에서도 현금흑자를 키우는 PLTR은 2022년처럼 재평가될 것이라는 옹호 글. 데이터센터 지연 시 컴퓨트가 희소해져 '가성비 오픈모델' 소프트웨어 가치가 커질 수 있고, 알렉스 카프의 선견지명이 핵심이라고 본다. 신규 공식 수치는 없다.",
   "relevance": "MEDIUM",
   "claims": [
     {
       "kind": "FACT",
-      "text": "PLTR 연간 주가: 2022 -64.7%, 2023 +167.4%, 2024 +340.5%",
+      "text": "PLTR 2022년 주가 -64.7%, 2023년 +167.4%, 2024년 +340.5%",
       "tickers": [
         "PLTR"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "이번 루틴에서 공식 자료로 확인하지 못함(주가 수익률은 공시 대상이 아님). 점수 변경에 쓰지 않음."
+      "evidence_note": "시세 이력은 공식 자료 대상이 아니며 이번 실행에서 대조하지 않음."
     },
     {
       "kind": "FACT",
-      "text": "현재 PLTR은 흑자이며 현금 흑자 규모가 계속 커지고 있다",
+      "text": "PLTR 현금 흑자가 계속 커지고 있고 적자기업이 아님",
       "tickers": [
         "PLTR"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "data/market/docs 최신 10-Q 대조는 이번 실행에서 수행하지 않음. 기존 universe의 PLTR 현금창출 가속 근거와 방향은 일치하나 본 글 단독으로 확인 처리하지 않음."
+      "evidence_note": "data/market/docs의 PLTR 최신 10-Q 대조는 이번 실행에서 하지 않음. 기존 official_research.json 근거를 따른다."
     },
     {
       "kind": "OPINION",
-      "text": "데이터센터 지연 시 컴퓨트가 희소해져 PLTR의 가성비 오픈모델 내러티브 수요가 커질 수 있다",
+      "text": "데이터센터 지연 시 컴퓨트 희소성이 커져 PLTR 오픈모델 내러티브가 수혜",
       "tickers": [
         "PLTR"
       ],
@@ -30,27 +35,11 @@
     },
     {
       "kind": "OPINION",
-      "text": "CEO 알렉스 카프 재임 중에는 AI 주권·오픈모델 선견지명으로 시장 연관 플레이어로 남는다",
+      "text": "알렉스 카프가 CEO인 한 PLTR은 시장에서 연관된 플레이어로 남는다",
       "tickers": [
         "PLTR"
       ],
       "verification": "NOT_APPLICABLE"
-    },
-    {
-      "kind": "PREDICTION",
-      "text": "거시 악조건 기간에도 실적을 쌓은 PLTR은 분위기 회복 시 제대로 컴백한다",
-      "tickers": [
-        "PLTR"
-      ],
-      "verification": "NOT_APPLICABLE",
-      "due": "2027-11-18"
-    },
-    {
-      "kind": "FACT",
-      "text": "젠슨 황 퇴진 후 AI 불안, 12월 금리 인상 예상, 이란 불확실성 등으로 공포장이 지속",
-      "tickers": [],
-      "verification": "PARTIAL",
-      "evidence_note": "NVDA 8-K(11/12)에서 CEO 사임이 보도·언급됨(웹검색 확인). 금리·이란은 이번 실행에서 미확인."
     }
   ],
   "thesis_impacts": [
@@ -58,14 +47,9 @@
       "ticker": "PLTR",
       "direction": "NEUTRAL",
       "magnitude": "LOW",
-      "rationale": "기존 core thesis(성장·현금창출)와 같은 방향의 단일 작가 의견이며 새 공식 근거나 수치가 없다. 2022년 유추는 적자 시기와 현재 밸류에이션이 달라 근거로 약하다."
+      "rationale": "단일 작가 옹호 의견과 과거 주가 유추이며 새 공식 근거가 없다. 매크로 역풍 하에서 펀더멘털 추적이 중요하다는 점만 기존 thesis와 일치."
     }
   ],
   "new_candidates": [],
-  "portfolio_implication": "변경 없음. 의견 기반 글이며 새 공식 근거가 없다. PLTR 30~35% 핵심 밴드와 다음 실적 재확인 원칙 유지.",
-  "post_id": "231560",
-  "content_hash": "09908dd2ae0aa9add90283fdff5b58bba855edd8ea98d93a26a54cc09ee65186",
-  "title": "팔란티어가 해야 할 일",
-  "author": "T3chfeed_테크피드",
-  "analyzed_at": "2026-11-18T14:00:00+09:00"
+  "portfolio_implication": "변경 없음. 개정된 글이지만 새 공식 근거가 없고 단일 의견만으로 PLTR 비중을 바꾸지 않는다."
 }

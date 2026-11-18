@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-18T22:09:29.738286+09:00",
+  "generated_at": "2026-11-19T04:06:42.135344+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -749,6 +749,199 @@
   },
   "recent_analyses": [
     {
+      "post_id": "231841",
+      "analyzed_at": "2026-11-18T22:15:00+09:00",
+      "title": "엔비디아가 모든 지급보증을 멈추면 네오클라우드는 어떻게 될까?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "NVDA의 직접 투자·인수 약 $82.5B와 리스·용량 보증 약 $170B(합계 $252.5B)를 공개자료 기반으로 정리한 글. OpenAI 관련이 가장 크고($30B 투자+$105B 리스 보증), 네오클라우드 직접투자는 $7B(10% 이하), 미판매 하방보증 $32B(직전 $36B에서 감소). 지분을 제외한 실질 보증 의무는 약 $60B로 NVDA 분기 영업이익($77.5B) 규모 이하라 NVDA에 감당 가능하며, CRWV는 부채가 많아 취약하나 NEBIUS·IREN은 NVDA 보증 의존이 없다는 평가.",
+      "relevance": "HIGH",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NVDA 이번 분기 영업이익 $77.5B",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+          "evidence_note": "웹검색으로 8-K 보도자료 대조: 영업이익 $77.5B(+115% YoY).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "NVDA 직접투자 약 $82.5B·리스/용량 보증 약 $170B(OpenAI 리스 보증 $105B, 하방보증 $32B, 람다 $20B)",
+          "tickers": [
+            "NVDA",
+            "CRWV"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "작가의 공개자료 집계(자체 인정: 비공개분 누락). 10-Q 구매·보증 의무 주석과 대조 필요, 이번 실행에서는 Q3 10-Q 원문이 docs에 없어 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "미판매 하방보증이 $36B에서 $32B로 감소",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 근거 미확인; 감소 이유는 작가도 추정.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "실질 보증 의무 약 $60B로 NVDA에 감당 가능, 네비우스·아이렌은 영향 작음",
+          "tickers": [
+            "NVDA",
+            "CRWV"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "하방보증 구조로 NVDA가 클라우드 매출을 간접 공유받는 영리한 구조",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "보증 규모는 큰 우발부채이나 영업이익 대비 감당 가능하다는 작가 주장은 미검증. 순환금융(고객 자금조달 보증) 리스크 점검 항목으로만 추가."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "부채 과다로 NVDA 보증에 의존한다는 언급은 CRWV 리스크 확인 항목이나 새 공식 근거 없음."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. NVDA 보증 집계는 미검증 단일 출처이므로 점수·비중을 바꾸지 않고 다음 10-Q에서 보증·구매의무 주석을 확인한다."
+    },
+    {
+      "post_id": "231698",
+      "analyzed_at": "2026-11-18T22:15:00+09:00",
+      "title": "젠슨 황 없는 엔비디아 실적",
+      "author": "T3chfeed_테크피드",
+      "summary": "NVDA 실적을 긍정 평가: FY28 성장률 70→75% 상향, 환산 매출 약 $741B, FWD PER 10.6배·PSR 5.1배로 부담이 적다고 본다. 임시 CEO 크레스의 첫 실적발표에 대한 외신 평가는 갈리며, 젠슨 황 부재 시 '신중파' 색채가 강해질 수 있으나 속단은 이르다는 입장. Edge Computing(차량·로보틱스·ProViz 합산) $82억, YoY +42%, QoQ +14.3%로 피지컬 AI 성장이 이어진다고 해석한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NVDA 이번 분기 매출·영업이익 호조(영업이익 $77.5B는 다른 글 인용)",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+          "evidence_note": "웹검색으로 8-K 보도자료 대조: 매출 $115.8B(+103% YoY), 영업이익 $77.5B, GM 74.8%. 직접 원문 열람은 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "Edge Computing 부문 $82억, YoY +42%, QoQ +14.3%",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "웹검색에서 세그먼트 수치를 찾지 못함(CFO commentary 미확인).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "FY28 성장률 가이드 70%→75%, 매출 환산 $741.4B, FWD PER 10.6배·PSR 5.1배",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "콜 발언·멀티플은 공식 자료 미확인(멀티플은 작가 계산).",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "젠슨 황 경쟁사 설립은 비현실적, 복귀 시나리오 가능",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "2028년경까지 데이터센터가 성장 주도, 이후 피지컬 AI/Edge가 주도",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2028-12-31"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "이미 반영된 실적 서프라이즈 재해석이며 신규 공식 근거 없음. CEO 교체 리스크는 열려 있음."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 231676·231702 이후 새 공식 근거가 없고 단일 의견으로 비중을 바꾸지 않는다."
+    },
+    {
+      "post_id": "231822",
+      "analyzed_at": "2026-11-18T22:15:00+09:00",
+      "title": "뉴트론 엔진 시험이 5배 빨라졌습니다",
+      "author": "나스다큐",
+      "summary": "Rocket Lab이 11/17(현지) Neutron 엔진 Archimedes의 129초 연소 시험 영상을 공개했고 누적 시험은 650회를 넘었다. 400회(8/12)에서 650회까지 97일, 하루 2.58회로 기존 0.55회 대비 약 5배 빨라졌다는 작가의 계산. 엔진 개량 단계를 넘어선 속도라는 해석.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "Archimedes 누적 650회 초과·129초 연소 시험(11/17)",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "웹검색에서 400회 시점 기사만 확인, 650회 공지는 미확인. RKLB는 보유·universe 밖 종목.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "시험 속도 5배 가속은 개발이 양산·검증 단계로 넘어갔다는 신호",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. RKLB는 보유·후보 종목이 아니며 시험 횟수만으로 편입 근거가 되지 않는다."
+    },
+    {
       "post_id": "231617",
       "analyzed_at": "2026-11-18T14:00:00+09:00",
       "title": "엔비디아 실적 발표 전 체크리스트",
@@ -859,9 +1052,9 @@
           "tickers": [
             "PLTR"
           ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "data/market/docs의 PLTR 최신 10-Q 대조는 이번 실행에서 하지 않음. 기존 official_research.json 근거를 따른다.",
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+          "evidence_note": "2026-11-02 8-K 실적 보도자료: 2026 Q3 영업현금흐름 $1,204.6M(전년 $507.7M), adjusted FCF $1,216.1M(마진 53%, 전년 $539.9M), 연간 adjusted FCF 가이던스 $4.8~5.0B로 상향. 현금 흑자 확대 확인.",
           "due": null
         },
         {

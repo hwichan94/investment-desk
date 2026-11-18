@@ -22,8 +22,9 @@
       "tickers": [
         "PLTR"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "data/market/docs의 PLTR 최신 10-Q 대조는 이번 실행에서 하지 않음. 기존 official_research.json 근거를 따른다."
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-11-02 8-K 실적 보도자료: 2026 Q3 영업현금흐름 $1,204.6M(전년 $507.7M), adjusted FCF $1,216.1M(마진 53%, 전년 $539.9M), 연간 adjusted FCF 가이던스 $4.8~5.0B로 상향. 현금 흑자 확대 확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
     },
     {
       "kind": "OPINION",

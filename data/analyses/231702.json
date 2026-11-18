@@ -13,8 +13,9 @@
       "tickers": [
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "웹검색(NVIDIA IR·SEC)에서 FQ3 FY27 실적 원문 미색인, sec.gov는 샌드박스 네트워크에서 차단되어 8-K(2026-11-17) 직접 열람 불가. data/market/docs 갱신 후 대조 필요."
+      "verification": "CONFIRMED",
+      "evidence_note": "NVIDIA 8-K 보도자료(2026-11-17) 웹검색 결과 요약으로 대조(직접 열람은 네트워크 차단, 다음 collect docs로 재확인): 매출 $115.8B, YoY +103%, QoQ +20% 일치",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
     },
     {
       "kind": "FACT",
@@ -22,8 +23,9 @@
       "tickers": [
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "웹검색(NVIDIA IR·SEC)에서 FQ3 FY27 실적 원문 미색인, sec.gov는 샌드박스 네트워크에서 차단되어 8-K(2026-11-17) 직접 열람 불가. data/market/docs 갱신 후 대조 필요."
+      "verification": "PARTIAL",
+      "evidence_note": "NVIDIA 8-K 보도자료(2026-11-17) 웹검색 결과 요약으로 대조(직접 열람은 네트워크 차단, 다음 collect docs로 재확인): 가이던스 $130.0B ±3% 일치. GM 71~72% 가이던스는 미확인",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
     },
     {
       "kind": "FACT",

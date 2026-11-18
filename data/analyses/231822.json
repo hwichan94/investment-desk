@@ -1,0 +1,31 @@
+{
+  "post_id": "231822",
+  "content_hash": "2b80933e83a238b655bd5fac6c5635c87b5bddef48cfa2e0cdc3588fc099cd63",
+  "title": "뉴트론 엔진 시험이 5배 빨라졌습니다",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-18T22:15:00+09:00",
+  "new_candidates": [],
+  "summary": "Rocket Lab이 11/17(현지) Neutron 엔진 Archimedes의 129초 연소 시험 영상을 공개했고 누적 시험은 650회를 넘었다. 400회(8/12)에서 650회까지 97일, 하루 2.58회로 기존 0.55회 대비 약 5배 빨라졌다는 작가의 계산. 엔진 개량 단계를 넘어선 속도라는 해석.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Archimedes 누적 650회 초과·129초 연소 시험(11/17)",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "웹검색에서 400회 시점 기사만 확인, 650회 공지는 미확인. RKLB는 보유·universe 밖 종목."
+    },
+    {
+      "kind": "OPINION",
+      "text": "시험 속도 5배 가속은 개발이 양산·검증 단계로 넘어갔다는 신호",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "portfolio_implication": "변경 없음. RKLB는 보유·후보 종목이 아니며 시험 횟수만으로 편입 근거가 되지 않는다."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-19T13:07:07.392810+09:00",
+  "generated_at": "2026-11-19T20:43:16.023161+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -731,7 +731,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-19T11:43:38.345387+09:00",
+    "generated_at": "2026-11-19T20:43:09.002110+09:00",
     "key_signals": [
       "AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지",
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
@@ -749,6 +749,295 @@
     }
   },
   "recent_analyses": [
+    {
+      "post_id": "231954",
+      "analyzed_at": "2026-11-19T20:30:00+09:00",
+      "title": "앤트로픽 상장 16시간 전 | 11-19 미국 시황 정리",
+      "author": "T3chfeed_테크피드",
+      "summary": "FOMC 의사록의 매파 신호(추가 인상, 일부 빅스텝 논의)와 AI 인프라를 인플레 요인으로 본 점을 정리하고, NVDA CEO 후임 탐색 보도, 테슬라 폴리실리콘 공장(코닝 연관), 템퍼스 AZ 계약 연장, 조비 두바이, 앤트로픽 상장(공모가 $83)을 훑은 시황 글. 대부분 뉴스 요약이며 수치 근거는 약하다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "FOMC 의사록: 거의 모든 위원이 추가 인상 적절, 일부 0.50% 논의, AI 인프라 투자를 인플레 요인으로 언급",
+          "tickers": [],
+          "verification": "PARTIAL",
+          "evidence_url": "https://abc30.com/story/fed-minutes-another-rate-hike-coming-year-combat-persistent-inflation/",
+          "evidence_note": "웹검색에서 \"추가 인상 필요\" 보도는 확인되나 10월 27~28일 회의 의사록 원문(federalreserve.gov)은 못 찾음(검색에 잡힌 의사록은 9월 회의분). 0.50% 논의·AI 인플레 언급은 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "NVDA 이사회가 헤드헌터 Heidrick & Struggles를 고용해 Arm CEO 르네 하스에게 후임 CEO 의향을 타진",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "언론 보도 인용 추정, 공식 공시·IR 근거 없음. 검색 미시도(출처 불명 루머 성격).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "테슬라가 텍사스에 $3.1B 규모 폴리실리콘 정제공장 계획, 완공 2030년",
+          "tickers": [
+            "TSLA",
+            "GLW"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://electrek.co/2026/08/11/tesla-solar-cell-factory-texas-project-crystal-sun/",
+          "evidence_note": "텍사스 태양광 공장 계획은 확인(8월 보도 $10.1B Project Crystal Sun, 세금감면 신청). $3.1B 폴리실리콘 공장은 검색에서 못 찾았고 폴리실리콘 포함 여부도 매체별로 상이.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "템퍼스가 아스트라제네카와 5년 총 $200M 협력 연장, PRECISION Challenge 공개",
+          "tickers": [
+            "TEM"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "검색에서 확인된 것은 2025-04 AZ·Pathos $200M 다년 계약뿐. 5년 연장·PRECISION Challenge는 확인 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "조비: 두바이 마리나 에어택시 터미널 건설 완료 및 GCAA 운영 승인",
+          "tickers": [
+            "JOBY"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "검색 미시도, 비보유·비후보.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 공모가 $83, 오늘 상장",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "검색 미시도. 유통주식·수요 비교는 인터뷰 인용.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "AI 인프라 투자가 단기 인플레 요인이라 중간선거 이후 정치 압박이 데이터센터 지연 시 긍정적일 수 있음",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "다음 FOMC(약 20일 후)에서 0.25%p 인상 확률 90%, 빅스텝은 기본 시나리오 아님",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-09"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "CEO 후임 탐색은 출처·확인 불명 보도. 3분기 실적과 자사주 매입 기조는 이미 반영돼 있어 thesis 변경 근거 아님."
+        },
+        {
+          "ticker": "TSLA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "태양광 수직통합 계획은 장기 이벤트이며 $3.1B 규모는 미확인. 12개월 KPI에 영향 작음."
+        },
+        {
+          "ticker": "PLTR",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "매파 연준은 고밸류 성장주 할인율 위험이나 단독 매도 사유 아님(RISK_OFF만으로 Core 축소 금지)."
+        }
+      ],
+      "new_candidates": [
+        "TEM"
+      ],
+      "portfolio_implication": "변경 없음. 거시 매파 신호는 신규 Starter·Tactical 크기와 매수 타이밍 점검 항목으로만 쓰고, 개별 뉴스는 대부분 미검증이라 점수·비중을 바꾸지 않는다."
+    },
+    {
+      "post_id": "231977",
+      "analyzed_at": "2026-11-19T20:30:00+09:00",
+      "title": "연준과 앤트로픽, 'AI 빚'을 양쪽에서 짚었습니다 (11/19 데일리 시황)",
+      "author": "나스다큐",
+      "summary": "10월 FOMC 의사록과 앤트로픽 투자설명서를 함께 읽어 연준(금융시스템)과 앤트로픽(컴퓨팅 고객) 양쪽이 AI 부채를 위험으로 적었다는 시황 글. 수집된 본문은 앤트로픽 파트 시작 직전에서 끝나 일부만 확인 가능하다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "다우 -1.11%, 나스닥 +0.42%, NVDA 닷새째 하락(-2.89%) 마감",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "시세 일치 확인은 data/market 갱신(GitHub Actions)에 의존. 같은 날 다른 글은 NVDA -1.70%로 적어 장중/마감 기준 차이 가능.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "FOMC 의사록: 거의 모든 위원이 추가 인상 적절, AI 관련 부채가 불투명한 구조로 급증했다는 금융안정 우려",
+          "tickers": [],
+          "verification": "PARTIAL",
+          "evidence_url": "https://abc30.com/story/fed-minutes-another-rate-hike-coming-year-combat-persistent-inflation/",
+          "evidence_note": "추가 인상 시사는 보도로 확인. 10월 회의 의사록 원문과 AI 부채 문구는 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "월러 이사가 12월 0.5%p 인상 필요 언급, 1월까지 0.5%p 인상 확률 38%→69%",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "연설문·CME FedWatch 원자료 미확인.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "연준의 우려 대상은 AI 수요가 아니라 이를 떠받치는 부채 구조",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "AI 부채·순환금융 우려는 기존 감시 항목(231841)과 같은 방향이며 새 공식 근거 없음."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "AI 부채 구조 위험은 레버리지 높은 네오클라우드에 불리하나 본문 일부만 있고 미검증. 비보유·target 0% 후보라 영향 제한."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. AI CAPEX 상관집중·금리 인상 국면 점검 항목으로만 기록. 본문이 잘려 앤트로픽 파트는 반영하지 못했다."
+    },
+    {
+      "post_id": "231822",
+      "analyzed_at": "2026-11-18T22:15:00+09:00",
+      "title": "뉴트론 엔진 시험이 5배 빨라졌습니다",
+      "author": "나스다큐",
+      "summary": "Rocket Lab이 11/17(현지) Neutron 엔진 Archimedes의 129초 연소 시험 영상을 공개했고 누적 시험은 650회를 넘었다. 400회(8/12)에서 650회까지 97일, 하루 2.58회로 기존 0.55회 대비 약 5배 빨라졌다는 작가의 계산. 엔진 개량 단계를 넘어선 속도라는 해석.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "Archimedes 누적 650회 초과·129초 연소 시험(11/17)",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "웹검색에서 400회 시점 기사만 확인, 650회 공지는 미확인. RKLB는 보유·universe 밖 종목.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "시험 속도 5배 가속은 개발이 양산·검증 단계로 넘어갔다는 신호",
+          "tickers": [
+            "RKLB"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. RKLB는 보유·후보 종목이 아니며 시험 횟수만으로 편입 근거가 되지 않는다."
+    },
+    {
+      "post_id": "231698",
+      "analyzed_at": "2026-11-18T22:15:00+09:00",
+      "title": "젠슨 황 없는 엔비디아 실적",
+      "author": "T3chfeed_테크피드",
+      "summary": "NVDA 실적을 긍정 평가: FY28 성장률 70→75% 상향, 환산 매출 약 $741B, FWD PER 10.6배·PSR 5.1배로 부담이 적다고 본다. 임시 CEO 크레스의 첫 실적발표에 대한 외신 평가는 갈리며, 젠슨 황 부재 시 '신중파' 색채가 강해질 수 있으나 속단은 이르다는 입장. Edge Computing(차량·로보틱스·ProViz 합산) $82억, YoY +42%, QoQ +14.3%로 피지컬 AI 성장이 이어진다고 해석한다.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "NVDA 이번 분기 매출·영업이익 호조(영업이익 $77.5B는 다른 글 인용)",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+          "evidence_note": "웹검색으로 8-K 보도자료 대조: 매출 $115.8B(+103% YoY), 영업이익 $77.5B, GM 74.8%. 직접 원문 열람은 못 함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "Edge Computing 부문 $82억, YoY +42%, QoQ +14.3%",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "웹검색에서 세그먼트 수치를 찾지 못함(CFO commentary 미확인).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "FY28 성장률 가이드 70%→75%, 매출 환산 $741.4B, FWD PER 10.6배·PSR 5.1배",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "콜 발언·멀티플은 공식 자료 미확인(멀티플은 작가 계산).",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "젠슨 황 경쟁사 설립은 비현실적, 복귀 시나리오 가능",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "2028년경까지 데이터센터가 성장 주도, 이후 피지컬 AI/Edge가 주도",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2028-12-31"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "이미 반영된 실적 서프라이즈 재해석이며 신규 공식 근거 없음. CEO 교체 리스크는 열려 있음."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 231676·231702 이후 새 공식 근거가 없고 단일 의견으로 비중을 바꾸지 않는다."
+    },
     {
       "post_id": "231841",
       "analyzed_at": "2026-11-18T22:15:00+09:00",
@@ -831,116 +1120,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. NVDA 보증 집계는 미검증 단일 출처이므로 점수·비중을 바꾸지 않고 다음 10-Q에서 보증·구매의무 주석을 확인한다."
-    },
-    {
-      "post_id": "231698",
-      "analyzed_at": "2026-11-18T22:15:00+09:00",
-      "title": "젠슨 황 없는 엔비디아 실적",
-      "author": "T3chfeed_테크피드",
-      "summary": "NVDA 실적을 긍정 평가: FY28 성장률 70→75% 상향, 환산 매출 약 $741B, FWD PER 10.6배·PSR 5.1배로 부담이 적다고 본다. 임시 CEO 크레스의 첫 실적발표에 대한 외신 평가는 갈리며, 젠슨 황 부재 시 '신중파' 색채가 강해질 수 있으나 속단은 이르다는 입장. Edge Computing(차량·로보틱스·ProViz 합산) $82억, YoY +42%, QoQ +14.3%로 피지컬 AI 성장이 이어진다고 해석한다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "NVDA 이번 분기 매출·영업이익 호조(영업이익 $77.5B는 다른 글 인용)",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
-          "evidence_note": "웹검색으로 8-K 보도자료 대조: 매출 $115.8B(+103% YoY), 영업이익 $77.5B, GM 74.8%. 직접 원문 열람은 못 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "Edge Computing 부문 $82억, YoY +42%, QoQ +14.3%",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "웹검색에서 세그먼트 수치를 찾지 못함(CFO commentary 미확인).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "FY28 성장률 가이드 70%→75%, 매출 환산 $741.4B, FWD PER 10.6배·PSR 5.1배",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "콜 발언·멀티플은 공식 자료 미확인(멀티플은 작가 계산).",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "젠슨 황 경쟁사 설립은 비현실적, 복귀 시나리오 가능",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "2028년경까지 데이터센터가 성장 주도, 이후 피지컬 AI/Edge가 주도",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2028-12-31"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "이미 반영된 실적 서프라이즈 재해석이며 신규 공식 근거 없음. CEO 교체 리스크는 열려 있음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 231676·231702 이후 새 공식 근거가 없고 단일 의견으로 비중을 바꾸지 않는다."
-    },
-    {
-      "post_id": "231822",
-      "analyzed_at": "2026-11-18T22:15:00+09:00",
-      "title": "뉴트론 엔진 시험이 5배 빨라졌습니다",
-      "author": "나스다큐",
-      "summary": "Rocket Lab이 11/17(현지) Neutron 엔진 Archimedes의 129초 연소 시험 영상을 공개했고 누적 시험은 650회를 넘었다. 400회(8/12)에서 650회까지 97일, 하루 2.58회로 기존 0.55회 대비 약 5배 빨라졌다는 작가의 계산. 엔진 개량 단계를 넘어선 속도라는 해석.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "Archimedes 누적 650회 초과·129초 연소 시험(11/17)",
-          "tickers": [
-            "RKLB"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "웹검색에서 400회 시점 기사만 확인, 650회 공지는 미확인. RKLB는 보유·universe 밖 종목.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "시험 속도 5배 가속은 개발이 양산·검증 단계로 넘어갔다는 신호",
-          "tickers": [
-            "RKLB"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. RKLB는 보유·후보 종목이 아니며 시험 횟수만으로 편입 근거가 되지 않는다."
     },
     {
       "post_id": "231617",
@@ -1252,69 +1431,6 @@
       "portfolio_implication": "변경 없음. NVDA 공식 수치 대조 후 재평가하며 단일 의견으로 비중을 바꾸지 않는다."
     },
     {
-      "post_id": "230741",
-      "analyzed_at": "2026-11-17T14:00:00+09:00",
-      "title": "📢 2027 투자전공반 연회원권 안내 [나에게 맞는 안내글을 확인해주세요]",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "2027 투자전공반 연회원권 안내 공지. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 투자 내용이 없는 멤버십 공지."
-    },
-    {
-      "post_id": "231419",
-      "analyzed_at": "2026-11-17T14:00:00+09:00",
-      "title": "모두가 비관적인 일주일을 지나는 낙관주의자의 자세 (ft. 케빈워시)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "기술주 급락을 유동성 이탈(앤트로픽 IPO 청약 수요 흡수, 기계적 청산)로 설명하고 장기투자자에게 하락장은 기회라는 낙관론을 편다. 워시 연준 의장의 생산성·일자리 태스크포스 연설(초지능, 3개 시나리오)을 공유한다. 앤트로픽 청약은 6~7배에서 20배까지 갔다는 말을 전한다. 매매 추천은 없다.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 IPO 초과청약이 지난주 6~7배(블룸버그)에서 약 20배로 증가했다는 전언(알티미터 거스트너)",
-          "tickers": [
-            "ANT"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "이전 분석(231248)에서 복수 배 초과청약만 확인. 20배는 2차 전언이라 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "케빈 워시 연준 의장이 샌프란시스코 연은 행사에서 초지능·생산성 연설, 3개 시나리오(긍정·고용충격·실망)",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "연준 연설 원문 미조회, 본문 요약만 확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "현재 가장 싼 자산은 AI·기술주이며 월마트가 기술주보다 비싸게 평가됨",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "유동성이 돌아오면 하락분은 회복된다",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 거시 의견이며 종목 근거가 없다. 워시의 '실망 시나리오'는 AI CAPEX 상관집중 점검 항목으로만 기록한다."
-    },
-    {
       "post_id": "231385",
       "analyzed_at": "2026-11-17T14:00:00+09:00",
       "title": "엔비디아 실적 D-1 | 11-17 미국 시황 정리",
@@ -1421,6 +1537,69 @@
         "IONQ"
       ],
       "portfolio_implication": "변경 없음. 수치 대부분이 미검증인 단일 작가 시황이다. 수출통제 규정은 BIS 원문 확인 후 재검토하고 NVDA 실적(11/18 KST) 뒤 일괄 반영한다. 작가의 추가매수는 사용자 포트폴리오와 무관(현금 5% 미달)."
+    },
+    {
+      "post_id": "231419",
+      "analyzed_at": "2026-11-17T14:00:00+09:00",
+      "title": "모두가 비관적인 일주일을 지나는 낙관주의자의 자세 (ft. 케빈워시)",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "기술주 급락을 유동성 이탈(앤트로픽 IPO 청약 수요 흡수, 기계적 청산)로 설명하고 장기투자자에게 하락장은 기회라는 낙관론을 편다. 워시 연준 의장의 생산성·일자리 태스크포스 연설(초지능, 3개 시나리오)을 공유한다. 앤트로픽 청약은 6~7배에서 20배까지 갔다는 말을 전한다. 매매 추천은 없다.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 IPO 초과청약이 지난주 6~7배(블룸버그)에서 약 20배로 증가했다는 전언(알티미터 거스트너)",
+          "tickers": [
+            "ANT"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "이전 분석(231248)에서 복수 배 초과청약만 확인. 20배는 2차 전언이라 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "케빈 워시 연준 의장이 샌프란시스코 연은 행사에서 초지능·생산성 연설, 3개 시나리오(긍정·고용충격·실망)",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "연준 연설 원문 미조회, 본문 요약만 확인.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "현재 가장 싼 자산은 AI·기술주이며 월마트가 기술주보다 비싸게 평가됨",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "유동성이 돌아오면 하락분은 회복된다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 거시 의견이며 종목 근거가 없다. 워시의 '실망 시나리오'는 AI CAPEX 상관집중 점검 항목으로만 기록한다."
+    },
+    {
+      "post_id": "230741",
+      "analyzed_at": "2026-11-17T14:00:00+09:00",
+      "title": "📢 2027 투자전공반 연회원권 안내 [나에게 맞는 안내글을 확인해주세요]",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "2027 투자전공반 연회원권 안내 공지. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 투자 내용이 없는 멤버십 공지."
     },
     {
       "post_id": "231202",
@@ -1705,207 +1884,10 @@
         "ANT"
       ],
       "portfolio_implication": "변경 없음. 작가의 저가 매수 의견은 개인 전략이며 사용자 포트폴리오 현금 $201.50(5% 미달)과 맞지 않는다. 데이터센터 규제 지연·네오클라우드 신용 우려는 AI CAPEX 상관집중 위험 점검 항목으로만 기록."
-    },
-    {
-      "post_id": "230742",
-      "analyzed_at": "2026-11-16T16:30:00+09:00",
-      "title": "📌[얼리버드] 연 회원권 + 굿즈 패키지 신청 전, 꼭!! 확인하셔야 할 내용 FAQ",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "얼리버드 연회원권·굿즈 패키지 신청 FAQ 공지. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 마케팅 공지."
-    },
-    {
-      "post_id": "231056",
-      "analyzed_at": "2026-11-16T16:30:00+09:00",
-      "title": "젠슨 황 복귀 준비 중? | 11-16 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "T3chfeed 11/16 시황. 젠슨 황 복귀 논의 루머, 베센트 장관의 외부 CEO 발언, 스타십 상단부 회수, 사이버캡 달라스 포착을 전한다. 이번 주 일정(NVDA 실적, FOMC 의사록, 앤트로픽 상장)을 정리하고 현재 기술주 밸류에이션이 닷컴 때와 반대라고 본다. 12월 금리 인상을 거의 확정으로 본다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "NVDA 3분기 실적 발표는 한국시간 11/18 07:00(미국 11/17 장 마감 후)",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
-          "evidence_note": "NVIDIA IR 공지: 11/17 2pm PT 컨퍼런스콜.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 나스닥 상장, 희망 공모가 $70~78, 티커 ANT",
-          "tickers": [
-            "ANT"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
-          "evidence_note": "복수 언론이 공모가 범위·ANT 확인. 사전 보도이며 SEC 원문(S-1/424B)은 이번에 미조회. 상장일은 글(미국 19일)과 일치.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "베센트 장관이 엔비디아는 외부에서 새 CEO를 찾아야 한다고 발언",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 발언 원문을 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "FOMC 10월 금리 3.75~4.00% 동결, 12월 인상 거의 확정",
-          "tickers": [
-            "MACRO"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "Fed 공식 자료 미조회. 가격 반영 수준도 글 주장.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "스페이스X 스타십 상단부 회수 성공, 생산 3주에 1기",
-          "tickers": [
-            "SPACEX"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "비상장·보유 무관, 공식 확인 생략.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "테슬라의 사이버캡 광고는 로보택시 본격화 신호",
-          "tickers": [
-            "TSLA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "2026 기술주 밸류에이션은 닷컴 때와 반대로 소비재보다 저렴",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "복귀 논의는 루머, 정식 입장 없음. 판단은 11/17 실적 이후."
-        },
-        {
-          "ticker": "TSLA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "사이버캡 광고·포착은 실적·KPI 근거 아님."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 루머·거시 일정 위주. NVDA 11/17 실적(KST 11/18 07:00)과 FOMC 의사록 11/19 후 재검토."
-    },
-    {
-      "post_id": "231127",
-      "analyzed_at": "2026-11-16T16:30:00+09:00",
-      "title": "AI가 쉬어 간 주말, 스타십은 처음으로 붙잡혔습니다 (11/16 시황)",
-      "author": "나스다큐",
-      "summary": "나스다큐 11/16 시황(발췌 본문). 금요일 AMD·AVGO·MRVL로 갔던 자금이 AI 전반에서 빠졌다. AMD 약 9% 하락, NVDA 2.01% 하락한 $162.85. HSBC가 NVDA를 보유로 하향하고 목표가를 $365→$170으로 낮췄다. 미 10년물 5.15%, 12월 인상 기대, 옵션이 내는 실적 후 변동폭 ±7.31%. 본문은 IREN 13% 하락 언급 직후 잘려 있다.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "HSBC가 NVDA를 매수→보유로 하향, 목표가 $365→$170",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": "https://www.gurufocus.com/news/2761999/nvidia-downgraded-by-hsbc-as-gpu-pricing-power-weakens",
-          "evidence_note": "검색에서는 2025-04 HSBC 하향(목표 $120)만 나옴. 2026-11 건은 확인 못 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "NVDA 금요일 -2.01% $162.85, AMD 약 -9%, AVGO·MRVL 약 -5%",
-          "tickers": [
-            "NVDA",
-            "AMD",
-            "AVGO"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "가격은 data/market(GitHub Actions) 소관. 이번 실행에서 대조 안 함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "NVDA 실적 후 옵션 내재 변동폭 ±7.31%, 과거 4회 5~6%대",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "옵션 데이터 공식 출처 없음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "미 10년물 5.15%, 12월 금리 인상 기본 시나리오",
-          "tickers": [
-            "MACRO"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://tradingeconomics.com/united-states/government-bond-yield/news/598025",
-          "evidence_note": "11/4~11/10 보도상 10년물 4.85~4.93%, 12월 인상 확률 약 77%(11/5경)로 12월 인상 기본 시나리오 방향은 일치. 5.15% 수치는 확인 못 함(11/13 종가 미조회).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "스타십을 발사탑 메카질라로 캐치",
-          "tickers": [
-            "SPACEX"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "보유 무관.",
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "애널리스트 하향·옵션 변동폭은 실적 전 포지셔닝 정보. 검증 안 됨."
-        },
-        {
-          "ticker": "AVGO",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "일시 로테이션 되돌림. 펀더멘털 변화 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 가격 급락·HSBC 의견은 단독 매도·매수 사유가 아님. 본문이 잘려 있어 전체 평가는 불가."
     }
   ],
   "new_candidates": [
+    "TEM",
     "HIMS",
     "JOBY",
     "GLW",

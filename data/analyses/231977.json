@@ -1,0 +1,57 @@
+{
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "다우 -1.11%, 나스닥 +0.42%, NVDA 닷새째 하락(-2.89%) 마감",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "시세 일치 확인은 data/market 갱신(GitHub Actions)에 의존. 같은 날 다른 글은 NVDA -1.70%로 적어 장중/마감 기준 차이 가능."
+    },
+    {
+      "kind": "FACT",
+      "text": "FOMC 의사록: 거의 모든 위원이 추가 인상 적절, AI 관련 부채가 불투명한 구조로 급증했다는 금융안정 우려",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_url": "https://abc30.com/story/fed-minutes-another-rate-hike-coming-year-combat-persistent-inflation/",
+      "evidence_note": "추가 인상 시사는 보도로 확인. 10월 회의 의사록 원문과 AI 부채 문구는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "월러 이사가 12월 0.5%p 인상 필요 언급, 1월까지 0.5%p 인상 확률 38%→69%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "연설문·CME FedWatch 원자료 미확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "연준의 우려 대상은 AI 수요가 아니라 이를 떠받치는 부채 구조",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "summary": "10월 FOMC 의사록과 앤트로픽 투자설명서를 함께 읽어 연준(금융시스템)과 앤트로픽(컴퓨팅 고객) 양쪽이 AI 부채를 위험으로 적었다는 시황 글. 수집된 본문은 앤트로픽 파트 시작 직전에서 끝나 일부만 확인 가능하다.",
+  "relevance": "MEDIUM",
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AI 부채·순환금융 우려는 기존 감시 항목(231841)과 같은 방향이며 새 공식 근거 없음."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "AI 부채 구조 위험은 레버리지 높은 네오클라우드에 불리하나 본문 일부만 있고 미검증. 비보유·target 0% 후보라 영향 제한."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. AI CAPEX 상관집중·금리 인상 국면 점검 항목으로만 기록. 본문이 잘려 앤트로픽 파트는 반영하지 못했다.",
+  "post_id": "231977",
+  "content_hash": "66bba3c30ac9b1b821fbe5f59b171a1b6fa6c0955c60e62b20cc6f656a889575",
+  "analyzed_at": "2026-11-19T20:30:00+09:00",
+  "title": "연준과 앤트로픽, 'AI 빚'을 양쪽에서 짚었습니다 (11/19 데일리 시황)",
+  "author": "나스다큐"
+}

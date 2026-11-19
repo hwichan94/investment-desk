@@ -1,0 +1,101 @@
+{
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "FOMC 의사록: 거의 모든 위원이 추가 인상 적절, 일부 0.50% 논의, AI 인프라 투자를 인플레 요인으로 언급",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_url": "https://abc30.com/story/fed-minutes-another-rate-hike-coming-year-combat-persistent-inflation/",
+      "evidence_note": "웹검색에서 \"추가 인상 필요\" 보도는 확인되나 10월 27~28일 회의 의사록 원문(federalreserve.gov)은 못 찾음(검색에 잡힌 의사록은 9월 회의분). 0.50% 논의·AI 인플레 언급은 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 이사회가 헤드헌터 Heidrick & Struggles를 고용해 Arm CEO 르네 하스에게 후임 CEO 의향을 타진",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "언론 보도 인용 추정, 공식 공시·IR 근거 없음. 검색 미시도(출처 불명 루머 성격)."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라가 텍사스에 $3.1B 규모 폴리실리콘 정제공장 계획, 완공 2030년",
+      "tickers": [
+        "TSLA",
+        "GLW"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://electrek.co/2026/08/11/tesla-solar-cell-factory-texas-project-crystal-sun/",
+      "evidence_note": "텍사스 태양광 공장 계획은 확인(8월 보도 $10.1B Project Crystal Sun, 세금감면 신청). $3.1B 폴리실리콘 공장은 검색에서 못 찾았고 폴리실리콘 포함 여부도 매체별로 상이."
+    },
+    {
+      "kind": "FACT",
+      "text": "템퍼스가 아스트라제네카와 5년 총 $200M 협력 연장, PRECISION Challenge 공개",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색에서 확인된 것은 2025-04 AZ·Pathos $200M 다년 계약뿐. 5년 연장·PRECISION Challenge는 확인 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "조비: 두바이 마리나 에어택시 터미널 건설 완료 및 GCAA 운영 승인",
+      "tickers": [
+        "JOBY"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색 미시도, 비보유·비후보."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 공모가 $83, 오늘 상장",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색 미시도. 유통주식·수요 비교는 인터뷰 인용."
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 인프라 투자가 단기 인플레 요인이라 중간선거 이후 정치 압박이 데이터센터 지연 시 긍정적일 수 있음",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "다음 FOMC(약 20일 후)에서 0.25%p 인상 확률 90%, 빅스텝은 기본 시나리오 아님",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-09"
+    }
+  ],
+  "summary": "FOMC 의사록의 매파 신호(추가 인상, 일부 빅스텝 논의)와 AI 인프라를 인플레 요인으로 본 점을 정리하고, NVDA CEO 후임 탐색 보도, 테슬라 폴리실리콘 공장(코닝 연관), 템퍼스 AZ 계약 연장, 조비 두바이, 앤트로픽 상장(공모가 $83)을 훑은 시황 글. 대부분 뉴스 요약이며 수치 근거는 약하다.",
+  "relevance": "MEDIUM",
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CEO 후임 탐색은 출처·확인 불명 보도. 3분기 실적과 자사주 매입 기조는 이미 반영돼 있어 thesis 변경 근거 아님."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "태양광 수직통합 계획은 장기 이벤트이며 $3.1B 규모는 미확인. 12개월 KPI에 영향 작음."
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "매파 연준은 고밸류 성장주 할인율 위험이나 단독 매도 사유 아님(RISK_OFF만으로 Core 축소 금지)."
+    }
+  ],
+  "new_candidates": [
+    "TEM"
+  ],
+  "portfolio_implication": "변경 없음. 거시 매파 신호는 신규 Starter·Tactical 크기와 매수 타이밍 점검 항목으로만 쓰고, 개별 뉴스는 대부분 미검증이라 점수·비중을 바꾸지 않는다.",
+  "post_id": "231954",
+  "content_hash": "1f757348896c280b9e7f08c5b6772566f471ef80bf1217cec1347d4437505194",
+  "analyzed_at": "2026-11-19T20:30:00+09:00",
+  "title": "앤트로픽 상장 16시간 전 | 11-19 미국 시황 정리",
+  "author": "T3chfeed_테크피드"
+}

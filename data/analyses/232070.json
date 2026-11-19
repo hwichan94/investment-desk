@@ -1,0 +1,53 @@
+{
+  "post_id": "232070",
+  "content_hash": "88da789d31f3efaa8ed76dd376795df4f7c619211ffa80833bc9d89e532496c0",
+  "title": "테슬라, 그래도 계속 기다립니다.",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-19T22:15:00+09:00",
+  "new_candidates": [],
+  "summary": "머스크 NYT 인터뷰 후속 멤버십 코멘트. 테슬라-스페이스X 합병은 머스크가 필수라 주장하진 않았고 세법 청원 통과를 주목, 사이버캡 이후 6~7인승 무인 모델Y 구상, 앤트로픽이 스페이스X에 추가 약 10GW 컴퓨트를 원한다는 언급을 AI 수요 지속 신호로 해석. 저자는 TSLA 투자 지속·인내를 강조.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "머스크가 6~7인승 운전대·페달 없는 자율주행 모델Y 구상을 언급",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "인터뷰 원문 미확인; 검색에서 NYT/Sorkin 인터뷰 내용 확인되지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽이 스페이스X로부터 추가 약 10GW 컴퓨트 확보를 원한다고 머스크가 언급; 앤트로픽은 2033년까지 $900B 컴퓨트 지출약정",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_url": "https://axios.com/2026/05/07/musk-anthropic-compute-spacex-ai",
+      "evidence_note": "앤트로픽-스페이스X 컴퓨트 계약 자체는 보도 확인(Colossus 1 300MW+). 10GW 추가 요청과 $900B(2033)는 미확인; 보도된 지출은 2029년까지 최대 $120.5B(S-1 기반 보도, 2차 출처)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "컴퓨트가 희소 자원이 되고 스페이스X에 가격결정권이 있을 수 있음",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "테슬라 청원 통과 후 국회에서 세법 개정 시 TSLA-SpaceX 합병 시너지 검토 가능",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-06-30"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병·신모델은 구상·가능성 수준이고 공식 근거 없음. 저자의 보유 지속 의견만 있음."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 단일 의견·미검증 인터뷰 내용이라 TSLA 점수·목표 비중 변경 근거 아님."
+}

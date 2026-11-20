@@ -1,0 +1,54 @@
+{
+  "summary": "팀 세상학개론이 IREN 3개월 기록(8~10월)을 정리한 글. 5.8GW 전력망 100% 소유, Horizon 1 MS 인도, JP모건 상향, 텍사스 2GW 심사 통과 등 호재와 고금리·코어위브 CDS 급등 등 네오클라우드 위기론 악재를 병렬 정리하고 가설 유효 결론. 이전 라이브 요약의 재정리라 새 정보는 적음.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "코어위브 5년 CDS가 7월 하락장 정점(972.7)을 넘어 982.1로 최고치 경신",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "CDS 수치는 유료 데이터로 공식·공개 근거를 찾지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국 10년물 5.2%, 30년물 5.5%까지 상승(9/25 기준)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "data/market/regime.json과 시점 불일치 가능. 이번 실행에서 대조하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "JP모건이 IREN을 비중축소→확대로 두 단계 상향, 목표가 $65",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "미추적 종목, 검색 미시도."
+    },
+    {
+      "kind": "OPINION",
+      "text": "IREN 투자 가설은 여전히 유효하며 네오클라우드는 옥석 가리기 국면",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "CDS 급등·자금조달 우려를 인용하나 공식 근거 없음. 미보유 후보."
+    }
+  ],
+  "new_candidates": [
+    "IREN"
+  ],
+  "portfolio_implication": "변경 없음. 232464와 동일 사유로 IREN은 target 0%, 관찰도 단일 출처 의견 기반이라 승격하지 않음.",
+  "post_id": "232505",
+  "content_hash": "42475e48cfb7c36c47ff51026f9e879eabf87ff69643b673619367219e96549d",
+  "title": "[투자전공반 하반기 톺아보기] 아이렌(IREN), 투자 가설은 여전히 유효할까?",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-20T22:20:00+09:00"
+}

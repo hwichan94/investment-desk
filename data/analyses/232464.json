@@ -1,0 +1,71 @@
+{
+  "summary": "IREN(미보유·미추적) 중심 강의 요약. AI 수요=토큰 수요→모델·반도체·전력 병목 가설을 재확인하고, 네오클라우드·메모리가 저평가라는 관점. IREN 주가가 15달러대까지 하락했으나 사업 악재보다 NVDA 생태계 리스크(CEO 복귀 갈등, Moody's 전망 하향)와 자금조달 우려로 해석. 주주친화 부족(ATM 6B, CEO 보상, 스포츠 후원) 등 5대 난관을 점검.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "무디스가 NVDA 신용등급 전망을 긍정적→안정적으로 하향(등급 강등 아님)",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "복수 매체가 2026-11-18 Aa1 유지·전망 안정적 하향 보도. Moody's 원문은 미확인(사유가 젠슨 황 퇴임이라는 보도는 단일 출처).",
+      "evidence_url": "https://www.newsquawk.com/headlines/moodys-cuts-nvidia-nvda-outlook-to-stable-affirms-aa1-rating"
+    },
+    {
+      "kind": "FACT",
+      "text": "IREN이 올해 3월 ATM 한도를 $1B→$6B로 증액, 2~3월 평균 약 $53에 발행",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "미보유·미추적 종목이라 SEC 원문(data/market/docs)에 없고 이번 실행에서 검색하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 기업가치 $1.5T, 스페이스X $2T",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "앤트로픽 공모가 $83·약 $1.5T 확인(Fortune/TNW). 스페이스X는 다른 보도에서 $1.77T IPO로 표기되어 $2T는 불일치 가능.",
+      "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/"
+    },
+    {
+      "kind": "OPINION",
+      "text": "네오클라우드·메모리 반도체가 AI 가치사슬에서 상대적으로 저평가",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "IREN 전력망 5GW+ 보유가 해자이며 가설은 여전히 유효",
+      "tickers": [
+        "IREN"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "이번 금리 인상은 불가피",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "CEO 거버넌스·신용전망 하향은 심리 악재이나 실적은 양호했다는 서술. 공식 펀더멘털 변화 없음."
+    }
+  ],
+  "new_candidates": [
+    "IREN"
+  ],
+  "portfolio_implication": "변경 없음. IREN은 미보유·점수표 밖이며 CRWV 등 네오클라우드와 AI CAPEX 테마가 겹쳐 신규 편입 시 상관집중이 커진다. 단일 인플루언서 의견·공식 근거 없음으로 target 0% 유지.",
+  "post_id": "232464",
+  "content_hash": "f8567fc7f44b74bcdcdb4171df7c69805323d58aca71907844977dbca72cfd96",
+  "title": "🐹 AI 정리본: 투자학개론 <아이렌> 종합점검",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-20T22:20:00+09:00"
+}

@@ -1,0 +1,63 @@
+{
+  "summary": "앤트로픽 첫 거래일(시가 $111.50, 고가 $115.10, 종가 $92.60) 점검. 분기 성장률 144%→47% 둔화, 컴퓨트 약정 $900B와 현금 $239B 대비 부족, P/S 약 36배, 2027 GAAP 흑자 확률 반반으로 변동성이 크다는 관점. 인프라·모델·서비스 보유 기업 중 '쾌적한 AI 경험' 제공자(3번)를 선호.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 첫날 시가 $111.50, 고가 $115.10, 종가 $92.60",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch로 상장 후 체결가 보도를 찾지 못함. 공모가 $83만 확인. 232483은 종가 $97로 적어 두 글이 서로 불일치(CONFLICT 가능성).",
+      "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 분기 매출 증가율 +144%→+47%, 컴퓨트 약정 $900B",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "S-1 원문은 이번에 검색·열람하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 상장 조달 $81.3B",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "공모가 $83 기준 최소 $68B 보도(TNW). $81.3B는 정확한 최종치 미확인.",
+      "evidence_url": "https://thenextweb.com/news/anthropic-prices-83-share-1-5-trillion-record-raise"
+    },
+    {
+      "kind": "OPINION",
+      "text": "앤트로픽 P/S 36배는 기대가 많이 섞인 가격",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "컴퓨트 약정 비용은 금리·정치 요인으로 $1T를 넘을 수 있다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "2027년 앤트로픽 GAAP 흑자 전환 확률은 반반",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-12-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "앤트로픽 컴퓨트 약정 확대는 장기 수요 근거이나 약정 이행 리스크도 병기. 순효과 불명."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 앤트로픽(ANT) 직접 편입은 상장 직후 가격 발견 전이며 손익·현금흐름 근거가 없어 관찰 수준. 요청 아이디어도 아님.",
+  "post_id": "232467",
+  "content_hash": "8d76e71cfcb9f3ee796275bb85807a8db7593a6db6e1296199807e286df6352b",
+  "title": "앤트로픽을 통해 보는 AI 시장 (feat. 지금 사야할까?)",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-20T22:20:00+09:00"
+}

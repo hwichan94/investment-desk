@@ -1,9 +1,9 @@
 # 12개월 포트폴리오 액션플랜
 
-- 생성 시각(KST): 2026-11-20 10:07
+- 생성 시각(KST): 2026-11-20 11:20
 - 판단 입력 기준일(decision_universe): 2026-10-30
 - 보유 수량 기준일: 2026-10-29 (사용자 확인 2026-10-29)
-- 가격 기준: 2026-11-20T05:38 · 총자산 $25,283.78
+- 가격 기준: 2026-11-20T11:20 · 총자산 $25,243.09
 - 투자 가능 현금: $201.50
 - 부채상환 예약 현금: $0.00 (총자산·비중에는 포함, 신규매수 재원에서는 제외)
 
@@ -20,44 +20,45 @@
 | 보유 종목 질 | 50% | 68.1 | 70.2 |
 | thesis 건강도 | 15% | 89.1 | 91.3 |
 | 집중도 | 15% | 97.0 | 100.0 |
-| 현금 여력 | 5% | 15.9 | 100.0 |
+| 현금 여력 | 5% | 16.0 | 100.0 |
 | 목표 정렬 | 15% | 49.5 | 100.0 |
 
-- 감점 요인: 상위 2종목 합 61%
+- 감점 요인: 상위 2종목 합 62%
 
 ## 데이터 상태
 
-- Fanding 수집: **OK** (마지막 실행 2026-11-20T05:37, 마지막 성공 2026-11-20T05:37)
-- 저장된 글 140개, Claude 분석 대기 0개
+- Fanding 수집: **OK** (마지막 실행 2026-11-20T11:19, 마지막 성공 2026-11-20T11:19)
+- 저장된 글 143개, Claude 분석 대기 3개
 - 공식 근거 기준일: 2026-11-06 (14일 전)
 - 최근 감지된 신규 SEC 공시: CRWV(8-K), CRWV(10-Q), NVDA(8-K), VRT(8-K), NVDA(8-K), AXON(8-K)
-- 시장가격 최신성: 최신 · 수집 후 4.5시간
+- 시장가격 최신성: 최신 · 수집 후 0.0시간
 - 통화/환율: 환율 적용 없음(USD 기준)
 
 ## 위험 알림
 
+- AMZN 축소를 차단했습니다: 펀더멘털·추정치 수정·상대 모멘텀이 모두 개선 중입니다.
 - 투자 가능 현금 0.8%가 최소 5%보다 낮습니다.
 
 ## 매수재원 검증
 
-- 총자산: **$25,283.78** (주식 $25,082.28 + 투자 가능 현금 $201.50 + 부채상환 예약 현금 $0.00)
-- 신규 투자 가능 현금: **$201.50** · 현금 목표 $1,264.19 유지 시 즉시 배분 가능 $0.00
+- 총자산: **$25,243.09** (주식 $25,041.59 + 투자 가능 현금 $201.50 + 부채상환 예약 현금 $0.00)
+- 신규 투자 가능 현금: **$201.50** · 현금 목표 $1,262.15 유지 시 즉시 배분 가능 $0.00
 - 기존 종목 매도 없이 우선 집행 검토: 해당 없음
-- 추천 매수 합계 $2,456.50 · 계획 매도 재원 $3,722.72 · 매도 재원 필요분 $2,456.50
+- 추천 매수 합계 $1,734.37 · 계획 매도 재원 $3,178.86 · 매도 재원 필요분 $1,734.37
 - 현금 보유 자체는 매수 신호가 아닙니다. 종합점수·펀더멘털·시장행동을 통과한 ADD/INITIATE만 위 재원 안에서 배분합니다.
 
 ## Technical / Regime 핵심 신호
 
-- **Regime: NEUTRAL** — VIX rising above SMA20; credit HYG/LQD rising; breadth RSP/SPY rising → 종목별 신호 우선, Core 유지
+- **Regime: RISK_OFF** — VIX rising above SMA20; breadth RSP/SPY rising; QQQ below SMA50 → 신규 Starter·Tactical 크기 축소, Core 자동매도 금지
+- AMZN — Winner Protection ON | Relative Momentum STRONG | 50/200MA 상단 | QQQ 대비 상대강도 상승 → RSI 과열만으로 축소 금지
 - AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 → 추격매수 금지, 분할·반전 확인
 - CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
-- CRWV | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
 
 ## 2. 오늘 바뀐 점
 
 - 변경 없음. 핵심 주장(무디스 전망, 젠슨황 청원)이 공식 확인되지 않았고 단일 의견. IREN은 미보유 후보로 점수 근거가 없어 편입 제안하지 않음. 앤트로픽 상장은 AI CAPEX 상관집중 점검 항목.
-- 변경 없음. 투자 내용 없는 공지.
 - 변경 없음. 단일 의견·미검증 인터뷰 내용이라 TSLA 점수·목표 비중 변경 근거 아님.
+- 변경 없음. 투자 내용 없는 공지.
 
 ## 3. 놓치면 안 되는 시황
 
@@ -69,28 +70,28 @@
 
 | 종목 | 현재 | 목표 | 변화 | 판단 | 구분 | 긴급도 | 금액 | 참고 수량 |
 |---|---:|---:|---:|---|---|---|---:|---:|
-| TSLA | 34.13% | 24.00% | -10.13%p | 축소 | UNSPECIFIED | 높음 | $-2,562 | -6.83주 |
-| PLTR | 27.35% | 33.00% | +5.65%p | 추가매수 | Core≥30.00% / Tactical 3.00% | 높음 | $+1,429 | +9.30주 |
-| CASH | 0.80% | 5.00% | +4.20%p | 현금 조정 | - | 중간 | $+1,063 | - |
-| VRT | 2.94% | 7.00% | +4.06%p | 추가매수 | - | 중간 | $+1,027 | +5.53주 |
-| AVGO | 16.47% | 14.00% | -2.47%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-625 | -1.80주 |
-| AMZN | 6.12% | 4.00% | -2.12%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-536 | -2.08주 |
+| TSLA | 34.11% | 24.00% | -10.11%p | 축소 | UNSPECIFIED | 높음 | $-2,553 | -6.82주 |
+| PLTR | 27.40% | 33.00% | +5.60%p | 추가매수 | Core≥30.00% / Tactical 3.00% | 높음 | $+707 | +4.60주 |
+| CASH | 0.80% | 5.00% | +4.20%p | 현금 조정 | - | 중간 | $+1,061 | - |
+| VRT | 2.93% | 7.00% | +4.07%p | 추가매수 | - | 중간 | $+1,027 | +5.55주 |
+| AVGO | 16.48% | 14.00% | -2.48%p | 소폭 조정 검토 | UNSPECIFIED | 낮음 | $-626 | -1.81주 |
+| AMZN | 6.12% | 4.00% | -2.12%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
 | CCJ | 5.11% | 6.00% | +0.89%p | 유지 | - | 없음 | $+0 | +0.00주 |
 | INTC | 2.43% | 2.00% | -0.43%p | 유지 | UNSPECIFIED | 없음 | $+0 | +0.00주 |
-| NVDA | 4.66% | 5.00% | +0.34%p | 유지 | - | 없음 | $+0 | +0.00주 |
+| NVDA | 4.63% | 5.00% | +0.37%p | 유지 | - | 없음 | $+0 | +0.00주 |
 
 ### 5개 렌즈 + Regime
 
 | 종목 | Fundamentals | Estimate Revisions | Expectations Gap | Relative Momentum | Position & Correlation Risk | Regime |
 |---|---|---|---|---|---|---|
-| TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEUTRAL |
-| PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 55 / fit 85 | NEUTRAL |
-| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 65 / fit 85 | NEUTRAL |
-| AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 90 | NEUTRAL |
-| AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEUTRAL |
+| TSLA | STABLE | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 75 | NEGATIVE |
+| PLTR | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 55 / fit 85 | NEGATIVE |
+| VRT | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 65 / fit 85 | NEGATIVE |
+| AVGO | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 90 | NEGATIVE |
+| AMZN | STRENGTHENING | UNKNOWN | UNKNOWN | STRONG | risk 70 / fit 80 | NEUTRAL |
 | CCJ | STABLE | UNKNOWN | UNKNOWN | WEAK | risk 65 / fit 70 | NEGATIVE |
-| INTC | EMERGING | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 60 | NEUTRAL |
-| NVDA | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEUTRAL |
+| INTC | EMERGING | UNKNOWN | UNKNOWN | NEUTRAL | risk 35 / fit 60 | NEGATIVE |
+| NVDA | STRENGTHENING | UNKNOWN | UNKNOWN | NEUTRAL | risk 70 / fit 80 | NEGATIVE |
 
 ### Base Case 실행 순서와 이유
 
@@ -99,7 +100,7 @@
 - 이유: 자율주행·로보택시의 상방은 크지만 향후 12개월의 본업 마진과 잉여현금흐름이 현재 비중을 정당화하기에는 아직 약합니다.
 - 핵심 위험: 상용화 일정 지연, 자동차 수요와 마진 악화, 높은 기대가 동시에 작용할 수 있습니다.
 - 실행: 한 번에 전량 조정하지 말고 2회로 나눠 24%까지 축소합니다. 실적 전에는 절반만 실행하고, 현금흐름 개선이 확인되면 두 번째 축소는 취소할 수 있습니다.
-- 시장행동: TSLA | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승
+- 시장행동: TSLA | Relative Momentum NEUTRAL | 50/200MA 상단 | QQQ 대비 상대강도 상승
 - 생각을 바꿀 신호: 반복되는 대규모 잉여현금흐름 적자; 차량 수요와 자동차 마진의 동반 악화; 자율주행 상용화의 구조적 지연
 
 #### 2. PLTR — 추가매수
@@ -107,7 +108,8 @@
 - 이유: 미국 상업·정부 매출, 계약가치와 현금창출이 동시에 가속하고 있어 핵심 보유 논리는 강화됐지만 현재 가격에는 높은 성장 기대가 반영돼 있습니다.
 - 핵심 위험: 높은 밸류에이션에서 성장률이나 계약의 실제 매출 전환이 둔화되면 멀티플 압축이 큽니다.
 - 실행: 30~35% 핵심 보유 밴드를 유지합니다. 신고가만으로 매도하거나 추가매수하지 말고 다음 실적에서 성장·마진을 재확인합니다.
-- 시장행동: PLTR | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락
+- 시장행동: PLTR | Relative Momentum NEUTRAL | QQQ 대비 상대강도 하락
+- 타이밍 조정: RISK_OFF: Tactical 추가매수 1차 크기를 절반으로 축소
 - 생각을 바꿀 신호: 미국 상업과 정부 성장률의 동시 급락; 잔여계약가치 증가율과 실제 매출 전환의 지속적인 괴리; GAAP 마진과 현금흐름의 동반 악화
 
 #### 3. VRT — 추가매수
@@ -124,7 +126,7 @@
 - **ETN — 관찰, 목표 0.00%**: 전기 부문 주문과 수주잔고가 강하고 데이터센터 전력 수요의 수혜가 가시적입니다.
   - 기존 보유 대비/재원: 지정 없음
   - 무효화: Electrical Americas 주문 성장 급락; 백로그와 마진의 동반 악화; 데이터센터 투자 둔화
-  - 시장행동: ETN | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락
+  - 시장행동: ETN | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락
 - **ORCL — 관찰, 목표 0.00%**: OCI와 RPO 성장은 매우 강하지만 대규모 데이터센터 투자와 자금조달 부담까지 함께 평가해야 합니다.
   - 기존 보유 대비/재원: 지정 없음
   - 무효화: RPO의 매출 전환 지연; 자금조달 비용과 희석 확대; OCI 성장 둔화
@@ -142,18 +144,18 @@
 
 | 순위 | 종목 | 종합점수 | 근거 신뢰도 | 현재 | 목표 | 상태 |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | NVDA | 85.6 | 88% | 4.66% | 5.00% | STRENGTHENING |
-| 2 | AVGO | 83.4 | 85% | 16.47% | 14.00% | STRENGTHENING |
+| 1 | NVDA | 85.6 | 88% | 4.63% | 5.00% | STRENGTHENING |
+| 2 | AVGO | 83.4 | 85% | 16.48% | 14.00% | STRENGTHENING |
 | 3 | AMZN | 81.6 | 85% | 6.12% | 4.00% | STRENGTHENING |
-| 4 | VRT | 78.8 | 82% | 2.94% | 7.00% | STRENGTHENING |
+| 4 | VRT | 78.8 | 82% | 2.93% | 7.00% | STRENGTHENING |
 | 5 | ETN | 75.6 | 82% | 0.00% | 0.00% | STRENGTHENING |
 | 6 | ORCL | 75.3 | 84% | 0.00% | 0.00% | STRENGTHENING |
-| 7 | PLTR | 73.8 | 85% | 27.35% | 33.00% | STRENGTHENING |
+| 7 | PLTR | 73.8 | 85% | 27.40% | 33.00% | STRENGTHENING |
 | 8 | AXON | 70.8 | 84% | 0.00% | 0.00% | STRENGTHENING |
 | 9 | CCJ | 69.6 | 78% | 5.11% | 6.00% | STABLE |
 | 10 | INTC | 57.4 | 72% | 2.43% | 2.00% | EMERGING |
 | 11 | CRWV | 51.9 | 86% | 0.00% | 0.00% | WEAKENING |
-| 12 | TSLA | 51.0 | 72% | 34.13% | 24.00% | STABLE |
+| 12 | TSLA | 51.0 | 72% | 34.11% | 24.00% | STABLE |
 
 ## 7. 결론
 

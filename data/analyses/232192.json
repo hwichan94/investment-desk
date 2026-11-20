@@ -1,0 +1,69 @@
+{
+  "post_id": "232192",
+  "content_hash": "090d498c3ad824228eb4910c63cf946de63bcd97bf9ccdfe5593ab4129044156",
+  "title": "앤트로픽이 가져간 시장 | 11-20 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-20T12:00:00+09:00",
+  "new_candidates": [],
+  "summary": "앤트로픽 상장 첫날(공모가 $83, 시초 $111.50, 종가 $97.17) 시장은 2% 이상 하락했고, 앤트로픽으로 자금이 이동하며 빅테크·데이터센터·전력·반도체가 약세라는 해석. 시카고 연은 총재의 AI 투자 과열 경고와 FOMC 의사록 매파 기조, 데이터센터 건설 지연 투표안을 AI 인프라 부담 요인으로 본다. NVDA 법무총괄 주식매도 예정 공지와 Inception 인수 추진도 언급. 결론은 AI에 낙관도 비관도 이르며 시장에 머무르라는 것.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 상장: 공모가 $83, 시초 $111.50, 정규장 종가 $97.17",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함. 직전 확인된 것은 공모가 범위 $70~78과 $80 초과 전망(PitchBook 11-17)뿐."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 법무총괄 Tim Teter가 30,000주(약 $454만) 매도 예정 공지 제출",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch에서 Form 144 해당 건 미확인(과거 Form 144만 검색됨). 정기 내부자 매도일 수 있고 CEO 이슈와의 연관은 저자의 추측."
+    },
+    {
+      "kind": "FACT",
+      "text": "시카고 연은 총재가 AI 투자가 공급능력을 압박해 과열시킬 수 있다고 경고, FOMC 의사록에 반영",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "미 상원 이란 전쟁 결의안 48 대 51 부결",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함."
+    },
+    {
+      "kind": "OPINION",
+      "text": "앤트로픽 흡수 자금이 다른 AI 인프라에서 이동했다는 정황",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "투자 속도 둔화와 투자 이유 소멸은 다르며 지금은 AI 낙관·비관 어느 쪽도 이르다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "내부자 매도 공지는 미확인이고 단독 근거로 약한 신호. 11-17 실적·가이던스 변화 없음."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "데이터센터 건설 지연 투표안은 지역 단위 미확인 사안. 센티먼트 부담일 뿐 수주·KPI 변화 근거 없음."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 핵심 수치가 모두 미검증이고 단일 의견. AI CAPEX 상관집중(NVDA·AVGO·VRT·AMZN) 점검 항목으로만 기록."
+}

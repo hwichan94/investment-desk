@@ -1,0 +1,57 @@
+{
+  "post_id": "232205",
+  "content_hash": "aa512a7cbd807bd4be47d6dd6112636325ea5969d2f875522aecf4d71d5f02d1",
+  "title": "앤트로픽이 상장한 날, 나머지 AI 주식은 같이 빠졌습니다 (11/20 데일리 시황)",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-20T12:00:00+09:00",
+  "new_candidates": [],
+  "summary": "목요일 3대 지수가 2% 이상 하락, S&P500 6일 연속 하락, 다우 6월 이후 첫 5만 아래 마감. 앤트로픽 거래 시작 시점에 지수가 저점으로 밀렸고 공모 $813억이 다른 AI 주식 매도로 충당됐다는 해석. NVDA 6일 연속 하락, 코어위브·네비우스 등 네오클라우드가 가장 크게 하락. 필라델피아 연준 지표가 금리 부담을 추가.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "S&P500 6일 연속 하락, 다우 6월 이후 처음 5만 아래 마감, 3대 지수 2% 이상 하락",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함. 확인된 최근 지수 수준은 10-14 AP 기준 S&P 7,718.94, 다우 51,621.48뿐."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 공모 조달액 $813억",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "직전 분석(232159)의 총 $107.3B와도 불일치. 확인된 것은 8.25억주×$70~78 범위 기준 최대 약 $644억(Khaleej Times/Reuters 계열 보도)뿐."
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 6일 연속 하락, CRWV·네비우스 낙폭 최대",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "가격 추이는 data/market/quotes.json에서 확인 가능하나 연속일수·상대 낙폭 원문 미검증."
+    },
+    {
+      "kind": "OPINION",
+      "text": "앤트로픽 자금은 다른 AI 주식 매도로 마련됐다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "가격·수급 서술이며 펀더멘털 변화 없음. 단순 하락은 매도 사유가 아님."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "레버리지 네오클라우드의 자금조달 민감도를 시사하나 글에 공식 근거 없음. 미보유 후보."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 시황 기술이며 RISK_OFF 성격의 센티먼트는 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
+}

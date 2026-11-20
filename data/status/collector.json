@@ -2,20 +2,15 @@
   "status": "OK",
   "message": "",
   "discovered": 20,
-  "created": [
-    "232505",
-    "232464",
-    "232467",
-    "232483"
-  ],
+  "created": [],
   "updated": [],
-  "unchanged": 15,
+  "unchanged": 19,
   "locked": 1,
   "locked_ids": [
     "231408"
   ],
   "failures": [],
-  "last_run_at": "2026-11-20T20:47:06.565954+09:00",
-  "last_success_at": "2026-11-20T20:47:06.565954+09:00",
+  "last_run_at": "2026-11-21T05:19:45.111915+09:00",
+  "last_success_at": "2026-11-21T05:19:45.111915+09:00",
   "consecutive_failures": 0
 }

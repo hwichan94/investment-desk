@@ -632,6 +632,12 @@
     },
     {
       "form": "8-K",
+      "filed": "2026-11-20",
+      "accession": "0001193125-26-470351",
+      "path": null
+    },
+    {
+      "form": "8-K",
       "filed": "2026-11-04",
       "accession": "0001193125-26-447507",
       "path": null
@@ -657,17 +663,6 @@
         "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034dex991.htm"
       ],
       "chars": 1905
-    },
-    {
-      "form": "8-K",
-      "filed": "2026-09-10",
-      "report_date": "2026-09-10",
-      "accession": "0001193125-26-387905",
-      "path": "data/market/docs/ORCL/2026-09-10-8-K-0001193125-26-387905.txt",
-      "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
-      ],
-      "chars": 29152
     }
   ],
   "PLTR": [

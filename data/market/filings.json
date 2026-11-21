@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T05:21:06.189737+09:00",
+  "fetched_at": "2026-11-21T11:16:18.687724+09:00",
   "filings": {
     "AMZN": [
       {
@@ -1224,6 +1224,14 @@
     "ORCL": [
       {
         "form": "8-K",
+        "filed": "2026-11-20",
+        "report_date": "2026-11-18",
+        "cik": "0001341439",
+        "accession": "0001193125-26-470351",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526470351/orcl-20261118.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-11-04",
         "report_date": "2026-11-02",
         "cik": "0001341439",
@@ -1333,14 +1341,6 @@
         "cik": "0001341439",
         "accession": "0001193125-26-009002",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526009002/d34442d8k.htm"
-      },
-      {
-        "form": "10-Q",
-        "filed": "2025-12-11",
-        "report_date": "2025-11-30",
-        "cik": "0001341439",
-        "accession": "0001193125-25-315925",
-        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm"
       }
     ],
     "PLTR": [

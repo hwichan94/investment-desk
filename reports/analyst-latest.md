@@ -1,21 +1,27 @@
-# 애널리스트 루틴 보고서 (2026-11-20 22:20 KST)
+# 애널리스트 루틴 보고서 (2026-11-21 13:40 KST)
 
-**포트폴리오 점수 70.2 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(70.2 / 83.8) 대비 변화 없음. 가장 큰 감점 요인: 현금 여력, 목표 정렬, 상위 2종목 집중.
+**포트폴리오 점수 70.2 / 100 (목표 실행 시 83.8)** — `desk recommend` 출력값. 직전 보고서(70.2 / 83.8) 대비 변화 없음. 가장 큰 감점 요인: 현금 여력(0.9%), 목표 정렬, 상위 2종목 합 62%.
+※ 점수는 11/21 11:16 KST 수집 시세(11/20 종가) 기준이며 보유 수량 지문 64ba3c306f2d4e4c, GitHub main과 일치.
 
 ## 1. 분석한 글 / 아이디어
-- 232464 (세상학개론, IREN 종합점검 AI 정리본): relevance LOW. IREN(미보유·미추적) 가설 재확인. FACT: 무디스 NVDA 전망 긍정→안정(Aa1 유지) CONFIRMED(복수 매체, Moody's 원문 미확인), 앤트로픽 $1.5T PARTIAL, IREN ATM $6B UNVERIFIED.
-- 232467 (T3chfeed, 앤트로픽 점검): LOW. 첫날 시가 $111.50/종가 $92.60 UNVERIFIED(상장 후 체결 보도 못 찾음), 조달 $81.3B PARTIAL(공모가 $83 기준 최소 $68B 보도).
-- 232483 (세상학개론, 2018년 평행이론): LOW. 앤트로픽 종가 $97은 232467의 $92.60과 불일치 → CONFLICT 표기. 헌터브룩 AMD 숏리포트 UNVERIFIED.
-- 232505 (세상학개론, IREN 3개월 정리): LOW. CDS·금리·JPM 상향 모두 UNVERIFIED(공개 근거 없음).
-- 투자 아이디어 수신함 대기 없음.
+- 232604 (나스다큐, 11/21 시황) relevance HIGH: 11/20 나스닥 -5.28%, 주간 -10%. 로이터발 "SEC 집행국의 엔비디아 회계 조사" 보도가 낙폭 확대 원인이라는 해설. 검증: SEC 조사 및 지역별 매출 기준 변경은 복수 매체 보도로 PARTIAL(SEC·회사 미확인, 공식 공시 없음). 수집 시세로 NVDA -22.9% 등 급락 확인.
+- 232621 (T3chfeed, 11월 3주차) MEDIUM: NVDA Q3 FY27 매출 $115.8B·Q4 가이던스 $130B와 젠슨 황 CEO 이탈 모두 엔비디아 IR 원문으로 CONFIRMED(황은 "축출"이 아니라 사임, Kress 임시 CEO). FOMC 의사록 금리인상 기조, S&P 3분기 +32%는 UNVERIFIED. 종목 애널 의견은 TSLA/PLTR thesis 변화 없음.
+- 아이디어 수신함 대기 없음.
 
 ## 2. 판단 변경 여부
-변경 없음. `decision_universe.json`, `portfolio.json` 미수정(지문 64ba3c306f2d4e4c, GitHub main과 일치). 4건 모두 IREN·앤트로픽·시황 서술로 보유 종목 thesis에 공식 근거가 없고, IREN은 CRWV와 AI CAPEX 테마가 겹쳐 target 0% 유지. 시장 약세는 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님. trader-decision-journal 추가 사유 없음.
+변경 없음. `decision_universe.json`·`portfolio.json` 미수정. 근거:
+- NVDA: 공식 실적은 오히려 강함(데이터센터 $107.6B, +110%)이나 CEO 공백 + SEC 조사 보도(미확인)라는 거버넌스 리스크가 새로 생김. 보도 단계의 단일 이벤트로 5점 넘는 점수 변경 금지(thesis inertia). 현 4.33%에서 5% 목표까지의 추가매수 1차분은 RISK_OFF(VIX 35.9)·조사 불확실성 때문에 **보류 권고**, 조사 공식화 시 invalidation 재평가. Core 자동 축소 사유는 아님.
+- `official_research.json`에 NVDA Q3 실적·CEO 교체 IR 출처 2건 추가, as_of 2026-11-21. NVDA 점수표(source_urls)는 아직 Q2 근거라 다음 판단 갱신 시 Q3 반영 필요.
+- AI CAPEX 상관집중(NVDA·AVGO·VRT·AMZN·ORCL·CRWV) 동반 급락 확인: 11/20 AVGO -12%, ORCL -19%, CRWV -26%. 낙폭 -10/-15/-20% 검토 게이트에 다수 종목 해당 → 신규 Tactical 위험 보류 및 전체 재심사 대상.
+- trader-decision-journal 추가 사유 없음(과거 추천 성과 판정은 아직 이름).
 
-## 3. 지금 실행할 액션 상위 3개
-`reports/decision-latest.md` 그대로(제안일 뿐): TSLA 축소(목표 24%) → PLTR 추가매수(33%) → VRT 추가매수(7%). 증액은 TSLA 축소 재원이 전제이며 RISK_OFF 국면에서는 VRT 증액을 분할로 늦추는 편이 합리적.
+## 3. 지금 실행할 액션 상위 3개 (제안일 뿐, `decision-latest.md` 기준)
+1. TSLA 34.29% → 24% 축소(-$2,386, -6.90주 참고). 단 급락 직후 대량 매도는 피하고 2회 분할. 
+2. PLTR 27.84% → 33% 추가매수(+$599, +4.17주). RISK_OFF라 1차 크기 절반.
+3. VRT 2.87% → 7% 추가매수(+$959, +5.77주). 재원은 TSLA 축소분이며 현금 5% 복원 우선, 분할 지연이 합리적.
+- 실제 보유가 급락 후 기준이라 위 금액은 가격 변동에 따라 바뀜. 현금 0.9%로 재원이 매도에 의존.
 
-## 4. 데이터 상태
-- 공식 근거 기준일 2026-11-06(14일 경과). Fanding 수집 OK.
-- 미반영 공시: NVDA 8-K(11-17), AXON 8-K(11-18), CRWV 10-Q. sec.gov 원문 직접 열람 불가라 `official_research.json` 미갱신.
-- 실행 환경: `python`(3.11)에 pydantic이 없어 `python3.13` 사용.
+## 4. 데이터 상태 경고
+- 공식 근거 기준일은 갱신했으나 NVDA 외 11/6 이후 8-K(AXON·VRT·ORCL 11/20)와 CRWV 10-Q는 미반영.
+- 시황 글의 지수 수치·로이터 원문·FOMC 의사록은 이번에 직접 확인하지 못함.
+- 실행 환경: `python`(3.11)에 pydantic·pytest가 없어 `python3.13` 사용. pytest 47건 통과, validate OK.

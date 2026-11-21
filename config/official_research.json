@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-21",
   "sources": [
     {
       "source_id": "tsla-q2-update",
@@ -190,6 +190,26 @@
       "reliability": 0.97,
       "published_at": "2026-10-30",
       "accessed_at": "2026-11-06"
+    },
+    {
+      "source_id": "nvda-q3fy27-pr",
+      "ticker": "NVDA",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-11-17",
+      "accessed_at": "2026-11-21"
+    },
+    {
+      "source_id": "nvda-ceo-transition",
+      "ticker": "NVDA",
+      "title": "NVIDIA Announces CEO Transition",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+      "source_type": "Company IR",
+      "reliability": 0.95,
+      "published_at": "2026-11-12",
+      "accessed_at": "2026-11-21"
     }
   ],
   "companies": [

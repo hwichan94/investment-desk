@@ -1,0 +1,57 @@
+{
+  "summary": "11/20 나스닥 -5.28%, 주간 -10%로 2020년 3월 이후 최악. 로이터발 'SEC 집행국의 엔비디아 회계(싱가포르 매출 분류 변경) 조사' 보도가 장 막판 낙폭을 키웠다는 해설. 실적이 아니라 숫자의 신뢰성이 흔들렸다는 해석이며 SEC·엔비디아는 입장을 내지 않음.",
+  "relevance": "HIGH",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "SEC 집행국이 엔비디아 회계(지역별 매출 기준 변경)를 조사 중이라는 보도",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/",
+      "evidence_note": "복수 매체가 WSJ 인용 SEC 민사조사 보도. SEC·회사 미확인, 공식 공시 없음. 로이터 원문은 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 지역별 매출 기준을 청구지에서 고객 본사 소재지로 변경, 싱가포르 항목이 표에서 사라짐",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/",
+      "evidence_note": "변경 자체는 보도로 확인(전년 싱가포르 22% 비중). SEC 10-Q 원문 대조 못함. 글의 '$1,040억'은 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "11/20 나스닥 -5.28%, S&P500 -3.7%, 다우 -1.9%, 주간 -10%",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_url": "data/market/quotes.json",
+      "evidence_note": "수집 시세로 NVDA 162.85→125.53(-22.9%), AVGO -12%, ORCL -19% 등 급락은 확인. 지수 수치 자체는 미대조."
+    },
+    {
+      "kind": "OPINION",
+      "text": "이번 충격은 실적이 아니라 실적 숫자의 신뢰 문제",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "WEAKEN",
+      "magnitude": "MEDIUM",
+      "rationale": "회계·공시 신뢰 리스크와 CEO 공백이 겹침. 단 3분기 실적·가이던스는 공식 확인상 강력(매출 $115.8B). 조사는 미확인 단계라 thesis 훼손으로 단정 불가."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "단일 시황 글·미확정 보도만으로 목표 비중을 바꾸지 않음. NVDA 추가매수 2회 분할 중 현재분 집행은 보류(RISK_OFF, 조사 결과 불확실)하고 SEC 공식 확인 또는 10-K 위험요인 갱신을 지켜봄.",
+  "post_id": "232604",
+  "content_hash": "9ef04d0e4244443c6c4e70d89b095928b52940db5abe4a83471a820808b50055",
+  "title": "나스닥 또 한번 폭락, 저는 이렇게 봅니다. (11/21 데일리 시황)",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-21T13:30:00+09:00"
+}

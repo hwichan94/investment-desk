@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-22T19:06:36.387500+09:00",
+  "generated_at": "2026-11-22T20:26:26.816927+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-22T10:20:38.359218+09:00",
+    "generated_at": "2026-11-22T20:26:19.968188+09:00",
     "key_signals": [
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
       "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -748,68 +748,6 @@
     }
   },
   "recent_analyses": [
-    {
-      "post_id": "232604",
-      "analyzed_at": "2026-11-21T13:30:00+09:00",
-      "title": "나스닥 또 한번 폭락, 저는 이렇게 봅니다. (11/21 데일리 시황)",
-      "author": "나스다큐",
-      "summary": "11/20 나스닥 -5.28%, 주간 -10%로 2020년 3월 이후 최악. 로이터발 'SEC 집행국의 엔비디아 회계(싱가포르 매출 분류 변경) 조사' 보도가 장 막판 낙폭을 키웠다는 해설. 실적이 아니라 숫자의 신뢰성이 흔들렸다는 해석이며 SEC·엔비디아는 입장을 내지 않음.",
-      "relevance": "HIGH",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "SEC 집행국이 엔비디아 회계(지역별 매출 기준 변경)를 조사 중이라는 보도",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/",
-          "evidence_note": "복수 매체가 WSJ 인용 SEC 민사조사 보도. SEC·회사 미확인, 공식 공시 없음. 로이터 원문은 확인 못함.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "엔비디아가 지역별 매출 기준을 청구지에서 고객 본사 소재지로 변경, 싱가포르 항목이 표에서 사라짐",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/",
-          "evidence_note": "변경 자체는 보도로 확인(전년 싱가포르 22% 비중). SEC 10-Q 원문 대조 못함. 글의 '$1,040억'은 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "11/20 나스닥 -5.28%, S&P500 -3.7%, 다우 -1.9%, 주간 -10%",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": "data/market/quotes.json",
-          "evidence_note": "수집 시세로 NVDA 162.85→125.53(-22.9%), AVGO -12%, ORCL -19% 등 급락은 확인. 지수 수치 자체는 미대조.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "이번 충격은 실적이 아니라 실적 숫자의 신뢰 문제",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "WEAKEN",
-          "magnitude": "MEDIUM",
-          "rationale": "회계·공시 신뢰 리스크와 CEO 공백이 겹침. 단 3분기 실적·가이던스는 공식 확인상 강력(매출 $115.8B). 조사는 미확인 단계라 thesis 훼손으로 단정 불가."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "단일 시황 글·미확정 보도만으로 목표 비중을 바꾸지 않음. NVDA 추가매수 2회 분할 중 현재분 집행은 보류(RISK_OFF, 조사 결과 불확실)하고 SEC 공식 확인 또는 10-K 위험요인 갱신을 지켜봄."
-    },
     {
       "post_id": "232621",
       "analyzed_at": "2026-11-21T13:30:00+09:00",
@@ -903,52 +841,98 @@
       "portfolio_implication": "변경 없음. 필자 개인 매매는 참고 정보일 뿐. 시장 충격이 RISK_OFF를 확인해 주므로 신규 Starter·Tactical 크기만 줄이는 신호."
     },
     {
-      "post_id": "232467",
-      "analyzed_at": "2026-11-20T22:20:00+09:00",
-      "title": "앤트로픽을 통해 보는 AI 시장 (feat. 지금 사야할까?)",
-      "author": "T3chfeed_테크피드",
-      "summary": "앤트로픽 첫 거래일(시가 $111.50, 고가 $115.10, 종가 $92.60) 점검. 분기 성장률 144%→47% 둔화, 컴퓨트 약정 $900B와 현금 $239B 대비 부족, P/S 약 36배, 2027 GAAP 흑자 확률 반반으로 변동성이 크다는 관점. 인프라·모델·서비스 보유 기업 중 '쾌적한 AI 경험' 제공자(3번)를 선호.",
-      "relevance": "LOW",
+      "post_id": "232604",
+      "analyzed_at": "2026-11-21T13:30:00+09:00",
+      "title": "나스닥 또 한번 폭락, 저는 이렇게 봅니다. (11/21 데일리 시황)",
+      "author": "나스다큐",
+      "summary": "11/20 나스닥 -5.28%, 주간 -10%로 2020년 3월 이후 최악. 로이터발 'SEC 집행국의 엔비디아 회계(싱가포르 매출 분류 변경) 조사' 보도가 장 막판 낙폭을 키웠다는 해설. 실적이 아니라 숫자의 신뢰성이 흔들렸다는 해석이며 SEC·엔비디아는 입장을 내지 않음.",
+      "relevance": "HIGH",
       "claims": [
         {
           "kind": "FACT",
-          "text": "앤트로픽 첫날 시가 $111.50, 고가 $115.10, 종가 $92.60",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
-          "evidence_note": "WebSearch로 상장 후 체결가 보도를 찾지 못함. 공모가 $83만 확인. 232483은 종가 $97로 적어 두 글이 서로 불일치(CONFLICT 가능성).",
+          "text": "SEC 집행국이 엔비디아 회계(지역별 매출 기준 변경)를 조사 중이라는 보도",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/",
+          "evidence_note": "복수 매체가 WSJ 인용 SEC 민사조사 보도. SEC·회사 미확인, 공식 공시 없음. 로이터 원문은 확인 못함.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "앤트로픽 분기 매출 증가율 +144%→+47%, 컴퓨트 약정 $900B",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "S-1 원문은 이번에 검색·열람하지 않음.",
+          "text": "엔비디아가 지역별 매출 기준을 청구지에서 고객 본사 소재지로 변경, 싱가포르 항목이 표에서 사라짐",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": "https://fortune.com/2026/11/12/nvidia-changed-earnings-report-format-singapore-revenue-megaspeed-probe-colette-kress/",
+          "evidence_note": "변경 자체는 보도로 확인(전년 싱가포르 22% 비중). SEC 10-Q 원문 대조 못함. 글의 '$1,040억'은 미확인.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "앤트로픽 상장 조달 $81.3B",
+          "text": "11/20 나스닥 -5.28%, S&P500 -3.7%, 다우 -1.9%, 주간 -10%",
           "tickers": [],
           "verification": "PARTIAL",
-          "evidence_url": "https://thenextweb.com/news/anthropic-prices-83-share-1-5-trillion-record-raise",
-          "evidence_note": "공모가 $83 기준 최소 $68B 보도(TNW). $81.3B는 정확한 최종치 미확인.",
+          "evidence_url": "data/market/quotes.json",
+          "evidence_note": "수집 시세로 NVDA 162.85→125.53(-22.9%), AVGO -12%, ORCL -19% 등 급락은 확인. 지수 수치 자체는 미대조.",
           "due": null
         },
         {
           "kind": "OPINION",
-          "text": "앤트로픽 P/S 36배는 기대가 많이 섞인 가격",
-          "tickers": [],
+          "text": "이번 충격은 실적이 아니라 실적 숫자의 신뢰 문제",
+          "tickers": [
+            "NVDA"
+          ],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
           "evidence_note": null,
           "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "WEAKEN",
+          "magnitude": "MEDIUM",
+          "rationale": "회계·공시 신뢰 리스크와 CEO 공백이 겹침. 단 3분기 실적·가이던스는 공식 확인상 강력(매출 $115.8B). 조사는 미확인 단계라 thesis 훼손으로 단정 불가."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "단일 시황 글·미확정 보도만으로 목표 비중을 바꾸지 않음. NVDA 추가매수 2회 분할 중 현재분 집행은 보류(RISK_OFF, 조사 결과 불확실)하고 SEC 공식 확인 또는 10-K 위험요인 갱신을 지켜봄."
+    },
+    {
+      "post_id": "232483",
+      "analyzed_at": "2026-11-20T22:20:00+09:00",
+      "title": "신경안정제 대신 백신이 필요하다면? 트럼프 1기 중간선거 하락장과의 평행이론",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "비관 시나리오: 현재 하락이 2018년 트럼프 1기 중간선거 후 연말 하락과 유사하며, 연준 긴축 기조가 바뀌려면 더 큰 하락이나 부양책이 필요할 수 있다는 평행이론. 헌터브룩의 AMD 중국 우회수출 숏리포트가 시장을 흔들었다고 언급. 앤트로픽 공모가 $70~75→$83 상향, 17% 상승한 $97에 마감, 개인 배정 15%. 필자는 분할매수 스타일 유지.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "헌터브룩이 AMD의 중국 우회수출 연루 숏리포트를 발표",
+          "tickers": [
+            "AMD"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch에서 해당 보고서를 찾지 못함(과거 AMD 수출규제 기사만 검색됨).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 공모가 $83, 첫날 약 17% 상승한 $97 마감",
+          "tickers": [],
+          "verification": "CONFLICT",
+          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+          "evidence_note": "공모가 $83은 확인(Fortune). 종가는 232467의 $92.60, 232205계열 $97.17과 불일치하며 상장 후 체결 보도를 찾지 못함.",
+          "due": null
         },
         {
           "kind": "OPINION",
-          "text": "컴퓨트 약정 비용은 금리·정치 요인으로 $1T를 넘을 수 있다",
+          "text": "2018년 말처럼 크리스마스 무렵 저점 후 급반등 가능",
           "tickers": [],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
@@ -957,12 +941,12 @@
         },
         {
           "kind": "PREDICTION",
-          "text": "2027년 앤트로픽 GAAP 흑자 전환 확률은 반반",
+          "text": "11월 CPI(12월 발표)는 전월 대비 하락",
           "tickers": [],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
           "evidence_note": null,
-          "due": "2027-12-31"
+          "due": "2026-12-31"
         }
       ],
       "thesis_impacts": [
@@ -970,11 +954,11 @@
           "ticker": "NVDA",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "앤트로픽 컴퓨트 약정 확대는 장기 수요 근거이나 약정 이행 리스크도 병기. 순효과 불명."
+          "rationale": "거시·수급 서술. 펀더멘털 근거 없음."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 앤트로픽(ANT) 직접 편입은 상장 직후 가격 발견 전이며 손익·현금흐름 근거가 없어 관찰 수준. 요청 아이디어도 아님."
+      "portfolio_implication": "변경 없음. 시장 하락 서술은 RISK_OFF 해석이며 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
     },
     {
       "post_id": "232464",
@@ -1059,6 +1043,80 @@
       "portfolio_implication": "변경 없음. IREN은 미보유·점수표 밖이며 CRWV 등 네오클라우드와 AI CAPEX 테마가 겹쳐 신규 편입 시 상관집중이 커진다. 단일 인플루언서 의견·공식 근거 없음으로 target 0% 유지."
     },
     {
+      "post_id": "232467",
+      "analyzed_at": "2026-11-20T22:20:00+09:00",
+      "title": "앤트로픽을 통해 보는 AI 시장 (feat. 지금 사야할까?)",
+      "author": "T3chfeed_테크피드",
+      "summary": "앤트로픽 첫 거래일(시가 $111.50, 고가 $115.10, 종가 $92.60) 점검. 분기 성장률 144%→47% 둔화, 컴퓨트 약정 $900B와 현금 $239B 대비 부족, P/S 약 36배, 2027 GAAP 흑자 확률 반반으로 변동성이 크다는 관점. 인프라·모델·서비스 보유 기업 중 '쾌적한 AI 경험' 제공자(3번)를 선호.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 첫날 시가 $111.50, 고가 $115.10, 종가 $92.60",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+          "evidence_note": "WebSearch로 상장 후 체결가 보도를 찾지 못함. 공모가 $83만 확인. 232483은 종가 $97로 적어 두 글이 서로 불일치(CONFLICT 가능성).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 분기 매출 증가율 +144%→+47%, 컴퓨트 약정 $900B",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "S-1 원문은 이번에 검색·열람하지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 상장 조달 $81.3B",
+          "tickers": [],
+          "verification": "PARTIAL",
+          "evidence_url": "https://thenextweb.com/news/anthropic-prices-83-share-1-5-trillion-record-raise",
+          "evidence_note": "공모가 $83 기준 최소 $68B 보도(TNW). $81.3B는 정확한 최종치 미확인.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "앤트로픽 P/S 36배는 기대가 많이 섞인 가격",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "컴퓨트 약정 비용은 금리·정치 요인으로 $1T를 넘을 수 있다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "2027년 앤트로픽 GAAP 흑자 전환 확률은 반반",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2027-12-31"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "앤트로픽 컴퓨트 약정 확대는 장기 수요 근거이나 약정 이행 리스크도 병기. 순효과 불명."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 앤트로픽(ANT) 직접 편입은 상장 직후 가격 발견 전이며 손익·현금흐름 근거가 없어 관찰 수준. 요청 아이디어도 아님."
+    },
+    {
       "post_id": "232505",
       "analyzed_at": "2026-11-20T22:20:00+09:00",
       "title": "[투자전공반 하반기 톺아보기] 아이렌(IREN), 투자 가설은 여전히 유효할까?",
@@ -1119,64 +1177,6 @@
         "IREN"
       ],
       "portfolio_implication": "변경 없음. 232464와 동일 사유로 IREN은 target 0%, 관찰도 단일 출처 의견 기반이라 승격하지 않음."
-    },
-    {
-      "post_id": "232483",
-      "analyzed_at": "2026-11-20T22:20:00+09:00",
-      "title": "신경안정제 대신 백신이 필요하다면? 트럼프 1기 중간선거 하락장과의 평행이론",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "비관 시나리오: 현재 하락이 2018년 트럼프 1기 중간선거 후 연말 하락과 유사하며, 연준 긴축 기조가 바뀌려면 더 큰 하락이나 부양책이 필요할 수 있다는 평행이론. 헌터브룩의 AMD 중국 우회수출 숏리포트가 시장을 흔들었다고 언급. 앤트로픽 공모가 $70~75→$83 상향, 17% 상승한 $97에 마감, 개인 배정 15%. 필자는 분할매수 스타일 유지.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "헌터브룩이 AMD의 중국 우회수출 연루 숏리포트를 발표",
-          "tickers": [
-            "AMD"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch에서 해당 보고서를 찾지 못함(과거 AMD 수출규제 기사만 검색됨).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 공모가 $83, 첫날 약 17% 상승한 $97 마감",
-          "tickers": [],
-          "verification": "CONFLICT",
-          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
-          "evidence_note": "공모가 $83은 확인(Fortune). 종가는 232467의 $92.60, 232205계열 $97.17과 불일치하며 상장 후 체결 보도를 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "2018년 말처럼 크리스마스 무렵 저점 후 급반등 가능",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11월 CPI(12월 발표)는 전월 대비 하락",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-31"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "거시·수급 서술. 펀더멘털 근거 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 시장 하락 서술은 RISK_OFF 해석이며 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
     },
     {
       "post_id": "232205",

@@ -12,8 +12,9 @@
       "kind": "FACT",
       "text": "앤트로픽 상장: 공모가 $83, 시초 $111.50, 정규장 종가 $97.17",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함. 직전 확인된 것은 공모가 범위 $70~78과 $80 초과 전망(PitchBook 11-17)뿐."
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-11-22 웹검색: 공모가 $83, 시초 $111.50, 종가 $97.17(+17.1%) 다수 보도 일치(TechRepublic, Nasdaq 인용).",
+      "evidence_url": "https://www.techrepublic.com/article/news-anthropic-ipo-nasdaq-trading-debut/"
     },
     {
       "kind": "FACT",
@@ -22,21 +23,22 @@
         "NVDA"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "WebSearch에서 Form 144 해당 건 미확인(과거 Form 144만 검색됨). 정기 내부자 매도일 수 있고 CEO 이슈와의 연관은 저자의 추측."
+      "evidence_note": "2026-11-22 Form 144 원문 접근 시도 안 됨/미확인."
     },
     {
       "kind": "FACT",
       "text": "시카고 연은 총재가 AI 투자가 공급능력을 압박해 과열시킬 수 있다고 경고, FOMC 의사록에 반영",
       "tickers": [],
       "verification": "UNVERIFIED",
-      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함."
+      "evidence_note": "2026-11-22 검색에서 해당 발언·의사록 확인 못함."
     },
     {
       "kind": "FACT",
       "text": "미 상원 이란 전쟁 결의안 48 대 51 부결",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함."
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-11-22 웹검색: 11/19 상원 48-51 부결(Stripes, CBS, ADN).",
+      "evidence_url": "https://www.stripes.com/theaters/us/2026-11-19/senate-war-powers-resolution-23519149.html"
     },
     {
       "kind": "OPINION",

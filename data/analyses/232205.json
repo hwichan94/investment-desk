@@ -13,14 +13,15 @@
       "text": "S&P500 6일 연속 하락, 다우 6월 이후 처음 5만 아래 마감, 3대 지수 2% 이상 하락",
       "tickers": [],
       "verification": "UNVERIFIED",
-      "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함. 확인된 최근 지수 수준은 10-14 AP 기준 S&P 7,718.94, 다우 51,621.48뿐."
+      "evidence_note": "2026-11-22 검색: 11/18까지 5연속 하락·다우 50,198 마감만 확인(Nasdaq/Zacks 보도). 11/20 종가 기사 검색 안 됨."
     },
     {
       "kind": "FACT",
       "text": "앤트로픽 공모 조달액 $813억",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "직전 분석(232159)의 총 $107.3B와도 불일치. 확인된 것은 8.25억주×$70~78 범위 기준 최대 약 $644억(Khaleej Times/Reuters 계열 보도)뿐."
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-11-22 웹검색: 공모가 $83, 9.8억 주, 총 약 $813.4억(Boston Globe·HNGN 보도). 회사 공식 S-1/보도자료 원문은 미확인.",
+      "evidence_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-sells-813-billion-worth-shares-worlds-largest-ipo/"
     },
     {
       "kind": "FACT",
@@ -30,7 +31,7 @@
         "CRWV"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "가격 추이는 data/market/quotes.json에서 확인 가능하나 연속일수·상대 낙폭 원문 미검증."
+      "evidence_note": "2026-11-22 검색: 공식·보도 모두 11/20 종가 확인 못함."
     },
     {
       "kind": "OPINION",

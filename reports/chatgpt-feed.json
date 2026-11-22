@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-22T10:20:45.400623+09:00",
+  "generated_at": "2026-11-22T19:06:36.387500+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -977,64 +977,6 @@
       "portfolio_implication": "변경 없음. 앤트로픽(ANT) 직접 편입은 상장 직후 가격 발견 전이며 손익·현금흐름 근거가 없어 관찰 수준. 요청 아이디어도 아님."
     },
     {
-      "post_id": "232483",
-      "analyzed_at": "2026-11-20T22:20:00+09:00",
-      "title": "신경안정제 대신 백신이 필요하다면? 트럼프 1기 중간선거 하락장과의 평행이론",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "비관 시나리오: 현재 하락이 2018년 트럼프 1기 중간선거 후 연말 하락과 유사하며, 연준 긴축 기조가 바뀌려면 더 큰 하락이나 부양책이 필요할 수 있다는 평행이론. 헌터브룩의 AMD 중국 우회수출 숏리포트가 시장을 흔들었다고 언급. 앤트로픽 공모가 $70~75→$83 상향, 17% 상승한 $97에 마감, 개인 배정 15%. 필자는 분할매수 스타일 유지.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "헌터브룩이 AMD의 중국 우회수출 연루 숏리포트를 발표",
-          "tickers": [
-            "AMD"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch에서 해당 보고서를 찾지 못함(과거 AMD 수출규제 기사만 검색됨).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 공모가 $83, 첫날 약 17% 상승한 $97 마감",
-          "tickers": [],
-          "verification": "CONFLICT",
-          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
-          "evidence_note": "공모가 $83은 확인(Fortune). 종가는 232467의 $92.60, 232205계열 $97.17과 불일치하며 상장 후 체결 보도를 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "2018년 말처럼 크리스마스 무렵 저점 후 급반등 가능",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11월 CPI(12월 발표)는 전월 대비 하락",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-31"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "거시·수급 서술. 펀더멘털 근거 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 시장 하락 서술은 RISK_OFF 해석이며 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
-    },
-    {
       "post_id": "232464",
       "analyzed_at": "2026-11-20T22:20:00+09:00",
       "title": "🐹 AI 정리본: 투자학개론 <아이렌> 종합점검",
@@ -1179,6 +1121,129 @@
       "portfolio_implication": "변경 없음. 232464와 동일 사유로 IREN은 target 0%, 관찰도 단일 출처 의견 기반이라 승격하지 않음."
     },
     {
+      "post_id": "232483",
+      "analyzed_at": "2026-11-20T22:20:00+09:00",
+      "title": "신경안정제 대신 백신이 필요하다면? 트럼프 1기 중간선거 하락장과의 평행이론",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "비관 시나리오: 현재 하락이 2018년 트럼프 1기 중간선거 후 연말 하락과 유사하며, 연준 긴축 기조가 바뀌려면 더 큰 하락이나 부양책이 필요할 수 있다는 평행이론. 헌터브룩의 AMD 중국 우회수출 숏리포트가 시장을 흔들었다고 언급. 앤트로픽 공모가 $70~75→$83 상향, 17% 상승한 $97에 마감, 개인 배정 15%. 필자는 분할매수 스타일 유지.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "헌터브룩이 AMD의 중국 우회수출 연루 숏리포트를 발표",
+          "tickers": [
+            "AMD"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch에서 해당 보고서를 찾지 못함(과거 AMD 수출규제 기사만 검색됨).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 공모가 $83, 첫날 약 17% 상승한 $97 마감",
+          "tickers": [],
+          "verification": "CONFLICT",
+          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+          "evidence_note": "공모가 $83은 확인(Fortune). 종가는 232467의 $92.60, 232205계열 $97.17과 불일치하며 상장 후 체결 보도를 찾지 못함.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "2018년 말처럼 크리스마스 무렵 저점 후 급반등 가능",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "11월 CPI(12월 발표)는 전월 대비 하락",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-31"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "거시·수급 서술. 펀더멘털 근거 없음."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 시장 하락 서술은 RISK_OFF 해석이며 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
+    },
+    {
+      "post_id": "232205",
+      "analyzed_at": "2026-11-20T12:00:00+09:00",
+      "title": "앤트로픽이 상장한 날, 나머지 AI 주식은 같이 빠졌습니다 (11/20 데일리 시황)",
+      "author": "나스다큐",
+      "summary": "목요일 3대 지수가 2% 이상 하락, S&P500 6일 연속 하락, 다우 6월 이후 첫 5만 아래 마감. 앤트로픽 거래 시작 시점에 지수가 저점으로 밀렸고 공모 $813억이 다른 AI 주식 매도로 충당됐다는 해석. NVDA 6일 연속 하락, 코어위브·네비우스 등 네오클라우드가 가장 크게 하락. 필라델피아 연준 지표가 금리 부담을 추가.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "S&P500 6일 연속 하락, 다우 6월 이후 처음 5만 아래 마감, 3대 지수 2% 이상 하락",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "2026-11-22 검색: 11/18까지 5연속 하락·다우 50,198 마감만 확인(Nasdaq/Zacks 보도). 11/20 종가 기사 검색 안 됨.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 공모 조달액 $813억",
+          "tickers": [],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.bostonglobe.com/2026/11/19/business/anthropic-sells-813-billion-worth-shares-worlds-largest-ipo/",
+          "evidence_note": "2026-11-22 웹검색: 공모가 $83, 9.8억 주, 총 약 $813.4억(Boston Globe·HNGN 보도). 회사 공식 S-1/보도자료 원문은 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "NVDA 6일 연속 하락, CRWV·네비우스 낙폭 최대",
+          "tickers": [
+            "NVDA",
+            "CRWV"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "2026-11-22 검색: 공식·보도 모두 11/20 종가 확인 못함.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "앤트로픽 자금은 다른 AI 주식 매도로 마련됐다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "가격·수급 서술이며 펀더멘털 변화 없음. 단순 하락은 매도 사유가 아님."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "레버리지 네오클라우드의 자금조달 민감도를 시사하나 글에 공식 근거 없음. 미보유 후보."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 시황 기술이며 RISK_OFF 성격의 센티먼트는 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
+    },
+    {
       "post_id": "232218",
       "analyzed_at": "2026-11-20T12:00:00+09:00",
       "title": "🎓11월 3주차 투자학개론(아이렌 특집) 라이브 (26.11.19)",
@@ -1202,9 +1267,9 @@
           "kind": "FACT",
           "text": "앤트로픽 상장: 공모가 $83, 시초 $111.50, 정규장 종가 $97.17",
           "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함. 직전 확인된 것은 공모가 범위 $70~78과 $80 초과 전망(PitchBook 11-17)뿐.",
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.techrepublic.com/article/news-anthropic-ipo-nasdaq-trading-debut/",
+          "evidence_note": "2026-11-22 웹검색: 공모가 $83, 시초 $111.50, 종가 $97.17(+17.1%) 다수 보도 일치(TechRepublic, Nasdaq 인용).",
           "due": null
         },
         {
@@ -1215,7 +1280,7 @@
           ],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "WebSearch에서 Form 144 해당 건 미확인(과거 Form 144만 검색됨). 정기 내부자 매도일 수 있고 CEO 이슈와의 연관은 저자의 추측.",
+          "evidence_note": "2026-11-22 Form 144 원문 접근 시도 안 됨/미확인.",
           "due": null
         },
         {
@@ -1224,16 +1289,16 @@
           "tickers": [],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함.",
+          "evidence_note": "2026-11-22 검색에서 해당 발언·의사록 확인 못함.",
           "due": null
         },
         {
           "kind": "FACT",
           "text": "미 상원 이란 전쟁 결의안 48 대 51 부결",
           "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함.",
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.stripes.com/theaters/us/2026-11-19/senate-war-powers-resolution-23519149.html",
+          "evidence_note": "2026-11-22 웹검색: 11/19 상원 48-51 부결(Stripes, CBS, ADN).",
           "due": null
         },
         {
@@ -1271,71 +1336,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 핵심 수치가 모두 미검증이고 단일 의견. AI CAPEX 상관집중(NVDA·AVGO·VRT·AMZN) 점검 항목으로만 기록."
-    },
-    {
-      "post_id": "232205",
-      "analyzed_at": "2026-11-20T12:00:00+09:00",
-      "title": "앤트로픽이 상장한 날, 나머지 AI 주식은 같이 빠졌습니다 (11/20 데일리 시황)",
-      "author": "나스다큐",
-      "summary": "목요일 3대 지수가 2% 이상 하락, S&P500 6일 연속 하락, 다우 6월 이후 첫 5만 아래 마감. 앤트로픽 거래 시작 시점에 지수가 저점으로 밀렸고 공모 $813억이 다른 AI 주식 매도로 충당됐다는 해석. NVDA 6일 연속 하락, 코어위브·네비우스 등 네오클라우드가 가장 크게 하락. 필라델피아 연준 지표가 금리 부담을 추가.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "S&P500 6일 연속 하락, 다우 6월 이후 처음 5만 아래 마감, 3대 지수 2% 이상 하락",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch(2026-11-20)로 시도했으나 해당 수치를 확인하는 공식·주요 매체 자료를 찾지 못함. 확인된 최근 지수 수준은 10-14 AP 기준 S&P 7,718.94, 다우 51,621.48뿐.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 공모 조달액 $813억",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "직전 분석(232159)의 총 $107.3B와도 불일치. 확인된 것은 8.25억주×$70~78 범위 기준 최대 약 $644억(Khaleej Times/Reuters 계열 보도)뿐.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "NVDA 6일 연속 하락, CRWV·네비우스 낙폭 최대",
-          "tickers": [
-            "NVDA",
-            "CRWV"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "가격 추이는 data/market/quotes.json에서 확인 가능하나 연속일수·상대 낙폭 원문 미검증.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "앤트로픽 자금은 다른 AI 주식 매도로 마련됐다",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "가격·수급 서술이며 펀더멘털 변화 없음. 단순 하락은 매도 사유가 아님."
-        },
-        {
-          "ticker": "CRWV",
-          "direction": "WEAKEN",
-          "magnitude": "LOW",
-          "rationale": "레버리지 네오클라우드의 자금조달 민감도를 시사하나 글에 공식 근거 없음. 미보유 후보."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 시황 기술이며 RISK_OFF 성격의 센티먼트는 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
     },
     {
       "post_id": "232159",
@@ -1440,6 +1440,30 @@
       "portfolio_implication": "변경 없음. 핵심 주장(무디스 전망, 젠슨황 청원)이 공식 확인되지 않았고 단일 의견. IREN은 미보유 후보로 점수 근거가 없어 편입 제안하지 않음. 앤트로픽 상장은 AI CAPEX 상관집중 점검 항목."
     },
     {
+      "post_id": "231840",
+      "analyzed_at": "2026-11-19T22:15:00+09:00",
+      "title": "📌[라이브 톡 Q&A 공지] 테크피드와 함께하는 실시간 Q&A 안내",
+      "author": "T3chfeed_테크피드",
+      "summary": "테크피드 코어 프로젝트 신청자 대상 11/23(월) 19시 카톡 Q&A 안내. 개별 종목 판단 질문은 받지 않는다고 명시.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
+    },
+    {
+      "post_id": "232097",
+      "analyzed_at": "2026-11-19T22:15:00+09:00",
+      "title": "📌라이브 공지 : 11월 3주차 <투자학개론> 라이브!",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "11/19(목) 20시 투자학개론 라이브(주요 시장 이벤트와 시사점 정리) 안내. 투자 주장 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
+    },
+    {
       "post_id": "232070",
       "analyzed_at": "2026-11-19T22:15:00+09:00",
       "title": "테슬라, 그래도 계속 기다립니다.",
@@ -1498,30 +1522,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 단일 의견·미검증 인터뷰 내용이라 TSLA 점수·목표 비중 변경 근거 아님."
-    },
-    {
-      "post_id": "232097",
-      "analyzed_at": "2026-11-19T22:15:00+09:00",
-      "title": "📌라이브 공지 : 11월 3주차 <투자학개론> 라이브!",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "11/19(목) 20시 투자학개론 라이브(주요 시장 이벤트와 시사점 정리) 안내. 투자 주장 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
-    },
-    {
-      "post_id": "231840",
-      "analyzed_at": "2026-11-19T22:15:00+09:00",
-      "title": "📌[라이브 톡 Q&A 공지] 테크피드와 함께하는 실시간 Q&A 안내",
-      "author": "T3chfeed_테크피드",
-      "summary": "테크피드 코어 프로젝트 신청자 대상 11/23(월) 19시 카톡 Q&A 안내. 개별 종목 판단 질문은 받지 않는다고 명시.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
     },
     {
       "post_id": "231954",

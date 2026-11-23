@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T10:45:30.635660+09:00",
+  "generated_at": "2026-11-23T21:41:20.893434+09:00",
   "as_of": "2026-11-23",
   "regime": "RISK_OFF",
   "score": -3,
@@ -13,11 +13,11 @@
   ],
   "components": {
     "vix": {
-      "as_of": "2026-11-20",
-      "price": 35.889999,
-      "sma_20": 21.699,
-      "sma_50": 18.4352,
-      "return_20d": 0.845244,
+      "as_of": "2026-11-23",
+      "price": 31.15,
+      "sma_20": 22.337,
+      "sma_50": 18.7162,
+      "return_20d": 0.693855,
       "reason": "VIX rising above SMA20"
     },
     "us_10y": {
@@ -30,11 +30,11 @@
     },
     "dollar": {
       "as_of": "2026-11-23",
-      "price": 103.766998,
-      "sma_20": 102.657851,
-      "sma_50": 101.97214,
-      "return_20d": 0.017723,
-      "reason": "Dollar index rising over 20 sessions (+1.8%)"
+      "price": 103.889,
+      "sma_20": 102.663951,
+      "sma_50": 101.97458,
+      "return_20d": 0.018919,
+      "reason": "Dollar index rising over 20 sessions (+1.9%)"
     },
     "qqq": {
       "as_of": "2026-11-20",

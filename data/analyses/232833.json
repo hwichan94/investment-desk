@@ -1,0 +1,75 @@
+{
+  "post_id": "232833",
+  "content_hash": "b68e297b055375eb495fd7a454c80ff57c7b5eddee12b29f7dc0c60bc9bf67bb",
+  "title": "나스닥 폭락 이후, 이번 주 시장은? | 11-23 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-23T12:00:00+09:00",
+  "new_candidates": [],
+  "summary": "지난주 나스닥 10% 폭락 이후의 주간 시황. 골드만 트레이딩 데스크는 헤지펀드 투매가 진행돼 단기 매수 구간에 가까워졌다고 보지만 2018년식 긴축 국면 유사성을 경고. 이란 협상 교착, Brent $90 하회, 젠슨 황 복귀설과 NVDA 경영진 불확실성, 테슬라 FSD V15 공개를 다룬다. 이번 주 핵심은 수요일 근원 PCE(예상 3.2%)이며 목요일 추수감사절 휴장.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Brent가 $90 아래로 하락, IEA가 공급 초과 전환 전망",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "2026-11-23 웹검색: 11/17경 Brent $90 하회(8/31 이후 처음)와 IEA 4분기 공급과잉 전망은 보도로 확인. 글의 '오늘 아침' 시점·IEA 원문은 미확인.",
+      "evidence_url": "https://www.khaleejtimes.com/oil-falls-below-90-as-trump-downplays-prospect-of-escalation-with-iran"
+    },
+    {
+      "kind": "FACT",
+      "text": "젠슨 황 복귀설: 2027 주총에서 이사회 교체 시도 가능, Kalshi 복귀 확률 11%",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "2026-11-23 검색: 황 사임·Kress 임시 CEO 보도(Fortune 등)는 있으나 이사회 교체·2027 주총·11% 수치는 근거를 못 찾음. NVDA 8-K 원문 대조는 후속 과제."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 FSD V15 공개, 안전성 25배·Reality View 탑재",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "2026-11-23 검색: V15 로보택시 시험·HW4 구동은 보도됐으나 25배·Reality View는 근거 없음. Electrek은 무스크의 안전성 주장이 매 버전 반복된다고 지적."
+    },
+    {
+      "kind": "FACT",
+      "text": "11/25 근원 PCE 예상 +3.2%(9월 +3.1%), 3Q GDP 2차 추정 예상 +3.5%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "BEA 일정·컨센서스 원문 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "2018년 10월처럼 S&P500이 추가 6.8% 하락할 수 있다(골드만)",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-02-28"
+    },
+    {
+      "kind": "OPINION",
+      "text": "NVDA GPU 수요는 건실, 최악에도 1~2년 견고하며 매도는 심리 회복 후 고려",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "경영진 불확실성이 주가 압박이라는 서술. 수요 thesis는 유지되며 단일 글·미검증 복귀설로 판단을 바꾸지 않음."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "FSD V15 성과는 회사 주장 수준이며 공식 근거 미확인."
+    }
+  ],
+  "portfolio_implication": "변경 없음. 폭락 후 시황 해설로 공식 실적·가이던스 변화가 없다. 수요일 PCE 전후 변동성에 대비해 신규 Tactical 위험 추가는 보류하고 Core는 유지."
+}

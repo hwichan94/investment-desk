@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T04:41:48.499889+09:00",
+  "generated_at": "2026-11-23T10:45:37.408456+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-23T04:41:41.670788+09:00",
+    "generated_at": "2026-11-23T10:45:30.635660+09:00",
     "key_signals": [
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
       "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -738,7 +738,7 @@
     ],
     "regime": {
       "state": "RISK_OFF",
-      "as_of": "2026-11-20",
+      "as_of": "2026-11-23",
       "reasons": [
         "VIX rising above SMA20",
         "credit HYG/LQD falling",
@@ -1336,108 +1336,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 핵심 수치가 모두 미검증이고 단일 의견. AI CAPEX 상관집중(NVDA·AVGO·VRT·AMZN) 점검 항목으로만 기록."
-    },
-    {
-      "post_id": "232159",
-      "analyzed_at": "2026-11-20T06:00:00+09:00",
-      "title": "앤트로픽의 역대 최대 흥행 IPO 직전...! (ft. 미중러 3자회담)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "엔비디아 젠슨황 복귀 청원·무디스 전망 하향 등 경영 불확실성이 시장 심리를 누르고 있다는 해석과, 앤트로픽 IPO(공모가 $83 확정, 총 조달 $107.3B)를 AI 내러티브 주도권 이동의 계기로 보는 의견. 저자는 앤트로픽을 소액 매수하고 IREN 같은 앤트로픽 수혜 후보를 선호. 미중러 정상회담은 원론적 합의(유가 공급 확대 등)이며 트럼프의 AI 규제 반대·대중 칩 수출 완화 발언을 NVDA·AI 규제 구도로 해석.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "무디스가 엔비디아 신용등급 전망을 '긍정'에서 '안정'으로 하향",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch에서 확인 안 됨. 찾은 최신 무디스 조치는 Aa1 확정·전망 긍정 유지(날짜 불명). 공식 무디스 발표 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "엔비디아 직원 25%가 젠슨황 복귀 청원에 서명, 임시 CEO 콜레트 크레스",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
-          "evidence_note": "NVDA 8-K(2026-11-12, 이벤트일 11-11): 젠슨황 사장·CEO·이사 사임, CFO 콜레트 크레스 임시 CEO 선임, 하비 존스 초대 이사회 의장(WebSearch 요약으로 확인, sec.gov 원문은 샌드박스에서 직접 열람 불가). 직원 25% 청원은 여전히 미확인. 사임 사유는 회사 공시에 없음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 공모가를 $70~78에서 $83으로 확정, 총 조달 $107.3B",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": "https://fourweekmba.com/ai-anthropic-said-to-price-ipo-above-80-filing-count-1-05t/",
-          "evidence_note": "범위 $70~78과 '$80 초과 가격 예상'(WSJ 11-17 인용 보도)은 확인. $83 확정가와 조달 총액은 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "Riot이 앤트로픽과 대형 코로케이션 계약",
-          "tickers": [],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://thenextweb.com/news/anthropic-riot-9bn-data-centre-deal",
-          "evidence_note": "Riot 20년 $9.1B 임대 발표(2026-08-10); 고객이 앤트로픽이라는 점은 Bloomberg 보도(회사는 미공개). IREN 계약 상대는 미확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "엔비디아가 젠슨황을 버리면 AI 내러티브 주도권이 앤트로픽으로 이동",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "앤트로픽이 상장 초반 $100 이상에서 시작, 수개월 내 상장가까지 하락 가능성",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-03-31"
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "미중러 합의로 원유 공급이 늘어 유가가 하락",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2027-02-28"
-        },
-        {
-          "kind": "OPINION",
-          "text": "트럼프 행정부 하에서 민주당 AI 규제안은 거부권에 막힐 것",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "WEAKEN",
-          "magnitude": "LOW",
-          "rationale": "창업자 복귀 논란·신용전망은 미검증 단일 의견. 실적·가이던스 변화 없음. 대중 수출 완화 발언은 장기 긍정이나 구체성 없음."
-        },
-        {
-          "ticker": "CRWV",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "앤트로픽 IPO 성공은 AI 컴퓨트 수요 신호이나 직접 근거 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 핵심 주장(무디스 전망, 젠슨황 청원)이 공식 확인되지 않았고 단일 의견. IREN은 미보유 후보로 점수 근거가 없어 편입 제안하지 않음. 앤트로픽 상장은 AI CAPEX 상관집중 점검 항목."
     }
   ],
   "new_candidates": [

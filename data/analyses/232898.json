@@ -20,8 +20,9 @@
       "tickers": [
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "두 종목 선행 PER 컨센서스를 공식 자료로 확인하지 못함. 232980 글에서도 동일 수치 반복(동일 출처 계열)."
+      "verification": "PARTIAL",
+      "evidence_note": "2차 자료(Trefis 11/17, 컨센서스 FY2028 기준 NVDA 9.9배 vs WMT 39.8배)로 방향·규모 일치. 공식 IR/SEC 근거는 아님(컨센서스 수치, GAAP/조정 불명). 점수 반영 안 함.",
+      "evidence_url": "https://www.trefis.com/stock/nvda/articles/625607/risky-nvidia-is-cheaper-than-safe-walmart/2026-11-17"
     },
     {
       "kind": "OPINION",

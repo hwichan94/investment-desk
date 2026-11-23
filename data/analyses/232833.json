@@ -22,8 +22,9 @@
       "tickers": [
         "NVDA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "2026-11-23 검색: 황 사임·Kress 임시 CEO 보도(Fortune 등)는 있으나 이사회 교체·2027 주총·11% 수치는 근거를 못 찾음. NVDA 8-K 원문 대조는 후속 과제."
+      "verification": "PARTIAL",
+      "evidence_note": "2026-11-23 웹검색+SEC 8-K: 황 CEO·이사 사임(11/11 이벤트, 11/12 제출), Kress 임시 CEO, 영구 CEO 탐색 개시는 CONFIRMED. 복귀설·2027 주총 이사회 교체·Kalshi 11%는 여전히 근거 없음.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
     },
     {
       "kind": "FACT",

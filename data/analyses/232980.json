@@ -1,0 +1,66 @@
+{
+  "post_id": "232980",
+  "content_hash": "c56ac728480cf2e43d2251555d560d73e821d4611f61d27780ad48266198140e",
+  "analyzed_at": "2026-11-23T22:30:00+09:00",
+  "title": "AI 시장, 걱정보다 두근거림이 훨씬 큰 이유 (ft. 특이점)",
+  "author": "세상학개론 - 한정수 작가",
+  "summary": "'증시 폭락 속 두근거림' 글. VIX 30 상회, 공포탐욕지수 한 자릿수. 반등 조건 두 가지: (1) 긴축 기조 전환(12월 FOMC 50bp 확률 0%, 동결 확률 생김, 애크먼의 12/9 인상 반대), (2) AI 새 능력 발현(리만 가설 증명 보도, 오픈AI 사전학습 지표). 앤트로픽 IPO 현금 $237B 언급. 결론은 장기 낙관.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Claude가 리만 가설을 증명했다(주말 중 25만 페이지)",
+      "tickers": [],
+      "verification": "CONFLICT",
+      "evidence_note": "2026-11-23 웹검색: 리만 가설은 미해결이며 Anthropic은 8월 발표에서 영점 비율 하한을 41.6%→67.2%로 올린 부분 진전만 공식 확인. 10월 Quanta는 OpenAI의 'quasi-Riemann' 증명 보도. 완전 증명 주장은 근거 없음.",
+      "evidence_url": "https://www.anthropic.com/news/riemann-zeta"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아 선행 PER 한 자릿수, 월마트 40배 초과",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "컨센서스 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "12월 FOMC 50bp 인상 확률 0%로 하락, 동결 확률 형성",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "CME FedWatch 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽 현금 $237B, 구글·아마존 등 합계 $259B",
+      "tickers": [
+        "AMZN"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 IR/공시 미확인(IPO 직후 수치 주장)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "긴축 전환과 AI 새 능력 발현이 시장 반전의 필요조건",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "낙관적 서사이나 핵심 사실 주장(리만 증명)이 공식 근거와 충돌. 판단 변경 없음."
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "앤트로픽 현금·컴퓨트 수요 언급은 AMZN 수혜 서사를 간접 지지하나 미검증."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 가장 강한 사실 주장이 공식 근거와 충돌하므로 이 글의 AI 능력 서사는 점수 반영 불가. 정책 전환 조건(12/9 FOMC, 수요일 PCE)은 체크포인트로만 유지."
+}

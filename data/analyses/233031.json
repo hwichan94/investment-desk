@@ -1,0 +1,58 @@
+{
+  "post_id": "233031",
+  "content_hash": "108a93eae3adc1efa947c6e7f4cb1b8e70c4e39c6b8680f990e4e386724b4216",
+  "analyzed_at": "2026-11-23T22:30:00+09:00",
+  "title": "과거의 시장을 보며, 알 수 있는 여러 명제들",
+  "author": "T3chfeed_테크피드",
+  "summary": "메타 AI 총괄 알렉산더 왕 아티클을 근거로 AI 가속 서사 소개(리만 가설 증명, AI가 AI 연구 자동화). 메타 올해 capex 최대 $145B, 내년도 공격적 투자 언급. 11월 GPU 임대료 B300 +9.9%, H200 +7.2%를 과잉투자 아님의 근거로 제시.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Claude가 리만 가설 증명을 내놨다",
+      "tickers": [],
+      "verification": "CONFLICT",
+      "evidence_note": "2026-11-23 웹검색: 미해결. Anthropic 8월 발표는 영점 비율 하한 상향(41.6→67.2%)뿐.",
+      "evidence_url": "https://www.anthropic.com/news/riemann-zeta"
+    },
+    {
+      "kind": "FACT",
+      "text": "메타 2026년 capex 최대 $145B",
+      "tickers": [],
+      "verification": "CONFIRMED",
+      "evidence_note": "메타 1Q26 실적에서 2026 capex 가이던스를 $125~145B로 상향(Fortune 2026-04-29 보도). 내년 투자 확대 코멘트는 근거 미확인(원문 8-K 미대조).",
+      "evidence_url": "https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/"
+    },
+    {
+      "kind": "FACT",
+      "text": "11월 GPU 임대료 B300 +9.9%, H200 +7.2% (10월 대비)",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "웹검색: 엔비디아 Kress가 11/17 실적 콜에서 세대 전반 임대료 상승 언급, B300 90일 중앙값 약 +14% 등 방향은 일치하나 월간 +9.9%/+7.2% 수치 출처는 확인 못함. 스팟은 혼재(11/18 H200 스팟 하락)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 과잉투자 우려는 과도하며 펀더멘털 다지는 기업을 봐야 한다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "GPU 임대료 상승 방향은 수요 thesis와 부합(엔비디아 콜 언급), 단 수치는 부분 검증이고 단일 글."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "메타 capex 확인은 AI CAPEX 수요 지지이나 실적 근거는 아님."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 방향성(GPU 수요 견조)은 부분 확인되나 점수 변경 사유가 되려면 공식 실적·가이던스가 필요. AI CAPEX 상관집중 점검 유지."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T21:41:30.450207+09:00",
+  "generated_at": "2026-11-23T22:10:07.987222+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -771,9 +771,9 @@
           "tickers": [
             "NVDA"
           ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "2026-11-23 검색: 황 사임·Kress 임시 CEO 보도(Fortune 등)는 있으나 이사회 교체·2027 주총·11% 수치는 근거를 못 찾음. NVDA 8-K 원문 대조는 후속 과제.",
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+          "evidence_note": "2026-11-23 웹검색+SEC 8-K: 황 CEO·이사 사임(11/11 이벤트, 11/12 제출), Kress 임시 CEO, 영구 CEO 탐색 개시는 CONFIRMED. 복귀설·2027 주총 이사회 교체·Kalshi 11%는 여전히 근거 없음.",
           "due": null
         },
         {
@@ -1063,64 +1063,6 @@
       "portfolio_implication": "변경 없음. 앤트로픽(ANT) 직접 편입은 상장 직후 가격 발견 전이며 손익·현금흐름 근거가 없어 관찰 수준. 요청 아이디어도 아님."
     },
     {
-      "post_id": "232483",
-      "analyzed_at": "2026-11-20T22:20:00+09:00",
-      "title": "신경안정제 대신 백신이 필요하다면? 트럼프 1기 중간선거 하락장과의 평행이론",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "비관 시나리오: 현재 하락이 2018년 트럼프 1기 중간선거 후 연말 하락과 유사하며, 연준 긴축 기조가 바뀌려면 더 큰 하락이나 부양책이 필요할 수 있다는 평행이론. 헌터브룩의 AMD 중국 우회수출 숏리포트가 시장을 흔들었다고 언급. 앤트로픽 공모가 $70~75→$83 상향, 17% 상승한 $97에 마감, 개인 배정 15%. 필자는 분할매수 스타일 유지.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "헌터브룩이 AMD의 중국 우회수출 연루 숏리포트를 발표",
-          "tickers": [
-            "AMD"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "WebSearch에서 해당 보고서를 찾지 못함(과거 AMD 수출규제 기사만 검색됨).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 공모가 $83, 첫날 약 17% 상승한 $97 마감",
-          "tickers": [],
-          "verification": "CONFLICT",
-          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
-          "evidence_note": "공모가 $83은 확인(Fortune). 종가는 232467의 $92.60, 232205계열 $97.17과 불일치하며 상장 후 체결 보도를 찾지 못함.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "2018년 말처럼 크리스마스 무렵 저점 후 급반등 가능",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "11월 CPI(12월 발표)는 전월 대비 하락",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-31"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "거시·수급 서술. 펀더멘털 근거 없음."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 시장 하락 서술은 RISK_OFF 해석이며 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
-    },
-    {
       "post_id": "232464",
       "analyzed_at": "2026-11-20T22:20:00+09:00",
       "title": "🐹 AI 정리본: 투자학개론 <아이렌> 종합점검",
@@ -1263,6 +1205,64 @@
         "IREN"
       ],
       "portfolio_implication": "변경 없음. 232464와 동일 사유로 IREN은 target 0%, 관찰도 단일 출처 의견 기반이라 승격하지 않음."
+    },
+    {
+      "post_id": "232483",
+      "analyzed_at": "2026-11-20T22:20:00+09:00",
+      "title": "신경안정제 대신 백신이 필요하다면? 트럼프 1기 중간선거 하락장과의 평행이론",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "비관 시나리오: 현재 하락이 2018년 트럼프 1기 중간선거 후 연말 하락과 유사하며, 연준 긴축 기조가 바뀌려면 더 큰 하락이나 부양책이 필요할 수 있다는 평행이론. 헌터브룩의 AMD 중국 우회수출 숏리포트가 시장을 흔들었다고 언급. 앤트로픽 공모가 $70~75→$83 상향, 17% 상승한 $97에 마감, 개인 배정 15%. 필자는 분할매수 스타일 유지.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "헌터브룩이 AMD의 중국 우회수출 연루 숏리포트를 발표",
+          "tickers": [
+            "AMD"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "WebSearch에서 해당 보고서를 찾지 못함(과거 AMD 수출규제 기사만 검색됨).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽 공모가 $83, 첫날 약 17% 상승한 $97 마감",
+          "tickers": [],
+          "verification": "CONFLICT",
+          "evidence_url": "https://fortune.com/2026/11/18/anthropic-prices-ipo-83-per-share-1-5-trillion/",
+          "evidence_note": "공모가 $83은 확인(Fortune). 종가는 232467의 $92.60, 232205계열 $97.17과 불일치하며 상장 후 체결 보도를 찾지 못함.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "2018년 말처럼 크리스마스 무렵 저점 후 급반등 가능",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "11월 CPI(12월 발표)는 전월 대비 하락",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-31"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "거시·수급 서술. 펀더멘털 근거 없음."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 시장 하락 서술은 RISK_OFF 해석이며 신규 Starter·Tactical 크기 축소 신호일 뿐 Core 자동 축소 사유가 아님."
     }
   ],
   "new_candidates": [

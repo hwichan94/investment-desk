@@ -3,19 +3,20 @@
   "message": "",
   "discovered": 20,
   "created": [
-    "233166",
-    "233156"
+    "233214",
+    "233225",
+    "233268"
   ],
   "updated": [
-    "232980"
+    "232505"
   ],
-  "unchanged": 16,
+  "unchanged": 15,
   "locked": 1,
   "locked_ids": [
     "232832"
   ],
   "failures": [],
-  "last_run_at": "2026-11-24T11:13:00.691011+09:00",
-  "last_success_at": "2026-11-24T11:13:00.691011+09:00",
+  "last_run_at": "2026-11-24T22:43:52.559833+09:00",
+  "last_success_at": "2026-11-24T22:43:52.559833+09:00",
   "consecutive_failures": 0
 }

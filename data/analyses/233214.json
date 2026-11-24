@@ -1,0 +1,52 @@
+{
+  "summary": "로켓랩 뉴트론 진행표 정리. 11/23 영상은 LC-3 발사대에서 추력 모듈 유체시험·연결부 점검이며 남은 일은 발사장 시험과 공장 1단 탱크(중간 몸통까지 조립)다. 새 발사일은 탱크 시험 후에야 확정. 연기 후에도 8회를 추가 판매하고 가격을 $70M로 올린 이유를, 팰컨9가 2028~29년까지 포화된 점에서 '스페이스X 밖 대체 자리' 수요로 해석.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "뉴트론 연기 후 8회 추가 판매, 가격 $70M로 인상",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://pulse2.com/rocket-lab-record-q3-revenue-reaches-268-million-and-backlog-grows-to-3-57-billion/",
+      "evidence_note": "2026-11-25 검색: Q3 실적(11/9~10)에서 뉴트론 8회 $515M+ 수주, 일부 임무 기준가 $70M(기존 $55M) 보도. 2차 보도 기준이며 회사 IR 원문 직접 열람은 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "뉴트론 1단 탱크는 중간 몸통까지만 조립 완료, 새 발사일은 탱크 시험 후 결정",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "검색 결과상 1단 탱크 전방 돔 결함으로 첫 발사 2027년 이후로 이동은 확인, 조립 진행 상태는 실적 자료 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "팰컨9 탑재물 중 스타링크 비중 54%→79%, 우주기업 7곳이 2028~29년까지 예약 마감(로이터 8/4)",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "로이터 원문 미열람."
+    },
+    {
+      "kind": "OPINION",
+      "text": "고객이 산 것은 로켓 자체가 아니라 2028년 이후 스페이스X 외 발사 슬롯",
+      "tickers": [
+        "RKLB"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [
+    "RKLB"
+  ],
+  "portfolio_implication": "변경 없음. RKLB는 universe 밖이고 뉴트론 일정은 탱크 시험에 달려 있어 신규 편입 근거 아님.",
+  "post_id": "233214",
+  "content_hash": "5391f50be7f1c309bbe18c25a4e1f313d677cbd82fa9fcb3f3f64f543d278059",
+  "title": "뉴트론 진행표 ｜고객들이 산 건 로켓이 아니라 '스페이스X 밖 자리'",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-25T01:00:00+09:00"
+}

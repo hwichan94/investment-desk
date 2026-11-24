@@ -1,0 +1,67 @@
+{
+  "summary": "황 복귀를 '대마불사 AI'에 대한 백악관 개입으로 해석하고 거시 전망을 정리. 복귀 후 엔비디아 +30%이나 12월 FOMC 인상 확률은 오히려 상승했다고 본다. 베센트·애크먼의 '금융여건이 이미 긴축' 논리, 모건스탠리의 2027 EPS 괴리 분석, 골드만 '인플레 쇼크 종료' 전망을 근거로 긴축 기조의 끝이 보이나 12/9 FOMC까지 변동성은 지속될 것으로 전망.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 복귀 발표와 함께 30% 이상 급등",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "evidence_note": "CNBC 보도 기준 약 31% 급등(기존 분석과 동일)."
+    },
+    {
+      "kind": "FACT",
+      "text": "12월 금리 인상 확률 97.7%→104.7%(기대 인상폭 환산), 50bp 인상 확률 재등장",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "CME FedWatch 원문 미확인. 104.7%는 확률이 아니라 기대 인상 환산치로 보임."
+    },
+    {
+      "kind": "FACT",
+      "text": "모건스탠리: 시장 가격이 2027 EPS -6% 반영, 컨센서스는 +17%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "증권사 리포트 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "골드만삭스 2027 전망: 2026년 12월·2027년 3월 인상 후 동결, 2027년 11월부터 인하",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "PDF 원문 미열람."
+    },
+    {
+      "kind": "OPINION",
+      "text": "이번 일은 AI가 대마불사 영역에 들어왔다는 상징",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "12/9 FOMC까지 변동성, 이후 긴축 피봇 시 2024~25년 유사 국면",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-09"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "복귀 확인 외 신규 사실 없음. 정부 개입 해석은 의견."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 거시 시나리오 의견이며 12/9 FOMC·근원 PCE 확인 전에는 비중 변경 근거가 되지 못한다. RISK_OFF 신호로 신규 위험 확대는 신중.",
+  "post_id": "233268",
+  "content_hash": "4e76e2cc79da4a78e452abf2467f068279ac28b0b5954e7efb1dc6089d839a3d",
+  "title": "'대마불사' CEO의 등장, AI 정부구제의 신호탄?",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-25T01:00:00+09:00"
+}

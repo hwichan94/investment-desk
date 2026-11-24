@@ -1,0 +1,98 @@
+{
+  "summary": "젠슨 황 CEO 복귀 후 무엇이 달라지는지 분석. 엔비디아가 투자·신용보증·용량 구매로 네오클라우드 자금조달을 떠받치는 구조이며, 복귀로 신용 불안이 완화될 수 있으나 3분기 실적의 '금융지원 축소' 공식 스탠스가 유지될지는 미확인. 전력·광통신 수혜 가능성, 머스크 등 빅테크 CEO의 복귀 지지, 남은 리스크(순환금융, SEC 회계조사, 싱가포르 매출 22%, 근원 PCE)를 정리.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "이사회가 황을 CEO로 복귀시킴(11/23)",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+      "evidence_note": "NVDA 8-K(11/23)·CNBC 보도로 확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아 매출 약 22%가 싱가포르에서 발생",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "data/market/docs NVDA 10-Q(2026-08-26) 지역별 매출 대조는 이번 실행에서 미완료. 청구지 기준 매출은 최종 고객 위치와 다를 수 있음."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아가 루멘텀·코히어런트에 각 $2B 투자",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 발표 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아 3분기 공식 스탠스는 '제대로 된 곳에만 금융지원, 전반적으로 축소'",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "실적 콜 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "SEC가 회계 관련 조사 중이라고 보도됨",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "evidence_note": "CNBC 등 보도에서 독립·의회 조사 진행은 확인, SEC 조사 세부는 미확인(기존 분석과 동일)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "황의 복귀는 AI 투자자에게 반길 일이나 순환금융·정치 리스크는 남음",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "복귀로 네오클라우드 자금조달 비용이 내려갈 수 있음",
+      "tickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-03-31"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "CEO 공백 리스크는 공식 확인으로 해소. 단 조사 결과(12/2)와 금융지원 기조는 미확정."
+    },
+    {
+      "ticker": "VRT",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "전력 인프라는 수요 불확실성 감소 정도의 간접 효과."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "광통신 수혜 후보로 거명되나 구체 근거 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. NVDA 복귀는 이미 11/24 보고서에서 반영 검토했고, 이 글은 해석 위주다. 하루 급등 직후·조사 결과 전이라 비중 변경 근거로 쓰지 않는다.",
+  "post_id": "233225",
+  "content_hash": "ec29cdc94de4480969225a25334eaae7e6d13ba8ca34ed85f048be47f4ff5bf2",
+  "title": "젠슨 황 복귀, 무엇이 다시 달라지나",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-25T01:00:00+09:00"
+}

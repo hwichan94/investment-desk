@@ -1,0 +1,57 @@
+{
+  "post_id": "233166",
+  "content_hash": "47d5fda781c71c5c3e4ea3444a812ebe890b6296e38bb04a211e8f1d48f72121",
+  "analyzed_at": "2026-11-24T21:00:00+09:00",
+  "title": "하루 1조 달러, 시장이 산 건 젠슨 황이었습니다 (11/23 데일리 시황)",
+  "author": "나스다큐",
+  "summary": "11/23 시황. 나스닥 +6.51%, S&P +4.73%, 다우 +3.01%. 엔비디아 이사회가 황을 만장일치 복귀시켜 시총 약 1조 달러 증가, 트럼프 개입 발언, AMD는 사임 전 대비 18% 아래. SEC 질문(회계)은 미해결.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "이사회가 황을 CEO·이사로 만장일치 복귀, Kress는 CFO 복귀, 트럼프가 '내가 설득했다'고 발언",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-11-24 웹검색: NVDA 8-K(11/23 제출, 보도자료 첨부)·CNBC 보도로 이사회 만장일치 황 복귀, Kress CFO 복귀, 정부 고위 관계자 의견 반영 문구 확인. SEC 호스트는 샌드박스에서 직접 열람 불가해 검색 스니펫 기준.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "엔비디아 시총 하루 약 1조 달러 증가",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "CNBC 31% 급등 보도와 방향 일치, 금액은 미확인.",
+      "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+    },
+    {
+      "kind": "FACT",
+      "text": "나스닥 +6.51%, S&P500 +4.73%, 다우 +3.01%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "지수 종가 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "SEC 질문이 그대로 남아 있음(회계)",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "본문 일부만 수집됨(잘림), 근거 미확인."
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "복귀는 확인되나 SEC·독립 조사 불확실성 잔존."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 본문이 일부만 수집되어 SEC 질문 내용은 평가 불가."
+}

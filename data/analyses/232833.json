@@ -23,8 +23,8 @@
         "NVDA"
       ],
       "verification": "PARTIAL",
-      "evidence_note": "2026-11-23 웹검색+SEC 8-K: 황 CEO·이사 사임(11/11 이벤트, 11/12 제출), Kress 임시 CEO, 영구 CEO 탐색 개시는 CONFIRMED. 복귀설·2027 주총 이사회 교체·Kalshi 11%는 여전히 근거 없음.",
-      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+      "evidence_note": "2026-11-23 웹검색+SEC 8-K: 황 CEO·이사 사임(11/11 이벤트, 11/12 제출), Kress 임시 CEO, 영구 CEO 탐색 개시는 CONFIRMED. 복귀설·2027 주총 이사회 교체·Kalshi 11%는 여전히 근거 없음. [2026-11-24 갱신] 11/23 NVDA 8-K·CNBC로 이사회 만장일치 황 복귀 확인(복귀 자체 CONFIRMED). 2027 주총 교체·Kalshi 11% 세부는 미확인.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
     },
     {
       "kind": "FACT",

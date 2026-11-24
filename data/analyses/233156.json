@@ -1,0 +1,74 @@
+{
+  "post_id": "233156",
+  "content_hash": "917364d6a892c911592d7f36e20aca11219b342908de2c89d06a941d5d5a5999",
+  "analyzed_at": "2026-11-24T21:00:00+09:00",
+  "title": "\"두 번째 기회를 주셔서 감사합니다.\" | 11-24 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "summary": "11/24 시황. 엔비디아 +31.5%: 이사회 만장일치 황 복귀·Kress CFO 복귀, 12/2 비공식 조사 결과 대기. PCE(수요일)·PMI 54.6 거시 경계. 릴리 항암 확대, 템퍼스(Personalis 인수 ISS 찬성), 힘스, 조비 FAA 시험 등 개별 이슈.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "엔비디아 이사회가 만장일치로 젠슨 황을 CEO 복귀, Kress는 CFO 복귀, 정부 의견 반영 문구 포함",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "2026-11-24 웹검색: NVDA 8-K(11/23 제출, 보도자료 첨부)·CNBC 보도로 이사회 만장일치 황 복귀, Kress CFO 복귀, 정부 고위 관계자 의견 반영 문구 확인. SEC 호스트는 샌드박스에서 직접 열람 불가해 검색 스니펫 기준.",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA 하루 +31.48%",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "CNBC가 '31% 급등' 보도로 방향·규모 일치. 정확한 종가 수익률은 미확인.",
+      "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+    },
+    {
+      "kind": "FACT",
+      "text": "S&P 글로벌 PMI 54.6 (10월 55.9)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "S&P Global 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "ISS가 Personalis→템퍼스 인수 찬성 권고, 11/30 주총",
+      "tickers": [
+        "TEM"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보유·후보 종목 아님, 공시 미확인."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "12/2 황 비공식 조사 결과 긍정적일 것",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-02"
+    },
+    {
+      "kind": "OPINION",
+      "text": "NVDA $500 시나리오 재점등, 적당한 비중·분산",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "CEO 공백 리스크 해소는 공식 확인됐으나 독립 조사·의회 조사 진행 중이라 thesis 점수 변경 근거로는 약함."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 31% 급등으로 이벤트 리스크 일부 해소되었으나 조사 결과(12/2)와 PCE·12/9 FOMC 이전이므로 목표 비중·점수는 유지(thesis inertia)."
+}

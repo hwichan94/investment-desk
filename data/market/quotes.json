@@ -1,89 +1,89 @@
 {
-  "fetched_at": "2026-11-23T21:41:20.893434+09:00",
+  "fetched_at": "2026-11-24T11:14:29.607016+09:00",
   "quotes": {
     "AMZN": {
-      "price": 246.82,
+      "price": 255.39,
       "currency": "USD",
-      "previous_close": 266.66,
-      "market_time": "2026-11-20T21:00:00+00:00"
+      "previous_close": 257.75,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "ANET": {
-      "price": 167.62,
+      "price": 178.31,
       "currency": "USD",
-      "previous_close": 197.29,
-      "market_time": "2026-11-20T21:00:03+00:00"
+      "previous_close": 187.02,
+      "market_time": "2026-11-23T21:00:03+00:00"
     },
     "AVGO": {
-      "price": 304.41,
+      "price": 313.55,
       "currency": "USD",
-      "previous_close": 347.01,
-      "market_time": "2026-11-20T21:00:00+00:00"
+      "previous_close": 333.4,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "AXON": {
-      "price": 291.14,
+      "price": 307.6,
       "currency": "USD",
-      "previous_close": 315.43,
-      "market_time": "2026-11-20T21:00:02+00:00"
+      "previous_close": 306.44,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "CCJ": {
-      "price": 58.0,
+      "price": 61.5,
       "currency": "USD",
-      "previous_close": 70.73,
-      "market_time": "2026-11-20T21:00:03+00:00"
+      "previous_close": 65.99,
+      "market_time": "2026-11-23T21:00:02+00:00"
     },
     "CRWV": {
-      "price": 39.51,
+      "price": 48.33,
       "currency": "USD",
-      "previous_close": 53.13,
-      "market_time": "2026-11-20T21:00:00+00:00"
+      "previous_close": 49.88,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "ETN": {
-      "price": 311.33,
+      "price": 336.34,
       "currency": "USD",
-      "previous_close": 352.97,
-      "market_time": "2026-11-20T21:00:02+00:00"
+      "previous_close": 336.88,
+      "market_time": "2026-11-23T21:00:02+00:00"
     },
     "GOOG": {
-      "price": 264.0,
+      "price": 279.53,
       "currency": "USD",
-      "previous_close": 292.52,
-      "market_time": "2026-11-20T21:00:00+00:00"
+      "previous_close": 281.26,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "INTC": {
-      "price": 51.28,
+      "price": 59.66,
       "currency": "USD",
-      "previous_close": 59.66,
-      "market_time": "2026-11-20T21:00:01+00:00"
+      "previous_close": 55.47,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "NVDA": {
-      "price": 125.53,
+      "price": 165.05,
       "currency": "USD",
-      "previous_close": 162.85,
-      "market_time": "2026-11-20T21:00:01+00:00"
+      "previous_close": 156.14,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "ORCL": {
-      "price": 101.19,
+      "price": 113.68,
       "currency": "USD",
-      "previous_close": 125.35,
-      "market_time": "2026-11-20T21:04:25+00:00"
+      "previous_close": 119.09,
+      "market_time": "2026-11-23T21:05:19+00:00"
     },
     "PLTR": {
-      "price": 143.49,
+      "price": 159.36,
       "currency": "USD",
-      "previous_close": 167.99,
-      "market_time": "2026-11-20T21:00:00+00:00"
+      "previous_close": 160.39,
+      "market_time": "2026-11-23T21:00:01+00:00"
     },
     "TSLA": {
-      "price": 345.82,
+      "price": 385.46,
       "currency": "USD",
-      "previous_close": 390.22,
-      "market_time": "2026-11-20T21:00:01+00:00"
+      "previous_close": 379.74,
+      "market_time": "2026-11-23T21:00:00+00:00"
     },
     "VRT": {
-      "price": 166.24,
+      "price": 186.35,
       "currency": "USD",
-      "previous_close": 202.07,
-      "market_time": "2026-11-20T21:00:02+00:00"
+      "previous_close": 188.67,
+      "market_time": "2026-11-23T21:00:02+00:00"
     }
   },
   "errors": {}

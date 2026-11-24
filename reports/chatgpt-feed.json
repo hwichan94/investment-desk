@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-24T01:07:38.416499+09:00",
+  "generated_at": "2026-11-24T11:14:37.060781+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
     "confirmed_at": "2026-10-29",
     "currency": "USD",
-    "total_portfolio_value": 23197.53,
-    "equity_value": 22996.03,
-    "investable_total": 23197.53,
+    "total_portfolio_value": 25546.78,
+    "equity_value": 25345.28,
+    "investable_total": 25546.78,
     "cash_available_for_investing": 201.5,
     "cash_reserved_for_debt": 0.0,
     "reserved_cash_included_in_total": true,
@@ -18,8 +18,8 @@
         "ticker": "TSLA",
         "shares": 23.0,
         "average_cost": 419.799565,
-        "current_value": 7953.86,
-        "current_weight": 0.3428753,
+        "current_value": 8865.58,
+        "current_weight": 0.34703317,
         "category": "AI / Robotics",
         "themes": [
           "Autonomy",
@@ -31,8 +31,8 @@
         "ticker": "PLTR",
         "shares": 45.0,
         "average_cost": 160.890222,
-        "current_value": 6457.05,
-        "current_weight": 0.27835076,
+        "current_value": 7171.2,
+        "current_weight": 0.28070857,
         "category": "AI Software",
         "themes": [
           "AI Applications",
@@ -44,8 +44,8 @@
         "ticker": "AVGO",
         "shares": 12.0,
         "average_cost": null,
-        "current_value": 3652.92,
-        "current_weight": 0.15747021,
+        "current_value": 3762.6,
+        "current_weight": 0.14728275,
         "category": "Semiconductors / Networking",
         "themes": [
           "AI CAPEX",
@@ -57,8 +57,8 @@
         "ticker": "CCJ",
         "shares": 21.0,
         "average_cost": 96.7914,
-        "current_value": 1218.0,
-        "current_weight": 0.05250559,
+        "current_value": 1291.5,
+        "current_weight": 0.05055432,
         "category": "Nuclear Energy",
         "themes": [
           "Nuclear Renaissance",
@@ -70,8 +70,8 @@
         "ticker": "INTC",
         "shares": 11.0,
         "average_cost": 137.33,
-        "current_value": 564.08,
-        "current_weight": 0.02431638,
+        "current_value": 656.26,
+        "current_weight": 0.02568856,
         "category": "Semiconductors",
         "themes": [
           "AI Compute",
@@ -83,8 +83,8 @@
         "ticker": "VRT",
         "shares": 4.0,
         "average_cost": 290.98,
-        "current_value": 664.96,
-        "current_weight": 0.02866512,
+        "current_value": 745.4,
+        "current_weight": 0.02917785,
         "category": "Data Center Infrastructure",
         "themes": [
           "AI CAPEX",
@@ -97,8 +97,8 @@
         "ticker": "NVDA",
         "shares": 8.0,
         "average_cost": 216.79,
-        "current_value": 1004.24,
-        "current_weight": 0.04329082,
+        "current_value": 1320.4,
+        "current_weight": 0.05168557,
         "category": "Semiconductors / AI Compute",
         "themes": [
           "AI CAPEX",
@@ -110,8 +110,8 @@
         "ticker": "AMZN",
         "shares": 6.0,
         "average_cost": 251.17,
-        "current_value": 1480.92,
-        "current_weight": 0.06383956,
+        "current_value": 1532.34,
+        "current_weight": 0.05998173,
         "category": "Cloud / E-commerce",
         "themes": [
           "AWS",
@@ -128,16 +128,16 @@
     "objective": "maximize expected return within acceptable loss and concentration constraints",
     "cash_target": 0.05,
     "portfolio_score": {
-      "total": 70.2,
+      "total": 70.1,
       "components": {
-        "quality": 68.0,
-        "thesis": 89.0,
-        "concentration": 95.8,
-        "cash": 17.4,
-        "alignment": 50.5
+        "quality": 67.8,
+        "thesis": 88.9,
+        "concentration": 94.5,
+        "cash": 15.8,
+        "alignment": 52.8
       },
       "notes": [
-        "상위 2종목 합 62%"
+        "상위 2종목 합 63%"
       ]
     },
     "target_portfolio_score": {
@@ -152,29 +152,29 @@
       "notes": []
     },
     "alerts": [
-      "투자 가능 현금 0.9%가 최소 5%보다 낮습니다."
+      "투자 가능 현금 0.8%가 최소 5%보다 낮습니다."
     ],
     "target_errors": [],
     "funding": {
-      "cash_target_amount": 1159.88,
+      "cash_target_amount": 1277.34,
       "cash_available_for_buys_after_target": 0.0,
-      "desired_buy_amount": 599.07,
-      "recommended_buy_amount": 599.07,
-      "planned_sell_proceeds": 3344.74,
+      "desired_buy_amount": 629.62,
+      "recommended_buy_amount": 629.62,
+      "planned_sell_proceeds": 3244.82,
       "cash_first_allocations": {},
-      "sales_funded_buy_amount": 599.07,
+      "sales_funded_buy_amount": 629.62,
       "funding_shortfall": 0.0,
       "cash_is_not_an_automatic_buy_signal": true
     },
     "actions": [
       {
         "ticker": "TSLA",
-        "current_weight": 0.3428753,
+        "current_weight": 0.34703317,
         "target_weight": 0.24,
-        "change_weight": -0.1028753,
+        "change_weight": -0.10703317,
         "action": "축소",
         "urgency": "높음",
-        "estimated_amount": -2386.45,
+        "estimated_amount": -2734.35,
         "fundamentals": "STABLE",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -211,12 +211,12 @@
       },
       {
         "ticker": "PLTR",
-        "current_weight": 0.27835076,
+        "current_weight": 0.28070857,
         "target_weight": 0.33,
-        "change_weight": 0.05164924,
+        "change_weight": 0.04929143,
         "action": "추가매수",
-        "urgency": "높음",
-        "estimated_amount": 599.07,
+        "urgency": "중간",
+        "estimated_amount": 629.62,
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -253,12 +253,12 @@
       },
       {
         "ticker": "CASH",
-        "current_weight": 0.00868627,
+        "current_weight": 0.00788749,
         "target_weight": 0.05,
-        "change_weight": 0.04131373,
+        "change_weight": 0.04211251,
         "action": "현금 조정",
         "urgency": "중간",
-        "estimated_amount": 958.38,
+        "estimated_amount": 1075.84,
         "fundamentals": "NOT_APPLICABLE",
         "estimate_revisions": "NOT_APPLICABLE",
         "expectations_gap": "NOT_APPLICABLE",
@@ -281,9 +281,9 @@
       },
       {
         "ticker": "VRT",
-        "current_weight": 0.02866512,
+        "current_weight": 0.02917785,
         "target_weight": 0.07,
-        "change_weight": 0.04133488,
+        "change_weight": 0.04082215,
         "action": "유지",
         "urgency": "낮음",
         "estimated_amount": 0.0,
@@ -323,12 +323,12 @@
       },
       {
         "ticker": "AMZN",
-        "current_weight": 0.06383956,
+        "current_weight": 0.05998173,
         "target_weight": 0.04,
-        "change_weight": -0.02383956,
+        "change_weight": -0.01998173,
         "action": "소폭 조정 검토",
         "urgency": "낮음",
-        "estimated_amount": -553.02,
+        "estimated_amount": -510.47,
         "fundamentals": "STRENGTHENING",
         "estimate_revisions": "UNKNOWN",
         "expectations_gap": "UNKNOWN",
@@ -364,52 +364,10 @@
         ]
       },
       {
-        "ticker": "AVGO",
-        "current_weight": 0.15747021,
-        "target_weight": 0.14,
-        "change_weight": -0.01747021,
-        "action": "소폭 조정 검토",
-        "urgency": "낮음",
-        "estimated_amount": -405.27,
-        "fundamentals": "STRENGTHENING",
-        "estimate_revisions": "UNKNOWN",
-        "expectations_gap": "UNKNOWN",
-        "relative_momentum": "NEUTRAL",
-        "position_and_correlation_risk": {
-          "risk_control": 70.0,
-          "portfolio_fit": 90.0
-        },
-        "regime_alignment": "NEGATIVE",
-        "asymmetry": "UNKNOWN",
-        "core_floor_weight": null,
-        "tactical_weight": null,
-        "trim_source": "UNSPECIFIED",
-        "winner_protection_active": false,
-        "winner_protection_blocked": false,
-        "winner_protection_source": null,
-        "asymmetric_starter": false,
-        "technical_signal": "AVGO | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승 | 대량 거래 하락",
-        "timing_note": null,
-        "key_technicals": {
-          "as_of": "2026-11-20",
-          "above_sma_50": false,
-          "above_sma_200": false,
-          "relative_volume_20": 2.113045,
-          "relative_strength_qqq_trend": "RISING",
-          "relative_momentum": "NEUTRAL"
-        },
-        "winner_protection_override_reason": null,
-        "invalidation_signals": [
-          "AI 매출 성장의 급격한 둔화",
-          "주요 고객 이탈 또는 자체칩 전환 가속",
-          "마진과 현금흐름의 동반 하락"
-        ]
-      },
-      {
         "ticker": "CCJ",
-        "current_weight": 0.05250559,
+        "current_weight": 0.05055432,
         "target_weight": 0.06,
-        "change_weight": 0.00749441,
+        "change_weight": 0.00944568,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -448,10 +406,10 @@
         ]
       },
       {
-        "ticker": "NVDA",
-        "current_weight": 0.04329082,
-        "target_weight": 0.05,
-        "change_weight": 0.00670918,
+        "ticker": "AVGO",
+        "current_weight": 0.14728275,
+        "target_weight": 0.14,
+        "change_weight": -0.00728275,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -461,39 +419,39 @@
         "relative_momentum": "NEUTRAL",
         "position_and_correlation_risk": {
           "risk_control": 70.0,
-          "portfolio_fit": 80.0
+          "portfolio_fit": 90.0
         },
         "regime_alignment": "NEGATIVE",
         "asymmetry": "UNKNOWN",
         "core_floor_weight": null,
         "tactical_weight": null,
-        "trim_source": null,
+        "trim_source": "UNSPECIFIED",
         "winner_protection_active": false,
         "winner_protection_blocked": false,
         "winner_protection_source": null,
         "asymmetric_starter": false,
-        "technical_signal": "NVDA | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "technical_signal": "AVGO | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 상승 | 대량 거래 하락",
         "timing_note": null,
         "key_technicals": {
           "as_of": "2026-11-20",
           "above_sma_50": false,
           "above_sma_200": false,
-          "relative_volume_20": 2.409293,
-          "relative_strength_qqq_trend": "FALLING",
+          "relative_volume_20": 2.113045,
+          "relative_strength_qqq_trend": "RISING",
           "relative_momentum": "NEUTRAL"
         },
         "winner_protection_override_reason": null,
         "invalidation_signals": [
-          "데이터센터 매출의 연속적인 가이던스 하회",
-          "총마진의 구조적 하락",
-          "주요 고객 CAPEX와 주문의 동반 둔화"
+          "AI 매출 성장의 급격한 둔화",
+          "주요 고객 이탈 또는 자체칩 전환 가속",
+          "마진과 현금흐름의 동반 하락"
         ]
       },
       {
         "ticker": "INTC",
-        "current_weight": 0.02431638,
+        "current_weight": 0.02568856,
         "target_weight": 0.02,
-        "change_weight": -0.00431638,
+        "change_weight": -0.00568856,
         "action": "유지",
         "urgency": "없음",
         "estimated_amount": 0.0,
@@ -529,6 +487,48 @@
           "매출 성장 재둔화",
           "파운드리 손실 확대",
           "잉여현금흐름 적자 장기화"
+        ]
+      },
+      {
+        "ticker": "NVDA",
+        "current_weight": 0.05168557,
+        "target_weight": 0.05,
+        "change_weight": -0.00168557,
+        "action": "유지",
+        "urgency": "없음",
+        "estimated_amount": 0.0,
+        "fundamentals": "STRENGTHENING",
+        "estimate_revisions": "UNKNOWN",
+        "expectations_gap": "UNKNOWN",
+        "relative_momentum": "NEUTRAL",
+        "position_and_correlation_risk": {
+          "risk_control": 70.0,
+          "portfolio_fit": 80.0
+        },
+        "regime_alignment": "NEGATIVE",
+        "asymmetry": "UNKNOWN",
+        "core_floor_weight": null,
+        "tactical_weight": null,
+        "trim_source": "UNSPECIFIED",
+        "winner_protection_active": false,
+        "winner_protection_blocked": false,
+        "winner_protection_source": null,
+        "asymmetric_starter": false,
+        "technical_signal": "NVDA | Relative Momentum NEUTRAL | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
+        "timing_note": null,
+        "key_technicals": {
+          "as_of": "2026-11-20",
+          "above_sma_50": false,
+          "above_sma_200": false,
+          "relative_volume_20": 2.409293,
+          "relative_strength_qqq_trend": "FALLING",
+          "relative_momentum": "NEUTRAL"
+        },
+        "winner_protection_override_reason": null,
+        "invalidation_signals": [
+          "데이터센터 매출의 연속적인 가이던스 하회",
+          "총마진의 구조적 하락",
+          "주요 고객 CAPEX와 주문의 동반 둔화"
         ]
       },
       {
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-23T21:41:20.893434+09:00",
+    "generated_at": "2026-11-24T11:14:29.607016+09:00",
     "key_signals": [
       "AXON | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
       "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락 | 대량 거래 하락",
@@ -738,7 +738,7 @@
     ],
     "regime": {
       "state": "RISK_OFF",
-      "as_of": "2026-11-23",
+      "as_of": "2026-11-24",
       "reasons": [
         "VIX rising above SMA20",
         "credit HYG/LQD falling",
@@ -824,122 +824,6 @@
       "portfolio_implication": "변경 없음. 가장 강한 사실 주장이 공식 근거와 충돌하므로 이 글의 AI 능력 서사는 점수 반영 불가. 정책 전환 조건(12/9 FOMC, 수요일 PCE)은 체크포인트로만 유지."
     },
     {
-      "post_id": "232989",
-      "analyzed_at": "2026-11-23T22:30:00+09:00",
-      "title": "📌테크사이트 리포트 연 회원권 이벤트 안내",
-      "author": "T3chfeed_테크피드",
-      "summary": "테크사이트 리포트 연회원권 할인 이벤트 안내(11/23~12/7). 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 마케팅 공지."
-    },
-    {
-      "post_id": "232257",
-      "analyzed_at": "2026-11-23T22:30:00+09:00",
-      "title": "피지컬 AI 텐베거 추적｜라이다는 본업, 레이저는 다음 판",
-      "author": "나스다큐",
-      "summary": "나스닥 큐: 반도체는 이미 커서 다음 텐배거는 우주·피지컬AI·드론·바이오에서 나온다는 주장. 퓨처맵에서 신규 추적 종목(라이다/레이저 관련) 하나를 소개하는 서두 부분만 공개되어 종목명은 확인되지 않는다.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "에실로룩소티카가 작년 스마트 안경 700만 개 이상 판매(전년 3배)",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "웹 검증 시도 대상 아님(보유·후보 종목과 무관, 우선순위 낮음).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "METR 과제 길이가 2023년 이후 약 131일마다 2배",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "보유·후보 종목 무관, 미검증.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "다음 텐배거는 반도체가 아니라 우주·피지컬AI·드론·바이오에서 나온다",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 종목명이 공개되지 않았고 보유·후보 종목과 무관한 테마 글. 새 후보로 취급하지 않음."
-    },
-    {
-      "post_id": "233031",
-      "analyzed_at": "2026-11-23T22:30:00+09:00",
-      "title": "과거의 시장을 보며, 알 수 있는 여러 명제들",
-      "author": "T3chfeed_테크피드",
-      "summary": "메타 AI 총괄 알렉산더 왕 아티클을 근거로 AI 가속 서사 소개(리만 가설 증명, AI가 AI 연구 자동화). 메타 올해 capex 최대 $145B, 내년도 공격적 투자 언급. 11월 GPU 임대료 B300 +9.9%, H200 +7.2%를 과잉투자 아님의 근거로 제시.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "Claude가 리만 가설 증명을 내놨다",
-          "tickers": [],
-          "verification": "CONFLICT",
-          "evidence_url": "https://www.anthropic.com/news/riemann-zeta",
-          "evidence_note": "2026-11-23 웹검색: 미해결. Anthropic 8월 발표는 영점 비율 하한 상향(41.6→67.2%)뿐.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "메타 2026년 capex 최대 $145B",
-          "tickers": [],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/",
-          "evidence_note": "메타 1Q26 실적에서 2026 capex 가이던스를 $125~145B로 상향(Fortune 2026-04-29 보도). 내년 투자 확대 코멘트는 근거 미확인(원문 8-K 미대조).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "11월 GPU 임대료 B300 +9.9%, H200 +7.2% (10월 대비)",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": null,
-          "evidence_note": "웹검색: 엔비디아 Kress가 11/17 실적 콜에서 세대 전반 임대료 상승 언급, B300 90일 중앙값 약 +14% 등 방향은 일치하나 월간 +9.9%/+7.2% 수치 출처는 확인 못함. 스팟은 혼재(11/18 H200 스팟 하락).",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "AI 과잉투자 우려는 과도하며 펀더멘털 다지는 기업을 봐야 한다",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "GPU 임대료 상승 방향은 수요 thesis와 부합(엔비디아 콜 언급), 단 수치는 부분 검증이고 단일 글."
-        },
-        {
-          "ticker": "AVGO",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "메타 capex 확인은 AI CAPEX 수요 지지이나 실적 근거는 아님."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 방향성(GPU 수요 견조)은 부분 확인되나 점수 변경 사유가 되려면 공식 실적·가이던스가 필요. AI CAPEX 상관집중 점검 유지."
-    },
-    {
       "post_id": "232898",
       "analyzed_at": "2026-11-23T22:30:00+09:00",
       "title": "🎓11월 3주차 유튜브 라이브(11.22)",
@@ -1005,6 +889,122 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 보유 종목에 대한 새 공식 근거가 없고 현금 분할 대응 조언은 정책(현금 5% 이상 목표)과 방향이 같다. IREN은 미보유·universe 밖이며 작성자 본인 포지션이므로 신규 후보로 올리지 않는다."
+    },
+    {
+      "post_id": "232257",
+      "analyzed_at": "2026-11-23T22:30:00+09:00",
+      "title": "피지컬 AI 텐베거 추적｜라이다는 본업, 레이저는 다음 판",
+      "author": "나스다큐",
+      "summary": "나스닥 큐: 반도체는 이미 커서 다음 텐배거는 우주·피지컬AI·드론·바이오에서 나온다는 주장. 퓨처맵에서 신규 추적 종목(라이다/레이저 관련) 하나를 소개하는 서두 부분만 공개되어 종목명은 확인되지 않는다.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "에실로룩소티카가 작년 스마트 안경 700만 개 이상 판매(전년 3배)",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "웹 검증 시도 대상 아님(보유·후보 종목과 무관, 우선순위 낮음).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "METR 과제 길이가 2023년 이후 약 131일마다 2배",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "보유·후보 종목 무관, 미검증.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "다음 텐배거는 반도체가 아니라 우주·피지컬AI·드론·바이오에서 나온다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 종목명이 공개되지 않았고 보유·후보 종목과 무관한 테마 글. 새 후보로 취급하지 않음."
+    },
+    {
+      "post_id": "232989",
+      "analyzed_at": "2026-11-23T22:30:00+09:00",
+      "title": "📌테크사이트 리포트 연 회원권 이벤트 안내",
+      "author": "T3chfeed_테크피드",
+      "summary": "테크사이트 리포트 연회원권 할인 이벤트 안내(11/23~12/7). 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 마케팅 공지."
+    },
+    {
+      "post_id": "233031",
+      "analyzed_at": "2026-11-23T22:30:00+09:00",
+      "title": "과거의 시장을 보며, 알 수 있는 여러 명제들",
+      "author": "T3chfeed_테크피드",
+      "summary": "메타 AI 총괄 알렉산더 왕 아티클을 근거로 AI 가속 서사 소개(리만 가설 증명, AI가 AI 연구 자동화). 메타 올해 capex 최대 $145B, 내년도 공격적 투자 언급. 11월 GPU 임대료 B300 +9.9%, H200 +7.2%를 과잉투자 아님의 근거로 제시.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "Claude가 리만 가설 증명을 내놨다",
+          "tickers": [],
+          "verification": "CONFLICT",
+          "evidence_url": "https://www.anthropic.com/news/riemann-zeta",
+          "evidence_note": "2026-11-23 웹검색: 미해결. Anthropic 8월 발표는 영점 비율 하한 상향(41.6→67.2%)뿐.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "메타 2026년 capex 최대 $145B",
+          "tickers": [],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/",
+          "evidence_note": "메타 1Q26 실적에서 2026 capex 가이던스를 $125~145B로 상향(Fortune 2026-04-29 보도). 내년 투자 확대 코멘트는 근거 미확인(원문 8-K 미대조).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "11월 GPU 임대료 B300 +9.9%, H200 +7.2% (10월 대비)",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "PARTIAL",
+          "evidence_url": null,
+          "evidence_note": "웹검색: 엔비디아 Kress가 11/17 실적 콜에서 세대 전반 임대료 상승 언급, B300 90일 중앙값 약 +14% 등 방향은 일치하나 월간 +9.9%/+7.2% 수치 출처는 확인 못함. 스팟은 혼재(11/18 H200 스팟 하락).",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "AI 과잉투자 우려는 과도하며 펀더멘털 다지는 기업을 봐야 한다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "GPU 임대료 상승 방향은 수요 thesis와 부합(엔비디아 콜 언급), 단 수치는 부분 검증이고 단일 글."
+        },
+        {
+          "ticker": "AVGO",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "메타 capex 확인은 AI CAPEX 수요 지지이나 실적 근거는 아님."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 방향성(GPU 수요 견조)은 부분 확인되나 점수 변경 사유가 되려면 공식 실적·가이던스가 필요. AI CAPEX 상관집중 점검 유지."
     },
     {
       "post_id": "232833",

@@ -24,8 +24,9 @@
       "tickers": [
         "TSLA"
       ],
-      "verification": "UNVERIFIED",
-      "evidence_note": "FT 원문·회사 공시 미확인. 이전 분석과 동일하게 판단 근거에 쓰지 않음."
+      "verification": "PARTIAL",
+      "evidence_note": "양사 특별위원회 구성은 TechCrunch(2026-10-20) 등으로 확인. 이사 5명 확정 FT 보도 자체는 미확인, 조건 미합의. 판단 근거로는 계속 쓰지 않음.",
+      "evidence_url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
     },
     {
       "kind": "FACT",

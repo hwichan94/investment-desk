@@ -1,0 +1,45 @@
+{
+  "summary": "저자는 SpaceX의 장기 비전은 긍정하지만 지금 SpaceX 주식 매수는 꺼린다고 한다. 이유는 (1) 합병 비용·프리미엄에 따른 희석과 차익거래 매도압력 불확실성, (2) 테슬라 보유자는 합병 시 어차피 SpaceX 주식을 받을 가능성이 커 서둘러 살 필요가 없고 발표 후 매도압력이 더 좋은 진입점이 될 수 있음, (3) 현금 보유 가치와 양도세 미해결, 거시 불확실성. 테슬라 투자자에겐 현금 보유가 유효하다는 의견.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "테슬라·SpaceX가 합병을 검토 중이며 양사 이사회가 독립 특별위원회를 구성",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "TechCrunch(2026-10-20) 등 2차 보도로 특별위원회 구성과 머스크 recuse, 조건 미합의를 확인. SEC 원문은 이 환경에서 접근 불가(www.sec.gov 미허용)라 공식 8-K로는 미확인.",
+      "evidence_url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "합병 발표 이후 희석·차익거래로 SpaceX 매도압력이 커져 더 좋은 매수 기회가 올 수 있다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "합병 조건·희석·양도세 불확실성 때문에 지금은 SpaceX 매수보다 현금 보유가 낫다",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병 조건이 확정되지 않았고 저자 의견은 SpaceX 신규 매수 보류. TSLA thesis에 대한 공식 신규 사실 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 합병은 특별위원회 단계로 조건 미확정이며 SpaceX 직접 매수 계획도 없다. TSLA 합병 이벤트 위험은 기존 Tactical 조정 틀에서 계속 점검하고 8-K로 조건이 공시되면 재평가.",
+  "post_id": "233611",
+  "content_hash": "89bf8d2672f0bb7d33477c9861ccd5ec14facf456a153b6a8e0cb5c51ef66d6f",
+  "title": "테슬라 + 스페이스X 합병에 대해",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-26T05:00:00+09:00"
+}

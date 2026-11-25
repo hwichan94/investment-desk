@@ -19,7 +19,7 @@
         "NVDA"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "data/market/docs NVDA 10-Q(2026-08-26) 지역별 매출 대조는 이번 실행에서 미완료. 청구지 기준 매출은 최종 고객 위치와 다를 수 있음."
+      "evidence_note": "data/market/docs NVDA 10-Q(2026-08-26) 지역별 매출 대조는 이번 실행에서 미완료. 청구지 기준 매출은 최종 고객 위치와 다를 수 있음. [11/25 재확인 시도] 최신 10-Q(2026-08-26) 원문 텍스트에서 해당 키워드 검색 결과 없음 — 확인되지 않아 UNVERIFIED 유지."
     },
     {
       "kind": "FACT",
@@ -28,7 +28,7 @@
         "NVDA"
       ],
       "verification": "UNVERIFIED",
-      "evidence_note": "공식 발표 미확인."
+      "evidence_note": "공식 발표 미확인. [11/25 재확인 시도] 최신 10-Q(2026-08-26) 원문 텍스트에서 해당 키워드 검색 결과 없음 — 확인되지 않아 UNVERIFIED 유지."
     },
     {
       "kind": "FACT",

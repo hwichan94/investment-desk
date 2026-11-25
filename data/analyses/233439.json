@@ -1,0 +1,102 @@
+{
+  "summary": "나스닥 -1.48%, 다우 5만선 회복의 선별 조정장 정리. 신규 관세 보도(미 정부, 중국·유럽 대상, 공식 발표 전)가 물가 발표를 앞두고 변수로 추가. Dell 실적(AI 서버 매출 $22B, +291%)으로 AI 수요 지속을 확인했고, CoreWeave 회사채 금리 급등으로 AI 인프라 신용시장 경계는 지속. Coherent 이사 장내매수(약 $15.2M), IonQ DARPA 2단계, 테슬라-스페이스X 합병 보도 등 개별 소식도 정리.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "Dell 3분기 AI 서버 매출 $22B, 전년 대비 +291%",
+      "tickers": [],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "evidence_note": "Dell IR 실적 발표 기준 AI-optimized 서버 $22.0B(+291%), 총매출 $54.9B(+103%), AI 수주잔고 $132.3B, FY27 가이던스 $202B로 상향(검색 요약 기준; 원문 일부 수치는 2차 보도 병행). 매출 예상치 $35.27B 대비 +19%는 컨센서스 수치라 UNVERIFIED."
+    },
+    {
+      "kind": "FACT",
+      "text": "Coherent 이사 Pagliuca가 11/20 장내매수 82,000주, 약 $15.22M",
+      "tickers": [],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0000820318/000089914026001411/form4.xml",
+      "evidence_note": "SEC Form 4(11/24 제출): 8개 로트 공개시장 매수 합계 82,000주, 평균 약 $185.59, 가족 신탁 보유 LLC 경유. COHR는 universe 밖."
+    },
+    {
+      "kind": "FACT",
+      "text": "코어위브 회사채 금리 17% 돌파",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "evidence_note": "11/24 채권 사상 최저가, 내재 금리 15%대 이상으로 보도. 11/6 16% 상회. 17%는 확인 못함(방향만 일치). CRWV 약 -12~13% 하락 보도와 대체로 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "IonQ 자회사 Vector Atomic, DARPA GRAVMAP 2단계 수주",
+      "tickers": [],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://quantumcomputingreport.com/ionq-advances-quantum-assured-navigation-and-timing-with-darpa-airborne-gravimeter-award-and-51-day-maritime-clock-trial/",
+      "evidence_note": "IonQ 공식 발표 기준 Phase II Option 수주. 계약 금액은 공개 자료에서 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국이 중국·유럽 등 상대로 신규 관세 준비 중(공식 발표 전)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "보도 단계이며 공식 자료 없음. 확인 시도 안 함(글에서도 미발표로 명시)."
+    },
+    {
+      "kind": "FACT",
+      "text": "2027 S&P500 목표: 골드만·모건스탠리 8,700, JP모건 8,200",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "증권사 리포트 원문 미열람."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라-스페이스X 합병 가능성 FT 보도, 예측시장 2027/4/1 이전 70%",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "FT 원문 및 예측시장 수치 미확인. 회사 공식 발표 없음."
+    },
+    {
+      "kind": "OPINION",
+      "text": "내부자 매수는 광통신 섹터 상승 기대의 신호",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "고객사의 예산 집행 지속이 투자회수 확신인지 경쟁 공포인지 따져봐야 함",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "Dell AI 서버 매출 +291%, 수주잔고 $132.3B로 AI 인프라 수요 지속 확인. 다만 CoreWeave 등 신용 경계는 공존."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "회사채 금리 급등과 주가 급락으로 자금조달 비용 우려 확대. 보유 아님(target 0%)."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병 보도는 미확인 루머. 프리미엄·조건 불명이라 판단 근거 부족."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. Dell 실적은 AI CAPEX 수요 지속의 2차 확인이나 신규 공식 사실로 목표 비중을 바꿀 수준은 아님. 관세·물가 발표(오늘 밤)·12/9 FOMC 전이라 RISK_OFF 하에서 신규 위험 확대는 보류하고 AI CAPEX 상관집중을 유의. TSLA 합병설은 미확인이라 비중 판단에 쓰지 않음.",
+  "post_id": "233439",
+  "content_hash": "35b771441c36a46cc31bda8aae62e86dce7fbe17b922f2d2a76cd598b1975ba3",
+  "title": "시장이 갈린 이유: 관세 | 11-25 미국 시황 정리",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-25T10:00:00+09:00"
+}

@@ -1,0 +1,71 @@
+{
+  "summary": "테크피드 라이브 Q&A 정리. 거시는 PCE·물가와 이란 전쟁 종료를 반등 조건으로 보고, AI는 3단계(소비자·기업→모델사→인프라) 자금 흐름과 앤트로픽 4분기 실적이 관건이라 본다. PLTR은 오픈웨이트 테마의 경제성 입증 종목으로 중요, 네오클라우드(CRWV 등)는 부채·FCF 때문에 비선호, NVDA는 플랫폼 투자로 단순화. 현재 시장은 RSI 30 미만·극단적 공포라 천천히 분할매수 가능하나 비중 조절 필수, 단일 종목 최대 30% 정도를 제시.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "OPINION",
+      "text": "PLTR이 오픈웨이트 AI 테마의 경제성을 입증해야 하는 핵심 위치",
+      "tickers": [
+        "PLTR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "네오클라우드(CRWV·NBIS·IREN)는 부채·FCF 부담으로 비선호",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "NVDA는 플랫폼·생태계 투자로 단순화해서 본다",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "현재는 극단적 공포 구간이라 비중 조절 하에 분할매수 가능, 단일 종목 최대 30% 안팎",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "앤트로픽 4분기 실적이 AI 인프라 밸류 재평가의 방향을 좌우",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-02-28"
+    },
+    {
+      "kind": "FACT",
+      "text": "2027년 연준 금리 1~2회 인상이 컨센서스",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "FOMC 12/9 전 공식 점도표·CME FedWatch 원문 미확인. 2차 발언이며 이 글 단독으로 사용하지 않음."
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "저자의 의견 수준 언급이며 공식 지표 없음. 보유 thesis 변경 근거 아님."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "저자 의견(부채 부담). target 0% 유지와 일치."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 의견 중심 Q&A이며 새 공식 사실 없음. PLTR 33%·TSLA 24% 등 목표는 유지하고 신규 위험 확대는 RISK_OFF·PCE·FOMC 전 보류.",
+  "post_id": "233311",
+  "content_hash": "59998c1fc9e1beaca0f167d857a33c5cd7152a2e010197d4ed8d6f8dc2509623",
+  "title": "[테크피드 실시간 Q&A] 지금 시장은 흔들리는데, AI 파티는 계속될까요?",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-25T18:00:00+09:00"
+}

@@ -1,0 +1,75 @@
+{
+  "summary": "11/24 반도체지수가 하루 약 8% 하락, 바이오 ETF(XBI)는 6.56% 상승. 새 관세(USTR 산업보조금 조사 결과 발표 예정)와 12월 금리인상 확률 95%가 원인으로 제시. 사노피가 인스메드를 주당 $175(총 $410억)에 인수한다고 발표. FT 보도로 TSLA-SpaceX 합병 협상 이사 5명 확정. 12/1·12/3 젠슨 황 청문회가 반도체 변수.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "사노피가 인스메드를 주당 $175, 총 $410억 현금으로 인수",
+      "tickers": [],
+      "verification": "CONFIRMED",
+      "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm",
+      "evidence_note": "사노피 6-K 보도자료 exhibit: 주당 $175, 총 $41.0B(€37.6B). 발표일은 검색 요약에 없음. 인수설 대비 프리미엄 46%는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "USTR가 중국·EU 등 16개 경제권 산업 보조금 조사 결과를 이번 주 발표 예정",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/american-workers-farmers-and-manufacturers-applaud-ustr-launched-section-301-investigations",
+      "evidence_note": "16개 경제권 Section 301 과잉설비 조사는 2026-03-11 개시 확인. 이번 주 발표 일정과 세율은 확인 못함(법정 기한 2027-03-11)."
+    },
+    {
+      "kind": "FACT",
+      "text": "TSLA-SpaceX 합병 협상 이사 5명 확정(FT)",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "FT 원문·회사 공시 미확인. 이전 분석과 동일하게 판단 근거에 쓰지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "12월 금리 인상 확률 95%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "CME FedWatch 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "SOX 하루 -8%, XBI +6.56%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "시세 지표는 collector 소유 data/market 범위 밖이라 직접 확인 못함."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "12/1 하원·12/3 상원 청문회에서 젠슨 황 답변이 반도체 변동성 변수",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-03"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "관세·청문회는 이벤트 리스크이나 사업 thesis 훼손 근거는 아님."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "합병 보도는 미확인. 비중 판단에 쓰지 않음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 바이오·소형주 중심 글이라 보유 종목 직접 근거가 적다. 반도체 관세·청문회는 이벤트 리스크로만 기록.",
+  "post_id": "233470",
+  "content_hash": "47a6792cff2dd996f6419618e0c25b52f959d50d35f7f3ff456a1abe01d0fe46",
+  "title": "관세는 반도체를 때렸고, 바이오는 비켜 갔습니다 (11/24 데일리 시황)",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-25T18:00:00+09:00"
+}

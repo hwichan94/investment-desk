@@ -1,0 +1,55 @@
+{
+  "summary": "11/25 나스닥이 개장 직후 -4.6%, 반도체지수 -7.9%까지 밀렸다가 -0.62%/-0.65%로 마감했다. 원인은 근원 PCE 3.3%와 3분기 GDP 4.3% 상향, 12월 금리 인상 확률 98%, 14개 경제권 대상 301조 관세안이다. 반등은 기술주가 아니라 소재·산업재로 자금이 옮겨 간 것이며 기술 섹터는 11개 중 꼴찌였다. 앱셀레라 ABCL635 데이터는 SABCS에서 12/9 발표 예정이라고 한다(글 제목의 우주 데이터센터 승인 내용은 수집된 본문에 없음).",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "11/25 나스닥 마감 -0.62%, 반도체 -0.65%, S&P500 -0.25%, 다우 +0.33% (장중 나스닥 -4.6%, 반도체 -7.9%)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 지수 마감 자료를 WebSearch로 확인하지 못함. data/market 가격 데이터는 수집기 소유라 이번 실행에서 대조하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "10월 근원 PCE 3.3%(예상 3.2%), 3분기 GDP 연율 4.3%로 상향",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "BEA 2026-11 발표분이 검색되지 않음. 233693과 일치."
+    },
+    {
+      "kind": "FACT",
+      "text": "12월 금리 인상 확률 98%, 10년물 4.85%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 확인 못함."
+    },
+    {
+      "kind": "FACT",
+      "text": "14개 경제권 대상 301조 관세안이 발표됨",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "USTR 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "앱셀레라가 SABCS에서 ABCL635 1/2상 데이터를 12/9 발표(보도자료 11/25)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "비보유 종목이라 이번 실행에서 확인을 시도하지 않음. 233693은 12/10으로 적어 날짜가 1일 다름."
+    },
+    {
+      "kind": "OPINION",
+      "text": "반등은 기술주 복귀가 아니라 소재·산업재 순환이라 의미는 제한적",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 기술주 상대 약세와 금리 인상 기대는 보유 AI CAPEX 집중 포트폴리오의 위험 요인이지만 가격 반응만으로 thesis를 바꾸지 않는다. 12/9 FOMC와 관세안 구체화 확인 전까지 신규 위험 확대 보류.",
+  "post_id": "233711",
+  "content_hash": "0799136f320886b5408172c841d215f0f342cab95956efb3d38fccf007fd6987",
+  "title": "투매 뒤 회복, 그 사이 우주 데이터센터가 승인됐습니다 (11/25 데일리 시황)",
+  "author": "나스다큐",
+  "analyzed_at": "2026-11-26T13:10:00+09:00"
+}

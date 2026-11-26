@@ -3,17 +3,18 @@
   "message": "",
   "discovered": 20,
   "created": [
-    "233711",
-    "233693"
+    "233834",
+    "233787",
+    "233749",
+    "233813",
+    "233780"
   ],
   "updated": [],
-  "unchanged": 17,
-  "locked": 1,
-  "locked_ids": [
-    "232832"
-  ],
+  "unchanged": 15,
+  "locked": 0,
+  "locked_ids": [],
   "failures": [],
-  "last_run_at": "2026-11-26T12:34:40.725931+09:00",
-  "last_success_at": "2026-11-26T12:34:40.725931+09:00",
+  "last_run_at": "2026-11-27T01:54:47.328623+09:00",
+  "last_success_at": "2026-11-27T01:54:47.328623+09:00",
   "consecutive_failures": 0
 }

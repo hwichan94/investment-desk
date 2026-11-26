@@ -1,0 +1,59 @@
+{
+  "summary": "AI의 해킹 능력 향상과 '소인수분해 다항시간 해결' 소문(스콧 애런슨 언급)이 RSA 보안과 양자컴퓨터 투자 서사에 미칠 영향을 정리한 글이다. 소문은 미확인이며 ECC(비트코인)는 당장 위험하지 않다고 본다. 양자 섹터는 중립이고 사이버보안 시장은 커지지만 프론티어 AI 랩(앤트로픽·오픈AI)이 기존 보안 업체 몫을 가져갈 것으로 보아 직접 투자 대신 AI 랩에 노출하겠다는 입장이다. 시황은 PCE 부합, 마이클 버리의 숏 청산을 언급한다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "마이클 버리가 팔란티어·메트라이프 풋을 제외한 엔비디아·반도체 숏을 청산하고 현금 25%로 운용",
+      "tickers": [
+        "PLTR",
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "13F/공식 자료로 확인 불가한 SNS·언론 발언 인용. 공식 근거 없음."
+    },
+    {
+      "kind": "FACT",
+      "text": "3분기 GDP 4.3%(예상 3.4~3.6%)",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "BEA 속보치 3.4%만 확인. 수정치 4.3%는 원문 미확인.",
+      "evidence_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/"
+    },
+    {
+      "kind": "FACT",
+      "text": "앤트로픽이 Claude Security를 공개 베타로 판매 중",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "글에 인용된 claude.com 링크 기반. 이번 실행에서 직접 열람하지 않음."
+    },
+    {
+      "kind": "FACT",
+      "text": "올해 보안 결함(CVE) 10만 건 초과, 오픈AI·앤트로픽이 사이버보안을 매출 성장축으로 본다는 발언",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 인터뷰·보도자료 미확인."
+    },
+    {
+      "kind": "OPINION",
+      "text": "프론티어 AI 랩이 기존 사이버보안 업체의 몫을 가져갈 것이다. 양자 섹터는 아직 중립",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "버리의 PLTR 풋 보유 언급은 단일 인물 포지션이며 thesis 근거가 아님."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 사이버보안·양자는 보유·후보 종목과 직접 관련이 약하고 소문은 미확인이다.",
+  "post_id": "233813",
+  "content_hash": "58b00f8339ebb2a72d41d71dbf65749b29c146734074913bea9785fa6801cb71",
+  "title": "코딩보다 크다는 AI 사이버보안 시장, 양자와 비트코인 영향은?",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-27T04:20:00+09:00"
+}

@@ -1,0 +1,84 @@
+{
+  "summary": "조정은 금리 인상과 AI 기대 재조정 때문이며 경기침체·신용위기형이 아니라 20~30%에서 멈출 가능성이 크다는 주장이다. 근거로 GDP +4.3%, NVDA 분기 매출 +103%와 내년 성장 가이던스 70→75% 상향, 하이일드 스프레드 3.76%, 2000년 대비 낮은 선행 PER(17.1배 vs 24.4배)을 든다. 리스크로 스페이스X의 GPU 임대가 35% 인하가 부채 기반 네오클라우드를 압박할 수 있다고 본다. 결론은 상승추세 종료가 아니라 단기 조정 쪽에 무게를 둔다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "NVDA 분기 매출 전년비 +103%",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "CONFIRMED",
+      "evidence_note": "Q3 FY2027 매출 $115.8B, +103%, 데이터센터 $107.6B(+110%).",
+      "evidence_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+    },
+    {
+      "kind": "FACT",
+      "text": "NVDA가 내년(FY28) 성장 가이던스를 70%에서 75%로 상향",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "Q4 가이던스 $130B±3%(14주 분기)는 공식 확인. 70→75% 상향은 2차 보도(xenospectrum)로만 확인, 공식 문구는 미확인.",
+      "evidence_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+    },
+    {
+      "kind": "FACT",
+      "text": "3분기 GDP 연율 +4.3%",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "BEA 속보치는 3.4%(2026-10-29)로 확인. 4.3%(수정치) 원문은 검색되지 않음.",
+      "evidence_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/"
+    },
+    {
+      "kind": "FACT",
+      "text": "하이일드 스프레드 3.76%, 선행 PER 17.1배(2000년 24.4배)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "FRED/지수 원문 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "스페이스X가 GPU 임대가 35% 인하 발표",
+      "tickers": [
+        "CRWV"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색 결과에 인하 보도 없음. SpaceX가 대형 GPU 임대사업자라는 보도만 확인(Goldman 인용 2차 기사)."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "2027년 말 S&P500 8,150~9,000(현재 대비 +13~25%) 월가 전망",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-12-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "이번 조정은 금리 인상·기대 재조정형이라 폭락(50%)보다 20~30% 조정에서 멈출 가능성이 크다",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "STRENGTHEN",
+      "magnitude": "LOW",
+      "rationale": "공식 확인된 +103% 매출과 Q4 $130B 가이던스는 이미 반영된 thesis 확인. 점수 변경 근거 아님."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "GPU 임대가 인하는 미확인. 사실이면 부채 기반 네오클라우드에 부담이나 근거가 약함."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 거시 해석은 저자 의견이며 RISK_OFF 인식(신규 위험 확대 보류)과 일치한다. GDP 수정치와 스페이스X 임대가 인하는 확인되지 않아 목표 비중 근거로 쓰지 않는다.",
+  "post_id": "233780",
+  "content_hash": "70fb076c74ff80b0a6a64c53d3b793da9fccd1097c703218260107d4d9e8e22b",
+  "title": "시장은 얼마나 더 떨어질까?",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-27T04:20:00+09:00"
+}

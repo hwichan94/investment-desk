@@ -6,8 +6,9 @@
       "kind": "FACT",
       "text": "10월 근원 PCE 3.3%(예상 3.2%), 3분기 실질 GDP 4.3%로 상향",
       "tickers": [],
-      "verification": "UNVERIFIED",
-      "evidence_note": "BEA 원문을 WebSearch로 찾지 못함(검색 인덱스에 2026-11 발표분 없음). 나스다큐 233711이 같은 수치를 FRED 차트와 함께 제시해 교차 일치하나 독립 공식 확인은 아님."
+      "verification": "PARTIAL",
+      "evidence_note": "BEA 속보치 3.4%(2026-10-29)만 확인. 수정치 4.3%는 원문 미확인(2026-11-27 재시도).",
+      "evidence_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/"
     },
     {
       "kind": "FACT",

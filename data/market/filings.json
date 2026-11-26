@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T04:17:41.710367+09:00",
+  "fetched_at": "2026-11-26T12:35:57.394789+09:00",
   "filings": {
     "AMZN": [
       {
@@ -370,6 +370,14 @@
     "AXON": [
       {
         "form": "8-K",
+        "filed": "2026-11-25",
+        "report_date": "2026-11-19",
+        "cik": "0001069183",
+        "accession": "0001628280-26-075976",
+        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026075976/axon-20261119.htm"
+      },
+      {
+        "form": "8-K",
         "filed": "2026-11-18",
         "report_date": "2026-11-13",
         "cik": "0001069183",
@@ -479,14 +487,6 @@
         "cik": "0001069183",
         "accession": "0001628280-26-016872",
         "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026016872/axon-20260305.htm"
-      },
-      {
-        "form": "10-K",
-        "filed": "2026-02-25",
-        "report_date": "2025-12-31",
-        "cik": "0001069183",
-        "accession": "0001628280-26-011360",
-        "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011360/axon-20251231.htm"
       }
     ],
     "CCJ": [

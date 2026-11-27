@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-27T10:45:32.969013+09:00",
+  "generated_at": "2026-11-27T21:21:00.865838+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -730,7 +730,7 @@
     ]
   },
   "technical_context": {
-    "generated_at": "2026-11-27T10:45:25.055996+09:00",
+    "generated_at": "2026-11-27T21:20:49.195505+09:00",
     "key_signals": [
       "AVGO | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
       "CCJ | Relative Momentum WEAK | 50/200MA 하단 | QQQ 대비 상대강도 하락",
@@ -748,6 +748,37 @@
     }
   },
   "recent_analyses": [
+    {
+      "post_id": "233749",
+      "analyzed_at": "2026-11-27T04:20:00+09:00",
+      "title": "앱셀레라가 첫 무대로 이 학회를 고른 이유 (텐베거 시리즈)",
+      "author": "나스다큐",
+      "summary": "앱셀레라가 ABCL635 1/2상 데이터를 12/9 SABCS에서 포스터로 발표한다는 보도자료(11/25)를 해설한다. 새 데이터는 첫 1주 열감 감소와 65세 이상 결과 두 가지다. 항암 호르몬 치료로 열감을 겪는 환자(미국 약 100만 명 추정)는 기존 호르몬 치료가 금기라 수요가 크다는 논리다. 보유·후보 종목이 아니다.",
+      "relevance": "NONE",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "앱셀레라가 ABCL635 데이터를 12/9 SABCS(포스터 P1-4-30)에서 발표",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "보도자료 원문을 검색으로 찾지 못함. ABCL635가 AET 유발 VMS용 NK3R 항체이며 1/2상(NCT07118891) 진행 중이라는 점만 회사 페이지로 확인(abcellera.com/pipeline/abcl635). 비보유 종목이라 추가 시도 안 함.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "첫 1주·65세 이상 두 데이터가 같은 방향을 가리킨다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 비보유·비후보 바이오 종목이다."
+    },
     {
       "post_id": "233787",
       "analyzed_at": "2026-11-27T04:20:00+09:00",
@@ -827,37 +858,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 사이버보안·양자는 보유·후보 종목과 직접 관련이 약하고 소문은 미확인이다."
-    },
-    {
-      "post_id": "233749",
-      "analyzed_at": "2026-11-27T04:20:00+09:00",
-      "title": "앱셀레라가 첫 무대로 이 학회를 고른 이유 (텐베거 시리즈)",
-      "author": "나스다큐",
-      "summary": "앱셀레라가 ABCL635 1/2상 데이터를 12/9 SABCS에서 포스터로 발표한다는 보도자료(11/25)를 해설한다. 새 데이터는 첫 1주 열감 감소와 65세 이상 결과 두 가지다. 항암 호르몬 치료로 열감을 겪는 환자(미국 약 100만 명 추정)는 기존 호르몬 치료가 금기라 수요가 크다는 논리다. 보유·후보 종목이 아니다.",
-      "relevance": "NONE",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "앱셀레라가 ABCL635 데이터를 12/9 SABCS(포스터 P1-4-30)에서 발표",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "보도자료 원문을 검색으로 찾지 못함. ABCL635가 AET 유발 VMS용 NK3R 항체이며 1/2상(NCT07118891) 진행 중이라는 점만 회사 페이지로 확인(abcellera.com/pipeline/abcl635). 비보유 종목이라 추가 시도 안 함.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "첫 1주·65세 이상 두 데이터가 같은 방향을 가리킨다",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 비보유·비후보 바이오 종목이다."
     },
     {
       "post_id": "233780",
@@ -1140,6 +1140,18 @@
       "portfolio_implication": "변경 없음. 기술주 상대 약세와 금리 인상 기대는 보유 AI CAPEX 집중 포트폴리오의 위험 요인이지만 가격 반응만으로 thesis를 바꾸지 않는다. 12/9 FOMC와 관세안 구체화 확인 전까지 신규 위험 확대 보류."
     },
     {
+      "post_id": "233606",
+      "analyzed_at": "2026-11-26T05:00:00+09:00",
+      "title": "📢[채널 최초] 테크피드 유튜브 라이브 Q&A 안내!",
+      "author": "T3chfeed_테크피드",
+      "summary": "테크피드 채널 공지. 12/3(목) 20시 첫 유튜브 라이브 Q&A 예정이며 댓글로 질문을 받는다. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
+    },
+    {
       "post_id": "233611",
       "analyzed_at": "2026-11-26T05:00:00+09:00",
       "title": "테슬라 + 스페이스X 합병에 대해",
@@ -1189,18 +1201,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. 합병은 특별위원회 단계로 조건 미확정이며 SpaceX 직접 매수 계획도 없다. TSLA 합병 이벤트 위험은 기존 Tactical 조정 틀에서 계속 점검하고 8-K로 조건이 공시되면 재평가."
-    },
-    {
-      "post_id": "233606",
-      "analyzed_at": "2026-11-26T05:00:00+09:00",
-      "title": "📢[채널 최초] 테크피드 유튜브 라이브 Q&A 안내!",
-      "author": "T3chfeed_테크피드",
-      "summary": "테크피드 채널 공지. 12/3(목) 20시 첫 유튜브 라이브 Q&A 예정이며 댓글로 질문을 받는다. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
     },
     {
       "post_id": "233311",
@@ -1708,84 +1708,6 @@
       "portfolio_implication": "변경 없음. 작성자 본인의 기존 보유 복기 자료로, 공식 FQ1 실적 외 새 정보 없음. IREN은 universe 밖이며 ARR 목표 연기·네오클라우드 신용 위험으로 신규 편입 근거 부족(관찰만)."
     },
     {
-      "post_id": "233268",
-      "analyzed_at": "2026-11-25T01:00:00+09:00",
-      "title": "'대마불사' CEO의 등장, AI 정부구제의 신호탄?",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "황 복귀를 '대마불사 AI'에 대한 백악관 개입으로 해석하고 거시 전망을 정리. 복귀 후 엔비디아 +30%이나 12월 FOMC 인상 확률은 오히려 상승했다고 본다. 베센트·애크먼의 '금융여건이 이미 긴축' 논리, 모건스탠리의 2027 EPS 괴리 분석, 골드만 '인플레 쇼크 종료' 전망을 근거로 긴축 기조의 끝이 보이나 12/9 FOMC까지 변동성은 지속될 것으로 전망.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "엔비디아가 복귀 발표와 함께 30% 이상 급등",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "evidence_note": "CNBC 보도 기준 약 31% 급등(기존 분석과 동일).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "12월 금리 인상 확률 97.7%→104.7%(기대 인상폭 환산), 50bp 인상 확률 재등장",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "CME FedWatch 원문 미확인. 104.7%는 확률이 아니라 기대 인상 환산치로 보임.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "모건스탠리: 시장 가격이 2027 EPS -6% 반영, 컨센서스는 +17%",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "증권사 리포트 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "골드만삭스 2027 전망: 2026년 12월·2027년 3월 인상 후 동결, 2027년 11월부터 인하",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "PDF 원문 미열람.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "이번 일은 AI가 대마불사 영역에 들어왔다는 상징",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "12/9 FOMC까지 변동성, 이후 긴축 피봇 시 2024~25년 유사 국면",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-09"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "복귀 확인 외 신규 사실 없음. 정부 개입 해석은 의견."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 거시 시나리오 의견이며 12/9 FOMC·근원 PCE 확인 전에는 비중 변경 근거가 되지 못한다. RISK_OFF 신호로 신규 위험 확대는 신중."
-    },
-    {
       "post_id": "233225",
       "analyzed_at": "2026-11-25T01:00:00+09:00",
       "title": "젠슨 황 복귀, 무엇이 다시 달라지나",
@@ -1896,138 +1818,70 @@
       "portfolio_implication": "변경 없음. NVDA 복귀는 이미 11/24 보고서에서 반영 검토했고, 이 글은 해석 위주다. 하루 급등 직후·조사 결과 전이라 비중 변경 근거로 쓰지 않는다."
     },
     {
-      "post_id": "233156",
-      "analyzed_at": "2026-11-24T21:00:00+09:00",
-      "title": "\"두 번째 기회를 주셔서 감사합니다.\" | 11-24 미국 시황 정리",
-      "author": "T3chfeed_테크피드",
-      "summary": "11/24 시황. 엔비디아 +31.5%: 이사회 만장일치 황 복귀·Kress CFO 복귀, 12/2 비공식 조사 결과 대기. PCE(수요일)·PMI 54.6 거시 경계. 릴리 항암 확대, 템퍼스(Personalis 인수 ISS 찬성), 힘스, 조비 FAA 시험 등 개별 이슈.",
+      "post_id": "233268",
+      "analyzed_at": "2026-11-25T01:00:00+09:00",
+      "title": "'대마불사' CEO의 등장, AI 정부구제의 신호탄?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "황 복귀를 '대마불사 AI'에 대한 백악관 개입으로 해석하고 거시 전망을 정리. 복귀 후 엔비디아 +30%이나 12월 FOMC 인상 확률은 오히려 상승했다고 본다. 베센트·애크먼의 '금융여건이 이미 긴축' 논리, 모건스탠리의 2027 EPS 괴리 분석, 골드만 '인플레 쇼크 종료' 전망을 근거로 긴축 기조의 끝이 보이나 12/9 FOMC까지 변동성은 지속될 것으로 전망.",
       "relevance": "MEDIUM",
       "claims": [
         {
           "kind": "FACT",
-          "text": "엔비디아 이사회가 만장일치로 젠슨 황을 CEO 복귀, Kress는 CFO 복귀, 정부 의견 반영 문구 포함",
+          "text": "엔비디아가 복귀 발표와 함께 30% 이상 급등",
           "tickers": [
             "NVDA"
           ],
           "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
-          "evidence_note": "2026-11-24 웹검색: NVDA 8-K(11/23 제출, 보도자료 첨부)·CNBC 보도로 이사회 만장일치 황 복귀, Kress CFO 복귀, 정부 고위 관계자 의견 반영 문구 확인. SEC 호스트는 샌드박스에서 직접 열람 불가해 검색 스니펫 기준.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "NVDA 하루 +31.48%",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
           "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "evidence_note": "CNBC가 '31% 급등' 보도로 방향·규모 일치. 정확한 종가 수익률은 미확인.",
+          "evidence_note": "CNBC 보도 기준 약 31% 급등(기존 분석과 동일).",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "S&P 글로벌 PMI 54.6 (10월 55.9)",
+          "text": "12월 금리 인상 확률 97.7%→104.7%(기대 인상폭 환산), 50bp 인상 확률 재등장",
           "tickers": [],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "S&P Global 원문 미확인.",
+          "evidence_note": "CME FedWatch 원문 미확인. 104.7%는 확률이 아니라 기대 인상 환산치로 보임.",
           "due": null
         },
         {
           "kind": "FACT",
-          "text": "ISS가 Personalis→템퍼스 인수 찬성 권고, 11/30 주총",
-          "tickers": [
-            "TEM"
-          ],
+          "text": "모건스탠리: 시장 가격이 2027 EPS -6% 반영, 컨센서스는 +17%",
+          "tickers": [],
           "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": "보유·후보 종목 아님, 공시 미확인.",
+          "evidence_note": "증권사 리포트 원문 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "골드만삭스 2027 전망: 2026년 12월·2027년 3월 인상 후 동결, 2027년 11월부터 인하",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "PDF 원문 미열람.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "이번 일은 AI가 대마불사 영역에 들어왔다는 상징",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
           "due": null
         },
         {
           "kind": "PREDICTION",
-          "text": "12/2 황 비공식 조사 결과 긍정적일 것",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-02"
-        },
-        {
-          "kind": "OPINION",
-          "text": "NVDA $500 시나리오 재점등, 적당한 비중·분산",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "CEO 공백 리스크 해소는 공식 확인됐으나 독립 조사·의회 조사 진행 중이라 thesis 점수 변경 근거로는 약함."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 31% 급등으로 이벤트 리스크 일부 해소되었으나 조사 결과(12/2)와 PCE·12/9 FOMC 이전이므로 목표 비중·점수는 유지(thesis inertia)."
-    },
-    {
-      "post_id": "233166",
-      "analyzed_at": "2026-11-24T21:00:00+09:00",
-      "title": "하루 1조 달러, 시장이 산 건 젠슨 황이었습니다 (11/23 데일리 시황)",
-      "author": "나스다큐",
-      "summary": "11/23 시황. 나스닥 +6.51%, S&P +4.73%, 다우 +3.01%. 엔비디아 이사회가 황을 만장일치 복귀시켜 시총 약 1조 달러 증가, 트럼프 개입 발언, AMD는 사임 전 대비 18% 아래. SEC 질문(회계)은 미해결.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "이사회가 황을 CEO·이사로 만장일치 복귀, Kress는 CFO 복귀, 트럼프가 '내가 설득했다'고 발언",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
-          "evidence_note": "2026-11-24 웹검색: NVDA 8-K(11/23 제출, 보도자료 첨부)·CNBC 보도로 이사회 만장일치 황 복귀, Kress CFO 복귀, 정부 고위 관계자 의견 반영 문구 확인. SEC 호스트는 샌드박스에서 직접 열람 불가해 검색 스니펫 기준.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "엔비디아 시총 하루 약 1조 달러 증가",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "evidence_note": "CNBC 31% 급등 보도와 방향 일치, 금액은 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "나스닥 +6.51%, S&P500 +4.73%, 다우 +3.01%",
+          "text": "12/9 FOMC까지 변동성, 이후 긴축 피봇 시 2024~25년 유사 국면",
           "tickers": [],
-          "verification": "UNVERIFIED",
+          "verification": "NOT_APPLICABLE",
           "evidence_url": null,
-          "evidence_note": "지수 종가 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "SEC 질문이 그대로 남아 있음(회계)",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "본문 일부만 수집됨(잘림), 근거 미확인.",
-          "due": null
+          "evidence_note": null,
+          "due": "2026-12-09"
         }
       ],
       "thesis_impacts": [
@@ -2035,86 +1889,11 @@
           "ticker": "NVDA",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "복귀는 확인되나 SEC·독립 조사 불확실성 잔존."
+          "rationale": "복귀 확인 외 신규 사실 없음. 정부 개입 해석은 의견."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 본문이 일부만 수집되어 SEC 질문 내용은 평가 불가."
-    },
-    {
-      "post_id": "232980",
-      "analyzed_at": "2026-11-24T21:00:00+09:00",
-      "title": "AI 시장, 걱정보다 두근거림이 훨씬 큰 이유 (ft. 특이점)",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "'증시 폭락 속 두근거림' 글. VIX 30 상회, 공포탐욕지수 한 자릿수. 반등 조건 두 가지: (1) 긴축 기조 전환(12월 FOMC 50bp 확률 0%, 동결 확률 생김, 애크먼의 12/9 인상 반대), (2) AI 새 능력 발현(리만 가설 증명 보도, 오픈AI 사전학습 지표). 앤트로픽 IPO 현금 $237B 언급. 결론은 장기 낙관. (개정판: 각국 증시안정 조치, 베센트의 황 CEO 발언 번복 등 정치 서사 추가.)",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "Claude가 리만 가설을 증명했다(주말 중 25만 페이지)",
-          "tickers": [],
-          "verification": "CONFLICT",
-          "evidence_url": "https://www.anthropic.com/news/riemann-zeta",
-          "evidence_note": "2026-11-23 웹검색: 리만 가설은 미해결이며 Anthropic은 8월 발표에서 영점 비율 하한을 41.6%→67.2%로 올린 부분 진전만 공식 확인. 10월 Quanta는 OpenAI의 'quasi-Riemann' 증명 보도. 완전 증명 주장은 근거 없음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "엔비디아 선행 PER 한 자릿수, 월마트 40배 초과",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "컨센서스 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "12월 FOMC 50bp 인상 확률 0%로 하락, 동결 확률 형성",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "CME FedWatch 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽 현금 $237B, 구글·아마존 등 합계 $259B",
-          "tickers": [
-            "AMZN"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 IR/공시 미확인(IPO 직후 수치 주장).",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "긴축 전환과 AI 새 능력 발현이 시장 반전의 필요조건",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "낙관적 서사이나 핵심 사실 주장(리만 증명)이 공식 근거와 충돌. 판단 변경 없음."
-        },
-        {
-          "ticker": "AMZN",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "앤트로픽 현금·컴퓨트 수요 언급은 AMZN 수혜 서사를 간접 지지하나 미검증."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 가장 강한 사실 주장이 공식 근거와 충돌하므로 이 글의 AI 능력 서사는 점수 반영 불가. 정책 전환 조건(12/9 FOMC, 수요일 PCE)은 체크포인트로만 유지."
+      "portfolio_implication": "변경 없음. 거시 시나리오 의견이며 12/9 FOMC·근원 PCE 확인 전에는 비중 변경 근거가 되지 못한다. RISK_OFF 신호로 신규 위험 확대는 신중."
     }
   ],
   "new_candidates": [

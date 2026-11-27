@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-27T01:55:58.957263+09:00",
+  "generated_at": "2026-11-27T10:45:25.055996+09:00",
   "benchmark": "QQQ",
   "securities": {
     "AMZN": {
@@ -13,7 +13,7 @@
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 1.153727,
+      "relative_volume_20": 1.157489,
       "atr_14": 10.446245,
       "distance_from_52w_high": -0.148921,
       "return_20d": -0.039945,
@@ -29,7 +29,7 @@
       "relative_momentum_reasons": [
         "mixed price trend",
         "QQQ relative strength flat",
-        "relative volume 1.15x"
+        "relative volume 1.16x"
       ],
       "heavy_volume_decline": false
     },
@@ -69,11 +69,11 @@
       "rsi_14": 40.754623,
       "sma_20": 326.989499,
       "sma_50": 340.525775,
-      "sma_200": 366.434852,
+      "sma_200": 366.434854,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 1.077059,
+      "relative_volume_20": 1.079971,
       "atr_14": 19.968969,
       "distance_from_52w_high": -0.390132,
       "return_20d": -0.144823,
@@ -163,7 +163,7 @@
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 1.14366,
+      "relative_volume_20": 1.151973,
       "atr_14": 6.645664,
       "distance_from_52w_high": -0.69208,
       "return_20d": -0.334115,
@@ -179,7 +179,7 @@
       "relative_momentum_reasons": [
         "price below SMA50/SMA200",
         "QQQ relative strength falling",
-        "relative volume 1.14x"
+        "relative volume 1.15x"
       ],
       "heavy_volume_decline": false
     },
@@ -219,11 +219,11 @@
       "rsi_14": 36.136263,
       "sma_20": 280.971001,
       "sma_50": 315.2858,
-      "sma_200": 333.882073,
+      "sma_200": 333.882072,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 0.914351,
+      "relative_volume_20": 0.917123,
       "atr_14": 11.475388,
       "distance_from_52w_high": -0.329198,
       "return_20d": -0.15816,
@@ -239,7 +239,7 @@
       "relative_momentum_reasons": [
         "price below SMA50/SMA200",
         "QQQ relative strength flat",
-        "relative volume 0.91x"
+        "relative volume 0.92x"
       ],
       "heavy_volume_decline": false
     },
@@ -253,7 +253,7 @@
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 0.807997,
+      "relative_volume_20": 0.812224,
       "atr_14": 5.537692,
       "distance_from_52w_high": -0.617352,
       "return_20d": -0.429813,
@@ -279,11 +279,11 @@
       "rsi_14": 37.452659,
       "sma_20": 172.477502,
       "sma_50": 203.654402,
-      "sma_200": 202.620628,
+      "sma_200": 202.620629,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 1.077302,
+      "relative_volume_20": 1.086773,
       "atr_14": 13.382572,
       "distance_from_52w_high": -0.386531,
       "return_20d": -0.306807,
@@ -299,7 +299,7 @@
       "relative_momentum_reasons": [
         "mixed price trend",
         "QQQ relative strength falling",
-        "relative volume 1.08x"
+        "relative volume 1.09x"
       ],
       "heavy_volume_decline": false
     },
@@ -309,11 +309,11 @@
       "rsi_14": 37.780514,
       "sma_20": 118.802,
       "sma_50": 129.946379,
-      "sma_200": 151.556031,
+      "sma_200": 151.556032,
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 0.896008,
+      "relative_volume_20": 0.89991,
       "atr_14": 8.519099,
       "distance_from_52w_high": -0.58191,
       "return_20d": -0.281306,
@@ -343,7 +343,7 @@
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": true,
-      "relative_volume_20": 0.829857,
+      "relative_volume_20": 0.832919,
       "atr_14": 9.704845,
       "distance_from_52w_high": -0.231755,
       "return_20d": -0.168792,
@@ -373,7 +373,7 @@
       "above_sma_20": false,
       "above_sma_50": true,
       "above_sma_200": false,
-      "relative_volume_20": 0.977126,
+      "relative_volume_20": 0.980662,
       "atr_14": 19.579605,
       "distance_from_52w_high": -0.237937,
       "return_20d": -0.059571,
@@ -403,7 +403,7 @@
       "above_sma_20": false,
       "above_sma_50": false,
       "above_sma_200": false,
-      "relative_volume_20": 0.836068,
+      "relative_volume_20": 0.837415,
       "atr_14": 17.766817,
       "distance_from_52w_high": -0.543233,
       "return_20d": -0.285984,

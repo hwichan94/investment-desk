@@ -1,0 +1,38 @@
+{
+  "summary": "머스크의 스페이스X 주식 기부를 소유권 분산이라는 새로운 해자로 해석하고 테슬라를 AI/로보틱스 소유 수단으로 평가한다. 말미에 레버리지 경고(물타기 각오 없이는 금지)를 덧붙인다. 구체 수치·공식 근거는 거의 없다.",
+  "relevance": "LOW",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "머스크가 스페이스X 주식을 기부한다는 구상을 밝힘",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "본문에 기부 규모·조건 없음. 웹 검증 시도 안 함(TSLA thesis와 직접 무관한 SpaceX 이슈, 공식 출처 불명)."
+    },
+    {
+      "kind": "OPINION",
+      "text": "주식 기부가 새로운 해자·운동이 될 수 있다 / 레버리지는 지양",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "저자의 TSLA 선호 의견일 뿐 공식 실적·가이던스 근거 없음."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 의견 위주이고 근거가 약하다. 레버리지 지양은 현 정책과 일치.",
+  "post_id": "233965",
+  "content_hash": "7fab3c6fda45e89c75a11910f452bd95dca32d9736460e4c048908b59ba38e7b",
+  "title": "일론 머스크, 스페이스X 주식 기부",
+  "author": "T3chfeed_테크피드",
+  "analyzed_at": "2026-11-27T22:30:00+09:00"
+}

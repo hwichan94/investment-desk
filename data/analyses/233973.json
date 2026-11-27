@@ -1,0 +1,70 @@
+{
+  "summary": "11/26 독서학개론 라이브 AI 정리본(AI 요약이라 오류 가능 명시). 저자는 이란 전쟁 장기화·금리 인상·AI 채권 발행·중간선거·NVDA 이슈의 복합 악재로 하락 깊이를 과소평가했다고 복기하며 네오클라우드(IREN -85%, NBIS -70%)의 큰 손실을 인정한다. 인플레 정점 통과, 2027년 3월 전후 인상 마무리, 반도체 저평가(샌디스크 선행 PER 1.87배 등)를 근거로 낙관하되 현금이 부족해 아쉽다고 한다. 장기 원칙은 변동성을 시간으로 녹이고 레버리지 회피.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "이번 분기 미국 GDP 성장률이 4%대",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "기존 분석(233780 등)에서 BEA 속보치 3.4%만 확인됨. 4%대는 미확인."
+    },
+    {
+      "kind": "FACT",
+      "text": "샌디스크 선행 PER 1.87배, 마이크론·NVDA 10배 이하, 월마트 40배",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "선행 PER은 컨센서스 의존·2차 인용이며 공식 근거 없음. 시가 기준 자체 계산 시도 안 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "10월 물가를 정점으로 인플레이션 정점 통과(월가 판단)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "BLS CPI 원문 확인 시도 안 함(이번 루틴 범위 밖). 의견성 서술."
+    },
+    {
+      "kind": "FACT",
+      "text": "앤스로픽 관련 두 애널리스트 목표가 59달러 vs 92달러(블룸버그)",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "비상장사 밸류에이션 인용으로 공식 근거 없음."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "금리 인상이 2027년 3월 전후 마무리되고 강한 반등",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-03-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "장기투자·현금비중 조절, 레버리지 회피",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "저평가 주장은 컨센서스 기반 미검증. 기존 thesis 유지."
+    },
+    {
+      "ticker": "CRWV",
+      "direction": "WEAKEN",
+      "magnitude": "LOW",
+      "rationale": "네오클라우드(IREN·NBIS)의 -70~85% 하락은 센티먼트·자금조달 리스크 사례. CRWV는 후보 감시 유지, 공식 근거 없어 점수 변경 안 함."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 강의 복기성 의견이며 RISK_OFF·네오클라우드 신규 위험 보류 판단과 일치한다.",
+  "post_id": "233973",
+  "content_hash": "7f6aef593488f5e0d27fb94127ea390f57e8ef6964dd2da358769161b9b51f9e",
+  "title": "🐹 AI 정리본: 하락장에서 살아남기",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-27T22:30:00+09:00"
+}

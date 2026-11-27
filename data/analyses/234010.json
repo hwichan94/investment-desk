@@ -1,0 +1,77 @@
+{
+  "summary": "중국 국무원이 장중에 자본시장 안정 성명(자사주·배당 확대, 국가대표팀·중앙회금 역할 강화)을 내 CSI300 +4%, 스타50 +15%가 나왔고, 미국이 젠슨 황 복귀를 용인했다고 전한다. 중국 AI는 칩 우회·증류가 막혀 모델 격차가 3~6개월에서 9개월로 벌어졌다고 주장한다. 저자는 저점 가능성을 느끼나 본격 상승에는 연준 긴축 종료 타임라인과 AI 수요의 계단식 성장 재개 두 조건이 필요하다고 본다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "중국 국무원이 11/27 장중 자본시장 안정 성명을 내고 추가 정책을 예고",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_note": "Global Times 11월 기사에 국무원이 중앙회금 준평준기금 역할 지원·안정 메커니즘 개선을 언급했다는 내용은 확인. 11/27 날짜·장중 발표는 1차 소스(신화·국무원)에서 미확인.",
+      "evidence_url": "https://www.globaltimes.cn/page/202611/1373716.shtml"
+    },
+    {
+      "kind": "FACT",
+      "text": "CSI300 +4%, 스타50 +15% 상승",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "장중 수치로 검색 확인 불가."
+    },
+    {
+      "kind": "FACT",
+      "text": "미국 정부가 젠슨 황 복귀를 용인",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "기존 official_research의 NVDA CEO 교체(8-K 11/11~12) 외 복귀 용인 공식 근거 못 찾음."
+    },
+    {
+      "kind": "FACT",
+      "text": "오픈라우터 토큰 가격 하락·사용량 증가, 지출 증가율은 10월부터 둔화",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "openrouter 데이터 직접 확인 불가(웹 도구 한계)."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "앤스로픽·오픈AI 신모델과 새 시장 신호가 나와야 AI 수요 재가속",
+      "tickers": [
+        "NVDA",
+        "AVGO"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2027-03-31"
+    },
+    {
+      "kind": "OPINION",
+      "text": "지금이 공포의 저점일 가능성",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "중국 우회 수출 규제 강화는 중국 매출 제외 가이던스와 일치, 신규 공식 근거 없음."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "AI 지출 둔화 우려는 조건부 시나리오일 뿐 미검증."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 정책 개입은 단기 센티먼트 요인이며 공식 확인이 불완전하다. 저자도 두 조건 미충족을 명시. RISK_OFF 유지, Core 자동 조정 없음.",
+  "post_id": "234010",
+  "content_hash": "0bbb25caa842f72a230dd196a75a84cc10a233d7345d4fcef2b429e471962033",
+  "title": "증시안정을 위해 강수를 꺼내든 중국, 분위기가 바뀔까?",
+  "author": "세상학개론 - 한정수 작가",
+  "analyzed_at": "2026-11-27T22:30:00+09:00"
+}

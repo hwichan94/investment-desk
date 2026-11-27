@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-27T21:21:00.865838+09:00",
+  "generated_at": "2026-11-27T22:08:09.231867+09:00",
   "horizon_hours": 72,
   "portfolio": {
     "as_of": "2026-10-29",
@@ -749,117 +749,6 @@
   },
   "recent_analyses": [
     {
-      "post_id": "233749",
-      "analyzed_at": "2026-11-27T04:20:00+09:00",
-      "title": "앱셀레라가 첫 무대로 이 학회를 고른 이유 (텐베거 시리즈)",
-      "author": "나스다큐",
-      "summary": "앱셀레라가 ABCL635 1/2상 데이터를 12/9 SABCS에서 포스터로 발표한다는 보도자료(11/25)를 해설한다. 새 데이터는 첫 1주 열감 감소와 65세 이상 결과 두 가지다. 항암 호르몬 치료로 열감을 겪는 환자(미국 약 100만 명 추정)는 기존 호르몬 치료가 금기라 수요가 크다는 논리다. 보유·후보 종목이 아니다.",
-      "relevance": "NONE",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "앱셀레라가 ABCL635 데이터를 12/9 SABCS(포스터 P1-4-30)에서 발표",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "보도자료 원문을 검색으로 찾지 못함. ABCL635가 AET 유발 VMS용 NK3R 항체이며 1/2상(NCT07118891) 진행 중이라는 점만 회사 페이지로 확인(abcellera.com/pipeline/abcl635). 비보유 종목이라 추가 시도 안 함.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "첫 1주·65세 이상 두 데이터가 같은 방향을 가리킨다",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 비보유·비후보 바이오 종목이다."
-    },
-    {
-      "post_id": "233787",
-      "analyzed_at": "2026-11-27T04:20:00+09:00",
-      "title": "📌라이브 공지 : 11월 4주차 <독서학개론> 라이브!",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "11월 4주차 독서학개론 라이브(저녁 8시) 공지. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음."
-    },
-    {
-      "post_id": "233813",
-      "analyzed_at": "2026-11-27T04:20:00+09:00",
-      "title": "코딩보다 크다는 AI 사이버보안 시장, 양자와 비트코인 영향은?",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "AI의 해킹 능력 향상과 '소인수분해 다항시간 해결' 소문(스콧 애런슨 언급)이 RSA 보안과 양자컴퓨터 투자 서사에 미칠 영향을 정리한 글이다. 소문은 미확인이며 ECC(비트코인)는 당장 위험하지 않다고 본다. 양자 섹터는 중립이고 사이버보안 시장은 커지지만 프론티어 AI 랩(앤트로픽·오픈AI)이 기존 보안 업체 몫을 가져갈 것으로 보아 직접 투자 대신 AI 랩에 노출하겠다는 입장이다. 시황은 PCE 부합, 마이클 버리의 숏 청산을 언급한다.",
-      "relevance": "LOW",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "마이클 버리가 팔란티어·메트라이프 풋을 제외한 엔비디아·반도체 숏을 청산하고 현금 25%로 운용",
-          "tickers": [
-            "PLTR",
-            "NVDA"
-          ],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "13F/공식 자료로 확인 불가한 SNS·언론 발언 인용. 공식 근거 없음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "3분기 GDP 4.3%(예상 3.4~3.6%)",
-          "tickers": [],
-          "verification": "PARTIAL",
-          "evidence_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/",
-          "evidence_note": "BEA 속보치 3.4%만 확인. 수정치 4.3%는 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "앤트로픽이 Claude Security를 공개 베타로 판매 중",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "글에 인용된 claude.com 링크 기반. 이번 실행에서 직접 열람하지 않음.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "올해 보안 결함(CVE) 10만 건 초과, 오픈AI·앤트로픽이 사이버보안을 매출 성장축으로 본다는 발언",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "공식 인터뷰·보도자료 미확인.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "프론티어 AI 랩이 기존 사이버보안 업체의 몫을 가져갈 것이다. 양자 섹터는 아직 중립",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "버리의 PLTR 풋 보유 언급은 단일 인물 포지션이며 thesis 근거가 아님."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 사이버보안·양자는 보유·후보 종목과 직접 관련이 약하고 소문은 미확인이다."
-    },
-    {
       "post_id": "233780",
       "analyzed_at": "2026-11-27T04:20:00+09:00",
       "title": "시장은 얼마나 더 떨어질까?",
@@ -955,6 +844,37 @@
       "portfolio_implication": "변경 없음. 거시 해석은 저자 의견이며 RISK_OFF 인식(신규 위험 확대 보류)과 일치한다. GDP 수정치와 스페이스X 임대가 인하는 확인되지 않아 목표 비중 근거로 쓰지 않는다."
     },
     {
+      "post_id": "233749",
+      "analyzed_at": "2026-11-27T04:20:00+09:00",
+      "title": "앱셀레라가 첫 무대로 이 학회를 고른 이유 (텐베거 시리즈)",
+      "author": "나스다큐",
+      "summary": "앱셀레라가 ABCL635 1/2상 데이터를 12/9 SABCS에서 포스터로 발표한다는 보도자료(11/25)를 해설한다. 새 데이터는 첫 1주 열감 감소와 65세 이상 결과 두 가지다. 항암 호르몬 치료로 열감을 겪는 환자(미국 약 100만 명 추정)는 기존 호르몬 치료가 금기라 수요가 크다는 논리다. 보유·후보 종목이 아니다.",
+      "relevance": "NONE",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "앱셀레라가 ABCL635 데이터를 12/9 SABCS(포스터 P1-4-30)에서 발표",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "보도자료 원문을 검색으로 찾지 못함. ABCL635가 AET 유발 VMS용 NK3R 항체이며 1/2상(NCT07118891) 진행 중이라는 점만 회사 페이지로 확인(abcellera.com/pipeline/abcl635). 비보유 종목이라 추가 시도 안 함.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "첫 1주·65세 이상 두 데이터가 같은 방향을 가리킨다",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 비보유·비후보 바이오 종목이다."
+    },
+    {
       "post_id": "233834",
       "analyzed_at": "2026-11-27T04:20:00+09:00",
       "title": "[팟캐스트 돌아보기] 테크피드가 기록하는 법",
@@ -965,6 +885,86 @@
       "thesis_impacts": [],
       "new_candidates": [],
       "portfolio_implication": "변경 없음."
+    },
+    {
+      "post_id": "233787",
+      "analyzed_at": "2026-11-27T04:20:00+09:00",
+      "title": "📌라이브 공지 : 11월 4주차 <독서학개론> 라이브!",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "11월 4주차 독서학개론 라이브(저녁 8시) 공지. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음."
+    },
+    {
+      "post_id": "233813",
+      "analyzed_at": "2026-11-27T04:20:00+09:00",
+      "title": "코딩보다 크다는 AI 사이버보안 시장, 양자와 비트코인 영향은?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "AI의 해킹 능력 향상과 '소인수분해 다항시간 해결' 소문(스콧 애런슨 언급)이 RSA 보안과 양자컴퓨터 투자 서사에 미칠 영향을 정리한 글이다. 소문은 미확인이며 ECC(비트코인)는 당장 위험하지 않다고 본다. 양자 섹터는 중립이고 사이버보안 시장은 커지지만 프론티어 AI 랩(앤트로픽·오픈AI)이 기존 보안 업체 몫을 가져갈 것으로 보아 직접 투자 대신 AI 랩에 노출하겠다는 입장이다. 시황은 PCE 부합, 마이클 버리의 숏 청산을 언급한다.",
+      "relevance": "LOW",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "마이클 버리가 팔란티어·메트라이프 풋을 제외한 엔비디아·반도체 숏을 청산하고 현금 25%로 운용",
+          "tickers": [
+            "PLTR",
+            "NVDA"
+          ],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "13F/공식 자료로 확인 불가한 SNS·언론 발언 인용. 공식 근거 없음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "3분기 GDP 4.3%(예상 3.4~3.6%)",
+          "tickers": [],
+          "verification": "PARTIAL",
+          "evidence_url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026/",
+          "evidence_note": "BEA 속보치 3.4%만 확인. 수정치 4.3%는 원문 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "앤트로픽이 Claude Security를 공개 베타로 판매 중",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "글에 인용된 claude.com 링크 기반. 이번 실행에서 직접 열람하지 않음.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "올해 보안 결함(CVE) 10만 건 초과, 오픈AI·앤트로픽이 사이버보안을 매출 성장축으로 본다는 발언",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 인터뷰·보도자료 미확인.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "프론티어 AI 랩이 기존 사이버보안 업체의 몫을 가져갈 것이다. 양자 섹터는 아직 중립",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "PLTR",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "버리의 PLTR 풋 보유 언급은 단일 인물 포지션이며 thesis 근거가 아님."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 사이버보안·양자는 보유·후보 종목과 직접 관련이 약하고 소문은 미확인이다."
     },
     {
       "post_id": "233693",
@@ -1140,18 +1140,6 @@
       "portfolio_implication": "변경 없음. 기술주 상대 약세와 금리 인상 기대는 보유 AI CAPEX 집중 포트폴리오의 위험 요인이지만 가격 반응만으로 thesis를 바꾸지 않는다. 12/9 FOMC와 관세안 구체화 확인 전까지 신규 위험 확대 보류."
     },
     {
-      "post_id": "233606",
-      "analyzed_at": "2026-11-26T05:00:00+09:00",
-      "title": "📢[채널 최초] 테크피드 유튜브 라이브 Q&A 안내!",
-      "author": "T3chfeed_테크피드",
-      "summary": "테크피드 채널 공지. 12/3(목) 20시 첫 유튜브 라이브 Q&A 예정이며 댓글로 질문을 받는다. 투자 내용 없음.",
-      "relevance": "NONE",
-      "claims": [],
-      "thesis_impacts": [],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
-    },
-    {
       "post_id": "233611",
       "analyzed_at": "2026-11-26T05:00:00+09:00",
       "title": "테슬라 + 스페이스X 합병에 대해",
@@ -1203,90 +1191,96 @@
       "portfolio_implication": "변경 없음. 합병은 특별위원회 단계로 조건 미확정이며 SpaceX 직접 매수 계획도 없다. TSLA 합병 이벤트 위험은 기존 Tactical 조정 틀에서 계속 점검하고 8-K로 조건이 공시되면 재평가."
     },
     {
-      "post_id": "233311",
-      "analyzed_at": "2026-11-25T18:00:00+09:00",
-      "title": "[테크피드 실시간 Q&A] 지금 시장은 흔들리는데, AI 파티는 계속될까요?",
+      "post_id": "233606",
+      "analyzed_at": "2026-11-26T05:00:00+09:00",
+      "title": "📢[채널 최초] 테크피드 유튜브 라이브 Q&A 안내!",
       "author": "T3chfeed_테크피드",
-      "summary": "테크피드 라이브 Q&A 정리. 거시는 PCE·물가와 이란 전쟁 종료를 반등 조건으로 보고, AI는 3단계(소비자·기업→모델사→인프라) 자금 흐름과 앤트로픽 4분기 실적이 관건이라 본다. PLTR은 오픈웨이트 테마의 경제성 입증 종목으로 중요, 네오클라우드(CRWV 등)는 부채·FCF 때문에 비선호, NVDA는 플랫폼 투자로 단순화. 현재 시장은 RSI 30 미만·극단적 공포라 천천히 분할매수 가능하나 비중 조절 필수, 단일 종목 최대 30% 정도를 제시.",
+      "summary": "테크피드 채널 공지. 12/3(목) 20시 첫 유튜브 라이브 Q&A 예정이며 댓글로 질문을 받는다. 투자 내용 없음.",
+      "relevance": "NONE",
+      "claims": [],
+      "thesis_impacts": [],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 투자 내용 없는 공지."
+    },
+    {
+      "post_id": "233624",
+      "analyzed_at": "2026-11-25T18:00:00+09:00",
+      "title": "다음 AI의 '계단식 성장'은 어디서 나올까?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "시장 반등에는 (1) 연준 피봇, (2) AI의 새 시장 침투로 인한 수요 계단식 성장이 필요하다고 본다. 12/9 FOMC 전 블랙아웃이라 V자 반등은 어렵고 컨센서스는 12월·3월 각 1회 인상 후 종료. 2번 조건은 METR 학습속도 가속, 로봇 제어 능력 발현, 사이버보안 에이전트, SaaS→토큰 수요 전환을 근거로 긍정. Dell 실적을 서프라이즈로 소개하나 주가는 약세. 저자는 현금이 부족해 아쉽다고 언급.",
       "relevance": "MEDIUM",
       "claims": [
         {
-          "kind": "OPINION",
-          "text": "PLTR이 오픈웨이트 AI 테마의 경제성을 입증해야 하는 핵심 위치",
-          "tickers": [
-            "PLTR"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "네오클라우드(CRWV·NBIS·IREN)는 부채·FCF 부담으로 비선호",
-          "tickers": [
-            "CRWV"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "NVDA는 플랫폼·생태계 투자로 단순화해서 본다",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "현재는 극단적 공포 구간이라 비중 조절 하에 분할매수 가능, 단일 종목 최대 30% 안팎",
+          "kind": "FACT",
+          "text": "Dell 3분기 매출 $54.9B(+103%), AI 서버 $22.0B(+291%), AI 수주잔고 $132.3B, FY27 매출 가이던스 $202B",
           "tickers": [],
-          "verification": "NOT_APPLICABLE",
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
+          "evidence_note": "Dell 8-K 실적 exhibit 99.1 기준: 분기 매출 $54.9B, AI 수주잔고 $132.3B(분기 수주 $60.2B), FY27 매출 $202.0B(+78%). ISG·EPS 세부 수치는 요약 단계에서 개별 확인하지 못함.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "METR 분석상 OpenAI 사전학습 개선 속도가 2026년 2월부터 7.1배 가속",
+          "tickers": [],
+          "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": null,
+          "evidence_note": "METR 원문 미확인. 2차 인용.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "FinCEN·CIA·FBI 등 미 정부기관 해킹",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "공식 발표 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "12/9 FOMC 전 블랙아웃, PCE 오늘 밤 발표, 12/4 고용보고서",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "연준·BLS 일정 원문 미확인. 일정성 정보.",
           "due": null
         },
         {
           "kind": "PREDICTION",
-          "text": "앤트로픽 4분기 실적이 AI 인프라 밸류 재평가의 방향을 좌우",
+          "text": "FOMC 전 V자 반등은 어렵고 12월·3월 인상 후 종료",
           "tickers": [],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
           "evidence_note": null,
-          "due": "2027-02-28"
+          "due": "2026-12-09"
         },
         {
-          "kind": "FACT",
-          "text": "2027년 연준 금리 1~2회 인상이 컨센서스",
+          "kind": "OPINION",
+          "text": "AI 수요는 또 한 번 계단식 성장 가능성이 높다",
           "tickers": [],
-          "verification": "UNVERIFIED",
+          "verification": "NOT_APPLICABLE",
           "evidence_url": null,
-          "evidence_note": "FOMC 12/9 전 공식 점도표·CME FedWatch 원문 미확인. 2차 발언이며 이 글 단독으로 사용하지 않음.",
+          "evidence_note": null,
           "due": null
         }
       ],
       "thesis_impacts": [
         {
+          "ticker": "NVDA",
+          "direction": "STRENGTHEN",
+          "magnitude": "LOW",
+          "rationale": "Dell 공식 실적이 AI 인프라 수요를 간접 확인. 보유 종목 직접 실적은 아님."
+        },
+        {
           "ticker": "PLTR",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "저자의 의견 수준 언급이며 공식 지표 없음. 보유 thesis 변경 근거 아님."
-        },
-        {
-          "ticker": "CRWV",
-          "direction": "WEAKEN",
-          "magnitude": "LOW",
-          "rationale": "저자 의견(부채 부담). target 0% 유지와 일치."
+          "rationale": "직접 언급 없음."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. 의견 중심 Q&A이며 새 공식 사실 없음. PLTR 33%·TSLA 24% 등 목표는 유지하고 신규 위험 확대는 RISK_OFF·PCE·FOMC 전 보류."
+      "portfolio_implication": "변경 없음. Dell 공식 수치는 AI CAPEX 수요 지속의 간접 확인이나 보유 종목 실적이 아니고 같은 날 신용 경계가 공존. 12/9 FOMC·PCE 전이라 thesis inertia 유지."
     },
     {
       "post_id": "233470",
@@ -1373,84 +1367,90 @@
       "portfolio_implication": "변경 없음. 바이오·소형주 중심 글이라 보유 종목 직접 근거가 적다. 반도체 관세·청문회는 이벤트 리스크로만 기록."
     },
     {
-      "post_id": "233624",
+      "post_id": "233311",
       "analyzed_at": "2026-11-25T18:00:00+09:00",
-      "title": "다음 AI의 '계단식 성장'은 어디서 나올까?",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "시장 반등에는 (1) 연준 피봇, (2) AI의 새 시장 침투로 인한 수요 계단식 성장이 필요하다고 본다. 12/9 FOMC 전 블랙아웃이라 V자 반등은 어렵고 컨센서스는 12월·3월 각 1회 인상 후 종료. 2번 조건은 METR 학습속도 가속, 로봇 제어 능력 발현, 사이버보안 에이전트, SaaS→토큰 수요 전환을 근거로 긍정. Dell 실적을 서프라이즈로 소개하나 주가는 약세. 저자는 현금이 부족해 아쉽다고 언급.",
+      "title": "[테크피드 실시간 Q&A] 지금 시장은 흔들리는데, AI 파티는 계속될까요?",
+      "author": "T3chfeed_테크피드",
+      "summary": "테크피드 라이브 Q&A 정리. 거시는 PCE·물가와 이란 전쟁 종료를 반등 조건으로 보고, AI는 3단계(소비자·기업→모델사→인프라) 자금 흐름과 앤트로픽 4분기 실적이 관건이라 본다. PLTR은 오픈웨이트 테마의 경제성 입증 종목으로 중요, 네오클라우드(CRWV 등)는 부채·FCF 때문에 비선호, NVDA는 플랫폼 투자로 단순화. 현재 시장은 RSI 30 미만·극단적 공포라 천천히 분할매수 가능하나 비중 조절 필수, 단일 종목 최대 30% 정도를 제시.",
       "relevance": "MEDIUM",
       "claims": [
         {
-          "kind": "FACT",
-          "text": "Dell 3분기 매출 $54.9B(+103%), AI 서버 $22.0B(+291%), AI 수주잔고 $132.3B, FY27 매출 가이던스 $202B",
-          "tickers": [],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000050/exhibit991earnings8kq3fy27.htm",
-          "evidence_note": "Dell 8-K 실적 exhibit 99.1 기준: 분기 매출 $54.9B, AI 수주잔고 $132.3B(분기 수주 $60.2B), FY27 매출 $202.0B(+78%). ISG·EPS 세부 수치는 요약 단계에서 개별 확인하지 못함.",
+          "kind": "OPINION",
+          "text": "PLTR이 오픈웨이트 AI 테마의 경제성을 입증해야 하는 핵심 위치",
+          "tickers": [
+            "PLTR"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
           "due": null
         },
         {
-          "kind": "FACT",
-          "text": "METR 분석상 OpenAI 사전학습 개선 속도가 2026년 2월부터 7.1배 가속",
-          "tickers": [],
-          "verification": "UNVERIFIED",
+          "kind": "OPINION",
+          "text": "네오클라우드(CRWV·NBIS·IREN)는 부채·FCF 부담으로 비선호",
+          "tickers": [
+            "CRWV"
+          ],
+          "verification": "NOT_APPLICABLE",
           "evidence_url": null,
-          "evidence_note": "METR 원문 미확인. 2차 인용.",
+          "evidence_note": null,
           "due": null
         },
         {
-          "kind": "FACT",
-          "text": "FinCEN·CIA·FBI 등 미 정부기관 해킹",
-          "tickers": [],
-          "verification": "UNVERIFIED",
+          "kind": "OPINION",
+          "text": "NVDA는 플랫폼·생태계 투자로 단순화해서 본다",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
           "evidence_url": null,
-          "evidence_note": "공식 발표 미확인.",
+          "evidence_note": null,
           "due": null
         },
         {
-          "kind": "FACT",
-          "text": "12/9 FOMC 전 블랙아웃, PCE 오늘 밤 발표, 12/4 고용보고서",
+          "kind": "OPINION",
+          "text": "현재는 극단적 공포 구간이라 비중 조절 하에 분할매수 가능, 단일 종목 최대 30% 안팎",
           "tickers": [],
-          "verification": "UNVERIFIED",
+          "verification": "NOT_APPLICABLE",
           "evidence_url": null,
-          "evidence_note": "연준·BLS 일정 원문 미확인. 일정성 정보.",
+          "evidence_note": null,
           "due": null
         },
         {
           "kind": "PREDICTION",
-          "text": "FOMC 전 V자 반등은 어렵고 12월·3월 인상 후 종료",
+          "text": "앤트로픽 4분기 실적이 AI 인프라 밸류 재평가의 방향을 좌우",
           "tickers": [],
           "verification": "NOT_APPLICABLE",
           "evidence_url": null,
           "evidence_note": null,
-          "due": "2026-12-09"
+          "due": "2027-02-28"
         },
         {
-          "kind": "OPINION",
-          "text": "AI 수요는 또 한 번 계단식 성장 가능성이 높다",
+          "kind": "FACT",
+          "text": "2027년 연준 금리 1~2회 인상이 컨센서스",
           "tickers": [],
-          "verification": "NOT_APPLICABLE",
+          "verification": "UNVERIFIED",
           "evidence_url": null,
-          "evidence_note": null,
+          "evidence_note": "FOMC 12/9 전 공식 점도표·CME FedWatch 원문 미확인. 2차 발언이며 이 글 단독으로 사용하지 않음.",
           "due": null
         }
       ],
       "thesis_impacts": [
         {
-          "ticker": "NVDA",
-          "direction": "STRENGTHEN",
-          "magnitude": "LOW",
-          "rationale": "Dell 공식 실적이 AI 인프라 수요를 간접 확인. 보유 종목 직접 실적은 아님."
-        },
-        {
           "ticker": "PLTR",
           "direction": "NEUTRAL",
           "magnitude": "LOW",
-          "rationale": "직접 언급 없음."
+          "rationale": "저자의 의견 수준 언급이며 공식 지표 없음. 보유 thesis 변경 근거 아님."
+        },
+        {
+          "ticker": "CRWV",
+          "direction": "WEAKEN",
+          "magnitude": "LOW",
+          "rationale": "저자 의견(부채 부담). target 0% 유지와 일치."
         }
       ],
       "new_candidates": [],
-      "portfolio_implication": "변경 없음. Dell 공식 수치는 AI CAPEX 수요 지속의 간접 확인이나 보유 종목 실적이 아니고 같은 날 신용 경계가 공존. 12/9 FOMC·PCE 전이라 thesis inertia 유지."
+      "portfolio_implication": "변경 없음. 의견 중심 Q&A이며 새 공식 사실 없음. PLTR 33%·TSLA 24% 등 목표는 유지하고 신규 위험 확대는 RISK_OFF·PCE·FOMC 전 보류."
     },
     {
       "post_id": "233439",
@@ -1627,6 +1627,84 @@
         "RKLB"
       ],
       "portfolio_implication": "변경 없음. RKLB는 universe 밖이고 뉴트론 일정은 탱크 시험에 달려 있어 신규 편입 근거 아님."
+    },
+    {
+      "post_id": "233268",
+      "analyzed_at": "2026-11-25T01:00:00+09:00",
+      "title": "'대마불사' CEO의 등장, AI 정부구제의 신호탄?",
+      "author": "세상학개론 - 한정수 작가",
+      "summary": "황 복귀를 '대마불사 AI'에 대한 백악관 개입으로 해석하고 거시 전망을 정리. 복귀 후 엔비디아 +30%이나 12월 FOMC 인상 확률은 오히려 상승했다고 본다. 베센트·애크먼의 '금융여건이 이미 긴축' 논리, 모건스탠리의 2027 EPS 괴리 분석, 골드만 '인플레 쇼크 종료' 전망을 근거로 긴축 기조의 끝이 보이나 12/9 FOMC까지 변동성은 지속될 것으로 전망.",
+      "relevance": "MEDIUM",
+      "claims": [
+        {
+          "kind": "FACT",
+          "text": "엔비디아가 복귀 발표와 함께 30% 이상 급등",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "CONFIRMED",
+          "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "evidence_note": "CNBC 보도 기준 약 31% 급등(기존 분석과 동일).",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "12월 금리 인상 확률 97.7%→104.7%(기대 인상폭 환산), 50bp 인상 확률 재등장",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "CME FedWatch 원문 미확인. 104.7%는 확률이 아니라 기대 인상 환산치로 보임.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "모건스탠리: 시장 가격이 2027 EPS -6% 반영, 컨센서스는 +17%",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "증권사 리포트 원문 미확인.",
+          "due": null
+        },
+        {
+          "kind": "FACT",
+          "text": "골드만삭스 2027 전망: 2026년 12월·2027년 3월 인상 후 동결, 2027년 11월부터 인하",
+          "tickers": [],
+          "verification": "UNVERIFIED",
+          "evidence_url": null,
+          "evidence_note": "PDF 원문 미열람.",
+          "due": null
+        },
+        {
+          "kind": "OPINION",
+          "text": "이번 일은 AI가 대마불사 영역에 들어왔다는 상징",
+          "tickers": [
+            "NVDA"
+          ],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": null
+        },
+        {
+          "kind": "PREDICTION",
+          "text": "12/9 FOMC까지 변동성, 이후 긴축 피봇 시 2024~25년 유사 국면",
+          "tickers": [],
+          "verification": "NOT_APPLICABLE",
+          "evidence_url": null,
+          "evidence_note": null,
+          "due": "2026-12-09"
+        }
+      ],
+      "thesis_impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "NEUTRAL",
+          "magnitude": "LOW",
+          "rationale": "복귀 확인 외 신규 사실 없음. 정부 개입 해석은 의견."
+        }
+      ],
+      "new_candidates": [],
+      "portfolio_implication": "변경 없음. 거시 시나리오 의견이며 12/9 FOMC·근원 PCE 확인 전에는 비중 변경 근거가 되지 못한다. RISK_OFF 신호로 신규 위험 확대는 신중."
     },
     {
       "post_id": "232505",
@@ -1816,84 +1894,6 @@
       ],
       "new_candidates": [],
       "portfolio_implication": "변경 없음. NVDA 복귀는 이미 11/24 보고서에서 반영 검토했고, 이 글은 해석 위주다. 하루 급등 직후·조사 결과 전이라 비중 변경 근거로 쓰지 않는다."
-    },
-    {
-      "post_id": "233268",
-      "analyzed_at": "2026-11-25T01:00:00+09:00",
-      "title": "'대마불사' CEO의 등장, AI 정부구제의 신호탄?",
-      "author": "세상학개론 - 한정수 작가",
-      "summary": "황 복귀를 '대마불사 AI'에 대한 백악관 개입으로 해석하고 거시 전망을 정리. 복귀 후 엔비디아 +30%이나 12월 FOMC 인상 확률은 오히려 상승했다고 본다. 베센트·애크먼의 '금융여건이 이미 긴축' 논리, 모건스탠리의 2027 EPS 괴리 분석, 골드만 '인플레 쇼크 종료' 전망을 근거로 긴축 기조의 끝이 보이나 12/9 FOMC까지 변동성은 지속될 것으로 전망.",
-      "relevance": "MEDIUM",
-      "claims": [
-        {
-          "kind": "FACT",
-          "text": "엔비디아가 복귀 발표와 함께 30% 이상 급등",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "CONFIRMED",
-          "evidence_url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "evidence_note": "CNBC 보도 기준 약 31% 급등(기존 분석과 동일).",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "12월 금리 인상 확률 97.7%→104.7%(기대 인상폭 환산), 50bp 인상 확률 재등장",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "CME FedWatch 원문 미확인. 104.7%는 확률이 아니라 기대 인상 환산치로 보임.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "모건스탠리: 시장 가격이 2027 EPS -6% 반영, 컨센서스는 +17%",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "증권사 리포트 원문 미확인.",
-          "due": null
-        },
-        {
-          "kind": "FACT",
-          "text": "골드만삭스 2027 전망: 2026년 12월·2027년 3월 인상 후 동결, 2027년 11월부터 인하",
-          "tickers": [],
-          "verification": "UNVERIFIED",
-          "evidence_url": null,
-          "evidence_note": "PDF 원문 미열람.",
-          "due": null
-        },
-        {
-          "kind": "OPINION",
-          "text": "이번 일은 AI가 대마불사 영역에 들어왔다는 상징",
-          "tickers": [
-            "NVDA"
-          ],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": null
-        },
-        {
-          "kind": "PREDICTION",
-          "text": "12/9 FOMC까지 변동성, 이후 긴축 피봇 시 2024~25년 유사 국면",
-          "tickers": [],
-          "verification": "NOT_APPLICABLE",
-          "evidence_url": null,
-          "evidence_note": null,
-          "due": "2026-12-09"
-        }
-      ],
-      "thesis_impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "NEUTRAL",
-          "magnitude": "LOW",
-          "rationale": "복귀 확인 외 신규 사실 없음. 정부 개입 해석은 의견."
-        }
-      ],
-      "new_candidates": [],
-      "portfolio_implication": "변경 없음. 거시 시나리오 의견이며 12/9 FOMC·근원 PCE 확인 전에는 비중 변경 근거가 되지 못한다. RISK_OFF 신호로 신규 위험 확대는 신중."
     }
   ],
   "new_candidates": [

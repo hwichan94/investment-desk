@@ -1,0 +1,111 @@
+{
+  "post_id": "234184",
+  "content_hash": "c648a9c58b3ff5d1bc668cf65849888178c5d5ed6a41aa95e4b1c21236adf4c5",
+  "analyzed_at": "2026-11-28T17:10:00+09:00",
+  "title": "인사이더 테크리포트 2.0 Ep. 50 | 11월 4주차",
+  "author": "T3chfeed_테크피드",
+  "summary": "추수감사절 주간 AI 관련주 반등(TSLA $400 탈환, NVDA·PLTR 주간 +20%)을 정리하고, 10년물 4.93%·온라인 소비 +10.4%·다음 주 고용보고서를 이유로 안도하기엔 이르며 혼조세를 예상한다. 증권사 리포트로 TSLA(JPM Hold $430, FSD v15), NVDA(젠슨 황 복귀, Wedbush/Needham Buy, William Blair Hold)와 JOBY·HIMS·TEM·COIN·BE·PL을 소개한다. 새 공식 실적·가이던스는 없고 기존 보유 논리를 바꿀 정보는 제한적이다.",
+  "relevance": "MEDIUM",
+  "claims": [
+    {
+      "kind": "FACT",
+      "text": "TSLA $400(+15.67%), NVDA $150.49(+19.88%), PLTR $172.17(+19.99%) 주간 급반등",
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "PLTR"
+      ],
+      "verification": "PARTIAL",
+      "evidence_url": "data/market/quotes.json",
+      "evidence_note": "수집기 시세: TSLA 400.00(전일 374.41), NVDA 150.49(145.98), PLTR 172.17(153.68) 종가는 일치. 글의 주간 등락률은 일간 값과 달라 계산 기준 미확인(Yahoo 시세, 공식 자료 아님)."
+    },
+    {
+      "kind": "FACT",
+      "text": "미 10년물 금리 4.93%로 재상승",
+      "tickers": [],
+      "verification": "PARTIAL",
+      "evidence_url": "data/market/regime.json",
+      "evidence_note": "regime.json 11/27 us_10y 4.936%로 수준은 일치. 다만 20일 기준으론 하락(-1.1%)이라 '재상승'은 단기 방향만 해당."
+    },
+    {
+      "kind": "FACT",
+      "text": "온라인 소비 전년대비 +10.4%",
+      "tickers": [],
+      "verification": "UNVERIFIED",
+      "evidence_note": "Adobe 9월 전망은 블랙프라이데이 +9.2%, 시즌 +6.7%. 10.4% 실적치 공식 확인 못 함(WebSearch). 시기·지표 불명."
+    },
+    {
+      "kind": "FACT",
+      "text": "테슬라 FSD v15가 로보택시·옵티머스 AI 아키텍처 통합 방향, 개입 지표 v14 대비 25배 개선",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "검색 결과 v15는 로보택시 플릿 초기 빌드 단계이며 고객차 무감독 FSD는 2027년 2분기 목표(2차 매체 보도). 25배·9배 수치는 Tesla 공식 자료에서 확인 못 함."
+    },
+    {
+      "kind": "FACT",
+      "text": "젠슨 황의 엔비디아 복귀, 내부 조사위원회 조사 지속",
+      "tickers": [
+        "NVDA"
+      ],
+      "verification": "PARTIAL",
+      "evidence_note": "검색에서 11/11 황 사임 8-K(sec-api.io 2차 요약)만 확인되고 복귀는 확인 안 됨. data/market/new_filings.json에 NVDA 8-K(2026-11-23) 존재하나 원문 미열람(sec.gov 접근 제한). 직전 분석 234010과 동일 한계."
+    },
+    {
+      "kind": "FACT",
+      "text": "Tesla의 독일 EMAG 그룹 자산 인수 신고 보도",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "UNVERIFIED",
+      "evidence_note": "공식 근거 확인 못 함."
+    },
+    {
+      "kind": "PREDICTION",
+      "text": "Optimus Gen 3가 1개월 내 공개될 것",
+      "tickers": [
+        "TSLA"
+      ],
+      "verification": "NOT_APPLICABLE",
+      "due": "2026-12-28"
+    },
+    {
+      "kind": "OPINION",
+      "text": "시장은 안도하기 이르고 다음 주(고용보고서)도 혼조세가 이어질 것",
+      "tickers": [],
+      "verification": "NOT_APPLICABLE"
+    },
+    {
+      "kind": "OPINION",
+      "text": "AI 인프라 주식은 반등했지만 추세 전환은 아님",
+      "tickers": [
+        "NVDA",
+        "PLTR"
+      ],
+      "verification": "NOT_APPLICABLE"
+    }
+  ],
+  "thesis_impacts": [
+    {
+      "ticker": "TSLA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "FSD v15·Optimus는 이미 알려진 촉매. JPM Hold. 공식 확인 안 된 수치 위주."
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "거버넌스 불확실성과 중국 Blackwell 경로 규제 위험이 병존. Needham Buy/William Blair Hold로 의견 갈림. 펀더멘털 변화 근거 없음."
+    },
+    {
+      "ticker": "PLTR",
+      "direction": "NEUTRAL",
+      "magnitude": "LOW",
+      "rationale": "이번 주 리포트 없음. 주가 +20%는 심리 반등으로 thesis 근거 아님."
+    }
+  ],
+  "new_candidates": [],
+  "portfolio_implication": "변경 없음. 새 공식 실적·가이던스가 없고 시장 해석은 단일 의견이다. RISK_OFF(레짐 -2)·현금 0.8% 상태에서 급반등 추격은 근거가 안 된다. 거시 위험(금리·고용)은 신규 Tactical 크기 축소 근거로만 참고한다."
+}
